@@ -1,0 +1,256 @@
+ENTRY       mmu02010                    Pathway
+NAME        ABC transporters - Mus musculus (mouse)
+DESCRIPTION The ATP-binding cassette (ABC) transporters form one of the largest known protein families, and are widespread in bacteria, archaea, and eukaryotes. They couple ATP hydrolysis to active transport of a wide variety of substrates such as ions, sugars, lipids, sterols, peptides, proteins, and drugs. The structure of a prokaryotic ABC transporter usually consists of three components; typically two integral membrane proteins each having six transmembrane segments, two peripheral proteins that bind and hydrolyze ATP, and a periplasmic (or lipoprotein) substrate-binding protein. Many of the genes for the three components form operons as in fact observed in many bacterial and archaeal genomes. On the other hand, in a typical eukaryotic ABC transporter, the membrane spanning protein and the ATP-binding protein are fused, forming a multi-domain protein with the membrane-spanning domain (MSD) and the nucleotide-binding domain (NBD).
+CLASS       Environmental Information Processing; Membrane transport
+PATHWAY_MAP mmu02010  ABC transporters
+DBLINKS     GO: 0043190 0043191 0043192
+            TC: 3.A.1
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        13214  Defb1; defensin beta 1 [KO:K23125]
+            11303  Abca1; ATP-binding cassette, sub-family A (ABC1), member 1 [KO:K05641]
+            11305  Abca2; ATP-binding cassette, sub-family A (ABC1), member 2 [KO:K05642]
+            27410  Abca3; ATP-binding cassette, sub-family A (ABC1), member 3 [KO:K05643]
+            381072  Abca17; ATP-binding cassette, sub-family A (ABC1), member 17 [KO:K05643]
+            67928  Abca14; ATP-binding cassette, sub-family A (ABC1), member 14 [KO:K05643]
+            11304  Abca4; ATP-binding cassette, sub-family A (ABC1), member 4 [KO:K05644]
+            27403  Abca7; ATP-binding cassette, sub-family A (ABC1), member 7 [KO:K05645]
+            74591  Abca12; ATP-binding cassette, sub-family A (ABC1), member 12 [KO:K05646]
+            268379  Abca13; ATP-binding cassette, sub-family A (ABC1), member 13 [KO:K05647]
+            217265  Abca5; ATP-binding cassette, sub-family A (ABC1), member 5 [KO:K05648]
+            76184  Abca6; ATP-binding cassette, sub-family A (ABC1), member 6 [KO:K05649]
+            27404  Abca8b; ATP-binding cassette, sub-family A (ABC1), member 8b [KO:K05650]
+            217258  Abca8a; ATP-binding cassette, sub-family A (ABC1), member 8a [KO:K05650]
+            217262  Abca9; ATP-binding cassette, sub-family A (ABC1), member 9 [KO:K05651]
+            21354  Tap1; transporter 1, ATP-binding cassette, sub-family B (MDR/TAP) [KO:K05653]
+            21355  Tap2; transporter 2, ATP-binding cassette, sub-family B (MDR/TAP) [KO:K05654]
+            74610  Abcb8; ATP-binding cassette, sub-family B (MDR/TAP), member 8 [KO:K05655]
+            56325  Abcb9; ATP-binding cassette, sub-family B (MDR/TAP), member 9 [KO:K05656]
+            56199  Abcb10; ATP-binding cassette, sub-family B (MDR/TAP), member 10 [KO:K05657]
+            18671  Abcb1a; ATP-binding cassette, sub-family B (MDR/TAP), member 1A [KO:K05658] [EC:7.6.2.2]
+            18669  Abcb1b; ATP-binding cassette, sub-family B (MDR/TAP), member 1B [KO:K05658] [EC:7.6.2.2]
+            18670  Abcb4; ATP-binding cassette, sub-family B (MDR/TAP), member 4 [KO:K05659] [EC:7.6.2.2]
+            77706  Abcb5; ATP-binding cassette, sub-family B (MDR/TAP), member 5 [KO:K05660]
+            74104  Abcb6; ATP-binding cassette, sub-family B (MDR/TAP), member 6 [KO:K05661]
+            11306  Abcb7; ATP-binding cassette, sub-family B (MDR/TAP), member 7 [KO:K05662]
+            27413  Abcb11; ATP-binding cassette, sub-family B (MDR/TAP), member 11 [KO:K05664]
+            17250  Abcc1; ATP-binding cassette, sub-family C (CFTR/MRP), member 1 [KO:K05665] [EC:7.6.2.3]
+            12780  Abcc2; ATP-binding cassette, sub-family C (CFTR/MRP), member 2 [KO:K05666]
+            76408  Abcc3; ATP-binding cassette, sub-family C (CFTR/MRP), member 3 [KO:K05667]
+            239273  Abcc4; ATP-binding cassette, sub-family C (CFTR/MRP), member 4 [KO:K05673]
+            27416  Abcc5; ATP-binding cassette, sub-family C (CFTR/MRP), member 5 [KO:K05668]
+            27421  Abcc6; ATP-binding cassette, sub-family C (CFTR/MRP), member 6 [KO:K05669]
+            224814  Abcc10; ATP-binding cassette, sub-family C (CFTR/MRP), member 10 [KO:K05674]
+            244562  Abcc12; ATP-binding cassette, sub-family C (CFTR/MRP), member 12 [KO:K05672]
+            12638  Cftr; cystic fibrosis transmembrane conductance regulator [KO:K05031] [EC:5.6.1.6]
+            20927  Abcc8; ATP-binding cassette, sub-family C (CFTR/MRP), member 8 [KO:K05032]
+            20928  Abcc9; ATP-binding cassette, sub-family C (CFTR/MRP), member 9 [KO:K05033]
+            11666  Abcd1; ATP-binding cassette, sub-family D (ALD), member 1 [KO:K05675]
+            26874  Abcd2; ATP-binding cassette, sub-family D (ALD), member 2 [KO:K05676]
+            19299  Abcd3; ATP-binding cassette, sub-family D (ALD), member 3 [KO:K05677]
+            19300  Abcd4; ATP-binding cassette, sub-family D (ALD), member 4 [KO:K05678]
+            11307  Abcg1; ATP binding cassette subfamily G member 1 [KO:K05679]
+            192663  Abcg4; ATP binding cassette subfamily G member 4 [KO:K05680]
+            26357  Abcg2; ATP binding cassette subfamily G member 2 (Junior blood group) [KO:K05681]
+            27405  Abcg3; ATP binding cassette subfamily G member 3 [KO:K05682]
+            27409  Abcg5; ATP binding cassette subfamily G member 5 [KO:K05683]
+            67470  Abcg8; ATP binding cassette subfamily G member 8 [KO:K05684]
+COMPOUND    C00009  Orthophosphate
+            C00025  L-Glutamate
+            C00031  D-Glucose
+            C00032  Heme
+            C00034  Manganese
+            C00037  Glycine
+            C00038  Zinc cation
+            C00041  L-Alanine
+            C00047  L-Lysine
+            C00049  L-Aspartate
+            C00051  Glutathione
+            C00059  Sulfate
+            C00062  L-Arginine
+            C00064  L-Glutamine
+            C00065  L-Serine
+            C00070  Copper
+            C00077  L-Ornithine
+            C00079  L-Phenylalanine
+            C00086  Urea
+            C00088  Nitrite
+            C00089  Sucrose
+            C00093  sn-Glycerol 3-phosphate
+            C00095  D-Fructose
+            C00098  Oligopeptide
+            C00107  Dipeptide
+            C00114  Choline
+            C00116  Glycerol
+            C00120  Biotin
+            C00121  D-Ribose
+            C00123  L-Leucine
+            C00134  Putrescine
+            C00135  L-Histidine
+            C00137  myo-Inositol
+            C00140  N-Acetyl-D-glucosamine
+            C00148  L-Proline
+            C00151  L-Amino acid
+            C00159  D-Mannose
+            C00175  Cobalt ion
+            C00181  D-Xylose
+            C00183  L-Valine
+            C00185  Cellobiose
+            C00188  L-Threonine
+            C00208  Maltose
+            C00212  Adenosine
+            C00243  Lactose
+            C00244  Nitrate
+            C00245  Taurine
+            C00255  Riboflavin
+            C00259  L-Arabinose
+            C00288  HCO3-
+            C00291  Nickel
+            C00294  Inosine
+            C00299  Uridine
+            C00315  Spermidine
+            C00320  Thiosulfate
+            C00330  Deoxyguanosine
+            C00333  D-Galacturonate
+            C00338  Lipopolysaccharide
+            C00378  Thiamine
+            C00379  Xylitol
+            C00387  Guanosine
+            C00392  Mannitol
+            C00407  L-Isoleucine
+            C00430  5-Aminolevulinate
+            C00470  Pectate
+            C00475  Cytidine
+            C00487  Carnitine
+            C00491  L-Cystine
+            C00492  Raffinose
+            C00503  Erythritol
+            C00526  Deoxyuridine
+            C00559  Deoxyadenosine
+            C00719  Betaine
+            C00753  Tungsten
+            C00794  D-Sorbitol
+            C00855  D-Methionine
+            C00865  Phospholipid
+            C00881  Deoxycytidine
+            C00919  Choline sulfate
+            C00973  Cyclomaltodextrin
+            C01083  alpha,alpha-Trehalose
+            C01153  Orthophosphoric monoester
+            C01157  Hydroxyproline
+            C01177  Inositol 1-phosphate
+            C01181  4-Trimethylammoniobutanoate
+            C01279  4-Amino-5-hydroxymethyl-2-methylpyrimidine
+            C01330  Sodium cation
+            C01417  Cyanate
+            C01487  D-Allose
+            C01606  Phthalate
+            C01630  Xylobiose
+            C01667  Bacitracin
+            C01674  Chitobiose
+            C01682  Nopaline
+            C01684  D-Rhamnose
+            C01762  Xanthosine
+            C01834  Lipoprotein
+            C01835  Maltotriose
+            C01935  Maltodextrin
+            C01946  Oleandomycin
+            C02160  Isomaltotriose
+            C02273  Digalacturonate
+            C03557  2-Aminoethylphosphonate
+            C03611  Galactose oligosaccharide
+            C03619  Methyl beta-D-galactoside
+            C04114  (E)-4-(Trimethylammonio)but-2-enoate
+            C04137  D-Octopine
+            C05349  Ciprofloxacin
+            C05402  Melibiose
+            C05512  Deoxyinosine
+            C05776  Vitamin B12
+            C06227  Fe(III)hydroxamate
+            C06229  Fe(III)dicitrate
+            C06230  Fe-enterobactin
+            C06232  Molybdate
+            C06687  Norfloxacin
+            C06705  Capsular polysaccharide
+            C06706  Lipo-oligosaccharide
+            C06707  Teichoic acid
+            C06767  Hemine
+            C07662  Sparfloxacin
+            C07663  Moxifloxacin
+            C11612  Polymyxin B
+            C13768  Colistin sulfate
+            C14818  Fe2+
+            C14819  Fe3+
+            C15521  Alkanesulfonate
+            C16421  AI-2
+            C16692  Mannopine
+            C19609  Nickel(2+)
+            C19872  N-Formyl-4-amino-5-aminomethyl-2-methylpyrimidine
+            C20570  alpha-1,5-L-Arabinobiose
+            C20571  alpha-1,5-L-Arabinotriose
+            C20572  alpha-1,5-L-Arabinotetraose
+            C20573  Aldotetraouronic acid
+            C21066  D-Galactofuranose
+            C22040  S-Methyl-L-cysteine
+            G00457  Maltotetraose
+REFERENCE   PMID:9799792
+  AUTHORS   Tomii K, Kanehisa M.
+  TITLE     A comparative analysis of ABC transporters in complete microbial genomes.
+  JOURNAL   Genome Res 8:1048-59 (1998)
+            DOI:10.1101/gr.8.10.1048
+REFERENCE   PMID:18424520
+  AUTHORS   Sperandeo P, Lau FK, Carpentieri A, De Castro C, Molinaro A, Deho G, Silhavy TJ, Polissi A
+  TITLE     Functional analysis of the protein machinery required for transport of lipopolysaccharide to the outer membrane of Escherichia coli.
+  JOURNAL   J Bacteriol 190:4460-9 (2008)
+            DOI:10.1128/JB.00270-08
+REFERENCE   PMID:18375759
+  AUTHORS   Ruiz N, Gronenberg LS, Kahne D, Silhavy TJ
+  TITLE     Identification of two inner-membrane proteins required for the transport of lipopolysaccharide to the outer membrane of Escherichia coli.
+  JOURNAL   Proc Natl Acad Sci U S A 105:5537-42 (2008)
+            DOI:10.1073/pnas.0801196105
+REFERENCE   PMID:10557362
+  AUTHORS   Omata T, Price GD, Badger MR, Okamura M, Gohta S, Ogawa T
+  TITLE     Identification of an ATP-binding cassette transporter involved in bicarbonate uptake in the cyanobacterium Synechococcus sp. strain PCC 7942.
+  JOURNAL   Proc Natl Acad Sci U S A 96:13571-6 (1999)
+            DOI:10.1073/pnas.96.23.13571
+REFERENCE   PMID:11731493
+  AUTHORS   Quintero MJ, Montesinos ML, Herrero A, Flores E
+  TITLE     Identification of genes encoding amino acid permeases by inactivation of selected ORFs from the Synechocystis genomic sequence.
+  JOURNAL   Genome Res 11:2034-40 (2001)
+            DOI:10.1101/gr.196301
+REFERENCE   PMID:16135226
+  AUTHORS   Picossi S, Montesinos ML, Pernil R, Lichtle C, Herrero A, Flores E
+  TITLE     ABC-type neutral amino acid permease N-I is required for optimal diazotrophic growth and is repressed in the heterocysts of Anabaena sp. strain PCC 7120.
+  JOURNAL   Mol Microbiol 57:1582-92 (2005)
+            DOI:10.1111/j.1365-2958.2005.04791.x
+REFERENCE   PMID:11929526
+  AUTHORS   Valladares A, Montesinos ML, Herrero A, Flores E.
+  TITLE     An ABC-type, high-affinity urea permease identified in cyanobacteria.
+  JOURNAL   Mol Microbiol 43:703-15 (2002)
+            DOI:10.1046/j.1365-2958.2002.02778.x
+REFERENCE   PMID:18326572
+  AUTHORS   Richard-Fogal CL, Frawley ER, Kranz RG
+  TITLE     Topology and function of CcmD in cytochrome c maturation.
+  JOURNAL   J Bacteriol 190:3489-93 (2008)
+            DOI:10.1128/JB.00146-08
+REFERENCE   PMID:16109926
+  AUTHORS   Suzuki H, Koyanagi T, Izuka S, Onishi A, Kumagai H
+  TITLE     The yliA, -B, -C, and -D genes of Escherichia coli K-12 encode a novel glutathione importer with an ATP-binding cassette.
+  JOURNAL   J Bacteriol 187:5861-7 (2005)
+            DOI:10.1128/JB.187.17.5861-5867.2005
+REFERENCE   PMID:17873039
+  AUTHORS   Novikova M, Metlitskaya A, Datsenko K, Kazakov T, Kazakov A, Wanner B, Severinov K
+  TITLE     The Escherichia coli Yej transporter is required for the uptake of translation inhibitor microcin C.
+  JOURNAL   J Bacteriol 189:8361-5 (2007)
+            DOI:10.1128/JB.01028-07
+REFERENCE   PMID:17214741
+  AUTHORS   Tikhonova EB, Devroy VK, Lau SY, Zgurskaya HI
+  TITLE     Reconstitution of the Escherichia coli macrolide transporter: the periplasmic membrane fusion protein MacA stimulates the ATPase activity of MacB.
+  JOURNAL   Mol Microbiol 63:895-910 (2007)
+            DOI:10.1111/j.1365-2958.2006.05549.x
+REFERENCE   PMID:18805970
+  AUTHORS   Yamanaka H, Kobayashi H, Takahashi E, Okamoto K
+  TITLE     MacAB is involved in the secretion of Escherichia coli heat-stable enterotoxin II.
+  JOURNAL   J Bacteriol 190:7693-8 (2008)
+            DOI:10.1128/JB.00853-08
+KO_PATHWAY  ko02010
+///

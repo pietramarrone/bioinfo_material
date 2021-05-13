@@ -1,0 +1,61 @@
+ENTRY       mmu03410                    Pathway
+NAME        Base excision repair - Mus musculus (mouse)
+DESCRIPTION Base excision repair (BER) is the predominant DNA damage repair pathway for the processing of small base lesions, derived from oxidation and alkylation damages. BER is normally defined as DNA repair initiated by lesion-specific DNA glycosylases and completed by either of the two sub-pathways: short-patch BER where only one nucleotide is replaced and long-patch BER where 2-13 nucleotides are replaced. Each sub-pathway of BER relies on the formation of protein complexes that assemble at the site of the DNA lesion and facilitate repair in a coordinated fashion. This process of complex formation appears to provide an increase in specificity and efficiency to the BER pathway, thereby facilitating the maintenance of genome integrity by preventing the accumulation of highly toxic repair intermediates.
+CLASS       Genetic Information Processing; Replication and repair
+PATHWAY_MAP mmu03410  Base excision repair
+DBLINKS     GO: 0006284 0006285 0006286 0006287 0006288
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        18294  Ogg1; 8-oxoguanine DNA-glycosylase 1 [KO:K03660] [EC:3.2.2.- 4.2.99.18]
+            18207  Nthl1; nth (endonuclease III)-like 1 (E.coli) [KO:K10773] [EC:4.2.99.18]
+            72774  Neil1; nei endonuclease VIII-like 1 (E. coli) [KO:K10567] [EC:3.2.2.- 4.2.99.18]
+            382913  Neil2; nei like 2 (E. coli) [KO:K10568] [EC:3.2.2.- 4.2.99.18]
+            234258  Neil3; nei like 3 (E. coli) [KO:K10569]
+            22256  Ung; uracil DNA glycosylase [KO:K03648] [EC:3.2.2.27]
+            71726  Smug1; single-strand selective monofunctional uracil DNA glycosylase [KO:K10800] [EC:3.2.2.-]
+            70603  Mutyh; mutY DNA glycosylase [KO:K03575] [EC:3.2.2.31]
+            268395  Mpg; N-methylpurine-DNA glycosylase [KO:K03652] [EC:3.2.2.21]
+            17193  Mbd4; methyl-CpG binding domain protein 4 [KO:K10801] [EC:3.2.2.-]
+            21665  Tdg; thymine DNA glycosylase [KO:K20813] [EC:3.2.2.29]
+            545124  Tdg-ps; thymine DNA glycosylase, pseudogene [KO:K20813] [EC:3.2.2.29]
+            11792  Apex1; apurinic/apyrimidinic endonuclease 1 [KO:K10771] [EC:4.2.99.18]
+            77622  Apex2; apurinic/apyrimidinic endonuclease 2 [KO:K10772] [EC:4.2.99.18]
+            18970  Polb; polymerase (DNA directed), beta [KO:K02330] [EC:2.7.7.7 4.2.99.-]
+            56626  Poll; polymerase (DNA directed), lambda [KO:K03512] [EC:2.7.7.7 4.2.99.-]
+            15289  Hmgb1; high mobility group box 1 [KO:K10802]
+            22594  Xrcc1; X-ray repair complementing defective repair in Chinese hamster cells 1 [KO:K10803]
+            18538  Pcna; proliferating cell nuclear antigen [KO:K04802]
+            18971  Pold1; polymerase (DNA directed), delta 1, catalytic subunit [KO:K02327] [EC:2.7.7.7]
+            18972  Pold2; polymerase (DNA directed), delta 2, regulatory subunit [KO:K02328]
+            67967  Pold3; polymerase (DNA-directed), delta 3, accessory subunit [KO:K03504]
+            69745  Pold4; polymerase (DNA-directed), delta 4 [KO:K03505]
+            18973  Pole; polymerase (DNA directed), epsilon [KO:K02324] [EC:2.7.7.7]
+            18974  Pole2; polymerase (DNA directed), epsilon 2 (p59 subunit) [KO:K02325] [EC:2.7.7.7]
+            59001  Pole3; polymerase (DNA directed), epsilon 3 (p17 subunit) [KO:K02326] [EC:2.7.7.7]
+            66979  Pole4; polymerase (DNA-directed), epsilon 4 (p12 subunit) [KO:K03506] [EC:2.7.7.7]
+            16881  Lig1; ligase I, DNA, ATP-dependent [KO:K10747] [EC:6.5.1.1 6.5.1.6 6.5.1.7]
+            16882  Lig3; ligase III, DNA, ATP-dependent [KO:K10776] [EC:6.5.1.1]
+            11545  Parp1; poly (ADP-ribose) polymerase family, member 1 [KO:K24070] [EC:2.4.2.30]
+            11546  Parp2; poly (ADP-ribose) polymerase family, member 2 [KO:K10798] [EC:2.4.2.30]
+            235587  Parp3; poly (ADP-ribose) polymerase family, member 3 [KO:K10798] [EC:2.4.2.30]
+            328417  Parp4; poly (ADP-ribose) polymerase family, member 4 [KO:K10798] [EC:2.4.2.30]
+            14156  Fen1; flap structure specific endonuclease 1 [KO:K04799] [EC:3.-.-.-]
+REFERENCE   PMID:17893748
+  AUTHORS   Krwawicz J, Arczewska KD, Speina E, Maciejewska A, Grzesiuk E.
+  TITLE     Bacterial DNA repair genes and their eukaryotic homologues: 1. Mutations in genes involved in base excision repair (BER) and DNA-end processors and their implication in mutagenesis and human disease.
+  JOURNAL   Acta Biochim Pol 54:413-34 (2007)
+REFERENCE   PMID:17337257
+  AUTHORS   Almeida KH, Sobol RW.
+  TITLE     A unified view of base excision repair: lesion-dependent protein complexes regulated by post-translational modification.
+  JOURNAL   DNA Repair (Amst) 6:695-711 (2007)
+            DOI:10.1016/j.dnarep.2007.01.009
+REFERENCE   PMID:21665970
+  AUTHORS   Moen MN, Knaevelsrud I, Haugland GT, Grosvik K, Birkeland NK, Klungland A, Bjelland S
+  TITLE     Uracil-DNA glycosylase of Thermoplasma acidophilum directs long-patch base excision repair, which is promoted by deoxynucleoside triphosphates and ATP/ADP, into short-patch repair.
+  JOURNAL   J Bacteriol 193:4495-508 (2011)
+            DOI:10.1128/JB.00233-11
+REFERENCE   PMID:11436317
+  AUTHORS   Ikeda S, Seki S.
+  TITLE     [Base excision repair: DNA glycosylase and AP endonuclease] Japanese
+  JOURNAL   Tanpakushitsu Kakusan Koso 46:916-23 (2001)
+KO_PATHWAY  ko03410
+///

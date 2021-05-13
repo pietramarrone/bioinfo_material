@@ -1,0 +1,240 @@
+ENTRY       hsa03013                    Pathway
+NAME        RNA transport - Homo sapiens (human)
+DESCRIPTION RNA transport from the nucleus to the cytoplasm is fundamental for gene expression. The different RNA species that are produced in the nucleus are exported through the nuclear pore complexes (NPCs) via mobile export receptors. The majority of RNAs, such as tRNAs, rRNAs, and U snRNAs, are transported by specific export receptors, which belong to the karyopherin-beta family proteins. A feature of karyopherins is their regulation by the small GTPase Ran. However, general mRNA export is mechanistically different. Nuclear export of mRNAs is functionally coupled to different steps in gene expression processes, such as transcription, splicing, 3'-end formation and even translation.
+CLASS       Genetic Information Processing; Translation
+PATHWAY_MAP hsa03013  RNA transport
+MODULE      hsa_M00399  Cap binding complex [PATH:hsa03013]
+            hsa_M00405  THC complex [PATH:hsa03013]
+            hsa_M00406  TREX complex [PATH:hsa03013]
+            hsa_M00426  Survival motor neuron (SMN) complex [PATH:hsa03013]
+            hsa_M00427  Nuclear pore complex [PATH:hsa03013]
+            hsa_M00428  eIF4F complex [PATH:hsa03013]
+            hsa_M00430  Exon junction complex (EJC) [PATH:hsa03013]
+DISEASE     H00455  Spinal muscular atrophy
+            H00465  Fragile X syndrome
+            H00869  Leukoencephalopathy with vanishing white matter
+            H01177  Infantile bilateral striatal necrosis
+            H01731  Fragile X tremor/ataxia syndrome
+            H02195  MEHMO syndrome
+            H02253  Beaulieu-Boycott-Innes syndrome
+DRUG        D11222  Selinexor (USAN/INN)
+            D11223  Verdinexor (USAN/INN)
+            D11406  Risdiplam (USAN/INN)
+            D11499  Eltanexor (USAN/INN)
+DBLINKS     GO: 0050658
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        10940  POP1; POP1 homolog, ribonuclease P/MRP subunit [KO:K01164] [EC:3.1.26.5]
+            10557  RPP38; ribonuclease P/MRP subunit p38 [KO:K14523] [EC:3.1.26.5]
+            10775  POP4; POP4 homolog, ribonuclease P/MRP subunit [KO:K03538] [EC:3.1.26.5]
+            51367  POP5; POP5 homolog, ribonuclease P/MRP subunit [KO:K03537] [EC:3.1.26.5]
+            138716  RPP25L; ribonuclease P/MRP subunit p25 like [KO:K14525] [EC:3.1.26.5]
+            54913  RPP25; ribonuclease P and MRP subunit p25 [KO:K14525] [EC:3.1.26.5]
+            10248  POP7; POP7 homolog, ribonuclease P/MRP subunit [KO:K14527] [EC:3.1.26.5]
+            11102  RPP14; ribonuclease P/MRP subunit p14 [KO:K14529] [EC:3.1.26.5]
+            10556  RPP30; ribonuclease P/MRP subunit p30 [KO:K03539] [EC:3.1.26.5]
+            79897  RPP21; ribonuclease P/MRP subunit p21 [KO:K03540] [EC:3.1.26.5]
+            10799  RPP40; ribonuclease P/MRP subunit p40 [KO:K14530] [EC:3.1.26.5]
+            60528  ELAC2; elaC ribonuclease Z 2 [KO:K00784] [EC:3.1.26.11]
+            55520  ELAC1; elaC ribonuclease Z 1 [KO:K00784] [EC:3.1.26.11]
+            51095  TRNT1; tRNA nucleotidyl transferase 1 [KO:K00974] [EC:3.1.4.- 3.1.3.- 2.7.7.72]
+            5901  RAN; RAN, member RAS oncogene family [KO:K07936]
+            11260  XPOT; exportin for tRNA [KO:K14288]
+            57510  XPO5; exportin 5 [KO:K14289]
+            1915  EEF1A1; eukaryotic translation elongation factor 1 alpha 1 [KO:K03231]
+            1917  EEF1A2; eukaryotic translation elongation factor 1 alpha 2 [KO:K03231]
+            7514  XPO1; exportin 1 [KO:K14290]
+            51808  PHAX; phosphorylated adaptor for RNA export [KO:K14291]
+            4686  NCBP1; nuclear cap binding protein subunit 1 [KO:K12882]
+            22916  NCBP2; nuclear cap binding protein subunit 2 [KO:K12883]
+            1207  CLNS1A; chloride nucleotide-sensitive channel 1A [KO:K05019]
+            10419  PRMT5; protein arginine methyltransferase 5 [KO:K02516] [EC:2.1.1.320]
+            96764  TGS1; trimethylguanosine synthase 1 [KO:K14292] [EC:2.1.1.-]
+            3837  KPNB1; karyopherin subunit beta 1 [KO:K14293]
+            10073  SNUPN; snurportin 1 [KO:K13151]
+            51068  NMD3; NMD3 ribosome export adaptor [KO:K07562]
+            84305  PYM1; PYM homolog 1, exon junction complex associated factor [KO:K14294]
+            7175  TPR; translocated promoter region, nuclear basket protein [KO:K09291]
+            10762  NUP50; nucleoporin 50 [KO:K14295]
+            9972  NUP153; nucleoporin 153 [KO:K14296]
+            59343  SENP2; SUMO specific peptidase 2 [KO:K03345] [EC:3.4.22.68]
+            4928  NUP98; nucleoporin 98 [KO:K14297]
+            8480  RAE1; ribonucleic acid export 1 [KO:K14298]
+            6396  SEC13; SEC13 homolog, nuclear pore and COPII coat complex component [KO:K14004]
+            81929  SEH1L; SEH1 like nucleoporin [KO:K14299]
+            55746  NUP133; nucleoporin 133 [KO:K14300]
+            57122  NUP107; nucleoporin 107 [KO:K14301]
+            79023  NUP37; nucleoporin 37 [KO:K14302]
+            23279  NUP160; nucleoporin 160 [KO:K14303]
+            79902  NUP85; nucleoporin 85 [KO:K14304]
+            348995  NUP43; nucleoporin 43 [KO:K14305]
+            23636  NUP62; nucleoporin 62 [KO:K14306]
+            9818  NUP58; nucleoporin 58 [KO:K14307]
+            53371  NUP54; nucleoporin 54 [KO:K14308]
+            9688  NUP93; nucleoporin 93 [KO:K14309]
+            23165  NUP205; nucleoporin 205 [KO:K14310]
+            23511  NUP188; nucleoporin 188 [KO:K14311]
+            9631  NUP155; nucleoporin 155 [KO:K14312]
+            129401  NUP35; nucleoporin 35 [KO:K14313]
+            23225  NUP210; nucleoporin 210 [KO:K14314]
+            91181  NUP210L; nucleoporin 210 like [KO:K14314]
+            55706  NDC1; NDC1 transmembrane nucleoporin [KO:K14315]
+            100101267  POM121C; POM121 transmembrane nucleoporin C [KO:K14316]
+            9883  POM121; POM121 transmembrane nucleoporin [KO:K14316]
+            94026  POM121L2; POM121 transmembrane nucleoporin like 2 [KO:K14316]
+            8021  NUP214; nucleoporin 214 [KO:K14317]
+            4927  NUP88; nucleoporin 88 [KO:K14318]
+            5903  RANBP2; RAN binding protein 2 [KO:K12172] [EC:2.3.2.-]
+            5905  RANGAP1; Ran GTPase activating protein 1 [KO:K14319]
+            7329  UBE2I; ubiquitin conjugating enzyme E2 I [KO:K10577]
+            6612  SUMO3; small ubiquitin like modifier 3 [KO:K12160]
+            6613  SUMO2; small ubiquitin like modifier 2 [KO:K12160]
+            7341  SUMO1; small ubiquitin like modifier 1 [KO:K12160]
+            387082  SUMO4; small ubiquitin like modifier 4 [KO:K12160]
+            8086  AAAS; aladin WD repeat nucleoporin [KO:K14320]
+            11097  NUP42; nucleoporin 42 [KO:K14321]
+            6606  SMN1; survival of motor neuron 1, telomeric [KO:K13129]
+            6607  SMN2; survival of motor neuron 2, centromeric [KO:K13129]
+            8487  GEMIN2; gem nuclear organelle associated protein 2 [KO:K13130]
+            11218  DDX20; DEAD-box helicase 20 [KO:K13131] [EC:3.6.4.13]
+            50628  GEMIN4; gem nuclear organelle associated protein 4 [KO:K13132]
+            25929  GEMIN5; gem nuclear organelle associated protein 5 [KO:K13133]
+            79833  GEMIN6; gem nuclear organelle associated protein 6 [KO:K13134]
+            79760  GEMIN7; gem nuclear organelle associated protein 7 [KO:K13135]
+            54960  GEMIN8; gem nuclear organelle associated protein 8 [KO:K13136]
+            11171  STRAP; serine/threonine kinase receptor associated protein [KO:K13137]
+            8669  EIF3J; eukaryotic translation initiation factor 3 subunit J [KO:K03245]
+            8668  EIF3I; eukaryotic translation initiation factor 3 subunit I [KO:K03246]
+            8667  EIF3H; eukaryotic translation initiation factor 3 subunit H [KO:K03247]
+            8666  EIF3G; eukaryotic translation initiation factor 3 subunit G [KO:K03248]
+            8665  EIF3F; eukaryotic translation initiation factor 3 subunit F [KO:K03249]
+            3646  EIF3E; eukaryotic translation initiation factor 3 subunit E [KO:K03250]
+            8664  EIF3D; eukaryotic translation initiation factor 3 subunit D [KO:K03251]
+            8663  EIF3C; eukaryotic translation initiation factor 3 subunit C [KO:K03252]
+            728689  EIF3CL; eukaryotic translation initiation factor 3 subunit C like [KO:K03252]
+            8662  EIF3B; eukaryotic translation initiation factor 3 subunit B [KO:K03253]
+            8661  EIF3A; eukaryotic translation initiation factor 3 subunit A [KO:K03254]
+            9086  EIF1AY; eukaryotic translation initiation factor 1A Y-linked [KO:K03236]
+            1964  EIF1AX; eukaryotic translation initiation factor 1A X-linked [KO:K03236]
+            10289  EIF1B; eukaryotic translation initiation factor 1B [KO:K03113]
+            10209  EIF1; eukaryotic translation initiation factor 1 [KO:K03113]
+            1983  EIF5; eukaryotic translation initiation factor 5 [KO:K03262]
+            1965  EIF2S1; eukaryotic translation initiation factor 2 subunit alpha [KO:K03237]
+            8894  EIF2S2; eukaryotic translation initiation factor 2 subunit beta [KO:K03238]
+            1968  EIF2S3; eukaryotic translation initiation factor 2 subunit gamma [KO:K03242]
+            1967  EIF2B1; eukaryotic translation initiation factor 2B subunit alpha [KO:K03239]
+            8892  EIF2B2; eukaryotic translation initiation factor 2B subunit beta [KO:K03754]
+            8890  EIF2B4; eukaryotic translation initiation factor 2B subunit delta [KO:K03680]
+            8891  EIF2B3; eukaryotic translation initiation factor 2B subunit gamma [KO:K03241]
+            8893  EIF2B5; eukaryotic translation initiation factor 2B subunit epsilon [KO:K03240]
+            9669  EIF5B; eukaryotic translation initiation factor 5B [KO:K03243]
+            8672  EIF4G3; eukaryotic translation initiation factor 4 gamma 3 [KO:K03260]
+            1981  EIF4G1; eukaryotic translation initiation factor 4 gamma 1 [KO:K03260]
+            1982  EIF4G2; eukaryotic translation initiation factor 4 gamma 2 [KO:K03260]
+            1977  EIF4E; eukaryotic translation initiation factor 4E [KO:K03259]
+            9470  EIF4E2; eukaryotic translation initiation factor 4E family member 2 [KO:K03259]
+            253314  EIF4E1B; eukaryotic translation initiation factor 4E family member 1B [KO:K03259]
+            1973  EIF4A1; eukaryotic translation initiation factor 4A1 [KO:K03257]
+            1974  EIF4A2; eukaryotic translation initiation factor 4A2 [KO:K03257]
+            1975  EIF4B; eukaryotic translation initiation factor 4B [KO:K03258]
+            26986  PABPC1; poly(A) binding protein cytoplasmic 1 [KO:K13126]
+            140886  PABPC5; poly(A) binding protein cytoplasmic 5 [KO:K13126]
+            5042  PABPC3; poly(A) binding protein cytoplasmic 3 [KO:K13126]
+            645974  PABPC1L2B; poly(A) binding protein cytoplasmic 1 like 2B [KO:K13126]
+            80336  PABPC1L; poly(A) binding protein cytoplasmic 1 like [KO:K13126]
+            340529  PABPC1L2A; poly(A) binding protein cytoplasmic 1 like 2A [KO:K13126]
+            8761  PABPC4; poly(A) binding protein cytoplasmic 4 [KO:K13126]
+            132430  PABPC4L; poly(A) binding protein cytoplasmic 4 like [KO:K13126]
+            10605  PAIP1; poly(A) binding protein interacting protein 1 [KO:K14322]
+            1978  EIF4EBP1; eukaryotic translation initiation factor 4E binding protein 1 [KO:K07205]
+            1979  EIF4EBP2; eukaryotic translation initiation factor 4E binding protein 2 [KO:K18644]
+            8637  EIF4EBP3; eukaryotic translation initiation factor 4E binding protein 3 [KO:K18645]
+            10460  TACC3; transforming acidic coiled-coil containing protein 3 [KO:K14283]
+            23191  CYFIP1; cytoplasmic FMR1 interacting protein 1 [KO:K05749]
+            26999  CYFIP2; cytoplasmic FMR1 interacting protein 2 [KO:K05749]
+            2332  FMR1; fragile X mental retardation 1 [KO:K15516]
+            8087  FXR1; FMR1 autosomal homolog 1 [KO:K15516]
+            9513  FXR2; FMR1 autosomal homolog 2 [KO:K15516]
+            9939  RBM8A; RNA binding motif protein 8A [KO:K12876]
+            4116  MAGOH; mago homolog, exon junction complex subunit [KO:K12877]
+            55110  MAGOHB; mago homolog B, exon junction complex subunit [KO:K12877]
+            22794  CASC3; CASC3 exon junction complex subunit [KO:K14323]
+            9775  EIF4A3; eukaryotic translation initiation factor 4A3 [KO:K13025] [EC:3.6.4.13]
+            10284  SAP18; Sin3A associated protein 18 [KO:K14324]
+            5411  PNN; pinin, desmosome associated protein [KO:K13114]
+            22985  ACIN1; apoptotic chromatin condensation inducer 1 [KO:K12875]
+            10921  RNPS1; RNA binding protein with serine rich domain 1 [KO:K14325]
+            10189  ALYREF; Aly/REF export factor [KO:K12881]
+            7919  DDX39B; DExD-box helicase 39B [KO:K12812] [EC:3.6.4.13]
+            9984  THOC1; THO complex 1 [KO:K12878]
+            57187  THOC2; THO complex 2 [KO:K12879]
+            8563  THOC5; THO complex 5 [KO:K13174]
+            79228  THOC6; THO complex 6 [KO:K13175]
+            80145  THOC7; THO complex 7 [KO:K13176]
+            84321  THOC3; THO complex 3 [KO:K12880]
+            10250  SRRM1; serine and arginine repetitive matrix 1 [KO:K13171]
+            10482  NXF1; nuclear RNA export factor 1 [KO:K14284]
+            56001  NXF2; nuclear RNA export factor 2 [KO:K14284]
+            728343  NXF2B; nuclear RNA export factor 2B [KO:K14284]
+            55998  NXF5; nuclear RNA export factor 5 [KO:K14284]
+            56000  NXF3; nuclear RNA export factor 3 [KO:K14284]
+            29107  NXT1; nuclear transport factor 2 like export factor 1 [KO:K14285]
+            55916  NXT2; nuclear transport factor 2 like export factor 2 [KO:K14285]
+            5976  UPF1; UPF1 RNA helicase and ATPase [KO:K14326] [EC:3.6.4.-]
+            26019  UPF2; UPF2 regulator of nonsense mediated mRNA decay [KO:K14327]
+            65109  UPF3B; UPF3B regulator of nonsense mediated mRNA decay [KO:K14328]
+            65110  UPF3A; UPF3A regulator of nonsense mediated mRNA decay [KO:K14328]
+            26827  RNU6-1; RNA, U6 small nuclear 1 [KO:K14280]
+            780851  SNORD3A; small nucleolar RNA, C/D box 3A [KO:K14483]
+            780853  SNORD3C; small nucleolar RNA, C/D box 3C [KO:K14483]
+            780852  SNORD3B-2; small nucleolar RNA, C/D box 3B-2 [KO:K14483]
+            26851  SNORD3B-1; small nucleolar RNA, C/D box 3B-1 [KO:K14483]
+COMPOUND    C00035  GDP
+            C00044  GTP
+            C01647  tRNA(Met)
+REFERENCE   PMID:15519698
+  AUTHORS   Rodriguez MS, Dargemont C, Stutz F
+  TITLE     Nuclear export of RNA.
+  JOURNAL   Biol Cell 96:639-55 (2004)
+            DOI:10.1016/j.biolcel.2004.04.014
+REFERENCE   PMID:20733056
+  AUTHORS   Suzuki T, Izumi H, Ohno M
+  TITLE     Cajal body surveillance of U snRNA export complex assembly.
+  JOURNAL   J Cell Biol 190:603-12 (2010)
+            DOI:10.1083/jcb.201004109
+REFERENCE   PMID:18313922
+  AUTHORS   Palancade B, Doye V
+  TITLE     Sumoylating and desumoylating enzymes at nuclear pores: underpinning their unexpected duties?
+  JOURNAL   Trends Cell Biol 18:174-83 (2008)
+            DOI:10.1016/j.tcb.2008.02.001
+REFERENCE   PMID:17401408
+  AUTHORS   Pellizzoni L
+  TITLE     Chaperoning ribonucleoprotein biogenesis in health and disease.
+  JOURNAL   EMBO Rep 8:340-5 (2007)
+            DOI:10.1038/sj.embor.7400941
+REFERENCE   PMID:10872469
+  AUTHORS   Gingras AC, Raught B, Sonenberg N
+  TITLE     eIF4 initiation factors: effectors of mRNA recruitment to ribosomes and regulators of translation.
+  JOURNAL   Annu Rev Biochem 68:913-63 (1999)
+            DOI:10.1146/annurev.biochem.68.1.913
+REFERENCE   PMID:11018020
+  AUTHORS   Asano K, Clayton J, Shalev A, Hinnebusch AG
+  TITLE     A multifactor complex of eukaryotic initiation factors, eIF1, eIF2, eIF3, eIF5, and initiator tRNA(Met) is an important translation initiation intermediate in vivo.
+  JOURNAL   Genes Dev 14:2534-46 (2000)
+            DOI:10.1101/gad.831800
+REFERENCE   PMID:9548260
+  AUTHORS   Craig AW, Haghighat A, Yu AT, Sonenberg N
+  TITLE     Interaction of polyadenylate-binding protein with the eIF4G homologue PAIP enhances translation.
+  JOURNAL   Nature 392:520-3 (1998)
+            DOI:10.1038/33198
+REFERENCE   PMID:15901496
+  AUTHORS   Reed R, Cheng H
+  TITLE     TREX, SR proteins and export of mRNA.
+  JOURNAL   Curr Opin Cell Biol 17:269-73 (2005)
+            DOI:10.1016/j.ceb.2005.04.011
+REFERENCE   PMID:16314458
+  AUTHORS   Tange TO, Shibuya T, Jurica MS, Moore MJ
+  TITLE     Biochemical analysis of the EJC reveals two new factors and a stable tetrameric protein core.
+  JOURNAL   RNA 11:1869-83 (2005)
+            DOI:10.1261/rna.2155905
+KO_PATHWAY  ko03013
+///

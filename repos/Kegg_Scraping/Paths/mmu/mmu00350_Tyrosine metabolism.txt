@@ -1,0 +1,154 @@
+ENTRY       mmu00350                    Pathway
+NAME        Tyrosine metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP mmu00350  Tyrosine metabolism
+MODULE      mmu_M00042  Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline [PATH:mmu00350]
+            mmu_M00043  Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine [PATH:mmu00350]
+            mmu_M00044  Tyrosine degradation, tyrosine => homogentisate [PATH:mmu00350]
+DBLINKS     GO: 0006570
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14718  Got1; glutamic-oxaloacetic transaminase 1, soluble [KO:K14454] [EC:2.6.1.1]
+            14719  Got2; glutamatic-oxaloacetic transaminase 2, mitochondrial [KO:K14455] [EC:2.6.1.1]
+            234724  Tat; tyrosine aminotransferase [KO:K00815] [EC:2.6.1.5]
+            14204  Il4i1; interleukin 4 induced 1 [KO:K03334] [EC:1.4.3.2]
+            100470  Lao1; L-amino acid oxidase 1 [KO:K03334] [EC:1.4.3.2]
+            100328588  Il4i1b; interleukin 4 induced 1B [KO:K03334] [EC:1.4.3.2]
+            73988  4930438A08Rik; RIKEN cDNA 4930438A08 gene [KO:K03334] [EC:1.4.3.2]
+            15445  Hpd; 4-hydroxyphenylpyruvic acid dioxygenase [KO:K00457] [EC:1.13.11.27]
+            15233  Hgd; homogentisate 1, 2-dioxygenase [KO:K00451] [EC:1.13.11.5]
+            14874  Gstz1; glutathione transferase zeta 1 (maleylacetoacetate isomerase) [KO:K01800] [EC:5.2.1.2]
+            14085  Fah; fumarylacetoacetate hydrolase [KO:K01555] [EC:3.7.1.2]
+            22173  Tyr; tyrosinase [KO:K00505] [EC:1.14.18.1]
+            21823  Th; tyrosine hydroxylase [KO:K00501] [EC:1.14.16.2]
+            13190  Dct; dopachrome tautomerase [KO:K01827] [EC:5.3.3.12]
+            22178  Tyrp1; tyrosinase-related protein 1 [KO:K00506] [EC:1.14.18.-]
+            13195  Ddc; dopa decarboxylase [KO:K01593] [EC:4.1.1.28 4.1.1.105]
+            13166  Dbh; dopamine beta hydroxylase [KO:K00503] [EC:1.14.17.1]
+            18948  Pnmt; phenylethanolamine-N-methyltransferase [KO:K00553] [EC:2.1.1.28]
+            12846  Comt; catechol-O-methyltransferase [KO:K00545] [EC:2.1.1.6]
+            791260  Tomt; transmembrane O-methyltransferase [KO:K00545] [EC:2.1.1.6]
+            17161  Maoa; monoamine oxidase A [KO:K00274] [EC:1.4.3.4]
+            109731  Maob; monoamine oxidase B [KO:K00274] [EC:1.4.3.4]
+            11754  Aoc3; amine oxidase, copper containing 3 [KO:K00276] [EC:1.4.3.21]
+            237940  Aoc2; amine oxidase, copper containing 2 (retina-specific) [KO:K00276] [EC:1.4.3.21]
+            11670  Aldh3a1; aldehyde dehydrogenase family 3, subfamily A1 [KO:K00129] [EC:1.2.1.5]
+            56847  Aldh1a3; aldehyde dehydrogenase family 1, subfamily A3 [KO:K00129] [EC:1.2.1.5]
+            67689  Aldh3b1; aldehyde dehydrogenase 3 family, member B1 [KO:K00129] [EC:1.2.1.5]
+            621603  Aldh3b2; aldehyde dehydrogenase 3 family, member B2 [KO:K00129] [EC:1.2.1.5]
+            73458  Aldh3b3; aldehyde dehydrogenase 3 family, member B3 [KO:K00129] [EC:1.2.1.5]
+            11522  Adh1; alcohol dehydrogenase 1 (class I) [KO:K13951] [EC:1.1.1.1]
+            11529  Adh7; alcohol dehydrogenase 7 (class IV), mu or sigma polypeptide [KO:K13951] [EC:1.1.1.1]
+            26876  Adh4; alcohol dehydrogenase 4 (class II), pi polypeptide [KO:K13980] [EC:1.1.1.1]
+            11532  Adh5; alcohol dehydrogenase 5 (class III), chi polypeptide [KO:K00121] [EC:1.1.1.284 1.1.1.1]
+            22018  Tpo; thyroid peroxidase [KO:K00431] [EC:1.11.1.8]
+            213043  Aox2; aldehyde oxidase 2 [KO:K00157] [EC:1.2.3.1]
+            11761  Aox1; aldehyde oxidase 1 [KO:K00157] [EC:1.2.3.1]
+            71872  Aox4; aldehyde oxidase 4 [KO:K00157] [EC:1.2.3.1]
+            71724  Aox3; aldehyde oxidase 3 [KO:K00157] [EC:1.2.3.1]
+            68636  Fahd1; fumarylacetoacetate hydrolase domain containing 1 [KO:K01557] [EC:3.7.1.5]
+            17319  Mif; macrophage migration inhibitory factor (glycosylation-inhibiting factor) [KO:K07253] [EC:5.3.2.1]
+COMPOUND    C00022  Pyruvate
+            C00042  Succinate
+            C00082  L-Tyrosine
+            C00122  Fumarate
+            C00146  Phenol
+            C00164  Acetoacetate
+            C00232  Succinate semialdehyde
+            C00355  3,4-Dihydroxy-L-phenylalanine
+            C00483  Tyramine
+            C00530  Hydroquinone
+            C00544  Homogentisate
+            C00547  L-Noradrenaline
+            C00628  2,5-Dihydroxybenzoate
+            C00642  4-Hydroxyphenylacetate
+            C00788  L-Adrenaline
+            C00811  4-Coumarate
+            C00822  Dopaquinone
+            C01036  4-Maleylacetoacetate
+            C01060  3,5-Diiodo-L-tyrosine
+            C01061  4-Fumarylacetoacetate
+            C01161  3,4-Dihydroxyphenylacetate
+            C01179  3-(4-Hydroxyphenyl)pyruvate
+            C01384  Maleic acid
+            C01693  L-Dopachrome
+            C01829  Thyroxine
+            C01850  Rosmarinate
+            C02167  Maleylpyruvate
+            C02442  N-Methyltyramine
+            C02465  Triiodothyronine
+            C02514  3-Fumarylpyruvate
+            C02515  3-Iodo-L-tyrosine
+            C03063  2-Oxohept-3-enedioate
+            C03077  4-Chlorophenylacetate
+            C03758  Dopamine
+            C03765  4-Hydroxyphenylacetaldehyde
+            C03964  (R)-3-(4-Hydroxyphenyl)lactate
+            C04043  3,4-Dihydroxyphenylacetaldehyde
+            C04045  3-(3,4-Dihydroxyphenyl)pyruvate
+            C04052  5-Carboxy-2-oxohept-3-enedioate
+            C04185  5,6-Dihydroxyindole-2-carboxylate
+            C04186  5-Carboxymethyl-2-hydroxymuconate
+            C04368  3-Amino-3-(4-hydroxyphenyl)propanoate
+            C04642  2-Hydroxy-5-carboxymethylmuconate semialdehyde
+            C04796  4-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde
+            C04797  5-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde
+            C05338  4-Hydroxyphenylacetyl-CoA
+            C05350  2-Hydroxy-3-(4-hydroxyphenyl)propenoate
+            C05576  3,4-Dihydroxyphenylethyleneglycol
+            C05577  3,4-Dihydroxymandelaldehyde
+            C05578  5,6-Dihydroxyindole
+            C05579  Indole-5,6-quinone
+            C05580  3,4-Dihydroxymandelate
+            C05581  3-Methoxy-4-hydroxyphenylacetaldehyde
+            C05582  Homovanillate
+            C05583  3-Methoxy-4-hydroxyphenylglycolaldehyde
+            C05584  3-Methoxy-4-hydroxymandelate
+            C05585  Gentisate aldehyde
+            C05587  3-Methoxytyramine
+            C05588  L-Metanephrine
+            C05589  L-Normetanephrine
+            C05593  3-Hydroxyphenylacetate
+            C05594  3-Methoxy-4-hydroxyphenylethyleneglycol
+            C05595  4-Hydroxyphenylacetylglutamic acid
+            C05596  p-Hydroxyphenylacetylglycine
+            C05600  2-Hydroxyhepta-2,4-dienedioate
+            C05604  2-Carboxy-2,3-dihydro-5,6-dihydroxyindole
+            C06044  4-Hydroxyphenylethanol
+            C06046  Salidroside
+            C06047  Stizolobate
+            C06048  Stizolobinate
+            C06199  Hordenine
+            C06201  2,4-Dihydroxyhept-2-enedioate
+            C10447  3,4-Dihydroxyphenylpropanoate
+            C17935  Cysteinyldopa
+            C17936  Phaeomelanin
+            C17937  Eumelanin
+            C17938  5,6-Indolequinone-2-carboxylic acid
+            C22038  (R)-3-(3,4-Dihydroxyphenyl)lactate
+REFERENCE   PMID:8550403
+  AUTHORS   Prieto MA, Diaz E, Garcia JL.
+  TITLE     Molecular characterization of the 4-hydroxyphenylacetate catabolic pathway of Escherichia coli W: engineering a mobile aromatic degradative cluster.
+  JOURNAL   J Bacteriol 178:111-20 (1996)
+            DOI:10.1128/JB.178.1.111-120.1996
+REFERENCE   PMID:1194238
+  AUTHORS   Sparnins VL, Dagley S.
+  TITLE     Alternative routes of aromatic catabolism in Pseudomonas acidovorans and Pseudomonas putida: gallic acid as a substrate and inhibitor of dioxygenases.
+  JOURNAL   J Bacteriol 124:1374-81 (1975)
+            DOI:10.1128/JB.124.3.1374-1381.1975
+REFERENCE   PMID:18435614
+  AUTHORS   Ito S, Wakamatsu K
+  TITLE     Chemistry of mixed melanogenesis--pivotal roles of dopaquinone.
+  JOURNAL   Photochem Photobiol 84:582-92 (2008)
+            DOI:10.1111/j.1751-1097.2007.00238.x
+REFERENCE   PMID:11171088
+  AUTHORS   Olivares C, Jimenez-Cervantes C, Lozano JA, Solano F, Garcia-Borron JC
+  TITLE     The 5,6-dihydroxyindole-2-carboxylic acid (DHICA) oxidase activity of human tyrosinase.
+  JOURNAL   Biochem J 354:131-9 (2001)
+            DOI:10.1042/bj3540131
+REL_PATHWAY mmu00020  Citrate cycle (TCA cycle)
+            mmu00360  Phenylalanine metabolism
+            mmu00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            mmu00620  Pyruvate metabolism
+            mmu00650  Butanoate metabolism
+KO_PATHWAY  ko00350
+///

@@ -1,0 +1,328 @@
+ENTRY       mmu05160                    Pathway
+NAME        Hepatitis C - Mus musculus (mouse)
+DESCRIPTION Hepatitis C virus (HCV) is a major cause of chronic liver disease. The HCV employ several strategies to perturb host cell immunity. After invasion, HCV RNA genome functions directly as an mRNA in the cytoplasm of the host cell and forms membrane-associated replication complexes along with non-structural proteins. Viral RNA can trigger the RIG-I pathway and interferon production during this process. Translated HCV protein products regulate immune response to inhibit the action of interferon. HCV core and NS5A proteins appear to be the most important molecules with regulatory functions that modulate transcription, cellular proliferation, and apoptosis.
+CLASS       Human Diseases; Infectious disease: viral
+PATHWAY_MAP mmu05160  Hepatitis C
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        16835  Ldlr; low density lipoprotein receptor [KO:K12473]
+            20778  Scarb1; scavenger receptor class B, member 1 [KO:K13885]
+            12520  Cd81; CD81 antigen [KO:K06508]
+            73934  Cldn34c4; claudin 34C4 [KO:K06087]
+            74987  Cldn34d; claudin 34D [KO:K06087]
+            114141  Cldn16; claudin 16 [KO:K06087]
+            12737  Cldn1; claudin 1 [KO:K06087]
+            12738  Cldn2; claudin 2 [KO:K06087]
+            12739  Cldn3; claudin 3 [KO:K06087]
+            12740  Cldn4; claudin 4 [KO:K06087]
+            12741  Cldn5; claudin 5 [KO:K06087]
+            18417  Cldn11; claudin 11 [KO:K06087]
+            239931  Cldn17; claudin 17 [KO:K06087]
+            242653  Cldn19; claudin 19 [KO:K06087]
+            53624  Cldn7; claudin 7 [KO:K06087]
+            54419  Cldn6; claudin 6 [KO:K06087]
+            54420  Cldn8; claudin 8 [KO:K06087]
+            56173  Cldn14; claudin 14 [KO:K06087]
+            56492  Cldn18; claudin 18 [KO:K06087]
+            56863  Cldn9; claudin 9 [KO:K06087]
+            57255  Cldn13; claudin 13 [KO:K06087]
+            58187  Cldn10; claudin 10 [KO:K06087]
+            60363  Cldn15; claudin 15 [KO:K06087]
+            71908  Cldn23; claudin 23 [KO:K06087]
+            621628  Cldn20; claudin 20 [KO:K06087]
+            75677  Cldn22; claudin 22 [KO:K06087]
+            100039801  Cldn24; claudin 24 [KO:K06087]
+            18260  Ocln; occludin [KO:K06088]
+            246730  Oas1a; 2'-5' oligoadenylate synthetase 1A [KO:K14216] [EC:2.7.7.84]
+            246728  Oas2; 2'-5' oligoadenylate synthetase 2 [KO:K14216] [EC:2.7.7.84]
+            246727  Oas3; 2'-5' oligoadenylate synthetase 3 [KO:K14216] [EC:2.7.7.84]
+            23961  Oas1b; 2'-5' oligoadenylate synthetase 1B [KO:K14216] [EC:2.7.7.84]
+            23960  Oas1g; 2'-5' oligoadenylate synthetase 1G [KO:K14216] [EC:2.7.7.84]
+            24014  Rnasel; ribonuclease L (2', 5'-oligoisoadenylate synthetase-dependent) [KO:K01165]
+            230073  Ddx58; DEAD/H box helicase 58 [KO:K12646] [EC:3.6.4.13]
+            228607  Mavs; mitochondrial antiviral signaling protein [KO:K12648]
+            22031  Traf3; TNF receptor-associated factor 3 [KO:K03174]
+            56480  Tbk1; TANK-binding kinase 1 [KO:K05410] [EC:2.7.11.10]
+            56489  Ikbke; inhibitor of kappaB kinase epsilon [KO:K07211] [EC:2.7.11.10]
+            54131  Irf3; interferon regulatory factor 3 [KO:K05411]
+            54123  Irf7; interferon regulatory factor 7 [KO:K09447]
+            15962  Ifna1; interferon alpha 1 [KO:K05414]
+            15965  Ifna2; interferon alpha 2 [KO:K05414]
+            15967  Ifna4; interferon alpha 4 [KO:K05414]
+            15968  Ifna5; interferon alpha 5 [KO:K05414]
+            15969  Ifna6; interferon alpha 6 [KO:K05414]
+            15970  Ifna7; interferon alpha 7 [KO:K05414]
+            15972  Ifna9; interferon alpha 9 [KO:K05414]
+            15964  Ifna11; interferon alpha 11 [KO:K05414]
+            242519  Ifna12; interferon alpha 12 [KO:K05414]
+            230396  Ifna13; interferon alpha 13 [KO:K05414]
+            404549  Ifna14; interferon alpha 14 [KO:K05414]
+            15974  Ifnab; interferon alpha B [KO:K05414]
+            242517  Ifna15; interferon alpha 15 [KO:K05414]
+            15977  Ifnb1; interferon beta 1, fibroblast [KO:K05415]
+            15978  Ifng; interferon gamma [KO:K04687]
+            142980  Tlr3; toll-like receptor 3 [KO:K05401]
+            106759  Ticam1; toll-like receptor adaptor molecule 1 [KO:K05842]
+            22034  Traf6; TNF receptor-associated factor 6 [KO:K03175] [EC:2.3.2.27]
+            19766  Ripk1; receptor (TNFRSF)-interacting serine-threonine kinase 1 [KO:K02861] [EC:2.7.11.1]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            18035  Nfkbia; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [KO:K04734]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            15945  Cxcl10; chemokine (C-X-C motif) ligand 10 [KO:K12671]
+            15467  Eif2ak1; eukaryotic translation initiation factor 2 alpha kinase 1 [KO:K16194] [EC:2.7.11.1]
+            19106  Eif2ak2; eukaryotic translation initiation factor 2-alpha kinase 2 [KO:K16195] [EC:2.7.11.1]
+            13666  Eif2ak3; eukaryotic translation initiation factor 2 alpha kinase 3 [KO:K08860] [EC:2.7.11.1]
+            27103  Eif2ak4; eukaryotic translation initiation factor 2 alpha kinase 4 [KO:K16196] [EC:2.7.11.1]
+            667373  Ifit1bl1; interferon induced protein with tetratricpeptide repeats 1B like 1 [KO:K14217]
+            15957  Ifit1; interferon-induced protein with tetratricopeptide repeats 1 [KO:K14217]
+            16341  Eif3e; eukaryotic translation initiation factor 3, subunit E [KO:K03250]
+            13665  Eif2s1; eukaryotic translation initiation factor 2, subunit 1 alpha [KO:K03237]
+            20848  Stat3; signal transducer and activator of transcription 3 [KO:K04692]
+            12702  Socs3; suppressor of cytokine signaling 3 [KO:K04696]
+            15975  Ifnar1; interferon (alpha and beta) receptor 1 [KO:K05130]
+            15976  Ifnar2; interferon (alpha and beta) receptor 2 [KO:K05131]
+            16451  Jak1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            54721  Tyk2; tyrosine kinase 2 [KO:K11219] [EC:2.7.10.2]
+            20846  Stat1; signal transducer and activator of transcription 1 [KO:K11220]
+            20847  Stat2; signal transducer and activator of transcription 2 [KO:K11221]
+            16391  Irf9; interferon regulatory factor 9 [KO:K04693]
+            17858  Mx2; MX dynamin-like GTPase 2 [KO:K14754]
+            58185  Rsad2; radical S-adenosyl methionine domain containing 2 [KO:K15045]
+            51792  Ppp2r1a; protein phosphatase 2, regulatory subunit A, alpha [KO:K03456]
+            73699  Ppp2r1b; protein phosphatase 2, regulatory subunit A, beta [KO:K03456]
+            52432  Ppp2r2d; protein phosphatase 2, regulatory subunit B, delta [KO:K04354]
+            72930  Ppp2r2b; protein phosphatase 2, regulatory subunit B, beta [KO:K04354]
+            269643  Ppp2r2c; protein phosphatase 2, regulatory subunit B, gamma [KO:K04354]
+            71978  Ppp2r2a; protein phosphatase 2, regulatory subunit B, alpha [KO:K04354]
+            19052  Ppp2ca; protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform [KO:K04382] [EC:3.1.3.16]
+            19053  Ppp2cb; protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform [KO:K04382] [EC:3.1.3.16]
+            56469  Pias1; protein inhibitor of activated STAT 1 [KO:K04706] [EC:2.3.2.-]
+            13645  Egf; epidermal growth factor [KO:K04357]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            22631  Ywhaz; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide [KO:K16197]
+            54401  Ywhab; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide [KO:K16197]
+            22630  Ywhaq; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein theta [KO:K16197]
+            22627  Ywhae; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, epsilon polypeptide [KO:K06630]
+            22629  Ywhah; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide [KO:K16198]
+            22628  Ywhag; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, gamma polypeptide [KO:K16198]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            12387  Ctnnb1; catenin (cadherin associated protein), beta 1 [KO:K02105]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+            12566  Cdk2; cyclin-dependent kinase 2 [KO:K02206] [EC:2.7.11.22]
+            12567  Cdk4; cyclin-dependent kinase 4 [KO:K02089] [EC:2.7.11.22]
+            12571  Cdk6; cyclin-dependent kinase 6 [KO:K02091] [EC:2.7.11.22]
+            19645  Rb1; RB transcriptional corepressor 1 [KO:K06618]
+            13555  E2f1; E2F transcription factor 1 [KO:K17454]
+            242705  E2f2; E2F transcription factor 2 [KO:K09389]
+            13557  E2f3; E2F transcription factor 3 [KO:K06620]
+            21937  Tnfrsf1a; tumor necrosis factor receptor superfamily, member 1a [KO:K03158]
+            71609  Tradd; TNFRSF1A-associated via death domain [KO:K03171]
+            22030  Traf2; TNF receptor-associated factor 2 [KO:K03173] [EC:2.3.2.27]
+            14103  Fasl; Fas ligand (TNF superfamily, member 6) [KO:K04389]
+            14102  Fas; Fas (TNF receptor superfamily member 6) [KO:K04390]
+            14082  Fadd; Fas (TNFRSF6)-associated via death domain [KO:K02373]
+            12370  Casp8; caspase 8 [KO:K04398] [EC:3.4.22.61]
+            12367  Casp3; caspase 3 [KO:K02187] [EC:3.4.22.56]
+            12633  Cflar; CASP8 and FADD-like apoptosis regulator [KO:K04724]
+            12122  Bid; BH3 interacting domain death agonist [KO:K04726]
+            12028  Bax; BCL2-associated X protein [KO:K02159]
+            12018  Bak1; BCL2-antagonist/killer 1 [KO:K14021]
+            13063  Cycs; cytochrome c, somatic [KO:K08738]
+            13067  Cyct; cytochrome c, testis [KO:K08738]
+            11783  Apaf1; apoptotic peptidase activating factor 1 [KO:K02084]
+            12371  Casp9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            19192  Psme3; proteaseome (prosome, macropain) activator subunit 3 (PA28 gamma, Ki) [KO:K06698]
+            20181  Rxra; retinoid X receptor alpha [KO:K08524]
+            19013  Ppara; peroxisome proliferator activated receptor alpha [KO:K07294]
+            22259  Nr1h3; nuclear receptor subfamily 1, group H, member 3 [KO:K08536]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+COMPOUND    C05981  Phosphatidylinositol-3,4,5-trisphosphate
+            C20935  2-5A
+REFERENCE   PMID:24520529
+  AUTHORS   Hassan M, Selimovic D, El-Khattouti A, Ghozlan H, Haikel Y, Abdelkader O
+  TITLE     Hepatitis C virus-host interactions: Etiopathogenesis and therapeutic strategies.
+  JOURNAL   World J Exp Med 2:7-25 (2012)
+            DOI:10.5493/wjem.v2.i2.7
+REFERENCE   PMID:23641066
+  AUTHORS   Yamauchi Y, Helenius A
+  TITLE     Virus entry at a glance.
+  JOURNAL   J Cell Sci 126:1289-95 (2013)
+            DOI:10.1242/jcs.119685
+REFERENCE   PMID:24509809
+  AUTHORS   Feneant L, Levy S, Cocquerel L
+  TITLE     CD81 and hepatitis C virus (HCV) infection.
+  JOURNAL   Viruses 6:535-72 (2014)
+            DOI:10.3390/v6020535
+REFERENCE   PMID:18081727
+  AUTHORS   Dubuisson J, Helle F, Cocquerel L
+  TITLE     Early steps of the hepatitis C virus life cycle.
+  JOURNAL   Cell Microbiol 10:821-7 (2008)
+            DOI:10.1111/j.1462-5822.2007.01107.x
+REFERENCE   PMID:23675659
+  AUTHORS   Liang TJ, Ghany MG
+  TITLE     Current and future therapies for hepatitis C virus infection.
+  JOURNAL   N Engl J Med 368:1907-17 (2013)
+            DOI:10.1056/NEJMra1213651
+REFERENCE   PMID:23836234
+  AUTHORS   Scheel TK, Rice CM
+  TITLE     Understanding the hepatitis C virus life cycle paves the way for highly effective therapies.
+  JOURNAL   Nat Med 19:837-49 (2013)
+            DOI:10.1038/nm.3248
+REFERENCE   PMID:26586968
+  AUTHORS   Holmes JA, Thompson AJ
+  TITLE     Interferon-free combination therapies for the treatment of hepatitis C: current insights.
+  JOURNAL   Hepat Med 7:51-70 (2015)
+            DOI:10.2147/HMER.S55864
+REFERENCE   PMID:15039538
+  AUTHORS   Taguchi T, Nagano-Fujii M, Akutsu M, Kadoya H, Ohgimoto S, Ishido S, Hotta H
+  TITLE     Hepatitis C virus NS5A protein interacts with 2',5'-oligoadenylate synthetase and inhibits antiviral activity of IFN in an IFN sensitivity-determining region-independent manner.
+  JOURNAL   J Gen Virol 85:959-69 (2004)
+            DOI:10.1099/vir.0.19513-0
+REFERENCE   PMID:19708811
+  AUTHORS   Horner SM, Gale M Jr
+  TITLE     Intracellular innate immune cascades and interferon defenses that control hepatitis C virus.
+  JOURNAL   J Interferon Cytokine Res 29:489-98 (2009)
+            DOI:10.1089/jir.2009.0063
+REFERENCE   PMID:20457596
+  AUTHORS   Lemon SM
+  TITLE     Induction and evasion of innate antiviral responses by hepatitis C virus.
+  JOURNAL   J Biol Chem 285:22741-7 (2010)
+            DOI:10.1074/jbc.R109.099556
+REFERENCE   PMID:23836238
+  AUTHORS   Horner SM, Gale M Jr
+  TITLE     Regulation of hepatic innate immunity by hepatitis C virus.
+  JOURNAL   Nat Med 19:879-88 (2013)
+            DOI:10.1038/nm.3253
+REFERENCE   PMID:28862649
+  AUTHORS   Ortega-Prieto AM, Dorner M
+  TITLE     Immune Evasion Strategies during Chronic Hepatitis B and C Virus Infection.
+  JOURNAL   Vaccines (Basel) 5:E24 (2017)
+            DOI:10.3390/vaccines5030024
+REFERENCE   PMID:25852264
+  AUTHORS   Yang DR, Zhu HZ
+  TITLE     Hepatitis C virus and antiviral innate immunity: who wins at tug-of-war?
+  JOURNAL   World J Gastroenterol 21:3786-800 (2015)
+            DOI:10.3748/wjg.v21.i13.3786
+REFERENCE   PMID:16107833
+  AUTHORS   Gale M Jr, Foy EM
+  TITLE     Evasion of intracellular host defence by hepatitis C virus.
+  JOURNAL   Nature 436:939-45 (2005)
+            DOI:10.1038/nature04078
+REFERENCE   PMID:17467654
+  AUTHORS   Bode JG, Brenndorfer ED, Haussinger D
+  TITLE     Subversion of innate host antiviral strategies by the hepatitis C virus.
+  JOURNAL   Arch Biochem Biophys 462:254-65 (2007)
+            DOI:10.1016/j.abb.2007.03.033
+REFERENCE   PMID:12686421
+  AUTHORS   Panteva M, Korkaya H, Jameel S
+  TITLE     Hepatitis viruses and the MAPK pathway: is this a survival strategy?
+  JOURNAL   Virus Res 92:131-40 (2003)
+            DOI:10.1016/S0168-1702(02)00356-8
+REFERENCE   PMID:16239065
+  AUTHORS   Pang R, Tse E, Poon RT
+  TITLE     Molecular pathways in hepatocellular carcinoma.
+  JOURNAL   Cancer Lett 240:157-69 (2006)
+            DOI:10.1016/j.canlet.2005.08.031
+REFERENCE   PMID:15302943
+  AUTHORS   Macdonald A, Harris M
+  TITLE     Hepatitis C virus NS5A: tales of a promiscuous protein.
+  JOURNAL   J Gen Virol 85:2485-502 (2004)
+            DOI:10.1099/vir.0.80204-0
+REFERENCE   PMID:21250384
+  AUTHORS   He Y, Staschke KA, Tan SL
+  TITLE     HCV NS5A: A Multifunctional Regulator of Cellular Pathways and Virus Replication
+  JOURNAL   Hepatitis C Viruses: Genomes and Molecular Biology (2006)
+REFERENCE   PMID:12101418
+  AUTHORS   Lan KH, Sheu ML, Hwang SJ, Yen SH, Chen SY, Wu JC, Wang YJ, Kato N, Omata M, Chang FY, Lee SD
+  TITLE     HCV NS5A interacts with p53 and inhibits p53-mediated apoptosis.
+  JOURNAL   Oncogene 21:4801-11 (2002)
+            DOI:10.1038/sj.onc.1205589
+REFERENCE   PMID:11886269
+  AUTHORS   Majumder M, Ghosh AK, Steele R, Zhou XY, Phillips NJ, Ray R, Ray RB
+  TITLE     Hepatitis C virus NS5A protein impairs TNF-mediated hepatic apoptosis, but not by an anti-FAS antibody, in transgenic mice.
+  JOURNAL   Virology 294:94-105 (2002)
+            DOI:10.1006/viro.2001.1309
+REFERENCE   PMID:15381253
+  AUTHORS   Hassan M, Ghozlan H, Abdel-Kader O
+  TITLE     Activation of RB/E2F signaling pathway is required for the modulation of hepatitis C virus core protein-induced cell growth in liver and non-liver cells.
+  JOURNAL   Cell Signal 16:1375-85 (2004)
+            DOI:10.1016/j.cellsig.2004.04.005
+REFERENCE   PMID:11514734
+  AUTHORS   Kwun HJ, Jung EY, Ahn JY, Lee MN, Jang KL
+  TITLE     p53-dependent transcriptional repression of p21(waf1) by hepatitis C virus NS3.
+  JOURNAL   J Gen Virol 82:2235-41 (2001)
+            DOI:10.1099/0022-1317-82-9-2235
+REFERENCE   PMID:12056797
+  AUTHORS   Yamanaka T, Uchida M, Doi T
+  TITLE     Innate form of HCV core protein plays an important role in the localization and the function of HCV core protein.
+  JOURNAL   Biochem Biophys Res Commun 294:521-7 (2002)
+            DOI:10.1016/S0006-291X(02)00507-7
+REFERENCE   PMID:22611309
+  AUTHORS   Lim EJ, Chin R, Angus PW, Torresi J
+  TITLE     Enhanced apoptosis in post-liver transplant hepatitis C: effects of virus and immunosuppressants.
+  JOURNAL   World J Gastroenterol 18:2172-9 (2012)
+            DOI:10.3748/wjg.v18.i18.2172
+REFERENCE   PMID:17828818
+  AUTHORS   Fischer R, Baumert T, Blum HE
+  TITLE     Hepatitis C virus infection and apoptosis.
+  JOURNAL   World J Gastroenterol 13:4865-72 (2007)
+            DOI:10.3748/wjg.v13.i36.4865
+REFERENCE   PMID:16611896
+  AUTHORS   Saito K, Meyer K, Warner R, Basu A, Ray RB, Ray R
+  TITLE     Hepatitis C virus core protein inhibits tumor necrosis factor alpha-mediated apoptosis by a protective effect involving cellular FLICE inhibitory protein.
+  JOURNAL   J Virol 80:4372-9 (2006)
+            DOI:10.1128/JVI.80.9.4372-4379.2006
+REFERENCE   PMID:19148799
+  AUTHORS   Koike K
+  TITLE     Steatosis, liver injury, and hepatocarcinogenesis in hepatitis C viral infection.
+  JOURNAL   J Gastroenterol 44 Suppl 19:82-8 (2009)
+            DOI:10.1007/s00535-008-2276-4
+REFERENCE   PMID:17764115
+  AUTHORS   Tanaka N, Moriya K, Kiyosawa K, Koike K, Aoyama T
+  TITLE     Hepatitis C virus core protein induces spontaneous and persistent activation of peroxisome proliferator-activated receptor alpha in transgenic mice: implications for HCV-associated hepatocarcinogenesis.
+  JOURNAL   Int J Cancer 122:124-31 (2008)
+            DOI:10.1002/ijc.23056
+REFERENCE   PMID:18251977
+  AUTHORS   Tan A, Yeh SH, Liu CJ, Cheung C, Chen PJ
+  TITLE     Viral hepatocarcinogenesis: from infection to cancer.
+  JOURNAL   Liver Int 28:175-88 (2008)
+            DOI:10.1111/j.1478-3231.2007.01652.x
+REL_PATHWAY mmu03320  PPAR signaling pathway
+            mmu04010  MAPK signaling pathway
+            mmu04144  Endocytosis
+            mmu04210  Apoptosis
+            mmu04514  Cell adhesion molecules (CAMs)
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04622  RIG-I-like receptor signaling pathway
+            mmu04630  JAK-STAT signaling pathway
+            mmu04668  TNF signaling pathway
+KO_PATHWAY  ko05160
+///

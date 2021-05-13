@@ -1,0 +1,184 @@
+ENTRY       mmu04120                    Pathway
+NAME        Ubiquitin mediated proteolysis - Mus musculus (mouse)
+DESCRIPTION Protein ubiquitination plays an important role in eukaryotic cellular processes. It mainly functions as a signal for 26S proteasome dependent protein degradation. The addition of ubiquitin to proteins being degraded is performed by a reaction cascade consisting of three enzymes, named E1 (ubiquitin activating enzyme), E2 (ubiquitin conjugating enzyme), and E3 (ubiquitin ligase). Each E3 has specificity to its substrate, or proteins to be targeted by ubiquitination. Many E3s are discovered in eukaryotes and they are classified into four types: HECT type, U-box type, single RING-finger type, and multi-subunit RING-finger type. Multi-subunit RING-finger E3s are exemplified by cullin-Rbx E3s and APC/C. They consist of a RING-finger-containing subunit (RBX1 or RBX2) that functions to bind E2s, a scaffold-like cullin molecule, adaptor proteins, and a target recognizing subunit that binds substrates.
+CLASS       Genetic Information Processing; Folding, sorting and degradation
+PATHWAY_MAP mmu04120  Ubiquitin mediated proteolysis
+DBLINKS     GO: 0016567
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        22187  Ubb; ubiquitin B [KO:K04551]
+            22190  Ubc; ubiquitin C [KO:K08770]
+            22186  Uba52; ubiquitin A-52 residue ribosomal protein fusion product 1 [KO:K02927]
+            78294  Rps27a; ribosomal protein S27A [KO:K02977]
+            22202  Uba1y; ubiquitin-activating enzyme, Chr Y [KO:K03178] [EC:6.2.1.45]
+            22201  Uba1; ubiquitin-like modifier activating enzyme 1 [KO:K03178] [EC:6.2.1.45]
+            56459  Sae1; SUMO1 activating enzyme subunit 1 [KO:K10684] [EC:6.2.1.45]
+            50995  Uba2; ubiquitin-like modifier activating enzyme 2 [KO:K10685] [EC:6.2.1.45]
+            22200  Uba3; ubiquitin-like modifier activating enzyme 3 [KO:K10686] [EC:6.2.1.45]
+            74153  Uba7; ubiquitin-like modifier activating enzyme 7 [KO:K10698] [EC:6.2.1.45]
+            231380  Uba6; ubiquitin-like modifier activating enzyme 6 [KO:K10699] [EC:6.2.1.45]
+            22209  Ube2a; ubiquitin-conjugating enzyme E2A [KO:K10573] [EC:2.3.2.23]
+            22210  Ube2b; ubiquitin-conjugating enzyme E2B [KO:K10574] [EC:2.3.2.23]
+            68612  Ube2c; ubiquitin-conjugating enzyme E2C [KO:K06688] [EC:2.3.2.23]
+            216080  Ube2d1; ubiquitin-conjugating enzyme E2D 1 [KO:K06689] [EC:2.3.2.23]
+            56550  Ube2d2a; ubiquitin-conjugating enzyme E2D 2A [KO:K06689] [EC:2.3.2.23]
+            66105  Ube2d3; ubiquitin-conjugating enzyme E2D 3 [KO:K06689] [EC:2.3.2.23]
+            73318  Ube2d2b; ubiquitin-conjugating enzyme E2D 2B [KO:K06689] [EC:2.3.2.23]
+            218793  Ube2e2; ubiquitin-conjugating enzyme E2E 2 [KO:K20217] [EC:2.3.2.23]
+            22193  Ube2e3; ubiquitin-conjugating enzyme E2E 3 [KO:K20217] [EC:2.3.2.23]
+            22194  Ube2e1; ubiquitin-conjugating enzyme E2E 1 [KO:K20217] [EC:2.3.2.23]
+            67921  Ube2f; ubiquitin-conjugating enzyme E2F (putative) [KO:K10687] [EC:2.3.2.23]
+            67128  Ube2g1; ubiquitin-conjugating enzyme E2G 1 [KO:K10575] [EC:2.3.2.23]
+            22213  Ube2g2; ubiquitin-conjugating enzyme E2G 2 [KO:K04555] [EC:2.3.2.23]
+            22214  Ube2h; ubiquitin-conjugating enzyme E2H [KO:K10576] [EC:2.3.2.23]
+            22196  Ube2i; ubiquitin-conjugating enzyme E2I [KO:K10577]
+            56228  Ube2j1; ubiquitin-conjugating enzyme E2J 1 [KO:K10578] [EC:2.3.2.23]
+            140499  Ube2j2; ubiquitin-conjugating enzyme E2J 2 [KO:K04554] [EC:2.3.2.23]
+            22195  Ube2l3; ubiquitin-conjugating enzyme E2L 3 [KO:K04552] [EC:2.3.2.23]
+            56791  Ube2l6; ubiquitin-conjugating enzyme E2L 6 [KO:K04553] [EC:2.3.2.23]
+            22192  Ube2m; ubiquitin-conjugating enzyme E2M [KO:K10579]
+            93765  Ube2n; ubiquitin-conjugating enzyme E2N [KO:K10580] [EC:2.3.2.23]
+            100041224  Gm3213; predicted gene 3213 [KO:K10580] [EC:2.3.2.23]
+            217342  Ube2o; ubiquitin-conjugating enzyme E2O [KO:K10581] [EC:2.3.2.24]
+            70093  Ube2q1; ubiquitin-conjugating enzyme E2Q family member 1 [KO:K10582] [EC:2.3.2.23]
+            109161  Ube2q2; ubiquitin-conjugating enzyme E2Q family member 2 [KO:K10582] [EC:2.3.2.23]
+            76980  Ube2ql1; ubiquitin-conjugating enzyme E2Q family-like 1 [KO:K10582] [EC:2.3.2.23]
+            245350  expressed sequence AA414768 [KO:K10582] [EC:2.3.2.23]
+            67615  Ube2r2; ubiquitin-conjugating enzyme E2R 2 [KO:K02207] [EC:2.3.2.23]
+            216150  Cdc34; cell division cycle 34 [KO:K02207] [EC:2.3.2.23]
+            77891  Ube2s; ubiquitin-conjugating enzyme E2S [KO:K10583] [EC:2.3.2.23]
+            381534  Ube2u; ubiquitin-conjugating enzyme E2U (putative) [KO:K10584] [EC:2.3.2.23]
+            66799  Ube2w; ubiquitin-conjugating enzyme E2W (putative) [KO:K10688] [EC:2.3.2.25]
+            268470  Ube2z; ubiquitin-conjugating enzyme E2Z [KO:K10585] [EC:2.3.2.23]
+            53323  Ube2k; ubiquitin-conjugating enzyme E2K [KO:K04649] [EC:2.3.2.23]
+            12211  Birc6; baculoviral IAP repeat-containing 6 [KO:K10586] [EC:2.3.2.23]
+            22215  Ube3a; ubiquitin protein ligase E3A [KO:K10587] [EC:2.3.2.26]
+            117146  Ube3b; ubiquitin protein ligase E3B [KO:K10588] [EC:2.3.2.26]
+            100763  Ube3c; ubiquitin protein ligase E3C [KO:K10589] [EC:2.3.2.26]
+            66313  Smurf2; SMAD specific E3 ubiquitin protein ligase 2 [KO:K04678] [EC:2.3.2.26]
+            75788  Smurf1; SMAD specific E3 ubiquitin protein ligase 1 [KO:K04678] [EC:2.3.2.26]
+            16396  Itch; itchy, E3 ubiquitin protein ligase [KO:K05632] [EC:2.3.2.26]
+            107568  Wwp1; WW domain containing E3 ubiquitin protein ligase 1 [KO:K05633] [EC:2.3.2.26]
+            66894  Wwp2; WW domain containing E3 ubiquitin protein ligase 2 [KO:K05630] [EC:2.3.2.26]
+            14897  Trip12; thyroid hormone receptor interactor 12 [KO:K10590] [EC:2.3.2.26]
+            17999  Nedd4; neural precursor cell expressed, developmentally down-regulated 4 [KO:K10591] [EC:2.3.2.26]
+            83814  Nedd4l; neural precursor cell expressed, developmentally down-regulated gene 4-like [KO:K13305] [EC:2.3.2.26]
+            59026  Huwe1; HECT, UBA and WWE domain containing 1 [KO:K10592] [EC:2.3.2.26]
+            70790  Ubr5; ubiquitin protein ligase E3 component n-recognin 5 [KO:K10593] [EC:2.3.2.26]
+            235439  Herc1; HECT and RLD domain containing E3 ubiquitin protein ligase family member 1 [KO:K10594] [EC:2.3.2.26]
+            15204  Herc2; HECT and RLD domain containing E3 ubiquitin protein ligase 2 [KO:K10595] [EC:2.3.2.26]
+            73998  Herc3; hect domain and RLD 3 [KO:K10614] [EC:2.3.2.26]
+            67345  Herc4; hect domain and RLD 4 [KO:K10615] [EC:2.3.2.26]
+            140630  Ube4a; ubiquitination factor E4A [KO:K10596] [EC:2.3.2.27]
+            63958  Ube4b; ubiquitination factor E4B [KO:K10597] [EC:2.3.2.27]
+            56424  Stub1; STIP1 homology and U-Box containing protein 1 [KO:K09561] [EC:2.3.2.27]
+            66053  Ppil2; peptidylprolyl isomerase (cyclophilin)-like 2 [KO:K10598] [EC:5.2.1.8]
+            28000  Prpf19; pre-mRNA processing factor 19 [KO:K10599] [EC:2.3.2.27]
+            140629  Ubox5; U box domain containing 5 [KO:K10600]
+            17246  Mdm2; transformed mouse 3T3 cell double minute 2 [KO:K06643] [EC:2.3.2.27]
+            12402  Cbl; Casitas B-lineage lymphoma [KO:K04707] [EC:2.3.2.27]
+            208650  Cblb; Casitas B-lineage lymphoma b [KO:K22517] [EC:2.3.2.27]
+            80794  Cblc; Casitas B-lineage lymphoma c [KO:K22518] [EC:2.3.2.27]
+            50873  Prkn; parkin RBR E3 ubiquitin protein ligase [KO:K04556] [EC:2.3.2.31]
+            20437  Siah1a; siah E3 ubiquitin protein ligase 1A [KO:K04506] [EC:2.3.2.27]
+            20438  Siah1b; siah E3 ubiquitin protein ligase 1B [KO:K04506] [EC:2.3.2.27]
+            18854  Pml; promyelocytic leukemia [KO:K10054]
+            22034  Traf6; TNF receptor-associated factor 6 [KO:K03175] [EC:2.3.2.27]
+            26401  Map3k1; mitogen-activated protein kinase kinase kinase 1 [KO:K04416] [EC:2.7.11.25]
+            26374  Cop1; COP1, E3 ubiquitin ligase [KO:K10143] [EC:2.3.2.27]
+            68098  Rchy1; ring finger and CHY zinc finger domain containing 1 [KO:K10144] [EC:2.3.2.27]
+            11797  Birc2; baculoviral IAP repeat-containing 2 [KO:K16060]
+            11796  Birc3; baculoviral IAP repeat-containing 3 [KO:K16060]
+            11798  Xiap; X-linked inhibitor of apoptosis [KO:K04725] [EC:2.3.2.27]
+            329581  Birc7; baculoviral IAP repeat-containing 7 (livin) [KO:K16061]
+            56469  Pias1; protein inhibitor of activated STAT 1 [KO:K04706] [EC:2.3.2.-]
+            17344  Pias2; protein inhibitor of activated STAT 2 [KO:K16063] [EC:2.3.2.-]
+            229615  Pias3; protein inhibitor of activated STAT 3 [KO:K16064] [EC:2.3.2.-]
+            59004  Pias4; protein inhibitor of activated STAT 4 [KO:K16065] [EC:2.3.2.27]
+            74126  Syvn1; synovial apoptosis inhibitor 1, synoviolin [KO:K10601] [EC:2.3.2.27]
+            105193  Nhlrc1; NHL repeat containing 1 [KO:K10602] [EC:2.3.2.27]
+            11634  Aire; autoimmune regulator (autoimmune polyendocrinopathy candidiasis ectodermal dystrophy) [KO:K10603]
+            17237  Mgrn1; mahogunin, ring finger 1 [KO:K10604] [EC:2.3.2.27]
+            12189  Brca1; breast cancer 1, early onset [KO:K10605] [EC:2.3.2.27]
+            67030  Fancl; Fanconi anemia, complementation group L [KO:K10606] [EC:2.3.2.27]
+            17318  Mid1; midline 1 [KO:K08285] [EC:2.3.2.27]
+            69807  Trim32; tripartite motif-containing 32 [KO:K10607] [EC:2.3.2.27]
+            68729  Trim37; tripartite motif-containing 37 [KO:K10608] [EC:2.3.2.27]
+            56438  Rbx1; ring-box 1 [KO:K03868] [EC:2.3.2.32]
+            26965  Cul1; cullin 1 [KO:K03347]
+            21402  Skp1; S-phase kinase-associated protein 1 [KO:K03094]
+            103583  Fbxw11; F-box and WD-40 domain protein 11 [KO:K03362]
+            12234  Btrc; beta-transducin repeat containing protein [KO:K03362]
+            27401  Skp2; S-phase kinase-associated protein 2 [KO:K03875]
+            50754  Fbxw7; F-box and WD-40 domain protein 7 [KO:K10260]
+            230904  Fbxo2; F-box protein 2 [KO:K10099]
+            106052  Fbxo4; F-box protein 4 [KO:K10291]
+            71745  Cul2; cullin 2 [KO:K03870]
+            67923  Eloc; elongin C [KO:K03872]
+            67673  Elob; elongin B [KO:K03873]
+            22346  Vhl; von Hippel-Lindau tumor suppressor [KO:K03871]
+            26554  Cul3; cullin 3 [KO:K03869]
+            50868  Keap1; kelch-like ECH-associated protein 1 [KO:K10456]
+            242521  Klhl9; kelch-like 9 [KO:K10447]
+            67455  Klhl13; kelch-like 13 [KO:K10447]
+            246710  Rhobtb2; Rho-related BTB domain containing 2 [KO:K07868]
+            69288  Rhobtb1; Rho-related BTB domain containing 1 [KO:K07868]
+            72584  Cul4b; cullin 4B [KO:K10609]
+            99375  Cul4a; cullin 4A [KO:K10609]
+            13194  Ddb1; damage specific DNA binding protein 1 [KO:K10610]
+            107986  Ddb2; damage specific DNA binding protein 2 [KO:K10140]
+            71991  Ercc8; excision repaiross-complementing rodent repair deficiency, complementation group 8 [KO:K10570]
+            76375  Det1; de-etiolated homolog 1 (Arabidopsis) [KO:K10571]
+            19823  Rnf7; ring finger protein 7 [KO:K10611] [EC:2.3.2.32]
+            75717  Cul5; cullin 5 [KO:K10612]
+            12703  Socs1; suppressor of cytokine signaling 1 [KO:K04694]
+            12702  Socs3; suppressor of cytokine signaling 3 [KO:K04696]
+            66515  Cul7; cullin 7 [KO:K10613]
+            231672  Fbxw8; F-box and WD-40 domain protein 8 [KO:K10264]
+            66156  Anapc11; anaphase promoting complex subunit 11 [KO:K03358]
+            99152  Anapc2; anaphase promoting complex subunit 2 [KO:K03349]
+            107995  Cdc20; cell division cycle 20 [KO:K03363]
+            56371  Fzr1; fizzy and cell division cycle 20 related 1 [KO:K03364]
+            17222  Anapc1; anaphase promoting complex subunit 1 [KO:K03348]
+            217232  Cdc27; cell division cycle 27 [KO:K03350]
+            52206  Anapc4; anaphase promoting complex subunit 4 [KO:K03351]
+            59008  Anapc5; anaphase-promoting complex subunit 5 [KO:K03352]
+            69957  Cdc16; CDC16 cell division cycle 16 [KO:K03353]
+            56317  Anapc7; anaphase promoting complex subunit 7 [KO:K03354]
+            52563  Cdc23; CDC23 cell division cycle 23 [KO:K03355]
+            68999  Anapc10; anaphase promoting complex subunit 10 [KO:K03357]
+            66440  Cdc26; cell division cycle 26 [KO:K03359]
+            69010  Anapc13; anaphase promoting complex subunit 13 [KO:K12456]
+REFERENCE   PMID:16922370 (Japanese)
+  AUTHORS   Kamura T.
+  TITLE     [Cullin-based E3 family] Japanese
+  JOURNAL   Tanpakushitsu Kakusan Koso 51:1167-72 (2006)
+REFERENCE   PMID:16922408 (Japanese)
+  AUTHORS   Matsuda N.
+  TITLE     [Overview: hereditary disorders caused by dysfunction of ubiquitylation]
+  JOURNAL   Tanpakushitsu Kakusan Koso 51:1402-7 (2006)
+REFERENCE   PMID:16922367 (Japanese)
+  AUTHORS   Tokunaga F.
+  TITLE     [E2 ubiquitin-conjugating enzymes: structures and functions]
+  JOURNAL   Tanpakushitsu Kakusan Koso 51:1150-6 (2006)
+REFERENCE   PMID:16816840
+  AUTHORS   Nalepa G, Rolfe M, Harper JW.
+  TITLE     Drug discovery in the ubiquitin-proteasome system.
+  JOURNAL   Nat Rev Drug Discov 5:596-613 (2006)
+            DOI:10.1038/nrd2056
+REFERENCE   PMID:16405856
+  AUTHORS   Hsu YJ, Goodman SR.
+  TITLE     Spectrin and ubiquitination: a review.
+  JOURNAL   Cell Mol Biol (Noisy-le-grand) Suppl 51:OL801-7 (2005)
+REFERENCE   PMID:12944364
+  AUTHORS   Hatakeyama S, Nakayama KI.
+  TITLE     Ubiquitylation as a quality control system for intracellular proteins.
+  JOURNAL   J Biochem 134:1-8 (2003)
+            DOI:10.1093/jb/mvg106
+REFERENCE   PMID:17588513
+  AUTHORS   Lee J, Zhou P.
+  TITLE     DCAFs, the missing link of the CUL4-DDB1 ubiquitin ligase.
+  JOURNAL   Mol Cell 26:775-80 (2007)
+            DOI:10.1016/j.molcel.2007.06.001
+REL_PATHWAY mmu03050  Proteasome
+KO_PATHWAY  ko04120
+///

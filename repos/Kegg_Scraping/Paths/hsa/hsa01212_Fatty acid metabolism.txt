@@ -1,0 +1,22 @@
+ENTRY       hsa01212                    Pathway
+NAME        Fatty acid metabolism - Homo sapiens (human)
+PATHWAY_MAP hsa01212  Fatty acid metabolism
+MODULE      hsa_M00082  Fatty acid biosynthesis, initiation [PATH:hsa01212]
+            hsa_M00083  Fatty acid biosynthesis, elongation [PATH:hsa01212]
+            hsa_M00085  Fatty acid biosynthesis, elongation, mitochondria [PATH:hsa01212]
+            hsa_M00086  beta-Oxidation, acyl-CoA synthesis [PATH:hsa01212]
+            hsa_M00087  beta-Oxidation [PATH:hsa01212]
+            hsa_M00415  Fatty acid biosynthesis, elongation, endoplasmic reticulum [PATH:hsa01212]
+            hsa_M00861  beta-Oxidation, peroxisome, VLCFA [PATH:hsa01212]
+DISEASE     H00375  SBCAD deficiency
+            H00392  VLCAD deficiency
+            H00488  MCAD deficiency
+            H01352  Mitochondrial trifunctional protein deficiency
+            H01980  SCAD deficiency
+            H01981  Carnitine palmitoyltransferase I deficiency
+            H01982  Carnitine palmitoyltransferase II deficiency
+            H02277  Santavuori-Haltia disease
+DRUG        D05292  Oxfenicine (USAN/INN)
+ORGANISM    Homo sapiens (human) [GN:hsa]
+KO_PATHWAY  ko01212
+///

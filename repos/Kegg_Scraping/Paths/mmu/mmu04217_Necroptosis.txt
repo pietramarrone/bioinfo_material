@@ -1,0 +1,370 @@
+ENTRY       mmu04217                    Pathway
+NAME        Necroptosis - Mus musculus (mouse)
+DESCRIPTION Necroptosis is a programmed form of necrosis. It can be initiated by different stimuli, such as tumor necrosis factor (TNF), TNF-related apoptosis-inducing ligand (TRAIL), Fas ligand (FasL), interferon (IFN), LPS, viral DNA or RNA, DNA-damage agent and requires the kinase activity of receptor-interacting protein 1 (RIPK1) and RIPK3. Its execution involves ROS generation, calcium overload, the opening of the mitochondrial permeability transition pore, mitochondrial fission, inflammatory response and chromatinolysis. Necroptosis participates in many pathogenesis of diseases, including neurological diseases, retinal disorders, acute kidney injury, inflammatory diseases and microbial infections.
+CLASS       Cellular Processes; Cell growth and death
+PATHWAY_MAP mmu04217  Necroptosis
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        21926  Tnf; tumor necrosis factor [KO:K03156]
+            21937  Tnfrsf1a; tumor necrosis factor receptor superfamily, member 1a [KO:K03158]
+            71609  Tradd; TNFRSF1A-associated via death domain [KO:K03171]
+            22030  Traf2; TNF receptor-associated factor 2 [KO:K03173] [EC:2.3.2.27]
+            22033  Traf5; TNF receptor-associated factor 5 [KO:K09849]
+            19766  Ripk1; receptor (TNFRSF)-interacting serine-threonine kinase 1 [KO:K02861] [EC:2.7.11.1]
+            11797  Birc2; baculoviral IAP repeat-containing 2 [KO:K16060]
+            11796  Birc3; baculoviral IAP repeat-containing 3 [KO:K16060]
+            11798  Xiap; X-linked inhibitor of apoptosis [KO:K04725] [EC:2.3.2.27]
+            24105  Rbck1; RanBP-type and C3HC4-type zinc finger containing 1 [KO:K10630] [EC:2.3.2.31]
+            268749  Rnf31; ring finger protein 31 [KO:K11974] [EC:2.3.2.31]
+            106025  Sharpin; SHANK-associated RH domain interacting protein [KO:K20894]
+            263876  Spata2; spermatogenesis associated 2 [KO:K17595]
+            78779  Spata2l; spermatogenesis associated 2-like [KO:K17595]
+            74256  Cyld; CYLD lysine 63 deubiquitinase [KO:K08601] [EC:3.4.19.12]
+            14082  Fadd; Fas (TNFRSF6)-associated via death domain [KO:K02373]
+            12370  Casp8; caspase 8 [KO:K04398] [EC:3.4.22.61]
+            12633  Cflar; CASP8 and FADD-like apoptosis regulator [KO:K04724]
+            56532  Ripk3; receptor-interacting serine-threonine kinase 3 [KO:K08847] [EC:2.7.11.1]
+            13058  Cybb; cytochrome b-245, beta polypeptide [KO:K21421] [EC:1.-.-.-]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            11739  Slc25a4; solute carrier family 25 (mitochondrial carrier, adenine nucleotide translocator), member 4 [KO:K05863]
+            11740  Slc25a5; solute carrier family 25 (mitochondrial carrier, adenine nucleotide translocator), member 5 [KO:K05863]
+            73333  Slc25a31; solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 31 [KO:K05863]
+            67738  Ppid; peptidylprolyl isomerase D (cyclophilin D) [KO:K05864] [EC:5.2.1.8]
+            22333  Vdac1; voltage-dependent anion channel 1 [KO:K05862]
+            22334  Vdac2; voltage-dependent anion channel 2 [KO:K15040]
+            22335  Vdac3; voltage-dependent anion channel 3 [KO:K15041]
+            14661  Glud1; glutamate dehydrogenase 1 [KO:K00261] [EC:1.4.1.3]
+            14645  Glul; glutamate-ammonia ligase (glutamine synthetase) [KO:K01915] [EC:6.3.1.2]
+            19309  Pygm; muscle glycogen phosphorylase [KO:K00688] [EC:2.4.1.1]
+            110078  Pygb; brain glycogen phosphorylase [KO:K00688] [EC:2.4.1.1]
+            110095  Pygl; liver glycogen phosphorylase [KO:K00688] [EC:2.4.1.1]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            14319  Fth1; ferritin heavy polypeptide 1 [KO:K00522] [EC:1.16.3.2]
+            100862446  ferritin light chain 1 [KO:K13625]
+            14325  Ftl1; ferritin light polypeptide 1 [KO:K13625]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            11687  Alox15; arachidonate 15-lipoxygenase [KO:K00460] [EC:1.13.11.33]
+            12333  Capn1; calpain 1 [KO:K01367] [EC:3.4.22.52]
+            12334  Capn2; calpain 2 [KO:K03853] [EC:3.4.22.53]
+            20597  Smpd1; sphingomyelin phosphodiesterase 1, acid lysosomal [KO:K12350] [EC:3.1.4.12]
+            74568  Mlkl; mixed lineage kinase domain-like [KO:K08849] [EC:2.7.11.1]
+            72542  Pgam5; phosphoglycerate mutase family member 5 [KO:K15637] [EC:3.1.3.16]
+            74006  Dnm1l; dynamin 1-like [KO:K17065] [EC:3.6.5.5]
+            216799  Nlrp3; NLR family, pyrin domain containing 3 [KO:K12800]
+            66824  Pycard; PYD and CARD domain containing [KO:K12799]
+            12362  Casp1; caspase 1 [KO:K01370] [EC:3.4.22.36]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+            68953  Chmp2a; charged multivesicular body protein 2A [KO:K12191]
+            68942  Chmp2b; charged multivesicular body protein 2B [KO:K12192]
+            66700  Chmp3; charged multivesicular body protein 3 [KO:K12193]
+            66371  Chmp4c; charged multivesicular body protein 4C [KO:K12194]
+            75608  Chmp4b; charged multivesicular body protein 4B [KO:K12194]
+            208092  Chmp6; charged multivesicular body protein 6 [KO:K12195]
+            20479  Vps4b; vacuolar protein sorting 4B [KO:K12196]
+            116733  Vps4a; vacuolar protein sorting 4A [KO:K12196]
+            67028  2610002M06Rik; RIKEN cDNA 2610002M06 gene [KO:K12197]
+            67064  Chmp1b; charged multivesicular body protein 1B [KO:K12197]
+            234852  Chmp1a; charged multivesicular body protein 1A [KO:K12197]
+            76959  Chmp5; charged multivesicular body protein 5 [KO:K12198]
+            105513  Chmp7; charged multivesicular body protein 7 [KO:K15053]
+            58800  Trpm7; transient receptor potential cation channel, subfamily M, member 7 [KO:K04982] [EC:2.7.11.1]
+            16175  Il1a; interleukin 1 alpha [KO:K04383]
+            77125  Il33; interleukin 33 [KO:K12967]
+            15289  Hmgb1; high mobility group box 1 [KO:K10802]
+            22035  Tnfsf10; tumor necrosis factor (ligand) superfamily, member 10 [KO:K04721]
+            21933  Tnfrsf10b; tumor necrosis factor receptor superfamily, member 10b [KO:K04722]
+            14103  Fasl; Fas ligand (TNF superfamily, member 6) [KO:K04389]
+            14102  Fas; Fas (TNF receptor superfamily member 6) [KO:K04390]
+            14084  Faf1; Fas-associated factor 1 [KO:K20703]
+            15962  Ifna1; interferon alpha 1 [KO:K05414]
+            15965  Ifna2; interferon alpha 2 [KO:K05414]
+            15967  Ifna4; interferon alpha 4 [KO:K05414]
+            15968  Ifna5; interferon alpha 5 [KO:K05414]
+            15969  Ifna6; interferon alpha 6 [KO:K05414]
+            15970  Ifna7; interferon alpha 7 [KO:K05414]
+            15972  Ifna9; interferon alpha 9 [KO:K05414]
+            15964  Ifna11; interferon alpha 11 [KO:K05414]
+            242519  Ifna12; interferon alpha 12 [KO:K05414]
+            230396  Ifna13; interferon alpha 13 [KO:K05414]
+            404549  Ifna14; interferon alpha 14 [KO:K05414]
+            15974  Ifnab; interferon alpha B [KO:K05414]
+            242517  Ifna15; interferon alpha 15 [KO:K05414]
+            15977  Ifnb1; interferon beta 1, fibroblast [KO:K05415]
+            15978  Ifng; interferon gamma [KO:K04687]
+            15975  Ifnar1; interferon (alpha and beta) receptor 1 [KO:K05130]
+            15976  Ifnar2; interferon (alpha and beta) receptor 2 [KO:K05131]
+            15979  Ifngr1; interferon gamma receptor 1 [KO:K05132]
+            15980  Ifngr2; interferon gamma receptor 2 [KO:K05133]
+            16451  Jak1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            16452  Jak2; Janus kinase 2 [KO:K04447] [EC:2.7.10.2]
+            16453  Jak3; Janus kinase 3 [KO:K11218] [EC:2.7.10.2]
+            54721  Tyk2; tyrosine kinase 2 [KO:K11219] [EC:2.7.10.2]
+            20846  Stat1; signal transducer and activator of transcription 1 [KO:K11220]
+            20847  Stat2; signal transducer and activator of transcription 2 [KO:K11221]
+            20848  Stat3; signal transducer and activator of transcription 3 [KO:K04692]
+            20849  Stat4; signal transducer and activator of transcription 4 [KO:K11222]
+            20850  Stat5a; signal transducer and activator of transcription 5A [KO:K11223]
+            20851  Stat5b; signal transducer and activator of transcription 5B [KO:K11224]
+            20852  Stat6; signal transducer and activator of transcription 6 [KO:K11225]
+            16391  Irf9; interferon regulatory factor 9 [KO:K04693]
+            19106  Eif2ak2; eukaryotic translation initiation factor 2-alpha kinase 2 [KO:K16195] [EC:2.7.11.1]
+            21898  Tlr4; toll-like receptor 4 [KO:K10160]
+            225471  Ticam2; toll-like receptor adaptor molecule 2 [KO:K05409]
+            106759  Ticam1; toll-like receptor adaptor molecule 1 [KO:K05842]
+            142980  Tlr3; toll-like receptor 3 [KO:K05401]
+            58203  Zbp1; Z-DNA binding protein 1 [KO:K12965]
+            30941  Usp21; ubiquitin specific peptidase 21 [KO:K21634] [EC:3.4.19.12]
+            18412  Sqstm1; sequestosome 1 [KO:K14381]
+            15519  Hsp90aa1; heat shock protein 90, alpha (cytosolic), class A member 1 [KO:K04079]
+            15516  Hsp90ab1; heat shock protein 90 alpha (cytosolic), class B member 1 [KO:K04079]
+            21929  Tnfaip3; tumor necrosis factor, alpha-induced protein 3 [KO:K11859] [EC:3.4.19.12]
+            11545  Parp1; poly (ADP-ribose) polymerase family, member 1 [KO:K24070] [EC:2.4.2.30]
+            12122  Bid; BH3 interacting domain death agonist [KO:K04726]
+            12028  Bax; BCL2-associated X protein [KO:K02159]
+            26926  Aifm1; apoptosis-inducing factor, mitochondrion-associated 1 [KO:K04727] [EC:1.-.-.-]
+            15270  H2ax; H2A.X variant histone [KO:K11251]
+            319176  H2ac20; H2A clustered histone 20 [KO:K11251]
+            547160  H2al1e; H2A histone family member L1E [KO:K11251]
+            100042944  H2al1h; H2A histone family member L1H [KO:K11251]
+            319163  H2ac1; H2A clustered histone 1 [KO:K11251]
+            319165  H2ac7; H2A clustered histone 7 [KO:K11251]
+            319166  H2ac8; H2A clustered histone 8 [KO:K11251]
+            319167  H2ac11; H2A clustered histone 11 [KO:K11251]
+            319168  H2ac12; H2A clustered histone 12 [KO:K11251]
+            319169  H2ac15; H2A clustered histone 15 [KO:K11251]
+            319170  H2ac22; H2A clustered histone 22 [KO:K11251]
+            319171  H2ac24; H2A clustered histone 24 [KO:K11251]
+            319172  H2ac4; H2A clustered histone 4 [KO:K11251]
+            319173  H2ac10; H2A clustered histone 10 [KO:K11251]
+            319191  H2ac13; H2A clustered histone 13 [KO:K11251]
+            319192  H2ac19; H2A clustered histone 19 [KO:K11251]
+            665433  H2ac23; H2A clustered histone 23 [KO:K11251]
+            319164  H2ac6; H2A clustered histone 6 [KO:K11251]
+            26914  Macroh2a1; macroH2A.1 histone [KO:K11251]
+            404634  Macroh2a2; macroH2A.2 histone [KO:K11251]
+            232440  H2aj; H2J.A histone [KO:K11251]
+            100042943  H2al1g; H2A histone family member L1G [KO:K11251]
+            100042929  H2al1c; H2A histone family member L1C [KO:K11251]
+            621893  H2ac21; H2A clustered histone 21 [KO:K11251]
+            77605  H2az2; H2A.Z histone variant 2 [KO:K11251]
+            100042922  H2al1a; H2A histone family member L1A [KO:K11251]
+            333452  H2al1o; H2A histone family member L1O [KO:K11251]
+            385328  H2al1n; H2A histone family member L1N [KO:K11251]
+            68231  H2al2a; H2A histone family member L2A [KO:K11251]
+            100042946  H2al1i; H2A histone family member L1I [KO:K11251]
+            624153  H2ab2; H2A.B variant histone 2 [KO:K11251]
+            236663  H2al1j; H2A histone family member L1J [KO:K11251]
+            76383  H2al1m; H2A histone family member L1M [KO:K11251]
+            100042840  H2al2b; H2A histone family member L2B [KO:K11251]
+            100042931  H2al1d; H2A histone family member L1D [KO:K11251]
+            51788  H2az1; H2A.Z variant histone 1 [KO:K11251]
+            319162  H2aw; H2A.W histone [KO:K11251]
+            15267  H2ac18; H2A clustered histone 18 [KO:K11251]
+            547210  H2al2c; H2A histone family member L2C [KO:K11251]
+            624957  H2ab3; H2A.B variant histone 3 [KO:K11251]
+            547154  H2al1k; H2A histone family member L1K [KO:K11251]
+            100042927  H2al1b; H2A histone family member L1B [KO:K11251]
+            100039319  H2ab1; H2A.B variant histone 1 [KO:K11251]
+            100042939  H2al1f; H2A histone family member L1F [KO:K11251]
+            268373  Ppia; peptidylprolyl isomerase A [KO:K03767] [EC:5.2.1.8]
+            12043  Bcl2; B cell leukemia/lymphoma 2 [KO:K02161]
+COMPOUND    C00002  ATP
+            C00027  Hydrogen peroxide
+            C00076  Calcium cation
+            C00195  N-Acylsphingosine
+            C00219  Arachidonate
+            C00305  Magnesium cation
+            C00319  Sphingosine
+            C00550  Sphingomyelin
+            C14592  N-Methyl-N'-nitro-N-nitrosoguanidine
+            C16844  Hydroxyl radical
+REFERENCE   PMID:20823910
+  AUTHORS   Vandenabeele P, Galluzzi L, Vanden Berghe T, Kroemer G
+  TITLE     Molecular mechanisms of necroptosis: an ordered cellular explosion.
+  JOURNAL   Nat Rev Mol Cell Biol 11:700-14 (2010)
+            DOI:10.1038/nrm2970
+REFERENCE   PMID:26008591
+  AUTHORS   Brenner D, Blaser H, Mak TW
+  TITLE     Regulation of tumour necrosis factor signalling: live or let die.
+  JOURNAL   Nat Rev Immunol 15:362-74 (2015)
+            DOI:10.1038/nri3834
+REFERENCE   PMID:26775689
+  AUTHORS   Conrad M, Angeli JP, Vandenabeele P, Stockwell BR
+  TITLE     Regulated necrosis: disease relevance and therapeutic opportunities.
+  JOURNAL   Nat Rev Drug Discov 15:348-66 (2016)
+            DOI:10.1038/nrd.2015.6
+REFERENCE   PMID:24129419
+  AUTHORS   Ofengeim D, Yuan J
+  TITLE     Regulation of RIP1 kinase signalling at the crossroads of inflammation and cell death.
+  JOURNAL   Nat Rev Mol Cell Biol 14:727-36 (2013)
+            DOI:10.1038/nrm3683
+REFERENCE   PMID:27158445
+  AUTHORS   Murphy JM, Vince JE
+  TITLE     Post-translational control of RIPK3 and MLKL mediated necroptotic cell death.
+  JOURNAL   F1000Res 4:F1000 Faculty Rev-1297 (2015)
+            DOI:10.12688/f1000research.7046.1
+REFERENCE   PMID:24452471
+  AUTHORS   Vanden Berghe T, Linkermann A, Jouan-Lanhouet S, Walczak H, Vandenabeele P
+  TITLE     Regulated necrosis: the expanding network of non-apoptotic cell death pathways.
+  JOURNAL   Nat Rev Mol Cell Biol 15:135-47 (2014)
+            DOI:10.1038/nrm3737
+REFERENCE   PMID:27368376
+  AUTHORS   Dondelinger Y, Hulpiau P, Saeys Y, Bertrand MJ, Vandenabeele P
+  TITLE     An evolutionary perspective on the necroptotic pathway.
+  JOURNAL   Trends Cell Biol 26:721-32 (2016)
+            DOI:10.1016/j.tcb.2016.06.004
+REFERENCE   PMID:27746097
+  AUTHORS   Thapa RJ, Ingram JP, Ragan KB, Nogusa S, Boyd DF, Benitez AA, Sridharan H, Kosoff R, Shubina M, Landsteiner VJ, Andrake M, Vogel P, Sigal LJ, tenOever BR, Thomas PG, Upton JW, Balachandran S
+  TITLE     DAI Senses Influenza A Virus Genomic RNA and Activates RIPK3-Dependent Cell Death.
+  JOURNAL   Cell Host Microbe 20:674-681 (2016)
+            DOI:10.1016/j.chom.2016.09.014
+REFERENCE   PMID:27984721
+  AUTHORS   Yuan J, Najafov A, Py BF
+  TITLE     Roles of Caspases in Necrotic Cell Death.
+  JOURNAL   Cell 167:1693-1704 (2016)
+            DOI:10.1016/j.cell.2016.11.047
+REFERENCE   PMID:28138137
+  AUTHORS   Jorgensen I, Rayamajhi M, Miao EA
+  TITLE     Programmed cell death as a defence against infection.
+  JOURNAL   Nat Rev Immunol 17:151-164 (2017)
+            DOI:10.1038/nri.2016.147
+REFERENCE   PMID:20354226
+  AUTHORS   Vandenabeele P, Declercq W, Van Herreweghe F, Vanden Berghe T
+  TITLE     The role of the kinases RIP1 and RIP3 in TNF-induced necrosis.
+  JOURNAL   Sci Signal 3:re4 (2010)
+            DOI:10.1126/scisignal.3115re4
+REFERENCE   PMID:22075985
+  AUTHORS   Vanlangenakker N, Vanden Berghe T, Vandenabeele P
+  TITLE     Many stimuli pull the necrotic trigger, an overview.
+  JOURNAL   Cell Death Differ 19:75-86 (2012)
+            DOI:10.1038/cdd.2011.164
+REFERENCE   PMID:23913919
+  AUTHORS   Moriwaki K, Chan FK
+  TITLE     RIP3: a molecular switch for necrosis and inflammation.
+  JOURNAL   Genes Dev 27:1640-9 (2013)
+            DOI:10.1101/gad.223321.113
+REFERENCE   PMID:25146926
+  AUTHORS   Humphries F, Yang S, Wang B, Moynagh PN
+  TITLE     RIP kinases: key decision makers in cell death and innate immunity.
+  JOURNAL   Cell Death Differ 22:225-36 (2015)
+            DOI:10.1038/cdd.2014.126
+REFERENCE   PMID:28126382
+  AUTHORS   Wegner KW, Saleh D, Degterev A
+  TITLE     Complex Pathologic Roles of RIPK1 and RIPK3: Moving Beyond Necroptosis.
+  JOURNAL   Trends Pharmacol Sci 38:202-225 (2017)
+            DOI:10.1016/j.tips.2016.12.005
+REFERENCE   PMID:27545878
+  AUTHORS   Kupka S, De Miguel D, Draber P, Martino L, Surinova S, Rittinger K, Walczak H
+  TITLE     SPATA2-Mediated Binding of CYLD to HOIP Enables CYLD Recruitment to Signaling Complexes.
+  JOURNAL   Cell Rep 16:2271-80 (2016)
+            DOI:10.1016/j.celrep.2016.07.086
+REFERENCE   PMID:27219062
+  AUTHORS   Goodall ML, Fitzwalter BE, Zahedi S, Wu M, Rodriguez D, Mulcahy-Levy JM, Green DR, Morgan M, Cramer SD, Thorburn A
+  TITLE     The Autophagy Machinery Controls Cell Death Switching between Apoptosis and Necroptosis.
+  JOURNAL   Dev Cell 37:337-49 (2016)
+            DOI:10.1016/j.devcel.2016.04.018
+REFERENCE   PMID:19910467
+  AUTHORS   Xu G, Tan X, Wang H, Sun W, Shi Y, Burlingame S, Gu X, Cao G, Zhang T, Qin J, Yang J
+  TITLE     Ubiquitin-specific peptidase 21 inhibits tumor necrosis factor alpha-induced nuclear factor kappaB activation via binding to and deubiquitinating receptor-interacting protein 1.
+  JOURNAL   J Biol Chem 285:969-78 (2010)
+            DOI:10.1074/jbc.M109.042689
+REFERENCE   PMID:26971869
+  AUTHORS   Jacobsen AV, Silke J
+  TITLE     The importance of being chaperoned: HSP90 and necroptosis.
+  JOURNAL   Cell Chem Biol 23:205-7 (2016)
+            DOI:10.1016/j.chembiol.2016.02.003
+REFERENCE   PMID:25988900
+  AUTHORS   Gurung P, Man SM, Kanneganti TD
+  TITLE     A20 is a regulator of necroptosis.
+  JOURNAL   Nat Immunol 16:596-7 (2015)
+            DOI:10.1038/ni.3174
+REFERENCE   PMID:28025046
+  AUTHORS   Feng N, Anderson ME
+  TITLE     CaMKII is a nodal signal for multiple programmed cell death pathways in heart.
+  JOURNAL   J Mol Cell Cardiol 103:102-109 (2017)
+            DOI:10.1016/j.yjmcc.2016.12.007
+REFERENCE   PMID:19696789
+  AUTHORS   Zhivotovsky B, Galluzzi L, Kepp O, Kroemer G
+  TITLE     Adenine nucleotide translocase: a component of the phylogenetically conserved cell death machinery.
+  JOURNAL   Cell Death Differ 16:1419-25 (2009)
+            DOI:10.1038/cdd.2009.118
+REFERENCE   PMID:23898178
+  AUTHORS   Thapa RJ, Nogusa S, Chen P, Maki JL, Lerro A, Andrake M, Rall GF, Degterev A, Balachandran S
+  TITLE     Interferon-induced RIP1/RIP3-mediated necrosis requires PKR and is licensed by FADD and caspases.
+  JOURNAL   Proc Natl Acad Sci U S A 110:E3109-18 (2013)
+            DOI:10.1073/pnas.1301218110
+REFERENCE   PMID:21576359
+  AUTHORS   Thapa RJ, Basagoudanavar SH, Nogusa S, Irrinki K, Mallilankaraman K, Slifker MJ, Beg AA, Madesh M, Balachandran S
+  TITLE     NF-kappaB protects cells from gamma interferon-induced RIP1-dependent necroptosis.
+  JOURNAL   Mol Cell Biol 31:2934-46 (2011)
+            DOI:10.1128/MCB.05445-11
+REFERENCE   PMID:24565922
+  AUTHORS   Sridharan H, Upton JW
+  TITLE     Programmed necrosis in microbial pathogenesis.
+  JOURNAL   Trends Microbiol 22:199-207 (2014)
+            DOI:10.1016/j.tim.2014.01.005
+REFERENCE   PMID:21738214
+  AUTHORS   Cabon L, Galan-Malo P, Bouharrour A, Delavallee L, Brunelle-Navas MN, Lorenzo HK, Gross A, Susin SA
+  TITLE     BID regulates AIF-mediated caspase-independent necroptosis by promoting BAX activation.
+  JOURNAL   Cell Death Differ 19:245-56 (2012)
+            DOI:10.1038/cdd.2011.91
+REFERENCE   PMID:20697198
+  AUTHORS   Baritaud M, Boujrad H, Lorenzo HK, Krantic S, Susin SA
+  TITLE     Histone H2AX: The missing link in AIF-mediated caspase-independent programmed necrosis.
+  JOURNAL   Cell Cycle 9:3166-73 (2010)
+            DOI:10.4161/cc.9.16.12887
+REFERENCE   PMID:28279333
+  AUTHORS   Upton JW, Kaiser WJ
+  TITLE     DAI Another Way: Necroptotic Control of Viral Infection.
+  JOURNAL   Cell Host Microbe 21:290-293 (2017)
+            DOI:10.1016/j.chom.2017.01.016
+REFERENCE   PMID:26086143
+  AUTHORS   Silke J, Rickard JA, Gerlic M
+  TITLE     The diverse role of RIP kinases in necroptosis and inflammation.
+  JOURNAL   Nat Immunol 16:689-97 (2015)
+            DOI:10.1038/ni.3206
+REFERENCE   PMID:28388403
+  AUTHORS   Guo H, Kaiser WJ
+  TITLE     ESCRTing Necroptosis.
+  JOURNAL   Cell 169:186-187 (2017)
+            DOI:10.1016/j.cell.2017.03.030
+REFERENCE   PMID:28388412
+  AUTHORS   Gong YN, Guy C, Olauson H, Becker JU, Yang M, Fitzgerald P, Linkermann A, Green DR
+  TITLE     ESCRT-III Acts Downstream of MLKL to Regulate Necroptotic Cell Death and Its Consequences.
+  JOURNAL   Cell 169:286-300.e16 (2017)
+            DOI:10.1016/j.cell.2017.03.020
+REFERENCE   PMID:27999433
+  AUTHORS   Petrie EJ, Hildebrand JM, Murphy JM
+  TITLE     Insane in the membrane: a structural perspective of MLKL function in necroptosis.
+  JOURNAL   Immunol Cell Biol 95:152-159 (2017)
+            DOI:10.1038/icb.2016.125
+REFERENCE   PMID:24316671
+  AUTHORS   Cai Z, Jitkaew S, Zhao J, Chiang HC, Choksi S, Liu J, Ward Y, Wu LG, Liu ZG
+  TITLE     Plasma membrane translocation of trimerized MLKL protein is required for TNF-induced necroptosis.
+  JOURNAL   Nat Cell Biol 16:55-65 (2014)
+            DOI:10.1038/ncb2883
+REFERENCE   PMID:25693118
+  AUTHORS   Lawlor KE, Khan N, Mildenhall A, Gerlic M, Croker BA, D'Cruz AA, Hall C, Kaur Spall S, Anderton H, Masters SL, Rashidi M, Wicks IP, Alexander WS, Mitsuuchi Y, Benetatos CA, Condon SM, Wong WW, Silke J, Vaux DL, Vince JE
+  TITLE     RIPK3 promotes cell death and NLRP3 inflammasome activation in the absence of MLKL.
+  JOURNAL   Nat Commun 6:6282 (2015)
+            DOI:10.1038/ncomms7282
+REFERENCE   PMID:27974745
+  AUTHORS   Shlomovitz I, Zargrian S, Gerlic M
+  TITLE     Mechanisms of RIPK3-induced inflammation.
+  JOURNAL   Immunol Cell Biol 95:166-172 (2017)
+            DOI:10.1038/icb.2016.124
+REL_PATHWAY mmu00250  Alanine, aspartate and glutamate metabolism
+            mmu04210  Apoptosis
+            mmu04668  TNF signaling pathway
+            mmu04922  Glucagon signaling pathway
+KO_PATHWAY  ko04217
+///

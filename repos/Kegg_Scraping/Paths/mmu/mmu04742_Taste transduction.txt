@@ -1,0 +1,206 @@
+ENTRY       mmu04742                    Pathway
+NAME        Taste transduction - Mus musculus (mouse)
+DESCRIPTION Five basic tastes are recognized by humans and most other animals - bitter, sweet, sour, salty and umami. In vertebrates, taste stimuli are detected by taste receptor cells (TRCs). At least three distinct cell types are found in mammalian taste buds : type I cells, type II cells, and type III cells. Type I cells express epithelial sodium channel (ENaC) and are considered to be the major mediator of perception of low salt. In type II cells, transduction of bitter, sweet and umami is mediated by a canonical PLC-beta/IP3-signaling cascade, which culminates in the opening of the TRPM5 ion channel. This produces a depolarization that may allow CALMH1 channels to open and release ATP, which serves as a neurotransmitter to activate closely associated nerve afferents expressing P2X2, P2X3 receptors and adjacent type III cells expressing P2Y4 receptors. Type II taste cells also secrete acetylcholine (ACh) that appears to stimulate muscarinic receptors, specifically M3, on the same or neighboring Type II cells. This muscarinic feedback augments taste-evoked release of ATP. In type III cells, sour taste is initiated when protons enter through apically located proton-selective ion channels: polycystic kidney disease 2-like 1 protein (PKD2L1) and polycystic kidney disease 1-like 3 protein (PKD1L3) channels. Weak acids may also activate sour cells by penetrating the cell membrane and leading to closure of resting K+ channels and membrane depolarization. Further, voltage-gated Ca2+ channels are activated and release vesicular serotonin (5-HT), norepinephrine (NE) and gamma-aminobutyric acid (GABA). 5-HT and GABA provide negative paracrine feedback onto receptor cells by activating 5-HT1A and GABAA, GABAB receptors, respectively. 5-HT also functions as a transmitter between presynaptic cells and the sensory afferent.
+CLASS       Organismal Systems; Sensory system
+PATHWAY_MAP mmu04742  Taste transduction
+DBLINKS     GO: 0050909
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        20276  Scnn1a; sodium channel, nonvoltage-gated 1 alpha [KO:K04824]
+            20277  Scnn1b; sodium channel, nonvoltage-gated 1 beta [KO:K04825]
+            20278  Scnn1g; sodium channel, nonvoltage-gated 1 gamma [KO:K04827]
+            12496  Entpd2; ectonucleoside triphosphate diphosphohydrolase 2 [KO:K01509] [EC:3.6.1.3]
+            83770  Tas1r2; taste receptor, type 1, member 2 [KO:K04625]
+            83771  Tas1r3; taste receptor, type 1, member 3 [KO:K04626]
+            242851  Gnat3; guanine nucleotide binding protein, alpha transducing 3 [KO:K19729]
+            14695  Gnb3; guanine nucleotide binding protein (G protein), beta 3 [KO:K07825]
+            64337  Gng13; guanine nucleotide binding protein (G protein), gamma 13 [KO:K04547]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            56843  Trpm5; transient receptor potential cation channel, subfamily M, member 5 [KO:K04980]
+            110876  Scn2a; sodium channel, voltage-gated, type II, alpha [KO:K04834]
+            20269  Scn3a; sodium channel, voltage-gated, type III, alpha [KO:K04836]
+            20274  Scn9a; sodium channel, voltage-gated, type IX, alpha [KO:K04841]
+            546729  Calhm1; calcium homeostasis modulator 1 [KO:K19738]
+            231602  P2rx2; purinergic receptor P2X, ligand-gated ion channel, 2 [KO:K05216]
+            228139  P2rx3; purinergic receptor P2X, ligand-gated ion channel, 3 [KO:K05217]
+            18441  P2ry1; purinergic receptor P2Y, G-protein coupled 1 [KO:K04270]
+            57385  P2ry4; pyrimidinergic receptor P2Y, G-protein coupled, 4 [KO:K04271]
+            12671  Chrm3; cholinergic receptor, muscarinic 3, cardiac [KO:K04131]
+            110326  Tas1r1; taste receptor, type 1, member 1 [KO:K04624]
+            14816  Grm1; glutamate receptor, metabotropic 1 [KO:K04603]
+            268934  Grm4; glutamate receptor, metabotropic 4 [KO:K04607]
+            112408  Tas2r116; taste receptor, type 2, member 116 [KO:K08474]
+            353148  Tas2r139; taste receptor, type 2, member 139 [KO:K08474]
+            353165  Tas2r136; taste receptor, type 2, member 136 [KO:K08474]
+            353166  Tas2r117; taste receptor, type 2, member 117 [KO:K08474]
+            353167  Tas2r123; taste receptor, type 2, member 123 [KO:K08474]
+            353325  Tas2r115; taste receptor, type 2, member 115 [KO:K08474]
+            387339  Tas2r102; taste receptor, type 2, member 102 [KO:K08474]
+            387340  Tas2r104; taste receptor, type 2, member 104 [KO:K08474]
+            387341  Tas2r106; taste receptor, type 2, member 106 [KO:K08474]
+            387342  Tas2r107; taste receptor, type 2, member 107 [KO:K08474]
+            387343  Tas2r109; taste receptor, type 2, member 109 [KO:K08474]
+            387344  Tas2r110; taste receptor, type 2, member 110 [KO:K08474]
+            387345  Tas2r113; taste receptor, type 2, member 113 [KO:K08474]
+            387346  Tas2r114; taste receptor, type 2, member 114 [KO:K08474]
+            387347  Tas2r118; taste receptor, type 2, member 118 [KO:K08474]
+            387348  Tas2r120; taste receptor, type 2, member 120 [KO:K08474]
+            387349  Tas2r121; taste receptor, type 2, member 121 [KO:K08474]
+            387351  Tas2r124; taste receptor, type 2, member 124 [KO:K08474]
+            387352  Tas2r125; taste receptor, type 2, member 125 [KO:K08474]
+            387353  Tas2r126; taste receptor, type 2, member 126 [KO:K08474]
+            387354  Tas2r129; taste receptor, type 2, member 129 [KO:K08474]
+            387355  Tas2r130; taste receptor, type 2, member 130 [KO:K08474]
+            387356  Tas2r131; taste receptor, type 2, member 131 [KO:K08474]
+            387511  Tas2r134; taste receptor, type 2, member 134 [KO:K08474]
+            387512  Tas2r135; taste receptor, type 2, member 135 [KO:K08474]
+            387513  Tas2r138; taste receptor, type 2, member 138 [KO:K08474]
+            387514  Tas2r143; taste receptor, type 2, member 143 [KO:K08474]
+            387515  Tas2r144; taste receptor, type 2, member 144 [KO:K08474]
+            387616  Tas2r140; taste receptor, type 2, member 140 [KO:K08474]
+            57252  Tas2r105; taste receptor, type 2, member 105 [KO:K08474]
+            57253  Tas2r108; taste receptor, type 2, member 108 [KO:K08474]
+            57254  Tas2r119; taste receptor, type 2, member 119 [KO:K08474]
+            574417  Tas2r137; taste receptor, type 2, member 137 [KO:K08474]
+            277899  Gm725; predicted gene 725 [KO:K08474]
+            630845  Tas2r122; taste receptor, type 2, member 122 [KO:K08474]
+            667992  Tas2r103; taste receptor, type 2, member 103 [KO:K08474]
+            18573  Pde1a; phosphodiesterase 1A, calmodulin-dependent [KO:K13755] [EC:3.1.4.17]
+            18574  Pde1b; phosphodiesterase 1B, Ca2+-calmodulin dependent [KO:K13755] [EC:3.1.4.17]
+            18575  Pde1c; phosphodiesterase 1C [KO:K13755] [EC:3.1.4.17]
+            329064  Pkd2l1; polycystic kidney disease 2-like 1 [KO:K04990]
+            244646  Pkd1l3; polycystic kidney disease 1 like 3 [KO:K04989]
+            16529  Kcnk5; potassium channel, subfamily K, member 5 [KO:K04916]
+            330953  Hcn4; hyperpolarization-activated, cyclic nucleotide-gated K+ 4 [KO:K04957]
+            12286  Cacna1a; calcium channel, voltage-dependent, P/Q type, alpha 1A subunit [KO:K04344]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            14394  Gabra1; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 1 [KO:K05175]
+            14395  Gabra2; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 2 [KO:K05175]
+            14396  Gabra3; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 3 [KO:K05175]
+            14397  Gabra4; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 4 [KO:K05175]
+            110886  Gabra5; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 5 [KO:K05175]
+            14399  Gabra6; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 6 [KO:K05175]
+            54393  Gabbr1; gamma-aminobutyric acid (GABA) B receptor, 1 [KO:K04615]
+            242425  Gabbr2; gamma-aminobutyric acid (GABA) B receptor, 2 [KO:K04615]
+            15550  Htr1a; 5-hydroxytryptamine (serotonin) receptor 1A [KO:K04153]
+            15551  Htr1b; 5-hydroxytryptamine (serotonin) receptor 1B [KO:K04153]
+            15552  Htr1d; 5-hydroxytryptamine (serotonin) receptor 1D [KO:K04153]
+            15557  Htr1f; 5-hydroxytryptamine (serotonin) receptor 1F [KO:K04153]
+            15561  Htr3a; 5-hydroxytryptamine (serotonin) receptor 3A [KO:K04819]
+            57014  Htr3b; 5-hydroxytryptamine (serotonin) receptor 3B [KO:K04819]
+            11418  Asic2; acid-sensing (proton-gated) ion channel 2 [KO:K04828]
+COMPOUND    C00002  ATP
+            C00008  ADP
+            C00020  AMP
+            C00025  L-Glutamate
+            C00031  D-Glucose
+            C00076  Calcium cation
+            C00080  H+
+            C00089  Sucrose
+            C00095  D-Fructose
+            C00130  IMP
+            C00133  D-Alanine
+            C00144  GMP
+            C00149  (S)-Malate
+            C00158  Citrate
+            C00208  Maltose
+            C00238  Potassium cation
+            C00334  4-Aminobutanoate
+            C00547  L-Noradrenaline
+            C00575  3',5'-Cyclic AMP
+            C00740  D-Serine
+            C00780  Serotonin
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01327  Hydrochloric acid
+            C01330  Sodium cation
+            C01451  Salicin
+            C01996  Acetylcholine
+            C02265  D-Phenylalanine
+            C06526  Quinine
+            C11045  Aspartame
+            C12283  Saccharin
+            C12284  Saccharin sodium anhydrous
+            C19378  Cyclamate
+            D08836  Acesulfame potassium (NF)
+REFERENCE   PMID:24607224
+  AUTHORS   Liman ER, Zhang YV, Montell C
+  TITLE     Peripheral coding of taste.
+  JOURNAL   Neuron 81:984-1000 (2014)
+            DOI:10.1016/j.neuron.2014.02.022
+REFERENCE   PMID:24385952
+  AUTHORS   Kinnamon SC, Finger TE
+  TITLE     A taste for ATP: neurotransmission in taste buds.
+  JOURNAL   Front Cell Neurosci 7:264 (2013)
+            DOI:10.3389/fncel.2013.00264
+REFERENCE   PMID:23261954
+  AUTHORS   Roper SD
+  TITLE     Taste buds as peripheral chemosensory processors.
+  JOURNAL   Semin Cell Dev Biol 24:71-9 (2013)
+            DOI:10.1016/j.semcdb.2012.12.002
+REFERENCE   PMID:21481196
+  AUTHORS   Kinnamon SC
+  TITLE     Taste receptor signalling - from tongues to lungs.
+  JOURNAL   Acta Physiol (Oxf) 204:158-68 (2012)
+            DOI:10.1111/j.1748-1716.2011.02308.x
+REFERENCE   PMID:23587289
+  AUTHORS   Kinnamon SC
+  TITLE     Neurosensory transmission without a synapse: new perspectives on taste signaling.
+  JOURNAL   BMC Biol 11:42 (2013)
+            DOI:10.1186/1741-7007-11-42
+REFERENCE   PMID:20696704
+  AUTHORS   Chaudhari N, Roper SD
+  TITLE     The cell biology of taste.
+  JOURNAL   J Cell Biol 190:285-96 (2010)
+            DOI:10.1083/jcb.201003144
+REFERENCE   PMID:19439032
+  AUTHORS   Vandenbeuch A, Kinnamon SC
+  TITLE     Why do taste cells generate action potentials?
+  JOURNAL   J Biol 8:42 (2009)
+            DOI:10.1186/jbiol138
+REFERENCE   PMID:17108952
+  AUTHORS   Chandrashekar J, Hoon MA, Ryba NJ, Zuker CS
+  TITLE     The receptors and cells for mammalian taste.
+  JOURNAL   Nature 444:288-94 (2006)
+            DOI:10.1038/nature05401
+REFERENCE   PMID:23959882
+  AUTHORS   Vandenbeuch A, Anderson CB, Parnes J, Enjyoji K, Robson SC, Finger TE, Kinnamon SC
+  TITLE     Role of the ectonucleotidase NTPDase2 in taste bud function.
+  JOURNAL   Proc Natl Acad Sci U S A 110:14789-94 (2013)
+            DOI:10.1073/pnas.1309468110
+REFERENCE   PMID:23467090
+  AUTHORS   Taruno A, Vingtdeux V, Ohmoto M, Ma Z, Dvoryanchikov G, Li A, Adrien L, Zhao H, Leung S, Abernethy M, Koppel J, Davies P, Civan MM, Chaudhari N, Matsumoto I, Hellekant G, Tordoff MG, Marambaud P, Foskett JK
+  TITLE     CALHM1 ion channel mediates purinergic neurotransmission of sweet, bitter and umami tastes.
+  JOURNAL   Nature 495:223-6 (2013)
+            DOI:10.1038/nature11906
+REFERENCE   PMID:19284629
+  AUTHORS   Gao N, Lu M, Echeverri F, Laita B, Kalabat D, Williams ME, Hevezi P, Zlotnik A, Moyer BD
+  TITLE     Voltage-gated sodium channels in taste bud cells.
+  JOURNAL   BMC Neurosci 10:20 (2009)
+            DOI:10.1186/1471-2202-10-20
+REFERENCE   PMID:25820328
+  AUTHORS   Zheng W, Hussein S, Yang J, Huang J, Zhang F, Hernandez-Anzaldo S, Fernandez-Patron C, Cao Y, Zeng H, Tang J, Chen XZ
+  TITLE     A novel PKD2L1 C-terminal domain critical for trimerization and channel function.
+  JOURNAL   Sci Rep 5:9460 (2015)
+            DOI:10.1038/srep09460
+REFERENCE   PMID:17287577
+  AUTHORS   Shimada S, Ueda T, Ishida Y, Yamamoto T, Ugawa S
+  TITLE     Acid-sensing ion channels in taste buds.
+  JOURNAL   Arch Histol Cytol 69:227-31 (2006)
+            DOI:10.1679/aohc.69.227
+REFERENCE   PMID:22570381
+  AUTHORS   Dando R, Roper SD
+  TITLE     Acetylcholine is released from taste cells, enhancing taste signalling.
+  JOURNAL   J Physiol 590:3009-17 (2012)
+            DOI:10.1113/jphysiol.2012.232009
+REFERENCE   PMID:14715493
+  AUTHORS   Kaya N, Shen T, Lu SG, Zhao FL, Herness S
+  TITLE     A paracrine signaling role for serotonin in rat taste buds: expression and localization of serotonin receptor subtypes.
+  JOURNAL   Am J Physiol Regul Integr Comp Physiol 286:R649-58 (2004)
+            DOI:10.1152/ajpregu.00572.2003
+REL_PATHWAY mmu04020  Calcium signaling pathway
+KO_PATHWAY  ko04742
+///

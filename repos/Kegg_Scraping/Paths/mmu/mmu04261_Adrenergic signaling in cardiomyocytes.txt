@@ -1,0 +1,264 @@
+ENTRY       mmu04261                    Pathway
+NAME        Adrenergic signaling in cardiomyocytes - Mus musculus (mouse)
+DESCRIPTION Cardiac myocytes express at least six subtypes of adrenergic receptor (AR) which include three subtypes of beta-AR (beta-1, beta-2, beta-3) and three subtypes of the alpha-1-AR (alpha-1A, alpha-1B, and alpha-1C). In the human heart the beta-1-AR is the pre- dominate receptor. Acute sympathetic stimulation of cardiac beta-1-ARs induces positive inotropic and chronotropic effects, the most effective mechanism to acutely increase output of the heart, by coupling to Gs, formation of cAMP by adenylyl cyclase (AC), and PKA- dependent phosphorylation of various target proteins (e.g., ryanodine receptor [RyR]; phospholamban [PLB], troponin I [TnI], and the L-type Ca2+ channel [LTCC]). Chronic beta-1-AR stimulation is detrimental and induces cardiomyocyte hypertrophy and apoptosis. beta-2-AR coupled to Gs exerts a proapoptotic action as well as beta-1-AR, while beta-2-AR coupled to Gi exerts an antiapoptotic action.
+CLASS       Organismal Systems; Circulatory system
+PATHWAY_MAP mmu04261  Adrenergic signaling in cardiomyocytes
+DBLINKS     GO: 0001997
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        11554  Adrb1; adrenergic receptor, beta 1 [KO:K04141]
+            11555  Adrb2; adrenergic receptor, beta 2 [KO:K04142]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            11928  Atp1a1; ATPase, Na+/K+ transporting, alpha 1 polypeptide [KO:K01539] [EC:7.2.2.13]
+            98660  Atp1a2; ATPase, Na+/K+ transporting, alpha 2 polypeptide [KO:K01539] [EC:7.2.2.13]
+            232975  Atp1a3; ATPase, Na+/K+ transporting, alpha 3 polypeptide [KO:K01539] [EC:7.2.2.13]
+            27222  Atp1a4; ATPase, Na+/K+ transporting, alpha 4 polypeptide [KO:K01539] [EC:7.2.2.13]
+            67821  Atp1b4; ATPase, (Na+)/K+ transporting, beta 4 polypeptide [KO:K01540]
+            11931  Atp1b1; ATPase, Na+/K+ transporting, beta 1 polypeptide [KO:K01540]
+            11932  Atp1b2; ATPase, Na+/K+ transporting, beta 2 polypeptide [KO:K01540]
+            11933  Atp1b3; ATPase, Na+/K+ transporting, beta 3 polypeptide [KO:K01540]
+            11936  Fxyd2; FXYD domain-containing ion transport regulator 2 [KO:K01538]
+            20544  Slc9a1; solute carrier family 9 (sodium/hydrogen exchanger), member 1 [KO:K05742]
+            16535  Kcnq1; potassium voltage-gated channel, subfamily Q, member 1 [KO:K04926]
+            16509  Kcne1; potassium voltage-gated channel, Isk-related subfamily, member 1 [KO:K04894]
+            67972  Atp2b1; ATPase, Ca++ transporting, plasma membrane 1 [KO:K05850] [EC:7.2.2.10]
+            320707  Atp2b3; ATPase, Ca++ transporting, plasma membrane 3 [KO:K05850] [EC:7.2.2.10]
+            381290  Atp2b4; ATPase, Ca++ transporting, plasma membrane 4 [KO:K05850] [EC:7.2.2.10]
+            11941  Atp2b2; ATPase, Ca++ transporting, plasma membrane 2 [KO:K05850] [EC:7.2.2.10]
+            20541  Slc8a1; solute carrier family 8 (sodium/calcium exchanger), member 1 [KO:K05849]
+            110891  Slc8a2; solute carrier family 8 (sodium/calcium exchanger), member 2 [KO:K05849]
+            110893  Slc8a3; solute carrier family 8 (sodium/calcium exchanger), member 3 [KO:K05849]
+            20271  Scn5a; sodium channel, voltage-gated, type V, alpha [KO:K04838]
+            20272  Scn7a; sodium channel, voltage-gated, type VII, alpha [KO:K04839]
+            20266  Scn1b; sodium channel, voltage-gated, type I, beta [KO:K04845]
+            399548  Scn4b; sodium channel, type IV, beta [KO:K04848]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            12295  Cacnb1; calcium channel, voltage-dependent, beta 1 subunit [KO:K04862]
+            12296  Cacnb2; calcium channel, voltage-dependent, beta 2 subunit [KO:K04863]
+            12297  Cacnb3; calcium channel, voltage-dependent, beta 3 subunit [KO:K04864]
+            12298  Cacnb4; calcium channel, voltage-dependent, beta 4 subunit [KO:K04865]
+            12293  Cacna2d1; calcium channel, voltage-dependent, alpha2/delta subunit 1 [KO:K04858]
+            56808  Cacna2d2; calcium channel, voltage-dependent, alpha 2/delta subunit 2 [KO:K04859]
+            12294  Cacna2d3; calcium channel, voltage-dependent, alpha2/delta subunit 3 [KO:K04860]
+            319734  Cacna2d4; calcium channel, voltage-dependent, alpha 2/delta subunit 4 [KO:K04861]
+            12299  Cacng1; calcium channel, voltage-dependent, gamma subunit 1 [KO:K04866]
+            12300  Cacng2; calcium channel, voltage-dependent, gamma subunit 2 [KO:K04867]
+            54376  Cacng3; calcium channel, voltage-dependent, gamma subunit 3 [KO:K04868]
+            54377  Cacng4; calcium channel, voltage-dependent, gamma subunit 4 [KO:K04869]
+            140723  Cacng5; calcium channel, voltage-dependent, gamma subunit 5 [KO:K04870]
+            54378  Cacng6; calcium channel, voltage-dependent, gamma subunit 6 [KO:K04871]
+            81904  Cacng7; calcium channel, voltage-dependent, gamma subunit 7 [KO:K04872]
+            81905  Cacng8; calcium channel, voltage-dependent, gamma subunit 8 [KO:K04873]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            20191  Ryr2; ryanodine receptor 2, cardiac [KO:K04962]
+            19052  Ppp2ca; protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform [KO:K04382] [EC:3.1.3.16]
+            19053  Ppp2cb; protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform [KO:K04382] [EC:3.1.3.16]
+            51792  Ppp2r1a; protein phosphatase 2, regulatory subunit A, alpha [KO:K03456]
+            73699  Ppp2r1b; protein phosphatase 2, regulatory subunit A, beta [KO:K03456]
+            52432  Ppp2r2d; protein phosphatase 2, regulatory subunit B, delta [KO:K04354]
+            72930  Ppp2r2b; protein phosphatase 2, regulatory subunit B, beta [KO:K04354]
+            269643  Ppp2r2c; protein phosphatase 2, regulatory subunit B, gamma [KO:K04354]
+            71978  Ppp2r2a; protein phosphatase 2, regulatory subunit B, alpha [KO:K04354]
+            100039815  Gm2436; predicted gene 2436 [KO:K11583]
+            100039830  Gm2446; predicted gene 2446 [KO:K11583]
+            59032  Ppp2r3c; protein phosphatase 2, regulatory subunit B'', gamma [KO:K11583]
+            235542  Ppp2r3a; protein phosphatase 2, regulatory subunit B'', alpha [KO:K11583]
+            19054  Ppp2r3d; protein phosphatase 2 (formerly 2A), regulatory subunit B'', delta [KO:K11583]
+            225849  Ppp2r5b; protein phosphatase 2, regulatory subunit B', beta [KO:K11584]
+            26931  Ppp2r5c; protein phosphatase 2, regulatory subunit B', gamma [KO:K11584]
+            21770  Ppp2r5d; protein phosphatase 2, regulatory subunit B', delta [KO:K11584]
+            26932  Ppp2r5e; protein phosphatase 2, regulatory subunit B', epsilon [KO:K11584]
+            226849  Ppp2r5a; protein phosphatase 2, regulatory subunit B', alpha [KO:K11584]
+            19045  Ppp1ca; protein phosphatase 1 catalytic subunit alpha [KO:K06269] [EC:3.1.3.16]
+            19046  Ppp1cb; protein phosphatase 1 catalytic subunit beta [KO:K06269] [EC:3.1.3.16]
+            19047  Ppp1cc; protein phosphatase 1 catalytic subunit gamma [KO:K06269] [EC:3.1.3.16]
+            434233  Ppp1ccb; protein phosphatase 1 catalytic subunit gamma B [KO:K06269] [EC:3.1.3.16]
+            21924  Tnnc1; troponin C, cardiac/slow skeletal [KO:K05865]
+            21954  Tnni3; troponin I, cardiac 3 [KO:K12044]
+            21956  Tnnt2; troponin T2, cardiac [KO:K12045]
+            22003  Tpm1; tropomyosin 1, alpha [KO:K10373]
+            22004  Tpm2; tropomyosin 2, beta [KO:K10374]
+            59069  Tpm3; tropomyosin 3, gamma [KO:K09290]
+            326618  Tpm4; tropomyosin 4 [KO:K10375]
+            11464  Actc1; actin, alpha, cardiac muscle 1 [KO:K12314]
+            140781  Myh7; myosin, heavy polypeptide 7, cardiac muscle, beta [KO:K17751]
+            17888  Myh6; myosin, heavy polypeptide 6, cardiac muscle, alpha [KO:K17751]
+            17906  Myl2; myosin, light polypeptide 2, regulatory, cardiac, slow [KO:K10351]
+            17897  Myl3; myosin, light polypeptide 3 [KO:K12749]
+            17896  Myl4; myosin, light polypeptide 4 [KO:K12750]
+            18821  Pln; phospholamban [KO:K05852]
+            11937  Atp2a1; ATPase, Ca++ transporting, cardiac muscle, fast twitch 1 [KO:K05853] [EC:7.2.2.10]
+            53313  Atp2a3; ATPase, Ca++ transporting, ubiquitous [KO:K05853] [EC:7.2.2.10]
+            11938  Atp2a2; ATPase, Ca++ transporting, cardiac muscle, slow twitch 2 [KO:K05853] [EC:7.2.2.10]
+            11606  Agt; angiotensinogen (serpin peptidase inhibitor, clade A, member 8) [KO:K09821]
+            11607  Agtr1a; angiotensin II receptor, type 1a [KO:K04166]
+            11608  Agtr1b; angiotensin II receptor, type 1b [KO:K04166]
+            11609  Agtr2; angiotensin II receptor, type 2 [KO:K04167]
+            11549  Adra1a; adrenergic receptor, alpha 1a [KO:K04135]
+            11548  Adra1b; adrenergic receptor, alpha 1b [KO:K04136]
+            11550  Adra1d; adrenergic receptor, alpha 1d [KO:K04137]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            58200  Ppp1r1a; protein phosphatase 1, regulatory inhibitor subunit 1A [KO:K08050]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            73086  Rps6ka5; ribosomal protein S6 kinase, polypeptide 5 [KO:K04445] [EC:2.7.11.1]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            11909  Atf2; activating transcription factor 2 [KO:K04450]
+            11911  Atf4; activating transcription factor 4 [KO:K04374]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            12915  Atf6b; activating transcription factor 6 beta [KO:K09049]
+            12916  Crem; cAMP responsive element modulator [KO:K09052]
+            12043  Bcl2; B cell leukemia/lymphoma 2 [KO:K02161]
+            223864  Rapgef3; Rap guanine nucleotide exchange factor (GEF) 3 [KO:K08014]
+            56508  Rapgef4; Rap guanine nucleotide exchange factor (GEF) 4 [KO:K04351]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            30955  Pik3cg; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [KO:K21289] [EC:2.7.1.153]
+            320207  Pik3r5; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            104709  Pik3r6; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+COMPOUND    C00076  Calcium cation
+            C00080  H+
+            C00165  Diacylglycerol
+            C00238  Potassium cation
+            C00547  L-Noradrenaline
+            C00575  3',5'-Cyclic AMP
+            C00788  L-Adrenaline
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01330  Sodium cation
+            C07056  Isoproterenol
+REFERENCE   PMID:19883653
+  AUTHORS   Grimm M, Brown JH
+  TITLE     Beta-adrenergic receptor signaling in the heart: role of CaMKII.
+  JOURNAL   J Mol Cell Cardiol 48:322-30 (2010)
+            DOI:10.1016/j.yjmcc.2009.10.016
+REFERENCE   PMID:21212391
+  AUTHORS   Yang JH, Saucerman JJ
+  TITLE     Computational models reduce complexity and accelerate insight into cardiac signaling networks.
+  JOURNAL   Circ Res 108:85-97 (2011)
+            DOI:10.1161/CIRCRESAHA.110.223602
+REFERENCE   PMID:16765984
+  AUTHORS   Schaub MC, Hefti MA, Zaugg M
+  TITLE     Integration of calcium with the signaling network in cardiac myocytes.
+  JOURNAL   J Mol Cell Cardiol 41:183-214 (2006)
+            DOI:10.1016/j.yjmcc.2006.04.005
+REFERENCE   PMID:22022314
+  AUTHORS   Taggart P, Boyett MR, Logantha S, Lambiase PD
+  TITLE     Anger, emotion, and arrhythmias: from brain to heart.
+  JOURNAL   Front Physiol 2:67 (2011)
+            DOI:10.3389/fphys.2011.00067
+REFERENCE   PMID:17988210
+  AUTHORS   Bers DM
+  TITLE     Calcium cycling and signaling in cardiac myocytes.
+  JOURNAL   Annu Rev Physiol 70:23-49 (2008)
+            DOI:10.1146/annurev.physiol.70.113006.100455
+REFERENCE   PMID:20923637
+  AUTHORS   Soltis AR, Saucerman JJ
+  TITLE     Synergy between CaMKII substrates and beta-adrenergic signaling in regulation of cardiac myocyte Ca(2+) handling.
+  JOURNAL   Biophys J 99:2038-47 (2010)
+            DOI:10.1016/j.bpj.2010.08.016
+REFERENCE   PMID:12439640
+  AUTHORS   Wallukat G
+  TITLE     The beta-adrenergic receptors.
+  JOURNAL   Herz 27:683-90 (2002)
+            DOI:10.1007/s00059-002-2434-z
+REFERENCE   PMID:11604549
+  AUTHORS   Xiao RP
+  TITLE     Beta-adrenergic signaling in the heart: dual coupling of the beta2-adrenergic receptor to G(s) and G(i) proteins.
+  JOURNAL   Sci STKE 2001:re15 (2001)
+            DOI:10.1126/stke.2001.104.re15
+REFERENCE   PMID:10571541
+  AUTHORS   Xiao RP, Cheng H, Zhou YY, Kuschel M, Lakatta EG
+  TITLE     Recent advances in cardiac beta(2)-adrenergic signal transduction.
+  JOURNAL   Circ Res 85:1092-100 (1999)
+            DOI:10.1161/01.RES.85.11.1092
+REFERENCE   PMID:15979723
+  AUTHORS   Zheng M, Zhu W, Han Q, Xiao RP
+  TITLE     Emerging concepts and therapeutic implications of beta-adrenergic receptor subtype signaling.
+  JOURNAL   Pharmacol Ther 108:257-68 (2005)
+            DOI:10.1016/j.pharmthera.2005.04.006
+REFERENCE   PMID:17826821
+  AUTHORS   Kuzumoto M, Takeuchi A, Nakai H, Oka C, Noma A, Matsuoka S
+  TITLE     Simulation analysis of intracellular Na+ and Cl- homeostasis during beta 1-adrenergic stimulation of cardiac myocyte.
+  JOURNAL   Prog Biophys Mol Biol 96:171-86 (2008)
+            DOI:10.1016/j.pbiomolbio.2007.07.005
+REFERENCE   PMID:11805843
+  AUTHORS   Bers DM
+  TITLE     Cardiac excitation-contraction coupling.
+  JOURNAL   Nature 415:198-205 (2002)
+            DOI:10.1038/415198a
+REFERENCE   PMID:20658186
+  AUTHORS   Ho D, Yan L, Iwatsubo K, Vatner DE, Vatner SF
+  TITLE     Modulation of beta-adrenergic receptor signaling in heart failure and longevity: targeting adenylyl cyclase type 5.
+  JOURNAL   Heart Fail Rev 15:495-512 (2010)
+            DOI:10.1007/s10741-010-9183-5
+REFERENCE   PMID:15142747
+  AUTHORS   Saucerman JJ, McCulloch AD
+  TITLE     Mechanistic systems models of cell signaling networks: a case study of myocyte adrenergic regulation.
+  JOURNAL   Prog Biophys Mol Biol 85:261-78 (2004)
+            DOI:10.1016/j.pbiomolbio.2004.01.005
+REFERENCE   PMID:15765137
+  AUTHORS   Yano M, Ikeda Y, Matsuzaki M
+  TITLE     Altered intracellular Ca2+ handling in heart failure.
+  JOURNAL   J Clin Invest 115:556-64 (2005)
+            DOI:10.1172/JCI24159
+REFERENCE   PMID:15232578
+  AUTHORS   Wehrens XH, Marks AR
+  TITLE     Novel therapeutic approaches for heart failure by normalizing calcium cycling.
+  JOURNAL   Nat Rev Drug Discov 3:565-73 (2004)
+            DOI:10.1038/nrd1440
+REFERENCE   PMID:19874988
+  AUTHORS   Triposkiadis F, Karayannis G, Giamouzis G, Skoularigis J, Louridas G, Butler J
+  TITLE     The sympathetic nervous system in heart failure physiology, pathophysiology, and clinical implications.
+  JOURNAL   J Am Coll Cardiol 54:1747-62 (2009)
+            DOI:10.1016/j.jacc.2009.05.015
+REFERENCE   PMID:18407781
+  AUTHORS   Barry SP, Davidson SM, Townsend PA
+  TITLE     Molecular regulation of cardiac hypertrophy.
+  JOURNAL   Int J Biochem Cell Biol 40:2023-39 (2008)
+            DOI:10.1016/j.biocel.2008.02.020
+REL_PATHWAY mmu04020  Calcium signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04260  Cardiac muscle contraction
+KO_PATHWAY  ko04261
+///

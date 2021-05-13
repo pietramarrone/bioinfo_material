@@ -1,0 +1,321 @@
+ENTRY       mmu04015                    Pathway
+NAME        Rap1 signaling pathway - Mus musculus (mouse)
+DESCRIPTION Rap1 is a small GTPase that controls diverse processes, such as cell adhesion, cell-cell junction formation and cell polarity. Like all G proteins, Rap1 cycles between an inactive GDP-bound and an active GTP-bound conformation. A variety of extracellular signals control this cycle through the regulation of several unique guanine nucleotide exchange factors (GEFs) and GTPase activating proteins (GAPs). Rap1 plays a dominant role in the control of cell-cell and cell-matrix interactions by regulating the function of integrins and other adhesion molecules in various cell types. Rap1 also regulates MAP kinase (MAPK) activity in a manner highly dependent on the context of cell types.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04015  Rap1 signaling pathway
+DBLINKS     GO: 0007264
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        109905  Rap1a; RAS-related protein 1a [KO:K04353]
+            215449  Rap1b; RAS related protein 1b [KO:K07836]
+            17532  Mras; muscle and microspikes RAS [KO:K07831]
+            217944  Rapgef5; Rap guanine nucleotide exchange factor (GEF) 5 [KO:K08019]
+            238130  Dock4; dedicator of cytokinesis 4 [KO:K17697]
+            14810  Grin1; glutamate receptor, ionotropic, NMDA1 (zeta 1) [KO:K05208]
+            14811  Grin2a; glutamate receptor, ionotropic, NMDA2A (epsilon 1) [KO:K05209]
+            14812  Grin2b; glutamate receptor, ionotropic, NMDA2B (epsilon 2) [KO:K05210]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            14062  F2r; coagulation factor II (thrombin) receptor [KO:K03914]
+            14065  F2rl3; coagulation factor II (thrombin) receptor-like 3 [KO:K04236]
+            18441  P2ry1; purinergic receptor P2Y, G-protein coupled 1 [KO:K04270]
+            14293  Fpr1; formyl peptide receptor 1 [KO:K04172]
+            14745  Lpar1; lysophosphatidic acid receptor 1 [KO:K04289]
+            53978  Lpar2; lysophosphatidic acid receptor 2 [KO:K04291]
+            65086  Lpar3; lysophosphatidic acid receptor 3 [KO:K04294]
+            78134  Lpar4; lysophosphatidic acid receptor 4 [KO:K04275]
+            381810  Lpar5; lysophosphatidic acid receptor 5 [KO:K08390]
+            11540  Adora2a; adenosine A2a receptor [KO:K04266]
+            11541  Adora2b; adenosine A2b receptor [KO:K04267]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            223864  Rapgef3; Rap guanine nucleotide exchange factor (GEF) 3 [KO:K08014]
+            56508  Rapgef4; Rap guanine nucleotide exchange factor (GEF) 4 [KO:K04351]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            240168  Rasgrp3; RAS, guanyl releasing protein 3 [KO:K12362]
+            19395  Rasgrp2; RAS, guanyl releasing protein 2 [KO:K12361]
+            13645  Egf; epidermal growth factor [KO:K04357]
+            14164  Fgf1; fibroblast growth factor 1 [KO:K18496]
+            14173  Fgf2; fibroblast growth factor 2 [KO:K18497]
+            14174  Fgf3; fibroblast growth factor 3 [KO:K04358]
+            14175  Fgf4; fibroblast growth factor 4 [KO:K04358]
+            14176  Fgf5; fibroblast growth factor 5 [KO:K04358]
+            14178  Fgf7; fibroblast growth factor 7 [KO:K04358]
+            14179  Fgf8; fibroblast growth factor 8 [KO:K04358]
+            14180  Fgf9; fibroblast growth factor 9 [KO:K04358]
+            14165  Fgf10; fibroblast growth factor 10 [KO:K04358]
+            80903  Fgf16; fibroblast growth factor 16 [KO:K04358]
+            14171  Fgf17; fibroblast growth factor 17 [KO:K04358]
+            14172  Fgf18; fibroblast growth factor 18 [KO:K04358]
+            80857  Fgf20; fibroblast growth factor 20 [KO:K04358]
+            67112  Fgf22; fibroblast growth factor 22 [KO:K04358]
+            14177  Fgf6; fibroblast growth factor 6 [KO:K04358]
+            14170  Fgf15; fibroblast growth factor 15 [KO:K22603]
+            56636  Fgf21; fibroblast growth factor 21 [KO:K22429]
+            64654  Fgf23; fibroblast growth factor 23 [KO:K22428]
+            18048  Klk1b4; kallikrein 1-related pepidase b4 [KO:K05451]
+            18049  Ngf; nerve growth factor [KO:K02582]
+            16334  Ins2; insulin II [KO:K04526]
+            16333  Ins1; insulin I [KO:K04526]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            18590  Pdgfa; platelet derived growth factor, alpha [KO:K04359]
+            18591  Pdgfb; platelet derived growth factor, B polypeptide [KO:K17386]
+            54635  Pdgfc; platelet-derived growth factor, C polypeptide [KO:K05450]
+            71785  Pdgfd; platelet-derived growth factor, D polypeptide [KO:K05450]
+            12977  Csf1; colony stimulating factor 1 (macrophage) [KO:K05453]
+            17311  Kitl; kit ligand [KO:K05461]
+            22339  Vegfa; vascular endothelial growth factor A [KO:K05448]
+            22340  Vegfb; vascular endothelial growth factor B [KO:K16858]
+            18654  Pgf; placental growth factor [KO:K16859]
+            22341  Vegfc; vascular endothelial growth factor C [KO:K05449]
+            14205  Vegfd; vascular endothelial growth factor D [KO:K05449]
+            15234  Hgf; hepatocyte growth factor [KO:K05460]
+            11600  Angpt1; angiopoietin 1 [KO:K05465]
+            11601  Angpt2; angiopoietin 2 [KO:K05466]
+            11602  Angpt4; angiopoietin 4 [KO:K05467]
+            13636  Efna1; ephrin A1 [KO:K05462]
+            13637  Efna2; ephrin A2 [KO:K05462]
+            13639  Efna4; ephrin A4 [KO:K05462]
+            13640  Efna5; ephrin A5 [KO:K05462]
+            13638  Efna3; ephrin A3 [KO:K05462]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            14182  Fgfr1; fibroblast growth factor receptor 1 [KO:K04362] [EC:2.7.10.1]
+            14183  Fgfr2; fibroblast growth factor receptor 2 [KO:K05093] [EC:2.7.10.1]
+            14184  Fgfr3; fibroblast growth factor receptor 3 [KO:K05094] [EC:2.7.10.1]
+            14186  Fgfr4; fibroblast growth factor receptor 4 [KO:K05095] [EC:2.7.10.1]
+            18053  Ngfr; nerve growth factor receptor (TNFR superfamily, member 16) [KO:K02583]
+            16337  Insr; insulin receptor [KO:K04527] [EC:2.7.10.1]
+            16001  Igf1r; insulin-like growth factor I receptor [KO:K05087] [EC:2.7.10.1]
+            18595  Pdgfra; platelet derived growth factor receptor, alpha polypeptide [KO:K04363] [EC:2.7.10.1]
+            18596  Pdgfrb; platelet derived growth factor receptor, beta polypeptide [KO:K05089] [EC:2.7.10.1]
+            12978  Csf1r; colony stimulating factor 1 receptor [KO:K05090] [EC:2.7.10.1]
+            16590  Kit; KIT proto-oncogene receptor tyrosine kinase [KO:K05091] [EC:2.7.10.1]
+            14254  Flt1; FMS-like tyrosine kinase 1 [KO:K05096] [EC:2.7.10.1]
+            14257  Flt4; FMS-like tyrosine kinase 4 [KO:K05097] [EC:2.7.10.1]
+            16542  Kdr; kinase insert domain protein receptor [KO:K05098] [EC:2.7.10.1]
+            17295  Met; met proto-oncogene [KO:K05099] [EC:2.7.10.1]
+            21687  Tek; TEK receptor tyrosine kinase [KO:K05121] [EC:2.7.10.1]
+            13836  Epha2; Eph receptor A2 [KO:K05103] [EC:2.7.10.1]
+            12928  Crk; v-crk avian sarcoma virus CT10 oncogene homolog [KO:K04438]
+            12929  Crkl; v-crk avian sarcoma virus CT10 oncogene homolog-like [KO:K04438]
+            107746  Rapgef1; Rap guanine nucleotide exchange factor (GEF) 1 [KO:K06277]
+            12927  Bcar1; breast cancer anti-estrogen resistance 1 [KO:K05726]
+            12550  Cdh1; cadherin 1 [KO:K05689]
+            12387  Ctnnb1; catenin (cadherin associated protein), beta 1 [KO:K02105]
+            14924  Magi1; membrane associated guanylate kinase, WW and PDZ domain containing 1 [KO:K05631]
+            50791  Magi2; membrane associated guanylate kinase, WW and PDZ domain containing 2 [KO:K05629]
+            99470  Magi3; membrane associated guanylate kinase, WW and PDZ domain containing 3 [KO:K06112]
+            76089  Rapgef2; Rap guanine nucleotide exchange factor (GEF) 2 [KO:K08018]
+            192786  Rapgef6; Rap guanine nucleotide exchange factor (GEF) 6 [KO:K08020]
+            16797  Lat; linker for activation of T cells [KO:K07362]
+            23880  Fyb; FYN binding protein [KO:K17698]
+            16822  Lcp2; lymphocyte cytosolic protein 2 [KO:K07361]
+            78473  Skap1; src family associated phosphoprotein 1 [KO:K17699]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            18760  Prkd1; protein kinase D1 [KO:K06070] [EC:2.7.11.13]
+            75292  Prkd3; protein kinase D3 [KO:K06070] [EC:2.7.11.13]
+            101540  Prkd2; protein kinase D2 [KO:K06070] [EC:2.7.11.13]
+            13489  Drd2; dopamine receptor D2 [KO:K04145]
+            12801  Cnr1; cannabinoid receptor 1 (brain) [KO:K04277]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            14681  Gnao1; guanine nucleotide binding protein, alpha O [KO:K04534]
+            110351  Rap1gap; Rap1 GTPase-activating protein [KO:K17700]
+            217692  Sipa1l1; signal-induced proliferation-associated 1 like 1 [KO:K17701]
+            20469  Sipa1; signal-induced proliferation associated gene 1 [KO:K08013]
+            244668  Sipa1l2; signal-induced proliferation-associated 1 like 2 [KO:K17702]
+            74206  Sipa1l3; signal-induced proliferation-associated 1 like 3 [KO:K17703]
+            15901  Id1; inhibitor of DNA binding 1, HLH protein [KO:K04680]
+            21825  Thbs1; thrombospondin 1 [KO:K16857]
+            19730  Ralgds; ral guanine nucleotide dissociation stimulator [KO:K08732]
+            56044  Rala; v-ral simian leukemia viral oncogene A (ras related) [KO:K07834]
+            64143  Ralb; v-ral simian leukemia viral oncogene B [KO:K07835]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            19354  Rac2; Rac family small GTPase 2 [KO:K07860]
+            170758  Rac3; Rac family small GTPase 3 [KO:K07861]
+            54519  Apbb1ip; amyloid beta (A4) precursor protein-binding, family B, member 1 interacting protein [KO:K17704]
+            21894  Tln1; talin 1 [KO:K06271]
+            70549  Tln2; talin 2 [KO:K06271]
+            16399  Itga2b; integrin alpha 2b [KO:K06476]
+            16416  Itgb3; integrin beta 3 [KO:K06493]
+            18643  Pfn1; profilin 1 [KO:K05759]
+            18645  Pfn2; profilin 2 [KO:K05759]
+            75477  Pfn3; profilin 3 [KO:K05759]
+            382562  Pfn4; profilin family, member 4 [KO:K05759]
+            22323  Vasp; vasodilator-stimulated phosphoprotein [KO:K06274]
+            13800  Enah; ENAH actin regulator [KO:K05746]
+            14026  Evl; Ena-vasodilator stimulated phosphoprotein [KO:K23487]
+            11465  Actg1; actin, gamma, cytoplasmic 1 [KO:K05692]
+            11461  Actb; actin, beta [KO:K05692]
+            106952  Arap3; ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 3 [KO:K12490]
+            11848  Rhoa; ras homolog family member A [KO:K04513]
+            67653  4930544G11Rik; RIKEN cDNA 4930544G11 gene [KO:K04513]
+            20779  Src; Rous sarcoma oncogene [KO:K05704] [EC:2.7.10.2]
+            227377  Farp2; FERM, RhoGEF and pleckstrin domain protein 2 [KO:K06082]
+            12540  Cdc42; cell division cycle 42 [KO:K04393]
+            22324  Vav1; vav 1 oncogene [KO:K05730]
+            22325  Vav2; vav 2 oncogene [KO:K05730]
+            57257  Vav3; vav 3 oncogene [KO:K05730]
+            21844  Tiam1; T cell lymphoma invasion and metastasis 1 [KO:K05731]
+            93742  Pard3; par-3 family cell polarity regulator [KO:K04237]
+            56513  Pard6a; par-6 family cell polarity regulator alpha [KO:K06093]
+            58220  Pard6b; par-6 family cell polarity regulator beta [KO:K06093]
+            93737  Pard6g; par-6 family cell polarity regulator gamma [KO:K06093]
+            18762  Prkcz; protein kinase C, zeta [KO:K18952] [EC:2.7.11.13]
+            18759  Prkci; protein kinase C, iota [KO:K06069] [EC:2.7.11.13]
+            17356  Afdn; afadin, adherens junction formation factor [KO:K05702]
+            12388  Ctnnd1; catenin (cadherin associated protein), delta 1 [KO:K05690]
+            79264  Krit1; KRIT1, ankyrin repeat containing [KO:K17705]
+            51791  Rgs14; regulator of G-protein signaling 14 [KO:K17706]
+            54354  Rassf5; Ras association (RalGDS/AF-6) domain family member 5 [KO:K08015]
+            16408  Itgal; integrin alpha L [KO:K05718]
+            16409  Itgam; integrin alpha M [KO:K06461]
+            16414  Itgb2; integrin beta 2 [KO:K06464]
+            16415  Itgb2l; integrin beta 2-like [KO:K06464]
+            16412  Itgb1; integrin beta 1 (fibronectin receptor beta) [KO:K05719]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            26397  Map2k3; mitogen-activated protein kinase kinase 3 [KO:K04432] [EC:2.7.12.2]
+            26399  Map2k6; mitogen-activated protein kinase kinase 6 [KO:K04433] [EC:2.7.12.2]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            74055  Plce1; phospholipase C, epsilon 1 [KO:K05860] [EC:3.1.4.11]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            20130  Rras; related RAS viral (r-ras) oncogene [KO:K07829]
+COMPOUND    C00035  GDP
+            C00044  GTP
+            C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00575  3',5'-Cyclic AMP
+REFERENCE   PMID:17182900
+  AUTHORS   Kooistra MR, Dube N, Bos JL
+  TITLE     Rap1: a key regulator in cell-cell junction formation.
+  JOURNAL   J Cell Sci 120:17-22 (2007)
+            DOI:10.1242/jcs.03306
+REFERENCE   PMID:11331911
+  AUTHORS   Bos JL, de Rooij J, Reedquist KA
+  TITLE     Rap1 signalling: adhering to new models.
+  JOURNAL   Nat Rev Mol Cell Biol 2:369-77 (2001)
+            DOI:10.1038/35073073
+REFERENCE   PMID:17383543
+  AUTHORS   Minato N, Kometani K, Hattori M
+  TITLE     Regulation of immune responses and hematopoiesis by the Rap1 signal.
+  JOURNAL   Adv Immunol 93:229-64 (2007)
+            DOI:10.1016/S0065-2776(06)93006-5
+REFERENCE   PMID:15780587
+  AUTHORS   Bos JL
+  TITLE     Linking Rap to cell adhesion.
+  JOURNAL   Curr Opin Cell Biol 17:123-8 (2005)
+            DOI:10.1016/j.ceb.2005.02.009
+REFERENCE   PMID:12508104
+  AUTHORS   Caron E
+  TITLE     Cellular functions of the Rap1 GTP-binding protein: a pattern emerges.
+  JOURNAL   J Cell Sci 116:435-40 (2003)
+            DOI:10.1242/jcs.00238
+REFERENCE   PMID:10579920
+  AUTHORS   Zwartkruis FJ, Bos JL
+  TITLE     Ras and Rap1: two highly related small GTPases with distinct function.
+  JOURNAL   Exp Cell Res 253:157-65 (1999)
+            DOI:10.1006/excr.1999.4695
+REFERENCE   PMID:14607972
+  AUTHORS   Hattori M, Minato N
+  TITLE     Rap1 GTPase: functions, regulation, and malignancy.
+  JOURNAL   J Biochem 134:479-84 (2003)
+            DOI:10.1093/jb/mvg180
+REFERENCE   PMID:19159611
+  AUTHORS   Pannekoek WJ, Kooistra MR, Zwartkruis FJ, Bos JL
+  TITLE     Cell-cell junction formation: the role of Rap1 and Rap1 guanine nucleotide exchange factors.
+  JOURNAL   Biochim Biophys Acta 1788:790-6 (2009)
+            DOI:10.1016/j.bbamem.2008.12.010
+REFERENCE   PMID:19615876
+  AUTHORS   Boettner B, Van Aelst L
+  TITLE     Control of cell adhesion dynamics by Rap1 signaling.
+  JOURNAL   Curr Opin Cell Biol 21:684-93 (2009)
+            DOI:10.1016/j.ceb.2009.06.004
+REFERENCE   PMID:15803158
+  AUTHORS   Xia Z, Storm DR.
+  TITLE     The role of calmodulin as a signal integrator for synaptic plasticity.
+  JOURNAL   Nat Rev Neurosci 6:267-76 (2005)
+            DOI:10.1038/nrn1647
+REFERENCE   PMID:17624948
+  AUTHORS   Mor A, Dustin ML, Philips MR
+  TITLE     Small GTPases and LFA-1 reciprocally modulate adhesion and signaling.
+  JOURNAL   Immunol Rev 218:114-25 (2007)
+            DOI:10.1111/j.1600-065X.2007.00538.x
+REFERENCE   PMID:17624944
+  AUTHORS   Burbach BJ, Medeiros RB, Mueller KL, Shimizu Y
+  TITLE     T-cell receptor signaling to integrins.
+  JOURNAL   Immunol Rev 218:65-81 (2007)
+            DOI:10.1111/j.1600-065X.2007.00527.x
+REFERENCE   PMID:12765839
+  AUTHORS   Stork PJ
+  TITLE     Does Rap1 deserve a bad Rap?
+  JOURNAL   Trends Biochem Sci 28:267-75 (2003)
+            DOI:10.1016/S0968-0004(03)00087-2
+REFERENCE   PMID:12351703
+  AUTHORS   Banihashemi B, Albert PR
+  TITLE     Dopamine-D2S receptor inhibition of calcium influx, adenylyl cyclase, and mitogen-activated protein kinase in pituitary cells: distinct Galpha and Gbetagamma requirements.
+  JOURNAL   Mol Endocrinol 16:2393-404 (2002)
+            DOI:10.1210/me.2001-0220
+REFERENCE   PMID:18363565
+  AUTHORS   Banno A, Ginsberg MH
+  TITLE     Integrin activation.
+  JOURNAL   Biochem Soc Trans 36:229-34 (2008)
+            DOI:10.1042/BST0360229
+REFERENCE   PMID:19710505
+  AUTHORS   Doebele RC, Schulze-Hoepfner FT, Hong J, Chlenski A, Zeitlin BD, Goel K, Gomes S, Liu Y, Abe MK, Nor JE, Lingen MW, Rosner MR
+  TITLE     A novel interplay between Epac/Rap1 and mitogen-activated protein kinase kinase 5/extracellular signal-regulated kinase 5 (MEK5/ERK5) regulates thrombospondin to control angiogenesis.
+  JOURNAL   Blood 114:4592-600 (2009)
+            DOI:10.1182/blood-2009-04-217042
+REFERENCE   PMID:21402149
+  AUTHORS   Breckler M, Berthouze M, Laurent AC, Crozatier B, Morel E, Lezoualc'h F
+  TITLE     Rap-linked cAMP signaling Epac proteins: compartmentation, functioning and disease implications.
+  JOURNAL   Cell Signal 23:1257-66 (2011)
+            DOI:10.1016/j.cellsig.2011.03.007
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04014  Ras signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04510  Focal adhesion
+            mmu04520  Adherens junction
+            mmu04660  T cell receptor signaling pathway
+            mmu04810  Regulation of actin cytoskeleton
+KO_PATHWAY  ko04015
+///

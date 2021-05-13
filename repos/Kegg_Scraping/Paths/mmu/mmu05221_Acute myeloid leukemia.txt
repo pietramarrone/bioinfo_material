@@ -1,0 +1,195 @@
+ENTRY       mmu05221                    Pathway
+NAME        Acute myeloid leukemia - Mus musculus (mouse)
+DESCRIPTION Acute myeloid leukemia (AML) is a disease that is characterized by uncontrolled proliferation of clonal neoplastic cells and accumulation in the bone marrow of blasts with an impaired differentiation program. AML accounts for approximately 80% of all adult leukemias and remains the most common cause of leukemia death. Two major types of genetic events have been described that are crucial for leukemic transformation. A proposed necessary first event is disordered cell growth and upregulation of cell survival genes. The most common of these activating events were observed in the RTK Flt3, in N-Ras and K-Ras, in Kit, and sporadically in other RTKs. Alterations in myeloid transcription factors governing hematopoietic differentiation provide second necessary event for leukemogenesis. Transcription factor fusion proteins such as AML-ETO, PML-RARalpha or PLZF-RARalpha block myeloid cell differentiation by repressing target genes. In other cases, the transcription factors themselves are mutated.
+CLASS       Human Diseases; Cancer: specific types
+PATHWAY_MAP mmu05221  Acute myeloid leukemia
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        16590  Kit; KIT proto-oncogene receptor tyrosine kinase [KO:K05091] [EC:2.7.10.1]
+            14255  Flt3; FMS-like tyrosine kinase 3 [KO:K05092] [EC:2.7.10.1]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            13685  Eif4ebp1; eukaryotic translation initiation factor 4E binding protein 1 [KO:K07205]
+            58988  Rps6kb2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04688] [EC:2.7.11.1]
+            72508  Rps6kb1; ribosomal protein S6 kinase, polypeptide 1 [KO:K04688] [EC:2.7.11.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            20848  Stat3; signal transducer and activator of transcription 3 [KO:K04692]
+            20850  Stat5a; signal transducer and activator of transcription 5A [KO:K11223]
+            20851  Stat5b; signal transducer and activator of transcription 5B [KO:K11224]
+            18712  Pim1; proviral integration site 1 [KO:K04702] [EC:2.7.11.1]
+            18715  Pim2; proviral integration site 2 [KO:K08806] [EC:2.7.11.1]
+            12394  Runx1; runt related transcription factor 1 [KO:K08367]
+            12978  Csf1r; colony stimulating factor 1 receptor [KO:K05090] [EC:2.7.10.1]
+            17523  Mpo; myeloperoxidase [KO:K10789] [EC:1.11.2.2]
+            12981  Csf2; colony stimulating factor 2 (granulocyte-macrophage) [KO:K05427]
+            16187  Il3; interleukin 3 [KO:K04736]
+            12395  Runx1t1; RUNX1 translocation partner 1 [KO:K10053]
+            18854  Pml; promyelocytic leukemia [KO:K10054]
+            19401  Rara; retinoic acid receptor, alpha [KO:K08527]
+            235320  Zbtb16; zinc finger and BTB domain containing 16 [KO:K10055]
+            12606  Cebpa; CCAAT/enhancer binding protein (C/EBP), alpha [KO:K09055]
+            18627  Per2; period circadian clock 2 [KO:K02633]
+            20375  Spi1; spleen focus forming virus (SFFV) proviral integration oncogene [KO:K09438]
+            12475  Cd14; CD14 antigen [KO:K04391]
+            16409  Itgam; integrin alpha M [KO:K06461]
+            14129  Fcgr1; Fc receptor, IgG, high affinity I [KO:K06498]
+            110794  Cebpe; CCAAT/enhancer binding protein (C/EBP), epsilon [KO:K10051]
+            12047  Bcl2a1d; B cell leukemia/lymphoma 2 related protein A1d [KO:K02162]
+            12044  Bcl2a1a; B cell leukemia/lymphoma 2 related protein A1a [KO:K02162]
+            12045  Bcl2a1b; B cell leukemia/lymphoma 2 related protein A1b [KO:K02162]
+            12046  Bcl2a1c; B cell leukemia/lymphoma 2 related protein A1c [KO:K02162]
+            12428  Ccna2; cyclin A2 [KO:K06627]
+            12427  Ccna1; cyclin A1 [KO:K06627]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+            67603  Dusp6; dual specificity phosphatase 6 [KO:K21946] [EC:3.1.3.16 3.1.3.48]
+            16480  Jup; junction plakoglobin [KO:K10056]
+            21414  Tcf7; transcription factor 7, T cell specific [KO:K02620]
+            21415  Tcf7l1; transcription factor 7 like 1 (T cell specific, HMG box) [KO:K04490]
+            21416  Tcf7l2; transcription factor 7 like 2, T cell specific, HMG box [KO:K04491]
+            16842  Lef1; lymphoid enhancer binding factor 1 [KO:K04492]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            19015  Ppard; peroxisome proliferator activator receptor delta [KO:K04504]
+COMPOUND    C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:16236521
+  AUTHORS   Steffen B, Muller-Tidow C, Schwable J, Berdel WE, Serve H.
+  TITLE     The molecular pathogenesis of acute myeloid leukemia.
+  JOURNAL   Crit Rev Oncol Hematol 56:195-221 (2005)
+            DOI:10.1016/j.critrevonc.2004.10.012
+REFERENCE   PMID:12563308
+  AUTHORS   Tenen DG.
+  TITLE     Disruption of differentiation in human cancer: AML shows the way.
+  JOURNAL   Nat Rev Cancer 3:89-101 (2003)
+            DOI:10.1038/nrc989
+REFERENCE   PMID:16146838
+  AUTHORS   Choudhary C, Muller-Tidow C, Berdel WE, Serve H.
+  TITLE     Signal transduction of oncogenic Flt3.
+  JOURNAL   Int J Hematol 82:93-9 (2005)
+            DOI:10.1532/IJH97.05090
+REFERENCE   PMID:12951584
+  AUTHORS   Stirewalt DL, Radich JP.
+  TITLE     The role of FLT3 in haematopoietic malignancies.
+  JOURNAL   Nat Rev Cancer 3:650-65 (2003)
+            DOI:10.1038/nrc1169
+REFERENCE   PMID:16642045
+  AUTHORS   Martelli AM, Nyakern M, Tabellini G, Bortul R, Tazzari PL, Evangelisti C, Cocco L.
+  TITLE     Phosphoinositide 3-kinase/Akt signaling pathway and its therapeutical implications for human acute myeloid leukemia.
+  JOURNAL   Leukemia 20:911-28 (2006)
+            DOI:10.1038/sj.leu.2404245
+REFERENCE   PMID:15625120
+  AUTHORS   Lennartsson J, Jelacic T, Linnekin D, Shivakrupa R.
+  TITLE     Normal and oncogenic forms of the receptor tyrosine kinase kit.
+  JOURNAL   Stem Cells 23:16-43 (2005)
+            DOI:10.1634/stemcells.2004-0117
+REFERENCE   PMID:11721960
+  AUTHORS   Lorsbach RB, Downing JR.
+  TITLE     The role of the AML1 transcription factor in leukemogenesis.
+  JOURNAL   Int J Hematol 74:258-65 (2001)
+            DOI:10.1007/BF02982058
+REFERENCE   PMID:12468433
+  AUTHORS   Mizuki M, Schwable J, Steur C, Choudhary C, Agrawal S, Sargin B, Steffen B, Matsumura I, Kanakura Y, Bohmer FD, Muller-Tidow C, Berdel WE, Serve H.
+  TITLE     Suppression of myeloid transcription factors and induction of STAT response genes by AML-specific Flt3 mutations.
+  JOURNAL   Blood 101:3164-73 (2003)
+            DOI:10.1182/blood-2002-06-1677
+REFERENCE   PMID:16352814
+  AUTHORS   Mueller BU, Pabst T, Fos J, Petkovic V, Fey MF, Asou N, Buergi U, Tenen DG.
+  TITLE     ATRA resolves the differentiation block in t(15;17) acute myeloid leukemia by restoring PU.1 expression.
+  JOURNAL   Blood 107:3330-8 (2006)
+            DOI:10.1182/blood-2005-07-3068
+REFERENCE   PMID:12529654
+  AUTHORS   Roumier C, Fenaux P, Lafage M, Imbert M, Eclache V, Preudhomme C
+  TITLE     New mechanisms of AML1 gene alteration in hematological malignancies.
+  JOURNAL   Leukemia 17:9-16 (2003)
+            DOI:10.1038/sj.leu.2402766
+REFERENCE   PMID:12032780
+  AUTHORS   Scandura JM, Boccuni P, Cammenga J, Nimer SD
+  TITLE     Transcription factor fusions in acute leukemia: variations on a theme.
+  JOURNAL   Oncogene 21:3422-44 (2002)
+            DOI:10.1038/sj.onc.1205315
+REFERENCE   PMID:10717473
+  AUTHORS   Lutterbach B, Hiebert SW
+  TITLE     Role of the transcription factor AML-1 in acute leukemia and hematopoietic differentiation.
+  JOURNAL   Gene 245:223-35 (2000)
+            DOI:10.1016/S0378-1119(00)00014-7
+REFERENCE   PMID:19075268
+  AUTHORS   Koschmieder S, Halmos B, Levantini E, Tenen DG
+  TITLE     Dysregulation of the C/EBPalpha differentiation pathway in human cancer.
+  JOURNAL   J Clin Oncol 27:619-28 (2009)
+            DOI:10.1200/JCO.2008.17.9812
+REFERENCE   PMID:15985538
+  AUTHORS   Gery S, Gombart AF, Yi WS, Koeffler C, Hofmann WK, Koeffler HP
+  TITLE     Transcription profiling of C/EBP targets identifies Per2 as a gene implicated in myeloid leukemia.
+  JOURNAL   Blood 106:2827-36 (2005)
+            DOI:10.1182/blood-2005-01-0358
+REFERENCE   PMID:12130514
+  AUTHORS   Mueller BU, Pabst T, Osato M, Asou N, Johansen LM, Minden MD, Behre G, Hiddemann W, Ito Y, Tenen DG
+  TITLE     Heterozygous PU.1 mutations are associated with acute myeloid leukemia.
+  JOURNAL   Blood 100:998-1007 (2002)
+            DOI:10.1182/blood.V100.3.998
+REFERENCE   PMID:12393465
+  AUTHORS   Vangala RK, Heiss-Neumann MS, Rangatia JS, Singh SM, Schoch C, Tenen DG, Hiddemann W, Behre G
+  TITLE     The myeloid master regulator transcription factor PU.1 is inactivated by AML1-ETO in t(8;21) myeloid leukemia.
+  JOURNAL   Blood 101:270-7 (2003)
+            DOI:10.1182/blood-2002-04-1288
+REFERENCE   PMID:15024077
+  AUTHORS   Muller-Tidow C, Steffen B, Cauvet T, Tickenbrock L, Ji P, Diederichs S, Sargin B, Kohler G, Stelljes M, Puccetti E, Ruthardt M, deVos S, Hiebert SW, Koeffler HP, Berdel WE, Serve H
+  TITLE     Translocation products in acute myeloid leukemia activate the Wnt signaling pathway in hematopoietic cells.
+  JOURNAL   Mol Cell Biol 24:2890-904 (2004)
+            DOI:10.1128/MCB.24.7.2890-2904.2004
+REFERENCE   PMID:11090075
+  AUTHORS   Muller C, Yang R, Park DJ, Serve H, Berdel WE, Koeffler HP
+  TITLE     The aberrant fusion proteins PML-RAR alpha and PLZF-RAR alpha contribute to the overexpression of cyclin A1 in acute promyelocytic leukemia.
+  JOURNAL   Blood 96:3894-9 (2000)
+REFERENCE   PMID:15160934
+  AUTHORS   Jing Y
+  TITLE     The PML-RARalpha fusion protein and targeted therapy for acute promyelocytic leukemia.
+  JOURNAL   Leuk Lymphoma 45:639-48 (2004)
+            DOI:10.1080/10428190310001609933
+REFERENCE   PMID:11607818
+  AUTHORS   Alcalay M, Orleth A, Sebastiani C, Meani N, Chiaradonna F, Casciari C, Sciurpi MT, Gelmetti V, Riganelli D, Minucci S, Fagioli M, Pelicci PG
+  TITLE     Common themes in the pathogenesis of acute myeloid leukemia.
+  JOURNAL   Oncogene 20:5680-94 (2001)
+            DOI:10.1038/sj.onc.1204642
+REFERENCE   PMID:19855079
+  AUTHORS   Rice KL, Hormaeche I, Doulatov S, Flatow JM, Grimwade D, Mills KI, Leiva M, Ablain J, Ambardekar C, McConnell MJ, Dick JE, Licht JD
+  TITLE     Comprehensive genomic screens identify a role for PLZF-RARalpha as a positive regulator of cell proliferation via direct regulation of c-MYC.
+  JOURNAL   Blood 114:5499-511 (2009)
+            DOI:10.1182/blood-2009-03-206524
+REFERENCE   PMID:17554387
+  AUTHORS   Mikesch JH, Steffen B, Berdel WE, Serve H, Muller-Tidow C.
+  TITLE     The emerging role of Wnt signaling in the pathogenesis of acute myeloid leukemia.
+  JOURNAL   Leukemia 21:1638-47 (2007)
+            DOI:10.1038/sj.leu.2404732
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04110  Cell cycle
+            mmu04150  mTOR signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04210  Apoptosis
+            mmu04630  JAK-STAT signaling pathway
+            mmu04640  Hematopoietic cell lineage
+KO_PATHWAY  ko05221
+///

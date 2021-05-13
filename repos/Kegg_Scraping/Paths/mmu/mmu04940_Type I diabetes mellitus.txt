@@ -1,0 +1,129 @@
+ENTRY       mmu04940                    Pathway
+NAME        Type I diabetes mellitus - Mus musculus (mouse)
+DESCRIPTION Type I diabetes mellitus is a disease that results from autoimmune destruction of the insulin-producing beta-cells. Certain beta-cell proteins act as autoantigens after being processed by antigen-presenting cell (APC), such as macrophages and dendritic cells, and presented in a complex with MHC-II molecules on the surface of the APC. Then immunogenic signals from APC activate CD4+ T cells, predominantly of the Th1 subset. Antigen-activated Th1 cells produce IL-2 and IFNgamma. They activate macrophages and cytotoxic CD8+ T cells, and these effector cells may kill islet beta-cells by one or both of two types of mechanisms: (1) direct interactions of antigen-specific cytotoxic T cells with a beta-cell autoantigen-MHC-I complex on the beta-cell, and (2) non-specific inflammatory mediators, such as free radicals/oxidants and cytokines (IL-1, TNFalpha, TNFbeta, IFNgamma).
+            Type I diabetes is a polygenic disease. One of the principle determining genetic factors in diabetes incidence is the inheritance of mutant MHC-II alleles. Another plausible candidate gene is the insulin gene.
+CLASS       Human Diseases; Endocrine and metabolic disease
+PATHWAY_MAP mmu04940  Type I diabetes mellitus
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        16334  Ins2; insulin II [KO:K04526]
+            16333  Ins1; insulin I [KO:K04526]
+            14415  Gad1; glutamate decarboxylase 1 [KO:K01580] [EC:4.1.1.15]
+            14417  Gad2; glutamic acid decarboxylase 2 [KO:K01580] [EC:4.1.1.15]
+            19275  Ptprn; protein tyrosine phosphatase, receptor type, N [KO:K07817] [EC:3.1.3.48]
+            19276  Ptprn2; protein tyrosine phosphatase, receptor type, N polypeptide 2 [KO:K07817] [EC:3.1.3.48]
+            12876  Cpe; carboxypeptidase E [KO:K01294] [EC:3.4.17.10]
+            15510  Hspd1; heat shock protein 1 (chaperonin) [KO:K04077]
+            15893  Ica1; islet cell autoantigen 1 [KO:K19863]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            12519  Cd80; CD80 antigen [KO:K05412]
+            12524  Cd86; CD86 antigen [KO:K05413]
+            12487  Cd28; CD28 antigen [KO:K06470]
+            16159  Il12a; interleukin 12a [KO:K05406]
+            16160  Il12b; interleukin 12b [KO:K05425]
+            16183  Il2; interleukin 2 [KO:K05429]
+            15978  Ifng; interferon gamma [KO:K04687]
+            14990  H2-M2; histocompatibility 2, M region locus 2 [KO:K06751]
+            14991  H2-M3; histocompatibility 2, M region locus 3 [KO:K06751]
+            14997  H2-M9; histocompatibility 2, M region locus 9 [KO:K06751]
+            15006  H2-Q1; histocompatibility 2, Q region locus 1 [KO:K06751]
+            15007  H2-Q10; histocompatibility 2, Q region locus 10 [KO:K06751]
+            15013  H2-Q2; histocompatibility 2, Q region locus 2 [KO:K06751]
+            15018  H2-Q7; histocompatibility 2, Q region locus 7 [KO:K06751]
+            15019  H2-Q8; histocompatibility 2, Q region locus 8 [KO:K06751]
+            15039  H2-T22; histocompatibility 2, T region locus 22 [KO:K06751]
+            15040  H2-T23; histocompatibility 2, T region locus 23 [KO:K06751]
+            15042  H2-T24; histocompatibility 2, T region locus 24 [KO:K06751]
+            15043  H2-T3; histocompatibility 2, T region locus 3 [KO:K06751]
+            15051  H2-T9; histocompatibility 2, T region locus 9 [KO:K06751]
+            224753  H2-M10.4; histocompatibility 2, M region locus 10.4 [KO:K06751]
+            224754  H2-M11; histocompatibility 2, M region locus 11 [KO:K06751]
+            224756  H2-M1; histocompatibility 2, M region locus 1 [KO:K06751]
+            224761  H2-M10.5; histocompatibility 2, M region locus 10.5 [KO:K06751]
+            333715  H2-M10.2; histocompatibility 2, M region locus 10.2 [KO:K06751]
+            399549  H2-M10.6; histocompatibility 2, M region locus 10.6 [KO:K06751]
+            15024  H2-T10; histocompatibility 2, T region locus 10 [KO:K06751]
+            110557  H2-Q6; histocompatibility 2, Q region locus 6 [KO:K06751]
+            110696  H2-M10.3; histocompatibility 2, M region locus 10.3 [KO:K06751]
+            14963  H2-Bl; histocompatibility 2, blastocyst [KO:K06751]
+            14964  H2-D1; histocompatibility 2, D region locus 1 [KO:K06751]
+            14972  H2-K1; histocompatibility 2, K1, K region [KO:K06751]
+            14985  H2-M10.1; histocompatibility 2, M region locus 10.1 [KO:K06751]
+            547349  H2-K1; MHC class I family member [KO:K06751]
+            15033  H2-T18; histocompatibility 2, T region locus 18 [KO:K06751]
+            110558  H2-Q9; histocompatibility 2, Q region locus 9 [KO:K06751]
+            667977  Gm8909; predicted gene 8909 [KO:K06751]
+            14980  H2-L; histocompatibility 2, D region locus L [KO:K06751]
+            69717  Gm10499; predicted gene 10499 [KO:K06751]
+            15015  H2-Q4; histocompatibility 2, Q region locus 4 [KO:K06751]
+            667803  H2-T-ps; histocompatibility 2, T region locus, pseudogene [KO:K06751]
+            100529082  Gm11127; predicted gene 11127 [KO:K06751]
+            240095  H2-M5; histocompatibility 2, M region locus 5 [KO:K06751]
+            630294  Gm7030; predicted gene 7030 [KO:K06751]
+            14103  Fasl; Fas ligand (TNF superfamily, member 6) [KO:K04389]
+            14102  Fas; Fas (TNF receptor superfamily member 6) [KO:K04390]
+            18646  Prf1; perforin 1 (pore forming protein) [KO:K07818]
+            14939  Gzmb; granzyme B [KO:K01353] [EC:3.4.21.79]
+            16992  Lta; lymphotoxin A [KO:K05468]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            16175  Il1a; interleukin 1 alpha [KO:K04383]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+COMPOUND    C00027  Hydrogen peroxide
+            C00533  Nitric oxide
+            C00704  Superoxide
+REFERENCE   PMID:9719467
+  AUTHORS   Rabinovitch A, Suarez-Pinzon WL.
+  TITLE     Cytokines and their roles in pancreatic islet beta-cell destruction and insulin-dependent diabetes mellitus.
+  JOURNAL   Biochem Pharmacol 55:1139-49 (1998)
+            DOI:10.1016/S0006-2952(97)00492-9
+REFERENCE   PMID:11507694
+  AUTHORS   Cox NJ, Wapelhorst B, Morrison VA, Johnson L, Pinchuk L, Spielman RS, Todd JA, Concannon P
+  TITLE     Seven regions of the genome show evidence of linkage to type 1 diabetes in a consensus analysis of 767 multiplex families.
+  JOURNAL   Am J Hum Genet 69:820-30 (2001)
+            DOI:10.1086/323501
+REFERENCE   PMID:8072542
+  AUTHORS   Davies JL, Kawaguchi Y, Bennett ST, Copeman JB, Cordell HJ, Pritchard LE, Reed PW, Gough SC, Jenkins SC, Palmer SM, et al.
+  TITLE     A genome-wide search for human type 1 diabetes susceptibility genes.
+  JOURNAL   Nature 371:130-6 (1994)
+            DOI:10.1038/371130a0
+REFERENCE   PMID:8786033
+  AUTHORS   Fujisawa T, Ikegami H, Kawaguchi Y, Yamato E, Takekawa K, Nakagawa Y, Hamada Y, Ueda H, Shima K, Ogihara T.
+  TITLE     Class I HLA is associated with age-at-onset of IDDM, while class II HLA confers susceptibility to IDDM.
+  JOURNAL   Diabetologia 38:1493-5 (1995)
+            DOI:10.1007/BF00400620
+REFERENCE   PMID:12796471
+  AUTHORS   Jaeckel E, Klein L, Martin-Orozco N, von Boehmer H.
+  TITLE     Normal incidence of diabetes in NOD mice tolerant to glutamic acid decarboxylase.
+  JOURNAL   J Exp Med 197:1635-44 (2003)
+            DOI:10.1084/jem.20030215
+REFERENCE   PMID:15889095
+  AUTHORS   Nakayama M, Abiru N, Moriyama H, Babaya N, Liu E, Miao D, Yu L, Wegmann DR, Hutton JC, Elliott JF, Eisenbarth GS.
+  TITLE     Prime role for an insulin epitope in the development of type 1 diabetes in NOD mice.
+  JOURNAL   Nature 435:220-3 (2005)
+            DOI:10.1038/nature03523
+REFERENCE   PMID:15889096
+  AUTHORS   Kent SC, Chen Y, Bregoli L, Clemmings SM, Kenyon NS, Ricordi C, Hering BJ, Hafler DA.
+  TITLE     Expanded T cells from pancreatic lymph nodes of type 1 diabetic subjects recognize an insulin epitope.
+  JOURNAL   Nature 435:224-8 (2005)
+            DOI:10.1038/nature03625
+REFERENCE   PMID:14617043
+  AUTHORS   Lieberman SM, DiLorenzo TP.
+  TITLE     A comprehensive guide to antibody and T-cell responses in type 1 diabetes.
+  JOURNAL   Tissue Antigens 62:359-77 (2003)
+            DOI:10.1034/j.1399-0039.2003.00152.x
+REFERENCE   PMID:12752668
+  AUTHORS   Lord SJ, Rajotte RV, Korbutt GS, Bleackley RC.
+  TITLE     Granzyme B: a natural born killer.
+  JOURNAL   Immunol Rev 193:31-8 (2003)
+            DOI:10.1034/j.1600-065X.2003.00044.x
+REL_PATHWAY mmu04210  Apoptosis
+            mmu04660  T cell receptor signaling pathway
+KO_PATHWAY  ko04940
+///

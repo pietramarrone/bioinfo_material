@@ -1,0 +1,20 @@
+ENTRY       mmu00472                    Pathway
+NAME        D-Arginine and D-ornithine metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Metabolism of other amino acids
+PATHWAY_MAP mmu00472  D-Arginine and D-ornithine metabolism
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        13142  Dao; D-amino acid oxidase [KO:K00273] [EC:1.4.3.3]
+COMPOUND    C00062  L-Arginine
+            C00077  L-Ornithine
+            C00134  Putrescine
+            C00515  D-Ornithine
+            C00792  D-Arginine
+            C01110  5-Amino-2-oxopentanoic acid
+            C01667  Bacitracin
+            C03341  2-Amino-4-oxopentanoic acid
+            C03564  1-Pyrroline-2-carboxylate
+            C03771  5-Guanidino-2-oxopentanoate
+            C03943  (2R,4S)-2,4-Diaminopentanoate
+REL_PATHWAY mmu00220  Arginine biosynthesis
+KO_PATHWAY  ko00472
+///

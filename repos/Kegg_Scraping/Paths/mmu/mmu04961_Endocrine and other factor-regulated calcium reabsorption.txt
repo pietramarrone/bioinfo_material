@@ -1,0 +1,138 @@
+ENTRY       mmu04961                    Pathway
+NAME        Endocrine and other factor-regulated calcium reabsorption - Mus musculus (mouse)
+DESCRIPTION Calcium (Ca2+) is essential for numerous physiological functions including intracellular signalling processes, neuronal excitability, muscle contraction and bone formation. Therefore, its homeostasis is finely maintained through the coordination of intestinal absorption, renal reabsorption, and bone resorption. In kidney, the late part of the distal convoluted tubule (DCT) and the connecting tubule (CNT) are the site of active Ca2+ transport and precisely regulate Ca2+ reabsorption. Following Ca2+ entry through TRPV5, Ca2+ bound to calbindin-D28K diffuses to the basolateral side, where it is extruded into the blood compartment through NCX1 and to a lesser extent PMCA1b. In the urinary compartment, both klotho and tissue kallikrein (TK) increase the apical abundance of TRPV5. In the blood compartment, PTH, 1,25(OH)2D3 and estrogen increase the transcription and protein expression of the luminal Ca2+ channels, calbindins, and the extrusion systems.
+CLASS       Organismal Systems; Excretory system
+PATHWAY_MAP mmu04961  Endocrine and other factor-regulated calcium reabsorption
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        19226  Pth; parathyroid hormone [KO:K05261]
+            19228  Pth1r; parathyroid hormone 1 receptor [KO:K04585]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            22337  Vdr; vitamin D (1,25-dihydroxyvitamin D3) receptor [KO:K08539]
+            13982  Esr1; estrogen receptor 1 (alpha) [KO:K08550]
+            194352  Trpv5; transient receptor potential cation channel, subfamily V, member 5 [KO:K04974]
+            16591  Kl; klotho [KO:K14756] [EC:3.2.1.31]
+            13429  Dnm1; dynamin 1 [KO:K01528] [EC:3.6.5.5]
+            103967  Dnm3; dynamin 3 [KO:K01528] [EC:3.6.5.5]
+            13430  Dnm2; dynamin 2 [KO:K23484] [EC:3.6.5.5]
+            11772  Ap2a2; adaptor-related protein complex 2, alpha 2 subunit [KO:K11824]
+            11771  Ap2a1; adaptor-related protein complex 2, alpha 1 subunit [KO:K11824]
+            71770  Ap2b1; adaptor-related protein complex 2, beta 1 subunit [KO:K11825]
+            11773  Ap2m1; adaptor-related protein complex 2, mu 1 subunit [KO:K11826]
+            232910  Ap2s1; adaptor-related protein complex 2, sigma 1 subunit [KO:K11827]
+            12757  Clta; clathrin, light polypeptide (Lca) [KO:K04644]
+            74325  Cltb; clathrin, light polypeptide (Lcb) [KO:K04645]
+            67300  Cltc; clathrin, heavy polypeptide (Hc) [KO:K04646]
+            53869  Rab11a; RAB11A, member RAS oncogene family [KO:K07904]
+            12307  Calb1; calbindin 1 [KO:K14757]
+            11928  Atp1a1; ATPase, Na+/K+ transporting, alpha 1 polypeptide [KO:K01539] [EC:7.2.2.13]
+            98660  Atp1a2; ATPase, Na+/K+ transporting, alpha 2 polypeptide [KO:K01539] [EC:7.2.2.13]
+            232975  Atp1a3; ATPase, Na+/K+ transporting, alpha 3 polypeptide [KO:K01539] [EC:7.2.2.13]
+            27222  Atp1a4; ATPase, Na+/K+ transporting, alpha 4 polypeptide [KO:K01539] [EC:7.2.2.13]
+            67821  Atp1b4; ATPase, (Na+)/K+ transporting, beta 4 polypeptide [KO:K01540]
+            11931  Atp1b1; ATPase, Na+/K+ transporting, beta 1 polypeptide [KO:K01540]
+            11932  Atp1b2; ATPase, Na+/K+ transporting, beta 2 polypeptide [KO:K01540]
+            11933  Atp1b3; ATPase, Na+/K+ transporting, beta 3 polypeptide [KO:K01540]
+            11936  Fxyd2; FXYD domain-containing ion transport regulator 2 [KO:K01538]
+            20541  Slc8a1; solute carrier family 8 (sodium/calcium exchanger), member 1 [KO:K05849]
+            110891  Slc8a2; solute carrier family 8 (sodium/calcium exchanger), member 2 [KO:K05849]
+            110893  Slc8a3; solute carrier family 8 (sodium/calcium exchanger), member 3 [KO:K05849]
+            67972  Atp2b1; ATPase, Ca++ transporting, plasma membrane 1 [KO:K05850] [EC:7.2.2.10]
+            320707  Atp2b3; ATPase, Ca++ transporting, plasma membrane 3 [KO:K05850] [EC:7.2.2.10]
+            381290  Atp2b4; ATPase, Ca++ transporting, plasma membrane 4 [KO:K05850] [EC:7.2.2.10]
+            11941  Atp2b2; ATPase, Ca++ transporting, plasma membrane 2 [KO:K05850] [EC:7.2.2.10]
+            16612  Klk1; kallikrein 1 [KO:K01325] [EC:3.4.21.35]
+            16622  Klk1b5; kallikrein 1-related peptidase b5 [KO:K01325] [EC:3.4.21.35]
+            16618  Klk1b26; kallikrein 1-related petidase b26 [KO:K01325] [EC:3.4.21.35]
+            13648  Klk1b9; kallikrein 1-related peptidase b9 [KO:K01325] [EC:3.4.21.35]
+            16613  Klk1b11; kallikrein 1-related peptidase b11 [KO:K01325] [EC:3.4.21.35]
+            16623  Klk1b1; kallikrein 1-related peptidase b1 [KO:K01325] [EC:3.4.21.35]
+            16624  Klk1b8; kallikrein 1-related peptidase b8 [KO:K01325] [EC:3.4.21.35]
+            16616  Klk1b21; kallikrein 1-related peptidase b21 [KO:K01325] [EC:3.4.21.35]
+            16617  Klk1b24; kallikrein 1-related peptidase b24 [KO:K01325] [EC:3.4.21.35]
+            13646  Klk1b22; kallikrein 1-related peptidase b22 [KO:K01325] [EC:3.4.21.35]
+            18050  Klk1b3; kallikrein 1-related peptidase b3 [KO:K01325] [EC:3.4.21.35]
+            12062  Bdkrb2; bradykinin receptor, beta 2 [KO:K03916]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00238  Potassium cation
+            C00575  3',5'-Cyclic AMP
+            C00951  Estradiol-17beta
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01330  Sodium cation
+            C01673  Calcitriol
+REFERENCE   PMID:18989697
+  AUTHORS   Boros S, Bindels RJ, Hoenderop JG
+  TITLE     Active Ca(2+) reabsorption in the connecting tubule.
+  JOURNAL   Pflugers Arch 458:99-109 (2009)
+            DOI:10.1007/s00424-008-0602-6
+REFERENCE   PMID:16518325
+  AUTHORS   Lambers TT, Bindels RJ, Hoenderop JG
+  TITLE     Coordinated control of renal Ca2+ handling.
+  JOURNAL   Kidney Int 69:650-4 (2006)
+            DOI:10.1038/sj.ki.5000169
+REFERENCE   PMID:18596722
+  AUTHORS   de Groot T, Bindels RJ, Hoenderop JG
+  TITLE     TRPV5: an ingeniously controlled calcium channel.
+  JOURNAL   Kidney Int 74:1241-6 (2008)
+            DOI:10.1038/ki.2008.320
+REFERENCE   PMID:20969972
+  AUTHORS   Markadieu N, Bindels RJ, Hoenderop JG
+  TITLE     The renal connecting tubule: Resolved and unresolved issues in Ca(2+) transport.
+  JOURNAL   Int J Biochem Cell Biol 43:1-4 (2011)
+            DOI:10.1016/j.biocel.2010.10.006
+REFERENCE   PMID:15618484
+  AUTHORS   Hoenderop JG, Nilius B, Bindels RJ
+  TITLE     Calcium absorption across epithelia.
+  JOURNAL   Physiol Rev 85:373-422 (2005)
+            DOI:10.1152/physrev.00003.2004
+REFERENCE   PMID:15747113
+  AUTHORS   van Abel M, Hoenderop JG, Bindels RJ
+  TITLE     The epithelial calcium channels TRPV5 and TRPV6: regulation and implications for disease.
+  JOURNAL   Naunyn Schmiedebergs Arch Pharmacol 371:295-306 (2005)
+            DOI:10.1007/s00210-005-1021-2
+REFERENCE   PMID:16044309
+  AUTHORS   Nijenhuis T, Hoenderop JG, Bindels RJ
+  TITLE     TRPV5 and TRPV6 in Ca(2+) (re)absorption: regulating Ca(2+) entry at the gate.
+  JOURNAL   Pflugers Arch 451:181-92 (2005)
+            DOI:10.1007/s00424-005-1430-6
+REFERENCE   PMID:12684797
+  AUTHORS   Hoenderop JG, Nilius B, Bindels RJ
+  TITLE     Epithelial calcium channels: from identification to function and regulation.
+  JOURNAL   Pflugers Arch 446:304-8 (2003)
+            DOI:10.1007/s00424-003-1045-8
+REFERENCE   PMID:17006539
+  AUTHORS   Gkika D, Topala CN, Chang Q, Picard N, Thebault S, Houillier P, Hoenderop JG, Bindels RJ
+  TITLE     Tissue kallikrein stimulates Ca(2+) reabsorption via PKC-dependent plasma membrane accumulation of TRPV5.
+  JOURNAL   EMBO J 25:4707-16 (2006)
+            DOI:10.1038/sj.emboj.7601357
+REFERENCE   PMID:17233615
+  AUTHORS   Schoeber JP, Hoenderop JG, Bindels RJ
+  TITLE     Concerted action of associated proteins in the regulation of TRPV5 and TRPV6.
+  JOURNAL   Biochem Soc Trans 35:115-9 (2007)
+            DOI:10.1042/BST0350115
+REFERENCE   PMID:18293139
+  AUTHORS   Renkema KY, Alexander RT, Bindels RJ, Hoenderop JG
+  TITLE     Calcium and phosphate homeostasis: concerted interplay of new regulators.
+  JOURNAL   Ann Med 40:82-91 (2008)
+            DOI:10.1080/07853890701689645
+REFERENCE   PMID:19423690
+  AUTHORS   de Groot T, Lee K, Langeslag M, Xi Q, Jalink K, Bindels RJ, Hoenderop JG
+  TITLE     Parathyroid hormone activates TRPV5 via PKA-dependent phosphorylation.
+  JOURNAL   J Am Soc Nephrol 20:1693-704 (2009)
+            DOI:10.1681/ASN.2008080873
+REL_PATHWAY mmu04144  Endocytosis
+            mmu04530  Tight junction
+KO_PATHWAY  ko04961
+///

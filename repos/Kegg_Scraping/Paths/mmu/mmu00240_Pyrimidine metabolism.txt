@@ -1,0 +1,139 @@
+ENTRY       mmu00240                    Pathway
+NAME        Pyrimidine metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Nucleotide metabolism
+PATHWAY_MAP mmu00240  Pyrimidine metabolism
+MODULE      mmu_M00046  Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate [PATH:mmu00240]
+            mmu_M00051  Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP [PATH:mmu00240]
+            mmu_M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP [PATH:mmu00240]
+DBLINKS     GO: 0006220
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        69719  Cad; carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase [KO:K11540] [EC:6.3.5.5 2.1.3.2 3.5.2.3]
+            56749  Dhodh; dihydroorotate dehydrogenase [KO:K00254] [EC:1.3.5.2]
+            22247  Umps; uridine monophosphate synthetase [KO:K13421] [EC:2.4.2.10 4.1.1.23]
+            66588  Cmpk1; cytidine monophosphate (UMP-CMP) kinase 1 [KO:K13800] [EC:2.7.4.14]
+            22169  Cmpk2; cytidine monophosphate (UMP-CMP) kinase 2, mitochondrial [KO:K13809] [EC:2.7.4.14]
+            54369  Nme6; NME/NM23 nucleoside diphosphate kinase 6 [KO:K00940] [EC:2.7.4.6]
+            18103  Nme2; NME/NM23 nucleoside diphosphate kinase 2 [KO:K00940] [EC:2.7.4.6]
+            56520  Nme4; NME/NM23 nucleoside diphosphate kinase 4 [KO:K00940] [EC:2.7.4.6]
+            79059  Nme3; NME/NM23 nucleoside diphosphate kinase 3 [KO:K00940] [EC:2.7.4.6]
+            171567  Nme7; NME/NM23 family member 7 [KO:K00940] [EC:2.7.4.6]
+            18102  Nme1; NME/NM23 nucleoside diphosphate kinase 1 [KO:K00940] [EC:2.7.4.6]
+            633979  Ak9; adenylate kinase 9 [KO:K18533] [EC:2.7.4.3 2.7.4.6]
+            12495  Entpd1; ectonucleoside triphosphate diphosphohydrolase 1 [KO:K01510] [EC:3.6.1.5]
+            215446  Entpd3; ectonucleoside triphosphate diphosphohydrolase 3 [KO:K01510] [EC:3.6.1.5]
+            72090  Entpd8; ectonucleoside triphosphate diphosphohydrolase 8 [KO:K01510] [EC:3.6.1.5]
+            76025  Cant1; calcium activated nucleotidase 1 [KO:K12304] [EC:3.6.1.6]
+            67464  Entpd4; ectonucleoside triphosphate diphosphohydrolase 4 [KO:K12305] [EC:3.6.1.6]
+            100862375  Entpd4b; ectonucleoside triphosphate diphosphohydrolase 4B [KO:K12305] [EC:3.6.1.6]
+            12499  Entpd5; ectonucleoside triphosphate diphosphohydrolase 5 [KO:K01511] [EC:3.6.1.6]
+            12497  Entpd6; ectonucleoside triphosphate diphosphohydrolase 6 [KO:K01511] [EC:3.6.1.6]
+            51797  Ctps; cytidine 5'-triphosphate synthase [KO:K01937] [EC:6.3.4.2]
+            55936  Ctps2; cytidine 5'-triphosphate synthase 2 [KO:K01937] [EC:6.3.4.2]
+            80914  Uck2; uridine-cytidine kinase 2 [KO:K00876] [EC:2.7.1.48]
+            22245  Uck1; uridine-cytidine kinase 1 [KO:K00876] [EC:2.7.1.48]
+            68556  Uckl1; uridine-cytidine kinase 1-like 1 [KO:K00876] [EC:2.7.1.48]
+            76952  Nt5c2; 5'-nucleotidase, cytosolic II [KO:K01081] [EC:3.1.3.5]
+            107569  Nt5c3; 5'-nucleotidase, cytosolic III [KO:K01081] [EC:3.1.3.5]
+            70881  Nt5c1b; 5'-nucleotidase, cytosolic IB [KO:K01081] [EC:3.1.3.5]
+            230718  Nt5c1a; 5'-nucleotidase, cytosolic IA [KO:K01081] [EC:3.1.3.5]
+            50773  Nt5c; 5',3'-nucleotidase, cytosolic [KO:K01081] [EC:3.1.3.5]
+            103850  Nt5m; 5',3'-nucleotidase, mitochondrial [KO:K01081] [EC:3.1.3.5]
+            68106  Nt5c3b; 5'-nucleotidase, cytosolic IIIB [KO:K01081] [EC:3.1.3.5]
+            66763  Nt5el; 5' nucleotidase, ecto-like [KO:K01081] [EC:3.1.3.5]
+            23959  Nt5e; 5' nucleotidase, ecto [KO:K19970] [EC:3.1.3.5]
+            22271  Upp1; uridine phosphorylase 1 [KO:K00757] [EC:2.4.2.3]
+            76654  Upp2; uridine phosphorylase 2 [KO:K00757] [EC:2.4.2.3]
+            331487  Uprt; uracil phosphoribosyltransferase [KO:K00761] [EC:2.4.2.9]
+            99586  Dpyd; dihydropyrimidine dehydrogenase [KO:K00207] [EC:1.3.1.2]
+            64705  Dpys; dihydropyrimidinase [KO:K01464] [EC:3.5.2.2]
+            103149  Upb1; ureidopropionase, beta [KO:K01431] [EC:3.5.1.6]
+            18605  Enpp1; ectonucleotide pyrophosphatase/phosphodiesterase 1 [KO:K01513] [EC:3.1.4.1 3.6.1.9]
+            209558  Enpp3; ectonucleotide pyrophosphatase/phosphodiesterase 3 [KO:K01513] [EC:3.1.4.1 3.6.1.9]
+            20133  Rrm1; ribonucleotide reductase M1 [KO:K10807] [EC:1.17.4.1]
+            382985  Rrm2b; ribonucleotide reductase M2 B (TP53 inducible) [KO:K10808] [EC:1.17.4.1]
+            20135  Rrm2; ribonucleotide reductase M2 [KO:K10808] [EC:1.17.4.1]
+            66422  Dctpp1; dCTP pyrophosphatase 1 [KO:K16904] [EC:3.6.1.12]
+            110074  Dut; deoxyuridine triphosphatase [KO:K01520] [EC:3.6.1.23]
+            22171  Tyms; thymidylate synthase [KO:K00560] [EC:2.1.1.45]
+            72269  Cda; cytidine deaminase [KO:K01489] [EC:3.5.4.5]
+            72962  Tymp; thymidine phosphorylase [KO:K00758] [EC:2.4.2.4]
+            18950  Pnp; purine-nucleoside phosphorylase [KO:K03783] [EC:2.4.2.1]
+            667034  Pnp2; purine-nucleoside phosphorylase 2 [KO:K03783] [EC:2.4.2.1]
+            13178  Dck; deoxycytidine kinase [KO:K00893] [EC:2.7.1.74]
+            320685  Dctd; dCMP deaminase [KO:K01493] [EC:3.5.4.12]
+            57813  Tk2; thymidine kinase 2, mitochondrial [KO:K00857] [EC:2.7.1.21]
+            21877  Tk1; thymidine kinase 1 [KO:K00857] [EC:2.7.1.21]
+            21915  Dtymk; deoxythymidylate kinase [KO:K00943] [EC:2.7.4.9]
+            66401  Nudt2; nudix (nucleoside diphosphate linked moiety X)-type motif 2 [KO:K01518] [EC:3.6.1.17]
+COMPOUND    C00015  UDP
+            C00029  UDP-glucose
+            C00039  DNA
+            C00046  RNA
+            C00055  CMP
+            C00063  CTP
+            C00064  L-Glutamine
+            C00075  UTP
+            C00086  Urea
+            C00099  beta-Alanine
+            C00105  UMP
+            C00106  Uracil
+            C00112  CDP
+            C00119  5-Phospho-alpha-D-ribose 1-diphosphate
+            C00169  Carbamoyl phosphate
+            C00178  Thymine
+            C00214  Thymidine
+            C00222  3-Oxopropanoate
+            C00239  dCMP
+            C00295  Orotate
+            C00299  Uridine
+            C00337  (S)-Dihydroorotate
+            C00363  dTDP
+            C00364  dTMP
+            C00365  dUMP
+            C00380  Cytosine
+            C00383  Malonate
+            C00429  5,6-Dihydrouracil
+            C00438  N-Carbamoyl-L-aspartate
+            C00458  dCTP
+            C00459  dTTP
+            C00460  dUTP
+            C00475  Cytidine
+            C00526  Deoxyuridine
+            C00672  2-Deoxy-D-ribose 1-phosphate
+            C00705  dCDP
+            C00813  Barbiturate
+            C00881  Deoxycytidine
+            C01013  3-Hydroxypropanoate
+            C01103  Orotidine 5'-phosphate
+            C01168  Pseudouridine 5'-phosphate
+            C01205  (R)-3-Amino-2-methylpropanoate
+            C01346  dUDP
+            C01368  3'-UMP
+            C01563  Carbamate
+            C02067  Pseudouridine
+            C02170  Methylmalonate
+            C02354  2',3'-Cyclic CMP
+            C02355  2',3'-Cyclic UMP
+            C02376  5-Methylcytosine
+            C02642  3-Ureidopropionate
+            C03997  5-Hydroxymethyldeoxycytidylate
+            C05281  5-Methylbarbiturate
+            C05822  3'-CMP
+            C06198  P1,P4-Bis(5'-uridyl) tetraphosphate
+            C11038  2'-Deoxy-5-hydroxymethylcytidine-5'-diphosphate
+            C11039  2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate
+            C15607  3-Oxo-3-ureidopropanoate
+            C20231  (Z)-3-Ureidoacrylate peracid
+            C20249  (Z)-3-Peroxyaminoacrylate
+            C20253  Aminoacrylate
+            C20254  Ureidoacrylate
+            C20846  3-Oxo-3-ureidoisobutyrate
+            C21028  (R)-5,6-Dihydrothymine
+            C21029  (R)-3-Ureidoisobutyrate
+REL_PATHWAY mmu00030  Pentose phosphate pathway
+            mmu00220  Arginine biosynthesis
+            mmu00250  Alanine, aspartate and glutamate metabolism
+            mmu00280  Valine, leucine and isoleucine degradation
+            mmu00410  beta-Alanine metabolism
+KO_PATHWAY  ko00240
+///

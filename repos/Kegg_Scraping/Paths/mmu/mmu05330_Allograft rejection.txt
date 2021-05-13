@@ -1,0 +1,130 @@
+ENTRY       mmu05330                    Pathway
+NAME        Allograft rejection - Mus musculus (mouse)
+DESCRIPTION Allograft rejection is the consequence of the recipient's alloimmune response to nonself antigens expressed by donor tissues. After transplantation of organ allografts, there are two pathways of antigen presentation. In the direct pathway, recipient T cells react to intact allogeneic MHC molecules expressed on the surface of donor cells. This pathway would activate host CD4 or CD8 T cells. In contrast, donor MHC molecules (and all other proteins) shed from the graft can be taken up by host APCs and presented to recipient T cells in the context of self-MHC molecules - the indirect pathway. Such presentation activates predominantly CD4 T cells. A direct cytotoxic T-cell attack on graft cells can be made only by T cells that recognize the graft MHC molecules directly. Nontheless, T cells with indirect allospecificity can contribute to graft rejection by activating macrophages, which cause tissue injury and fibrosis, and are also likely to be important in the development of an alloantibody response to graft.
+CLASS       Human Diseases; Immune disease
+PATHWAY_MAP mmu05330  Allograft rejection
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14990  H2-M2; histocompatibility 2, M region locus 2 [KO:K06751]
+            14991  H2-M3; histocompatibility 2, M region locus 3 [KO:K06751]
+            14997  H2-M9; histocompatibility 2, M region locus 9 [KO:K06751]
+            15006  H2-Q1; histocompatibility 2, Q region locus 1 [KO:K06751]
+            15007  H2-Q10; histocompatibility 2, Q region locus 10 [KO:K06751]
+            15013  H2-Q2; histocompatibility 2, Q region locus 2 [KO:K06751]
+            15018  H2-Q7; histocompatibility 2, Q region locus 7 [KO:K06751]
+            15019  H2-Q8; histocompatibility 2, Q region locus 8 [KO:K06751]
+            15039  H2-T22; histocompatibility 2, T region locus 22 [KO:K06751]
+            15040  H2-T23; histocompatibility 2, T region locus 23 [KO:K06751]
+            15042  H2-T24; histocompatibility 2, T region locus 24 [KO:K06751]
+            15043  H2-T3; histocompatibility 2, T region locus 3 [KO:K06751]
+            15051  H2-T9; histocompatibility 2, T region locus 9 [KO:K06751]
+            224753  H2-M10.4; histocompatibility 2, M region locus 10.4 [KO:K06751]
+            224754  H2-M11; histocompatibility 2, M region locus 11 [KO:K06751]
+            224756  H2-M1; histocompatibility 2, M region locus 1 [KO:K06751]
+            224761  H2-M10.5; histocompatibility 2, M region locus 10.5 [KO:K06751]
+            333715  H2-M10.2; histocompatibility 2, M region locus 10.2 [KO:K06751]
+            399549  H2-M10.6; histocompatibility 2, M region locus 10.6 [KO:K06751]
+            15024  H2-T10; histocompatibility 2, T region locus 10 [KO:K06751]
+            110557  H2-Q6; histocompatibility 2, Q region locus 6 [KO:K06751]
+            110696  H2-M10.3; histocompatibility 2, M region locus 10.3 [KO:K06751]
+            14963  H2-Bl; histocompatibility 2, blastocyst [KO:K06751]
+            14964  H2-D1; histocompatibility 2, D region locus 1 [KO:K06751]
+            14972  H2-K1; histocompatibility 2, K1, K region [KO:K06751]
+            14985  H2-M10.1; histocompatibility 2, M region locus 10.1 [KO:K06751]
+            547349  H2-K1; MHC class I family member [KO:K06751]
+            15033  H2-T18; histocompatibility 2, T region locus 18 [KO:K06751]
+            110558  H2-Q9; histocompatibility 2, Q region locus 9 [KO:K06751]
+            667977  Gm8909; predicted gene 8909 [KO:K06751]
+            14980  H2-L; histocompatibility 2, D region locus L [KO:K06751]
+            69717  Gm10499; predicted gene 10499 [KO:K06751]
+            15015  H2-Q4; histocompatibility 2, Q region locus 4 [KO:K06751]
+            667803  H2-T-ps; histocompatibility 2, T region locus, pseudogene [KO:K06751]
+            100529082  Gm11127; predicted gene 11127 [KO:K06751]
+            240095  H2-M5; histocompatibility 2, M region locus 5 [KO:K06751]
+            630294  Gm7030; predicted gene 7030 [KO:K06751]
+            12519  Cd80; CD80 antigen [KO:K05412]
+            12524  Cd86; CD86 antigen [KO:K05413]
+            12487  Cd28; CD28 antigen [KO:K06470]
+            16159  Il12a; interleukin 12a [KO:K05406]
+            16160  Il12b; interleukin 12b [KO:K05425]
+            14103  Fasl; Fas ligand (TNF superfamily, member 6) [KO:K04389]
+            14102  Fas; Fas (TNF receptor superfamily member 6) [KO:K04390]
+            18646  Prf1; perforin 1 (pore forming protein) [KO:K07818]
+            14939  Gzmb; granzyme B [KO:K01353] [EC:3.4.21.79]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            16183  Il2; interleukin 2 [KO:K05429]
+            21947  Cd40lg; CD40 ligand [KO:K03161]
+            21939  Cd40; CD40 antigen [KO:K03160]
+            15978  Ifng; interferon gamma [KO:K04687]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            16189  Il4; interleukin 4 [KO:K05430]
+            16191  Il5; interleukin 5 [KO:K05428]
+            16153  Il10; interleukin 10 [KO:K05443]
+COMPOUND    C00533  Nitric oxide
+REFERENCE   PMID:10746853
+  AUTHORS   Arakelov A, Lakkis FG.
+  TITLE     The alloimmune response and effector mechanisms of allograft rejection.
+  JOURNAL   Semin Nephrol 20:95-102 (2000)
+REFERENCE   PMID:12023610
+  AUTHORS   Le Moine A, Goldman M, Abramowicz D.
+  TITLE     Multiple pathways to allograft rejection.
+  JOURNAL   Transplantation 73:1373-81 (2002)
+            DOI:10.1097/00007890-200205150-00001
+REFERENCE   PMID:17445565
+  AUTHORS   Trivedi HL.
+  TITLE     Immunobiology of rejection and adaptation.
+  JOURNAL   Transplant Proc 39:647-52 (2007)
+            DOI:10.1016/j.transproceed.2007.01.047
+REFERENCE   PMID:14710779
+  AUTHORS   Pietra BA.
+  TITLE     Transplantation immunology 2003: simplified approach.
+  JOURNAL   Pediatr Clin North Am 50:1233-59 (2003)
+            DOI:10.1016/S0031-3955(03)00119-6
+REFERENCE   PMID:8835634
+  AUTHORS   Oka T, Yoshimura N.
+  TITLE     Immunosuppression in organ transplantation.
+  JOURNAL   Jpn J Pharmacol 71:89-100 (1996)
+            DOI:10.1254/jjp.71.89
+REFERENCE   PMID:10571983
+  AUTHORS   Sayegh MH.
+  TITLE     Why do we reject a graft? Role of indirect allorecognition in graft rejection.
+  JOURNAL   Kidney Int 56:1967-79 (1999)
+            DOI:10.1046/j.1523-1755.1999.00751.x
+REFERENCE   PMID:10331992
+  AUTHORS   Benichou G.
+  TITLE     Direct and indirect antigen recognition: the pathways to allograft immune rejection.
+  JOURNAL   Front Biosci 4:D476-80 (1999)
+            DOI:10.2741/benichou
+REFERENCE   PMID:10667806
+  AUTHORS   Turvey SE, Wood KJ.
+  TITLE     Immunobiology of solid organ transplantation.
+  JOURNAL   Int Surg 84:279-90 (1999)
+REFERENCE   
+  AUTHORS   Janeway CA, Travers P, Walport M, Shlomchik MJ.
+  TITLE     Immunobiology 6th edition
+  JOURNAL   Garland Science Publishing (2005)
+REFERENCE   PMID:12216939
+  AUTHORS   Game DS, Lechler RI.
+  TITLE     Pathways of allorecognition: implications for transplantation tolerance.
+  JOURNAL   Transpl Immunol 10:101-8 (2002)
+            DOI:10.1016/S0966-3274(02)00055-2
+REFERENCE   PMID:12563298
+  AUTHORS   Lechler RI, Garden OA, Turka LA.
+  TITLE     The complementary roles of deletion and regulation in transplantation tolerance.
+  JOURNAL   Nat Rev Immunol 3:147-58 (2003)
+            DOI:10.1038/nri1002
+REL_PATHWAY mmu04210  Apoptosis
+            mmu04514  Cell adhesion molecules (CAMs)
+            mmu04610  Complement and coagulation cascades
+            mmu04612  Antigen processing and presentation
+            mmu04660  T cell receptor signaling pathway
+            mmu04662  B cell receptor signaling pathway
+KO_PATHWAY  ko05330
+///

@@ -1,0 +1,131 @@
+ENTRY       mmu05412                    Pathway
+NAME        Arrhythmogenic right ventricular cardiomyopathy (ARVC) - Mus musculus (mouse)
+DESCRIPTION Arrhythmogenic right ventricular cardiomyopathy (ARVC) is an inherited heart muscle disease that may result in arrhythmia, heart failure, and sudden death. The hallmark pathological findings are progressive myocyte loss and fibrofatty replacement, with a predilection for the right ventricle. A number of genetic studies have identified mutations in various components of the cardiac desmosome that have important roles in the pathogenesis of ARVC. Disruption of desmosomal function by defective proteins might lead to death of myocytes under mechanical stress. The myocardial injury may be accompanied by inflammation. Since regeneration of cardiac myocytes is limited, repair by fibrofatty replacement occurs. Several studies have implicated that desmosome dysfunction results in the delocalization and nuclear translocation of plakoglobin. As a result, competition between plakoglobin and beta-catenin will lead to the inhibition of Wnt/beta-catenin signaling, resulting in a shift from a myocyte fate towards an adipocyte fate of cells. The ryanodine receptor plays a crucial part in electromechanical coupling by control of release of calcium from the sarcoplasmic reticulum into the cytosol. Therefore, defects in this receptor could result in an imbalance of calcium homeostasis that might trigger cell death.
+CLASS       Human Diseases; Cardiovascular disease
+PATHWAY_MAP mmu05412  Arrhythmogenic right ventricular cardiomyopathy (ARVC)
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        109700  Itga1; integrin alpha 1 [KO:K06480]
+            16398  Itga2; integrin alpha 2 [KO:K06481]
+            16399  Itga2b; integrin alpha 2b [KO:K06476]
+            16400  Itga3; integrin alpha 3 [KO:K06482]
+            16401  Itga4; integrin alpha 4 [KO:K06483]
+            16402  Itga5; integrin alpha 5 (fibronectin receptor alpha) [KO:K06484]
+            16403  Itga6; integrin alpha 6 [KO:K06485]
+            16404  Itga7; integrin alpha 7 [KO:K06583]
+            241226  Itga8; integrin alpha 8 [KO:K06584]
+            104099  Itga9; integrin alpha 9 [KO:K06585]
+            213119  Itga10; integrin, alpha 10 [KO:K06586]
+            319480  Itga11; integrin alpha 11 [KO:K06587]
+            16410  Itgav; integrin alpha V [KO:K06487]
+            16412  Itgb1; integrin beta 1 (fibronectin receptor beta) [KO:K05719]
+            16416  Itgb3; integrin beta 3 [KO:K06493]
+            192897  Itgb4; integrin beta 4 [KO:K06525]
+            16419  Itgb5; integrin beta 5 [KO:K06588]
+            16420  Itgb6; integrin beta 6 [KO:K06589]
+            16421  Itgb7; integrin beta 7 [KO:K06590]
+            320910  Itgb8; integrin beta 8 [KO:K06591]
+            24052  Sgcd; sarcoglycan, delta (dystrophin-associated glycoprotein) [KO:K12563]
+            24053  Sgcg; sarcoglycan, gamma (dystrophin-associated glycoprotein) [KO:K12564]
+            20391  Sgca; sarcoglycan, alpha (dystrophin-associated glycoprotein) [KO:K12565]
+            24051  Sgcb; sarcoglycan, beta (dystrophin-associated glycoprotein) [KO:K12566]
+            16772  Lama1; laminin, alpha 1 [KO:K05637]
+            16773  Lama2; laminin, alpha 2 [KO:K05637]
+            13138  Dag1; dystroglycan 1 [KO:K06265]
+            13405  Dmd; dystrophin, muscular dystrophy [KO:K10366]
+            13346  Des; desmin [KO:K07610]
+            11465  Actg1; actin, gamma, cytoplasmic 1 [KO:K05692]
+            11461  Actb; actin, beta [KO:K05692]
+            13726  Emd; emerin [KO:K12569]
+            16905  Lmna; lamin A [KO:K12641]
+            12387  Ctnnb1; catenin (cadherin associated protein), beta 1 [KO:K02105]
+            21414  Tcf7; transcription factor 7, T cell specific [KO:K02620]
+            21415  Tcf7l1; transcription factor 7 like 1 (T cell specific, HMG box) [KO:K04490]
+            21416  Tcf7l2; transcription factor 7 like 2, T cell specific, HMG box [KO:K04491]
+            16842  Lef1; lymphoid enhancer binding factor 1 [KO:K04492]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            12295  Cacnb1; calcium channel, voltage-dependent, beta 1 subunit [KO:K04862]
+            12296  Cacnb2; calcium channel, voltage-dependent, beta 2 subunit [KO:K04863]
+            12297  Cacnb3; calcium channel, voltage-dependent, beta 3 subunit [KO:K04864]
+            12298  Cacnb4; calcium channel, voltage-dependent, beta 4 subunit [KO:K04865]
+            12293  Cacna2d1; calcium channel, voltage-dependent, alpha2/delta subunit 1 [KO:K04858]
+            56808  Cacna2d2; calcium channel, voltage-dependent, alpha 2/delta subunit 2 [KO:K04859]
+            12294  Cacna2d3; calcium channel, voltage-dependent, alpha2/delta subunit 3 [KO:K04860]
+            319734  Cacna2d4; calcium channel, voltage-dependent, alpha 2/delta subunit 4 [KO:K04861]
+            12299  Cacng1; calcium channel, voltage-dependent, gamma subunit 1 [KO:K04866]
+            12300  Cacng2; calcium channel, voltage-dependent, gamma subunit 2 [KO:K04867]
+            54376  Cacng3; calcium channel, voltage-dependent, gamma subunit 3 [KO:K04868]
+            54377  Cacng4; calcium channel, voltage-dependent, gamma subunit 4 [KO:K04869]
+            140723  Cacng5; calcium channel, voltage-dependent, gamma subunit 5 [KO:K04870]
+            54378  Cacng6; calcium channel, voltage-dependent, gamma subunit 6 [KO:K04871]
+            81904  Cacng7; calcium channel, voltage-dependent, gamma subunit 7 [KO:K04872]
+            81905  Cacng8; calcium channel, voltage-dependent, gamma subunit 8 [KO:K04873]
+            20191  Ryr2; ryanodine receptor 2, cardiac [KO:K04962]
+            11937  Atp2a1; ATPase, Ca++ transporting, cardiac muscle, fast twitch 1 [KO:K05853] [EC:7.2.2.10]
+            53313  Atp2a3; ATPase, Ca++ transporting, ubiquitous [KO:K05853] [EC:7.2.2.10]
+            11938  Atp2a2; ATPase, Ca++ transporting, cardiac muscle, slow twitch 2 [KO:K05853] [EC:7.2.2.10]
+            20541  Slc8a1; solute carrier family 8 (sodium/calcium exchanger), member 1 [KO:K05849]
+            110891  Slc8a2; solute carrier family 8 (sodium/calcium exchanger), member 2 [KO:K05849]
+            110893  Slc8a3; solute carrier family 8 (sodium/calcium exchanger), member 3 [KO:K05849]
+            12558  Cdh2; cadherin 2 [KO:K06736]
+            16480  Jup; junction plakoglobin [KO:K10056]
+            12386  Ctnna2; catenin (cadherin associated protein), alpha 2 [KO:K05691]
+            216033  Ctnna3; catenin (cadherin associated protein), alpha 3 [KO:K05691]
+            12385  Ctnna1; catenin (cadherin associated protein), alpha 1 [KO:K05691]
+            11474  Actn3; actinin alpha 3 [KO:K21073]
+            11472  Actn2; actinin alpha 2 [KO:K21073]
+            13506  Dsc2; desmocollin 2 [KO:K07601]
+            67451  Pkp2; plakophilin 2 [KO:K12642]
+            109620  Dsp; desmoplakin [KO:K10381]
+            13511  Dsg2; desmoglein 2 [KO:K07597]
+            14609  Gja1; gap junction protein, alpha 1 [KO:K07372]
+COMPOUND    C00076  Calcium cation
+            C01330  Sodium cation
+REFERENCE   PMID:19205777
+  AUTHORS   Herren T, Gerber PA, Duru F
+  TITLE     Arrhythmogenic right ventricular cardiomyopathy/dysplasia: a not so rare "disease of the desmosome" with multiple clinical presentations.
+  JOURNAL   Clin Res Cardiol 98:141-58 (2009)
+            DOI:10.1007/s00392-009-0751-4
+REFERENCE   PMID:17413274
+  AUTHORS   van Tintelen JP, Hofstra RM, Wiesfeld AC, van den Berg MP, Hauer RN, Jongbloed JD
+  TITLE     Molecular genetics of arrhythmogenic right ventricular cardiomyopathy: emerging horizon?
+  JOURNAL   Curr Opin Cardiol 22:185-92 (2007)
+            DOI:10.1097/HCO.0b013e3280d942c4
+REFERENCE   PMID:12270949
+  AUTHORS   Fatkin D, Graham RM
+  TITLE     Molecular mechanisms of inherited cardiomyopathies.
+  JOURNAL   Physiol Rev 82:945-80 (2002)
+            DOI:10.1152/physrev.00012.2002
+REFERENCE   PMID:11716909
+  AUTHORS   Franz WM, Muller OJ, Katus HA
+  TITLE     Cardiomyopathies: from genetics to the prospect of treatment.
+  JOURNAL   Lancet 358:1627-37 (2001)
+            DOI:10.1016/S0140-6736(01)06657-0
+REFERENCE   PMID:16823481
+  AUTHORS   MacRae CA, Birchmeier W, Thierfelder L
+  TITLE     Arrhythmogenic right ventricular cardiomyopathy: moving toward mechanism.
+  JOURNAL   J Clin Invest 116:1825-8 (2006)
+            DOI:10.1172/JCI29174
+REFERENCE   PMID:18382419
+  AUTHORS   Awad MM, Calkins H, Judge DP
+  TITLE     Mechanisms of disease: molecular genetics of arrhythmogenic right ventricular dysplasia/cardiomyopathy.
+  JOURNAL   Nat Clin Pract Cardiovasc Med 5:258-67 (2008)
+            DOI:10.1038/ncpcardio1182
+REFERENCE   PMID:16101641
+  AUTHORS   Sen-Chowdhry S, Syrris P, McKenna WJ
+  TITLE     Genetics of right ventricular cardiomyopathy.
+  JOURNAL   J Cardiovasc Electrophysiol 16:927-35 (2005)
+            DOI:10.1111/j.1540-8167.2005.40842.x
+REFERENCE   PMID:16124859
+  AUTHORS   Ahmad F, Seidman JG, Seidman CE
+  TITLE     The genetic basis for cardiac remodeling.
+  JOURNAL   Annu Rev Genomics Hum Genet 6:185-216 (2005)
+            DOI:10.1146/annurev.genom.6.080604.162132
+REL_PATHWAY mmu04260  Cardiac muscle contraction
+            mmu04310  Wnt signaling pathway
+            mmu04512  ECM-receptor interaction
+            mmu04540  Gap junction
+KO_PATHWAY  ko05412
+///

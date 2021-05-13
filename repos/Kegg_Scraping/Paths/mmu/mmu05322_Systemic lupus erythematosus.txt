@@ -1,0 +1,215 @@
+ENTRY       mmu05322                    Pathway
+NAME        Systemic lupus erythematosus - Mus musculus (mouse)
+DESCRIPTION Systemic lupus erythematosus (SLE) is a prototypic autoimmune disease characterised by the production of IgG autoantibodies that are specific for self-antigens, such as DNA, nuclear proteins and certain cytoplasmic components, in association with a diverse array of clinical manifestations. The primary pathological findings in patients with SLE are those of inflammation, vasculitis, immune complex deposition, and vasculopathy. Immune complexes comprising autoantibody and self-antigen is deposited particulary in the renal glomeruli and mediate a systemic inflammatory response by activating complement or via Fc{gamma}R-mediated neutrophil and macrophage activation. Activation of complement (C5) leads to injury both through formation of the membrane attack complex (C5b-9) or by generation of the anaphylatoxin and cell activator C5a. Neutrophils and macrophages cause tissue injury by the release of oxidants and proteases.
+CLASS       Human Diseases; Immune disease
+PATHWAY_MAP mmu05322  Systemic lupus erythematosus
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        12259  C1qa; complement component 1, q subcomponent, alpha polypeptide [KO:K03986]
+            12260  C1qb; complement component 1, q subcomponent, beta polypeptide [KO:K03987]
+            12262  C1qc; complement component 1, q subcomponent, C chain [KO:K03988]
+            12263  C2; complement component 2 (within H-2S) [KO:K01332] [EC:3.4.21.43]
+            12268  C4b; complement component 4B (Chido blood group) [KO:K03989]
+            15270  H2ax; H2A.X variant histone [KO:K11251]
+            319176  H2ac20; H2A clustered histone 20 [KO:K11251]
+            547160  H2al1e; H2A histone family member L1E [KO:K11251]
+            100042944  H2al1h; H2A histone family member L1H [KO:K11251]
+            319163  H2ac1; H2A clustered histone 1 [KO:K11251]
+            319165  H2ac7; H2A clustered histone 7 [KO:K11251]
+            319166  H2ac8; H2A clustered histone 8 [KO:K11251]
+            319167  H2ac11; H2A clustered histone 11 [KO:K11251]
+            319168  H2ac12; H2A clustered histone 12 [KO:K11251]
+            319169  H2ac15; H2A clustered histone 15 [KO:K11251]
+            319170  H2ac22; H2A clustered histone 22 [KO:K11251]
+            319171  H2ac24; H2A clustered histone 24 [KO:K11251]
+            319172  H2ac4; H2A clustered histone 4 [KO:K11251]
+            319173  H2ac10; H2A clustered histone 10 [KO:K11251]
+            319191  H2ac13; H2A clustered histone 13 [KO:K11251]
+            319192  H2ac19; H2A clustered histone 19 [KO:K11251]
+            665433  H2ac23; H2A clustered histone 23 [KO:K11251]
+            319164  H2ac6; H2A clustered histone 6 [KO:K11251]
+            26914  Macroh2a1; macroH2A.1 histone [KO:K11251]
+            404634  Macroh2a2; macroH2A.2 histone [KO:K11251]
+            232440  H2aj; H2J.A histone [KO:K11251]
+            100042943  H2al1g; H2A histone family member L1G [KO:K11251]
+            100042929  H2al1c; H2A histone family member L1C [KO:K11251]
+            621893  H2ac21; H2A clustered histone 21 [KO:K11251]
+            77605  H2az2; H2A.Z histone variant 2 [KO:K11251]
+            100042922  H2al1a; H2A histone family member L1A [KO:K11251]
+            333452  H2al1o; H2A histone family member L1O [KO:K11251]
+            385328  H2al1n; H2A histone family member L1N [KO:K11251]
+            68231  H2al2a; H2A histone family member L2A [KO:K11251]
+            100042946  H2al1i; H2A histone family member L1I [KO:K11251]
+            624153  H2ab2; H2A.B variant histone 2 [KO:K11251]
+            236663  H2al1j; H2A histone family member L1J [KO:K11251]
+            76383  H2al1m; H2A histone family member L1M [KO:K11251]
+            100042840  H2al2b; H2A histone family member L2B [KO:K11251]
+            100042931  H2al1d; H2A histone family member L1D [KO:K11251]
+            51788  H2az1; H2A.Z variant histone 1 [KO:K11251]
+            319162  H2aw; H2A.W histone [KO:K11251]
+            15267  H2ac18; H2A clustered histone 18 [KO:K11251]
+            547210  H2al2c; H2A histone family member L2C [KO:K11251]
+            624957  H2ab3; H2A.B variant histone 3 [KO:K11251]
+            547154  H2al1k; H2A histone family member L1K [KO:K11251]
+            100042927  H2al1b; H2A histone family member L1B [KO:K11251]
+            100039319  H2ab1; H2A.B variant histone 1 [KO:K11251]
+            100042939  H2al1f; H2A histone family member L1F [KO:K11251]
+            319189  H2bc18; H2B clustered histone 18 [KO:K11252]
+            69389  H2bfm; H2B histone family, member M [KO:K11252]
+            319177  H2bc1; H2B clustered histone 1 [KO:K11252]
+            69382  H2bl1; H2B.L histone variant 1 [KO:K11252]
+            319179  H2bc6; H2B clustered histone 6 [KO:K11252]
+            319186  H2bc14; H2B clustered histone 14 [KO:K11252]
+            68024  H2bc4; H2B clustered histone 4 [KO:K11252]
+            78303  H2bu2; H2B.U histone 2 [KO:K11252]
+            319178  H2bc3; H2B clustered histone 3 [KO:K11252]
+            319180  H2bc7; H2B clustered histone 7 [KO:K11252]
+            319181  H2bc8; H2B clustered histone 8 [KO:K11252]
+            319182  H2bc9; H2B clustered histone 9 [KO:K11252]
+            319183  H2bc11; H2B clustered histone 11 [KO:K11252]
+            319184  H2bc12; H2B clustered histone 12 [KO:K11252]
+            319185  H2bc13; H2B clustered histone 13 [KO:K11252]
+            319187  H2bc15; H2B clustered histone 15 [KO:K11252]
+            319188  H2bc22; H2B clustered histone 22 [KO:K11252]
+            319190  H2bc21; H2B clustered histone 21 [KO:K11252]
+            665596  H2bc23; H2B clustered histone 23 [KO:K11252]
+            665622  H4bc24; H2B clustered histone 24 [KO:K11252]
+            15078  H3f3a; H3.3 histone A [KO:K11253]
+            15081  H3f3b; H3.3 histone B [KO:K11253]
+            625328  H3f3c; H3 histone, family 3C [KO:K11253]
+            667250  Gm12657; predicted gene 12657 [KO:K11253]
+            319152  H3c10; H3 clustered histone 10 [KO:K11253]
+            15077  H3c14; H3 clustered histone 14 [KO:K11253]
+            260423  H3c7; H3 clustered histone 7 [KO:K11253]
+            319148  H3c3; H3 clustered histone 3 [KO:K11253]
+            319149  H3c4; H3 clustered histone 4 [KO:K11253]
+            319150  H3c2; H3 clustered histone 2 [KO:K11253]
+            319151  H3c6; H3 clustered histone 6 [KO:K11253]
+            319153  H3c11; H3 clustered histone 11 [KO:K11253]
+            319154  H3c13; H3 clustered histone 13 [KO:K11253]
+            360198  H3c1; H3 clustered histone 1 [KO:K11253]
+            97114  H3c15; H3 clustered histone 15 [KO:K11253]
+            97908  H3c8; H3 clustered histone 8 [KO:K11253]
+            382523  H3f4; H3.4 histone [KO:K11253]
+            319155  H4c3; H4 clustered histone 3 [KO:K11254]
+            319156  H4c4; H4 clustered histone 4 [KO:K11254]
+            319157  H4c6; H4 clustered histone 6 [KO:K11254]
+            319158  H4c9; H4 clustered histone 9 [KO:K11254]
+            319159  H4c11; H4 clustered histone 11 [KO:K11254]
+            319160  H4c12; H4 clustered histone 12 [KO:K11254]
+            319161  H4c18; H4 clustered histone 18 [KO:K11254]
+            320332  H4f16; H4 histone 16 [KO:K11254]
+            326619  H4c1; H4 clustered histone 1 [KO:K11254]
+            326620  H4c2; H4 clustered histone 2 [KO:K11254]
+            69386  H4c8; H4 clustered histone 8 [KO:K11254]
+            97122  H4c14; H4 clustered histone 14 [KO:K11254]
+            100041230  H4c17; H4 clustered histone 17 [KO:K11254]
+            20638  Snrpb; small nuclear ribonucleoprotein B [KO:K11086]
+            20641  Snrpd1; small nuclear ribonucleoprotein D1 [KO:K11087]
+            67332  Snrpd3; small nuclear ribonucleoprotein D3 [KO:K11088]
+            14811  Grin2a; glutamate receptor, ionotropic, NMDA2A (epsilon 1) [KO:K05209]
+            14812  Grin2b; glutamate receptor, ionotropic, NMDA2B (epsilon 2) [KO:K05210]
+            20821  Trim21; tripartite motif-containing 21 [KO:K10651] [EC:2.3.2.27]
+            20822  Ro60; Ro60, Y RNA binding protein [KO:K11089]
+            20823  Ssb; Sjogren syndrome antigen B [KO:K11090]
+            60595  Actn4; actinin alpha 4 [KO:K05699]
+            109711  Actn1; actinin, alpha 1 [KO:K05699]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            12519  Cd80; CD80 antigen [KO:K05412]
+            12524  Cd86; CD86 antigen [KO:K05413]
+            12487  Cd28; CD28 antigen [KO:K06470]
+            21947  Cd40lg; CD40 ligand [KO:K03161]
+            21939  Cd40; CD40 antigen [KO:K03160]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            15978  Ifng; interferon gamma [KO:K04687]
+            16153  Il10; interleukin 10 [KO:K05443]
+            50909  C1ra; complement component 1, r subcomponent A [KO:K01330] [EC:3.4.21.41]
+            667277  C1rb; complement component 1, r subcomponent B [KO:K01330] [EC:3.4.21.41]
+            317677  C1s2; complement component 1, s subcomponent 2 [KO:K01331] [EC:3.4.21.42]
+            50908  C1s1; complement component 1, s subcomponent 1 [KO:K01331] [EC:3.4.21.42]
+            12266  C3; complement component 3 [KO:K03990]
+            15139  Hc; hemolytic complement [KO:K03994]
+            12274  C6; complement component 6 [KO:K03995]
+            109828  C7; complement component 7 [KO:K03996]
+            230558  C8a; complement component 8, alpha polypeptide [KO:K03997]
+            110382  C8b; complement component 8, beta polypeptide [KO:K03998]
+            69379  C8g; complement component 8, gamma polypeptide [KO:K03999]
+            12279  C9; complement component 9 [KO:K04000]
+            13035  Ctsg; cathepsin G [KO:K01319] [EC:3.4.21.20]
+            50701  Elane; elastase, neutrophil expressed [KO:K01327] [EC:3.4.21.37]
+            14129  Fcgr1; Fc receptor, IgG, high affinity I [KO:K06498]
+            246256  Fcgr4; Fc receptor, IgG, low affinity IV [KO:K06463]
+COMPOUND    C00027  Hydrogen peroxide
+            C00434  Double-stranded DNA
+            C02737  Phosphatidylserine
+REFERENCE   PMID:18305268
+  AUTHORS   Rahman A, Isenberg DA.
+  TITLE     Systemic lupus erythematosus.
+  JOURNAL   N Engl J Med 358:929-39 (2008)
+            DOI:10.1056/NEJMra071297
+REFERENCE   PMID:12835292
+  AUTHORS   Mok CC, Lau CS.
+  TITLE     Pathogenesis of systemic lupus erythematosus.
+  JOURNAL   J Clin Pathol 56:481-90 (2003)
+            DOI:10.1136/jcp.56.7.481
+REFERENCE   PMID:17943287
+  AUTHORS   Clatworthy MR, Smith KG.
+  TITLE     B cells in glomerulonephritis: focus on lupus nephritis.
+  JOURNAL   Semin Immunopathol 29:337-53 (2007)
+            DOI:10.1007/s00281-007-0092-1
+REFERENCE   PMID:8048228
+  AUTHORS   Couser WG.
+  TITLE     New insights into mechanisms of immune glomerular injury.
+  JOURNAL   West J Med 160:440-6 (1994)
+REFERENCE   PMID:16932712
+  AUTHORS   Cook HT, Botto M.
+  TITLE     Mechanisms of Disease: the complement system and the pathogenesis of systemic lupus erythematosus.
+  JOURNAL   Nat Clin Pract Rheumatol 2:330-7 (2006)
+            DOI:10.1038/ncprheum0191
+REFERENCE   PMID:15459673
+  AUTHORS   Carroll MC.
+  TITLE     A protective role for innate immunity in systemic lupus erythematosus.
+  JOURNAL   Nat Rev Immunol 4:825-31 (2004)
+            DOI:10.1038/nri1456
+REFERENCE   PMID:15972354
+  AUTHORS   Sturfelt G, Truedsson L.
+  TITLE     Complement and its breakdown products in SLE.
+  JOURNAL   Rheumatology (Oxford) 44:1227-32 (2005)
+            DOI:10.1093/rheumatology/keh719
+REFERENCE   PMID:10430616
+  AUTHORS   Lu L, Kaliyaperumal A, Boumpas DT, Datta SK.
+  TITLE     Major peptide autoepitopes for nucleosome-specific T cells of human lupus.
+  JOURNAL   J Clin Invest 104:345-55 (1999)
+            DOI:10.1172/JCI6801
+REFERENCE   PMID:12965173
+  AUTHORS   Zieve GW, Khusial PR.
+  TITLE     The anti-Sm immune response in autoimmunity and cell biology.
+  JOURNAL   Autoimmun Rev 2:235-40 (2003)
+            DOI:10.1016/S1568-9972(03)00018-1
+REFERENCE   PMID:10025913
+  AUTHORS   Scofield RH, Farris AD, Horsfall AC, Harley JB.
+  TITLE     Fine specificity of the autoimmune response to the Ro/SSA and La/SSB ribonucleoproteins.
+  JOURNAL   Arthritis Rheum 42:199-209 (1999)
+            DOI:10.1002/1529-0131(199902)42:2<199::AID-ANR1>3.0.CO;2-1
+REFERENCE   PMID:15380523
+  AUTHORS   Hoffman RW.
+  TITLE     T cells in the pathogenesis of systemic lupus erythematosus.
+  JOURNAL   Clin Immunol 113:4-13 (2004)
+            DOI:10.1016/j.clim.2004.05.001
+REL_PATHWAY mmu04060  Cytokine-cytokine receptor interaction
+            mmu04514  Cell adhesion molecules (CAMs)
+            mmu04610  Complement and coagulation cascades
+            mmu04612  Antigen processing and presentation
+            mmu04630  JAK-STAT signaling pathway
+            mmu04660  T cell receptor signaling pathway
+            mmu04662  B cell receptor signaling pathway
+            mmu04670  Leukocyte transendothelial migration
+KO_PATHWAY  ko05322
+///

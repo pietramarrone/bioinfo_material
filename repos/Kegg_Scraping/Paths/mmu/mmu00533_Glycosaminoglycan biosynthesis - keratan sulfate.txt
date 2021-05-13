@@ -1,0 +1,39 @@
+ENTRY       mmu00533                    Pathway
+NAME        Glycosaminoglycan biosynthesis - keratan sulfate - Mus musculus (mouse)
+DESCRIPTION Keratan sulfate (KS) is a glycosaminoglycan with the basic disaccharide unit of N-acetyllactosamine, Gal(b1-4)GlcNAc(b1-3), with sulfate esters at C-6 of GlcNAc and Gal residues. There are two types of KS distinguished by the protein linkage: type I for N-linked via the N-glycan core structure and type II for O-linked via the O-glycan core 2 structure.
+CLASS       Metabolism; Glycan biosynthesis and metabolism
+PATHWAY_MAP mmu00533  Glycosaminoglycan biosynthesis - keratan sulfate
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        53618  Fut8; fucosyltransferase 8 [KO:K00717] [EC:2.4.1.68]
+            14595  B4galt1; UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1 [KO:K07966] [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-]
+            53418  B4galt2; UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2 [KO:K07967] [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-]
+            57370  B4galt3; UDP-Gal:betaGlcNAc beta 1,4-galactosyltransferase, polypeptide 3 [KO:K07968] [EC:2.4.1.90 2.4.1.38 2.4.1.-]
+            53625  B3gnt2; UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 2 [KO:K00741] [EC:2.4.1.149]
+            56773  Chst5; carbohydrate (N-acetylglucosamine 6-O) sulfotransferase 5 [KO:K09671] [EC:2.8.2.-]
+            56375  B4galt4; UDP-Gal:betaGlcNAc beta 1,4-galactosyltransferase, polypeptide 4 [KO:K07969] [EC:2.4.1.90 2.4.1.275 2.4.1.-]
+            227327  B3gnt7; UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7 [KO:K09664] [EC:2.4.1.-]
+            76969  Chst1; carbohydrate sulfotransferase 1 [KO:K01022] [EC:2.8.2.21]
+            20441  St3gal3; ST3 beta-galactoside alpha-2,3-sialyltransferase 3 [KO:K00781] [EC:2.4.99.6]
+            54371  Chst2; carbohydrate sulfotransferase 2 [KO:K04745] [EC:2.8.2.-]
+            26887  Chst4; carbohydrate sulfotransferase 4 [KO:K04746] [EC:2.8.2.-]
+            20442  St3gal1; ST3 beta-galactoside alpha-2,3-sialyltransferase 1 [KO:K00780] [EC:2.4.99.4]
+            20444  St3gal2; ST3 beta-galactoside alpha-2,3-sialyltransferase 2 [KO:K03368] [EC:2.4.99.4]
+REFERENCE   PMID:11030741
+  AUTHORS   Funderburgh JL.
+  TITLE     Keratan sulfate: structure, biosynthesis, and function.
+  JOURNAL   Glycobiology 10:951-958 (2000)
+            DOI:10.1093/glycob/10.10.951
+REFERENCE   PMID:14706853
+  AUTHORS   Seko A, Yamashita K.
+  TITLE     beta1,3-N-Acetylglucosaminyltransferase-7 (beta3Gn-T7) acts efficiently on keratan sulfate-related glycans.
+  JOURNAL   FEBS Lett 556:216-20 (2004)
+            DOI:10.1016/S0014-5793(03)01440-6
+REFERENCE   PMID:12511560
+  AUTHORS   Seko A, Dohmae N, Takio K, Yamashita K.
+  TITLE     Beta 1,4-galactosyltransferase (beta 4GalT)-IV is specific for GlcNAc 6-O-sulfate. Beta 4GalT-IV acts on keratan sulfate-related glycans and a precursor glycan of 6-sulfosialyl-Lewis X.
+  JOURNAL   J Biol Chem 278:9150-8 (2003)
+            DOI:10.1074/jbc.M211480200
+REL_PATHWAY mmu00510  N-Glycan biosynthesis
+            mmu00512  Mucin type O-glycan biosynthesis
+KO_PATHWAY  ko00533
+///

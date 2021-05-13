@@ -1,0 +1,27 @@
+ENTRY       mmu00511                    Pathway
+NAME        Other glycan degradation - Mus musculus (mouse)
+CLASS       Metabolism; Glycan biosynthesis and metabolism
+PATHWAY_MAP mmu00511  Other glycan degradation
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        18010  Neu1; neuraminidase 1 [KO:K01186] [EC:3.2.1.18]
+            50877  Neu3; neuraminidase 3 [KO:K12357] [EC:3.2.1.18]
+            241159  Neu4; sialidase 4 [KO:K12357] [EC:3.2.1.18]
+            23956  Neu2; neuraminidase 2 [KO:K12357] [EC:3.2.1.18]
+            12091  Glb1; galactosidase, beta 1 [KO:K12309] [EC:3.2.1.23]
+            15211  Hexa; hexosaminidase A [KO:K12373] [EC:3.2.1.52]
+            15212  Hexb; hexosaminidase B [KO:K12373] [EC:3.2.1.52]
+            238023  Hexdc; hexosaminidase (glycosyl hydrolase family 20, catalytic domain) containing [KO:K14459] [EC:3.2.1.52]
+            73744  Man2c1; mannosidase, alpha, class 2C, member 1 [KO:K01191] [EC:3.2.1.24]
+            17159  Man2b1; mannosidase 2, alpha B1 [KO:K12311] [EC:3.2.1.24]
+            17160  Man2b2; mannosidase 2, alpha B2 [KO:K12312] [EC:3.2.1.24]
+            110173  Manba; mannosidase, beta A, lysosomal [KO:K01192] [EC:3.2.1.25]
+            217364  Engase; endo-beta-N-acetylglucosaminidase [KO:K01227] [EC:3.2.1.96]
+            71665  Fuca1; fucosidase, alpha-L- 1, tissue [KO:K01206] [EC:3.2.1.51]
+            66848  Fuca2; fucosidase, alpha-L- 2, plasma [KO:K01206] [EC:3.2.1.51]
+            11593  Aga; aspartylglucosaminidase [KO:K01444] [EC:3.5.1.26]
+            14466  Gba; glucosidase, beta, acid [KO:K01201] [EC:3.2.1.45]
+            230101  Gba2; glucosidase beta 2 [KO:K17108] [EC:3.2.1.45]
+REL_PATHWAY mmu00510  N-Glycan biosynthesis
+            mmu00604  Glycosphingolipid biosynthesis - ganglio series
+KO_PATHWAY  ko00511
+///

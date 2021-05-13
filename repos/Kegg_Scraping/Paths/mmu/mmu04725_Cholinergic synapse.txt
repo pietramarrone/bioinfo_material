@@ -1,0 +1,205 @@
+ENTRY       mmu04725                    Pathway
+NAME        Cholinergic synapse - Mus musculus (mouse)
+DESCRIPTION Acetylcholine (ACh) is a neurotransmitter widely distributed in the central (and also peripheral, autonomic and enteric) nervous system (CNS). In the CNS, ACh facilitates many functions, such as learning, memory, attention and motor control. When released in the synaptic cleft, ACh binds to two distinct types of receptors: Ionotropic nicotinic acetylcholine receptors (nAChR) and metabotropic muscarinic acetylcholine receptors (mAChRs). The activation of nAChR by ACh leads to the rapid influx of Na+ and Ca2+ and subsequent cellular depolarization. Activation of mAChRs is relatively slow (milliseconds to seconds) and, depending on the subtypes present (M1-M5), they directly alter cellular homeostasis of phospholipase C, inositol trisphosphate, cAMP, and free calcium. In the cleft, ACh may also be hydrolyzed by acetylcholinesterase (AChE) into choline and acetate. The choline derived from ACh hydrolysis is recovered by a presynaptic high-affinity choline transporter (CHT).
+CLASS       Organismal Systems; Nervous system
+PATHWAY_MAP mmu04725  Cholinergic synapse
+DBLINKS     GO: 0032222
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        12647  Chat; choline acetyltransferase [KO:K00623] [EC:2.3.1.6]
+            11423  Ache; acetylcholinesterase [KO:K01049] [EC:3.1.1.7]
+            20508  Slc18a3; solute carrier family 18 (vesicular monoamine), member 3 [KO:K14636]
+            12669  Chrm1; cholinergic receptor, muscarinic 1, CNS [KO:K04129]
+            12671  Chrm3; cholinergic receptor, muscarinic 3, cardiac [KO:K04131]
+            213788  Chrm5; cholinergic receptor, muscarinic 5 [KO:K04133]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            14672  Gna11; guanine nucleotide binding protein, alpha 11 [KO:K04635]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            16535  Kcnq1; potassium voltage-gated channel, subfamily Q, member 1 [KO:K04926]
+            16536  Kcnq2; potassium voltage-gated channel, subfamily Q, member 2 [KO:K04927]
+            110862  Kcnq3; potassium voltage-gated channel, subfamily Q, member 3 [KO:K04928]
+            60613  Kcnq4; potassium voltage-gated channel, subfamily Q, member 4 [KO:K04929]
+            226922  Kcnq5; potassium voltage-gated channel, subfamily Q, member 5 [KO:K04930]
+            16518  Kcnj2; potassium inwardly-rectifying channel, subfamily J, member 2 [KO:K04996]
+            16515  Kcnj12; potassium inwardly-rectifying channel, subfamily J, member 12 [KO:K05005]
+            16520  Kcnj4; potassium inwardly-rectifying channel, subfamily J, member 4 [KO:K04998]
+            211480  Kcnj14; potassium inwardly-rectifying channel, subfamily J, member 14 [KO:K05007]
+            243764  Chrm2; cholinergic receptor, muscarinic 2, cardiac [KO:K04130]
+            12672  Chrm4; cholinergic receptor, muscarinic 4 [KO:K04132]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            14681  Gnao1; guanine nucleotide binding protein, alpha O [KO:K04534]
+            14688  Gnb1; guanine nucleotide binding protein (G protein), beta 1 [KO:K04536]
+            14693  Gnb2; guanine nucleotide binding protein (G protein), beta 2 [KO:K04537]
+            14695  Gnb3; guanine nucleotide binding protein (G protein), beta 3 [KO:K07825]
+            14696  Gnb4; guanine nucleotide binding protein (G protein), beta 4 [KO:K04538]
+            14697  Gnb5; guanine nucleotide binding protein (G protein), beta 5 [KO:K04539]
+            14702  Gng2; guanine nucleotide binding protein (G protein), gamma 2 [KO:K07826]
+            14704  Gng3; guanine nucleotide binding protein (G protein), gamma 3 [KO:K04540]
+            14706  Gng4; guanine nucleotide binding protein (G protein), gamma 4 [KO:K04541]
+            14707  Gng5; guanine nucleotide binding protein (G protein), gamma 5 [KO:K04542]
+            14708  Gng7; guanine nucleotide binding protein (G protein), gamma 7 [KO:K04543]
+            14709  Gng8; guanine nucleotide binding protein (G protein), gamma 8 [KO:K04544]
+            14700  Gng10; guanine nucleotide binding protein (G protein), gamma 10 [KO:K04545]
+            66066  Gng11; guanine nucleotide binding protein (G protein), gamma 11 [KO:K04546]
+            14701  Gng12; guanine nucleotide binding protein (G protein), gamma 12 [KO:K04347]
+            100503710  Gm5741; predicted gene 5741 [KO:K04347]
+            64337  Gng13; guanine nucleotide binding protein (G protein), gamma 13 [KO:K04547]
+            14699  Gngt1; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 1 [KO:K04548]
+            14710  Gngt2; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 2 [KO:K04549]
+            16519  Kcnj3; potassium inwardly-rectifying channel, subfamily J, member 3 [KO:K04997]
+            16522  Kcnj6; potassium inwardly-rectifying channel, subfamily J, member 6 [KO:K05000]
+            30955  Pik3cg; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [KO:K21289] [EC:2.7.1.153]
+            320207  Pik3r5; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            104709  Pik3r6; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+            11441  Chrna7; cholinergic receptor, nicotinic, alpha polypeptide 7 [KO:K04809]
+            11438  Chrna4; cholinergic receptor, nicotinic, alpha polypeptide 4 [KO:K04806]
+            11444  Chrnb2; cholinergic receptor, nicotinic, beta polypeptide 2 (neuronal) [KO:K04813]
+            110834  Chrna3; cholinergic receptor, nicotinic, alpha polypeptide 3 [KO:K04805]
+            108015  Chrnb4; cholinergic receptor, nicotinic, beta polypeptide 4 [KO:K04815]
+            11440  Chrna6; cholinergic receptor, nicotinic, alpha polypeptide 6 [KO:K04808]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            11911  Atf4; activating transcription factor 4 [KO:K04374]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            12326  Camk4; calcium/calmodulin-dependent protein kinase IV [KO:K05869] [EC:2.7.11.17]
+            16452  Jak2; Janus kinase 2 [KO:K04447] [EC:2.7.10.2]
+            14360  Fyn; Fyn proto-oncogene [KO:K05703] [EC:2.7.10.2]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            12043  Bcl2; B cell leukemia/lymphoma 2 [KO:K02161]
+            12286  Cacna1a; calcium channel, voltage-dependent, P/Q type, alpha 1A subunit [KO:K04344]
+            12287  Cacna1b; calcium channel, voltage-dependent, N type, alpha 1B subunit [KO:K04849]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            63993  Slc5a7; solute carrier family 5 (choline transporter), member 7 [KO:K14387]
+COMPOUND    C00010  CoA
+            C00024  Acetyl-CoA
+            C00033  Acetate
+            C00076  Calcium cation
+            C00114  Choline
+            C00165  Diacylglycerol
+            C00238  Potassium cation
+            C00575  3',5'-Cyclic AMP
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01330  Sodium cation
+            C01996  Acetylcholine
+            C04637  1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate
+REFERENCE   
+  AUTHORS   Nestler EJ, Hyman SE, Malenka RC.
+  TITLE     Molecular neuropharmacology: A foundation for clinical neuroscience
+  JOURNAL   The McGraw-Hill Companies, Inc. (2001)
+REFERENCE   
+  AUTHORS   Nicholls JG, Martin AR, Wallace BG, Fuchs PA.
+  TITLE     From neuron to brain, 4th ed.
+  JOURNAL   Sunderland, MA: Sinauer associates (2001)
+REFERENCE   PMID:15165747
+  AUTHORS   Dajas-Bailador F, Wonnacott S
+  TITLE     Nicotinic acetylcholine receptors and the regulation of neuronal signalling.
+  JOURNAL   Trends Pharmacol Sci 25:317-24 (2004)
+            DOI:10.1016/j.tips.2004.04.006
+REFERENCE   PMID:19712465
+  AUTHORS   Resende RR, Adhikari A
+  TITLE     Cholinergic receptor pathways involved in apoptosis, cell proliferation and neuronal differentiation.
+  JOURNAL   Cell Commun Signal 7:20 (2009)
+            DOI:10.1186/1478-811X-7-20
+REFERENCE   PMID:19378880
+  AUTHORS   Origlia N, Kuczewski N, Pesavento E, Aztiria E, Domenici L
+  TITLE     The role of cholinergic system in neuronal plasticity: focus on visual cortex and muscarinic receptors.
+  JOURNAL   Arch Ital Biol 146:165-88 (2008)
+REFERENCE   PMID:21550798
+  AUTHORS   Oldenburg IA, Ding JB
+  TITLE     Cholinergic modulation of synaptic integration and dendritic excitability in the striatum.
+  JOURNAL   Curr Opin Neurobiol 21:425-32 (2011)
+            DOI:10.1016/j.conb.2011.04.004
+REFERENCE   PMID:12893537
+  AUTHORS   Lanzafame AA, Christopoulos A, Mitchelson F
+  TITLE     Cellular signaling mechanisms for muscarinic acetylcholine receptors.
+  JOURNAL   Receptors Channels 9:241-60 (2003)
+            DOI:10.3109/10606820308263
+REFERENCE   PMID:20446119
+  AUTHORS   Brown DA
+  TITLE     Muscarinic acetylcholine receptors (mAChRs) in the nervous system: some functions and mechanisms.
+  JOURNAL   J Mol Neurosci 41:340-6 (2010)
+            DOI:10.1007/s12031-010-9377-2
+REFERENCE   PMID:11738031
+  AUTHORS   Chang KT, Berg DK
+  TITLE     Voltage-gated channels block nicotinic regulation of CREB phosphorylation and gene expression in neurons.
+  JOURNAL   Neuron 32:855-65 (2001)
+            DOI:10.1016/S0896-6273(01)00516-5
+REFERENCE   PMID:11283752
+  AUTHORS   Soreq H, Seidman S
+  TITLE     Acetylcholinesterase--new roles for an old actor.
+  JOURNAL   Nat Rev Neurosci 2:294-302 (2001)
+            DOI:10.1038/35067589
+REFERENCE   PMID:12436417
+  AUTHORS   Sharma G, Vijayaraghavan S
+  TITLE     Nicotinic receptor signaling in nonexcitable cells.
+  JOURNAL   J Neurobiol 53:524-34 (2002)
+            DOI:10.1002/neu.10114
+REFERENCE   PMID:11923408
+  AUTHORS   Araque A, Martin ED, Perea G, Arellano JI, Buno W
+  TITLE     Synaptically released acetylcholine evokes Ca2+ elevations in astrocytes in hippocampal slices.
+  JOURNAL   J Neurosci 22:2443-50 (2002)
+            DOI:10.1523/JNEUROSCI.22-07-02443.2002
+REFERENCE   PMID:12690458
+  AUTHORS   Lucas-Meunier E, Fossier P, Baux G, Amar M
+  TITLE     Cholinergic modulation of the cortical neuronal network.
+  JOURNAL   Pflugers Arch 446:17-29 (2003)
+            DOI:10.1007/s00424-002-0999-2
+REFERENCE   PMID:20060019
+  AUTHORS   Abreu-Villaca Y, Filgueiras CC, Manhaes AC
+  TITLE     Developmental aspects of the cholinergic system.
+  JOURNAL   Behav Brain Res 221:367-78 (2011)
+            DOI:10.1016/j.bbr.2009.12.049
+REL_PATHWAY mmu00564  Glycerophospholipid metabolism
+            mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04721  Synaptic vesicle cycle
+            mmu04975  Fat digestion and absorption
+KO_PATHWAY  ko04725
+///

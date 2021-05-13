@@ -1,0 +1,394 @@
+ENTRY       mmu04024                    Pathway
+NAME        cAMP signaling pathway - Mus musculus (mouse)
+DESCRIPTION cAMP is one of the most common and universal second messengers, and its formation is promoted by adenylyl cyclase (AC) activation after ligation of G protein-coupled receptors (GPCRs) by ligands including hormones, neurotransmitters, and other signaling molecules. cAMP regulates pivotal physiologic processes including metabolism, secretion, calcium homeostasis, muscle contraction, cell fate, and gene transcription. cAMP acts directly on three main targets: protein kinase A (PKA), the exchange protein activated by cAMP (Epac), and cyclic nucleotide-gated ion channels (CNGCs). PKA modulates, via phosphorylation, a number of cellular substrates, including transcription factors, ion channels, transporters, exchangers, intracellular Ca2+ -handling proteins, and the contractile machinery. Epac proteins function as guanine nucleotide exchange factors (GEFs) for both Rap1 and Rap2. Various effector proteins, including adaptor proteins implicated in modulation of the actin cytoskeleton, regulators of G proteins of the Rho family, and phospholipases, relay signaling downstream from Rap.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04024  cAMP signaling pathway
+DBLINKS     GO: 0019933
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        11516  Adcyap1; adenylate cyclase activating polypeptide 1 [KO:K05262]
+            22353  Vip; vasoactive intestinal polypeptide [KO:K05264]
+            12640  Cga; glycoprotein hormones, alpha subunit [KO:K08522]
+            16866  Lhb; luteinizing hormone beta [KO:K08521]
+            22094  Tshb; thyroid stimulating hormone, beta subunit [KO:K05251]
+            18976  Pomc; pro-opiomelanocortin-alpha [KO:K05228]
+            14526  Gcg; glucagon [KO:K05259]
+            14607  Gip; gastric inhibitory polypeptide [KO:K05258]
+            14308  Fshb; follicle stimulating hormone beta [KO:K05250]
+            230899  Nppa; natriuretic peptide type A [KO:K12334]
+            11554  Adrb1; adrenergic receptor, beta 1 [KO:K04141]
+            13488  Drd1; dopamine receptor D1 [KO:K04144]
+            13492  Drd5; dopamine receptor D5 [KO:K05840]
+            11540  Adora2a; adenosine A2a receptor [KO:K04266]
+            15562  Htr4; 5 hydroxytryptamine (serotonin) receptor 4 [KO:K04160]
+            15565  Htr6; 5-hydroxytryptamine (serotonin) receptor 6 [KO:K04162]
+            19217  Ptger2; prostaglandin E receptor 2 (subtype EP2) [KO:K04259]
+            11517  Adcyap1r1; adenylate cyclase activating polypeptide 1 receptor 1 [KO:K04587]
+            22355  Vipr2; vasoactive intestinal peptide receptor 2 [KO:K04590]
+            16867  Lhcgr; luteinizing hormone/choriogonadotropin receptor [KO:K04248]
+            22095  Tshr; thyroid stimulating hormone receptor [KO:K04249]
+            17200  Mc2r; melanocortin 2 receptor [KO:K04200]
+            14652  Glp1r; glucagon-like peptide 1 receptor [KO:K04581]
+            381853  Gipr; gastric inhibitory polypeptide receptor [KO:K04580]
+            236781  Gpr119; G-protein coupled receptor 119 [KO:K08424]
+            14309  Fshr; follicle stimulating hormone receptor [KO:K04247]
+            18160  Npr1; natriuretic peptide receptor 1 [KO:K12323] [EC:4.6.1.2]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            13614  Edn1; endothelin 1 [KO:K16366]
+            13615  Edn2; endothelin 2 [KO:K16367]
+            13616  Edn3; endothelin 3 [KO:K05227]
+            20604  Sst; somatostatin [KO:K05237]
+            109648  Npy; neuropeptide Y [KO:K05232]
+            58991  Ghrl; ghrelin [KO:K05254]
+            18429  Oxt; oxytocin [KO:K05243]
+            11555  Adrb2; adrenergic receptor, beta 2 [KO:K04142]
+            15550  Htr1a; 5-hydroxytryptamine (serotonin) receptor 1A [KO:K04153]
+            15551  Htr1b; 5-hydroxytryptamine (serotonin) receptor 1B [KO:K04153]
+            15552  Htr1d; 5-hydroxytryptamine (serotonin) receptor 1D [KO:K04153]
+            15557  Htr1f; 5-hydroxytryptamine (serotonin) receptor 1F [KO:K04153]
+            12669  Chrm1; cholinergic receptor, muscarinic 1, CNS [KO:K04129]
+            243764  Chrm2; cholinergic receptor, muscarinic 2, cardiac [KO:K04130]
+            13489  Drd2; dopamine receptor D2 [KO:K04145]
+            54393  Gabbr1; gamma-aminobutyric acid (GABA) B receptor, 1 [KO:K04615]
+            242425  Gabbr2; gamma-aminobutyric acid (GABA) B receptor, 2 [KO:K04615]
+            11539  Adora1; adenosine A1 receptor [KO:K04265]
+            13617  Ednra; endothelin receptor type A [KO:K04197]
+            18166  Npy1r; neuropeptide Y receptor Y1 [KO:K04204]
+            20605  Sstr1; somatostatin receptor 1 [KO:K04217]
+            20606  Sstr2; somatostatin receptor 2 [KO:K04218]
+            20609  Sstr5; somatostatin receptor 5 [KO:K04221]
+            243270  Hcar1; hydrocarboxylic acid receptor 1 [KO:K08401]
+            80885  Hcar2; hydroxycarboxylic acid receptor 2 [KO:K08402]
+            233079  Ffar2; free fatty acid receptor 2 [KO:K04328]
+            84112  Sucnr1; succinate receptor 1 [KO:K10042]
+            19218  Ptger3; prostaglandin E receptor 3 (subtype EP3) [KO:K04260]
+            18430  Oxtr; oxytocin receptor [KO:K04229]
+            208188  Ghsr; growth hormone secretagogue receptor [KO:K04284]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            271639  Adcy10; adenylate cyclase 10 [KO:K11265] [EC:4.6.1.1]
+            15166  Hcn2; hyperpolarization-activated, cyclic nucleotide-gated K+ 2 [KO:K04955]
+            330953  Hcn4; hyperpolarization-activated, cyclic nucleotide-gated K+ 4 [KO:K04957]
+            12788  Cnga1; cyclic nucleotide gated channel alpha 1 [KO:K04948]
+            12789  Cnga2; cyclic nucleotide gated channel alpha 2 [KO:K04949]
+            12790  Cnga3; cyclic nucleotide gated channel alpha 3 [KO:K04950]
+            233649  Cnga4; cyclic nucleotide gated channel alpha 4 [KO:K04951]
+            333329  Cngb1; cyclic nucleotide gated channel beta 1 [KO:K04952]
+            30952  Cngb3; cyclic nucleotide gated channel beta 3 [KO:K04953]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            12326  Camk4; calcium/calmodulin-dependent protein kinase IV [KO:K05869] [EC:2.7.11.17]
+            239273  Abcc4; ATP-binding cassette, sub-family C (CFTR/MRP), member 4 [KO:K05673]
+            223864  Rapgef3; Rap guanine nucleotide exchange factor (GEF) 3 [KO:K08014]
+            56508  Rapgef4; Rap guanine nucleotide exchange factor (GEF) 4 [KO:K04351]
+            20130  Rras; related RAS viral (r-ras) oncogene [KO:K07829]
+            66922  Rras2; related RAS viral (r-ras) oncogene 2 [KO:K07830]
+            18806  Pld2; phospholipase D2 [KO:K01115] [EC:3.1.4.4]
+            18805  Pld1; phospholipase D1 [KO:K01115] [EC:3.1.4.4]
+            74055  Plce1; phospholipase C, epsilon 1 [KO:K05860] [EC:3.1.4.11]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            109905  Rap1a; RAS-related protein 1a [KO:K04353]
+            215449  Rap1b; RAS related protein 1b [KO:K07836]
+            21844  Tiam1; T cell lymphoma invasion and metastasis 1 [KO:K05731]
+            22324  Vav1; vav 1 oncogene [KO:K05730]
+            22325  Vav2; vav 2 oncogene [KO:K05730]
+            57257  Vav3; vav 3 oncogene [KO:K05730]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            19354  Rac2; Rac family small GTPase 2 [KO:K07860]
+            170758  Rac3; Rac family small GTPase 3 [KO:K07861]
+            18479  Pak1; p21 (RAC1) activated kinase 1 [KO:K04409] [EC:2.7.11.1]
+            106952  Arap3; ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 3 [KO:K12490]
+            11848  Rhoa; ras homolog family member A [KO:K04513]
+            67653  4930544G11Rik; RIKEN cDNA 4930544G11 gene [KO:K04513]
+            17356  Afdn; afadin, adherens junction formation factor [KO:K05702]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            19049  Ppp1r1b; protein phosphatase 1, regulatory inhibitor subunit 1B [KO:K15494]
+            19045  Ppp1ca; protein phosphatase 1 catalytic subunit alpha [KO:K06269] [EC:3.1.3.16]
+            19046  Ppp1cb; protein phosphatase 1 catalytic subunit beta [KO:K06269] [EC:3.1.3.16]
+            19047  Ppp1cc; protein phosphatase 1 catalytic subunit gamma [KO:K06269] [EC:3.1.3.16]
+            434233  Ppp1ccb; protein phosphatase 1 catalytic subunit gamma B [KO:K06269] [EC:3.1.3.16]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            12914  Crebbp; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            328572  Ep300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            12064  Bdnf; brain derived neurotrophic factor [KO:K04355]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            14634  Gli3; GLI-Kruppel family member GLI3 [KO:K06230]
+            14632  Gli1; GLI-Kruppel family member GLI1 [KO:K16797]
+            19206  Ptch1; patched 1 [KO:K06225]
+            15245  Hhip; Hedgehog-interacting protein [KO:K06231]
+            18035  Nfkbia; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [KO:K04734]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            20682  Sox9; SRY (sex determining region Y)-box 9 [KO:K18435]
+            11705  Amh; anti-Mullerian hormone [KO:K04665]
+            19013  Ppara; peroxisome proliferator activated receptor alpha [KO:K07294]
+            80911  Acox3; acyl-Coenzyme A oxidase 3, pristanoyl [KO:K00232] [EC:1.3.3.6]
+            11430  Acox1; acyl-Coenzyme A oxidase 1, palmitoyl [KO:K00232] [EC:1.3.3.6]
+            18018  Nfatc1; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 1 [KO:K04446]
+            14062  F2r; coagulation factor II (thrombin) receptor [KO:K03914]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            16890  Lipe; lipase, hormone sensitive [KO:K07188] [EC:3.1.1.79]
+            19877  Rock1; Rho-associated coiled-coil containing protein kinase 1 [KO:K04514] [EC:2.7.11.1]
+            19878  Rock2; Rho-associated coiled-coil containing protein kinase 2 [KO:K17388] [EC:2.7.11.1]
+            17931  Ppp1r12a; protein phosphatase 1, regulatory subunit 12A [KO:K06270]
+            98932  Myl9; myosin, light polypeptide 9, regulatory [KO:K12755]
+            21954  Tnni3; troponin I, cardiac 3 [KO:K12044]
+            18821  Pln; phospholamban [KO:K05852]
+            11937  Atp2a1; ATPase, Ca++ transporting, cardiac muscle, fast twitch 1 [KO:K05853] [EC:7.2.2.10]
+            53313  Atp2a3; ATPase, Ca++ transporting, ubiquitous [KO:K05853] [EC:7.2.2.10]
+            11938  Atp2a2; ATPase, Ca++ transporting, cardiac muscle, slow twitch 2 [KO:K05853] [EC:7.2.2.10]
+            20191  Ryr2; ryanodine receptor 2, cardiac [KO:K04962]
+            14810  Grin1; glutamate receptor, ionotropic, NMDA1 (zeta 1) [KO:K05208]
+            14811  Grin2a; glutamate receptor, ionotropic, NMDA2A (epsilon 1) [KO:K05209]
+            14812  Grin2b; glutamate receptor, ionotropic, NMDA2B (epsilon 2) [KO:K05210]
+            14813  Grin2c; glutamate receptor, ionotropic, NMDA2C (epsilon 3) [KO:K05211]
+            14814  Grin2d; glutamate receptor, ionotropic, NMDA2D (epsilon 4) [KO:K05212]
+            242443  Grin3a; glutamate receptor ionotropic, NMDA3A [KO:K05213]
+            170483  Grin3b; glutamate receptor, ionotropic, NMDA3B [KO:K05214]
+            14799  Gria1; glutamate receptor, ionotropic, AMPA1 (alpha 1) [KO:K05197]
+            14800  Gria2; glutamate receptor, ionotropic, AMPA2 (alpha 2) [KO:K05198]
+            53623  Gria3; glutamate receptor, ionotropic, AMPA3 (alpha 3) [KO:K05199]
+            14802  Gria4; glutamate receptor, ionotropic, AMPA4 (alpha 4) [KO:K05200]
+            12638  Cftr; cystic fibrosis transmembrane conductance regulator [KO:K05031] [EC:5.6.1.6]
+            11928  Atp1a1; ATPase, Na+/K+ transporting, alpha 1 polypeptide [KO:K01539] [EC:7.2.2.13]
+            98660  Atp1a2; ATPase, Na+/K+ transporting, alpha 2 polypeptide [KO:K01539] [EC:7.2.2.13]
+            232975  Atp1a3; ATPase, Na+/K+ transporting, alpha 3 polypeptide [KO:K01539] [EC:7.2.2.13]
+            27222  Atp1a4; ATPase, Na+/K+ transporting, alpha 4 polypeptide [KO:K01539] [EC:7.2.2.13]
+            67821  Atp1b4; ATPase, (Na+)/K+ transporting, beta 4 polypeptide [KO:K01540]
+            11931  Atp1b1; ATPase, Na+/K+ transporting, beta 1 polypeptide [KO:K01540]
+            11932  Atp1b2; ATPase, Na+/K+ transporting, beta 2 polypeptide [KO:K01540]
+            11933  Atp1b3; ATPase, Na+/K+ transporting, beta 3 polypeptide [KO:K01540]
+            11936  Fxyd2; FXYD domain-containing ion transport regulator 2 [KO:K01538]
+            56188  Fxyd1; FXYD domain-containing ion transport regulator 1 [KO:K13360]
+            20544  Slc9a1; solute carrier family 9 (sodium/hydrogen exchanger), member 1 [KO:K05742]
+            109305  Orai1; ORAI calcium release-activated calcium modulator 1 [KO:K16056]
+            67972  Atp2b1; ATPase, Ca++ transporting, plasma membrane 1 [KO:K05850] [EC:7.2.2.10]
+            320707  Atp2b3; ATPase, Ca++ transporting, plasma membrane 3 [KO:K05850] [EC:7.2.2.10]
+            381290  Atp2b4; ATPase, Ca++ transporting, plasma membrane 4 [KO:K05850] [EC:7.2.2.10]
+            11941  Atp2b2; ATPase, Ca++ transporting, plasma membrane 2 [KO:K05850] [EC:7.2.2.10]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            54611  Pde3a; phosphodiesterase 3A, cGMP inhibited [KO:K19021] [EC:3.1.4.17]
+            18576  Pde3b; phosphodiesterase 3B, cGMP-inhibited [KO:K13296] [EC:3.1.4.17]
+            18577  Pde4a; phosphodiesterase 4A, cAMP specific [KO:K13293] [EC:3.1.4.53]
+            18578  Pde4b; phosphodiesterase 4B, cAMP specific [KO:K13293] [EC:3.1.4.53]
+            110385  Pde4c; phosphodiesterase 4C, cAMP specific [KO:K13293] [EC:3.1.4.53]
+            238871  Pde4d; phosphodiesterase 4D, cAMP specific [KO:K13293] [EC:3.1.4.53]
+            23984  Pde10a; phosphodiesterase 10A [KO:K18438] [EC:3.1.4.17 3.1.4.35]
+COMPOUND    C00020  AMP
+            C00042  Succinate
+            C00076  Calcium cation
+            C00080  H+
+            C00165  Diacylglycerol
+            C00186  (S)-Lactate
+            C00212  Adenosine
+            C00238  Potassium cation
+            C00288  HCO3-
+            C00334  4-Aminobutanoate
+            C00416  Phosphatidate
+            C00547  L-Noradrenaline
+            C00575  3',5'-Cyclic AMP
+            C00584  Prostaglandin E2
+            C00698  Cl-
+            C00780  Serotonin
+            C00788  L-Adrenaline
+            C01089  (R)-3-Hydroxybutanoate
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01312  Prostaglandin I2
+            C01330  Sodium cation
+            C01996  Acetylcholine
+            C03758  Dopamine
+            C20792  Oleoylethanolamide
+            C20793  3-Hydroxyoctanoate
+REFERENCE   PMID:11493633
+  AUTHORS   Fimia GM, Sassone-Corsi P
+  TITLE     Cyclic AMP signalling.
+  JOURNAL   J Cell Sci 114:1971-2 (2001)
+REFERENCE   PMID:18323530
+  AUTHORS   Serezani CH, Ballinger MN, Aronoff DM, Peters-Golden M
+  TITLE     Cyclic AMP: master regulator of innate immune cell function.
+  JOURNAL   Am J Respir Cell Mol Biol 39:127-32 (2008)
+            DOI:10.1165/rcmb.2008-0091TR
+REFERENCE   PMID:24281338
+  AUTHORS   Oldenburger A, Maarsingh H, Schmidt M
+  TITLE     Multiple facets of cAMP signalling and physiological impact: cAMP compartmentalization in the lung.
+  JOURNAL   Pharmaceuticals (Basel) 5:1291-331 (2012)
+            DOI:10.3390/ph5121291
+REFERENCE   PMID:24613710
+  AUTHORS   Ahuja M, Jha A, Maleth J, Park S, Muallem S
+  TITLE     cAMP and Ca signaling in secretory epithelia: Crosstalk and synergism.
+  JOURNAL   Cell Calcium 55:385-393 (2014)
+            DOI:10.1016/j.ceca.2014.01.006
+REFERENCE   PMID:22082266
+  AUTHORS   Shirshev SV
+  TITLE     Role of Epac proteins in mechanisms of cAMP-dependent immunoregulation.
+  JOURNAL   Biochemistry (Mosc) 76:981-98 (2011)
+            DOI:10.1134/S000629791109001X
+REFERENCE   PMID:18176800
+  AUTHORS   Roscioni SS, Elzinga CR, Schmidt M
+  TITLE     Epac: effectors and biological functions.
+  JOURNAL   Naunyn Schmiedebergs Arch Pharmacol 377:345-57 (2008)
+            DOI:10.1007/s00210-007-0246-7
+REFERENCE   PMID:24450633
+  AUTHORS   Roberts OL, Dart C
+  TITLE     cAMP signalling in the vasculature: the role of Epac (exchange protein directly activated by cAMP).
+  JOURNAL   Biochem Soc Trans 42:89-97 (2014)
+            DOI:10.1042/BST20130253
+REFERENCE   PMID:16765984
+  AUTHORS   Schaub MC, Hefti MA, Zaugg M
+  TITLE     Integration of calcium with the signaling network in cardiac myocytes.
+  JOURNAL   J Mol Cell Cardiol 41:183-214 (2006)
+            DOI:10.1016/j.yjmcc.2006.04.005
+REFERENCE   PMID:19874988
+  AUTHORS   Triposkiadis F, Karayannis G, Giamouzis G, Skoularigis J, Louridas G, Butler J
+  TITLE     The sympathetic nervous system in heart failure physiology, pathophysiology, and clinical implications.
+  JOURNAL   J Am Coll Cardiol 54:1747-62 (2009)
+            DOI:10.1016/j.jacc.2009.05.015
+REFERENCE   PMID:15142747
+  AUTHORS   Saucerman JJ, McCulloch AD
+  TITLE     Mechanistic systems models of cell signaling networks: a case study of myocyte adrenergic regulation.
+  JOURNAL   Prog Biophys Mol Biol 85:261-78 (2004)
+            DOI:10.1016/j.pbiomolbio.2004.01.005
+REFERENCE   PMID:21212391
+  AUTHORS   Yang JH, Saucerman JJ
+  TITLE     Computational models reduce complexity and accelerate insight into cardiac signaling networks.
+  JOURNAL   Circ Res 108:85-97 (2011)
+            DOI:10.1161/CIRCRESAHA.110.223602
+REFERENCE   PMID:22022314
+  AUTHORS   Taggart P, Boyett MR, Logantha S, Lambiase PD
+  TITLE     Anger, emotion, and arrhythmias: from brain to heart.
+  JOURNAL   Front Physiol 2:67 (2011)
+            DOI:10.3389/fphys.2011.00067
+REFERENCE   PMID:21852968
+  AUTHORS   Bozzi Y, Dunleavy M, Henshall DC
+  TITLE     Cell signaling underlying epileptic behavior.
+  JOURNAL   Front Behav Neurosci 5:45 (2011)
+            DOI:10.3389/fnbeh.2011.00045
+REFERENCE   PMID:10880354
+  AUTHORS   Lizcano JM, Morrice N, Cohen P
+  TITLE     Regulation of BAD by cAMP-dependent protein kinase is mediated via phosphorylation of a novel site, Ser155.
+  JOURNAL   Biochem J 349:547-57 (2000)
+            DOI:10.1042/bj3490547
+REFERENCE   PMID:21744067
+  AUTHORS   Gerlo S, Kooijman R, Beck IM, Kolmus K, Spooren A, Haegeman G
+  TITLE     Cyclic AMP: a selective modulator of NF-kappaB action.
+  JOURNAL   Cell Mol Life Sci 68:3823-41 (2011)
+            DOI:10.1007/s00018-011-0757-8
+REFERENCE   PMID:7688165
+  AUTHORS   Lauder JM
+  TITLE     Neurotransmitters as growth regulatory signals: role of receptors and second messengers.
+  JOURNAL   Trends Neurosci 16:233-40 (1993)
+            DOI:10.1016/0166-2236(93)90162-F
+REFERENCE   PMID:17077866
+  AUTHORS   Voglis G, Tavernarakis N
+  TITLE     The role of synaptic ion channels in synaptic plasticity.
+  JOURNAL   EMBO Rep 7:1104-10 (2006)
+            DOI:10.1038/sj.embor.7400830
+REFERENCE   PMID:21346730
+  AUTHORS   Altarejos JY, Montminy M
+  TITLE     CREB and the CRTC co-activators: sensors for hormonal and metabolic signals.
+  JOURNAL   Nat Rev Mol Cell Biol 12:141-51 (2011)
+            DOI:10.1038/nrm3072
+REFERENCE   PMID:24062645
+  AUTHORS   Bozzi Y, Borrelli E
+  TITLE     The role of dopamine signaling in epileptogenesis.
+  JOURNAL   Front Cell Neurosci 7:157 (2013)
+            DOI:10.3389/fncel.2013.00157
+REFERENCE   PMID:14715909
+  AUTHORS   Ceulemans H, Bollen M
+  TITLE     Functional diversity of protein phosphatase-1, a cellular economizer and reset button.
+  JOURNAL   Physiol Rev 84:1-39 (2004)
+            DOI:10.1152/physrev.00013.2003
+REFERENCE   PMID:16571352
+  AUTHORS   Lipinski RJ, Gipp JJ, Zhang J, Doles JD, Bushman W
+  TITLE     Unique and complimentary activities of the Gli transcription factors in Hedgehog signaling.
+  JOURNAL   Exp Cell Res 312:1925-38 (2006)
+            DOI:10.1016/j.yexcr.2006.02.019
+REFERENCE   PMID:21693691
+  AUTHORS   Lasala C, Schteingart HF, Arouche N, Bedecarras P, Grinspon RP, Picard JY, Josso N, di Clemente N, Rey RA
+  TITLE     SOX9 and SF1 are involved in cyclic AMP-mediated upregulation of anti-Mullerian gene expression in the testicular prepubertal Sertoli cell line SMAT1.
+  JOURNAL   Am J Physiol Endocrinol Metab 301:E539-47 (2011)
+            DOI:10.1152/ajpendo.00187.2011
+REFERENCE   PMID:19460777
+  AUTHORS   Rosenkranz AC, Rauch BH, Freidel K, Schror K
+  TITLE     Regulation of protease-activated receptor-1 by vasodilatory prostaglandins via NFAT.
+  JOURNAL   Cardiovasc Res 83:778-84 (2009)
+            DOI:10.1093/cvr/cvp163
+REFERENCE   PMID:11117527
+  AUTHORS   Lazennec G, Canaple L, Saugy D, Wahli W
+  TITLE     Activation of peroxisome proliferator-activated receptors (PPARs) by their ligands and protein kinase A activators.
+  JOURNAL   Mol Endocrinol 14:1962-75 (2000)
+            DOI:10.1210/mend.14.12.0575
+REFERENCE   PMID:16460276
+  AUTHORS   Murthy KS
+  TITLE     Signaling for contraction and relaxation in smooth muscle of the gut.
+  JOURNAL   Annu Rev Physiol 68:345-74 (2006)
+            DOI:10.1146/annurev.physiol.68.040504.094707
+REFERENCE   PMID:18064650
+  AUTHORS   Birukova AA, Zagranichnaya T, Alekseeva E, Bokoch GM, Birukov KG
+  TITLE     Epac/Rap and PKA are novel mechanisms of ANP-induced Rac-mediated pulmonary endothelial barrier protection.
+  JOURNAL   J Cell Physiol 215:715-24 (2008)
+            DOI:10.1002/jcp.21354
+REFERENCE   PMID:9204709
+  AUTHORS   Houslay MD, Milligan G
+  TITLE     Tailoring cAMP-signalling responses through isoform multiplicity.
+  JOURNAL   Trends Biochem Sci 22:217-24 (1997)
+            DOI:10.1016/S0968-0004(97)01050-5
+REL_PATHWAY mmu00071  Fatty acid degradation
+            mmu04015  Rap1 signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04210  Apoptosis
+            mmu04260  Cardiac muscle contraction
+            mmu04340  Hedgehog signaling pathway
+            mmu04720  Long-term potentiation
+            mmu04740  Olfactory transduction
+            mmu04972  Pancreatic secretion
+            mmu04976  Bile secretion
+KO_PATHWAY  ko04024
+///

@@ -1,0 +1,117 @@
+ENTRY       mmu04960                    Pathway
+NAME        Aldosterone-regulated sodium reabsorption - Mus musculus (mouse)
+DESCRIPTION Sodium transport across the tight epithelia of Na+ reabsorbing tissues such as the distal part of the kidney nephron and colon is the major factor determining total-body Na+ levels, and thus, long-term blood pressure. Aldosterone plays a major role in sodium and potassium metabolism by binding to epithelial mineralocorticoid receptors (MR) in the renal collecting duct cells localized in the distal nephron, promoting sodium resorption and potassium excretion. Aldosterone enters a target cell and binds MR, which translocates into the nucleus and regulates gene transcription. Activation of MR leads to increased expression of Sgk-1, which phosphorylates Nedd4-2, an ubiquitin-ligase which targets ENAC to proteosomal degradation. Phosphorylated Nedd4-2 dissociates from ENAC, increasing its apical membrane abundance. Activation of MR also leads to increased expression of Na+/K+-ATPase, thus causing a net increase in sodium uptake from the renal filtrate. The specificity of MR for aldosterone is provided by 11beta-HSD2 by the rapid conversion of cortisol to cortisone in renal cortical collecting duct cells. Recently, besides genomic effects mediated by activated MR, rapid aldosterone actions that are independent of translation and transcription have been documented.
+CLASS       Organismal Systems; Excretory system
+PATHWAY_MAP mmu04960  Aldosterone-regulated sodium reabsorption
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        15484  Hsd11b2; hydroxysteroid 11-beta dehydrogenase 2 [KO:K00071] [EC:1.1.1.-]
+            110784  Nr3c2; nuclear receptor subfamily 3, group C, member 2 [KO:K08555]
+            20276  Scnn1a; sodium channel, nonvoltage-gated 1 alpha [KO:K04824]
+            20277  Scnn1b; sodium channel, nonvoltage-gated 1 beta [KO:K04825]
+            20278  Scnn1g; sodium channel, nonvoltage-gated 1 gamma [KO:K04827]
+            20393  Sgk1; serum/glucocorticoid regulated kinase 1 [KO:K13302] [EC:2.7.11.1]
+            56379  Kcnj1; potassium inwardly-rectifying channel, subfamily J, member 1 [KO:K04995]
+            65962  Slc9a3r2; solute carrier family 9 (sodium/hydrogen exchanger), member 3 regulator 2 [KO:K13358]
+            83814  Nedd4l; neural precursor cell expressed, developmentally down-regulated gene 4-like [KO:K13305] [EC:2.3.2.26]
+            55948  Sfn; stratifin [KO:K06644]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            11928  Atp1a1; ATPase, Na+/K+ transporting, alpha 1 polypeptide [KO:K01539] [EC:7.2.2.13]
+            98660  Atp1a2; ATPase, Na+/K+ transporting, alpha 2 polypeptide [KO:K01539] [EC:7.2.2.13]
+            232975  Atp1a3; ATPase, Na+/K+ transporting, alpha 3 polypeptide [KO:K01539] [EC:7.2.2.13]
+            27222  Atp1a4; ATPase, Na+/K+ transporting, alpha 4 polypeptide [KO:K01539] [EC:7.2.2.13]
+            67821  Atp1b4; ATPase, (Na+)/K+ transporting, beta 4 polypeptide [KO:K01540]
+            11931  Atp1b1; ATPase, Na+/K+ transporting, beta 1 polypeptide [KO:K01540]
+            11932  Atp1b2; ATPase, Na+/K+ transporting, beta 2 polypeptide [KO:K01540]
+            11933  Atp1b3; ATPase, Na+/K+ transporting, beta 3 polypeptide [KO:K01540]
+            11936  Fxyd2; FXYD domain-containing ion transport regulator 2 [KO:K01538]
+            108017  Fxyd4; FXYD domain-containing ion transport regulator 4 [KO:K13359]
+            16334  Ins2; insulin II [KO:K04526]
+            16333  Ins1; insulin I [KO:K04526]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            16337  Insr; insulin receptor [KO:K04527] [EC:2.7.10.1]
+            16367  Irs1; insulin receptor substrate 1 [KO:K16172]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18607  Pdpk1; 3-phosphoinositide dependent protein kinase 1 [KO:K06276] [EC:2.7.11.1]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+COMPOUND    C00238  Potassium cation
+            C00575  3',5'-Cyclic AMP
+            C00698  Cl-
+            C00735  Cortisol
+            C00762  Cortisone
+            C01330  Sodium cation
+            C01780  Aldosterone
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:16002531
+  AUTHORS   Connell JM, Davies E
+  TITLE     The new biology of aldosterone.
+  JOURNAL   J Endocrinol 186:1-20 (2005)
+            DOI:10.1677/joe.1.06017
+REFERENCE   PMID:11850323
+  AUTHORS   Booth RE, Johnson JP, Stockand JD
+  TITLE     Aldosterone.
+  JOURNAL   Adv Physiol Educ 26:8-20 (2002)
+            DOI:10.1152/advan.00123.2015
+REFERENCE   PMID:18197893
+  AUTHORS   Lee IH, Campbell CR, Cook DI, Dinudom A
+  TITLE     Regulation of epithelial Na+ channels by aldosterone: role of Sgk1.
+  JOURNAL   Clin Exp Pharmacol Physiol 35:235-41 (2008)
+            DOI:10.1111/j.1440-1681.2007.04844.x
+REFERENCE   PMID:18174920
+  AUTHORS   Viengchareun S, Le Menuet D, Martinerie L, Munier M, Pascual-Le Tallec L, Lombes M
+  TITLE     The mineralocorticoid receptor: insights into its molecular and (patho)physiological biology.
+  JOURNAL   Nucl Recept Signal 5:e012 (2007)
+            DOI:10.1621/nrs.05012
+REFERENCE   PMID:16286565
+  AUTHORS   Fuller PJ, Young MJ
+  TITLE     Mechanisms of mineralocorticoid action.
+  JOURNAL   Hypertension 46:1227-35 (2005)
+            DOI:10.1161/01.HYP.0000193502.77417.17
+REFERENCE   PMID:12649599
+  AUTHORS   Verrey F, Loffing J, Zecevic M, Heitzmann D, Staub O
+  TITLE     SGK1: aldosterone-induced relay of Na+ transport regulation in distal kidney nephron cells.
+  JOURNAL   Cell Physiol Biochem 13:21-8 (2003)
+            DOI:10.1159/000070246
+REFERENCE   PMID:17332888
+  AUTHORS   Pearce D, Kleyman TR
+  TITLE     Salt, sodium channels, and SGK1.
+  JOURNAL   J Clin Invest 117:592-5 (2007)
+            DOI:10.1172/JCI31538
+REFERENCE   PMID:19549592
+  AUTHORS   Grossmann C, Gekle M
+  TITLE     New aspects of rapid aldosterone signaling.
+  JOURNAL   Mol Cell Endocrinol 308:53-62 (2009)
+            DOI:10.1016/j.mce.2009.02.005
+REFERENCE   PMID:15590995
+  AUTHORS   Vallon V, Wulff P, Huang DY, Loffing J, Volkl H, Kuhl D, Lang F
+  TITLE     Role of Sgk1 in salt and potassium homeostasis.
+  JOURNAL   Am J Physiol Regul Integr Comp Physiol 288:R4-10 (2005)
+            DOI:10.1152/ajpregu.00369.2004
+REFERENCE   PMID:12943727
+  AUTHORS   Rogerson FM, Brennan FE, Fuller PJ
+  TITLE     Dissecting mineralocorticoid receptor structure and function.
+  JOURNAL   J Steroid Biochem Mol Biol 85:389-96 (2003)
+            DOI:10.1016/S0960-0760(03)00200-0
+REFERENCE   PMID:11208606
+  AUTHORS   Wang J, Barbry P, Maiyar AC, Rozansky DJ, Bhargava A, Leong M, Firestone GL, Pearce D
+  TITLE     SGK integrates insulin and mineralocorticoid regulation of epithelial sodium transport.
+  JOURNAL   Am J Physiol Renal Physiol 280:F303-13 (2001)
+            DOI:10.1152/ajprenal.2001.280.2.F303
+REFERENCE   PMID:17309947
+  AUTHORS   Good DW
+  TITLE     Nongenomic actions of aldosterone on the renal tubule.
+  JOURNAL   Hypertension 49:728-39 (2007)
+            DOI:10.1161/01.HYP.0000259797.48382.b2
+REL_PATHWAY mmu00140  Steroid hormone biosynthesis
+            mmu04120  Ubiquitin mediated proteolysis
+            mmu04530  Tight junction
+KO_PATHWAY  ko04960
+///

@@ -1,0 +1,234 @@
+ENTRY       mmu04650                    Pathway
+NAME        Natural killer cell mediated cytotoxicity - Mus musculus (mouse)
+DESCRIPTION Natural killer (NK) cells are lymphocytes of the innate immune system that are involved in early defenses against both allogeneic (nonself) cells and autologous cells undergoing various forms of stress, such as infection with viruses, bacteria, or parasites or malignant transformation. Although NK cells do not express classical antigen receptors of the immunoglobulin gene family, such as the antibodies produced by B cells or the T cell receptor expressed by T cells, they are equipped with various receptors whose engagement allows them to discriminate between target and nontarget cells. Activating receptors bind ligands on the target cell surface and trigger NK cell activation and target cell lysis. However Inhibitory receptors recognize MHC class I molecules (HLA) and inhibit killing by NK cells by overruling the actions of the activating receptors. This inhibitory signal is lost when the target cells do not express MHC class I and perhaps also in cells infected with virus, which might inhibit MHC class I exprssion or alter its conformation. The mechanism of NK cell killing is the same as that used by the cytotoxic T cells generated in an adaptive immune response; cytotoxic granules are released onto the surface of the bound target cell, and the effector proteins they contain penetrate the cell membrane and induce programmed cell death.
+CLASS       Organismal Systems; Immune system
+PATHWAY_MAP mmu04650  Natural killer cell mediated cytotoxicity
+DBLINKS     GO: 0042267
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        15040  H2-T23; histocompatibility 2, T region locus 23 [KO:K06751]
+            14964  H2-D1; histocompatibility 2, D region locus 1 [KO:K06751]
+            14972  H2-K1; histocompatibility 2, K1, K region [KO:K06751]
+            245616  Kir3dl1; killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 1 [KO:K07980]
+            245615  Kir3dl2; killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 2 [KO:K07980]
+            16641  Klrc1; killer cell lectin-like receptor subfamily C, member 1 [KO:K06541]
+            16643  Klrd1; killer cell lectin-like receptor, subfamily D, member 1 [KO:K06516]
+            15170  Ptpn6; protein tyrosine phosphatase, non-receptor type 6 [KO:K05697] [EC:3.1.3.48]
+            19247  Ptpn11; protein tyrosine phosphatase, non-receptor type 11 [KO:K07293] [EC:3.1.3.48]
+            15894  Icam1; intercellular adhesion molecule 1 [KO:K06490]
+            15896  Icam2; intercellular adhesion molecule 2 [KO:K06523]
+            16408  Itgal; integrin alpha L [KO:K05718]
+            16414  Itgb2; integrin beta 2 [KO:K06464]
+            16415  Itgb2l; integrin beta 2-like [KO:K06464]
+            19229  Ptk2b; PTK2 protein tyrosine kinase 2 beta [KO:K05871] [EC:2.7.10.2]
+            22324  Vav1; vav 1 oncogene [KO:K05730]
+            22325  Vav2; vav 2 oncogene [KO:K05730]
+            57257  Vav3; vav 3 oncogene [KO:K05730]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            19354  Rac2; Rac family small GTPase 2 [KO:K07860]
+            170758  Rac3; Rac family small GTPase 3 [KO:K07861]
+            18479  Pak1; p21 (RAC1) activated kinase 1 [KO:K04409] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            12981  Csf2; colony stimulating factor 2 (granulocyte-macrophage) [KO:K05427]
+            15978  Ifng; interferon gamma [KO:K04687]
+            22177  Tyrobp; TYRO protein tyrosine kinase binding protein [KO:K07992]
+            16818  Lck; lymphocyte protein tyrosine kinase [KO:K05856] [EC:2.7.10.2]
+            246256  Fcgr4; Fc receptor, IgG, low affinity IV [KO:K06463]
+            17086  Ncr1; natural cytotoxicity triggering receptor 1 [KO:K06741]
+            14127  Fcer1g; Fc receptor, IgE, high affinity I, gamma polypeptide [KO:K07983]
+            12503  Cd247; CD247 antigen [KO:K06453]
+            22637  Zap70; zeta-chain (TCR) associated protein kinase [KO:K07360] [EC:2.7.10.2]
+            20963  Syk; spleen tyrosine kinase [KO:K05855] [EC:2.7.10.2]
+            16822  Lcp2; lymphocyte cytosolic protein 2 [KO:K07361]
+            16797  Lat; linker for activation of T cells [KO:K07362]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            234779  Plcg2; phospholipase C, gamma 2 [KO:K05859] [EC:3.1.4.11]
+            24055  Sh3bp2; SH3-domain binding protein 2 [KO:K07984]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            14360  Fyn; Fyn proto-oncogene [KO:K05703] [EC:2.7.10.2]
+            20416  Shc1; src homology 2 domain-containing transforming protein C1 [KO:K06279]
+            216148  Shc2; SHC (Src homology 2 domain containing) transforming protein 2 [KO:K17447]
+            20418  Shc3; src homology 2 domain-containing transforming protein C3 [KO:K17448]
+            271849  Shc4; SHC (Src homology 2 domain containing) family, member 4 [KO:K17449]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            77777  Ulbp1; UL16 binding protein 1 [KO:K07986]
+            19368  Raet1a; retinoic acid early transcript 1, alpha [KO:K07987]
+            19369  Raet1b; retinoic acid early transcript beta [KO:K07987]
+            19370  Raet1c; retinoic acid early transcript gamma [KO:K07987]
+            56554  Raet1d; retinoic acid early transcript delta [KO:K07987]
+            379043  Raet1e; retinoic acid early transcript 1E [KO:K07987]
+            27007  Klrk1; killer cell lectin-like receptor subfamily K, member 1 [KO:K06728]
+            23900  Hcst; hematopoietic cell signal transducer [KO:K07988]
+            12506  Cd48; CD48 antigen [KO:K06479]
+            18106  Cd244a; CD244 molecule A [KO:K06582]
+            19057  Ppp3cc; protein phosphatase 3, catalytic subunit, gamma isoform [KO:K04348] [EC:3.1.3.16]
+            19055  Ppp3ca; protein phosphatase 3, catalytic subunit, alpha isoform [KO:K04348] [EC:3.1.3.16]
+            19056  Ppp3cb; protein phosphatase 3, catalytic subunit, beta isoform [KO:K04348] [EC:3.1.3.16]
+            19058  Ppp3r1; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type I) [KO:K06268]
+            19059  Ppp3r2; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type II) [KO:K06268]
+            18018  Nfatc1; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 1 [KO:K04446]
+            18019  Nfatc2; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 2 [KO:K17332]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            26904  Sh2d1b1; SH2 domain containing 1B1 [KO:K07989]
+            20400  Sh2d1a; SH2 domain containing 1A [KO:K07990]
+            15979  Ifngr1; interferon gamma receptor 1 [KO:K05132]
+            15980  Ifngr2; interferon gamma receptor 2 [KO:K05133]
+            15962  Ifna1; interferon alpha 1 [KO:K05414]
+            15965  Ifna2; interferon alpha 2 [KO:K05414]
+            15967  Ifna4; interferon alpha 4 [KO:K05414]
+            15968  Ifna5; interferon alpha 5 [KO:K05414]
+            15969  Ifna6; interferon alpha 6 [KO:K05414]
+            15970  Ifna7; interferon alpha 7 [KO:K05414]
+            15972  Ifna9; interferon alpha 9 [KO:K05414]
+            15964  Ifna11; interferon alpha 11 [KO:K05414]
+            242519  Ifna12; interferon alpha 12 [KO:K05414]
+            230396  Ifna13; interferon alpha 13 [KO:K05414]
+            404549  Ifna14; interferon alpha 14 [KO:K05414]
+            15974  Ifnab; interferon alpha B [KO:K05414]
+            242517  Ifna15; interferon alpha 15 [KO:K05414]
+            15977  Ifnb1; interferon beta 1, fibroblast [KO:K05415]
+            15975  Ifnar1; interferon (alpha and beta) receptor 1 [KO:K05130]
+            15976  Ifnar2; interferon (alpha and beta) receptor 2 [KO:K05131]
+            22035  Tnfsf10; tumor necrosis factor (ligand) superfamily, member 10 [KO:K04721]
+            21933  Tnfrsf10b; tumor necrosis factor receptor superfamily, member 10b [KO:K04722]
+            14103  Fasl; Fas ligand (TNF superfamily, member 6) [KO:K04389]
+            14102  Fas; Fas (TNF receptor superfamily member 6) [KO:K04390]
+            14939  Gzmb; granzyme B [KO:K01353] [EC:3.4.21.79]
+            18646  Prf1; perforin 1 (pore forming protein) [KO:K07818]
+            12367  Casp3; caspase 3 [KO:K02187] [EC:3.4.22.56]
+            12122  Bid; BH3 interacting domain death agonist [KO:K04726]
+            15101  H60a; histocompatibility 60a
+            16627  Klra1; killer cell lectin-like receptor, subfamily A, member 1
+            16634  Klra3; killer cell lectin-like receptor, subfamily A, member 3
+            16635  Klra4; killer cell lectin-like receptor, subfamily A, member 4 [KO:K23459]
+            16638  Klra7; killer cell lectin-like receptor, subfamily A, member 7
+            16639  Klra8; killer cell lectin-like receptor, subfamily A, member 8
+            16640  Klra9; killer cell lectin-like receptor subfamily A, member 9
+            16642  Klrc2; killer cell lectin-like receptor subfamily C, member 2
+            17059  Klrb1c; killer cell lectin-like receptor subfamily B member 1C [KO:K06543]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:15607802
+  AUTHORS   Chiesa S, Tomasello E, Vivier E, Vely F.
+  TITLE     Coordination of activating and inhibitory signals in natural killer cells.
+  JOURNAL   Mol Immunol 42:477-84 (2005)
+            DOI:10.1016/j.molimm.2004.07.030
+REFERENCE   PMID:16109839
+  AUTHORS   Maghazachi AA.
+  TITLE     Insights into seven and single transmembrane-spanning domain receptors and their signaling pathways in human natural killer cells.
+  JOURNAL   Pharmacol Rev 57:339-57 (2005)
+            DOI:10.1124/pr.57.3.5
+REFERENCE   PMID:15567854
+  AUTHORS   Vivier E, Nunes JA, Vely F.
+  TITLE     Natural killer cell signaling pathways.
+  JOURNAL   Science 306:1517-9 (2004)
+            DOI:10.1126/science.1103478
+REFERENCE   PMID:12205470
+  AUTHORS   Colucci F, Di Santo JP, Leibson PJ.
+  TITLE     Natural killer cell activation in mice and men: different triggers for similar weapons?
+  JOURNAL   Nat Immunol 3:807-13 (2002)
+            DOI:10.1038/ni0902-807
+REFERENCE   PMID:11062493
+  AUTHORS   Perussia B.
+  TITLE     Signaling for cytotoxicity.
+  JOURNAL   Nat Immunol 1:372-4 (2000)
+            DOI:10.1038/80808
+REFERENCE   PMID:15607806
+  AUTHORS   Smyth MJ, Cretney E, Kelly JM, Westwood JA, Street SE, Yagita H, Takeda K, van Dommelen SL, Degli-Esposti MA, Hayakawa Y.
+  TITLE     Activation of NK cell cytotoxicity.
+  JOURNAL   Mol Immunol 42:501-10 (2005)
+            DOI:10.1016/j.molimm.2004.07.034
+REFERENCE   PMID:11895890
+  AUTHORS   Djeu JY, Jiang K, Wei S.
+  TITLE     A view to a kill: signals triggering cytotoxicity.
+  JOURNAL   Clin Cancer Res 8:636-40 (2002)
+REFERENCE   PMID:12530970
+  AUTHORS   Smyth MJ, Takeda K, Hayakawa Y, Peschon JJ, van den Brink MR, Yagita H.
+  TITLE     Nature's TRAIL--on a path to cancer immunotherapy.
+  JOURNAL   Immunity 18:1-6 (2003)
+            DOI:10.1016/S1074-7613(02)00502-2
+REFERENCE   PMID:16177799
+  AUTHORS   Colonna M.
+  TITLE     Fine-tuning NK cell responses: it's a family affair.
+  JOURNAL   Nat Immunol 6:961-2 (2005)
+            DOI:10.1038/ni1005-961
+REFERENCE   PMID:8942070
+  AUTHORS   Bonnema JD, Leibson PJ.
+  TITLE     Signal transduction during NK cell activation.
+  JOURNAL   Chem Immunol 64:28-43 (1996)
+REFERENCE   PMID:16002670
+  AUTHORS   Tassi I, Presti R, Kim S, Yokoyama WM, Gilfillan S, Colonna M.
+  TITLE     Phospholipase C-gamma 2 is a critical signaling mediator for murine NK cell activating receptors.
+  JOURNAL   J Immunol 175:749-54 (2005)
+            DOI:10.4049/jimmunol.175.2.749
+REFERENCE   PMID:9143705
+  AUTHORS   Rao A, Luo C, Hogan PG.
+  TITLE     Transcription factors of the NFAT family: regulation and function.
+  JOURNAL   Annu Rev Immunol 15:707-47 (1997)
+            DOI:10.1146/annurev.immunol.15.1.707
+REFERENCE   PMID:14710949
+  AUTHORS   Wu J, Lanier LL.
+  TITLE     Natural killer cells and cancer.
+  JOURNAL   Adv Cancer Res 90:127-56 (2003)
+            DOI:10.1016/S0065-230X(03)90004-2
+REFERENCE   PMID:11905813
+  AUTHORS   Cerwenka A, Lanier LL.
+  TITLE     Natural killer cells, viruses and cancer.
+  JOURNAL   Nat Rev Immunol 1:41-9 (2001)
+            DOI:10.1038/35095564
+REFERENCE   PMID:11836514
+  AUTHORS   Blott EJ, Griffiths GM.
+  TITLE     Secretory lysosomes.
+  JOURNAL   Nat Rev Mol Cell Biol 3:122-31 (2002)
+            DOI:10.1038/nrm732
+REFERENCE   PMID:12766758
+  AUTHORS   Lieberman J.
+  TITLE     The ABCs of granule-mediated cytotoxicity: new weapons in the arsenal.
+  JOURNAL   Nat Rev Immunol 3:361-70 (2003)
+            DOI:10.1038/nri1083
+REFERENCE   PMID:12752668
+  AUTHORS   Lord SJ, Rajotte RV, Korbutt GS, Bleackley RC.
+  TITLE     Granzyme B: a natural born killer.
+  JOURNAL   Immunol Rev 193:31-8 (2003)
+            DOI:10.1034/j.1600-065X.2003.00044.x
+REFERENCE   PMID:15618404
+  AUTHORS   Liu D, Xu L, Yang F, Li D, Gong F, Xu T.
+  TITLE     Rapid biogenesis and sensitization of secretory lysosomes in NK cells mediated by target-cell recognition.
+  JOURNAL   Proc Natl Acad Sci U S A 102:123-7 (2005)
+            DOI:10.1073/pnas.0405737102
+REFERENCE   PMID:9862693
+  AUTHORS   Trotta R, Puorro KA, Paroli M, Azzoni L, Abebe B, Eisenlohr LC, Perussia B.
+  TITLE     Dependence of both spontaneous and antibody-dependent, granule exocytosis-mediated NK cell cytotoxicity on extracellular signal-regulated kinases.
+  JOURNAL   J Immunol 161:6648-56 (1998)
+REFERENCE   PMID:11390470
+  AUTHORS   Jevremovic D, Billadeau DD, Schoon RA, Dick CJ, Leibson PJ.
+  TITLE     Regulation of NK cell-mediated cytotoxicity by the adaptor protein 3BP2.
+  JOURNAL   J Immunol 166:7219-28 (2001)
+            DOI:10.4049/jimmunol.166.12.7219
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04060  Cytokine-cytokine receptor interaction
+            mmu04210  Apoptosis
+            mmu04630  JAK-STAT signaling pathway
+KO_PATHWAY  ko04650
+///

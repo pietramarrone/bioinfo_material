@@ -1,0 +1,228 @@
+ENTRY       mmu05135                    Pathway
+NAME        Yersinia infection - Mus musculus (mouse)
+DESCRIPTION Pathogenic Yersinia injects virulent Yersinia outer proteins (Yops) into the host cell through a type three secretion system (T3SS) to express its pathogenicity. Through inactivation of small GTPases by YopT protease, YopE GTPase-activating protein, and YpkA/YopO sequestration of GDP-bound small GTPases, Yersinia prevents its uptake by phagocytic cells and disrupts the actin cytoskeleton. YopH phosphatase shuts down phagocytosis by dephosphorylating key host proteins as well as suppresses T cell activation. Yersinia induces macrophage pyroptosis via YopB/YopD activation of canonical and noncanonical inflammasomes and YopT/YopE-mediated activation of pyrin. These effects are counteracted by YopK and YopM. YopP/J is a member of an ubiquitin-like protein cysteine protease family and simultaneously targets signaling components of the MAPK and NF-kappaB signaling pathways following activation of Toll-like receptor4 to inhibit production of proinflammatory cytokines.
+CLASS       Human Diseases; Infectious disease: bacterial
+PATHWAY_MAP mmu05135  Yersinia infection
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14268  Fn1; fibronectin 1 [KO:K05717]
+            16401  Itga4; integrin alpha 4 [KO:K06483]
+            16402  Itga5; integrin alpha 5 (fibronectin receptor alpha) [KO:K06484]
+            16412  Itgb1; integrin beta 1 (fibronectin receptor beta) [KO:K05719]
+            20779  Src; Rous sarcoma oncogene [KO:K05704] [EC:2.7.10.2]
+            12927  Bcar1; breast cancer anti-estrogen resistance 1 [KO:K05726]
+            12928  Crk; v-crk avian sarcoma virus CT10 oncogene homolog [KO:K04438]
+            12929  Crkl; v-crk avian sarcoma virus CT10 oncogene homolog-like [KO:K04438]
+            330662  Dock1; dedicator of cytokinesis 1 [KO:K13708]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            19354  Rac2; Rac family small GTPase 2 [KO:K07860]
+            170758  Rac3; Rac family small GTPase 3 [KO:K07861]
+            18717  Pip5k1c; phosphatidylinositol-4-phosphate 5-kinase, type 1 gamma [KO:K00889] [EC:2.7.1.68]
+            18719  Pip5k1b; phosphatidylinositol-4-phosphate 5-kinase, type 1 beta [KO:K00889] [EC:2.7.1.68]
+            18720  Pip5k1a; phosphatidylinositol-4-phosphate 5-kinase, type 1 alpha [KO:K00889] [EC:2.7.1.68]
+            11845  Arf6; ADP-ribosylation factor 6 [KO:K07941]
+            73178  Wasl; WASP like actin nucleation promoting factor [KO:K23612]
+            66713  Actr2; ARP2 actin-related protein 2 [KO:K17260]
+            242894  Actr3b; ARP3 actin-related protein 3B [KO:K18584]
+            74117  Actr3; ARP3 actin-related protein 3 [KO:K18584]
+            11465  Actg1; actin, gamma, cytoplasmic 1 [KO:K05692]
+            11461  Actb; actin, beta [KO:K05692]
+            215280  Wipf1; WAS/WASL interacting protein family, member 1 [KO:K19475]
+            68524  Wipf2; WAS/WASL interacting protein family, member 2 [KO:K19475]
+            330319  Wipf3; WAS/WASL interacting protein family, member 3 [KO:K19475]
+            108100  Baiap2; brain-specific angiogenesis inhibitor 1-associated protein 2 [KO:K05627]
+            242687  Wasf2; WAS protein family, member 2 [KO:K05748]
+            19229  Ptk2b; PTK2 protein tyrosine kinase 2 beta [KO:K05871] [EC:2.7.10.2]
+            14083  Ptk2; PTK2 protein tyrosine kinase 2 [KO:K05725] [EC:2.7.10.2]
+            19303  Pxn; paxillin [KO:K05760]
+            26431  Git2; GIT ArfGAP 2 [KO:K12487]
+            54126  Arhgef7; Rho guanine nucleotide exchange factor (GEF7) [KO:K13710]
+            12540  Cdc42; cell division cycle 42 [KO:K04393]
+            22376  Was; Wiskott-Aldrich syndrome [KO:K05747]
+            69632  Arhgef12; Rho guanine nucleotide exchange factor (GEF) 12 [KO:K07532]
+            16801  Arhgef1; Rho guanine nucleotide exchange factor (GEF) 1 [KO:K12330]
+            110596  Arhgef28; Rho guanine nucleotide exchange factor (GEF) 28 [KO:K21072]
+            11848  Rhoa; ras homolog family member A [KO:K04513]
+            67653  4930544G11Rik; RIKEN cDNA 4930544G11 gene [KO:K04513]
+            19877  Rock1; Rho-associated coiled-coil containing protein kinase 1 [KO:K04514] [EC:2.7.11.1]
+            19878  Rock2; Rho-associated coiled-coil containing protein kinase 2 [KO:K17388] [EC:2.7.11.1]
+            23880  Fyb; FYN binding protein [KO:K17698]
+            54353  Skap2; src family associated phosphoprotein 2 [KO:K23471]
+            216799  Nlrp3; NLR family, pyrin domain containing 3 [KO:K12800]
+            83564  Nlrp4c; NLR family, pyrin domain containing 4C [KO:K22265]
+            446099  Nlrp4e; NLR family, pyrin domain containing 4E [KO:K22265]
+            320795  Pkn1; protein kinase N1 [KO:K06071] [EC:2.7.11.13]
+            109333  Pkn2; protein kinase N2 [KO:K23691] [EC:2.7.11.13]
+            110651  Rps6ka3; ribosomal protein S6 kinase polypeptide 3 [KO:K04373] [EC:2.7.11.1]
+            20111  Rps6ka1; ribosomal protein S6 kinase polypeptide 1 [KO:K04373] [EC:2.7.11.1]
+            20112  Rps6ka2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04373] [EC:2.7.11.1]
+            67071  Rps6ka6; ribosomal protein S6 kinase polypeptide 6 [KO:K04373] [EC:2.7.11.1]
+            54483  Mefv; Mediterranean fever [KO:K12803]
+            16885  Limk1; LIM-domain containing, protein kinase [KO:K05743] [EC:2.7.11.1]
+            66824  Pycard; PYD and CARD domain containing [KO:K12799]
+            12362  Casp1; caspase 1 [KO:K01370] [EC:3.4.22.36]
+            16173  Il18; interleukin 18 [KO:K05482]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+            21898  Tlr4; toll-like receptor 4 [KO:K10160]
+            17874  Myd88; myeloid differentiation primary response gene 88 [KO:K04729]
+            266632  Irak4; interleukin-1 receptor-associated kinase 4 [KO:K04733] [EC:2.7.11.1]
+            16179  Irak1; interleukin-1 receptor-associated kinase 1 [KO:K04730] [EC:2.7.11.1]
+            22034  Traf6; TNF receptor-associated factor 6 [KO:K03175] [EC:2.3.2.27]
+            22030  Traf2; TNF receptor-associated factor 2 [KO:K03173] [EC:2.3.2.27]
+            66513  Tab1; TGF-beta activated kinase 1/MAP3K7 binding protein 1 [KO:K04403]
+            68652  Tab2; TGF-beta activated kinase 1/MAP3K7 binding protein 2 [KO:K04404]
+            26409  Map3k7; mitogen-activated protein kinase kinase kinase 7 [KO:K04427] [EC:2.7.11.25]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            18035  Nfkbia; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [KO:K04734]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            26397  Map2k3; mitogen-activated protein kinase kinase 3 [KO:K04432] [EC:2.7.12.2]
+            26399  Map2k6; mitogen-activated protein kinase kinase 6 [KO:K04433] [EC:2.7.12.2]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            26398  Map2k4; mitogen-activated protein kinase kinase 4 [KO:K04430] [EC:2.7.12.2]
+            26400  Map2k7; mitogen-activated protein kinase kinase 7 [KO:K04431] [EC:2.7.12.2]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            106759  Ticam1; toll-like receptor adaptor molecule 1 [KO:K05842]
+            56480  Tbk1; TANK-binding kinase 1 [KO:K05410] [EC:2.7.11.10]
+            54131  Irf3; interferon regulatory factor 3 [KO:K05411]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            16193  Il6; interleukin 6 [KO:K05405]
+            15977  Ifnb1; interferon beta 1, fibroblast [KO:K05415]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            20296  Ccl2; chemokine (C-C motif) ligand 2 [KO:K14624]
+            20293  Ccl12; chemokine (C-C motif) ligand 12 [KO:K14624]
+            16818  Lck; lymphocyte protein tyrosine kinase [KO:K05856] [EC:2.7.10.2]
+            22637  Zap70; zeta-chain (TCR) associated protein kinase [KO:K07360] [EC:2.7.10.2]
+            16797  Lat; linker for activation of T cells [KO:K07362]
+            16822  Lcp2; lymphocyte cytosolic protein 2 [KO:K07361]
+            22324  Vav1; vav 1 oncogene [KO:K05730]
+            22325  Vav2; vav 2 oncogene [KO:K05730]
+            57257  Vav3; vav 3 oncogene [KO:K05730]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            18018  Nfatc1; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 1 [KO:K04446]
+            18019  Nfatc2; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 2 [KO:K17332]
+            18021  Nfatc3; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 3 [KO:K17333]
+            16183  Il2; interleukin 2 [KO:K05429]
+            16153  Il10; interleukin 10 [KO:K05443]
+COMPOUND    C00076  Calcium cation
+            C00338  Lipopolysaccharide
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C04637  1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:26981193
+  AUTHORS   Pha K, Navarro L
+  TITLE     Yersinia type III effectors perturb host innate immune responses.
+  JOURNAL   World J Biol Chem 7:1-13 (2016)
+            DOI:10.4331/wjbc.v7.i1.1
+REFERENCE   PMID:29477730
+  AUTHORS   Pinaud L, Sansonetti PJ, Phalipon A
+  TITLE     Host Cell Targeting by Enteropathogenic Bacteria T3SS Effectors.
+  JOURNAL   Trends Microbiol 26:266-283 (2018)
+            DOI:10.1016/j.tim.2018.01.010
+REFERENCE   PMID:19339545
+  AUTHORS   Huveneers S, Danen EH
+  TITLE     Adhesion signaling - crosstalk between integrins, Src and Rho.
+  JOURNAL   J Cell Sci 122:1059-69 (2009)
+            DOI:10.1242/jcs.039446
+REFERENCE   PMID:17257058
+  AUTHORS   Angot A, Vergunst A, Genin S, Peeters N
+  TITLE     Exploitation of eukaryotic ubiquitin signaling pathways by effectors translocated by bacterial type III and type IV secretion systems.
+  JOURNAL   PLoS Pathog 3:e3 (2007)
+            DOI:10.1371/journal.ppat.0030003
+REFERENCE   PMID:10785635
+  AUTHORS   Bliska JB
+  TITLE     Yop effectors of Yersinia spp. and actin rearrangements.
+  JOURNAL   Trends Microbiol 8:205-8 (2000)
+            DOI:10.1016/S0966-842X(00)01738-8
+REFERENCE   PMID:15044442
+  AUTHORS   Gustavsson A, Yuan M, Fallman M
+  TITLE     Temporal dissection of beta1-integrin signaling indicates a role for p130Cas-Crk in filopodia formation.
+  JOURNAL   J Biol Chem 279:22893-901 (2004)
+            DOI:10.1074/jbc.M309693200
+REFERENCE   PMID:12077360
+  AUTHORS   Bruce-Staskal PJ, Weidow CL, Gibson JJ, Bouton AH
+  TITLE     Cas, Fak and Pyk2 function in diverse signaling cascades to promote Yersinia uptake.
+  JOURNAL   J Cell Sci 115:2689-700 (2002)
+REFERENCE   PMID:11734206
+  AUTHORS   McGee K, Zettl M, Way M, Fallman M
+  TITLE     A role for N-WASP in invasin-promoted internalisation.
+  JOURNAL   FEBS Lett 509:59-65 (2001)
+            DOI:10.1016/S0014-5793(01)03139-8
+REFERENCE   PMID:15516995
+  AUTHORS   Pizarro-Cerda J, Cossart P
+  TITLE     Subversion of phosphoinositide metabolism by intracellular bacterial pathogens.
+  JOURNAL   Nat Cell Biol 6:1026-33 (2004)
+            DOI:10.1038/ncb1104-1026
+REFERENCE   PMID:27569559
+  AUTHORS   Chung LK, Park YH, Zheng Y, Brodsky IE, Hearing P, Kastner DL, Chae JJ, Bliska JB
+  TITLE     The Yersinia Virulence Factor YopM Hijacks Host Kinases to Inhibit Type III Effector-Triggered Activation of the Pyrin Inflammasome.
+  JOURNAL   Cell Host Microbe 20:296-306 (2016)
+            DOI:10.1016/j.chom.2016.07.018
+REFERENCE   PMID:15060067
+  AUTHORS   Schotte P, Denecker G, Van Den Broeke A, Vandenabeele P, Cornelis GR, Beyaert R
+  TITLE     Targeting Rac1 by the Yersinia effector protein YopE inhibits caspase-1-mediated maturation and release of interleukin-1beta.
+  JOURNAL   J Biol Chem 279:25134-42 (2004)
+            DOI:10.1074/jbc.M401245200
+REFERENCE   PMID:10489373
+  AUTHORS   Orth K, Palmer LE, Bao ZQ, Stewart S, Rudolph AE, Bliska JB, Dixon JE
+  TITLE     Inhibition of the mitogen-activated protein kinase kinase superfamily by a Yersinia effector.
+  JOURNAL   Science 285:1920-3 (1999)
+            DOI:10.1126/science.285.5435.1920
+REFERENCE   PMID:16301742
+  AUTHORS   Zhou H, Monack DM, Kayagaki N, Wertz I, Yin J, Wolf B, Dixit VM
+  TITLE     Yersinia virulence factor YopJ acts as a deubiquitinase to inhibit NF-kappa B activation.
+  JOURNAL   J Exp Med 202:1327-32 (2005)
+            DOI:10.1084/jem.20051194
+REFERENCE   PMID:16339560
+  AUTHORS   Haase R, Richter K, Pfaffinger G, Courtois G, Ruckdeschel K
+  TITLE     Yersinia outer protein P suppresses TGF-beta-activated kinase-1 activity to impair innate immune signaling in Yersinia enterocolitica-infected cells.
+  JOURNAL   J Immunol 175:8209-17 (2005)
+            DOI:10.4049/jimmunol.175.12.8209
+REFERENCE   PMID:16845370
+  AUTHORS   Thiefes A, Wolf A, Doerrie A, Grassl GA, Matsumoto K, Autenrieth I, Bohn E, Sakurai H, Niedenthal R, Resch K, Kracht M
+  TITLE     The Yersinia enterocolitica effector YopP inhibits host cell signalling by inactivating the protein kinase TAK1 in the IL-1 signalling pathway.
+  JOURNAL   EMBO Rep 7:838-44 (2006)
+            DOI:10.1038/sj.embor.7400754
+REFERENCE   PMID:26651944
+  AUTHORS   Rosadini CV, Zanoni I, Odendall C, Green ER, Paczosa MK, Philip NH, Brodsky IE, Mecsas J, Kagan JC
+  TITLE     A Single Bacterial Immune Evasion Strategy Dismantles Both MyD88 and TRIF Signaling Pathways Downstream of TLR4.
+  JOURNAL   Cell Host Microbe 18:682-93 (2015)
+            DOI:10.1016/j.chom.2015.11.006
+REFERENCE   PMID:24034616
+  AUTHORS   Rolan HG, Durand EA, Mecsas J
+  TITLE     Identifying Yersinia YopH-targeted signal transduction pathways that impair neutrophil responses during in vivo murine infection.
+  JOURNAL   Cell Host Microbe 14:306-17 (2013)
+            DOI:10.1016/j.chom.2013.08.013
+REFERENCE   PMID:14623872
+  AUTHORS   Alonso A, Bottini N, Bruckner S, Rahmouni S, Williams S, Schoenberger SP, Mustelin T
+  TITLE     Lck dephosphorylation at Tyr-394 and inhibition of T cell antigen receptor signaling by Yersinia phosphatase YopH.
+  JOURNAL   J Biol Chem 279:4922-8 (2004)
+            DOI:10.1074/jbc.M308978200
+REL_PATHWAY mmu04510  Focal adhesion
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04621  NOD-like receptor signaling pathway
+            mmu04660  T cell receptor signaling pathway
+            mmu04810  Regulation of actin cytoskeleton
+KO_PATHWAY  ko05135
+///

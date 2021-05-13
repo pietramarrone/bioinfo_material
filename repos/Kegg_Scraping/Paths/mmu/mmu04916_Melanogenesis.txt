@@ -1,0 +1,182 @@
+ENTRY       mmu04916                    Pathway
+NAME        Melanogenesis - Mus musculus (mouse)
+DESCRIPTION Cutaneous melanin pigment plays a critical role in camouflage, mimicry, social communication, and protection against harmful effects of solar radiation. Melanogenesis is under complex regulatory control by multiple agents. The most important positive regulator of melanogenesis is the MC1 receptor with its ligands melanocortic peptides. MC1R activates the cyclic AMP (cAMP) response-element binding protein (CREB). Increased expression of MITF and its activation by phosphorylation (P) stimulate the transcription of tyrosinase (TYR), tyrosinase-related protein 1 (TYRP1), and dopachrome tautomerase (DCT), which produce melanin. Melanin synthesis takes place within specialized intracellular organelles named melanosomes. Melanin-containing melanosomes then move from the perinuclear region to the dendrite tips and are transferred to keratinocytes by a still not well-characterized mechanism.
+CLASS       Organismal Systems; Endocrine system
+PATHWAY_MAP mmu04916  Melanogenesis
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        18976  Pomc; pro-opiomelanocortin-alpha [KO:K05228]
+            50518  a; nonagouti [KO:K08725]
+            17199  Mc1r; melanocortin 1 receptor [KO:K04199]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            12914  Crebbp; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            328572  Ep300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            17342  Mitf; melanogenesis associated transcription factor [KO:K09455]
+            22408  Wnt1; wingless-type MMTV integration site family, member 1 [KO:K03209]
+            22413  Wnt2; wingless-type MMTV integration site family, member 2 [KO:K00182]
+            22414  Wnt2b; wingless-type MMTV integration site family, member 2B [KO:K00182]
+            22415  Wnt3; wingless-type MMTV integration site family, member 3 [KO:K00312]
+            22416  Wnt3a; wingless-type MMTV integration site family, member 3A [KO:K00312]
+            22417  Wnt4; wingless-type MMTV integration site family, member 4 [KO:K00408]
+            22418  Wnt5a; wingless-type MMTV integration site family, member 5A [KO:K00444]
+            22419  Wnt5b; wingless-type MMTV integration site family, member 5B [KO:K00444]
+            22420  Wnt6; wingless-type MMTV integration site family, member 6 [KO:K00445]
+            22421  Wnt7a; wingless-type MMTV integration site family, member 7A [KO:K00572]
+            22422  Wnt7b; wingless-type MMTV integration site family, member 7B [KO:K00572]
+            20890  Wnt8a; wingless-type MMTV integration site family, member 8A [KO:K00714]
+            22423  Wnt8b; wingless-type MMTV integration site family, member 8B [KO:K00714]
+            216795  Wnt9a; wingless-type MMTV integration site family, member 9A [KO:K01064]
+            22412  Wnt9b; wingless-type MMTV integration site family, member 9B [KO:K01064]
+            22410  Wnt10b; wingless-type MMTV integration site family, member 10B [KO:K01357]
+            22409  Wnt10a; wingless-type MMTV integration site family, member 10A [KO:K01357]
+            22411  Wnt11; wingless-type MMTV integration site family, member 11 [KO:K01384]
+            93735  Wnt16; wingless-type MMTV integration site family, member 16 [KO:K01558]
+            14362  Fzd1; frizzled class receptor 1 [KO:K02432]
+            14369  Fzd7; frizzled class receptor 7 [KO:K02432]
+            57265  Fzd2; frizzled class receptor 2 [KO:K02235]
+            14365  Fzd3; frizzled class receptor 3 [KO:K02329]
+            14366  Fzd4; frizzled class receptor 4 [KO:K02354]
+            14367  Fzd5; frizzled class receptor 5 [KO:K02375]
+            14370  Fzd8; frizzled class receptor 8 [KO:K02375]
+            14368  Fzd6; frizzled class receptor 6 [KO:K02376]
+            93897  Fzd10; frizzled class receptor 10 [KO:K02842]
+            14371  Fzd9; frizzled class receptor 9 [KO:K02842]
+            14681  Gnao1; guanine nucleotide binding protein, alpha O [KO:K04534]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            13544  Dvl3; dishevelled segment polarity protein 3 [KO:K02353]
+            13542  Dvl1; dishevelled segment polarity protein 1 [KO:K02353]
+            13543  Dvl2; dishevelled segment polarity protein 2 [KO:K02353]
+            56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            12387  Ctnnb1; catenin (cadherin associated protein), beta 1 [KO:K02105]
+            21414  Tcf7; transcription factor 7, T cell specific [KO:K02620]
+            21415  Tcf7l1; transcription factor 7 like 1 (T cell specific, HMG box) [KO:K04490]
+            21416  Tcf7l2; transcription factor 7 like 2, T cell specific, HMG box [KO:K04491]
+            16842  Lef1; lymphoid enhancer binding factor 1 [KO:K04492]
+            17311  Kitl; kit ligand [KO:K05461]
+            16590  Kit; KIT proto-oncogene receptor tyrosine kinase [KO:K05091] [EC:2.7.10.1]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            22173  Tyr; tyrosinase [KO:K00505] [EC:1.14.18.1]
+            22178  Tyrp1; tyrosinase-related protein 1 [KO:K00506] [EC:1.14.18.-]
+            13190  Dct; dopachrome tautomerase [KO:K01827] [EC:5.3.3.12]
+            13614  Edn1; endothelin 1 [KO:K16366]
+            13618  Ednrb; endothelin receptor type B [KO:K04198]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+COMPOUND    C00076  Calcium cation
+            C00082  L-Tyrosine
+            C00165  Diacylglycerol
+            C00575  3',5'-Cyclic AMP
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C05606  Melanin
+REFERENCE   PMID:15383650
+  AUTHORS   Slominski A, Tobin DJ, Shibahara S, Wortsman J.
+  TITLE     Melanin pigmentation in mammalian skin and its hormonal regulation.
+  JOURNAL   Physiol Rev 84:1155-228 (2004)
+            DOI:10.1152/physrev.00044.2003
+REFERENCE   PMID:10841026
+  AUTHORS   Busca R, Ballotti R.
+  TITLE     Cyclic AMP a key messenger in the regulation of skin pigmentation.
+  JOURNAL   Pigment Cell Res 13:60-9 (2000)
+            DOI:10.1034/j.1600-0749.2000.130203.x
+REFERENCE   PMID:15016298
+  AUTHORS   Imokawa G.
+  TITLE     Autocrine and paracrine regulation of melanocytes in human skin and in pigmentary disorders.
+  JOURNAL   Pigment Cell Res 17:96-110 (2004)
+            DOI:10.1111/j.1600-0749.2003.00126.x
+REFERENCE   PMID:11023702
+  AUTHORS   Wikberg JE, Muceniece R, Mandrika I, Prusis P, Lindblom J, Post C, Skottner A.
+  TITLE     New aspects on the melanocortins and their receptors.
+  JOURNAL   Pharmacol Res 42:393-420 (2000)
+            DOI:10.1006/phrs.2000.0725
+REFERENCE   PMID:12894244
+  AUTHORS   Chin L.
+  TITLE     The genetics of malignant melanoma: lessons from mouse and man.
+  JOURNAL   Nat Rev Cancer 3:559-70 (2003)
+            DOI:10.1038/nrc1145
+REFERENCE   PMID:16822996
+  AUTHORS   Miller AJ, Mihm MC Jr.
+  TITLE     Melanoma.
+  JOURNAL   N Engl J Med 355:51-65 (2006)
+            DOI:10.1056/NEJMra052166
+REFERENCE   PMID:12753399
+  AUTHORS   Saito H, Yasumoto K, Takeda K, Takahashi K, Yamamoto H, Shibahara S.
+  TITLE     Microphthalmia-associated transcription factor in the Wnt signaling pathway.
+  JOURNAL   Pigment Cell Res 16:261-5 (2003)
+            DOI:10.1034/j.1600-0749.2003.00039.x
+REFERENCE   PMID:9263329
+  AUTHORS   Imokawa G, Kobayashi T, Miyagishi M, Higashi K, Yada Y.
+  TITLE     The role of endothelin-1 in epidermal hyperpigmentation and signaling mechanisms of mitogenesis and melanogenesis.
+  JOURNAL   Pigment Cell Res 10:218-28 (1997)
+            DOI:10.1111/j.1600-0749.1997.tb00488.x
+REFERENCE   PMID:10643996
+  AUTHORS   Park HY, Gilchrest BA.
+  TITLE     Signaling pathways mediating melanogenesis.
+  JOURNAL   Cell Mol Biol (Noisy-le-grand) 45:919-30 (1999)
+REFERENCE   PMID:10347209
+  AUTHORS   Park HY, Perez JM, Laursen R, Hara M, Gilchrest BA.
+  TITLE     Protein kinase C-beta activates tyrosinase by phosphorylating serine residues in its cytoplasmic domain.
+  JOURNAL   J Biol Chem 274:16470-8 (1999)
+            DOI:10.1074/jbc.274.23.16470
+REFERENCE   PMID:11602344
+  AUTHORS   Sturm RA, Teasdale RD, Box NF.
+  TITLE     Human pigmentation genes: identification, structure and consequences of polymorphic variation.
+  JOURNAL   Gene 277:49-62 (2001)
+            DOI:10.1016/S0378-1119(01)00694-1
+REFERENCE   PMID:11041354
+  AUTHORS   Hearing VJ.
+  TITLE     The melanosome: the perfect model for cellular responses to the environment.
+  JOURNAL   Pigment Cell Res 13 Suppl 8:23-34 (2000)
+            DOI:10.1034/j.1600-0749.13.s8.7.x
+REFERENCE   PMID:16246839
+  AUTHORS   Molina DM, Grewal S, Bardwell L.
+  TITLE     Characterization of an ERK-binding domain in microphthalmia-associated transcription factor and differential inhibition of ERK2-mediated substrate phosphorylation.
+  JOURNAL   J Biol Chem 280:42051-60 (2005)
+            DOI:10.1074/jbc.M510590200
+REL_PATHWAY mmu00350  Tyrosine metabolism
+            mmu04010  MAPK signaling pathway
+            mmu04310  Wnt signaling pathway
+            mmu05218  Melanoma
+KO_PATHWAY  ko04916
+///

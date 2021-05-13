@@ -1,0 +1,177 @@
+ENTRY       mmu05212                    Pathway
+NAME        Pancreatic cancer - Mus musculus (mouse)
+DESCRIPTION Infiltrating ductal adenocarcinoma is the most common malignancy of the pancreas. When most investigators use the term 'pancreatic cancer' they are referring to pancreatic ductal adenocarcinoma (PDA). Normal duct epithelium progresses to infiltrating cancer through a series of histologically defined precursors (PanINs). The overexpression of HER-2/neu and activating point mutations in the K-ras gene occur early, inactivation of the p16 gene at an intermediate stage, and the inactivation of p53, SMAD4, and BRCA2 occur relatively late. Activated K-ras engages multiple effector pathways. Although EGF receptors are conventionally regarded as upstream activators of RAS proteins, they can also act as RAS signal transducers via RAS-induced autocrine activation of the EGFR family ligands. Moreover, PDA shows extensive genomic instability and aneuploidy. Telomere attrition and mutations in p53 and BRCA2 are likely to contribute to these phenotypes. Inactivation of the SMAD4 tumour suppressor gene leads to loss of the inhibitory influence of the transforming growth factor-beta signalling pathway.
+CLASS       Human Diseases; Cancer: specific types
+PATHWAY_MAP mmu05212  Pancreatic cancer
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            73341  Arhgef6; Rac/Cdc42 guanine nucleotide exchange factor (GEF) 6 [KO:K05729]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            19354  Rac2; Rac family small GTPase 2 [KO:K07860]
+            170758  Rac3; Rac family small GTPase 3 [KO:K07861]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            12048  Bcl2l1; BCL2-like 1 [KO:K04570]
+            12371  Casp9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            19730  Ralgds; ral guanine nucleotide dissociation stimulator [KO:K08732]
+            56044  Rala; v-ral simian leukemia viral oncogene A (ras related) [KO:K07834]
+            64143  Ralb; v-ral simian leukemia viral oncogene B [KO:K07835]
+            19765  Ralbp1; ralA binding protein 1 [KO:K08773]
+            12540  Cdc42; cell division cycle 42 [KO:K04393]
+            18806  Pld2; phospholipase D2 [KO:K01115] [EC:3.1.4.4]
+            18805  Pld1; phospholipase D1 [KO:K01115] [EC:3.1.4.4]
+            21802  Tgfa; transforming growth factor alpha [KO:K08774]
+            13645  Egf; epidermal growth factor [KO:K04357]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            13866  Erbb2; erb-b2 receptor tyrosine kinase 2 [KO:K05083] [EC:2.7.10.1]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            58988  Rps6kb2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04688] [EC:2.7.11.1]
+            72508  Rps6kb1; ribosomal protein S6 kinase, polypeptide 1 [KO:K04688] [EC:2.7.11.1]
+            16451  Jak1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            20848  Stat3; signal transducer and activator of transcription 3 [KO:K04692]
+            20846  Stat1; signal transducer and activator of transcription 1 [KO:K11220]
+            22339  Vegfa; vascular endothelial growth factor A [KO:K05448]
+            12578  Cdkn2a; cyclin dependent kinase inhibitor 2A [KO:K06621]
+            12567  Cdk4; cyclin-dependent kinase 4 [KO:K02089] [EC:2.7.11.22]
+            12571  Cdk6; cyclin-dependent kinase 6 [KO:K02091] [EC:2.7.11.22]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            19645  Rb1; RB transcriptional corepressor 1 [KO:K06618]
+            13555  E2f1; E2F transcription factor 1 [KO:K17454]
+            242705  E2f2; E2F transcription factor 2 [KO:K09389]
+            13557  E2f3; E2F transcription factor 3 [KO:K06620]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            13197  Gadd45a; growth arrest and DNA-damage-inducible 45 alpha [KO:K04402]
+            17873  Gadd45b; growth arrest and DNA-damage-inducible 45 beta [KO:K04402]
+            23882  Gadd45g; growth arrest and DNA-damage-inducible 45 gamma [KO:K04402]
+            12028  Bax; BCL2-associated X protein [KO:K02159]
+            12018  Bak1; BCL2-antagonist/killer 1 [KO:K14021]
+            107986  Ddb2; damage specific DNA binding protein 2 [KO:K10140]
+            27015  Polk; polymerase (DNA directed), kappa [KO:K03511] [EC:2.7.7.7]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            21808  Tgfb2; transforming growth factor, beta 2 [KO:K13376]
+            21809  Tgfb3; transforming growth factor, beta 3 [KO:K13377]
+            21812  Tgfbr1; transforming growth factor, beta receptor I [KO:K04674] [EC:2.7.11.30]
+            21813  Tgfbr2; transforming growth factor, beta receptor II [KO:K04388] [EC:2.7.11.30]
+            17126  Smad2; SMAD family member 2 [KO:K04500]
+            17127  Smad3; SMAD family member 3 [KO:K23605]
+            17128  Smad4; SMAD family member 4 [KO:K04501]
+            12190  Brca2; breast cancer 2, early onset [KO:K08775]
+            19361  Rad51; RAD51 recombinase [KO:K04482]
+COMPOUND    C00416  Phosphatidate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   
+  AUTHORS   Von Hoff D, Evans D, Hruban R (ed).
+  TITLE     Pancreatic cancer
+  JOURNAL   Jones and Bartlett publishers (2005)
+REFERENCE   (Japanese)
+  AUTHORS   Niitsu Y, Yokota J (ed).
+  TITLE     [Oncogenes and Tumor Suppressor Genes for Medical Oncologist] (In Japanese)
+  JOURNAL   Nankodo (1999)
+REFERENCE   PMID:12459728
+  AUTHORS   Bardeesy N, DePinho RA.
+  TITLE     Pancreatic cancer biology and genetics.
+  JOURNAL   Nat Rev Cancer 2:897-909 (2002)
+            DOI:10.1038/nrc949
+REFERENCE   PMID:11407945
+  AUTHORS   Bardeesy N, Sharpless NE, DePinho RA, Merlino G.
+  TITLE     The genetics of pancreatic adenocarcinoma: a roadmap for a mouse model.
+  JOURNAL   Semin Cancer Biol 11:201-18 (2001)
+            DOI:10.1006/scbi.2000.0371
+REFERENCE   PMID:12946833
+  AUTHORS   Cowgill SM, Muscarella P.
+  TITLE     The genetics of pancreatic cancer.
+  JOURNAL   Am J Surg 186:279-86 (2003)
+            DOI:10.1016/S0002-9610(03)00226-5
+REFERENCE   PMID:16702400
+  AUTHORS   Hezel AF, Kimmelman AC, Stanger BZ, Bardeesy N, Depinho RA.
+  TITLE     Genetics and biology of pancreatic ductal adenocarcinoma.
+  JOURNAL   Genes Dev 20:1218-49 (2006)
+            DOI:10.1101/gad.1415606
+REFERENCE   PMID:10740269
+  AUTHORS   Shields JM, Pruitt K, McFall A, Shaub A, Der CJ.
+  TITLE     Understanding Ras: 'it ain't over 'til it's over'.
+  JOURNAL   Trends Cell Biol 10:147-54 (2000)
+            DOI:10.1016/S0962-8924(00)01740-2
+REFERENCE   PMID:12648469
+  AUTHORS   Holbro T, Civenni G, Hynes NE.
+  TITLE     The ErbB receptors and their role in cancer progression.
+  JOURNAL   Exp Cell Res 284:99-110 (2003)
+            DOI:10.1016/S0014-4827(02)00099-X
+REFERENCE   PMID:14967450
+  AUTHORS   Marmor MD, Skaria KB, Yarden Y.
+  TITLE     Signal transduction and oncogenesis by ErbB/HER receptors.
+  JOURNAL   Int J Radiat Oncol Biol Phys 58:903-13 (2004)
+            DOI:10.1016/j.ijrobp.2003.06.002
+REFERENCE   PMID:14586404
+  AUTHORS   DeArmond D, Brattain MG, Jessup JM, Kreisberg J, Malik S, Zhao S, Freeman JW.
+  TITLE     Autocrine-mediated ErbB-2 kinase activation of STAT3 is required for growth factor independence of pancreatic cancer cell lines.
+  JOURNAL   Oncogene 22:7781-95 (2003)
+            DOI:10.1038/sj.onc.1206966
+REFERENCE   PMID:12545153
+  AUTHORS   Wei D, Le X, Zheng L, Wang L, Frey JA, Gao AC, Peng Z, Huang S, Xiong HQ, Abbruzzese JL, Xie K.
+  TITLE     Stat3 activation regulates the expression of vascular endothelial growth factor and human pancreatic cancer angiogenesis and metastasis.
+  JOURNAL   Oncogene 22:319-29 (2003)
+            DOI:10.1038/sj.onc.1206122
+REFERENCE   PMID:14580692
+  AUTHORS   Toyonaga T, Nakano K, Nagano M, Zhao G, Yamaguchi K, Kuroki S, Eguchi T, Chijiiwa K, Tsuneyoshi M, Tanaka M.
+  TITLE     Blockade of constitutively activated Janus kinase/signal transducer and activator of transcription-3 pathway inhibits growth of human pancreatic cancer.
+  JOURNAL   Cancer Lett 201:107-16 (2003)
+            DOI:10.1016/S0304-3835(03)00482-8
+REFERENCE   PMID:12079267
+  AUTHORS   Schmid RM.
+  TITLE     Genetic basis of pancreatic cancer.
+  JOURNAL   Best Pract Res Clin Gastroenterol 16:421-33 (2002)
+            DOI:10.1053/bega.2002.0316
+REFERENCE   PMID:15774796
+  AUTHORS   Elliott RL, Blobe GC.
+  TITLE     Role of transforming growth factor Beta in human cancer.
+  JOURNAL   J Clin Oncol 23:2078-93 (2005)
+            DOI:10.1200/JCO.2005.02.047
+REFERENCE   PMID:15823750
+  AUTHORS   Rudkin TM, Foulkes WD.
+  TITLE     BRCA2: breaks, mistakes and failed separations.
+  JOURNAL   Trends Mol Med 11:145-8 (2005)
+            DOI:10.1016/j.molmed.2005.02.003
+REFERENCE   PMID:11707511
+  AUTHORS   Venkitaraman AR.
+  TITLE     Functions of BRCA1 and BRCA2 in the biological response to DNA damage.
+  JOURNAL   J Cell Sci 114:3591-8 (2001)
+REFERENCE   PMID:23340292
+  AUTHORS   Chang Z, Li Z, Wang X, Kang Y, Yuan Y, Niu J, Wang H, Chatterjee D, Fleming JB, Li M, Abbruzzese JL, Chiao PJ
+  TITLE     Deciphering the mechanisms of tumorigenesis in human pancreatic ductal epithelial cells.
+  JOURNAL   Clin Cancer Res 19:549-59 (2013)
+            DOI:10.1158/1078-0432.CCR-12-0032
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04012  ErbB signaling pathway
+            mmu04110  Cell cycle
+            mmu04115  p53 signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04210  Apoptosis
+            mmu04350  TGF-beta signaling pathway
+            mmu04370  VEGF signaling pathway
+            mmu04630  JAK-STAT signaling pathway
+KO_PATHWAY  ko05212
+///

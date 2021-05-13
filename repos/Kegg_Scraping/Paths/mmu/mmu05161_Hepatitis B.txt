@@ -1,0 +1,346 @@
+ENTRY       mmu05161                    Pathway
+NAME        Hepatitis B - Mus musculus (mouse)
+DESCRIPTION Hepatitis B virus (HBV) is an enveloped virus and contains a partially double-stranded relaxed circular DNA (RC-DNA) genome. After entry into hepatocytes, HBV RC-DNA is transported to the nucleus and converted into a covalently closed circular molecule cccDNA. The cccDNA is the template for transcription of all viral RNAs including the pregenomic RNA (pgRNA), encoding for 7 viral proteins: large, middle, and small envelope proteins (LHBs, MHBs, and SHBs) that form the surface antigen (HBsAg), the core antigen (HBcAg), the e antigen (HBeAg), the HBV polymerase, and the regulatory protein X (HBx). The pgRNA interacts with the viral polymerase protein to initiate the encapsidation into the core particles. Through endoplasmic reticulum, the core particles finish assembling with the envelope proteins and are released. HBV infection leads to a wide spectrum of liver diseases raging from chronic hepatitis, cirrhosis to hepatocellular carcinoma. The mechanism of liver injury is still not clear. However, HBV proteins target host proteins, involved in a variety of functions, thus regulating transcription, cellular signaling cascades, proliferation, differentiation, and apoptosis.
+CLASS       Human Diseases; Infectious disease: viral
+PATHWAY_MAP mmu05161  Hepatitis B
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        15530  Hspg2; perlecan (heparan sulfate proteoglycan 2) [KO:K06255]
+            20493  Slc10a1; solute carrier family 10 (sodium/bile acid cotransporter family), member 1 [KO:K14341]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            21808  Tgfb2; transforming growth factor, beta 2 [KO:K13376]
+            21809  Tgfb3; transforming growth factor, beta 3 [KO:K13377]
+            21812  Tgfbr1; transforming growth factor, beta receptor I [KO:K04674] [EC:2.7.11.30]
+            21813  Tgfbr2; transforming growth factor, beta receptor II [KO:K04388] [EC:2.7.11.30]
+            17127  Smad3; SMAD family member 3 [KO:K23605]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+            13654  Egr2; early growth response 2 [KO:K12496]
+            13655  Egr3; early growth response 3 [KO:K12497]
+            12914  Crebbp; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            328572  Ep300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            14103  Fasl; Fas ligand (TNF superfamily, member 6) [KO:K04389]
+            13194  Ddb1; damage specific DNA binding protein 1 [KO:K10610]
+            107986  Ddb2; damage specific DNA binding protein 2 [KO:K10140]
+            26401  Map3k1; mitogen-activated protein kinase kinase kinase 1 [KO:K04416] [EC:2.7.11.25]
+            22631  Ywhaz; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide [KO:K16197]
+            54401  Ywhab; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide [KO:K16197]
+            22630  Ywhaq; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein theta [KO:K16197]
+            26398  Map2k4; mitogen-activated protein kinase kinase 4 [KO:K04430] [EC:2.7.12.2]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            18035  Nfkbia; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [KO:K04734]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            17395  Mmp9; matrix metallopeptidase 9 [KO:K01403] [EC:3.4.24.35]
+            12043  Bcl2; B cell leukemia/lymphoma 2 [KO:K02161]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            14102  Fas; Fas (TNF receptor superfamily member 6) [KO:K04390]
+            14082  Fadd; Fas (TNFRSF6)-associated via death domain [KO:K02373]
+            12370  Casp8; caspase 8 [KO:K04398] [EC:3.4.22.61]
+            12122  Bid; BH3 interacting domain death agonist [KO:K04726]
+            12028  Bax; BCL2-associated X protein [KO:K02159]
+            11783  Apaf1; apoptotic peptidase activating factor 1 [KO:K02084]
+            13063  Cycs; cytochrome c, somatic [KO:K08738]
+            13067  Cyct; cytochrome c, testis [KO:K08738]
+            12371  Casp9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            12367  Casp3; caspase 3 [KO:K02187] [EC:3.4.22.56]
+            12364  Casp12; caspase 12 [KO:K04741] [EC:3.4.22.-]
+            11799  Birc5; baculoviral IAP repeat-containing 5 [KO:K08731]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+            12428  Ccna2; cyclin A2 [KO:K06627]
+            12427  Ccna1; cyclin A1 [KO:K06627]
+            12566  Cdk2; cyclin-dependent kinase 2 [KO:K02206] [EC:2.7.11.22]
+            12447  Ccne1; cyclin E1 [KO:K06626]
+            12448  Ccne2; cyclin E2 [KO:K06626]
+            19645  Rb1; RB transcriptional corepressor 1 [KO:K06618]
+            13555  E2f1; E2F transcription factor 1 [KO:K17454]
+            242705  E2f2; E2F transcription factor 2 [KO:K09389]
+            13557  E2f3; E2F transcription factor 3 [KO:K06620]
+            54411  Atp6ap1; ATPase, H+ transporting, lysosomal accessory protein 1 [KO:K03662]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            18018  Nfatc1; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 1 [KO:K04446]
+            18019  Nfatc2; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 2 [KO:K17332]
+            18021  Nfatc3; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 3 [KO:K17333]
+            73181  Nfatc4; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 4 [KO:K17334]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            16451  Jak1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            16452  Jak2; Janus kinase 2 [KO:K04447] [EC:2.7.10.2]
+            16453  Jak3; Janus kinase 3 [KO:K11218] [EC:2.7.10.2]
+            54721  Tyk2; tyrosine kinase 2 [KO:K11219] [EC:2.7.10.2]
+            20848  Stat3; signal transducer and activator of transcription 3 [KO:K04692]
+            20846  Stat1; signal transducer and activator of transcription 1 [KO:K11220]
+            20847  Stat2; signal transducer and activator of transcription 2 [KO:K11221]
+            20849  Stat4; signal transducer and activator of transcription 4 [KO:K11222]
+            20850  Stat5a; signal transducer and activator of transcription 5A [KO:K11223]
+            20851  Stat5b; signal transducer and activator of transcription 5B [KO:K11224]
+            20852  Stat6; signal transducer and activator of transcription 6 [KO:K11225]
+            22335  Vdac3; voltage-dependent anion channel 3 [KO:K15041]
+            19229  Ptk2b; PTK2 protein tyrosine kinase 2 beta [KO:K05871] [EC:2.7.10.2]
+            20779  Src; Rous sarcoma oncogene [KO:K05704] [EC:2.7.10.2]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            17128  Smad4; SMAD family member 4 [KO:K04501]
+            11909  Atf2; activating transcription factor 2 [KO:K04450]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            11911  Atf4; activating transcription factor 4 [KO:K04374]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            12915  Atf6b; activating transcription factor 6 beta [KO:K09049]
+            18538  Pcna; proliferating cell nuclear antigen [KO:K04802]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+            13712  Elk1; ELK1, member of ETS oncogene family [KO:K04375]
+            24088  Tlr2; toll-like receptor 2 [KO:K10159]
+            17874  Myd88; myeloid differentiation primary response gene 88 [KO:K04729]
+            117149  Tirap; toll-interleukin 1 receptor (TIR) domain-containing adaptor protein [KO:K05403]
+            21898  Tlr4; toll-like receptor 4 [KO:K10160]
+            266632  Irak4; interleukin-1 receptor-associated kinase 4 [KO:K04733] [EC:2.7.11.1]
+            16179  Irak1; interleukin-1 receptor-associated kinase 1 [KO:K04730] [EC:2.7.11.1]
+            22034  Traf6; TNF receptor-associated factor 6 [KO:K03175] [EC:2.3.2.27]
+            66513  Tab1; TGF-beta activated kinase 1/MAP3K7 binding protein 1 [KO:K04403]
+            68652  Tab2; TGF-beta activated kinase 1/MAP3K7 binding protein 2 [KO:K04404]
+            26409  Map3k7; mitogen-activated protein kinase kinase kinase 7 [KO:K04427] [EC:2.7.11.25]
+            16193  Il6; interleukin 6 [KO:K05405]
+            26397  Map2k3; mitogen-activated protein kinase kinase 3 [KO:K04432] [EC:2.7.12.2]
+            26399  Map2k6; mitogen-activated protein kinase kinase 6 [KO:K04433] [EC:2.7.12.2]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            26400  Map2k7; mitogen-activated protein kinase kinase 7 [KO:K04431] [EC:2.7.12.2]
+            225471  Ticam2; toll-like receptor adaptor molecule 2 [KO:K05409]
+            142980  Tlr3; toll-like receptor 3 [KO:K05401]
+            106759  Ticam1; toll-like receptor adaptor molecule 1 [KO:K05842]
+            230073  Ddx58; DEAD/H box helicase 58 [KO:K12646] [EC:3.6.4.13]
+            71586  Ifih1; interferon induced with helicase C domain 1 [KO:K12647] [EC:3.6.4.13]
+            228607  Mavs; mitochondrial antiviral signaling protein [KO:K12648]
+            22031  Traf3; TNF receptor-associated factor 3 [KO:K03174]
+            56489  Ikbke; inhibitor of kappaB kinase epsilon [KO:K07211] [EC:2.7.11.10]
+            56480  Tbk1; TANK-binding kinase 1 [KO:K05410] [EC:2.7.11.10]
+            13205  Ddx3x; DEAD box helicase 3, X-linked [KO:K11594] [EC:3.6.4.13]
+            110957  D1Pas1; DNA segment, Chr 1, Pasteur Institute 1 [KO:K11594] [EC:3.6.4.13]
+            54131  Irf3; interferon regulatory factor 3 [KO:K05411]
+            54123  Irf7; interferon regulatory factor 7 [KO:K09447]
+            15962  Ifna1; interferon alpha 1 [KO:K05414]
+            15965  Ifna2; interferon alpha 2 [KO:K05414]
+            15967  Ifna4; interferon alpha 4 [KO:K05414]
+            15968  Ifna5; interferon alpha 5 [KO:K05414]
+            15969  Ifna6; interferon alpha 6 [KO:K05414]
+            15970  Ifna7; interferon alpha 7 [KO:K05414]
+            15972  Ifna9; interferon alpha 9 [KO:K05414]
+            15964  Ifna11; interferon alpha 11 [KO:K05414]
+            242519  Ifna12; interferon alpha 12 [KO:K05414]
+            230396  Ifna13; interferon alpha 13 [KO:K05414]
+            404549  Ifna14; interferon alpha 14 [KO:K05414]
+            15974  Ifnab; interferon alpha B [KO:K05414]
+            242517  Ifna15; interferon alpha 15 [KO:K05414]
+            15977  Ifnb1; interferon beta 1, fibroblast [KO:K05415]
+            15975  Ifnar1; interferon (alpha and beta) receptor 1 [KO:K05130]
+COMPOUND    C00076  Calcium cation
+REFERENCE   PMID:30059722
+  AUTHORS   Caballero A, Tabernero D, Buti M, Rodriguez-Frias F
+  TITLE     Hepatitis B virus: The challenge of an ancient virus with multiple faces and a remarkable replication strategy.
+  JOURNAL   Antiviral Res 158:34-44 (2018)
+            DOI:10.1016/j.antiviral.2018.07.019
+REFERENCE   PMID:22869468
+  AUTHORS   Walsh R, Locarnini S
+  TITLE     Hepatitis B precore protein: pathogenic potential and therapeutic promise.
+  JOURNAL   Yonsei Med J 53:875-85 (2012)
+            DOI:10.3349/ymj.2012.53.5.875
+REFERENCE   PMID:26239691
+  AUTHORS   Liang TJ, Block TM, McMahon BJ, Ghany MG, Urban S, Guo JT, Locarnini S, Zoulim F, Chang KM, Lok AS
+  TITLE     Present and future therapies of hepatitis B: From discovery to cure.
+  JOURNAL   Hepatology 62:1893-908 (2015)
+            DOI:10.1002/hep.28025
+REFERENCE   PMID:26776362
+  AUTHORS   Morikawa K, Suda G, Sakamoto N
+  TITLE     Viral life cycle of hepatitis B virus: Host factors and druggable targets.
+  JOURNAL   Hepatol Res 46:871-7 (2016)
+            DOI:10.1111/hepr.12650
+REFERENCE   PMID:19201080
+  AUTHORS   Feitelson MA, Reis HM, Tufan NL, Sun B, Pan J, Lian Z
+  TITLE     Putative roles of hepatitis B x antigen in the pathogenesis of chronic liver disease.
+  JOURNAL   Cancer Lett 286:69-79 (2009)
+            DOI:10.1016/j.canlet.2008.12.010
+REFERENCE   PMID:19263472
+  AUTHORS   Murata M, Matsuzaki K, Yoshida K, Sekimoto G, Tahashi Y, Mori S, Uemura Y, Sakaida N, Fujisawa J, Seki T, Kobayashi K, Yokote K, Koike K, Okazaki K
+  TITLE     Hepatitis B virus X protein shifts human hepatic transforming growth factor (TGF)-beta signaling from tumor suppression to oncogenesis in early chronic hepatitis B.
+  JOURNAL   Hepatology 49:1203-17 (2009)
+            DOI:10.1002/hep.22765
+REFERENCE   PMID:15173177
+  AUTHORS   Yoo YG, Lee MO
+  TITLE     Hepatitis B virus X protein induces expression of Fas ligand gene through enhancing transcriptional activity of early growth response factor.
+  JOURNAL   J Biol Chem 279:36242-9 (2004)
+            DOI:10.1074/jbc.M401290200
+REFERENCE   PMID:16459163
+  AUTHORS   Zhang X, Zhang H, Ye L
+  TITLE     Effects of hepatitis B virus X protein on the development of liver cancer.
+  JOURNAL   J Lab Clin Med 147:58-66 (2006)
+            DOI:10.1016/j.lab.2005.10.003
+REFERENCE   PMID:19854353
+  AUTHORS   Benhenda S, Cougot D, Buendia MA, Neuveut C
+  TITLE     Hepatitis B virus X protein molecular functions and its role in virus life cycle and pathogenesis.
+  JOURNAL   Adv Cancer Res 103:75-109 (2009)
+            DOI:10.1016/S0065-230X(09)03004-8
+REFERENCE   PMID:21994562
+  AUTHORS   Benhenda S, Cougot D, Neuveut C, Buendia MA
+  TITLE     Liver cell transformation in chronic HBV infection.
+  JOURNAL   Viruses 1:630-46 (2009)
+            DOI:10.3390/v1030630
+REFERENCE   PMID:11099494
+  AUTHORS   Diao J, Khine AA, Sarangi F, Hsu E, Iorio C, Tibbles LA, Woodgett JR, Penninger J, Richardson CD
+  TITLE     X protein of hepatitis B virus inhibits Fas-mediated apoptosis and is associated with up-regulation of the SAPK/JNK pathway.
+  JOURNAL   J Biol Chem 276:8328-40 (2001)
+            DOI:10.1074/jbc.M006026200
+REFERENCE   PMID:16891440
+  AUTHORS   Park NH, Song IH, Chung YH
+  TITLE     Chronic hepatitis B in hepatocarcinogenesis.
+  JOURNAL   Postgrad Med J 82:507-15 (2006)
+            DOI:10.1136/pgmj.2006.047431
+REFERENCE   PMID:28820498
+  AUTHORS   Lin S, Zhang YJ
+  TITLE     Interference of Apoptosis by Hepatitis B Virus.
+  JOURNAL   Viruses 9:E230 (2017)
+            DOI:10.3390/v9080230
+REFERENCE   PMID:16173017
+  AUTHORS   Zhang X, Dong N, Yin L, Cai N, Ma H, You J, Zhang H, Wang H, He R, Ye L
+  TITLE     Hepatitis B virus X protein upregulates survivin expression in hepatoma tissues.
+  JOURNAL   J Med Virol 77:374-81 (2005)
+            DOI:10.1002/jmv.20466
+REFERENCE   PMID:18481805
+  AUTHORS   Kim HJ, Kim SY, Kim J, Lee H, Choi M, Kim JK, Ahn JK
+  TITLE     Hepatitis B virus X protein induces apoptosis by enhancing translocation of Bax to mitochondria.
+  JOURNAL   IUBMB Life 60:473-80 (2008)
+            DOI:10.1002/iub.68
+REFERENCE   PMID:21647825
+  AUTHORS   Ng SA, Lee C
+  TITLE     Hepatitis B virus X gene and hepatocarcinogenesis.
+  JOURNAL   J Gastroenterol 46:974-90 (2011)
+            DOI:10.1007/s00535-011-0415-9
+REFERENCE   PMID:9195957
+  AUTHORS   Cong YS, Yao YL, Yang WM, Kuzhandaivelu N, Seto E
+  TITLE     The hepatitis B virus X-associated protein, XAP3, is a protein kinase C-binding protein.
+  JOURNAL   J Biol Chem 272:16482-9 (1997)
+            DOI:10.1074/jbc.272.26.16482
+REFERENCE   PMID:12686421
+  AUTHORS   Panteva M, Korkaya H, Jameel S
+  TITLE     Hepatitis viruses and the MAPK pathway: is this a survival strategy?
+  JOURNAL   Virus Res 92:131-40 (2003)
+            DOI:10.1016/S0168-1702(02)00356-8
+REFERENCE   PMID:9738022
+  AUTHORS   Lee YH, Yun Y
+  TITLE     HBx protein of hepatitis B virus activates Jak1-STAT signaling.
+  JOURNAL   J Biol Chem 273:25510-5 (1998)
+            DOI:10.1074/jbc.273.39.25510
+REFERENCE   PMID:18251977
+  AUTHORS   Tan A, Yeh SH, Liu CJ, Cheung C, Chen PJ
+  TITLE     Viral hepatocarcinogenesis: from infection to cancer.
+  JOURNAL   Liver Int 28:175-88 (2008)
+            DOI:10.1111/j.1478-3231.2007.01652.x
+REFERENCE   PMID:17059849
+  AUTHORS   Chami M, Oules B, Paterlini-Brechot P
+  TITLE     Cytobiological consequences of calcium-signaling alterations induced by human viral proteins.
+  JOURNAL   Biochim Biophys Acta 1763:1344-62 (2006)
+            DOI:10.1016/j.bbamcr.2006.09.025
+REFERENCE   PMID:11743185
+  AUTHORS   Ganem D
+  TITLE     Virology. The X files--one step closer to closure.
+  JOURNAL   Science 294:2299-300 (2001)
+            DOI:10.1126/science.1067850
+REFERENCE   PMID:15132991
+  AUTHORS   Chung TW, Lee YC, Kim CH
+  TITLE     Hepatitis B viral HBx induces matrix metalloproteinase-9 gene expression through activation of ERK and PI-3K/AKT pathways: involvement of invasive potential.
+  JOURNAL   FASEB J 18:1123-5 (2004)
+            DOI:10.1096/fj.03-1429fje
+REFERENCE   PMID:18605975
+  AUTHORS   Gurtsevitch VE
+  TITLE     Human oncogenic viruses: hepatitis B and hepatitis C viruses and their role in hepatocarcinogenesis.
+  JOURNAL   Biochemistry (Mosc) 73:504-13 (2008)
+            DOI:10.1134/S0006297908050039
+REFERENCE   PMID:21994545
+  AUTHORS   Schadler S, Hildt E
+  TITLE     HBV life cycle: entry and morphogenesis.
+  JOURNAL   Viruses 1:185-209 (2009)
+            DOI:10.3390/v1020185
+REFERENCE   PMID:28862649
+  AUTHORS   Ortega-Prieto AM, Dorner M
+  TITLE     Immune Evasion Strategies during Chronic Hepatitis B and C Virus Infection.
+  JOURNAL   Vaccines (Basel) 5:E24 (2017)
+            DOI:10.3390/vaccines5030024
+REFERENCE   PMID:28704708
+  AUTHORS   Nosratabadi R, Alavian SM, Zare-Bidaki M, Shahrokhi VM, Arababadi MK
+  TITLE     Innate immunity related pathogen recognition receptors and chronic hepatitis B infection.
+  JOURNAL   Mol Immunol 90:64-73 (2017)
+            DOI:10.1016/j.molimm.2017.07.002
+REFERENCE   PMID:24530748
+  AUTHORS   Bagheri V, Askari A, Arababadi MK, Kennedy D
+  TITLE     Can Toll-Like Receptor (TLR) 2 be considered as a new target for immunotherapy against hepatitis B infection?
+  JOURNAL   Hum Immunol 75:549-54 (2014)
+            DOI:10.1016/j.humimm.2014.02.018
+REFERENCE   PMID:25550115
+  AUTHORS   Zhang E, Lu M
+  TITLE     Toll-like receptor (TLR)-mediated innate immune responses in the control of hepatitis B virus (HBV) infection.
+  JOURNAL   Med Microbiol Immunol 204:11-20 (2015)
+            DOI:10.1007/s00430-014-0370-1
+REFERENCE   PMID:20375222
+  AUTHORS   Yu S, Chen J, Wu M, Chen H, Kato N, Yuan Z
+  TITLE     Hepatitis B virus polymerase inhibits RIG-I- and Toll-like receptor 3-mediated beta interferon induction in human hepatocytes through interference with interferon regulatory factor 3 activation and dampening of the interaction between TBK1/IKKepsilon and DDX3.
+  JOURNAL   J Gen Virol 91:2080-90 (2010)
+            DOI:10.1099/vir.0.020552-0
+REFERENCE   PMID:23363957
+  AUTHORS   Revill P, Yuan Z
+  TITLE     New insights into how HBV manipulates the innate immune response to establish acute and persistent infection.
+  JOURNAL   Antivir Ther 18:1-15 (2013)
+            DOI:10.3851/IMP2542
+REFERENCE   PMID:28893934
+  AUTHORS   Hopcraft SE, Damania B
+  TITLE     Tumour viruses and innate immunity.
+  JOURNAL   Philos Trans R Soc Lond B Biol Sci 372:20160267 (2017)
+            DOI:10.1098/rstb.2016.0267
+REFERENCE   PMID:22504921
+  AUTHORS   Dandri M, Locarnini S
+  TITLE     New insight in the pathobiology of hepatitis B virus infection.
+  JOURNAL   Gut 61 Suppl 1:i6-17 (2012)
+            DOI:10.1136/gutjnl-2012-302056
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04064  NF-kappa B signaling pathway
+            mmu04110  Cell cycle
+            mmu04115  p53 signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04210  Apoptosis
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04622  RIG-I-like receptor signaling pathway
+            mmu04630  JAK-STAT signaling pathway
+            mmu05160  Hepatitis C
+KO_PATHWAY  ko05161
+///

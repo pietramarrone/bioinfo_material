@@ -1,0 +1,245 @@
+ENTRY       mmu04630                    Pathway
+NAME        JAK-STAT signaling pathway - Mus musculus (mouse)
+DESCRIPTION The Janus kinase/signal transducers and activators of transcription (JAK/STAT) pathway is one of a handful of pleiotropic cascades used to transduce a multitude of signals for development and homeostasis in animals, from humans to flies. In mammals, the JAK/STAT pathway is the principal signaling mechanism for a wide array of cytokines and growth factors. Following the binding of cytokines to their cognate receptor, STATs are activated by members of the JAK family of tyrosine kinases. Once activated, they dimerize and translocate to the nucleus and modulate the expression of target genes. In addition to the activation of STATs, JAKs mediate the recruitment of other molecules such as the MAP kinases, PI3 kinase etc. These molecules process downstream signals via the Ras-Raf-MAP kinase and PI3 kinase pathways which results in the activation of additional transcription factors.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04630  JAK-STAT signaling pathway
+DBLINKS     GO: 0007259
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        16183  Il2; interleukin 2 [KO:K05429]
+            16187  Il3; interleukin 3 [KO:K04736]
+            16189  Il4; interleukin 4 [KO:K05430]
+            16191  Il5; interleukin 5 [KO:K05428]
+            16193  Il6; interleukin 6 [KO:K05405]
+            16196  Il7; interleukin 7 [KO:K05431]
+            16198  Il9; interleukin 9 [KO:K05432]
+            16153  Il10; interleukin 10 [KO:K05443]
+            16156  Il11; interleukin 11 [KO:K05417]
+            16159  Il12a; interleukin 12a [KO:K05406]
+            16160  Il12b; interleukin 12b [KO:K05425]
+            16163  Il13; interleukin 13 [KO:K05435]
+            16168  Il15; interleukin 15 [KO:K05433]
+            239114  Il17d; interleukin 17D [KO:K05492]
+            329244  Il19; interleukin 19 [KO:K05444]
+            58181  Il20; interleukin 20 [KO:K22667]
+            60505  Il21; interleukin 21 [KO:K05434]
+            50929  Il22; interleukin 22 [KO:K05445]
+            83430  Il23a; interleukin 23, alpha subunit p19 [KO:K05426]
+            93672  Il24; interleukin 24 [KO:K22668]
+            15962  Ifna1; interferon alpha 1 [KO:K05414]
+            15965  Ifna2; interferon alpha 2 [KO:K05414]
+            15967  Ifna4; interferon alpha 4 [KO:K05414]
+            15968  Ifna5; interferon alpha 5 [KO:K05414]
+            15969  Ifna6; interferon alpha 6 [KO:K05414]
+            15970  Ifna7; interferon alpha 7 [KO:K05414]
+            15972  Ifna9; interferon alpha 9 [KO:K05414]
+            15964  Ifna11; interferon alpha 11 [KO:K05414]
+            242519  Ifna12; interferon alpha 12 [KO:K05414]
+            230396  Ifna13; interferon alpha 13 [KO:K05414]
+            404549  Ifna14; interferon alpha 14 [KO:K05414]
+            15974  Ifnab; interferon alpha B [KO:K05414]
+            242517  Ifna15; interferon alpha 15 [KO:K05414]
+            15977  Ifnb1; interferon beta 1, fibroblast [KO:K05415]
+            15978  Ifng; interferon gamma [KO:K04687]
+            230405  Ifne; interferon epsilon [KO:K05442]
+            387510  Ifnk; interferon kappa [KO:K05441]
+            330496  Ifnl2; interferon lambda 2 [KO:K22669]
+            338374  Ifnl3; interferon lambda 3 [KO:K22669]
+            18413  Osm; oncostatin M [KO:K05418]
+            16878  Lif; leukemia inhibitory factor [KO:K05419]
+            53603  Tslp; thymic stromal lymphopoietin [KO:K05436]
+            13019  Ctf1; cardiotrophin 1 [KO:K05422]
+            12981  Csf2; colony stimulating factor 2 (granulocyte-macrophage) [KO:K05427]
+            12803  Cntf; ciliary neurotrophic factor [KO:K05420]
+            12985  Csf3; colony stimulating factor 3 (granulocyte) [KO:K05423]
+            13856  Epo; erythropoietin [KO:K05437]
+            14599  Gh; growth hormone [KO:K05438]
+            16846  Lep; leptin [KO:K05424]
+            21832  Thpo; thrombopoietin [KO:K06854]
+            19109  Prl; prolactin [KO:K05439]
+            13645  Egf; epidermal growth factor [KO:K04357]
+            18590  Pdgfa; platelet derived growth factor, alpha [KO:K04359]
+            18591  Pdgfb; platelet derived growth factor, B polypeptide [KO:K17386]
+            16184  Il2ra; interleukin 2 receptor, alpha chain [KO:K05068]
+            16185  Il2rb; interleukin 2 receptor, beta chain [KO:K05069]
+            16186  Il2rg; interleukin 2 receptor, gamma chain [KO:K05070]
+            16188  Il3ra; interleukin 3 receptor, alpha chain [KO:K04737]
+            16190  Il4ra; interleukin 4 receptor, alpha [KO:K05071]
+            16192  Il5ra; interleukin 5 receptor, alpha [KO:K05067]
+            16194  Il6ra; interleukin 6 receptor, alpha [KO:K05055]
+            16197  Il7r; interleukin 7 receptor [KO:K05072]
+            16199  Il9r; interleukin 9 receptor [KO:K05073]
+            16154  Il10ra; interleukin 10 receptor, alpha [KO:K05134]
+            16155  Il10rb; interleukin 10 receptor, beta [KO:K05135]
+            16157  Il11ra1; interleukin 11 receptor, alpha chain 1 [KO:K05056]
+            16158  Il11ra2; interleukin 11 receptor, alpha chain 2 [KO:K05056]
+            100861969  interleukin-11 receptor subunit alpha-2-like [KO:K05056]
+            100042555  Gm13305; predicted gene 13305 [KO:K05056]
+            100038993  Gm2002; predicted gene 2002 [KO:K05056]
+            16161  Il12rb1; interleukin 12 receptor, beta 1 [KO:K05063]
+            16162  Il12rb2; interleukin 12 receptor, beta 2 [KO:K05064]
+            16164  Il13ra1; interleukin 13 receptor, alpha 1 [KO:K05076]
+            16165  Il13ra2; interleukin 13 receptor, alpha 2 [KO:K05077]
+            16169  Il15ra; interleukin 15 receptor, alpha chain [KO:K05074]
+            237313  Il20ra; interleukin 20 receptor, alpha [KO:K05136]
+            213208  Il20rb; interleukin 20 receptor beta [KO:K05137]
+            60504  Il21r; interleukin 21 receptor [KO:K05075]
+            230828  Il22ra1; interleukin 22 receptor, alpha 1 [KO:K05138]
+            237310  Il22ra2; interleukin 22 receptor, alpha 2 [KO:K05139]
+            209590  Il23r; interleukin 23 receptor [KO:K05065]
+            50931  Il27ra; interleukin 27 receptor, alpha [KO:K19598]
+            16195  Il6st; interleukin 6 signal transducer [KO:K05060]
+            15975  Ifnar1; interferon (alpha and beta) receptor 1 [KO:K05130]
+            15976  Ifnar2; interferon (alpha and beta) receptor 2 [KO:K05131]
+            15979  Ifngr1; interferon gamma receptor 1 [KO:K05132]
+            15980  Ifngr2; interferon gamma receptor 2 [KO:K05133]
+            242700  Ifnlr1; interferon lambda receptor 1 [KO:K05140]
+            18414  Osmr; oncostatin M receptor [KO:K05057]
+            16880  Lifr; LIF receptor alpha [KO:K05058]
+            57914  Crlf2; cytokine receptor-like factor 2 [KO:K05078]
+            12804  Cntfr; ciliary neurotrophic factor receptor [KO:K05059]
+            12982  Csf2ra; colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) [KO:K05066]
+            12984  Csf2rb2; colony stimulating factor 2 receptor, beta 2, low-affinity (granulocyte-macrophage) [KO:K04738]
+            12983  Csf2rb; colony stimulating factor 2 receptor, beta, low-affinity (granulocyte-macrophage) [KO:K04738]
+            12986  Csf3r; colony stimulating factor 3 receptor (granulocyte) [KO:K05061]
+            13857  Epor; erythropoietin receptor [KO:K05079]
+            14600  Ghr; growth hormone receptor [KO:K05080]
+            16847  Lepr; leptin receptor [KO:K05062]
+            17480  Mpl; myeloproliferative leukemia virus oncogene [KO:K05082]
+            19116  Prlr; prolactin receptor [KO:K05081]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            18595  Pdgfra; platelet derived growth factor receptor, alpha polypeptide [KO:K04363] [EC:2.7.10.1]
+            18596  Pdgfrb; platelet derived growth factor receptor, beta polypeptide [KO:K05089] [EC:2.7.10.1]
+            16451  Jak1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            16452  Jak2; Janus kinase 2 [KO:K04447] [EC:2.7.10.2]
+            16453  Jak3; Janus kinase 3 [KO:K11218] [EC:2.7.10.2]
+            54721  Tyk2; tyrosine kinase 2 [KO:K11219] [EC:2.7.10.2]
+            20846  Stat1; signal transducer and activator of transcription 1 [KO:K11220]
+            20847  Stat2; signal transducer and activator of transcription 2 [KO:K11221]
+            20848  Stat3; signal transducer and activator of transcription 3 [KO:K04692]
+            20849  Stat4; signal transducer and activator of transcription 4 [KO:K11222]
+            20850  Stat5a; signal transducer and activator of transcription 5A [KO:K11223]
+            20851  Stat5b; signal transducer and activator of transcription 5B [KO:K11224]
+            20852  Stat6; signal transducer and activator of transcription 6 [KO:K11225]
+            12700  Cish; cytokine inducible SH2-containing protein [KO:K04701]
+            12703  Socs1; suppressor of cytokine signaling 1 [KO:K04694]
+            216233  Socs2; suppressor of cytokine signaling 2 [KO:K04695]
+            12702  Socs3; suppressor of cytokine signaling 3 [KO:K04696]
+            67296  Socs4; suppressor of cytokine signaling 4 [KO:K04697]
+            56468  Socs5; suppressor of cytokine signaling 5 [KO:K04698]
+            192157  Socs7; suppressor of cytokine signaling 7 [KO:K04699]
+            54607  Socs6; suppressor of cytokine signaling 6 [KO:K04699]
+            12043  Bcl2; B cell leukemia/lymphoma 2 [KO:K02161]
+            17210  Mcl1; myeloid cell leukemia sequence 1 [KO:K02539]
+            12048  Bcl2l1; BCL2-like 1 [KO:K04570]
+            18712  Pim1; proviral integration site 1 [KO:K04702] [EC:2.7.11.1]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            12444  Ccnd2; cyclin D2 [KO:K10151]
+            12445  Ccnd3; cyclin D3 [KO:K10152]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            213043  Aox2; aldehyde oxidase 2 [KO:K00157] [EC:1.2.3.1]
+            11761  Aox1; aldehyde oxidase 1 [KO:K00157] [EC:1.2.3.1]
+            71872  Aox4; aldehyde oxidase 4 [KO:K00157] [EC:1.2.3.1]
+            71724  Aox3; aldehyde oxidase 3 [KO:K00157] [EC:1.2.3.1]
+            14580  Gfap; glial fibrillary acidic protein [KO:K05640]
+            20844  Stam; signal transducing adaptor molecule (SH3 domain and ITAM motif) 1 [KO:K04705]
+            56324  Stam2; signal transducing adaptor molecule (SH3 domain and ITAM motif) 2 [KO:K04705]
+            19255  Ptpn2; protein tyrosine phosphatase, non-receptor type 2 [KO:K18026] [EC:3.1.3.48]
+            15170  Ptpn6; protein tyrosine phosphatase, non-receptor type 6 [KO:K05697] [EC:3.1.3.48]
+            16391  Irf9; interferon regulatory factor 9 [KO:K04693]
+            12914  Crebbp; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            328572  Ep300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            56469  Pias1; protein inhibitor of activated STAT 1 [KO:K04706] [EC:2.3.2.-]
+            17344  Pias2; protein inhibitor of activated STAT 2 [KO:K16063] [EC:2.3.2.-]
+            229615  Pias3; protein inhibitor of activated STAT 3 [KO:K16064] [EC:2.3.2.-]
+            59004  Pias4; protein inhibitor of activated STAT 4 [KO:K16065] [EC:2.3.2.27]
+            14199  Fhl1; four and a half LIM domains 1 [KO:K14365]
+            19247  Ptpn11; protein tyrosine phosphatase, non-receptor type 11 [KO:K07293] [EC:3.1.3.48]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+REFERENCE   PMID:22383755
+  AUTHORS   Harrison DA
+  TITLE     The Jak/STAT pathway.
+  JOURNAL   Cold Spring Harb Perspect Biol 4:a011205 (2012)
+            DOI:10.1101/cshperspect.a011205
+REFERENCE   PMID:22339650
+  AUTHORS   Kiu H, Nicholson SE
+  TITLE     Biology and significance of the JAK/STAT signalling pathways.
+  JOURNAL   Growth Factors 30:88-106 (2012)
+            DOI:10.3109/08977194.2012.660936
+REFERENCE   PMID:21372217
+  AUTHORS   Hervas-Stubbs S, Perez-Gracia JL, Rouzaut A, Sanmamed MF, Le Bon A, Melero I
+  TITLE     Direct effects of type I interferons on cells of the immune system.
+  JOURNAL   Clin Cancer Res 17:2619-27 (2011)
+            DOI:10.1158/1078-0432.CCR-10-1114
+REFERENCE   PMID:25217450
+  AUTHORS   Fish EN, Platanias LC
+  TITLE     Interferon receptor signaling in malignancy: a network of cellular pathways defining biological outcomes.
+  JOURNAL   Mol Cancer Res 12:1691-703 (2014)
+            DOI:10.1158/1541-7786.MCR-14-0450
+REFERENCE   PMID:21034406
+  AUTHORS   Ivanenkov YA, Balakin KV, Lavrovsky Y
+  TITLE     Small molecule inhibitors of NF-kB and JAK/STAT signal transduction pathways as promising anti-inflammatory therapeutics.
+  JOURNAL   Mini Rev Med Chem 11:55-78 (2011)
+            DOI:10.2174/138955711793564079
+REFERENCE   PMID:25587654
+  AUTHORS   O'Shea JJ, Schwartz DM, Villarino AV, Gadina M, McInnes IB, Laurence A
+  TITLE     The JAK-STAT pathway: impact on human disease and therapeutic intervention.
+  JOURNAL   Annu Rev Med 66:311-28 (2015)
+            DOI:10.1146/annurev-med-051113-024537
+REFERENCE   PMID:24069565
+  AUTHORS   Zoranovic T, Grmai L, Bach EA
+  TITLE     Regulation of proliferation, cell competition, and cellular growth by the Drosophila JAK-STAT pathway.
+  JOURNAL   JAKSTAT 2:e25408 (2013)
+            DOI:10.4161/jkst.25408
+REFERENCE   PMID:16204702
+  AUTHORS   Ungureanu D, Silvennoinen O
+  TITLE     SLIM trims STATs: ubiquitin E3 ligases provide insights for specificity in the regulation of cytokine signaling.
+  JOURNAL   Sci STKE 2005:pe49 (2005)
+            DOI:10.1126/stke.3042005pe49
+REFERENCE   PMID:23735217
+  AUTHORS   Richard AJ, Stephens JM
+  TITLE     The role of JAK-STAT signaling in adipose tissue function.
+  JOURNAL   Biochim Biophys Acta 1842:431-9 (2014)
+            DOI:10.1016/j.bbadis.2013.05.030
+REFERENCE   PMID:24606160
+  AUTHORS   Sun Y, Lehmbecker A, Kalkuhl A, Deschl U, Sun W, Rohn K, Tzvetanova ID, Nave KA, Baumgartner W, Ulrich R
+  TITLE     STAT3 represents a molecular switch possibly inducing astroglial instead of oligodendroglial differentiation of oligodendroglial progenitor cells in Theiler's murine encephalomyelitis.
+  JOURNAL   Neuropathol Appl Neurobiol 41:347-70 (2015)
+            DOI:10.1111/nan.12133
+REFERENCE   PMID:10851053
+  AUTHORS   Hirano T, Ishihara K, Hibi M
+  TITLE     Roles of STAT3 in mediating the cell growth, differentiation and survival signals relayed through the IL-6 family of cytokine receptors.
+  JOURNAL   Oncogene 19:2548-56 (2000)
+            DOI:10.1038/sj.onc.1203551
+REFERENCE   PMID:11114747
+  AUTHORS   Rane SG, Reddy EP
+  TITLE     Janus kinases: components of multiple signaling pathways.
+  JOURNAL   Oncogene 19:5662-79 (2000)
+            DOI:10.1038/sj.onc.1203925
+REFERENCE   PMID:8682149
+  AUTHORS   Heim MH
+  TITLE     The Jak-STAT pathway: specific signal transduction from the cell membrane to the nucleus.
+  JOURNAL   Eur J Clin Invest 26:1-12 (1996)
+            DOI:10.1046/j.1365-2362.1996.103248.x
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04060  Cytokine-cytokine receptor interaction
+            mmu04110  Cell cycle
+            mmu04120  Ubiquitin mediated proteolysis
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04210  Apoptosis
+KO_PATHWAY  ko04630
+///

@@ -1,0 +1,214 @@
+ENTRY       mmu05215                    Pathway
+NAME        Prostate cancer - Mus musculus (mouse)
+DESCRIPTION Prostate cancer constitutes a major health problem in Western countries. It is the most frequently diagnosed cancer among men and the second leading cause of male cancer deaths. The identification of key molecular alterations in prostate-cancer cells implicates carcinogen defenses (GSTP1), growth-factor-signaling pathways (NKX3.1, PTEN, and p27), and androgens (AR) as critical determinants of the phenotype of prostate-cancer cells. Glutathione S-transferases (GSTP1) are detoxifying enzymes. Cells of prostatic intraepithelial neoplasia, devoid of GSTP1, undergo genomic damage mediated by carcinogens. NKX3.1, PTEN, and p27 regulate the growth and survival of prostate cells in the normal prostate. Inadequate levels of PTEN and NKX3.1 lead to a reduction in p27 levels and to increased proliferation and decreased apoptosis. Androgen receptor (AR) is a transcription factor that is normally activated by its androgen ligand. During androgen withdrawal therapy, the AR signal transduction pathway also could be activated by amplification of the AR gene, by AR gene mutations, or by altered activity of AR coactivators. Through these mechanisms, tumor cells lead to the emergence of androgen-independent prostate cancer.
+CLASS       Human Diseases; Cancer: specific types
+PATHWAY_MAP mmu05215  Prostate cancer
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14870  Gstp1; glutathione S-transferase, pi 1 [KO:K23790] [EC:2.5.1.18]
+            14869  Gstp2; glutathione S-transferase, pi 2 [KO:K23790] [EC:2.5.1.18]
+            225884  Gstp3; glutathione S-transferase pi 3 [KO:K23790] [EC:2.5.1.18]
+            12576  Cdkn1b; cyclin-dependent kinase inhibitor 1B [KO:K06624]
+            12566  Cdk2; cyclin-dependent kinase 2 [KO:K02206] [EC:2.7.11.22]
+            12447  Ccne1; cyclin E1 [KO:K06626]
+            12448  Ccne2; cyclin E2 [KO:K06626]
+            19645  Rb1; RB transcriptional corepressor 1 [KO:K06618]
+            13555  E2f1; E2F transcription factor 1 [KO:K17454]
+            242705  E2f2; E2F transcription factor 2 [KO:K09389]
+            13557  E2f3; E2F transcription factor 3 [KO:K06620]
+            50528  Tmprss2; transmembrane protease, serine 2 [KO:K09633] [EC:3.4.21.-]
+            13876  Erg; ETS transcription factor [KO:K09435]
+            18792  Plau; plasminogen activator, urokinase [KO:K01348] [EC:3.4.21.73]
+            18791  Plat; plasminogen activator, tissue [KO:K01343] [EC:3.4.21.68]
+            17392  Mmp3; matrix metallopeptidase 3 [KO:K01394] [EC:3.4.24.17]
+            17395  Mmp9; matrix metallopeptidase 9 [KO:K01403] [EC:3.4.24.35]
+            21417  Zeb1; zinc finger E-box binding homeobox 1 [KO:K09299]
+            16178  Il1r2; interleukin 1 receptor, type II [KO:K04387]
+            20732  Spint1; serine protease inhibitor, Kunitz type 1 [KO:K15619]
+            104156  Etv5; ets variant 5 [KO:K15593]
+            16334  Ins2; insulin II [KO:K04526]
+            16333  Ins1; insulin I [KO:K04526]
+            18590  Pdgfa; platelet derived growth factor, alpha [KO:K04359]
+            18591  Pdgfb; platelet derived growth factor, B polypeptide [KO:K17386]
+            54635  Pdgfc; platelet-derived growth factor, C polypeptide [KO:K05450]
+            71785  Pdgfd; platelet-derived growth factor, D polypeptide [KO:K05450]
+            13645  Egf; epidermal growth factor [KO:K04357]
+            21802  Tgfa; transforming growth factor alpha [KO:K08774]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            23920  Insrr; insulin receptor-related receptor [KO:K05086] [EC:2.7.10.1]
+            18595  Pdgfra; platelet derived growth factor receptor, alpha polypeptide [KO:K04363] [EC:2.7.10.1]
+            18596  Pdgfrb; platelet derived growth factor receptor, beta polypeptide [KO:K05089] [EC:2.7.10.1]
+            14182  Fgfr1; fibroblast growth factor receptor 1 [KO:K04362] [EC:2.7.10.1]
+            14183  Fgfr2; fibroblast growth factor receptor 2 [KO:K05093] [EC:2.7.10.1]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            13866  Erbb2; erb-b2 receptor tyrosine kinase 2 [KO:K05083] [EC:2.7.10.1]
+            16001  Igf1r; insulin-like growth factor I receptor [KO:K05087] [EC:2.7.10.1]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            19211  Pten; phosphatase and tensin homolog [KO:K01110] [EC:3.1.3.16 3.1.3.48 3.1.3.67]
+            18607  Pdpk1; 3-phosphoinositide dependent protein kinase 1 [KO:K06276] [EC:2.7.11.1]
+            18095  Nkx3-1; NK3 homeobox 1 [KO:K09348]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            12371  Casp9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            56458  Foxo1; forkhead box O1 [KO:K07201]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            17246  Mdm2; transformed mouse 3T3 cell double minute 2 [KO:K06643] [EC:2.3.2.27]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+            56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            11911  Atf4; activating transcription factor 4 [KO:K04374]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            12387  Ctnnb1; catenin (cadherin associated protein), beta 1 [KO:K02105]
+            12914  Crebbp; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            328572  Ep300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            21414  Tcf7; transcription factor 7, T cell specific [KO:K02620]
+            21415  Tcf7l1; transcription factor 7 like 1 (T cell specific, HMG box) [KO:K04490]
+            21416  Tcf7l2; transcription factor 7 like 2, T cell specific, HMG box [KO:K04491]
+            16842  Lef1; lymphoid enhancer binding factor 1 [KO:K04492]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            18035  Nfkbia; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [KO:K04734]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            12043  Bcl2; B cell leukemia/lymphoma 2 [KO:K02161]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            94224  Srd5a2; steroid 5 alpha-reductase 2 [KO:K12344] [EC:1.3.1.22]
+            11835  Ar; androgen receptor [KO:K08557]
+            15519  Hsp90aa1; heat shock protein 90, alpha (cytosolic), class A member 1 [KO:K04079]
+            15516  Hsp90ab1; heat shock protein 90 alpha (cytosolic), class B member 1 [KO:K04079]
+            22027  Hsp90b1; heat shock protein 90, beta (Grp94), member 1 [KO:K09487]
+COMPOUND    C00280  Androstenedione
+            C00410  Progesterone
+            C00535  Testosterone
+            C00735  Cortisol
+            C00762  Cortisone
+            C00951  Estradiol-17beta
+            C01227  Dehydroepiandrosterone
+            C03917  Dihydrotestosterone
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+            C07653  Flutamide
+            C16038  2-Amino-1-methyl-6-phenylimidazo[4,5-b]pyridine
+REFERENCE   PMID:12878745
+  AUTHORS   Nelson WG, De Marzo AM, Isaacs WB.
+  TITLE     Prostate cancer.
+  JOURNAL   N Engl J Med 349:366-81 (2003)
+            DOI:10.1056/NEJMra021562
+REFERENCE   PMID:15724144
+  AUTHORS   Li L, Ittmann MM, Ayala G, Tsai MJ, Amato RJ, Wheeler TM, Miles BJ, Kadmon D, Thompson TC.
+  TITLE     The emerging role of the PI3-K-Akt pathway in prostate cancer progression.
+  JOURNAL   Prostate Cancer Prostatic Dis 8:108-18 (2005)
+            DOI:10.1038/sj.pcan.4500776
+REFERENCE   PMID:16551847
+  AUTHORS   Pienta KJ, Bradley D.
+  TITLE     Mechanisms underlying the development of androgen-independent prostate cancer.
+  JOURNAL   Clin Cancer Res 12:1665-71 (2006)
+            DOI:10.1158/1078-0432.CCR-06-0067
+REFERENCE   PMID:11900250
+  AUTHORS   Feldman BJ, Feldman D.
+  TITLE     The development of androgen-independent prostate cancer.
+  JOURNAL   Nat Rev Cancer 1:34-45 (2001)
+            DOI:10.1038/35094009
+REFERENCE   PMID:15082523
+  AUTHORS   Heinlein CA, Chang C.
+  TITLE     Androgen receptor in prostate cancer.
+  JOURNAL   Endocr Rev 25:276-308 (2004)
+            DOI:10.1210/er.2002-0032
+REFERENCE   PMID:9422516
+  AUTHORS   Koivisto P, Kolmer M, Visakorpi T, Kallioniemi OP.
+  TITLE     Androgen receptor gene and hormonal therapy failure of prostate cancer.
+  JOURNAL   Am J Pathol 152:1-9 (1998)
+REFERENCE   PMID:10835690
+  AUTHORS   Zhao XY, Malloy PJ, Krishnan AV, Swami S, Navone NM, Peehl DM, Feldman D.
+  TITLE     Glucocorticoids can promote androgen-independent growth of prostate cancer cells through a mutated androgen receptor.
+  JOURNAL   Nat Med 6:703-6 (2000)
+            DOI:10.1038/76287
+REFERENCE   PMID:10453277
+  AUTHORS   Macri E, Loda M.
+  TITLE     Role of p27 in prostate carcinogenesis.
+  JOURNAL   Cancer Metastasis Rev 17:337-44 (1998)
+            DOI:10.1023/A:1006133620914
+REFERENCE   PMID:11750244
+  AUTHORS   Steers WD.
+  TITLE     5alpha-reductase activity in the prostate.
+  JOURNAL   Urology 58:17-24; discussion 24 (2001)
+            DOI:10.1016/S0090-4295(01)01299-7
+REFERENCE   PMID:8069858
+  AUTHORS   Lin D, Meyer DJ, Ketterer B, Lang NP, Kadlubar FF.
+  TITLE     Effects of human and rat glutathione S-transferases on the covalent DNA binding of the N-acetoxy derivatives of heterocyclic amine carcinogens in vitro: a possible mechanism of organ specificity in their carcinogenesis.
+  JOURNAL   Cancer Res 54:4920-6 (1994)
+REFERENCE   PMID:11527574
+  AUTHORS   Grimes CA, Jope RS.
+  TITLE     The multifaceted roles of glycogen synthase kinase 3beta in cellular signaling.
+  JOURNAL   Prog Neurobiol 65:391-426 (2001)
+            DOI:10.1016/S0301-0082(01)00011-9
+REFERENCE   PMID:21747944
+  AUTHORS   Leshem O, Madar S, Kogan-Sakin I, Kamer I, Goldstein I, Brosh R, Cohen Y, Jacob-Hirsch J, Ehrlich M, Ben-Sasson S, Goldfinger N, Loewenthal R, Gazit E, Rotter V, Berger R
+  TITLE     TMPRSS2/ERG promotes epithelial to mesenchymal transition through the ZEB1/ZEB2 axis in a prostate cancer model.
+  JOURNAL   PLoS One 6:e21650 (2011)
+            DOI:10.1371/journal.pone.0021650
+REFERENCE   PMID:20478527
+  AUTHORS   Yu J, Yu J, Mani RS, Cao Q, Brenner CJ, Cao X, Wang X, Wu L, Li J, Hu M, Gong Y, Cheng H, Laxman B, Vellaichamy A, Shankar S, Li Y, Dhanasekaran SM, Morey R, Barrette T, Lonigro RJ, Tomlins SA, Varambally S, Qin ZS, Chinnaiyan AM
+  TITLE     An integrated network of androgen receptor, polycomb, and TMPRSS2-ERG gene fusions in prostate cancer progression.
+  JOURNAL   Cancer Cell 17:443-54 (2010)
+            DOI:10.1016/j.ccr.2010.03.018
+REFERENCE   PMID:19399032
+  AUTHORS   Squire JA
+  TITLE     TMPRSS2-ERG and PTEN loss in prostate cancer.
+  JOURNAL   Nat Genet 41:509-10 (2009)
+            DOI:10.1038/ng0509-509
+REFERENCE   PMID:25915839
+  AUTHORS   Adamo P, Ladomery MR
+  TITLE     The oncogene ERG: a key factor in prostate cancer.
+  JOURNAL   Oncogene 35:403-14 (2016)
+            DOI:10.1038/onc.2015.109
+REFERENCE   PMID:25485532
+  AUTHORS   Burdova A, Bouchal J, Tavandzis S, Kolar Z
+  TITLE     TMPRSS2-ERG gene fusion in prostate cancer.
+  JOURNAL   Biomed Pap Med Fac Univ Palacky Olomouc Czech Repub 158:502-10 (2014)
+            DOI:10.5507/bp.2014.065
+REFERENCE   PMID:18172298
+  AUTHORS   Helgeson BE, Tomlins SA, Shah N, Laxman B, Cao Q, Prensner JR, Cao X, Singla N, Montie JE, Varambally S, Mehra R, Chinnaiyan AM
+  TITLE     Characterization of TMPRSS2:ETV5 and SLC45A3:ETV5 gene fusions in prostate cancer.
+  JOURNAL   Cancer Res 68:73-80 (2008)
+            DOI:10.1158/0008-5472.CAN-07-5352
+REFERENCE   PMID:28968951
+  AUTHORS   Kim H, Datta A, Talwar S, Saleem SN, Mondal D, Abdel-Mageed AB
+  TITLE     Estradiol-ERbeta2 signaling axis confers growth and migration of CRPC cells through TMPRSS2-ETV5 gene fusion.
+  JOURNAL   Oncotarget 8:62820-62833 (2017)
+            DOI:10.18632/oncotarget.11355
+REL_PATHWAY mmu00140  Steroid hormone biosynthesis
+            mmu04010  MAPK signaling pathway
+            mmu04060  Cytokine-cytokine receptor interaction
+            mmu04110  Cell cycle
+            mmu04115  p53 signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04210  Apoptosis
+            mmu05202  Transcriptional misregulation in cancer
+KO_PATHWAY  ko05215
+///

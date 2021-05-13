@@ -1,0 +1,55 @@
+ENTRY       mmu00604                    Pathway
+NAME        Glycosphingolipid biosynthesis - ganglio series - Mus musculus (mouse)
+CLASS       Metabolism; Glycan biosynthesis and metabolism
+PATHWAY_MAP mmu00604  Glycosphingolipid biosynthesis - ganglio series
+MODULE      mmu_M00069  Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3 [PATH:mmu00604]
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14421  B4galnt1; beta-1,4-N-acetyl-galactosaminyl transferase 1 [KO:K00725] [EC:2.4.1.92]
+            54218  B3galt4; UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 4 [KO:K00715] [EC:2.4.1.62]
+            20444  St3gal2; ST3 beta-galactoside alpha-2,3-sialyltransferase 2 [KO:K03368] [EC:2.4.99.4]
+            20442  St3gal1; ST3 beta-galactoside alpha-2,3-sialyltransferase 1 [KO:K00780] [EC:2.4.99.4]
+            225742  St8sia5; ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 5 [KO:K03369] [EC:2.4.99.-]
+            20454  St3gal5; ST3 beta-galactoside alpha-2,3-sialyltransferase 5 [KO:K03370] [EC:2.4.99.9]
+            20449  St8sia1; ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 1 [KO:K03371] [EC:2.4.99.8]
+            11416  Slc33a1; solute carrier family 33 (acetyl-CoA transporter), member 1 [KO:K03372] [EC:2.3.1.-]
+            20447  St6galnac3; ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 3 [KO:K03373] [EC:2.4.99.-]
+            20448  St6galnac4; ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 4 [KO:K03374] [EC:2.4.99.7]
+            26938  St6galnac5; ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 5 [KO:K03375] [EC:2.4.99.-]
+            50935  St6galnac6; ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 6 [KO:K03376] [EC:2.4.99.-]
+            12091  Glb1; galactosidase, beta 1 [KO:K12309] [EC:3.2.1.23]
+            15211  Hexa; hexosaminidase A [KO:K12373] [EC:3.2.1.52]
+            15212  Hexb; hexosaminidase B [KO:K12373] [EC:3.2.1.52]
+COMPOUND    G00092  Lactosylceramide
+            G00108  GM3
+            G00109  GM2
+            G00110  GM1
+            G00111  GD1a
+            G00112  GT1a
+            G00113  GD3
+            G00114  GD2
+            G00115  GD1b
+            G00116  GT1b
+            G00117  GQ1b
+            G00118  GT3
+            G00119  GT2
+            G00120  GT1c
+            G00121  GQ1c
+            G00122  GP1c
+            G00123  GA2
+            G00124  GA1
+            G00125  GM1b
+            G00126  GD1c
+            G00127  GD1a
+            G00128  GT1aalpha
+            G00129  GQ1balpha
+            G00130  GM2alpha
+            G00131  GM1alpha
+            G00132  GD1beta
+            G00166  Fucosyl-GM1
+            G00167  N-Acetylgalactosaminyl GM1b
+            G00168  N-Acetylgalactosaminyl GD1a
+            G00169  9-O-Acetylated GD3
+            G00170  9-O-Acetylated GT3
+REL_PATHWAY mmu00600  Sphingolipid metabolism
+KO_PATHWAY  ko00604
+///

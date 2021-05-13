@@ -1,0 +1,319 @@
+ENTRY       mmu04371                    Pathway
+NAME        Apelin signaling pathway - Mus musculus (mouse)
+DESCRIPTION Apelin is an endogenous peptide capable of binding the apelin receptor (APJ), which was originally described as an orphan G-protein-coupled receptor. Apelin and APJ are widely expressed in various tissues and organ systems. They are implicated in different key physiological processes such as angiogenesis, cardiovascular functions, cell proliferation and energy metabolism regulation. On the other hand, this ligand receptor couple is also involved in several pathologies including diabetes, obesity, cardiovascular disease and cancer.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04371  Apelin signaling pathway
+DBLINKS     GO: 0060183
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            271639  Adcy10; adenylate cyclase 10 [KO:K11265] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            16890  Lipe; lipase, hormone sensitive [KO:K07188] [EC:3.1.1.79]
+            30878  Apln; apelin [KO:K05225]
+            23796  Aplnr; apelin receptor [KO:K04174]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            14688  Gnb1; guanine nucleotide binding protein (G protein), beta 1 [KO:K04536]
+            14693  Gnb2; guanine nucleotide binding protein (G protein), beta 2 [KO:K04537]
+            14695  Gnb3; guanine nucleotide binding protein (G protein), beta 3 [KO:K07825]
+            14696  Gnb4; guanine nucleotide binding protein (G protein), beta 4 [KO:K04538]
+            14697  Gnb5; guanine nucleotide binding protein (G protein), beta 5 [KO:K04539]
+            14702  Gng2; guanine nucleotide binding protein (G protein), gamma 2 [KO:K07826]
+            14704  Gng3; guanine nucleotide binding protein (G protein), gamma 3 [KO:K04540]
+            14706  Gng4; guanine nucleotide binding protein (G protein), gamma 4 [KO:K04541]
+            14707  Gng5; guanine nucleotide binding protein (G protein), gamma 5 [KO:K04542]
+            14708  Gng7; guanine nucleotide binding protein (G protein), gamma 7 [KO:K04543]
+            14709  Gng8; guanine nucleotide binding protein (G protein), gamma 8 [KO:K04544]
+            14700  Gng10; guanine nucleotide binding protein (G protein), gamma 10 [KO:K04545]
+            66066  Gng11; guanine nucleotide binding protein (G protein), gamma 11 [KO:K04546]
+            14701  Gng12; guanine nucleotide binding protein (G protein), gamma 12 [KO:K04347]
+            100503710  Gm5741; predicted gene 5741 [KO:K04347]
+            64337  Gng13; guanine nucleotide binding protein (G protein), gamma 13 [KO:K04547]
+            14699  Gngt1; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 1 [KO:K04548]
+            14710  Gngt2; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 2 [KO:K04549]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            20190  Ryr1; ryanodine receptor 1, skeletal muscle [KO:K04961]
+            20191  Ryr2; ryanodine receptor 2, cardiac [KO:K04962]
+            20192  Ryr3; ryanodine receptor 3 [KO:K04963]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            18125  Nos1; nitric oxide synthase 1, neuronal [KO:K13240] [EC:1.14.13.39]
+            18126  Nos2; nitric oxide synthase 2, inducible [KO:K13241] [EC:1.14.13.39]
+            18127  Nos3; nitric oxide synthase 3, endothelial cell [KO:K13242] [EC:1.14.13.39]
+            18754  Prkce; protein kinase C, epsilon [KO:K18050] [EC:2.7.11.13]
+            20544  Slc9a1; solute carrier family 9 (sodium/hydrogen exchanger), member 1 [KO:K05742]
+            20541  Slc8a1; solute carrier family 8 (sodium/calcium exchanger), member 1 [KO:K05849]
+            110891  Slc8a2; solute carrier family 8 (sodium/calcium exchanger), member 2 [KO:K05849]
+            110893  Slc8a3; solute carrier family 8 (sodium/calcium exchanger), member 3 [KO:K05849]
+            107589  Mylk; myosin, light polypeptide kinase [KO:K00907] [EC:2.7.11.18]
+            213435  Mylk3; myosin light chain kinase 3 [KO:K00907] [EC:2.7.11.18]
+            228785  Mylk2; myosin, light polypeptide kinase 2, skeletal muscle [KO:K00907] [EC:2.7.11.18]
+            238564  Mylk4; myosin light chain kinase family, member 4 [KO:K00907] [EC:2.7.11.18]
+            17906  Myl2; myosin, light polypeptide 2, regulatory, cardiac, slow [KO:K10351]
+            17897  Myl3; myosin, light polypeptide 3 [KO:K12749]
+            17896  Myl4; myosin, light polypeptide 4 [KO:K12750]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            20130  Rras; related RAS viral (r-ras) oncogene [KO:K07829]
+            66922  Rras2; related RAS viral (r-ras) oncogene 2 [KO:K07830]
+            17532  Mras; muscle and microspikes RAS [KO:K07831]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            58988  Rps6kb2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04688] [EC:2.7.11.1]
+            72508  Rps6kb1; ribosomal protein S6 kinase, polypeptide 1 [KO:K04688] [EC:2.7.11.1]
+            20104  Rps6; ribosomal protein S6 [KO:K02991]
+            30955  Pik3cg; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [KO:K21289] [EC:2.7.1.153]
+            320207  Pik3r5; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            104709  Pik3r6; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            13653  Egr1; early growth response 1 [KO:K09203]
+            20750  Spp1; secreted phosphoprotein 1 [KO:K06250]
+            16449  Jag1; jagged 1 [KO:K06052]
+            18131  Notch3; notch 3 [KO:K20995]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            18576  Pde3b; phosphodiesterase 3B, cGMP-inhibited [KO:K13296] [EC:3.1.4.17]
+            225326  Pik3c3; phosphatidylinositol 3-kinase catalytic subunit type 3 [KO:K00914] [EC:2.7.1.137]
+            75669  Pik3r4; phosphoinositide-3-kinase regulatory subunit 4 [KO:K08333] [EC:2.7.11.1]
+            56208  Becn1; beclin 1, autophagy related [KO:K08334]
+            57436  Gabarapl1; gamma-aminobutyric acid (GABA) A receptor-associated protein-like 1 [KO:K08341]
+            56486  Gabarap; gamma-aminobutyric acid receptor associated protein [KO:K08341]
+            93739  Gabarapl2; gamma-aminobutyric acid (GABA) A receptor-associated protein-like 2 [KO:K08341]
+            105787  Prkaa1; protein kinase, AMP-activated, alpha 1 catalytic subunit [KO:K07198] [EC:2.7.11.11]
+            108079  Prkaa2; protein kinase, AMP-activated, alpha 2 catalytic subunit [KO:K07198] [EC:2.7.11.11]
+            19079  Prkab1; protein kinase, AMP-activated, beta 1 non-catalytic subunit [KO:K07199]
+            108097  Prkab2; protein kinase, AMP-activated, beta 2 non-catalytic subunit [KO:K07199]
+            19082  Prkag1; protein kinase, AMP-activated, gamma 1 non-catalytic subunit [KO:K07200]
+            241113  Prkag3; protein kinase, AMP-activated, gamma 3 non-catalytic subunit [KO:K07200]
+            108099  Prkag2; protein kinase, AMP-activated, gamma 2 non-catalytic subunit [KO:K07200]
+            103968  Plin1; perilipin 1 [KO:K08768]
+            19017  Ppargc1a; peroxisome proliferative activated receptor, gamma, coactivator 1 alpha [KO:K07202]
+            22227  Ucp1; uncoupling protein 1 (mitochondrial, proton carrier) [KO:K08769]
+            18181  Nrf1; nuclear respiratory factor 1 [KO:K11831]
+            21780  Tfam; transcription factor A, mitochondrial [KO:K11830]
+            16598  Klf2; Kruppel-like factor 2 (lung) [KO:K17845]
+            56632  Sphk2; sphingosine kinase 2 [KO:K04718] [EC:2.7.1.91]
+            20698  Sphk1; sphingosine kinase 1 [KO:K04718] [EC:2.7.1.91]
+            14674  Gna13; guanine nucleotide binding protein, alpha 13 [KO:K04639]
+            12326  Camk4; calcium/calmodulin-dependent protein kinase IV [KO:K05869] [EC:2.7.11.17]
+            208727  Hdac4; histone deacetylase 4 [KO:K11406] [EC:3.5.1.98]
+            15184  Hdac5; histone deacetylase 5 [KO:K11406] [EC:3.5.1.98]
+            17258  Mef2a; myocyte enhancer factor 2A [KO:K09260]
+            17259  Mef2b; myocyte enhancer factor 2B [KO:K09261]
+            105980076  Gm45929; predicted gene, 45929 [KO:K09261]
+            17260  Mef2c; myocyte enhancer factor 2C [KO:K04454]
+            17261  Mef2d; myocyte enhancer factor 2D [KO:K09262]
+            21812  Tgfbr1; transforming growth factor, beta receptor I [KO:K04674] [EC:2.7.11.30]
+            17126  Smad2; SMAD family member 2 [KO:K04500]
+            17127  Smad3; SMAD family member 3 [KO:K23605]
+            17128  Smad4; SMAD family member 4 [KO:K04501]
+            11475  Acta2; actin, alpha 2, smooth muscle, aorta [KO:K12313]
+            12550  Cdh1; cadherin 1 [KO:K05689]
+            14219  Ccn2; cellular communication network factor 2 [KO:K06827]
+            11607  Agtr1a; angiotensin II receptor, type 1a [KO:K04166]
+            11608  Agtr1b; angiotensin II receptor, type 1b [KO:K04166]
+            18787  Serpine1; serine (or cysteine) peptidase inhibitor, clade E, member 1 [KO:K03982]
+            18791  Plat; plasminogen activator, tissue [KO:K01343] [EC:3.4.21.68]
+COMPOUND    C00076  Calcium cation
+            C00080  H+
+            C00165  Diacylglycerol
+            C00290  Fibrin
+            C00533  Nitric oxide
+            C00575  3',5'-Cyclic AMP
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01330  Sodium cation
+            C06124  Sphingosine 1-phosphate
+REFERENCE   PMID:26143239
+  AUTHORS   Yang P, Maguire JJ, Davenport AP
+  TITLE     Apelin, Elabela/Toddler, and biased agonists as novel therapeutic agents in the cardiovascular system.
+  JOURNAL   Trends Pharmacol Sci 36:560-7 (2015)
+            DOI:10.1016/j.tips.2015.06.002
+REFERENCE   PMID:22140623
+  AUTHORS   Andersen CU, Hilberg O, Mellemkjaer S, Nielsen-Kudsk JE, Simonsen U
+  TITLE     Apelin and pulmonary hypertension.
+  JOURNAL   Pulm Circ 1:334-46 (2011)
+            DOI:10.4103/2045-8932.87299
+REFERENCE   PMID:25275559
+  AUTHORS   Chapman NA, Dupre DJ, Rainey JK
+  TITLE     The apelin receptor: physiology, pathology, cell signalling, and ligand modulation of a peptide-activated class A GPCR.
+  JOURNAL   Biochem Cell Biol 92:431-40 (2014)
+            DOI:10.1139/bcb-2014-0072
+REFERENCE   PMID:18272138
+  AUTHORS   Japp AG, Newby DE
+  TITLE     The apelin-APJ system in heart failure: pathophysiologic relevance and therapeutic potential.
+  JOURNAL   Biochem Pharmacol 75:1882-92 (2008)
+            DOI:10.1016/j.bcp.2007.12.015
+REFERENCE   PMID:25652330
+  AUTHORS   Folino A, Montarolo PG, Samaja M, Rastaldo R
+  TITLE     Effects of apelin on the cardiovascular system.
+  JOURNAL   Heart Fail Rev 20:505-18 (2015)
+            DOI:10.1007/s10741-015-9475-x
+REFERENCE   PMID:23943882
+  AUTHORS   O'Carroll AM, Lolait SJ, Harris LE, Pope GR
+  TITLE     The apelin receptor APJ: journey from an orphan to a multifaceted regulator of homeostasis.
+  JOURNAL   J Endocrinol 219:R13-35 (2013)
+            DOI:10.1530/JOE-13-0227
+REFERENCE   PMID:23973488
+  AUTHORS   Liu QF, Yu HW, You L, Liu MX, Li KY, Tao GZ
+  TITLE     Apelin-13-induced proliferation and migration induced of rat vascular smooth muscle cells is mediated by the upregulation of Egr-1.
+  JOURNAL   Biochem Biophys Res Commun 439:235-40 (2013)
+            DOI:10.1016/j.bbrc.2013.08.051
+REFERENCE   PMID:26254105
+  AUTHORS   Novakova V, Sandhu GS, Dragomir-Daescu D, Klabusay M
+  TITLE     Apelinergic system in endothelial cells and its role in angiogenesis in myocardial ischemia.
+  JOURNAL   Vascul Pharmacol 76:1-10 (2016)
+            DOI:10.1016/j.vph.2015.08.005
+REFERENCE   PMID:21725702
+  AUTHORS   Castan-Laurell I, Dray C, Attane C, Duparc T, Knauf C, Valet P
+  TITLE     Apelin, diabetes, and obesity.
+  JOURNAL   Endocrine 40:1-9 (2011)
+            DOI:10.1007/s12020-011-9507-9
+REFERENCE   PMID:23924696
+  AUTHORS   Li L, Li L, Xie F, Zhang Z, Guo Y, Tang G, Lv D, Lu Q, Chen L, Li J
+  TITLE     Jagged-1/Notch3 signaling transduction pathway is involved in apelin-13-induced vascular smooth muscle cells proliferation.
+  JOURNAL   Acta Biochim Biophys Sin (Shanghai) 45:875-81 (2013)
+            DOI:10.1093/abbs/gmt085
+REFERENCE   PMID:24990699
+  AUTHORS   Wu D, He L, Chen L
+  TITLE     Apelin/APJ system: a promising therapy target for hypertension.
+  JOURNAL   Mol Biol Rep 41:6691-703 (2014)
+            DOI:10.1007/s11033-014-3552-4
+REFERENCE   PMID:20539939
+  AUTHORS   Liu C, Su T, Li F, Li L, Qin X, Pan W, Feng F, Chen F, Liao D, Chen L
+  TITLE     PI3K/Akt signaling transduction pathway is involved in rat vascular smooth muscle cell proliferation induced by apelin-13.
+  JOURNAL   Acta Biochim Biophys Sin (Shanghai) 42:396-402 (2010)
+            DOI:10.1093/abbs/gmq035
+REFERENCE   PMID:26607438
+  AUTHORS   Xie F, Liu W, Feng F, Li X, He L, Lv D, Qin X, Li L, Li L, Chen L
+  TITLE     Apelin-13 promotes cardiomyocyte hypertrophy via PI3K-Akt-ERK1/2-p70S6K and PI3K-induced autophagy.
+  JOURNAL   Acta Biochim Biophys Sin (Shanghai) 47:969-80 (2015)
+            DOI:10.1093/abbs/gmv111
+REFERENCE   PMID:27979574
+  AUTHORS   Lu L, Wu D, Li L, Chen L
+  TITLE     Apelin/APJ system: A bifunctional target for cardiac hypertrophy.
+  JOURNAL   Int J Cardiol 230:164-170 (2017)
+            DOI:10.1016/j.ijcard.2016.11.215
+REFERENCE   PMID:16182514
+  AUTHORS   Carmen GY, Victor SM
+  TITLE     Signalling mechanisms regulating lipolysis.
+  JOURNAL   Cell Signal 18:401-8 (2006)
+            DOI:10.1016/j.cellsig.2005.08.009
+REFERENCE   PMID:27650065
+  AUTHORS   Hu H, He L, Li L, Chen L
+  TITLE     Apelin/APJ system as a therapeutic target in diabetes and its complications.
+  JOURNAL   Mol Genet Metab 119:20-7 (2016)
+            DOI:10.1016/j.ymgme.2016.07.012
+REFERENCE   PMID:25914650
+  AUTHORS   Bertrand C, Valet P, Castan-Laurell I
+  TITLE     Apelin and energy metabolism.
+  JOURNAL   Front Physiol 6:115 (2015)
+            DOI:10.3389/fphys.2015.00115
+REFERENCE   PMID:26385179
+  AUTHORS   Yao F, Lv YC, Zhang M, Xie W, Tan YL, Gong D, Cheng HP, Liu D, Li L, Liu XY, Zheng XL, Tang CK
+  TITLE     Apelin-13 impedes foam cell formation by activating Class III PI3K/Beclin-1-mediated autophagic pathway.
+  JOURNAL   Biochem Biophys Res Commun 466:637-43 (2015)
+            DOI:10.1016/j.bbrc.2015.09.045
+REFERENCE   PMID:22842084
+  AUTHORS   Than A, Cheng Y, Foh LC, Leow MK, Lim SC, Chuah YJ, Kang Y, Chen P
+  TITLE     Apelin inhibits adipogenesis and lipolysis through distinct molecular pathways.
+  JOURNAL   Mol Cell Endocrinol 362:227-41 (2012)
+            DOI:10.1016/j.mce.2012.07.002
+REFERENCE   PMID:24055369
+  AUTHORS   Yu XH, Tang ZB, Liu LJ, Qian H, Tang SL, Zhang DW, Tian GP, Tang CK
+  TITLE     Apelin and its receptor APJ in cardiovascular diseases.
+  JOURNAL   Clin Chim Acta 428:1-8 (2014)
+            DOI:10.1016/j.cca.2013.09.001
+REFERENCE   PMID:25931124
+  AUTHORS   Than A, He HL, Chua SH, Xu D, Sun L, Leow MK, Chen P
+  TITLE     Apelin Enhances Brown Adipogenesis and Browning of White Adipocytes.
+  JOURNAL   J Biol Chem 290:14679-91 (2015)
+            DOI:10.1074/jbc.M115.643817
+REFERENCE   PMID:25139773
+  AUTHORS   Fu J, Li Z, Zhang H, Mao Y, Wang A, Wang X, Zou Z, Zhang X
+  TITLE     Molecular pathways regulating the formation of brown-like adipocytes in white adipose tissue.
+  JOURNAL   Diabetes Metab Res Rev 31:433-52 (2015)
+            DOI:10.1002/dmrr.2600
+REFERENCE   PMID:21464822
+  AUTHORS   Aharoni-Simon M, Hann-Obercyger M, Pen S, Madar Z, Tirosh O
+  TITLE     Fatty liver is associated with impaired activity of PPARgamma-coactivator 1alpha (PGC1alpha) and mitochondrial biogenesis in mice.
+  JOURNAL   Lab Invest 91:1018-28 (2011)
+            DOI:10.1038/labinvest.2011.55
+REFERENCE   PMID:22995518
+  AUTHORS   McLean DL, Kim J, Kang Y, Shi H, Atkins GB, Jain MK, Chun HJ
+  TITLE     Apelin/APJ signaling is a critical regulator of statin effects in vascular endothelial cells--brief report.
+  JOURNAL   Arterioscler Thromb Vasc Biol 32:2640-3 (2012)
+            DOI:10.1161/ATVBAHA.112.300317
+REFERENCE   PMID:22028387
+  AUTHORS   Pchejetski D, Foussal C, Alfarano C, Lairez O, Calise D, Guilbeau-Frugier C, Schaak S, Seguelas MH, Wanecq E, Valet P, Parini A, Kunduzova O
+  TITLE     Apelin prevents cardiac fibroblast activation and collagen production through inhibition of sphingosine kinase 1.
+  JOURNAL   Eur Heart J 33:2360-9 (2012)
+            DOI:10.1093/eurheartj/ehr389
+REFERENCE   PMID:26944568
+  AUTHORS   Huang S, Chen L, Lu L, Li L
+  TITLE     The apelin-APJ axis: A novel potential therapeutic target for organ fibrosis.
+  JOURNAL   Clin Chim Acta 456:81-8 (2016)
+            DOI:10.1016/j.cca.2016.02.025
+REFERENCE   PMID:19093215
+  AUTHORS   Liu G, Han J, Profirovic J, Strekalova E, Voyno-Yasenetskaya TA
+  TITLE     Galpha13 regulates MEF2-dependent gene transcription in endothelial cells: role in angiogenesis.
+  JOURNAL   Angiogenesis 12:1-15 (2009)
+            DOI:10.1007/s10456-008-9123-3
+REFERENCE   PMID:23603510
+  AUTHORS   Kang Y, Kim J, Anderson JP, Wu J, Gleim SR, Kundu RK, McLean DL, Kim JD, Park H, Jin SW, Hwa J, Quertermous T, Chun HJ
+  TITLE     Apelin-APJ signaling is a critical regulator of endothelial MEF2 activation in cardiovascular development.
+  JOURNAL   Circ Res 113:22-31 (2013)
+            DOI:10.1161/CIRCRESAHA.113.301324
+REFERENCE   PMID:25164121
+  AUTHORS   Wang LY, Diao ZL, Zhang DL, Zheng JF, Zhang QD, Ding JX, Liu WH
+  TITLE     The regulatory peptide apelin: a novel inhibitor of renal interstitial fibrosis.
+  JOURNAL   Amino Acids 46:2693-704 (2014)
+            DOI:10.1007/s00726-014-1826-8
+REFERENCE   PMID:26756969
+  AUTHORS   Zhou Y, Deng L, Zhao D, Chen L, Yao Z, Guo X, Liu X, Lv L, Leng B, Xu W, Qiao G, Shan H
+  TITLE     MicroRNA-503 promotes angiotensin II-induced cardiac fibrosis by targeting Apelin-13.
+  JOURNAL   J Cell Mol Med 20:495-505 (2016)
+            DOI:10.1111/jcmm.12754
+REFERENCE   PMID:27825851
+  AUTHORS   Zhong JC, Zhang ZZ, Wang W, McKinnie SM, Vederas JC, Oudit GY
+  TITLE     Targeting the apelin pathway as a novel therapeutic approach for cardiovascular diseases.
+  JOURNAL   Biochim Biophys Acta 1863:1942-1950 (2017)
+            DOI:10.1016/j.bbadis.2016.11.007
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04140  Autophagy - animal
+            mmu04150  mTOR signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04152  AMPK signaling pathway
+            mmu04270  Vascular smooth muscle contraction
+            mmu04530  Tight junction
+            mmu04923  Regulation of lipolysis in adipocytes
+KO_PATHWAY  ko04371
+///

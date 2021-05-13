@@ -1,0 +1,102 @@
+ENTRY       mmu00051                    Pathway
+NAME        Fructose and mannose metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP mmu00051  Fructose and mannose metabolism
+DBLINKS     GO: 0006000 0006013
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        110119  Mpi; mannose phosphate isomerase [KO:K01809] [EC:5.3.1.8]
+            54128  Pmm2; phosphomannomutase 2 [KO:K17497] [EC:5.4.2.8]
+            29858  Pmm1; phosphomannomutase 1 [KO:K17497] [EC:5.4.2.8]
+            331026  Gmppb; GDP-mannose pyrophosphorylase B [KO:K00966] [EC:2.7.7.13]
+            69080  Gmppa; GDP-mannose pyrophosphorylase A [KO:K00966] [EC:2.7.7.13]
+            218138  Gmds; GDP-mannose 4, 6-dehydratase [KO:K01711] [EC:4.2.1.47]
+            22122  Tsta3; tissue specific transplantation antigen P35B [KO:K02377] [EC:1.1.1.271]
+            75540  Fpgt; fucose-1-phosphate guanylyltransferase [KO:K00976] [EC:2.7.7.30]
+            234730  Fcsk; fucose kinase [KO:K05305] [EC:2.7.1.52]
+            15277  Hk2; hexokinase 2 [KO:K00844] [EC:2.7.1.1]
+            212032  Hk3; hexokinase 3 [KO:K00844] [EC:2.7.1.1]
+            15275  Hk1; hexokinase 1 [KO:K00844] [EC:2.7.1.1]
+            216019  Hkdc1; hexokinase domain containing 1 [KO:K00844] [EC:2.7.1.1]
+            18641  Pfkl; phosphofructokinase, liver, B-type [KO:K00850] [EC:2.7.1.11]
+            18642  Pfkm; phosphofructokinase, muscle [KO:K00850] [EC:2.7.1.11]
+            56421  Pfkp; phosphofructokinase, platelet [KO:K00850] [EC:2.7.1.11]
+            14121  Fbp1; fructose bisphosphatase 1 [KO:K03841] [EC:3.1.3.11]
+            14120  Fbp2; fructose bisphosphatase 2 [KO:K03841] [EC:3.1.3.11]
+            18639  Pfkfb1; 6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 1 [KO:K19028] [EC:2.7.1.105 3.1.3.46]
+            18640  Pfkfb2; 6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2 [KO:K19029] [EC:2.7.1.105 3.1.3.46]
+            170768  Pfkfb3; 6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 3 [KO:K01103] [EC:2.7.1.105 3.1.3.46]
+            270198  Pfkfb4; 6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 4 [KO:K19030] [EC:2.7.1.105 3.1.3.46]
+            319801  Tigar; Trp53 induced glycolysis regulatory phosphatase [KO:K14634] [EC:3.1.3.46]
+            16548  Khk; ketohexokinase [KO:K00846] [EC:2.7.1.3]
+            20322  Sord; sorbitol dehydrogenase [KO:K00008] [EC:1.1.1.14]
+            11997  Akr1b7; aldo-keto reductase family 1, member B7 [KO:K00011] [EC:1.1.1.21]
+            14187  Akr1b8; aldo-keto reductase family 1, member B8 [KO:K00011] [EC:1.1.1.21]
+            11677  Akr1b3; aldo-keto reductase family 1, member B3 (aldose reductase) [KO:K00011] [EC:1.1.1.21]
+            67861  Akr1b10; aldo-keto reductase family 1, member B10 (aldose reductase) [KO:K00011] [EC:1.1.1.21]
+            11674  Aldoa; aldolase A, fructose-bisphosphate [KO:K01623] [EC:4.1.2.13]
+            230163  Aldob; aldolase B, fructose-bisphosphate [KO:K01623] [EC:4.1.2.13]
+            11676  Aldoc; aldolase C, fructose-bisphosphate [KO:K01623] [EC:4.1.2.13]
+            353204  Aldoart1; aldolase 1 A, retrogene 1 [KO:K01623] [EC:4.1.2.13]
+            21991  Tpi1; triosephosphate isomerase 1 [KO:K01803] [EC:5.3.1.1]
+            225913  Tkfc; triokinase, FMN cyclase [KO:K00863] [EC:2.7.1.28 2.7.1.29 4.6.1.15]
+COMPOUND    C00095  D-Fructose
+            C00096  GDP-mannose
+            C00111  Glycerone phosphate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00159  D-Mannose
+            C00186  (S)-Lactate
+            C00247  L-Sorbose
+            C00267  alpha-D-Glucose
+            C00275  D-Mannose 6-phosphate
+            C00325  GDP-L-fucose
+            C00392  Mannitol
+            C00424  (S)-Lactaldehyde
+            C00464  Mannan
+            C00507  L-Rhamnose
+            C00577  D-Glyceraldehyde
+            C00636  D-Mannose 1-phosphate
+            C00644  D-Mannitol 1-phosphate
+            C00665  beta-D-Fructose 2,6-bisphosphate
+            C00794  D-Sorbitol
+            C00861  L-Rhamnulose
+            C00976  GDP-D-mannuronate
+            C01019  6-Deoxy-L-galactose
+            C01094  D-Fructose 1-phosphate
+            C01096  Sorbitol 6-phosphate
+            C01099  L-Fuculose 1-phosphate
+            C01131  L-Rhamnulose 1-phosphate
+            C01222  GDP-4-dehydro-6-deoxy-D-mannose
+            C01355  Fructan
+            C01487  D-Allose
+            C01720  L-Fuconate
+            C01721  L-Fuculose
+            C01768  (Alginate)n
+            C01934  L-Rhamnonate
+            C02431  L-Rhamnofuranose
+            C02492  1,4-beta-D-Mannan
+            C02888  Sorbose 1-phosphate
+            C02962  D-Allose 6-phosphate
+            C02977  GDP-6-deoxy-D-talose
+            C02985  L-Fucose 1-phosphate
+            C02991  L-Rhamnono-1,4-lactone
+            C03117  GDP-6-deoxy-D-mannose
+            C03267  beta-D-Fructose 2-phosphate
+            C03827  2-Dehydro-3-deoxy-L-fuconate
+            C03979  2-Dehydro-3-deoxy-L-rhamnonate
+            C05144  (beta-D-Mannuronate)n
+            C05345  beta-D-Fructose 6-phosphate
+            C05378  beta-D-Fructose 1,6-bisphosphate
+            C05392  Oligouronide with 4-deoxy-alpha-L-erythro-hex-4-enopyranuronosyl group
+            C06192  ADP-mannose
+            C11516  2-(alpha-D-Mannosyl)-3-phosphoglycerate
+            C11544  2-O-(alpha-D-Mannosyl)-D-glycerate
+            C18028  L-Fucono-1,5-lactone
+            C18096  D-Allulose 6-phosphate
+            C20781  2,4-Diketo-3-deoxy-L-fuconate
+REL_PATHWAY mmu00010  Glycolysis / Gluconeogenesis
+            mmu00052  Galactose metabolism
+            mmu00510  N-Glycan biosynthesis
+            mmu00520  Amino sugar and nucleotide sugar metabolism
+            mmu00620  Pyruvate metabolism
+KO_PATHWAY  ko00051
+///

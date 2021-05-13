@@ -1,0 +1,245 @@
+ENTRY       hsa05131                    Pathway
+NAME        Shigellosis - Homo sapiens (human)
+DESCRIPTION Shigellosis, or bacillary dysentery, is an intestinal infection caused by Shigella, a genus of enterobacteria. Shigella are potential food-borne pathogens that are capable of colonizing the intestinal epithelium by exploiting epithelial-cell functions and circumventing the host innate immune response. During basolateral entry into the host-cell cytoplasm, Shigella deliver a subset of effectors into the host cells through the type III secretion system. The effectors induce membrane ruffling through the stimulation of the Rac1-WAVE-Arp2/3 pathway, enabling bacterial entry into the epithelial cells. During multiplication within the cells, Shigella secrete another subset of effectors. VirG induces actin polymerization at one pole of the bacteria, allowing the bacteria to spread intracellularly and to infect adjacent cells. OspF, OspG and IpaH(9.8) downregulate the production of proinflammatory cytokines such as IL-8, helping bacteria circumvent the innate immune response.
+CLASS       Human Diseases; Infectious diseases: Bacterial
+PATHWAY_MAP hsa05131  Shigellosis
+DISEASE     H00299  Shigellosis
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        3678  ITGA5; integrin subunit alpha 5 [KO:K06484]
+            3688  ITGB1; integrin subunit beta 1 [KO:K05719]
+            960  CD44; CD44 molecule (Indian blood group) [KO:K06256]
+            391  RHOG; ras homolog family member G [KO:K07863]
+            9844  ELMO1; engulfment and cell motility 1 [KO:K12366]
+            63916  ELMO2; engulfment and cell motility 2 [KO:K18985]
+            79767  ELMO3; engulfment and cell motility 3 [KO:K19241]
+            1793  DOCK1; dedicator of cytokinesis 1 [KO:K13708]
+            5879  RAC1; Rac family small GTPase 1 [KO:K04392]
+            8936  WASF1; WASP family member 1 [KO:K05753]
+            10163  WASF2; WASP family member 2 [KO:K05748]
+            10092  ARPC5; actin related protein 2/3 complex subunit 5 [KO:K05754]
+            81873  ARPC5L; actin related protein 2/3 complex subunit 5 like [KO:K05754]
+            10093  ARPC4; actin related protein 2/3 complex subunit 4 [KO:K05755]
+            10094  ARPC3; actin related protein 2/3 complex subunit 3 [KO:K05756]
+            10095  ARPC1B; actin related protein 2/3 complex subunit 1B [KO:K05757]
+            10552  ARPC1A; actin related protein 2/3 complex subunit 1A [KO:K05757]
+            10109  ARPC2; actin related protein 2/3 complex subunit 2 [KO:K05758]
+            6714  SRC; SRC proto-oncogene, non-receptor tyrosine kinase [KO:K05704] [EC:2.7.10.2]
+            2017  CTTN; cortactin [KO:K06106]
+            3059  HCLS1; hematopoietic cell-specific Lyn substrate 1 [KO:K06106]
+            25  ABL1; ABL proto-oncogene 1, non-receptor tyrosine kinase [KO:K06619] [EC:2.7.10.2]
+            1398  CRK; CRK proto-oncogene, adaptor protein [KO:K04438]
+            1399  CRKL; CRK like proto-oncogene, adaptor protein [KO:K04438]
+            998  CDC42; cell division cycle 42 [KO:K04393]
+            7414  VCL; vinculin [KO:K05700]
+            1729  DIAPH1; diaphanous related formin 1 [KO:K05740]
+            6093  ROCK1; Rho associated coiled-coil containing protein kinase 1 [KO:K04514] [EC:2.7.11.1]
+            9475  ROCK2; Rho associated coiled-coil containing protein kinase 2 [KO:K17388] [EC:2.7.11.1]
+            7454  WAS; WASP actin nucleation promoting factor [KO:K05747]
+            8976  WASL; WASP like actin nucleation promoting factor [KO:K05747]
+            60  ACTB; actin beta [KO:K05692]
+            71  ACTG1; actin gamma 1 [KO:K05692]
+            345456  PFN3; profilin 3 [KO:K05759]
+            5216  PFN1; profilin 1 [KO:K05759]
+            5217  PFN2; profilin 2 [KO:K05759]
+            375189  PFN4; profilin family member 4 [KO:K05759]
+            9474  ATG5; autophagy related 5 [KO:K08339]
+            10392  NOD1; nucleotide binding oligomerization domain containing 1 [KO:K08727]
+            64127  NOD2; nucleotide binding oligomerization domain containing 2 [KO:K10165]
+            8767  RIPK2; receptor interacting serine/threonine kinase 2 [KO:K08846] [EC:2.7.11.1]
+            5599  MAPK8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            5602  MAPK10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            5601  MAPK9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            5600  MAPK11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            6300  MAPK12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            5603  MAPK13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            1432  MAPK14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            8517  IKBKG; inhibitor of nuclear factor kappa B kinase regulatory subunit gamma [KO:K07210]
+            1147  CHUK; component of inhibitor of nuclear factor kappa B kinase complex [KO:K04467] [EC:2.7.11.10]
+            3551  IKBKB; inhibitor of nuclear factor kappa B kinase subunit beta [KO:K07209] [EC:2.7.11.10]
+            4793  NFKBIB; NFKB inhibitor beta [KO:K02581]
+            4792  NFKBIA; NFKB inhibitor alpha [KO:K04734]
+            4790  NFKB1; nuclear factor kappa B subunit 1 [KO:K02580]
+            5970  RELA; RELA proto-oncogene, NF-kB subunit [KO:K04735]
+            3576  CXCL8; C-X-C motif chemokine ligand 8 [KO:K10030]
+            7307  U2AF1; U2 small nuclear RNA auxiliary factor 1 [KO:K12836]
+            102724594  U2AF1L5; U2 small nuclear RNA auxiliary factor 1 like 5 [KO:K12836]
+            199746  U2AF1L4; U2 small nuclear RNA auxiliary factor 1 like 4 [KO:K12836]
+            8945  BTRC; beta-transducin repeat containing E3 ubiquitin protein ligase [KO:K03362]
+            23291  FBXW11; F-box and WD repeat domain containing 11 [KO:K03362]
+            10459  MAD2L2; mitotic arrest deficient 2 like 2 [KO:K13728]
+            7322  UBE2D2; ubiquitin conjugating enzyme E2 D2 [KO:K06689] [EC:2.3.2.23]
+COMPOUND    C04637  1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate
+            C04737  alpha-D-Galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
+REFERENCE   PMID:18202440
+  AUTHORS   Schroeder GN, Hilbi H
+  TITLE     Molecular pathogenesis of Shigella spp.: controlling host cell signaling, invasion, and death by type III secretion.
+  JOURNAL   Clin Microbiol Rev 21:134-56 (2008)
+            DOI:10.1128/CMR.00032-07
+REFERENCE   PMID:18059288
+  AUTHORS   Ogawa M, Handa Y, Ashida H, Suzuki M, Sasakawa C
+  TITLE     The versatility of Shigella effectors.
+  JOURNAL   Nat Rev Microbiol 6:11-6 (2008)
+            DOI:10.1038/nrmicro1814
+REFERENCE   PMID:7591128
+  AUTHORS   Nataro JP, Seriwatana J, Fasano A, Maneval DR, Guers LD, Noriega F, Dubovsky F, Levine MM, Morris JG Jr
+  TITLE     Identification and cloning of a novel plasmid-encoded enterotoxin of enteroinvasive Escherichia coli and Shigella strains.
+  JOURNAL   Infect Immun 63:4721-8 (1995)
+REFERENCE   PMID:7665485
+  AUTHORS   Nakayama S, Watanabe H
+  TITLE     Involvement of cpxA, a sensor of a two-component regulatory system, in the pH-dependent regulation of expression of Shigella sonnei virF gene.
+  JOURNAL   J Bacteriol 177:5062-9 (1995)
+            DOI:10.1128/JB.177.17.5062-5069.1995
+REFERENCE   PMID:8376337
+  AUTHORS   Menard R, Sansonetti PJ, Parsot C
+  TITLE     Nonpolar mutagenesis of the ipa genes defines IpaB, IpaC, and IpaD as effectors of Shigella flexneri entry into epithelial cells.
+  JOURNAL   J Bacteriol 175:5899-906 (1993)
+            DOI:10.1128/JB.175.18.5899-5906.1993
+REFERENCE   PMID:8642302
+  AUTHORS   Watarai M, Funato S, Sasakawa C
+  TITLE     Interaction of Ipa proteins of Shigella flexneri with alpha5beta1 integrin promotes entry of the bacteria into mammalian cells.
+  JOURNAL   J Exp Med 183:991-9 (1996)
+            DOI:10.1084/jem.183.3.991
+REFERENCE   PMID:9176079
+  AUTHORS   Fasano A, Noriega FR, Liao FM, Wang W, Levine MM
+  TITLE     Effect of shigella enterotoxin 1 (ShET1) on rabbit intestine in vitro and in vivo.
+  JOURNAL   Gut 40:505-11 (1997)
+            DOI:10.1136/gut.40.4.505
+REFERENCE   PMID:10369666
+  AUTHORS   Tran Van Nhieu G, Caron E, Hall A, Sansonetti PJ
+  TITLE     IpaC induces actin polymerization and filopodia formation during Shigella entry into epithelial cells.
+  JOURNAL   EMBO J 18:3249-62 (1999)
+            DOI:10.1093/emboj/18.12.3249
+REFERENCE   PMID:10491394
+  AUTHORS   Egile C, Loisel TP, Laurent V, Li R, Pantaloni D, Sansonetti PJ, Carlier MF
+  TITLE     Activation of the CDC42 effector N-WASP by the Shigella flexneri IcsA protein promotes actin nucleation by Arp2/3 complex and bacterial actin-based motility.
+  JOURNAL   J Cell Biol 146:1319-32 (1999)
+            DOI:10.1083/jcb.146.6.1319
+REFERENCE   PMID:11207560
+  AUTHORS   Skoudy A, Mounier J, Aruffo A, Ohayon H, Gounon P, Sansonetti P, Tran Van Nhieu G
+  TITLE     CD44 binds to the Shigella IpaB protein and participates in bacterial invasion of epithelial cells.
+  JOURNAL   Cell Microbiol 2:19-33 (2000)
+            DOI:10.1046/j.1462-5822.2000.00028.x
+REFERENCE   PMID:11379633
+  AUTHORS   Pantaloni D, Le Clainche C, Carlier MF
+  TITLE     Mechanism of actin-based motility.
+  JOURNAL   Science 292:1502-6 (2001)
+            DOI:10.1126/science.1059975
+REFERENCE   PMID:12065406
+  AUTHORS   Yoshida S, Katayama E, Kuwae A, Mimuro H, Suzuki T, Sasakawa C
+  TITLE     Shigella deliver an effector protein to trigger host microtubule destabilization, which promotes Rac1 activity and efficient bacterial internalization.
+  JOURNAL   EMBO J 21:2923-35 (2002)
+            DOI:10.1093/emboj/cdf319
+REFERENCE   PMID:12356723
+  AUTHORS   Niebuhr K, Giuriato S, Pedron T, Philpott DJ, Gaits F, Sable J, Sheetz MP, Parsot C, Sansonetti PJ, Payrastre B
+  TITLE     Conversion of PtdIns(4,5)P(2) into PtdIns(5)P by the S.flexneri effector IpgD reorganizes host cell morphology.
+  JOURNAL   EMBO J 21:5069-78 (2002)
+            DOI:10.1093/emboj/cdf522
+REFERENCE   PMID:12828640
+  AUTHORS   Hume PJ, McGhie EJ, Hayward RD, Koronakis V
+  TITLE     The purified Shigella IpaB and Salmonella SipB translocators share biochemical properties and membrane topology.
+  JOURNAL   Mol Microbiol 49:425-39 (2003)
+            DOI:10.1046/j.1365-2958.2003.03559.x
+REFERENCE   PMID:12856283
+  AUTHORS   Sossey-Alaoui K, Head K, Nowak N, Cowell JK
+  TITLE     Genomic organization and expression profile of the human and mouse WAVE gene family.
+  JOURNAL   Mamm Genome 14:314-22 (2003)
+            DOI:10.1007/s00335-002-2247-7
+REFERENCE   PMID:14638419
+  AUTHORS   Cherla RP, Lee SY, Tesh VL
+  TITLE     Shiga toxins and apoptosis.
+  JOURNAL   FEMS Microbiol Lett 228:159-66 (2003)
+            DOI:10.1016/S0378-1097(03)00761-4
+REFERENCE   PMID:15073367
+  AUTHORS   Cossart P, Sansonetti PJ
+  TITLE     Bacterial invasion: the paradigms of enteroinvasive pathogens.
+  JOURNAL   Science 304:242-8 (2004)
+            DOI:10.1126/science.1090124
+REFERENCE   PMID:15318166
+  AUTHORS   Matsuzawa T, Kuwae A, Yoshida S, Sasakawa C, Abe A.
+  TITLE     Enteropathogenic Escherichia coli activates the RhoA signaling pathway via the stimulation of GEF-H1.
+  JOURNAL   EMBO J 23:3570-82 (2004)
+            DOI:10.1038/sj.emboj.7600359
+REFERENCE   PMID:15694852
+  AUTHORS   Nhieu GT, Enninga J, Sansonetti P, Grompone G
+  TITLE     Tyrosine kinase signaling and type III effectors orchestrating Shigella invasion.
+  JOURNAL   Curr Opin Microbiol 8:16-20 (2005)
+            DOI:10.1016/j.mib.2004.12.006
+REFERENCE   PMID:15731041
+  AUTHORS   Picking WL, Nishioka H, Hearn PD, Baxter MA, Harrington AT, Blocker A, Picking WD
+  TITLE     IpaD of Shigella flexneri is independently required for regulation of Ipa protein secretion and efficient insertion of IpaB and IpaC into host membranes.
+  JOURNAL   Infect Immun 73:1432-40 (2005)
+            DOI:10.1128/IAI.73.3.1432-1440.2005
+REFERENCE   PMID:15950937
+  AUTHORS   Okuda J, Toyotome T, Kataoka N, Ohno M, Abe H, Shimura Y, Seyedarabi A, Pickersgill R, Sasakawa C
+  TITLE     Shigella effector IpaH9.8 binds to a splicing factor U2AF(35) to modulate host immune responses.
+  JOURNAL   Biochem Biophys Res Commun 333:531-9 (2005)
+            DOI:10.1016/j.bbrc.2005.05.145
+REFERENCE   PMID:16162672
+  AUTHORS   Kim DW, Lenzen G, Page AL, Legrain P, Sansonetti PJ, Parsot C
+  TITLE     The Shigella flexneri effector OspG interferes with innate immune responses by targeting ubiquitin-conjugating enzymes.
+  JOURNAL   Proc Natl Acad Sci U S A 102:14046-51 (2005)
+            DOI:10.1073/pnas.0504466102
+REFERENCE   PMID:16413487
+  AUTHORS   Alto NM, Shao F, Lazar CS, Brost RL, Chua G, Mattoo S, McMahon SA, Ghosh P, Hughes TR, Boone C, Dixon JE
+  TITLE     Identification of a bacterial type III effector family with G protein mimicry functions.
+  JOURNAL   Cell 124:133-45 (2006)
+            DOI:10.1016/j.cell.2005.10.031
+REFERENCE   PMID:16441429
+  AUTHORS   Ogawa M, Sasakawa C
+  TITLE     Intracellular survival of Shigella.
+  JOURNAL   Cell Microbiol 8:177-84 (2006)
+            DOI:10.1111/j.1462-5822.2005.00652.x
+REFERENCE   PMID:16622194
+  AUTHORS   Miura M, Terajima J, Izumiya H, Mitobe J, Komano T, Watanabe H
+  TITLE     OspE2 of Shigella sonnei is required for the maintenance of cell architecture of bacterium-infected cells.
+  JOURNAL   Infect Immun 74:2587-95 (2006)
+            DOI:10.1128/IAI.74.5.2587-2595.2006
+REFERENCE   PMID:16939534
+  AUTHORS   Hilbi H
+  TITLE     Modulation of phosphoinositide metabolism by pathogenic bacteria.
+  JOURNAL   Cell Microbiol 8:1697-706 (2006)
+            DOI:10.1111/j.1462-5822.2006.00793.x
+REFERENCE   PMID:17060328
+  AUTHORS   Demali KA, Jue AL, Burridge K
+  TITLE     IpaA targets beta1 integrins and rho to promote actin cytoskeleton rearrangements necessary for Shigella entry.
+  JOURNAL   J Biol Chem 281:39534-41 (2006)
+            DOI:10.1074/jbc.M605939200
+REFERENCE   PMID:17095701
+  AUTHORS   Yoshida S, Handa Y, Suzuki T, Ogawa M, Suzuki M, Tamai A, Abe A, Katayama E, Sasakawa C
+  TITLE     Microtubule-severing activity of Shigella is pivotal for intercellular spreading.
+  JOURNAL   Science 314:985-9 (2006)
+            DOI:10.1126/science.1133174
+REFERENCE   PMID:17173036
+  AUTHORS   Handa Y, Suzuki M, Ohya K, Iwai H, Ishijima N, Koleske AJ, Fukui Y, Sasakawa C
+  TITLE     Shigella IpgB1 promotes bacterial entry through the ELMO-Dock180 machinery.
+  JOURNAL   Nat Cell Biol 9:121-8 (2007)
+            DOI:10.1038/ncb1526
+REFERENCE   PMID:17662586
+  AUTHORS   Mattoo S, Lee YM, Dixon JE
+  TITLE     Interactions of bacterial effector proteins with host proteins.
+  JOURNAL   Curr Opin Immunol 19:392-401 (2007)
+            DOI:10.1016/j.coi.2007.06.005
+REFERENCE   PMID:17719540
+  AUTHORS   Iwai H, Kim M, Yoshikawa Y, Ashida H, Ogawa M, Fujita Y, Muller D, Kirikae T, Jackson PK, Kotani S, Sasakawa C
+  TITLE     A bacterial effector targets Mad2L2, an APC inhibitor, to modulate host cell cycling.
+  JOURNAL   Cell 130:611-23 (2007)
+            DOI:10.1016/j.cell.2007.06.043
+REFERENCE   PMID:18005683
+  AUTHORS   Rohde JR, Breitkreutz A, Chenal A, Sansonetti PJ, Parsot C
+  TITLE     Type III secretion effectors of the IpaH family are E3 ubiquitin ligases.
+  JOURNAL   Cell Host Microbe 1:77-83 (2007)
+            DOI:10.1016/j.chom.2007.02.002
+REFERENCE   PMID:18005697
+  AUTHORS   Zhang J, Shao F, Li Y, Cui H, Chen L, Li H, Zou Y, Long C, Lan L, Chai J, Chen S, Tang X, Zhou JM
+  TITLE     A Pseudomonas syringae effector inactivates MAPKs to suppress PAMP-induced immunity in plants.
+  JOURNAL   Cell Host Microbe 1:175-85 (2007)
+            DOI:10.1016/j.chom.2007.03.006
+REFERENCE   PMID:19165331
+  AUTHORS   Mounier J, Popoff MR, Enninga J, Frame MC, Sansonetti PJ, Van Nhieu GT
+  TITLE     The IpaC carboxyterminal effector domain mediates Src-dependent actin polymerization during Shigella invasion of epithelial cells.
+  JOURNAL   PLoS Pathog 5:e1000271 (2009)
+            DOI:10.1371/journal.ppat.1000271
+KO_PATHWAY  ko05131
+///

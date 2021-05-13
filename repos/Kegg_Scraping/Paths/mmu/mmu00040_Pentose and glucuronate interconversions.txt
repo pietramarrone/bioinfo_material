@@ -1,0 +1,133 @@
+ENTRY       mmu00040                    Pathway
+NAME        Pentose and glucuronate interconversions - Mus musculus (mouse)
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP mmu00040  Pentose and glucuronate interconversions
+MODULE      mmu_M00014  Glucuronate pathway (uronate pathway) [PATH:mmu00040]
+            mmu_M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate [PATH:mmu00040]
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        110006  Gusb; glucuronidase, beta [KO:K01195] [EC:3.2.1.31]
+            16591  Kl; klotho [KO:K14756] [EC:3.2.1.31]
+            22238  Ugt2b5; UDP glucuronosyltransferase 2 family, polypeptide B5 [KO:K00699] [EC:2.4.1.17]
+            22236  Ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2 [KO:K00699] [EC:2.4.1.17]
+            94284  Ugt1a6a; UDP glucuronosyltransferase 1 family, polypeptide A6A [KO:K00699] [EC:2.4.1.17]
+            94215  Ugt2a1; UDP glucuronosyltransferase 2 family, polypeptide A1 [KO:K00699] [EC:2.4.1.17]
+            394434  Ugt1a9; UDP glucuronosyltransferase 1 family, polypeptide A9 [KO:K00699] [EC:2.4.1.17]
+            394430  Ugt1a10; UDP glycosyltransferase 1 family, polypeptide A10 [KO:K00699] [EC:2.4.1.17]
+            394432  Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [KO:K00699] [EC:2.4.1.17]
+            394433  Ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5 [KO:K00699] [EC:2.4.1.17]
+            72094  Ugt2a3; UDP glucuronosyltransferase 2 family, polypeptide A3 [KO:K00699] [EC:2.4.1.17]
+            552899  Ugt2a2; UDP glucuronosyltransferase 2 family, polypeptide A2 [KO:K00699] [EC:2.4.1.17]
+            71773  Ugt2b1; UDP glucuronosyltransferase 2 family, polypeptide B1 [KO:K00699] [EC:2.4.1.17]
+            394435  Ugt1a6b; UDP glucuronosyltransferase 1 family, polypeptide A6B [KO:K00699] [EC:2.4.1.17]
+            394436  Ugt1a1; UDP glucuronosyltransferase 1 family, polypeptide A1 [KO:K00699] [EC:2.4.1.17]
+            100727  Ugt2b34; UDP glucuronosyltransferase 2 family, polypeptide B34 [KO:K00699] [EC:2.4.1.17]
+            231396  Ugt2b36; UDP glucuronosyltransferase 2 family, polypeptide B36 [KO:K00699] [EC:2.4.1.17]
+            100559  Ugt2b38; UDP glucuronosyltransferase 2 family, polypeptide B38 [KO:K00699] [EC:2.4.1.17]
+            112417  Ugt2b37; UDP glucuronosyltransferase 2 family, polypeptide B37 [KO:K00699] [EC:2.4.1.17]
+            243085  Ugt2b35; UDP glucuronosyltransferase 2 family, polypeptide B35 [KO:K00699] [EC:2.4.1.17]
+            22235  Ugdh; UDP-glucose dehydrogenase [KO:K00012] [EC:1.1.1.22]
+            216558  Ugp2; UDP-glucose pyrophosphorylase 2 [KO:K00963] [EC:2.7.7.9]
+            58810  Akr1a1; aldo-keto reductase family 1, member A1 (aldehyde reductase) [KO:K00002] [EC:1.1.1.2]
+            68631  Cryl1; crystallin, lambda 1 [KO:K13247] [EC:1.1.1.45]
+            66646  Rpe; ribulose-5-phosphate-3-epimerase [KO:K01783] [EC:5.1.3.1]
+            102448  Xylb; xylulokinase homolog (H. influenzae) [KO:K00854] [EC:2.7.1.17]
+            11997  Akr1b7; aldo-keto reductase family 1, member B7 [KO:K00011] [EC:1.1.1.21]
+            14187  Akr1b8; aldo-keto reductase family 1, member B8 [KO:K00011] [EC:1.1.1.21]
+            11677  Akr1b3; aldo-keto reductase family 1, member B3 (aldose reductase) [KO:K00011] [EC:1.1.1.21]
+            67861  Akr1b10; aldo-keto reductase family 1, member B10 (aldose reductase) [KO:K00011] [EC:1.1.1.21]
+            67880  Dcxr; dicarbonyl L-xylulose reductase [KO:K03331] [EC:1.1.1.10]
+            20322  Sord; sorbitol dehydrogenase [KO:K00008] [EC:1.1.1.14]
+            71755  Dhdh; dihydrodiol dehydrogenase (dimeric) [KO:K00078] [EC:1.3.1.20 1.1.1.179]
+            75847  Crppa; CDP-L-ribitol pyrophosphorylase A [KO:K21031] [EC:2.7.7.40]
+COMPOUND    C00022  Pyruvate
+            C00026  2-Oxoglutarate
+            C00029  UDP-glucose
+            C00103  D-Glucose 1-phosphate
+            C00111  Glycerone phosphate
+            C00116  Glycerol
+            C00167  UDP-glucuronate
+            C00181  D-Xylose
+            C00191  D-Glucuronate
+            C00199  D-Ribulose 5-phosphate
+            C00204  2-Dehydro-3-deoxy-D-gluconate
+            C00231  D-Xylulose 5-phosphate
+            C00259  L-Arabinose
+            C00266  Glycolaldehyde
+            C00309  D-Ribulose
+            C00310  D-Xylulose
+            C00312  L-Xylulose
+            C00333  D-Galacturonate
+            C00379  Xylitol
+            C00433  2,5-Dioxopentanoate
+            C00470  Pectate
+            C00474  Ribitol
+            C00476  D-Lyxose
+            C00502  D-Xylonate
+            C00508  L-Ribulose
+            C00514  D-Mannonate
+            C00532  L-Arabitol
+            C00558  D-Tagaturonate
+            C00618  3-Dehydro-L-gulonate
+            C00714  Pectin
+            C00789  CDP-ribitol
+            C00800  L-Gulonate
+            C00817  D-Altronate
+            C00905  D-Fructuronate
+            C01068  D-Ribitol 5-phosphate
+            C01101  L-Ribulose 5-phosphate
+            C01508  L-Lyxose
+            C01904  D-Arabitol
+            C02266  D-Xylonolactone
+            C02273  Digalacturonate
+            C02426  L-Glyceraldehyde
+            C03033  beta-D-Glucuronoside
+            C03291  L-Xylulose 5-phosphate
+            C03826  2-Dehydro-3-deoxy-D-xylonate
+            C04053  5-Dehydro-4-deoxy-D-glucuronate
+            C04349  (4S)-4,6-Dihydroxy-2,5-dioxohexanoate
+            C04575  (4R,5S)-4,5,6-Trihydroxy-2,3-dioxohexanoate
+            C05385  D-Glucuronate 1-phosphate
+            C05411  L-Xylonate
+            C05412  L-Lyxonate
+            C06118  4-(4-Deoxy-alpha-D-gluc-4-enuronosyl)-D-galacturonate
+            C06441  L-Xylulose 1-phosphate
+            C14899  3-Dehydro-L-gulonate 6-phosphate
+            C15930  L-Galactonate
+            C20680  2-Dehydro-3-deoxy-L-galactonate
+REFERENCE   PMID:11741871
+  AUTHORS   Yew WS, Gerlt JA.
+  TITLE     Utilization of L-ascorbate by Escherichia coli K-12: assignments of functions to products of the yjf-sga and yia-sgb operons.
+  JOURNAL   J Bacteriol 184:302-6 (2002)
+            DOI:10.1128/JB.184.1.302-306.2002
+REFERENCE   PMID:15697206
+  AUTHORS   Yew WS, Akana J, Wise EL, Rayment I, Gerlt JA
+  TITLE     Evolution of enzymatic activities in the orotidine 5'-monophosphate decarboxylase suprafamily: enhancing the promiscuous D-arabino-hex-3-ulose 6-phosphate synthase reaction catalyzed by 3-keto-L-gulonate 6-phosphate decarboxylase.
+  JOURNAL   Biochemistry 44:1807-15 (2005)
+            DOI:10.1021/bi047815v
+REFERENCE   PMID:10572115
+  AUTHORS   Yasueda H, Kawahara Y, Sugimoto S.
+  TITLE     Bacillus subtilis yckG and yckF encode two key enzymes of the ribulose monophosphate pathway used by methylotrophs, and yckH is required for their expression.
+  JOURNAL   J Bacteriol 181:7154-60 (1999)
+            DOI:10.1128/JB.181.23.7154-7160.1999
+REFERENCE   PMID:10913097
+  AUTHORS   Ibanez E, Gimenez R, Pedraza T, Baldoma L, Aguilar J, Badia J
+  TITLE     Role of the yiaR and yiaS genes of Escherichia coli in metabolism of endogenously formed L-xylulose.
+  JOURNAL   J Bacteriol 182:4625-7 (2000)
+            DOI:10.1128/JB.182.16.4625-4627.2000
+REFERENCE   PMID:15901685
+  AUTHORS   Orita I, Yurimoto H, Hirai R, Kawarabayasi Y, Sakai Y, Kato N
+  TITLE     The archaeon Pyrococcus horikoshii possesses a bifunctional enzyme for formaldehyde fixation via the ribulose monophosphate pathway.
+  JOURNAL   J Bacteriol 187:3636-42 (2005)
+            DOI:10.1128/JB.187.11.3636-3642.2005
+REL_PATHWAY mmu00010  Glycolysis / Gluconeogenesis
+            mmu00020  Citrate cycle (TCA cycle)
+            mmu00030  Pentose phosphate pathway
+            mmu00052  Galactose metabolism
+            mmu00053  Ascorbate and aldarate metabolism
+            mmu00500  Starch and sucrose metabolism
+            mmu00520  Amino sugar and nucleotide sugar metabolism
+            mmu00561  Glycerolipid metabolism
+            mmu00562  Inositol phosphate metabolism
+            mmu00740  Riboflavin metabolism
+KO_PATHWAY  ko00040
+///

@@ -1,0 +1,158 @@
+ENTRY       mmu03008                    Pathway
+NAME        Ribosome biogenesis in eukaryotes - Mus musculus (mouse)
+DESCRIPTION Ribosomes are the cellular factories responsible for making proteins. In eukaryotes, ribosome biogenesis involves the production and correct assembly of four rRNAs and about 80 ribosomal proteins. It requires hundreds of factors not present in the mature particle. In the absence of these proteins, ribosome biogenesis is stalled and cell growth is terminated even under optimal growth conditions. The primary pre-rRNA transcript is assembled into the 90S pre-ribosome, which contains both 40S and 60S assembly factors. Within this complex, the pre-rRNA is cleaved. pre-60S ribosomes are subjected to several sequential processing steps in the nucleoplasm involving numerous assembly intermediates before it is exported to the cytoplasm and matured into the 60S ribosomal subunit. The pre-40S ribosome is matured to the small ribosomal subunit in the cytoplasm by cleavage.
+CLASS       Genetic Information Processing; Translation
+PATHWAY_MAP mmu03008  Ribosome biogenesis in eukaryotes
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        13001  Csnk2b; casein kinase 2, beta polypeptide [KO:K03115]
+            12995  Csnk2a1; casein kinase 2, alpha 1 polypeptide [KO:K03097] [EC:2.7.11.1]
+            13000  Csnk2a2; casein kinase 2, alpha prime polypeptide [KO:K03097] [EC:2.7.11.1]
+            230082  Nol6; nucleolar protein family 6 (RNA-associated) [KO:K14544]
+            74778  Rrp7a; ribosomal RNA processing 7 homolog A (S. cerevisiae) [KO:K14545]
+            72515  Wdr43; WD repeat domain 43 [KO:K14546]
+            21771  Utp4; UTP4 small subunit processome component [KO:K14548]
+            105372  Utp15; UTP15 small subunit processome component [KO:K14549]
+            217995  Heatr1; HEAT repeat containing 1 [KO:K14550]
+            73674  Wdr75; WD repeat domain 75 [KO:K14552]
+            217109  Utp18; UTP18 small subunit processome component [KO:K14553]
+            225348  Wdr36; WD repeat domain 36 [KO:K14554]
+            213773  Tbl3; transducin (beta)-like 3 [KO:K14555]
+            269470  Wdr3; WD repeat domain 3 [KO:K14556]
+            216987  Utp6; UTP6 small subunit processome component [KO:K14557]
+            110816  Pwp2; PWP2 periodic tryptophan protein homolog (yeast) [KO:K14558]
+            67973  Mphosph10; M-phase phosphoprotein 10 (U3 small nucleolar ribonucleoprotein) [KO:K14559]
+            102462  Imp3; IMP3, U3 small nucleolar ribonucleoprotein [KO:K14560]
+            27993  Imp4; IMP4, U3 small nucleolar ribonucleoprotein [KO:K14561]
+            21453  Tcof1; treacle ribosome biogenesis factor 1 [KO:K14562]
+            14113  Fbl; fibrillarin [KO:K14563] [EC:2.1.1.-]
+            237730  Fbll1; fibrillarin-like 1 [KO:K14563] [EC:2.1.1.-]
+            67134  Nop56; NOP56 ribonucleoprotein [KO:K14564]
+            55989  Nop58; NOP58 ribonucleoprotein [KO:K14565]
+            20826  Snu13; SNU13 homolog, small nuclear ribonucleoprotein (U4/U6.U5) [KO:K12845]
+            100862468  NHP2-like protein 1 [KO:K12845]
+            245474  Dkc1; dyskeratosis congenita 1, dyskerin [KO:K11131] [EC:5.4.99.-]
+            52530  Nhp2; NHP2 ribonucleoprotein [KO:K11129]
+            68147  Gar1; GAR1 ribonucleoprotein [KO:K11128]
+            66181  Nop10; NOP10 ribonucleoprotein [KO:K11130]
+            73736  Fcf1; FCF1 rRNA processing protein [KO:K14566]
+            72554  Utp14a; UTP14A small subunit processome component [KO:K14567]
+            195434  Utp14b; UTP14B small subunit processome component [KO:K14567]
+            14000  Drosha; drosha, ribonuclease type III [KO:K03685] [EC:3.1.26.3]
+            14791  Emg1; EMG1 N1-specific pseudouridine methyltransferase [KO:K14568] [EC:2.1.1.260]
+            213895  Bms1; BMS1, ribosome biogenesis factor [KO:K14569]
+            98956  Nat10; N-acetyltransferase 10 [KO:K14521] [EC:2.3.1.-]
+            59028  Rcl1; RNA terminal phosphate cyclase-like 1 [KO:K11108]
+            67724  Pop1; processing of precursor 1, ribonuclease P/MRP family, (S. cerevisiae) [KO:K01164] [EC:3.1.26.5]
+            227522  Rpp38; ribonuclease P/MRP 38 subunit [KO:K14523] [EC:3.1.26.5]
+            66161  Pop4; processing of precursor 4, ribonuclease P/MRP family, (S. cerevisiae) [KO:K03538] [EC:3.1.26.5]
+            117109  Pop5; processing of precursor 5, ribonuclease P/MRP family (S. cerevisiae) [KO:K03537] [EC:3.1.26.5]
+            102614  Rpp25; ribonuclease P/MRP 25 subunit [KO:K14525] [EC:3.1.26.5]
+            69961  Rpp25l; ribonuclease P/MRP 25 subunit-like [KO:K14525] [EC:3.1.26.5]
+            74097  Pop7; processing of precursor 7, ribonuclease P family, (S. cerevisiae) [KO:K14527] [EC:3.1.26.5]
+            54364  Rpp30; ribonuclease P/MRP 30 subunit [KO:K03539] [EC:3.1.26.5]
+            208366  Rpp40; ribonuclease P 40 subunit [KO:K14530] [EC:3.1.26.5]
+            66932  Rexo1; REX1, RNA exonuclease 1 [KO:K14570] [EC:3.1.-.-]
+            434234  Rexo5; RNA exonuclease 5 [KO:K14570] [EC:3.1.-.-]
+            104444  Rexo2; RNA exonuclease 2 [KO:K13288] [EC:3.1.-.-]
+            24127  Xrn1; 5'-3' exoribonuclease 1 [KO:K12618] [EC:3.1.13.-]
+            24128  Xrn2; 5'-3' exoribonuclease 2 [KO:K12619] [EC:3.1.13.-]
+            69237  Gtpbp4; GTP binding protein 4 [KO:K06943]
+            230737  Gnl2; guanine nucleotide binding protein-like 2 (nucleolar) [KO:K14537]
+            30877  Gnl3; guanine nucleotide binding protein-like 3 (nucleolar) [KO:K14538]
+            237107  Gnl3l; guanine nucleotide binding protein-like 3 (nucleolar)-like [KO:K14538]
+            67459  Nvl; nuclear VCP-like [KO:K14571]
+            100019  Mdn1; midasin AAA ATPase 1 [KO:K14572]
+            68272  Rbm28; RNA binding motif protein 28 [KO:K14573]
+            67619  Nob1; NIN1/RPN12 binding protein 1 homolog [KO:K11883]
+            19384  Ran; RAN, member RAS oncogene family [KO:K07936]
+            19428  Rasl2-9; RAS-like, family 2, locus 9 [KO:K07936]
+            75471  1700009N14Rik; RIKEN cDNA 1700009N14 gene [KO:K07936]
+            103573  Xpo1; exportin 1 [KO:K14290]
+            97112  Nmd3; NMD3 ribosome export adaptor [KO:K07562]
+            53319  Nxf1; nuclear RNA export factor 1 [KO:K14284]
+            170722  Nxf7; nuclear RNA export factor 7 [KO:K14284]
+            83454  Nxf2; nuclear RNA export factor 2 [KO:K14284]
+            245610  Nxf3; nuclear RNA export factor 3 [KO:K14284]
+            56488  Nxt1; NTF2-related export protein 1 [KO:K14285]
+            237082  Nxt2; nuclear transport factor 2-like export factor 2 [KO:K14285]
+            16418  Eif6; eukaryotic translation initiation factor 6 [KO:K03264]
+            66711  Sbds; SBDS ribosome maturation factor [KO:K14574]
+            101592  Efl1; elongation factor like GTPase 1 [KO:K14536] [EC:3.6.5.-]
+            224092  Lsg1; large 60S subunit nuclear export GTPase 1 [KO:K14539] [EC:3.6.1.-]
+            57815  Spata5; spermatogenesis associated 5 [KO:K14575]
+            102216272  Ak6; adenylate kinase 6 [KO:K18532] [EC:2.7.4.3]
+            71340  Riok1; RIO kinase 1 [KO:K07178] [EC:2.7.11.1]
+            67045  Riok2; RIO kinase 2 [KO:K07179] [EC:2.7.11.1]
+            17724  mt-Rnr1; s-rRNA [KO:K01979]
+            790956  Rs5-8s1; 5.8S ribosomal RNA [KO:K01986]
+            100861531  Rn45s; 45S pre-ribosomal RNA [KO:K01986]
+            17725  mt-Rnr2; 16S ribosomal RNA [KO:K01982]
+            236598  Rn28s1; 28S ribosomal RNA [KO:K01982]
+            100861471  n-R5s100; nuclear encoded rRNA 5S 100 [KO:K01981]
+            100861496  n-R5s142; nuclear encoded rRNA 5S 142 [KO:K01981]
+            100861498  n-R5s144; nuclear encoded rRNA 5S 144 [KO:K01981]
+            100861478  n-R5s111; nuclear encoded rRNA 5S 111 [KO:K01981]
+            100861487  n-R5s128; nuclear encoded rRNA 5S 128 [KO:K01981]
+            100861494  Gm22109; predicted gene, 22109 [KO:K01981]
+            100861473  n-R5s104; nuclear encoded rRNA 5S 104 [KO:K01981]
+            100861495  n-R5s141; nuclear encoded rRNA 5S 141 [KO:K01981]
+            100861488  Gm26391; predicted gene, 26391 [KO:K01981]
+            100861493  n-R5s139; nuclear encoded rRNA 5S 139 [KO:K01981]
+            19804  Rn5s; 5S RNA [KO:K01981]
+            100861500  n-R5s146; nuclear encoded rRNA 5S 146 [KO:K01981]
+            100861475  n-R5s108; nuclear encoded rRNA 5S 108 [KO:K01981]
+            100861503  n-R5s149; nuclear encoded rRNA 5S 149 [KO:K01981]
+            100861501  Gm22291; predicted gene, 22291 [KO:K01981]
+            100861480  Gm25018; predicted gene, 25018 [KO:K01981]
+            100861482  n-R5s121; nuclear encoded rRNA 5S 121 [KO:K01981]
+            100861472  n-R5s103; nuclear encoded rRNA 5S 103 [KO:K01981]
+            100861492  n-R5s138; nuclear encoded rRNA 5S 138 [KO:K01981]
+            100861484  n-R5s123; nuclear encoded rRNA 5S 123 [KO:K01981]
+            100861477  n-R5s110; nuclear encoded rRNA 5S 110 [KO:K01981]
+            100861489  n-R5s133; nuclear encoded rRNA 5S 133 [KO:K01981]
+            100861479  n-R5s113; nuclear encoded rRNA 5S 113 [KO:K01981]
+            100861474  n-R5s105; nuclear encoded rRNA 5S 105 [KO:K01981]
+            100861499  Gm25212; predicted gene, 25212 [KO:K01981]
+            100861497  n-R5s143; nuclear encoded rRNA 5S 143 [KO:K01981]
+            100861486  n-R5s124; nuclear encoded rRNA 5S 124 [KO:K01981]
+            100861483  n-R5s122; nuclear encoded rRNA 5S 122 [KO:K01981]
+            100861490  n-R5s134; nuclear encoded rRNA 5S 134 [KO:K01981]
+            100861481  n-R5s117; nuclear encoded rRNA 5S 117 [KO:K01981]
+            100861502  Gm23284; predicted gene, 23284 [KO:K01981]
+            100861491  n-R5s136; nuclear encoded rRNA 5S 136 [KO:K01981]
+            19850  Rnu3a; U3A small nuclear RNA [KO:K14483]
+            19858  Rnu3b1; U3B small nuclear RNA 1 [KO:K14483]
+            19860  Rnu3b3; U3B small nuclear RNA 3 [KO:K14483]
+            19859  Rnu3b2; U3B small nuclear RNA 2 [KO:K14483]
+            19861  Rnu3b4; U3B small nuclear RNA 4 [KO:K14483]
+            115487926  Gm24949; predicted gene, 24949 [KO:K14483]
+            115487696  Gm24826; predicted gene, 24826 [KO:K14483]
+            19782  Rmrp; RNA component of mitochondrial RNAase P [KO:K14576]
+REFERENCE   PMID:20174677
+  AUTHORS   Freed EF, Bleichert F, Dutca LM, Baserga SJ
+  TITLE     When ribosomes go bad: diseases of ribosome biogenesis.
+  JOURNAL   Mol Biosyst 6:481-93 (2010)
+            DOI:10.1039/b919670f
+REFERENCE   PMID:17515605
+  AUTHORS   Perez-Fernandez J, Roman A, De Las Rivas J, Bustelo XR, Dosil M
+  TITLE     The 90S preribosome is a multimodular structure that is assembled through a hierarchical mechanism.
+  JOURNAL   Mol Cell Biol 27:5414-29 (2007)
+            DOI:10.1128/MCB.00380-07
+REFERENCE   PMID:19850913
+  AUTHORS   Strunk BS, Karbstein K
+  TITLE     Powering through ribosome assembly.
+  JOURNAL   RNA 15:2083-104 (2009)
+            DOI:10.1261/rna.1792109
+REFERENCE   PMID:15120992
+  AUTHORS   Granneman S, Baserga SJ
+  TITLE     Ribosome biogenesis: of knobs and RNA processing.
+  JOURNAL   Exp Cell Res 296:43-50 (2004)
+            DOI:10.1016/j.yexcr.2004.03.016
+REFERENCE   PMID:19879902
+  AUTHORS   Kressler D, Hurt E, Bassler J
+  TITLE     Driving ribosome assembly.
+  JOURNAL   Biochim Biophys Acta 1803:673-83 (2010)
+            DOI:10.1016/j.bbamcr.2009.10.009
+REL_PATHWAY mmu03010  Ribosome
+KO_PATHWAY  ko03008
+///

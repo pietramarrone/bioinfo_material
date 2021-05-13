@@ -1,0 +1,202 @@
+ENTRY       mmu05235                    Pathway
+NAME        PD-L1 expression and PD-1 checkpoint pathway in cancer - Mus musculus (mouse)
+DESCRIPTION Programmed cell death 1 (PD1) and its ligand (PDL1) are key regulatory physiological immune checkpoints that maintain self-tolerance in the organism by regulating the degree of activation of T and B  cells amongst other immune cell types. In solid tumors, the PD-1/PD-L1 inhibitory pathway can be (mis-)used to silence the immune system by increasing the expression of PD-L1 on the tumor cell surface. Up-regulation of PD-L1 is caused by activation of pro-survival pathways MAPK and PI3K/Akt as well as transcriptional factors HIF-1, STAT3 and NF-kappa B. The MAPK and PI3K signalling pathways are activated by gene mutations and growth factors. PD-L1 on tumor cells may then engage the PD-1 receptors resulting in suppression of T-cell mediated immune response. Therapeutic antibodies blocking the PD-1/PD-L1 pathway by targeting PD-L1 or PD-1 are highly effective in rescuing T cell anti-tumor effector functions.
+CLASS       Human Diseases; Cancer: overview
+PATHWAY_MAP mmu05235  PD-L1 expression and PD-1 checkpoint pathway in cancer
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        15251  Hif1a; hypoxia inducible factor 1, alpha subunit [KO:K08268]
+            13645  Egf; epidermal growth factor [KO:K04357]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            78798  Eml4; echinoderm microtubule associated protein like 4 [KO:K15420]
+            11682  Alk; anaplastic lymphoma kinase [KO:K05119] [EC:2.7.10.1]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            19211  Pten; phosphatase and tensin homolog [KO:K01110] [EC:3.1.3.16 3.1.3.48 3.1.3.67]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            58988  Rps6kb2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04688] [EC:2.7.11.1]
+            72508  Rps6kb1; ribosomal protein S6 kinase, polypeptide 1 [KO:K04688] [EC:2.7.11.1]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            18035  Nfkbia; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [KO:K04734]
+            18036  Nfkbib; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, beta [KO:K02581]
+            18037  Nfkbie; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, epsilon [KO:K05872]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            15978  Ifng; interferon gamma [KO:K04687]
+            15979  Ifngr1; interferon gamma receptor 1 [KO:K05132]
+            15980  Ifngr2; interferon gamma receptor 2 [KO:K05133]
+            16451  Jak1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            16452  Jak2; Janus kinase 2 [KO:K04447] [EC:2.7.10.2]
+            20846  Stat1; signal transducer and activator of transcription 1 [KO:K11220]
+            20848  Stat3; signal transducer and activator of transcription 3 [KO:K04692]
+            24088  Tlr2; toll-like receptor 2 [KO:K10159]
+            21898  Tlr4; toll-like receptor 4 [KO:K10160]
+            81897  Tlr9; toll-like receptor 9 [KO:K10161]
+            117149  Tirap; toll-interleukin 1 receptor (TIR) domain-containing adaptor protein [KO:K05403]
+            17874  Myd88; myeloid differentiation primary response gene 88 [KO:K04729]
+            22034  Traf6; TNF receptor-associated factor 6 [KO:K03175] [EC:2.3.2.27]
+            18018  Nfatc1; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 1 [KO:K04446]
+            18019  Nfatc2; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 2 [KO:K17332]
+            18021  Nfatc3; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 3 [KO:K17333]
+            106759  Ticam1; toll-like receptor adaptor molecule 1 [KO:K05842]
+            225471  Ticam2; toll-like receptor adaptor molecule 2 [KO:K05409]
+            60533  Cd274; CD274 antigen [KO:K06745]
+            18566  Pdcd1; programmed cell death 1 [KO:K06744]
+            15170  Ptpn6; protein tyrosine phosphatase, non-receptor type 6 [KO:K05697] [EC:3.1.3.48]
+            19247  Ptpn11; protein tyrosine phosphatase, non-receptor type 11 [KO:K07293] [EC:3.1.3.48]
+            381319  Batf3; basic leucine zipper transcription factor, ATF-like 3 [KO:K09034]
+            53314  Batf; basic leucine zipper transcription factor, ATF-like [KO:K09034]
+            74481  Batf2; basic leucine zipper transcription factor, ATF-like 2 [KO:K09034]
+            12995  Csnk2a1; casein kinase 2, alpha 1 polypeptide [KO:K03097] [EC:2.7.11.1]
+            13000  Csnk2a2; casein kinase 2, alpha prime polypeptide [KO:K03097] [EC:2.7.11.1]
+            13001  Csnk2b; casein kinase 2, beta polypeptide [KO:K03115]
+            12504  Cd4; CD4 antigen [KO:K06454]
+            16818  Lck; lymphocyte protein tyrosine kinase [KO:K05856] [EC:2.7.10.2]
+            12501  Cd3e; CD3 antigen, epsilon polypeptide [KO:K06451]
+            12502  Cd3g; CD3 antigen, gamma polypeptide [KO:K06452]
+            12503  Cd247; CD247 antigen [KO:K06453]
+            12500  Cd3d; CD3 antigen, delta polypeptide [KO:K06450]
+            22637  Zap70; zeta-chain (TCR) associated protein kinase [KO:K07360] [EC:2.7.10.2]
+            26406  Map3k3; mitogen-activated protein kinase kinase kinase 3 [KO:K04421] [EC:2.7.11.25]
+            26397  Map2k3; mitogen-activated protein kinase kinase 3 [KO:K04432] [EC:2.7.12.2]
+            26399  Map2k6; mitogen-activated protein kinase kinase 6 [KO:K04433] [EC:2.7.12.2]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            16797  Lat; linker for activation of T cells [KO:K07362]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            19057  Ppp3cc; protein phosphatase 3, catalytic subunit, gamma isoform [KO:K04348] [EC:3.1.3.16]
+            19055  Ppp3ca; protein phosphatase 3, catalytic subunit, alpha isoform [KO:K04348] [EC:3.1.3.16]
+            19056  Ppp3cb; protein phosphatase 3, catalytic subunit, beta isoform [KO:K04348] [EC:3.1.3.16]
+            19058  Ppp3r1; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type I) [KO:K06268]
+            19059  Ppp3r2; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type II) [KO:K06268]
+            19419  Rasgrp1; RAS guanyl releasing protein 1 [KO:K04350]
+            12487  Cd28; CD28 antigen [KO:K06470]
+            18761  Prkcq; protein kinase C, theta [KO:K18052] [EC:2.7.11.13]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:29097600
+  AUTHORS   Kythreotou A, Siddique A, Mauri FA, Bower M, Pinato DJ
+  TITLE     PD-L1.
+  JOURNAL   J Clin Pathol 71:189-194 (2018)
+            DOI:10.1136/jclinpath-2017-204853
+REFERENCE   PMID:27816403
+  AUTHORS   Zhou TC, Sankin AI, Porcelli SA, Perlin DS, Schoenberg MP, Zang X
+  TITLE     A review of the PD-1/PD-L1 checkpoint in bladder cancer: From mediator of immune escape to target for treatment.
+  JOURNAL   Urol Oncol 35:14-20 (2017)
+            DOI:10.1016/j.urolonc.2016.10.004
+REFERENCE   PMID:29910728
+  AUTHORS   Wang Y, Wang H, Yao H, Li C, Fang JY, Xu J
+  TITLE     Regulation of PD-L1: Emerging Routes for Targeting Tumor Immune Evasion.
+  JOURNAL   Front Pharmacol 9:536 (2018)
+            DOI:10.3389/fphar.2018.00536
+REFERENCE   PMID:30646912
+  AUTHORS   Jiang X, Wang J, Deng X, Xiong F, Ge J, Xiang B, Wu X, Ma J, Zhou M, Li X, Li Y, Li G, Xiong W, Guo C, Zeng Z
+  TITLE     Role of the tumor microenvironment in PD-L1/PD-1-mediated tumor immune escape.
+  JOURNAL   Mol Cancer 18:10 (2019)
+            DOI:10.1186/s12943-018-0928-4
+REFERENCE   PMID:28018338
+  AUTHORS   Bardhan K, Anagnostou T, Boussiotis VA
+  TITLE     The PD1:PD-L1/2 Pathway from Discovery to Clinical Implementation.
+  JOURNAL   Front Immunol 7:550 (2016)
+            DOI:10.3389/fimmu.2016.00550
+REFERENCE   PMID:30120503
+  AUTHORS   Shi Y
+  TITLE     Regulatory mechanisms of PD-L1 expression in cancer cells.
+  JOURNAL   Cancer Immunol Immunother 67:1481-1489 (2018)
+            DOI:10.1007/s00262-018-2226-9
+REFERENCE   PMID:29765155
+  AUTHORS   Zerdes I, Matikas A, Bergh J, Rassidakis GZ, Foukakis T
+  TITLE     Genetic, transcriptional and post-translational regulation of the programmed death protein ligand 1 in cancer: biology and clinical correlations.
+  JOURNAL   Oncogene 37:4639-4661 (2018)
+            DOI:10.1038/s41388-018-0303-3
+REFERENCE   PMID:26681673
+  AUTHORS   Chen J, Jiang CC, Jin L, Zhang XD
+  TITLE     Regulation of PD-L1: a novel role of pro-survival signalling in cancer.
+  JOURNAL   Ann Oncol 27:409-16 (2016)
+            DOI:10.1093/annonc/mdv615
+REFERENCE   PMID:29262340
+  AUTHORS   Glodde N, Holzel M
+  TITLE     RAS and PD-L1: A Masters' Liaison in Cancer Immune Evasion.
+  JOURNAL   Immunity 47:1007-1009 (2017)
+            DOI:10.1016/j.immuni.2017.12.001
+REFERENCE   PMID:25500094
+  AUTHORS   Ritprajak P, Azuma M
+  TITLE     Intrinsic and extrinsic control of expression of the immunoregulatory molecule PD-L1 in epithelial cells and squamous cell carcinoma.
+  JOURNAL   Oral Oncol 51:221-8 (2015)
+            DOI:10.1016/j.oraloncology.2014.11.014
+REFERENCE   PMID:23868869
+  AUTHORS   Nirschl CJ, Drake CG
+  TITLE     Molecular pathways: coexpression of immune checkpoint molecules: signaling pathways and implications for cancer immunotherapy.
+  JOURNAL   Clin Cancer Res 19:4917-24 (2013)
+            DOI:10.1158/1078-0432.CCR-12-1972
+REFERENCE   PMID:30473697
+  AUTHORS   Saeidi A, Zandi K, Cheok YY, Saeidi H, Wong WF, Lee CYQ, Cheong HC, Yong YK, Larsson M, Shankar EM
+  TITLE     T-Cell Exhaustion in Chronic Infections: Reversing the State of Exhaustion and Reinvigorating Optimal Protective Immune Responses.
+  JOURNAL   Front Immunol 9:2569 (2018)
+            DOI:10.3389/fimmu.2018.02569
+REFERENCE   PMID:28990585
+  AUTHORS   Sharpe AH, Pauken KE
+  TITLE     The diverse functions of the PD1 inhibitory pathway.
+  JOURNAL   Nat Rev Immunol 18:153-167 (2018)
+            DOI:10.1038/nri.2017.108
+REFERENCE   PMID:27806234
+  AUTHORS   Boussiotis VA
+  TITLE     Molecular and Biochemical Aspects of the PD-1 Checkpoint Pathway.
+  JOURNAL   N Engl J Med 375:1767-1778 (2016)
+            DOI:10.1056/NEJMra1514296
+REFERENCE   PMID:28881701
+  AUTHORS   Arasanz H, Gato-Canas M, Zuazo M, Ibanez-Vea M, Breckpot K, Kochan G, Escors D
+  TITLE     PD1 signal transduction pathways in T cells.
+  JOURNAL   Oncotarget 8:51936-51945 (2017)
+            DOI:10.18632/oncotarget.17232
+REFERENCE   PMID:29114543
+  AUTHORS   Zuazo M, Gato-Canas M, Llorente N, Ibanez-Vea M, Arasanz H, Kochan G, Escors D
+  TITLE     Molecular mechanisms of programmed cell death-1 dependent T cell suppression: relevance for immunotherapy.
+  JOURNAL   Ann Transl Med 5:385 (2017)
+            DOI:10.21037/atm.2017.06.11
+REFERENCE   PMID:23732914
+  AUTHORS   Patsoukis N, Li L, Sari D, Petkova V, Boussiotis VA
+  TITLE     PD-1 increases PTEN phosphatase activity while decreasing PTEN protein stability by inhibiting casein kinase 2.
+  JOURNAL   Mol Cell Biol 33:3091-8 (2013)
+            DOI:10.1128/MCB.00319-13
+REFERENCE   PMID:26162965
+  AUTHORS   Chinai JM, Janakiram M, Chen F, Chen W, Kaplan M, Zang X
+  TITLE     New immunotherapies targeting the PD-1 pathway.
+  JOURNAL   Trends Pharmacol Sci 36:587-95 (2015)
+            DOI:10.1016/j.tips.2015.06.005
+REFERENCE   PMID:28242522
+  AUTHORS   Ok CY, Young KH
+  TITLE     Targeting the programmed death-1 pathway in lymphoid neoplasms.
+  JOURNAL   Cancer Treat Rev 54:99-109 (2017)
+            DOI:10.1016/j.ctrv.2017.01.009
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04066  HIF-1 signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04514  Cell adhesion molecules (CAMs)
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04660  T cell receptor signaling pathway
+KO_PATHWAY  ko05235
+///

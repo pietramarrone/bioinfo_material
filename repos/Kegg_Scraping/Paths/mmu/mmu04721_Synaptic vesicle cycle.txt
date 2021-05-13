@@ -1,0 +1,168 @@
+ENTRY       mmu04721                    Pathway
+NAME        Synaptic vesicle cycle - Mus musculus (mouse)
+DESCRIPTION Communication between neurons is mediated by the release of neurotransmitter from synaptic vesicles (SVs). At the nerve terminal, SVs cycle through repetitive episodes of exocytosis and endocytosis. SVs are filled with neurotransmitters by active transport. The loaded SVs are then docked at a specialized region of the presynaptic plasma membrane known as the active zone, where they undergo a priming reaction. Upon arrival of an action potential, Ca2+ enters through voltage-gated channels and neurotransmitter is released by exocytosis, usually in less than a millisecond. After fusion, the vesicle is retrieved by endocytosis and reloaded for another round of exocytosis.
+CLASS       Organismal Systems; Nervous system
+PATHWAY_MAP mmu04721  Synaptic vesicle cycle
+DBLINKS     GO: 0016079 0048488
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        22348  Slc32a1; solute carrier family 32 (GABA vesicular transporter), member 1 [KO:K15015]
+            110877  Slc18a1; solute carrier family 18 (vesicular monoamine), member 1 [KO:K08155]
+            214084  Slc18a2; solute carrier family 18 (vesicular monoamine), member 2 [KO:K08155]
+            20508  Slc18a3; solute carrier family 18 (vesicular monoamine), member 3 [KO:K14636]
+            140919  Slc17a6; solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 6 [KO:K12302]
+            216227  Slc17a8; solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 8 [KO:K12302]
+            72961  Slc17a7; solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 7 [KO:K12302]
+            20979  Syt1; synaptotagmin I [KO:K15290]
+            22318  Vamp2; vesicle-associated membrane protein 2 [KO:K13504]
+            19339  Rab3a; RAB3A, member RAS oncogene family [KO:K07882]
+            116837  Rims1; regulating synaptic membrane exocytosis 1 [KO:K15291]
+            20907  Stx1a; syntaxin 1A (brain) [KO:K04560]
+            13852  Stx2; syntaxin 2 [KO:K08486]
+            20908  Stx3; syntaxin 3 [KO:K08486]
+            56216  Stx1b; syntaxin 1B [KO:K08486]
+            20910  Stxbp1; syntaxin binding protein 1 [KO:K15292]
+            22249  Unc13b; unc-13 homolog B [KO:K15293]
+            208898  Unc13c; unc-13 homolog C [KO:K15293]
+            382018  Unc13a; unc-13 homolog A [KO:K15293]
+            20614  Snap25; synaptosomal-associated protein 25 [KO:K18211]
+            12889  Cplx1; complexin 1 [KO:K15294]
+            12890  Cplx2; complexin 2 [KO:K15294]
+            235415  Cplx3; complexin 3 [KO:K15295]
+            225644  Cplx4; complexin 4 [KO:K15295]
+            12286  Cacna1a; calcium channel, voltage-dependent, P/Q type, alpha 1A subunit [KO:K04344]
+            12287  Cacna1b; calcium channel, voltage-dependent, N type, alpha 1B subunit [KO:K04849]
+            18195  Nsf; N-ethylmaleimide sensitive fusion protein [KO:K06027] [EC:3.6.4.6]
+            108124  Napa; N-ethylmaleimide sensitive fusion protein attachment protein alpha [KO:K15296]
+            13429  Dnm1; dynamin 1 [KO:K01528] [EC:3.6.5.5]
+            103967  Dnm3; dynamin 3 [KO:K01528] [EC:3.6.5.5]
+            13430  Dnm2; dynamin 2 [KO:K23484] [EC:3.6.5.5]
+            12757  Clta; clathrin, light polypeptide (Lca) [KO:K04644]
+            74325  Cltb; clathrin, light polypeptide (Lcb) [KO:K04645]
+            67300  Cltc; clathrin, heavy polypeptide (Hc) [KO:K04646]
+            11772  Ap2a2; adaptor-related protein complex 2, alpha 2 subunit [KO:K11824]
+            11771  Ap2a1; adaptor-related protein complex 2, alpha 1 subunit [KO:K11824]
+            71770  Ap2b1; adaptor-related protein complex 2, beta 1 subunit [KO:K11825]
+            11773  Ap2m1; adaptor-related protein complex 2, mu 1 subunit [KO:K11826]
+            232910  Ap2s1; adaptor-related protein complex 2, sigma 1 subunit [KO:K11827]
+            11964  Atp6v1a; ATPase, H+ transporting, lysosomal V1 subunit A [KO:K02145] [EC:7.1.2.2]
+            11966  Atp6v1b2; ATPase, H+ transporting, lysosomal V1 subunit B2 [KO:K02147]
+            110935  Atp6v1b1; ATPase, H+ transporting, lysosomal V1 subunit B1 [KO:K02147]
+            66335  Atp6v1c1; ATPase, H+ transporting, lysosomal V1 subunit C1 [KO:K02148]
+            68775  Atp6v1c2; ATPase, H+ transporting, lysosomal V1 subunit C2 [KO:K02148]
+            73834  Atp6v1d; ATPase, H+ transporting, lysosomal V1 subunit D [KO:K02149]
+            11973  Atp6v1e1; ATPase, H+ transporting, lysosomal V1 subunit E1 [KO:K02150]
+            74915  Atp6v1e2; ATPase, H+ transporting, lysosomal V1 subunit E2 [KO:K02150]
+            66144  Atp6v1f; ATPase, H+ transporting, lysosomal V1 subunit F [KO:K02151]
+            66237  Atp6v1g2; ATPase, H+ transporting, lysosomal V1 subunit G2 [KO:K02152]
+            66290  Atp6v1g1; ATPase, H+ transporting, lysosomal V1 subunit G1 [KO:K02152]
+            338375  Atp6v1g3; ATPase, H+ transporting, lysosomal V1 subunit G3 [KO:K02152]
+            11974  Atp6v0e; ATPase, H+ transporting, lysosomal V0 subunit E [KO:K02153]
+            76252  Atp6v0e2; ATPase, H+ transporting, lysosomal V0 subunit E2 [KO:K02153]
+            11975  Atp6v0a1; ATPase, H+ transporting, lysosomal V0 subunit A1 [KO:K02154]
+            21871  Atp6v0a2; ATPase, H+ transporting, lysosomal V0 subunit A2 [KO:K02154]
+            27060  Tcirg1; T cell, immune regulator 1, ATPase, H+ transporting, lysosomal V0 protein A3 [KO:K02154]
+            140494  Atp6v0a4; ATPase, H+ transporting, lysosomal V0 subunit A4 [KO:K02154]
+            11972  Atp6v0d1; ATPase, H+ transporting, lysosomal V0 subunit D1 [KO:K02146]
+            242341  Atp6v0d2; ATPase, H+ transporting, lysosomal V0 subunit D2 [KO:K02146]
+            108664  Atp6v1h; ATPase, H+ transporting, lysosomal V1 subunit H [KO:K02144]
+            11984  Atp6v0c; ATPase, H+ transporting, lysosomal V0 subunit C [KO:K02155]
+            114143  Atp6v0b; ATPase, H+ transporting, lysosomal V0 subunit B [KO:K03661]
+            232333  Slc6a1; solute carrier family 6 (neurotransmitter transporter, GABA), member 1 [KO:K05034]
+            20538  Slc6a2; solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2 [KO:K05035]
+            13162  Slc6a3; solute carrier family 6 (neurotransmitter transporter, dopamine), member 3 [KO:K05036]
+            15567  Slc6a4; solute carrier family 6 (neurotransmitter transporter, serotonin), member 4 [KO:K05037]
+            104245  Slc6a5; solute carrier family 6 (neurotransmitter transporter, glycine), member 5 [KO:K05038]
+            14664  Slc6a9; solute carrier family 6 (neurotransmitter transporter, glycine), member 9 [KO:K05038]
+            240332  Slc6a7; solute carrier family 6 (neurotransmitter transporter, L-proline), member 7 [KO:K05040]
+            243616  Slc6a11; solute carrier family 6 (neurotransmitter transporter, GABA), member 11 [KO:K05044]
+            14411  Slc6a12; solute carrier family 6 (neurotransmitter transporter, betaine/GABA), member 12 [KO:K05045]
+            14412  Slc6a13; solute carrier family 6 (neurotransmitter transporter, GABA), member 13 [KO:K05046]
+            20510  Slc1a1; solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1 [KO:K05612]
+            20511  Slc1a2; solute carrier family 1 (glial high affinity glutamate transporter), member 2 [KO:K05613]
+            20512  Slc1a3; solute carrier family 1 (glial high affinity glutamate transporter), member 3 [KO:K05614]
+            20513  Slc1a6; solute carrier family 1 (high affinity aspartate/glutamate transporter), member 6 [KO:K05617]
+            242607  Slc1a7; solute carrier family 1 (glutamate transporter), member 7 [KO:K05618]
+COMPOUND    C00002  ATP
+            C00025  L-Glutamate
+            C00037  Glycine
+            C00076  Calcium cation
+            C00080  H+
+            C00334  4-Aminobutanoate
+            C00388  Histamine
+            C00547  L-Noradrenaline
+            C00780  Serotonin
+            C01996  Acetylcholine
+            C03758  Dopamine
+            C16041  Leu-enkephalin
+REFERENCE   PMID:12827282
+  AUTHORS   Li L, Chin LS
+  TITLE     The molecular machinery of synaptic vesicle exocytosis.
+  JOURNAL   Cell Mol Life Sci 60:942-60 (2003)
+            DOI:10.1007/s00018-003-2240-7
+REFERENCE   
+  AUTHORS   Nestler EJ, Hyman SE, Malenka RC.
+  TITLE     Molecular neuropharmacology: A foundation for clinical neuroscience
+  JOURNAL   The McGraw-Hill Companies, Inc. (2001)
+REFERENCE   PMID:18275379
+  AUTHORS   Chapman ER
+  TITLE     How does synaptotagmin trigger neurotransmitter release?
+  JOURNAL   Annu Rev Biochem 77:615-41 (2008)
+            DOI:10.1146/annurev.biochem.77.062005.101135
+REFERENCE   PMID:10212473
+  AUTHORS   Benfenati F, Onofri F, Giovedi S
+  TITLE     Protein-protein interactions and protein modules in the control of neurotransmitter release.
+  JOURNAL   Philos Trans R Soc Lond B Biol Sci 354:243-57 (1999)
+            DOI:10.1098/rstb.1999.0376
+REFERENCE   PMID:20634814
+  AUTHORS   de Saint Basile G, Menasche G, Fischer A
+  TITLE     Molecular mechanisms of biogenesis and exocytosis of cytotoxic granules.
+  JOURNAL   Nat Rev Immunol 10:568-79 (2010)
+            DOI:10.1038/nri2803
+REFERENCE   PMID:17767192
+  AUTHORS   Carr CM, Munson M
+  TITLE     Tag team action at the synapse.
+  JOURNAL   EMBO Rep 8:834-8 (2007)
+            DOI:10.1038/sj.embor.7401051
+REFERENCE   PMID:15217342
+  AUTHORS   Sudhof TC
+  TITLE     The synaptic vesicle cycle.
+  JOURNAL   Annu Rev Neurosci 27:509-47 (2004)
+            DOI:10.1146/annurev.neuro.26.041002.131412
+REFERENCE   PMID:12563290
+  AUTHORS   Gundelfinger ED, Kessels MM, Qualmann B
+  TITLE     Temporal and spatial coordination of exocytosis and endocytosis.
+  JOURNAL   Nat Rev Mol Cell Biol 4:127-39 (2003)
+            DOI:10.1038/nrm1016
+REFERENCE   PMID:16990140
+  AUTHORS   Tang J, Maximov A, Shin OH, Dai H, Rizo J, Sudhof TC
+  TITLE     A complexin/synaptotagmin 1 switch controls fast synaptic vesicle exocytosis.
+  JOURNAL   Cell 126:1175-87 (2006)
+            DOI:10.1016/j.cell.2006.08.030
+REFERENCE   PMID:12094216
+  AUTHORS   Chapman ER
+  TITLE     Synaptotagmin: a Ca(2+) sensor that triggers exocytosis?
+  JOURNAL   Nat Rev Mol Cell Biol 3:498-508 (2002)
+            DOI:10.1038/nrm855
+REFERENCE   PMID:7791897
+  AUTHORS   Sudhof TC
+  TITLE     The synaptic vesicle cycle: a cascade of protein-protein interactions.
+  JOURNAL   Nature 375:645-53 (1995)
+            DOI:10.1038/375645a0
+REFERENCE   PMID:12154365
+  AUTHORS   Rizo J, Sudhof TC
+  TITLE     Snares and Munc18 in synaptic vesicle fusion.
+  JOURNAL   Nat Rev Neurosci 3:641-53 (2002)
+            DOI:10.1038/nrn898
+REFERENCE   PMID:18726177
+  AUTHORS   Malsam J, Kreye S, Sollner TH
+  TITLE     Membrane fusion: SNAREs and regulation.
+  JOURNAL   Cell Mol Life Sci 65:2814-32 (2008)
+            DOI:10.1007/s00018-008-8352-3
+REL_PATHWAY mmu04144  Endocytosis
+            mmu04724  Glutamatergic synapse
+            mmu04725  Cholinergic synapse
+            mmu04726  Serotonergic synapse
+            mmu04727  GABAergic synapse
+            mmu04728  Dopaminergic synapse
+KO_PATHWAY  ko04721
+///

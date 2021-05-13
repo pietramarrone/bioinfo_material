@@ -1,0 +1,15 @@
+ENTRY       mmu01212                    Pathway
+NAME        Fatty acid metabolism - Mus musculus (mouse)
+PATHWAY_MAP mmu01212  Fatty acid metabolism
+MODULE      mmu_M00082  Fatty acid biosynthesis, initiation [PATH:mmu01212]
+            mmu_M00083  Fatty acid biosynthesis, elongation [PATH:mmu01212]
+            mmu_M00085  Fatty acid elongation in mitochondria [PATH:mmu01212]
+            mmu_M00086  beta-Oxidation, acyl-CoA synthesis [PATH:mmu01212]
+            mmu_M00087  beta-Oxidation [PATH:mmu01212]
+            mmu_M00415  Fatty acid elongation in endoplasmic reticulum [PATH:mmu01212]
+            mmu_M00861  beta-Oxidation, peroxisome, VLCFA [PATH:mmu01212]
+            mmu_M00873  Fatty acid biosynthesis in mitochondria, animals [PATH:mmu01212]
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+REL_PATHWAY mmu00020  Citrate cycle (TCA cycle)
+KO_PATHWAY  ko01212
+///

@@ -1,0 +1,231 @@
+ENTRY       mmu05210                    Pathway
+NAME        Colorectal cancer - Mus musculus (mouse)
+DESCRIPTION Colorectal cancer (CRC) is the second largest cause of cancer-related deaths in Western countries. CRC arises from the colorectal epithelium as a result of the accumulation of genetic alterations in defined oncogenes and tumour suppressor genes (TSG). Two major mechanisms of genomic instability have been identified in sporadic CRC progression. The first, known as chromosomal instability (CIN), results from a series of genetic changes that involve the activation of oncogenes such as K-ras and inactivation of TSG such as p53, DCC/Smad4, and APC. The second, known as microsatellite instability (MSI), results from inactivation of the DNA mismatch repair genes MLH1 and/or MSH2 by hypermethylation of their promoter, and secondary mutation of genes with coding microsatellites, such as transforming growth factor receptor II (TGF-RII) and BAX. Hereditary syndromes have germline mutations in specific genes (mutation in the tumour suppressor gene APC on chromosome 5q in FAP, mutated DNA mismatch repair genes in HNPCC).
+CLASS       Human Diseases; Cancer: specific types
+PATHWAY_MAP mmu05210  Colorectal cancer
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            12005  Axin1; axin 1 [KO:K02157]
+            12006  Axin2; axin 2 [KO:K04385]
+            12387  Ctnnb1; catenin (cadherin associated protein), beta 1 [KO:K02105]
+            11789  Apc; APC, WNT signaling pathway regulator [KO:K02085]
+            23805  Apc2; APC regulator of WNT signaling pathway 2 [KO:K02085]
+            21414  Tcf7; transcription factor 7, T cell specific [KO:K02620]
+            21415  Tcf7l1; transcription factor 7 like 1 (T cell specific, HMG box) [KO:K04490]
+            21416  Tcf7l2; transcription factor 7 like 2, T cell specific, HMG box [KO:K04491]
+            16842  Lef1; lymphoid enhancer binding factor 1 [KO:K04492]
+            11799  Birc5; baculoviral IAP repeat-containing 5 [KO:K08731]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            12371  Casp9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+            19730  Ralgds; ral guanine nucleotide dissociation stimulator [KO:K08732]
+            56044  Rala; v-ral simian leukemia viral oncogene A (ras related) [KO:K07834]
+            64143  Ralb; v-ral simian leukemia viral oncogene B [KO:K07835]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            19354  Rac2; Rac family small GTPase 2 [KO:K07860]
+            170758  Rac3; Rac family small GTPase 3 [KO:K07861]
+            11848  Rhoa; ras homolog family member A [KO:K04513]
+            67653  4930544G11Rik; RIKEN cDNA 4930544G11 gene [KO:K04513]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            13176  Dcc; deleted in colorectal carcinoma [KO:K06765]
+            12367  Casp3; caspase 3 [KO:K02187] [EC:3.4.22.56]
+            72993  Appl1; adaptor protein, phosphotyrosine interaction, PH domain and leucine zipper containing 1 [KO:K08733]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            21808  Tgfb2; transforming growth factor, beta 2 [KO:K13376]
+            21809  Tgfb3; transforming growth factor, beta 3 [KO:K13377]
+            21812  Tgfbr1; transforming growth factor, beta receptor I [KO:K04674] [EC:2.7.11.30]
+            21813  Tgfbr2; transforming growth factor, beta receptor II [KO:K04388] [EC:2.7.11.30]
+            17126  Smad2; SMAD family member 2 [KO:K04500]
+            17127  Smad3; SMAD family member 3 [KO:K23605]
+            17128  Smad4; SMAD family member 4 [KO:K04501]
+            17350  Mlh1; mutL homolog 1 [KO:K08734]
+            17685  Msh2; mutS homolog 2 [KO:K08735]
+            17686  Msh3; mutS homolog 3 [KO:K08736]
+            17688  Msh6; mutS homolog 6 [KO:K08737]
+            12028  Bax; BCL2-associated X protein [KO:K02159]
+            58801  Pmaip1; phorbol-12-myristate-13-acetate-induced protein 1 [KO:K10131]
+            12125  Bcl2l11; BCL2-like 11 (apoptosis facilitator) [KO:K16341]
+            170770  Bbc3; BCL2 binding component 3 [KO:K10132]
+            12043  Bcl2; B cell leukemia/lymphoma 2 [KO:K02161]
+            13063  Cycs; cytochrome c, somatic [KO:K08738]
+            13067  Cyct; cytochrome c, testis [KO:K08738]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            13197  Gadd45a; growth arrest and DNA-damage-inducible 45 alpha [KO:K04402]
+            17873  Gadd45b; growth arrest and DNA-damage-inducible 45 beta [KO:K04402]
+            23882  Gadd45g; growth arrest and DNA-damage-inducible 45 gamma [KO:K04402]
+            12018  Bak1; BCL2-antagonist/killer 1 [KO:K14021]
+            107986  Ddb2; damage specific DNA binding protein 2 [KO:K10140]
+            27015  Polk; polymerase (DNA directed), kappa [KO:K03511] [EC:2.7.7.7]
+            13645  Egf; epidermal growth factor [KO:K04357]
+            21802  Tgfa; transforming growth factor alpha [KO:K08774]
+            13874  Ereg; epiregulin [KO:K09784]
+            11839  Areg; amphiregulin [KO:K09782]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            58988  Rps6kb2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04688] [EC:2.7.11.1]
+            72508  Rps6kb1; ribosomal protein S6 kinase, polypeptide 1 [KO:K04688] [EC:2.7.11.1]
+COMPOUND    C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:15000146
+  AUTHORS   Grady WM.
+  TITLE     Genomic instability and colon cancer.
+  JOURNAL   Cancer Metastasis Rev 23:11-27 (2004)
+            DOI:10.1023/A:1025861527711
+REFERENCE   PMID:16555243
+  AUTHORS   Soreide K, Janssen EA, Soiland H, Korner H, Baak JP.
+  TITLE     Microsatellite instability in colorectal cancer.
+  JOURNAL   Br J Surg 93:395-406 (2006)
+            DOI:10.1002/bjs.5328
+REFERENCE   PMID:11078609
+  AUTHORS   Anwar S, Hall C, White J, Deakin M, Farrell W, Elder JB.
+  TITLE     Hereditary non-polyposis colorectal cancer: an updated review.
+  JOURNAL   Eur J Surg Oncol 26:635-45 (2000)
+            DOI:10.1053/ejso.2000.0974
+REFERENCE   PMID:16699851
+  AUTHORS   Takayama T, Miyanishi K, Hayashi T, Sato Y, Niitsu Y.
+  TITLE     Colorectal cancer: genetics of development and metastasis.
+  JOURNAL   J Gastroenterol 41:185-92 (2006)
+            DOI:10.1007/s00535-006-1801-6
+REFERENCE   PMID:12621137
+  AUTHORS   Lynch HT, de la Chapelle A.
+  TITLE     Hereditary colorectal cancer.
+  JOURNAL   N Engl J Med 348:919-32 (2003)
+            DOI:10.1056/NEJMra012242
+REFERENCE   PMID:12951588
+  AUTHORS   Rajagopalan H, Nowak MA, Vogelstein B, Lengauer C.
+  TITLE     The significance of unstable chromosomes in colorectal cancer.
+  JOURNAL   Nat Rev Cancer 3:695-701 (2003)
+            DOI:10.1038/nrc1165
+REFERENCE   PMID:10505543
+  AUTHORS   Behrens J.
+  TITLE     Cadherins and catenins: role in signal transduction and tumor progression.
+  JOURNAL   Cancer Metastasis Rev 18:15-30 (1999)
+            DOI:10.1023/A:1006200102166
+REFERENCE   PMID:16042571
+  AUTHORS   Behrens J.
+  TITLE     The role of the Wnt signalling pathway in colorectal tumorigenesis.
+  JOURNAL   Biochem Soc Trans 33:672-5 (2005)
+            DOI:10.1042/BST0330672
+REFERENCE   PMID:15349822
+  AUTHORS   Behrens J, Lustig B.
+  TITLE     The Wnt connection to tumorigenesis.
+  JOURNAL   Int J Dev Biol 48:477-87 (2004)
+            DOI:10.1387/ijdb.041815jb
+REFERENCE   PMID:9196022
+  AUTHORS   Polakis P.
+  TITLE     The adenomatous polyposis coli (APC) tumor suppressor.
+  JOURNAL   Biochim Biophys Acta 1332:F127-47 (1997)
+            DOI:10.1016/S0304-419X(97)00008-5
+REFERENCE   PMID:12737309
+  AUTHORS   Janssen KP.
+  TITLE     Murine models of colorectal cancer: studying the role of oncogenic K-ras.
+  JOURNAL   Cell Mol Life Sci 60:495-506 (2003)
+            DOI:10.1007/s000180300041
+REFERENCE   PMID:11459867
+  AUTHORS   Adjei AA.
+  TITLE     Blocking oncogenic Ras signaling for cancer therapy.
+  JOURNAL   J Natl Cancer Inst 93:1062-74 (2001)
+            DOI:10.1093/jnci/93.14.1062
+REFERENCE   PMID:15573119
+  AUTHORS   Arakawa H.
+  TITLE     Netrin-1 and its receptors in tumorigenesis.
+  JOURNAL   Nat Rev Cancer 4:978-87 (2004)
+            DOI:10.1038/nrc1504
+REFERENCE   PMID:15310786
+  AUTHORS   Mehlen P, Fearon ER.
+  TITLE     Role of the dependence receptor DCC in colorectal cancer pathogenesis.
+  JOURNAL   J Clin Oncol 22:3420-8 (2004)
+            DOI:10.1200/JCO.2004.02.019
+REFERENCE   PMID:11223406
+  AUTHORS   Peltomaki P.
+  TITLE     DNA mismatch repair and cancer.
+  JOURNAL   Mutat Res 488:77-85 (2001)
+            DOI:10.1016/S1383-5742(00)00058-2
+REFERENCE   PMID:15711891
+  AUTHORS   Li F, Cao Y, Townsend CM Jr, Ko TC.
+  TITLE     TGF-beta signaling in colon cancer cells.
+  JOURNAL   World J Surg 29:306-11 (2005)
+            DOI:10.1007/s00268-004-7813-6
+REFERENCE   PMID:11170304
+  AUTHORS   Roman C, Saha D, Beauchamp R.
+  TITLE     TGF-beta and colorectal carcinogenesis.
+  JOURNAL   Microsc Res Tech 52:450-7 (2001)
+            DOI:10.1002/1097-0029(20010215)52:4<450::AID-JEMT1030>3.0.CO;2-O
+REFERENCE   PMID:16326109
+  AUTHORS   Watson AJ.
+  TITLE     An overview of apoptosis and the prevention of colorectal cancer.
+  JOURNAL   Crit Rev Oncol Hematol 57:107-21 (2006)
+            DOI:10.1016/j.critrevonc.2005.06.005
+REFERENCE   PMID:15479695
+  AUTHORS   Watson AJ.
+  TITLE     Apoptosis and colorectal cancer.
+  JOURNAL   Gut 53:1701-9 (2004)
+            DOI:10.1136/gut.2004.052704
+REFERENCE   PMID:11477132
+  AUTHORS   Houlston RS.
+  TITLE     What we could do now: molecular pathology of colorectal cancer.
+  JOURNAL   Mol Pathol 54:206-14 (2001)
+            DOI:10.1136/mp.54.4.206
+REFERENCE   PMID:19167459
+  AUTHORS   Hector S, Prehn JH
+  TITLE     Apoptosis signaling proteins as prognostic biomarkers in colorectal cancer: a review.
+  JOURNAL   Biochim Biophys Acta 1795:117-29 (2009)
+            DOI:10.1016/j.bbcan.2008.12.002
+REFERENCE   PMID:18568040
+  AUTHORS   Karnoub AE, Weinberg RA
+  TITLE     Ras oncogenes: split personalities.
+  JOURNAL   Nat Rev Mol Cell Biol 9:517-31 (2008)
+            DOI:10.1038/nrm2438
+REFERENCE   PMID:24213116
+  AUTHORS   Wang D, Xia D, Dubois RN
+  TITLE     The Crosstalk of PTGS2 and EGF Signaling Pathways in Colorectal Cancer.
+  JOURNAL   Cancers (Basel) 3:3894-908 (2011)
+            DOI:10.3390/cancers3043894
+REFERENCE   PMID:20554751
+  AUTHORS   Dasari A, Messersmith WA
+  TITLE     New strategies in colorectal cancer: biomarkers of response to epidermal growth factor receptor monoclonal antibodies and potential therapeutic targets in phosphoinositide 3-kinase and mitogen-activated protein kinase pathways.
+  JOURNAL   Clin Cancer Res 16:3811-8 (2010)
+            DOI:10.1158/1078-0432.CCR-09-2283
+REFERENCE   PMID:26149458
+  AUTHORS   Hutchinson RA, Adams RA, McArt DG, Salto-Tellez M, Jasani B, Hamilton PW
+  TITLE     Epidermal growth factor receptor immunohistochemistry: new opportunities in metastatic colorectal cancer.
+  JOURNAL   J Transl Med 13:217 (2015)
+            DOI:10.1186/s12967-015-0531-z
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04012  ErbB signaling pathway
+            mmu04110  Cell cycle
+            mmu04115  p53 signaling pathway
+            mmu04150  mTOR signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04210  Apoptosis
+            mmu04310  Wnt signaling pathway
+            mmu04350  TGF-beta signaling pathway
+KO_PATHWAY  ko05210
+///

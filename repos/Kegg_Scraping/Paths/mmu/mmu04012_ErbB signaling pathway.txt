@@ -1,0 +1,180 @@
+ENTRY       mmu04012                    Pathway
+NAME        ErbB signaling pathway - Mus musculus (mouse)
+DESCRIPTION The ErbB family of receptor tyrosine kinases (RTKs) couples binding of extracellular growth factor ligands to intracellular signaling pathways regulating diverse biologic responses, including proliferation, differentiation, cell motility, and survival. Ligand binding to the four closely related members of this RTK family -epidermal growth factor receptor (EGFR, also known as ErbB-1 or HER1), ErbB-2 (HER2), ErbB-3 (HER3), and ErbB-4 (HER4)-induces the formation of receptor homo- and heterodimers and the activation of the intrinsic kinase domain, resulting in phosphorylation on specific tyrosine residues (pY) within the cytoplasmic tail. Signaling effectors containing binding pockets for pY-containing peptides are recruited to activated receptors and induce the various signaling pathways. The Shc- and/or Grb2-activated mitogen-activated protein kinase (MAPK) pathway is a common target downstream of all ErbB receptors. Similarly, the phosphatidylinositol-3-kinase (PI-3K) pathway is directly or indirectly activated by most ErbBs. Several cytoplasmic docking proteins appear to be recruited by specific ErbB receptors and less exploited by others. These include the adaptors Crk, Nck, the phospholipase C gamma (PLCgamma), the intracellular tyrosine kinase Src, or the Cbl E3 ubiquitin protein ligase.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04012  ErbB signaling pathway
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        13645  Egf; epidermal growth factor [KO:K04357]
+            21802  Tgfa; transforming growth factor alpha [KO:K08774]
+            11839  Areg; amphiregulin [KO:K09782]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            13866  Erbb2; erb-b2 receptor tyrosine kinase 2 [KO:K05083] [EC:2.7.10.1]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            234779  Plcg2; phospholipase C, gamma 2 [KO:K05859] [EC:3.1.4.11]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            12402  Cbl; Casitas B-lineage lymphoma [KO:K04707] [EC:2.3.2.27]
+            208650  Cblb; Casitas B-lineage lymphoma b [KO:K22517] [EC:2.3.2.27]
+            20850  Stat5a; signal transducer and activator of transcription 5A [KO:K11223]
+            20851  Stat5b; signal transducer and activator of transcription 5B [KO:K11224]
+            20779  Src; Rous sarcoma oncogene [KO:K05704] [EC:2.7.10.2]
+            14083  Ptk2; PTK2 protein tyrosine kinase 2 [KO:K05725] [EC:2.7.10.2]
+            12928  Crk; v-crk avian sarcoma virus CT10 oncogene homolog [KO:K04438]
+            12929  Crkl; v-crk avian sarcoma virus CT10 oncogene homolog-like [KO:K04438]
+            11350  Abl1; c-abl oncogene 1, non-receptor tyrosine kinase [KO:K06619] [EC:2.7.10.2]
+            11352  Abl2; v-abl Abelson murine leukemia viral oncogene 2 (arg, Abelson-related gene) [KO:K08887] [EC:2.7.10.2]
+            17973  Nck1; non-catalytic region of tyrosine kinase adaptor protein 1 [KO:K07365]
+            17974  Nck2; non-catalytic region of tyrosine kinase adaptor protein 2 [KO:K19862]
+            18479  Pak1; p21 (RAC1) activated kinase 1 [KO:K04409] [EC:2.7.11.1]
+            224105  Pak2; p21 (RAC1) activated kinase 2 [KO:K04410] [EC:2.7.11.1]
+            18481  Pak3; p21 (RAC1) activated kinase 3 [KO:K05733] [EC:2.7.11.1]
+            70584  Pak4; p21 (RAC1) activated kinase 4 [KO:K05734] [EC:2.7.11.1]
+            241656  Pak7; p21 (RAC1) activated kinase 7 [KO:K05736] [EC:2.7.11.1]
+            214230  Pak6; p21 (RAC1) activated kinase 6 [KO:K05735] [EC:2.7.11.1]
+            26398  Map2k4; mitogen-activated protein kinase kinase 4 [KO:K04430] [EC:2.7.12.2]
+            26400  Map2k7; mitogen-activated protein kinase kinase 7 [KO:K04431] [EC:2.7.12.2]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            13712  Elk1; ELK1, member of ETS oncogene family [KO:K04375]
+            12223  Btc; betacellulin, epidermal growth factor family member [KO:K09783]
+            15200  Hbegf; heparin-binding EGF-like growth factor [KO:K08523]
+            13874  Ereg; epiregulin [KO:K09784]
+            13867  Erbb3; erb-b2 receptor tyrosine kinase 3 [KO:K05084] [EC:2.7.10.1]
+            211323  Nrg1; neuregulin 1 [KO:K05455]
+            100042150  Nrg2; neuregulin 2 [KO:K05456]
+            13869  Erbb4; erb-b2 receptor tyrosine kinase 4 [KO:K05085] [EC:2.7.10.1]
+            20416  Shc1; src homology 2 domain-containing transforming protein C1 [KO:K06279]
+            216148  Shc2; SHC (Src homology 2 domain containing) transforming protein 2 [KO:K17447]
+            20418  Shc3; src homology 2 domain-containing transforming protein C3 [KO:K17448]
+            271849  Shc4; SHC (Src homology 2 domain containing) family, member 4 [KO:K17449]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+            14388  Gab1; growth factor receptor bound protein 2-associated protein 1 [KO:K09593]
+            18183  Nrg3; neuregulin 3 [KO:K05457]
+            83961  Nrg4; neuregulin 4 [KO:K05458]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            58988  Rps6kb2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04688] [EC:2.7.11.1]
+            72508  Rps6kb1; ribosomal protein S6 kinase, polypeptide 1 [KO:K04688] [EC:2.7.11.1]
+            13685  Eif4ebp1; eukaryotic translation initiation factor 4E binding protein 1 [KO:K07205]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            12576  Cdkn1b; cyclin-dependent kinase inhibitor 1B [KO:K06624]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:14967450
+  AUTHORS   Marmor MD, Skaria KB, Yarden Y.
+  TITLE     Signal transduction and oncogenesis by ErbB/HER receptors.
+  JOURNAL   Int J Radiat Oncol Biol Phys 58:903-13 (2004)
+            DOI:10.1016/j.ijrobp.2003.06.002
+REFERENCE   PMID:11252954
+  AUTHORS   Yarden Y, Sliwkowski MX.
+  TITLE     Untangling the ErbB signalling network.
+  JOURNAL   Nat Rev Mol Cell Biol 2:127-37 (2001)
+            DOI:10.1038/35052073
+REFERENCE   PMID:16829981
+  AUTHORS   Citri A, Yarden Y.
+  TITLE     EGF-ERBB signalling: towards the systems level.
+  JOURNAL   Nat Rev Mol Cell Biol 7:505-16 (2006)
+            DOI:10.1038/nrm1962
+REFERENCE   PMID:17000658
+  AUTHORS   Scaltriti M, Baselga J.
+  TITLE     The epidermal growth factor receptor pathway: a model for targeted therapy.
+  JOURNAL   Clin Cancer Res 12:5268-72 (2006)
+            DOI:10.1158/1078-0432.CCR-05-1554
+REFERENCE   PMID:16377102
+  AUTHORS   Normanno N, De Luca A, Bianco C, Strizzi L, Mancino M, Maiello MR, Carotenuto A, De Feo G, Caponigro F, Salomon DS.
+  TITLE     Epidermal growth factor receptor (EGFR) signaling in cancer.
+  JOURNAL   Gene 366:2-16 (2006)
+            DOI:10.1016/j.gene.2005.10.018
+REFERENCE   PMID:14744244
+  AUTHORS   Holbro T, Hynes NE.
+  TITLE     ErbB receptors: directing key signaling networks throughout life.
+  JOURNAL   Annu Rev Pharmacol Toxicol 44:195-217 (2004)
+            DOI:10.1146/annurev.pharmtox.44.101802.121440
+REFERENCE   PMID:12851486
+  AUTHORS   Liang J, Slingerland JM.
+  TITLE     Multiple roles of the PI3K/PKB (Akt) pathway in cell cycle progression.
+  JOURNAL   Cell Cycle 2:339-45 (2003)
+            DOI:10.4161/cc.2.4.433
+REFERENCE   PMID:15864276
+  AUTHORS   Hynes NE, Lane HA.
+  TITLE     ERBB receptors and cancer: the complexity of targeted inhibitors.
+  JOURNAL   Nat Rev Cancer 5:341-54 (2005)
+            DOI:10.1038/nrc1609
+REFERENCE   PMID:16729045
+  AUTHORS   Oda K, Matsuoka Y, Funahashi A, Kitano H.
+  TITLE     A comprehensive pathway map of epidermal growth factor receptor signaling.
+  JOURNAL   Mol Syst Biol 1:2005.0010 (2005)
+            DOI:10.1038/msb4100014
+REFERENCE   PMID:16729043
+  AUTHORS   Schulze WX, Deng L, Mann M.
+  TITLE     Phosphotyrosine interactome of the ErbB-receptor kinase family.
+  JOURNAL   Mol Syst Biol 1:2005.0008 (2005)
+            DOI:10.1038/msb4100012
+REFERENCE   PMID:10880430
+  AUTHORS   Olayioye MA, Neve RM, Lane HA, Hynes NE.
+  TITLE     The ErbB signaling network: receptor heterodimerization in development and cancer.
+  JOURNAL   EMBO J 19:3159-67 (2000)
+            DOI:10.1093/emboj/19.13.3159
+REFERENCE   PMID:9872057
+  AUTHORS   McCarty JH.
+  TITLE     The Nck SH2/SH3 adaptor protein: a regulator of multiple intracellular signal transduction events.
+  JOURNAL   Bioessays 20:913-21 (1998)
+            DOI:10.1002/(SICI)1521-1878(199811)20:11<913::AID-BIES6>3.0.CO;2-T
+REFERENCE   PMID:15863494
+  AUTHORS   Clark DE, Williams CC, Duplessis TT, Moring KL, Notwick AR, Long W, Lane WS, Beuvink I, Hynes NE, Jones FE.
+  TITLE     ERBB4/HER4 potentiates STAT5A transcriptional activity by regulating novel STAT5A serine phosphorylation events.
+  JOURNAL   J Biol Chem 280:24175-80 (2005)
+            DOI:10.1074/jbc.M414044200
+REFERENCE   PMID:10490623
+  AUTHORS   Muthuswamy SK, Gilman M, Brugge JS.
+  TITLE     Controlled dimerization of ErbB receptors provides evidence for differential signaling by homo- and heterodimers.
+  JOURNAL   Mol Cell Biol 19:6845-57 (1999)
+            DOI:10.1128/MCB.19.10.6845
+REFERENCE   PMID:9642287
+  AUTHORS   Hashimoto Y, Katayama H, Kiyokawa E, Ota S, Kurata T, Gotoh N, Otsuka N, Shibata M, Matsuda M.
+  TITLE     Phosphorylation of CrkII adaptor protein at tyrosine 221 by epidermal growth factor receptor.
+  JOURNAL   J Biol Chem 273:17186-91 (1998)
+            DOI:10.1074/jbc.273.27.17186
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04110  Cell cycle
+            mmu04150  mTOR signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu05212  Pancreatic cancer
+            mmu05213  Endometrial cancer
+            mmu05214  Glioma
+            mmu05223  Non-small cell lung cancer
+KO_PATHWAY  ko04012
+///

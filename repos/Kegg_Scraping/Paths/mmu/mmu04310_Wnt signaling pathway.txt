@@ -1,0 +1,245 @@
+ENTRY       mmu04310                    Pathway
+NAME        Wnt signaling pathway - Mus musculus (mouse)
+DESCRIPTION Wnt proteins are secreted morphogens that are required for basic developmental processes, such as cell-fate specification, progenitor-cell proliferation and the control of asymmetric cell division, in many different species and organs. There are at least three different Wnt pathways: the canonical pathway, the planar cell polarity (PCP) pathway and the Wnt/Ca2+ pathway. In the canonical Wnt pathway, the major effect of Wnt ligand binding to its receptor is the stabilization of cytoplasmic beta-catenin through inhibition of the bea-catenin degradation complex. Beta-catenin is then free to enter the nucleus and activate Wnt-regulated genes through its interaction with TCF (T-cell factor) family transcription factors and concomitant recruitment of coactivators. Planar cell polarity (PCP) signaling leads to the activation of the small GTPases RHOA (RAS homologue gene-family member A) and RAC1, which activate the stress kinase JNK (Jun N-terminal kinase) and ROCK (RHO-associated coiled-coil-containing protein kinase 1) and leads to remodelling of the cytoskeleton and changes in cell adhesion and motility. WNT-Ca2+ signalling is mediated through G proteins and phospholipases and leads to transient increases in cytoplasmic free calcium that subsequently activate the kinase PKC (protein kinase C) and CAMKII (calcium calmodulin mediated kinase II) and the phosphatase calcineurin.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04310  Wnt signaling pathway
+DBLINKS     GO: 0016055
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        53627  Porcn; porcupine O-acyltransferase [KO:K00181] [EC:2.3.1.250]
+            22408  Wnt1; wingless-type MMTV integration site family, member 1 [KO:K03209]
+            22413  Wnt2; wingless-type MMTV integration site family, member 2 [KO:K00182]
+            22414  Wnt2b; wingless-type MMTV integration site family, member 2B [KO:K00182]
+            22415  Wnt3; wingless-type MMTV integration site family, member 3 [KO:K00312]
+            22416  Wnt3a; wingless-type MMTV integration site family, member 3A [KO:K00312]
+            22417  Wnt4; wingless-type MMTV integration site family, member 4 [KO:K00408]
+            22418  Wnt5a; wingless-type MMTV integration site family, member 5A [KO:K00444]
+            22419  Wnt5b; wingless-type MMTV integration site family, member 5B [KO:K00444]
+            22420  Wnt6; wingless-type MMTV integration site family, member 6 [KO:K00445]
+            22421  Wnt7a; wingless-type MMTV integration site family, member 7A [KO:K00572]
+            22422  Wnt7b; wingless-type MMTV integration site family, member 7B [KO:K00572]
+            20890  Wnt8a; wingless-type MMTV integration site family, member 8A [KO:K00714]
+            22423  Wnt8b; wingless-type MMTV integration site family, member 8B [KO:K00714]
+            216795  Wnt9a; wingless-type MMTV integration site family, member 9A [KO:K01064]
+            22412  Wnt9b; wingless-type MMTV integration site family, member 9B [KO:K01064]
+            22410  Wnt10b; wingless-type MMTV integration site family, member 10B [KO:K01357]
+            22409  Wnt10a; wingless-type MMTV integration site family, member 10A [KO:K01357]
+            22411  Wnt11; wingless-type MMTV integration site family, member 11 [KO:K01384]
+            93735  Wnt16; wingless-type MMTV integration site family, member 16 [KO:K01558]
+            12622  Cer1; cerberus 1, DAN family BMP antagonist [KO:K01645]
+            77583  Notum; notum palmitoleoyl-protein carboxylesterase [KO:K19882] [EC:3.1.1.98]
+            24117  Wif1; Wnt inhibitory factor 1 [KO:K01691]
+            20317  Serpinf1; serine (or cysteine) peptidase inhibitor, clade F, member 1 [KO:K19614]
+            74499  Sost; sclerostin [KO:K16834]
+            13380  Dkk1; dickkopf WNT signaling pathway inhibitor 1 [KO:K02165]
+            56811  Dkk2; dickkopf WNT signaling pathway inhibitor 2 [KO:K02165]
+            234130  Dkk4; dickkopf WNT signaling pathway inhibitor 4 [KO:K02165]
+            20377  Sfrp1; secreted frizzled-related protein 1 [KO:K02166]
+            20319  Sfrp2; secreted frizzled-related protein 2 [KO:K02176]
+            20379  Sfrp4; secreted frizzled-related protein 4 [KO:K02185]
+            54612  Sfrp5; secreted frizzled-related sequence protein 5 [KO:K02222]
+            192199  Rspo1; R-spondin 1 [KO:K19471]
+            239405  Rspo2; R-spondin 2 [KO:K23097]
+            72780  Rspo3; R-spondin 3 [KO:K23098]
+            228770  Rspo4; R-spondin 4 [KO:K23099]
+            107515  Lgr4; leucine-rich repeat-containing G protein-coupled receptor 4 [KO:K04309]
+            14160  Lgr5; leucine rich repeat containing G protein coupled receptor 5 [KO:K04308]
+            329252  Lgr6; leucine-rich repeat-containing G protein-coupled receptor 6 [KO:K08399]
+            207742  Rnf43; ring finger protein 43 [KO:K15694] [EC:2.3.2.27]
+            407821  Znrf3; zinc and ring finger 3 [KO:K16273] [EC:2.3.2.27]
+            14362  Fzd1; frizzled class receptor 1 [KO:K02432]
+            14369  Fzd7; frizzled class receptor 7 [KO:K02432]
+            57265  Fzd2; frizzled class receptor 2 [KO:K02235]
+            14365  Fzd3; frizzled class receptor 3 [KO:K02329]
+            14366  Fzd4; frizzled class receptor 4 [KO:K02354]
+            14367  Fzd5; frizzled class receptor 5 [KO:K02375]
+            14370  Fzd8; frizzled class receptor 8 [KO:K02375]
+            14368  Fzd6; frizzled class receptor 6 [KO:K02376]
+            93897  Fzd10; frizzled class receptor 10 [KO:K02842]
+            14371  Fzd9; frizzled class receptor 9 [KO:K02842]
+            16973  Lrp5; low density lipoprotein receptor-related protein 5 [KO:K03068]
+            16974  Lrp6; low density lipoprotein receptor-related protein 6 [KO:K03068]
+            68010  Bambi; BMP and activin membrane-bound inhibitor [KO:K10162]
+            27373  Csnk1e; casein kinase 1, epsilon [KO:K08960] [EC:2.7.11.1]
+            13544  Dvl3; dishevelled segment polarity protein 3 [KO:K02353]
+            13542  Dvl1; dishevelled segment polarity protein 1 [KO:K02353]
+            13543  Dvl2; dishevelled segment polarity protein 2 [KO:K02353]
+            14296  Frat1; frequently rearranged in advanced T cell lymphomas [KO:K03069]
+            27412  Peg12; paternally expressed 12 [KO:K03069]
+            212398  Frat2; frequently rearranged in advanced T cell lymphomas 2 [KO:K03096]
+            12995  Csnk2a1; casein kinase 2, alpha 1 polypeptide [KO:K03097] [EC:2.7.11.1]
+            13000  Csnk2a2; casein kinase 2, alpha prime polypeptide [KO:K03097] [EC:2.7.11.1]
+            13001  Csnk2b; casein kinase 2, beta polypeptide [KO:K03115]
+            93960  Nkd1; naked cuticle 1 [KO:K03213]
+            72293  Nkd2; naked cuticle 2 [KO:K03213]
+            319478  Cxxc4; CXXC finger 4 [KO:K03344]
+            75826  Senp2; SUMO/sentrin specific peptidase 2 [KO:K03345] [EC:3.4.22.68]
+            114671  4930444G20Rik; RIKEN cDNA 4930444G20 gene [KO:K03345] [EC:3.4.22.68]
+            231201  Susp4; cDNA sequence AF366264 [KO:K03345] [EC:3.4.22.68]
+            408192  Gm9839; predicted gene 9839 [KO:K03345] [EC:3.4.22.68]
+            408191  Gm5415; predicted gene 5415 [KO:K03345] [EC:3.4.22.68]
+            56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            12387  Ctnnb1; catenin (cadherin associated protein), beta 1 [KO:K02105]
+            12005  Axin1; axin 1 [KO:K02157]
+            12006  Axin2; axin 2 [KO:K04385]
+            11789  Apc; APC, WNT signaling pathway regulator [KO:K02085]
+            23805  Apc2; APC regulator of WNT signaling pathway 2 [KO:K02085]
+            93687  Csnk1a1; casein kinase 1, alpha 1 [KO:K08957] [EC:2.7.11.1]
+            21414  Tcf7; transcription factor 7, T cell specific [KO:K02620]
+            21415  Tcf7l1; transcription factor 7 like 1 (T cell specific, HMG box) [KO:K04490]
+            21416  Tcf7l2; transcription factor 7 like 2, T cell specific, HMG box [KO:K04491]
+            16842  Lef1; lymphoid enhancer binding factor 1 [KO:K04492]
+            67087  Ctnnbip1; catenin beta interacting protein 1 [KO:K04493]
+            73739  Cby1; chibby family member 1, beta catenin antagonist [KO:K23402]
+            67772  Chd8; chromodomain helicase DNA binding protein 8 [KO:K04494] [EC:3.6.4.12]
+            20671  Sox17; SRY (sex determining region Y)-box 17 [KO:K04495]
+            13016  Ctbp1; C-terminal binding protein 1 [KO:K04496]
+            13017  Ctbp2; C-terminal binding protein 2 [KO:K04496]
+            18163  Ctnnd2; catenin (cadherin associated protein), delta 2 [KO:K23491]
+            12914  Crebbp; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            328572  Ep300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            56505  Ruvbl1; RuvB-like protein 1 [KO:K04499]
+            17128  Smad4; SMAD family member 4 [KO:K04501]
+            17127  Smad3; SMAD family member 3 [KO:K23605]
+            26409  Map3k7; mitogen-activated protein kinase kinase kinase 7 [KO:K04427] [EC:2.7.11.25]
+            18099  Nlk; nemo like kinase [KO:K04468] [EC:2.7.11.24]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            14283  Fosl1; fos-like antigen 1 [KO:K04502]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            12444  Ccnd2; cyclin D2 [KO:K10151]
+            12445  Ccnd3; cyclin D3 [KO:K10152]
+            22402  Ccn4; cellular communication network factor 4 [KO:K22471]
+            19015  Ppard; peroxisome proliferator activator receptor delta [KO:K04504]
+            17393  Mmp7; matrix metallopeptidase 7 [KO:K01397] [EC:3.4.24.23]
+            19164  Psen1; presenilin 1 [KO:K04505] [EC:3.4.23.-]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+            20437  Siah1a; siah E3 ubiquitin protein ligase 1A [KO:K04506] [EC:2.3.2.27]
+            20438  Siah1b; siah E3 ubiquitin protein ligase 1B [KO:K04506] [EC:2.3.2.27]
+            12301  Cacybp; calcyclin binding protein [KO:K04507]
+            21402  Skp1; S-phase kinase-associated protein 1 [KO:K03094]
+            21372  Tbl1x; transducin (beta)-like 1 X-linked [KO:K04508]
+            81004  Tbl1xr1; transducin (beta)-like 1X-linked receptor 1 [KO:K04508]
+            103583  Fbxw11; F-box and WD-40 domain protein 11 [KO:K03362]
+            12234  Btrc; beta-transducin repeat containing protein [KO:K03362]
+            26965  Cul1; cullin 1 [KO:K03347]
+            56438  Rbx1; ring-box 1 [KO:K03868] [EC:2.3.2.32]
+            14735  Gpc4; glypican 4 [KO:K08110]
+            26563  Ror1; receptor tyrosine kinase-like orphan receptor 1 [KO:K05122] [EC:2.7.10.1]
+            26564  Ror2; receptor tyrosine kinase-like orphan receptor 2 [KO:K05123] [EC:2.7.10.1]
+            20187  Ryk; receptor-like tyrosine kinase [KO:K05128] [EC:2.7.10.1]
+            93840  Vangl2; VANGL planar cell polarity 2 [KO:K04510]
+            229658  Vangl1; VANGL planar cell polarity 1 [KO:K04510]
+            243548  Prickle2; prickle planar cell polarity protein 2 [KO:K04511]
+            106042  Prickle1; prickle planar cell polarity protein 1 [KO:K04511]
+            381104  Prickle4; prickle planar cell polarity protein 4 [KO:K04511]
+            54630  Prickle3; prickle planar cell polarity protein 3 [KO:K04511]
+            16348  Invs; inversin [KO:K19626]
+            208846  Daam1; dishevelled associated activator of morphogenesis 1 [KO:K04512]
+            76441  Daam2; dishevelled associated activator of morphogenesis 2 [KO:K04512]
+            11848  Rhoa; ras homolog family member A [KO:K04513]
+            67653  4930544G11Rik; RIKEN cDNA 4930544G11 gene [KO:K04513]
+            19878  Rock2; Rho-associated coiled-coil containing protein kinase 2 [KO:K17388] [EC:2.7.11.1]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            19354  Rac2; Rac family small GTPase 2 [KO:K07860]
+            170758  Rac3; Rac family small GTPase 3 [KO:K07861]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            19057  Ppp3cc; protein phosphatase 3, catalytic subunit, gamma isoform [KO:K04348] [EC:3.1.3.16]
+            19055  Ppp3ca; protein phosphatase 3, catalytic subunit, alpha isoform [KO:K04348] [EC:3.1.3.16]
+            19056  Ppp3cb; protein phosphatase 3, catalytic subunit, beta isoform [KO:K04348] [EC:3.1.3.16]
+            19058  Ppp3r1; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type I) [KO:K06268]
+            19059  Ppp3r2; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type II) [KO:K06268]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            18018  Nfatc1; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 1 [KO:K04446]
+            18019  Nfatc2; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 2 [KO:K17332]
+            18021  Nfatc3; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 3 [KO:K17333]
+            73181  Nfatc4; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 4 [KO:K17334]
+COMPOUND    C00076  Calcium cation
+REFERENCE   PMID:14635791
+  AUTHORS   Hatsell S, Rowlands T, Hiremath M, Cowin P.
+  TITLE     Beta-catenin and Tcfs in mammary development and cancer.
+  JOURNAL   J Mammary Gland Biol Neoplasia 8:145-58 (2003)
+            DOI:10.1023/A:1025944723047
+REFERENCE   PMID:14745971
+  AUTHORS   Yang Y.
+  TITLE     Wnts and wing: Wnt signaling in vertebrate limb development and musculoskeletal morphogenesis.
+  JOURNAL   Birth Defects Res Part C Embryo Today 69:305-17 (2003)
+            DOI:10.1002/bdrc.10026
+REFERENCE   PMID:12446114
+  AUTHORS   Kalderon D.
+  TITLE     Similarities between the Hedgehog and Wnt signaling pathways.
+  JOURNAL   Trends Cell Biol 12:523-31 (2002)
+            DOI:10.1016/S0962-8924(02)02388-7
+REFERENCE   PMID:14530294
+  AUTHORS   Nusse R.
+  TITLE     Wnts and Hedgehogs: lipid-modified proteins and similarities in signaling mechanisms at the cell surface.
+  JOURNAL   Development 130:5297-305 (2003)
+            DOI:10.1242/dev.00821
+REFERENCE   PMID:15102436
+  AUTHORS   Jope RS, Johnson GV.
+  TITLE     The glamour and gloom of glycogen synthase kinase-3.
+  JOURNAL   Trends Biochem Sci 29:95-102 (2004)
+            DOI:10.1016/j.tibs.2003.12.004
+REFERENCE   PMID:12967557
+  AUTHORS   Veeman MT, Axelrod JD, Moon RT.
+  TITLE     A second canon. Functions and mechanisms of beta-catenin-independent Wnt signaling.
+  JOURNAL   Dev Cell 5:367-77 (2003)
+            DOI:10.1016/S1534-5807(03)00266-1
+REFERENCE   PMID:11433294
+  AUTHORS   Sun TQ, Lu B, Feng JJ, Reinhard C, Jan YN, Fantl WJ, Williams LT.
+  TITLE     PAR-1 is a Dishevelled-associated kinase and a positive regulator of Wnt signalling.
+  JOURNAL   Nat Cell Biol 3:628-36 (2001)
+            DOI:10.1038/35083016
+REFERENCE   PMID:23256519
+  AUTHORS   Saito-Diaz K, Chen TW, Wang X, Thorne CA, Wallace HA, Page-McCaw A, Lee E
+  TITLE     The way Wnt works: Components and mechanism.
+  JOURNAL   Growth Factors 31:1-31 (2013)
+            DOI:10.3109/08977194.2012.752737
+REFERENCE   PMID:19482104
+  AUTHORS   Carethers JM
+  TITLE     Intersection of transforming growth factor-beta and Wnt signaling pathways in colorectal cancer and metastasis.
+  JOURNAL   Gastroenterology 137:33-6 (2009)
+            DOI:10.1053/j.gastro.2009.05.011
+REFERENCE   PMID:18838381
+  AUTHORS   Lin Z, Gao C, Ning Y, He X, Wu W, Chen YG
+  TITLE     The pseudoreceptor BMP and activin membrane-bound inhibitor positively modulates Wnt/beta-catenin signaling.
+  JOURNAL   J Biol Chem 283:33053-8 (2008)
+            DOI:10.1074/jbc.M804039200
+REFERENCE   PMID:23151663
+  AUTHORS   Niehrs C
+  TITLE     The complex world of WNT receptor signalling.
+  JOURNAL   Nat Rev Mol Cell Biol 13:767-79 (2012)
+            DOI:10.1038/nrm3470
+REFERENCE   PMID:28522145
+  AUTHORS   Abou Ziki MD, Mani A
+  TITLE     Wnt signaling, a novel pathway regulating blood pressure? State of the art review.
+  JOURNAL   Atherosclerosis 262:171-178 (2017)
+            DOI:10.1016/j.atherosclerosis.2017.05.001
+REFERENCE   PMID:25808920
+  AUTHORS   He Y, Ki H, Kim H, Kim K
+  TITLE     delta-Catenin interacts with LEF-1 and negatively regulates its transcriptional activity.
+  JOURNAL   Cell Biol Int 39:954-61 (2015)
+            DOI:10.1002/cbin.10465
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04110  Cell cycle
+            mmu04115  p53 signaling pathway
+            mmu04120  Ubiquitin mediated proteolysis
+            mmu04350  TGF-beta signaling pathway
+            mmu04510  Focal adhesion
+            mmu04520  Adherens junction
+            mmu05010  Alzheimer disease
+KO_PATHWAY  ko04310
+///

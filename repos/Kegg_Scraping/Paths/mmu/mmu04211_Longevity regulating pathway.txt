@@ -1,0 +1,219 @@
+ENTRY       mmu04211                    Pathway
+NAME        Longevity regulating pathway - Mus musculus (mouse)
+DESCRIPTION Regulation of longevity depends on genetic and environmental factors. Caloric restriction (CR), that is limiting food intake, is recognized in mammals as the best characterized and most reproducible strategy for extending lifespan. Four pathways have been implicated in mediating the CR effect. These are the insulin like growth factor (IGF-1)/insulin signaling pathway, the sirtuin pathway, the adenosine monophosphate (AMP) activated protein kinase (AMPK) pathway and the target of rapamycin (TOR) pathway. The collective response of these pathways to CR is believed to promote cellular fitness and ultimately longevity via activation of autophagy, stress defense mechanisms, and survival pathways while attenuating proinflammatory mediators and cellular growth. Furthermore, there is evidence supporting that life span extension can be achieved with pharmacologic agents that mimic the effects of caloric restriction, such as rapamycin, via mTOR signaling blockade, resveratrol, by activating SIRT1 activity, and metformin, which seems to be a robust stimulator of AMPK activity. As an aging suppressor, Klotho is an important molecule in aging processes and its overexpression results in longevity.
+CLASS       Organismal Systems; Aging
+PATHWAY_MAP mmu04211  Longevity regulating pathway
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        16334  Ins2; insulin II [KO:K04526]
+            16333  Ins1; insulin I [KO:K04526]
+            16337  Insr; insulin receptor [KO:K04527] [EC:2.7.10.1]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            16001  Igf1r; insulin-like growth factor I receptor [KO:K05087] [EC:2.7.10.1]
+            16367  Irs1; insulin receptor substrate 1 [KO:K16172]
+            384783  Irs2; insulin receptor substrate 2 [KO:K07187]
+            16369  Irs3; insulin receptor substrate 3 [KO:K17445]
+            16370  Irs4; insulin receptor substrate 4 [KO:K17446]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            11909  Atf2; activating transcription factor 2 [KO:K04450]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            11911  Atf4; activating transcription factor 4 [KO:K04374]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            12915  Atf6b; activating transcription factor 6 beta [KO:K09049]
+            110147  Ehmt2; euchromatic histone lysine N-methyltransferase 2 [KO:K11420] [EC:2.1.1.355]
+            77683  Ehmt1; euchromatic histone methyltransferase 1 [KO:K11420] [EC:2.1.1.355]
+            56458  Foxo1; forkhead box O1 [KO:K07201]
+            56484  Foxo3; forkhead box O3 [KO:K09408]
+            20656  Sod2; superoxide dismutase 2, mitochondrial [KO:K04564] [EC:1.15.1.1]
+            12359  Cat; catalase [KO:K03781] [EC:1.11.1.6]
+            11793  Atg5; autophagy related 5 [KO:K08339]
+            16591  Kl; klotho [KO:K14756] [EC:3.2.1.31]
+            64930  Tsc1; TSC complex subunit 1 [KO:K07206]
+            22084  Tsc2; TSC complex subunit 2 [KO:K07207]
+            19744  Rheb; Ras homolog enriched in brain [KO:K07208]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            74370  Rptor; regulatory associated protein of MTOR, complex 1 [KO:K07204]
+            67605  Akt1s1; AKT1 substrate 1 (proline-rich) [KO:K16184]
+            22241  Ulk1; unc-51 like kinase 1 [KO:K21357] [EC:2.7.11.1]
+            51897  Atg13; autophagy related 13 [KO:K08331]
+            12421  Rb1cc1; RB1-inducible coiled-coil 1 [KO:K17589]
+            68118  Atg101; autophagy related 101 [KO:K19730]
+            58988  Rps6kb2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04688] [EC:2.7.11.1]
+            72508  Rps6kb1; ribosomal protein S6 kinase, polypeptide 1 [KO:K04688] [EC:2.7.11.1]
+            13685  Eif4ebp1; eukaryotic translation initiation factor 4E binding protein 1 [KO:K07205]
+            13684  Eif4e; eukaryotic translation initiation factor 4E [KO:K03259]
+            26987  Eif4e2; eukaryotic translation initiation factor 4E member 2 [KO:K03259]
+            218268  Eif4e1b; eukaryotic translation initiation factor 4E family member 1B [KO:K03259]
+            11450  Adipoq; adiponectin, C1Q and collagen domain containing [KO:K07296]
+            72674  Adipor1; adiponectin receptor 1 [KO:K07297]
+            68465  Adipor2; adiponectin receptor 2 [KO:K07297]
+            72993  Appl1; adaptor protein, phosphotyrosine interaction, PH domain and leucine zipper containing 1 [KO:K08733]
+            207565  Camkk2; calcium/calmodulin-dependent protein kinase kinase 2, beta [KO:K07359] [EC:2.7.11.17]
+            105787  Prkaa1; protein kinase, AMP-activated, alpha 1 catalytic subunit [KO:K07198] [EC:2.7.11.11]
+            108079  Prkaa2; protein kinase, AMP-activated, alpha 2 catalytic subunit [KO:K07198] [EC:2.7.11.11]
+            19079  Prkab1; protein kinase, AMP-activated, beta 1 non-catalytic subunit [KO:K07199]
+            108097  Prkab2; protein kinase, AMP-activated, beta 2 non-catalytic subunit [KO:K07199]
+            19082  Prkag1; protein kinase, AMP-activated, gamma 1 non-catalytic subunit [KO:K07200]
+            241113  Prkag3; protein kinase, AMP-activated, gamma 3 non-catalytic subunit [KO:K07200]
+            108099  Prkag2; protein kinase, AMP-activated, gamma 2 non-catalytic subunit [KO:K07200]
+            93759  Sirt1; sirtuin 1 [KO:K11411] [EC:2.3.1.286]
+            12028  Bax; BCL2-associated X protein [KO:K02159]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            19016  Pparg; peroxisome proliferator activated receptor gamma [KO:K08530]
+            19017  Ppargc1a; peroxisome proliferative activated receptor, gamma, coactivator 1 alpha [KO:K07202]
+            20869  Stk11; serine/threonine kinase 11 [KO:K07298] [EC:2.7.11.1]
+            140742  Sesn1; sestrin 1 [KO:K10141]
+            75747  Sesn3; sestrin 3 [KO:K10141]
+            230784  Sesn2; sestrin 2 [KO:K20394]
+            12326  Camk4; calcium/calmodulin-dependent protein kinase IV [KO:K05869] [EC:2.7.11.17]
+COMPOUND    C00003  NAD+
+            C00020  AMP
+            C00076  Calcium cation
+            C00575  3',5'-Cyclic AMP
+            C03582  Resveratrol
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+            C07151  Metformin
+            C07909  Sirolimus
+REFERENCE   PMID:22618766
+  AUTHORS   Barzilai N, Huffman DM, Muzumdar RH, Bartke A
+  TITLE     The critical role of metabolic pathways in aging.
+  JOURNAL   Diabetes 61:1315-22 (2012)
+            DOI:10.2337/db11-1300
+REFERENCE   PMID:20395504
+  AUTHORS   Fontana L, Partridge L, Longo VD
+  TITLE     Extending healthy life span--from yeast to humans.
+  JOURNAL   Science 328:321-6 (2010)
+            DOI:10.1126/science.1172539
+REFERENCE   PMID:21779512
+  AUTHORS   Feng Z, Lin M, Wu R
+  TITLE     The Regulation of Aging and Longevity: A New and Complex Role of p53.
+  JOURNAL   Genes Cancer 2:443-52 (2011)
+            DOI:10.1177/1947601911410223
+REFERENCE   PMID:20336132
+  AUTHORS   Kenyon CJ
+  TITLE     The genetics of ageing.
+  JOURNAL   Nature 464:504-12 (2010)
+            DOI:10.1038/nature08980
+REFERENCE   PMID:24905167
+  AUTHORS   Cheng CW, Adams GB, Perin L, Wei M, Zhou X, Lam BS, Da Sacco S, Mirisola M, Quinn DI, Dorff TB, Kopchick JJ, Longo VD
+  TITLE     Prolonged fasting reduces IGF-1/PKA to promote hematopoietic-stem-cell-based regeneration and reverse immunosuppression.
+  JOURNAL   Cell Stem Cell 14:810-23 (2014)
+            DOI:10.1016/j.stem.2014.04.014
+REFERENCE   PMID:25832544
+  AUTHORS   Morris BJ, Willcox DC, Donlon TA, Willcox BJ
+  TITLE     FOXO3: A Major Gene for Human Longevity - A Mini-Review.
+  JOURNAL   Gerontology 61:515-25 (2015)
+            DOI:10.1159/000375235
+REFERENCE   PMID:23939249
+  AUTHORS   Pyo JO, Yoo SM, Ahn HH, Nah J, Hong SH, Kam TI, Jung S, Jung YK
+  TITLE     Overexpression of Atg5 in mice activates autophagy and extends lifespan.
+  JOURNAL   Nat Commun 4:2300 (2013)
+            DOI:10.1038/ncomms3300
+REFERENCE   PMID:25654554
+  AUTHORS   Madeo F, Zimmermann A, Maiuri MC, Kroemer G
+  TITLE     Essential role for autophagy in life span extension.
+  JOURNAL   J Clin Invest 125:85-93 (2015)
+            DOI:10.1172/JCI73946
+REFERENCE   PMID:23061800
+  AUTHORS   Passtoors WM, Beekman M, Deelen J, van der Breggen R, Maier AB, Guigas B, Derhovanessian E, van Heemst D, de Craen AJ, Gunn DA, Pawelec G, Slagboom PE
+  TITLE     Gene expression analysis of mTOR pathway: association with human longevity.
+  JOURNAL   Aging Cell 12:24-31 (2013)
+            DOI:10.1111/acel.12015
+REFERENCE   PMID:23594965
+  AUTHORS   Markaki M, Tavernarakis N
+  TITLE     Metabolic control by target of rapamycin and autophagy during ageing - a mini-review.
+  JOURNAL   Gerontology 59:340-8 (2013)
+            DOI:10.1159/000348599
+REFERENCE   PMID:17701476
+  AUTHORS   Dali-Youcef N, Lagouge M, Froelich S, Koehl C, Schoonjans K, Auwerx J
+  TITLE     Sirtuins: the 'magnificent seven', function, metabolism and longevity.
+  JOURNAL   Ann Med 39:335-45 (2007)
+            DOI:10.1080/07853890701408194
+REFERENCE   PMID:20103737
+  AUTHORS   Ruderman NB, Xu XJ, Nelson L, Cacicedo JM, Saha AK, Lan F, Ido Y
+  TITLE     AMPK and SIRT1: a long-standing partnership?
+  JOURNAL   Am J Physiol Endocrinol Metab 298:E751-60 (2010)
+            DOI:10.1152/ajpendo.00745.2009
+REFERENCE   PMID:20357764
+  AUTHORS   Iwabu M, Yamauchi T, Okada-Iwabu M, Sato K, Nakagawa T, Funata M, Yamaguchi M, Namiki S, Nakayama R, Tabata M, Ogata H, Kubota N, Takamoto I, Hayashi YK, Yamauchi N, Waki H, Fukayama M, Nishino I, Tokuyama K, Ueki K, Oike Y, Ishii S, Hirose K, Shimizu T, Touhara K, Kadowaki T
+  TITLE     Adiponectin and AdipoR1 regulate PGC-1alpha and mitochondria by Ca(2+) and AMPK/SIRT1.
+  JOURNAL   Nature 464:1313-9 (2010)
+            DOI:10.1038/nature08991
+REFERENCE   PMID:25824609
+  AUTHORS   Ramis MR, Esteban S, Miralles A, Tan DX, Reiter RJ
+  TITLE     Caloric restriction, resveratrol and melatonin: Role of SIRT1 and implications for aging and related-diseases.
+  JOURNAL   Mech Ageing Dev 146-148:28-41 (2015)
+            DOI:10.1016/j.mad.2015.03.008
+REFERENCE   PMID:19262508
+  AUTHORS   Canto C, Gerhart-Hines Z, Feige JN, Lagouge M, Noriega L, Milne JC, Elliott PJ, Puigserver P, Auwerx J
+  TITLE     AMPK regulates energy expenditure by modulating NAD+ metabolism and SIRT1 activity.
+  JOURNAL   Nature 458:1056-60 (2009)
+            DOI:10.1038/nature07813
+REFERENCE   PMID:24997879
+  AUTHORS   Esmaili S, Xu A, George J
+  TITLE     The multifaceted and controversial immunometabolic actions of adiponectin.
+  JOURNAL   Trends Endocrinol Metab 25:444-51 (2014)
+            DOI:10.1016/j.tem.2014.06.001
+REFERENCE   PMID:20848587
+  AUTHORS   Mouchiroud L, Molin L, Dalliere N, Solari F
+  TITLE     Life span extension by resveratrol, rapamycin, and metformin: The promise of dietary restriction mimetics for an healthy aging.
+  JOURNAL   Biofactors 36:377-82 (2010)
+            DOI:10.1002/biof.127
+REFERENCE   PMID:22983298
+  AUTHORS   Tucci P
+  TITLE     Caloric restriction: is mammalian life extension linked to p53?
+  JOURNAL   Aging (Albany NY) 4:525-34 (2012)
+            DOI:10.18632/aging.100481
+REFERENCE   PMID:18692468
+  AUTHORS   Budanov AV, Karin M
+  TITLE     p53 target genes sestrin1 and sestrin2 connect genotoxic stress and mTOR signaling.
+  JOURNAL   Cell 134:451-60 (2008)
+            DOI:10.1016/j.cell.2008.06.028
+REFERENCE   PMID:25601466
+  AUTHORS   Sopjani M, Rinnerthaler M, Kruja J, Dermaku-Sopjani M
+  TITLE     Intracellular signaling of the aging suppressor protein Klotho.
+  JOURNAL   Curr Mol Med 15:27-37 (2015)
+            DOI:10.2174/1566524015666150114111258
+REFERENCE   PMID:18946478
+  AUTHORS   Longo VD, Lieber MR, Vijg J
+  TITLE     Turning anti-ageing genes against cancer.
+  JOURNAL   Nat Rev Mol Cell Biol 9:903-10 (2008)
+            DOI:10.1038/nrm2526
+REL_PATHWAY mmu04064  NF-kappa B signaling pathway
+            mmu04068  FoxO signaling pathway
+            mmu04115  p53 signaling pathway
+            mmu04140  Autophagy - animal
+            mmu04150  mTOR signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04152  AMPK signaling pathway
+            mmu04910  Insulin signaling pathway
+KO_PATHWAY  ko04211
+///

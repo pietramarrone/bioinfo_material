@@ -1,0 +1,124 @@
+ENTRY       mmu00360                    Pathway
+NAME        Phenylalanine metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP mmu00360  Phenylalanine metabolism
+DBLINKS     GO: 0006558
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        18478  Pah; phenylalanine hydroxylase [KO:K00500] [EC:1.14.16.1]
+            13195  Ddc; dopa decarboxylase [KO:K01593] [EC:4.1.1.28 4.1.1.105]
+            11754  Aoc3; amine oxidase, copper containing 3 [KO:K00276] [EC:1.4.3.21]
+            237940  Aoc2; amine oxidase, copper containing 2 (retina-specific) [KO:K00276] [EC:1.4.3.21]
+            17161  Maoa; monoamine oxidase A [KO:K00274] [EC:1.4.3.4]
+            109731  Maob; monoamine oxidase B [KO:K00274] [EC:1.4.3.4]
+            11670  Aldh3a1; aldehyde dehydrogenase family 3, subfamily A1 [KO:K00129] [EC:1.2.1.5]
+            56847  Aldh1a3; aldehyde dehydrogenase family 1, subfamily A3 [KO:K00129] [EC:1.2.1.5]
+            67689  Aldh3b1; aldehyde dehydrogenase 3 family, member B1 [KO:K00129] [EC:1.2.1.5]
+            621603  Aldh3b2; aldehyde dehydrogenase 3 family, member B2 [KO:K00129] [EC:1.2.1.5]
+            73458  Aldh3b3; aldehyde dehydrogenase 3 family, member B3 [KO:K00129] [EC:1.2.1.5]
+            240549  Gm4952; predicted gene 4952 [KO:K15517] [EC:2.3.1.192]
+            14718  Got1; glutamic-oxaloacetic transaminase 1, soluble [KO:K14454] [EC:2.6.1.1]
+            14719  Got2; glutamatic-oxaloacetic transaminase 2, mitochondrial [KO:K14455] [EC:2.6.1.1]
+            234724  Tat; tyrosine aminotransferase [KO:K00815] [EC:2.6.1.5]
+            14204  Il4i1; interleukin 4 induced 1 [KO:K03334] [EC:1.4.3.2]
+            100470  Lao1; L-amino acid oxidase 1 [KO:K03334] [EC:1.4.3.2]
+            100328588  Il4i1b; interleukin 4 induced 1B [KO:K03334] [EC:1.4.3.2]
+            73988  4930438A08Rik; RIKEN cDNA 4930438A08 gene [KO:K03334] [EC:1.4.3.2]
+            15445  Hpd; 4-hydroxyphenylpyruvic acid dioxygenase [KO:K00457] [EC:1.13.11.27]
+            17319  Mif; macrophage migration inhibitory factor (glycosylation-inhibiting factor) [KO:K07253] [EC:5.3.2.1]
+            107146  Glyat; glycine-N-acyltransferase [KO:K00628] [EC:2.3.1.13 2.3.1.71]
+            64697  Keg1; kidney expressed gene 1 [KO:K00628] [EC:2.3.1.13 2.3.1.71]
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00042  Succinate
+            C00079  L-Phenylalanine
+            C00082  L-Tyrosine
+            C00084  Acetaldehyde
+            C00091  Succinyl-CoA
+            C00122  Fumarate
+            C00166  Phenylpyruvate
+            C00180  Benzoate
+            C00423  trans-Cinnamate
+            C00512  Benzoyl-CoA
+            C00582  Phenylacetyl-CoA
+            C00596  2-Hydroxy-2,4-pentadienoate
+            C00601  Phenylacetaldehyde
+            C00642  4-Hydroxyphenylacetate
+            C00805  Salicylate
+            C01198  3-(2-Hydroxyphenyl)propanoate
+            C01575  Ephedrine
+            C01586  Hippurate
+            C01772  trans-2-Hydroxycinnamate
+            C02137  alpha-Oxo-benzeneacetic acid
+            C02232  3-Oxoadipyl-CoA
+            C02265  D-Phenylalanine
+            C02505  2-Phenylacetamide
+            C02763  2-Hydroxy-3-phenylpropenoate
+            C02765  (+)-(1S,2S)-Pseudoephedrine
+            C03519  N-Acetyl-L-phenylalanine
+            C03589  4-Hydroxy-2-oxopentanoate
+            C04044  3-(2,3-Dihydroxyphenyl)propanoate
+            C04148  Phenylacetylglutamine
+            C04351  (R)-2-Methylimino-1-phenylpropan-1-ol
+            C04479  2-Hydroxy-6-oxonona-2,4-diene-1,9-dioate
+            C05332  Phenethylamine
+            C05593  3-Hydroxyphenylacetate
+            C05598  Phenylacetylglycine
+            C05607  Phenyllactate
+            C05620  N-Acetyl-D-phenylalanine
+            C05629  Phenylpropanoate
+            C05852  2-Hydroxyphenylacetate
+            C05853  Phenylethyl alcohol
+            C06207  2,6-Dihydroxyphenylacetate
+            C07086  Phenylacetic acid
+            C08300  D-Cathine
+            C08301  D-Cathinone
+            C11457  3-(3-Hydroxyphenyl)propanoic acid
+            C11588  cis-3-(Carboxy-ethyl)-3,5-cyclo-hexadiene-1,2-diol
+            C12621  trans-3-Hydroxycinnamate
+            C12622  cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol
+            C12623  trans-2,3-Dihydroxycinnamate
+            C12624  2-Hydroxy-6-ketononatrienedioate
+            C14144  5-Carboxy-2-pentenoyl-CoA
+            C14145  (3S)-3-Hydroxyadipyl-CoA
+            C15524  Phenylglyoxylyl-CoA
+            C16719  (-)-Norephedrine
+            C17268  Pyruvophenone
+            C19945  3-Oxo-5,6-dehydrosuberyl-CoA
+            C19946  3-Oxo-5,6-dehydrosuberyl-CoA semialdehyde
+            C19975  2-Oxepin-2(3H)-ylideneacetyl-CoA
+            C20062  2-(1,2-Epoxy-1,2-dihydrophenyl)acetyl-CoA
+REFERENCE   
+  AUTHORS   Nishizuka Y, Seyama Y, Ikai A, Ishimura Y, Kawaguchi A (eds).
+  TITLE     [Cellular Functions and Metabolic Maps] (In Japanese)
+  JOURNAL   Tokyo Kagaku Dojin (1997)
+REFERENCE   PMID:10537203
+  AUTHORS   Arai H, Yamamoto T, Ohishi T, Shimizu T, Nakata T, Kudo T.
+  TITLE     Genetic organization and characteristics of the 3-(3-hydroxyphenyl)propionic acid degradation pathway of Comamonas testosteroni TA441.
+  JOURNAL   Microbiology 145 ( Pt 10):2813-20 (1999)
+            DOI:10.1099/00221287-145-10-2813
+REFERENCE   PMID:9603882
+  AUTHORS   Diaz E, Ferrandez A, Garcia JL.
+  TITLE     Characterization of the hca cluster encoding the dioxygenolytic pathway for initial catabolism of 3-phenylpropionic acid in Escherichia coli K-12.
+  JOURNAL   J Bacteriol 180:2915-23 (1998)
+            DOI:10.1128/JB.180.11.2915-2923.1998
+REFERENCE   PMID:9098055
+  AUTHORS   Ferrandez A, Garcia JL, Diaz E.
+  TITLE     Genetic characterization and expression in heterologous hosts of the 3-(3-hydroxyphenyl)propionate catabolic pathway of Escherichia coli K-12.
+  JOURNAL   J Bacteriol 179:2573-81 (1997)
+            DOI:10.1128/JB.179.8.2573-2581.1997
+REFERENCE   PMID:19016485
+  AUTHORS   Hwang JY, Park J, Seo JH, Cha M, Cho BK, Kim J, Kim BG
+  TITLE     Simultaneous synthesis of 2-phenylethanol and L-homophenylalanine using aromatic transaminase with yeast Ehrlich pathway.
+  JOURNAL   Biotechnol Bioeng 102:1323-9 (2009)
+            DOI:10.1002/bit.22178
+REFERENCE   PMID:20660314
+  AUTHORS   Teufel R, Mascaraque V, Ismail W, Voss M, Perera J, Eisenreich W, Haehnel W, Fuchs G
+  TITLE     Bacterial phenylalanine and phenylacetate catabolic pathway revealed.
+  JOURNAL   Proc Natl Acad Sci U S A 107:14390-5 (2010)
+            DOI:10.1073/pnas.1005399107
+REL_PATHWAY mmu00010  Glycolysis / Gluconeogenesis
+            mmu00020  Citrate cycle (TCA cycle)
+            mmu00350  Tyrosine metabolism
+            mmu00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+KO_PATHWAY  ko00360
+///

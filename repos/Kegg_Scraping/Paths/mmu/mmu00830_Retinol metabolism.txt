@@ -1,0 +1,155 @@
+ENTRY       mmu00830                    Pathway
+NAME        Retinol metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP mmu00830  Retinol metabolism
+DBLINKS     GO: 0006776
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        63857  Bco1; beta-carotene oxygenase 1 [KO:K00515] [EC:1.13.11.63]
+            11522  Adh1; alcohol dehydrogenase 1 (class I) [KO:K13951] [EC:1.1.1.1]
+            11529  Adh7; alcohol dehydrogenase 7 (class IV), mu or sigma polypeptide [KO:K13951] [EC:1.1.1.1]
+            26876  Adh4; alcohol dehydrogenase 4 (class II), pi polypeptide [KO:K13980] [EC:1.1.1.1]
+            11532  Adh5; alcohol dehydrogenase 5 (class III), chi polypeptide [KO:K00121] [EC:1.1.1.284 1.1.1.1]
+            20148  Dhrs3; dehydrogenase/reductase (SDR family) member 3 [KO:K11146] [EC:1.1.1.300]
+            28200  Dhrs4; dehydrogenase/reductase (SDR family) member 4 [KO:K11147] [EC:1.1.-.-]
+            241452  Dhrs9; dehydrogenase/reductase (SDR family) member 9 [KO:K11149] [EC:1.1.-.-]
+            235033  Rdh8; retinol dehydrogenase 8 [KO:K11150] [EC:1.1.1.-]
+            98711  Rdh10; retinol dehydrogenase 10 (all-trans) [KO:K11151] [EC:1.1.1.-]
+            17252  Rdh11; retinol dehydrogenase 11 [KO:K11152] [EC:1.1.1.300]
+            77974  Rdh12; retinol dehydrogenase 12 [KO:K11153] [EC:1.1.1.300]
+            216453  Rdh19; retinol dehydrogenase 19 [KO:K11154] [EC:1.1.1.-]
+            216454  Rdh16f2; RDH16 family member 2 [KO:K11154] [EC:1.1.1.-]
+            19683  Rdh16; retinol dehydrogenase 16 [KO:K11154] [EC:1.1.1.-]
+            103142  Rdh9; retinol dehydrogenase 9 [KO:K11154] [EC:1.1.1.-]
+            107605  Rdh1; retinol dehydrogenase 1 (all trans) [KO:K11154] [EC:1.1.1.-]
+            54150  Rdh7; retinol dehydrogenase 7 [KO:K11154] [EC:1.1.1.-]
+            242285  Sdr16c5; short chain dehydrogenase/reductase family 16C, member 5 [KO:K15734] [EC:1.1.1.105]
+            27400  Hsd17b6; hydroxysteroid (17-beta) dehydrogenase 6 [KO:K13369] [EC:1.1.1.62 1.1.1.105 1.1.1.239]
+            79235  Lrat; lecithin-retinol acyltransferase (phosphatidylcholine-retinol-O-acyltransferase) [KO:K00678] [EC:2.3.1.135]
+            13350  Dgat1; diacylglycerol O-acyltransferase 1 [KO:K11155] [EC:2.3.1.20 2.3.1.75 2.3.1.76]
+            245532  Awat2; acyl-CoA wax alcohol acyltransferase 2 [KO:K11156] [EC:2.3.1.75 2.3.1.76]
+            19892  Rpe65; retinal pigment epithelium 65 [KO:K11158] [EC:3.1.1.64 5.3.3.22]
+            19682  Rdh5; retinol dehydrogenase 5 [KO:K00061] [EC:1.1.1.315]
+            213043  Aox2; aldehyde oxidase 2 [KO:K00157] [EC:1.2.3.1]
+            11761  Aox1; aldehyde oxidase 1 [KO:K00157] [EC:1.2.3.1]
+            71872  Aox4; aldehyde oxidase 4 [KO:K00157] [EC:1.2.3.1]
+            71724  Aox3; aldehyde oxidase 3 [KO:K00157] [EC:1.2.3.1]
+            26358  Aldh1a7; aldehyde dehydrogenase family 1, subfamily A7 [KO:K07249] [EC:1.2.1.36]
+            19378  Aldh1a2; aldehyde dehydrogenase family 1, subfamily A2 [KO:K07249] [EC:1.2.1.36]
+            11668  Aldh1a1; aldehyde dehydrogenase family 1, subfamily A1 [KO:K07249] [EC:1.2.1.36]
+            13082  Cyp26a1; cytochrome P450, family 26, subfamily a, polypeptide 1 [KO:K07437]
+            232174  Cyp26b1; cytochrome P450, family 26, subfamily b, polypeptide 1 [KO:K12664]
+            546726  Cyp26c1; cytochrome P450, family 26, subfamily c, polypeptide 1 [KO:K12665]
+            13076  Cyp1a1; cytochrome P450, family 1, subfamily a, polypeptide 1 [KO:K07408] [EC:1.14.14.1]
+            13077  Cyp1a2; cytochrome P450, family 1, subfamily a, polypeptide 2 [KO:K07409] [EC:1.14.14.1]
+            13086  Cyp2a4; cytochrome P450, family 2, subfamily a, polypeptide 4 [KO:K07411] [EC:1.14.14.1]
+            13087  Cyp2a5; cytochrome P450, family 2, subfamily a, polypeptide 5 [KO:K07411] [EC:1.14.14.1]
+            13085  Cyp2a12; cytochrome P450, family 2, subfamily a, polypeptide 12 [KO:K07411] [EC:1.14.14.1]
+            13088  Cyp2b10; cytochrome P450, family 2, subfamily b, polypeptide 10 [KO:K07412] [EC:1.14.14.1]
+            13089  Cyp2b13; cytochrome P450, family 2, subfamily b, polypeptide 13 [KO:K07412] [EC:1.14.14.1]
+            13090  Cyp2b19; cytochrome P450, family 2, subfamily b, polypeptide 19 [KO:K07412] [EC:1.14.14.1]
+            13094  Cyp2b9; cytochrome P450, family 2, subfamily b, polypeptide 9 [KO:K07412] [EC:1.14.14.1]
+            243881  Cyp2b23; cytochrome P450, family 2, subfamily b, polypeptide 23 [KO:K07412] [EC:1.14.14.1]
+            13097  Cyp2c38; cytochrome P450, family 2, subfamily c, polypeptide 38 [KO:K07413] [EC:1.14.14.1]
+            13098  Cyp2c39; cytochrome P450, family 2, subfamily c, polypeptide 39 [KO:K07413] [EC:1.14.14.1]
+            13099  Cyp2c40; cytochrome P450, family 2, subfamily c, polypeptide 40 [KO:K07413] [EC:1.14.14.1]
+            226143  Cyp2c23; cytochrome P450, family 2, subfamily c, polypeptide 23 [KO:K07413] [EC:1.14.14.1]
+            13095  Cyp2c29; cytochrome P450, family 2, subfamily c, polypeptide 29 [KO:K07413] [EC:1.14.14.1]
+            226105  Cyp2c70; cytochrome P450, family 2, subfamily c, polypeptide 70 [KO:K07413] [EC:1.14.14.1]
+            13096  Cyp2c37; cytochrome P450, family 2. subfamily c, polypeptide 37 [KO:K07413] [EC:1.14.14.1]
+            72082  Cyp2c55; cytochrome P450, family 2, subfamily c, polypeptide 55 [KO:K07413] [EC:1.14.14.1]
+            72303  Cyp2c65; cytochrome P450, family 2, subfamily c, polypeptide 65 [KO:K07413] [EC:1.14.14.1]
+            69888  Cyp2c66; cytochrome P450, family 2, subfamily c, polypeptide 66 [KO:K07413] [EC:1.14.14.1]
+            107141  Cyp2c50; cytochrome P450, family 2, subfamily c, polypeptide 50 [KO:K07413] [EC:1.14.14.1]
+            404195  Cyp2c54; cytochrome P450, family 2, subfamily c, polypeptide 54 [KO:K07413] [EC:1.14.14.1]
+            433247  Cyp2c68; cytochrome P450, family 2, subfamily c, polypeptide 68 [KO:K07413] [EC:1.14.14.1]
+            74134  Cyp2s1; cytochrome P450, family 2, subfamily s, polypeptide 1 [KO:K07420] [EC:1.14.14.1]
+            13112  Cyp3a11; cytochrome P450, family 3, subfamily a, polypeptide 11 [KO:K07424] [EC:1.14.14.1]
+            13113  Cyp3a13; cytochrome P450, family 3, subfamily a, polypeptide 13 [KO:K07424] [EC:1.14.14.1]
+            13114  Cyp3a16; cytochrome P450, family 3, subfamily a, polypeptide 16 [KO:K07424] [EC:1.14.14.1]
+            56388  Cyp3a25; cytochrome P450, family 3, subfamily a, polypeptide 25 [KO:K07424] [EC:1.14.14.1]
+            53973  Cyp3a41a; cytochrome P450, family 3, subfamily a, polypeptide 41A [KO:K07424] [EC:1.14.14.1]
+            337924  Cyp3a44; cytochrome P450, family 3, subfamily a, polypeptide 44 [KO:K07424] [EC:1.14.14.1]
+            100041375  Cyp3a41b; cytochrome P450, family 3, subfamily a, polypeptide 41B [KO:K07424] [EC:1.14.14.1]
+            13118  Cyp4a12b; cytochrome P450, family 4, subfamily a, polypeptide 12B [KO:K07425] [EC:1.14.14.80]
+            13117  Cyp4a10; cytochrome P450, family 4, subfamily a, polypeptide 10 [KO:K07425] [EC:1.14.14.80]
+            13119  Cyp4a14; cytochrome P450, family 4, subfamily a, polypeptide 14 [KO:K07425] [EC:1.14.14.80]
+            435802  Cyp4a30b; cytochrome P450, family 4, subfamily a, polypeptide 30b [KO:K07425] [EC:1.14.14.80]
+            230639  Cyp4a29; cytochrome P450, family 4, subfamily a, polypeptide 29 [KO:K07425] [EC:1.14.14.80]
+            666168  Cyp4a31; cytochrome P450, family 4, subfamily a, polypeptide 31 [KO:K07425] [EC:1.14.14.80]
+            100040843  Cyp4a32; cytochrome P450, family 4, subfamily a, polypeptide 32 [KO:K07425] [EC:1.14.14.80]
+            277753  Cyp4a12a; cytochrome P450, family 4, subfamily a, polypeptide 12a [KO:K07425] [EC:1.14.14.80]
+            22238  Ugt2b5; UDP glucuronosyltransferase 2 family, polypeptide B5 [KO:K00699] [EC:2.4.1.17]
+            22236  Ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2 [KO:K00699] [EC:2.4.1.17]
+            94284  Ugt1a6a; UDP glucuronosyltransferase 1 family, polypeptide A6A [KO:K00699] [EC:2.4.1.17]
+            94215  Ugt2a1; UDP glucuronosyltransferase 2 family, polypeptide A1 [KO:K00699] [EC:2.4.1.17]
+            394434  Ugt1a9; UDP glucuronosyltransferase 1 family, polypeptide A9 [KO:K00699] [EC:2.4.1.17]
+            394430  Ugt1a10; UDP glycosyltransferase 1 family, polypeptide A10 [KO:K00699] [EC:2.4.1.17]
+            394432  Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [KO:K00699] [EC:2.4.1.17]
+            394433  Ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5 [KO:K00699] [EC:2.4.1.17]
+            72094  Ugt2a3; UDP glucuronosyltransferase 2 family, polypeptide A3 [KO:K00699] [EC:2.4.1.17]
+            552899  Ugt2a2; UDP glucuronosyltransferase 2 family, polypeptide A2 [KO:K00699] [EC:2.4.1.17]
+            71773  Ugt2b1; UDP glucuronosyltransferase 2 family, polypeptide B1 [KO:K00699] [EC:2.4.1.17]
+            394435  Ugt1a6b; UDP glucuronosyltransferase 1 family, polypeptide A6B [KO:K00699] [EC:2.4.1.17]
+            394436  Ugt1a1; UDP glucuronosyltransferase 1 family, polypeptide A1 [KO:K00699] [EC:2.4.1.17]
+            100727  Ugt2b34; UDP glucuronosyltransferase 2 family, polypeptide B34 [KO:K00699] [EC:2.4.1.17]
+            231396  Ugt2b36; UDP glucuronosyltransferase 2 family, polypeptide B36 [KO:K00699] [EC:2.4.1.17]
+            100559  Ugt2b38; UDP glucuronosyltransferase 2 family, polypeptide B38 [KO:K00699] [EC:2.4.1.17]
+            112417  Ugt2b37; UDP glucuronosyltransferase 2 family, polypeptide B37 [KO:K00699] [EC:2.4.1.17]
+            243085  Ugt2b35; UDP glucuronosyltransferase 2 family, polypeptide B35 [KO:K00699] [EC:2.4.1.17]
+            67442  Retsat; retinol saturase (all trans retinol 13,14 reductase) [KO:K09516] [EC:1.3.99.23]
+COMPOUND    C00376  Retinal
+            C00473  Retinol
+            C00777  Retinoate
+            C00778  Rhodopsin
+            C00899  11-cis-Retinol
+            C02075  Retinyl ester
+            C02094  beta-Carotene
+            C02110  11-cis-Retinal
+            C02588  Retinyl palmitate
+            C03455  11-cis-Retinyl palmitate
+            C05914  Bathorhodopsin
+            C05915  Lumirhodopsin
+            C05916  Metarhodopsin
+            C05917  Iodopsin
+            C11061  all-trans-Retinoyl-beta-glucuronide
+            C15492  all-trans-13,14-Dihydroretinol
+            C15493  9-cis-Retinoic acid
+            C16677  all-trans-4-Hydroxyretinoic acid
+            C16678  all-trans-4-Oxoretinoic acid
+            C16679  all-trans-18-Hydroxyretinoic acid
+            C16680  all-trans-5,6-Epoxyretinoic acid
+            C16681  9-cis-Retinal
+            C16682  9-cis-Retinol
+            C16683  4-Oxoretinol
+            C21797  all-trans-3,4-Didehydroretinol
+REFERENCE   PMID:16968212
+  AUTHORS   Travis GH, Golczak M, Moise AR, Palczewski K.
+  TITLE     Diseases caused by defects in the visual cycle: retinoids as potential therapeutic agents.
+  JOURNAL   Annu Rev Pharmacol Toxicol 47:469-512 (2007)
+            DOI:10.1146/annurev.pharmtox.47.120505.105225
+REFERENCE   PMID:17618621
+  AUTHORS   Muniz A, Villazana-Espinoza ET, Hatch AL, Trevino SG, Allen DM, Tsin AT.
+  TITLE     A novel cone visual cycle in the cone-dominated retina.
+  JOURNAL   Exp Eye Res 85:175-84 (2007)
+            DOI:10.1016/j.exer.2007.05.003
+REFERENCE   PMID:11093772
+  AUTHORS   Marill J, Cresteil T, Lanotte M, Chabot GG.
+  TITLE     Identification of human cytochrome P450s involved in the formation of all-trans-retinoic acid principal metabolites.
+  JOURNAL   Mol Pharmacol 58:1341-8 (2000)
+            DOI:10.1124/mol.58.6.1341
+REFERENCE   PMID:17893666
+  AUTHORS   Nezzar H, Chiambaretta F, Marceau G, Blanchon L, Faye B, Dechelotte P, Rigal D, Sapin V.
+  TITLE     Molecular and metabolic retinoid pathways in the human ocular surface.
+  JOURNAL   Mol Vis 13:1641-50 (2007)
+REFERENCE   PMID:16688755
+  AUTHORS   Blomhoff R, Blomhoff HK.
+  TITLE     Overview of retinoid metabolism and function.
+  JOURNAL   J Neurobiol 66:606-30 (2006)
+            DOI:10.1002/neu.20242
+REFERENCE   PMID:16428379
+  AUTHORS   Liden M, Eriksson U.
+  TITLE     Understanding retinol metabolism: structure and function of retinol dehydrogenases.
+  JOURNAL   J Biol Chem 281:13001-4 (2006)
+            DOI:10.1074/jbc.R500027200
+KO_PATHWAY  ko00830
+///

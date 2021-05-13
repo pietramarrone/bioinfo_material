@@ -1,0 +1,126 @@
+ENTRY       mmu05020                    Pathway
+NAME        Prion diseases - Mus musculus (mouse)
+DESCRIPTION Prion diseases, also termed transmissible spongiform encephalopathies (TSEs), are a group of fatal neurodegenerative diseases that affect humans and a number of other animal species. The etiology of these diseases is thought to be associated with the conversion of a normal protein, PrPC, into an infectious, pathogenic form, PrPSc. The conversion is induced by prion infections (for example, variant Creutzfeldt-Jakob disease (vCJD), iatrogenic CJD, Kuru), mutations (familial CJD, Gerstmann-Straussler-Scheinker syndrome, fatal familial insomnia (FFI)) or unknown factors (sporadic CJD (sCJD)), and is thought to occur after PrPC has reached the plasma membrane or is re-internalized for degradation. The PrPSc form shows greater protease resistance than PrPC and accumulates in affected individuals, often in the form of extracellular plaques. Pathways that may lead to neuronal death comprise oxidative stress, regulated activation of complement, ubiquitin-proteasome and endosomal-lysosomal systems, synaptic alterations and dendritic atrophy, corticosteroid response, and endoplasmic reticulum stress. In addition, the conformational transition could lead to the lost of a beneficial activity of the natively folded protein, PrPC.
+CLASS       Human Diseases; Neurodegenerative disease
+PATHWAY_MAP mmu05020  Prion diseases
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        19122  Prnp; prion protein [KO:K05634]
+            14828  Hspa5; heat shock protein 5 [KO:K09490] [EC:3.6.4.10]
+            17967  Ncam1; neural cell adhesion molecule 1 [KO:K06491]
+            17968  Ncam2; neural cell adhesion molecule 2 [KO:K06491]
+            226519  Lamc1; laminin, gamma 1 [KO:K05635]
+            20655  Sod1; superoxide dismutase 1, soluble [KO:K04565] [EC:1.15.1.1]
+            20867  Stip1; stress-induced phosphoprotein 1 [KO:K09553]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            12028  Bax; BCL2-associated X protein [KO:K02159]
+            14360  Fyn; Fyn proto-oncogene [KO:K05703] [EC:2.7.10.2]
+            12364  Casp12; caspase 12 [KO:K04741] [EC:3.4.22.-]
+            15139  Hc; hemolytic complement [KO:K03994]
+            12274  C6; complement component 6 [KO:K03995]
+            109828  C7; complement component 7 [KO:K03996]
+            230558  C8a; complement component 8, alpha polypeptide [KO:K03997]
+            110382  C8b; complement component 8, beta polypeptide [KO:K03998]
+            69379  C8g; complement component 8, gamma polypeptide [KO:K03999]
+            12279  C9; complement component 9 [KO:K04000]
+            12259  C1qa; complement component 1, q subcomponent, alpha polypeptide [KO:K03986]
+            12260  C1qb; complement component 1, q subcomponent, beta polypeptide [KO:K03987]
+            12262  C1qc; complement component 1, q subcomponent, C chain [KO:K03988]
+            18128  Notch1; notch 1 [KO:K02599]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            13712  Elk1; ELK1, member of ETS oncogene family [KO:K04375]
+            13653  Egr1; early growth response 1 [KO:K09203]
+            20304  Ccl5; chemokine (C-C motif) ligand 5 [KO:K12499]
+            16175  Il1a; interleukin 1 alpha [KO:K04383]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+            16193  Il6; interleukin 6 [KO:K05405]
+            193740  Hspa1a; heat shock protein 1A [KO:K03283]
+COMPOUND    C00027  Hydrogen peroxide
+            C00575  3',5'-Cyclic AMP
+            C02140  Corticosterone
+REFERENCE   PMID:18245809
+  AUTHORS   Kovacs GG, Budka H
+  TITLE     Prion diseases: from protein to cell pathology.
+  JOURNAL   Am J Pathol 172:555-65 (2008)
+            DOI:10.2353/ajpath.2008.070442
+REFERENCE   PMID:15695097
+  AUTHORS   Campana V, Sarnataro D, Zurzolo C
+  TITLE     The highways and byways of prion protein trafficking.
+  JOURNAL   Trends Cell Biol 15:102-11 (2005)
+            DOI:10.1016/j.tcb.2004.12.002
+REFERENCE   PMID:14661267
+  AUTHORS   Nunziante M, Gilch S, Schatzl HM
+  TITLE     Prion diseases: from molecular biology to intervention strategies.
+  JOURNAL   Chembiochem 4:1268-84 (2003)
+            DOI:10.1002/cbic.200300704
+REFERENCE   PMID:17051207
+  AUTHORS   Caughey B, Baron GS
+  TITLE     Prions and their partners in crime.
+  JOURNAL   Nature 443:803-10 (2006)
+            DOI:10.1038/nature05294
+REFERENCE   PMID:18391177
+  AUTHORS   Linden R, Martins VR, Prado MA, Cammarota M, Izquierdo I, Brentani RR
+  TITLE     Physiology of the prion protein.
+  JOURNAL   Physiol Rev 88:673-728 (2008)
+            DOI:10.1152/physrev.00007.2007
+REFERENCE   PMID:11592845
+  AUTHORS   Chiesa R, Harris DA
+  TITLE     Prion diseases: what is the neurotoxic molecule?
+  JOURNAL   Neurobiol Dis 8:743-63 (2001)
+            DOI:10.1006/nbdi.2001.0433
+REFERENCE   PMID:10398674
+  AUTHORS   Harris DA
+  TITLE     Cellular biology of prion diseases.
+  JOURNAL   Clin Microbiol Rev 12:429-44 (1999)
+REFERENCE   PMID:15528202
+  AUTHORS   Marella M, Gaggioli C, Batoz M, Deckert M, Tartare-Deckert S, Chabry J
+  TITLE     Pathological prion protein exposure switches on neuronal mitogen-activated protein kinase pathway resulting in microglia recruitment.
+  JOURNAL   J Biol Chem 280:1529-34 (2005)
+            DOI:10.1074/jbc.M410966200
+REFERENCE   PMID:15611724
+  AUTHORS   Mallucci G, Collinge J
+  TITLE     Rational targeting for prion therapeutics.
+  JOURNAL   Nat Rev Neurosci 6:23-34 (2005)
+            DOI:10.1038/nrn1584
+REFERENCE   PMID:12850426
+  AUTHORS   Hegde RS, Rane NS
+  TITLE     Prion protein trafficking and the development of neurodegeneration.
+  JOURNAL   Trends Neurosci 26:337-9 (2003)
+            DOI:10.1016/S0166-2236(03)00143-7
+REFERENCE   PMID:17085779
+  AUTHORS   Fasano C, Campana V, Zurzolo C
+  TITLE     Prions: protein only or something more? Overview of potential prion cofactors.
+  JOURNAL   J Mol Neurosci 29:195-214 (2006)
+            DOI:10.1385/JMN:29:3:195
+REFERENCE   PMID:14705136
+  AUTHORS   Roucou X, Gains M, LeBlanc AC
+  TITLE     Neuroprotective functions of prion protein.
+  JOURNAL   J Neurosci Res 75:153-61 (2004)
+            DOI:10.1002/jnr.10864
+REFERENCE   PMID:15890824
+  AUTHORS   Novakofski J, Brewer MS, Mateus-Pinilla N, Killefer J, McCusker RH
+  TITLE     Prion biology relevant to bovine spongiform encephalopathy.
+  JOURNAL   J Anim Sci 83:1455-76 (2005)
+            DOI:10.2527/2005.8361455x
+REFERENCE   PMID:18558863
+  AUTHORS   Aguzzi A, Baumann F, Bremer J
+  TITLE     The prion's elusive reason for being.
+  JOURNAL   Annu Rev Neurosci 31:439-77 (2008)
+            DOI:10.1146/annurev.neuro.31.060407.125620
+REFERENCE   PMID:15342004
+  AUTHORS   Mabbott NA
+  TITLE     The complement system in prion diseases.
+  JOURNAL   Curr Opin Immunol 16:587-93 (2004)
+            DOI:10.1016/j.coi.2004.07.002
+REL_PATHWAY mmu03050  Proteasome
+            mmu04140  Autophagy - animal
+            mmu04142  Lysosome
+            mmu04144  Endocytosis
+            mmu04210  Apoptosis
+            mmu04330  Notch signaling pathway
+            mmu04610  Complement and coagulation cascades
+KO_PATHWAY  ko05020
+///

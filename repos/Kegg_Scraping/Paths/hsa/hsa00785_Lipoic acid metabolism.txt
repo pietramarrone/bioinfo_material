@@ -1,0 +1,75 @@
+ENTRY       hsa00785                    Pathway
+NAME        Lipoic acid metabolism - Homo sapiens (human)
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP hsa00785  Lipoic acid metabolism
+DBLINKS     GO: 0009106
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        11019  LIAS; lipoic acid synthetase [KO:K03644] [EC:2.8.1.8]
+            387787  LIPT2; lipoyl(octanoyl) transferase 2 [KO:K03801] [EC:2.3.1.181]
+            51601  LIPT1; lipoyltransferase 1 [KO:K10105]
+COMPOUND    C05752  Octanoyl-[acp]
+            C16236  Protein N6-(octanoyl)lysine
+            C16237  Protein N6-(lipoyl)lysine
+            C16238  Lipoyl-AMP
+            C16239  Lipoyl-[acp]
+            C16241  (R)-Lipoate
+REFERENCE   PMID:16246025
+  AUTHORS   Gunther S, McMillan PJ, Wallace LJ, Muller S.
+  TITLE     Plasmodium falciparum possesses organelle-specific alpha-keto acid dehydrogenase complexes and lipoylation pathways.
+  JOURNAL   Biochem Soc Trans 33:977-80 (2005)
+            DOI:10.1042/BST20050977
+REFERENCE   PMID:10103005
+  AUTHORS   Fujiwara K, Suzuki M, Okumachi Y, Okamura-Ikeda K, Fujiwara T, Takahashi E, Motokawa Y.
+  TITLE     Molecular cloning, structural characterization and chromosomal localization of human lipoyltransferase gene.
+  JOURNAL   Eur J Biochem 260:761-7 (1999)
+            DOI:10.1046/j.1432-1327.1999.00204.x
+REFERENCE   PMID:8206978
+  AUTHORS   Fujiwara K, Okamura-Ikeda K, Motokawa Y.
+  TITLE     Purification and characterization of lipoyl-AMP:N epsilon-lysine lipoyltransferase from bovine liver mitochondria.
+  JOURNAL   J Biol Chem 269:16605-9 (1994)
+REFERENCE   PMID:9405389
+  AUTHORS   Fujiwara K, Okamura-Ikeda K, Motokawa Y.
+  TITLE     Cloning and expression of a cDNA encoding bovine lipoyltransferase.
+  JOURNAL   J Biol Chem 272:31974-8 (1997)
+            DOI:10.1074/jbc.272.51.31974
+REFERENCE   PMID:11382754
+  AUTHORS   Fujiwara K, Takeuchi S, Okamura-Ikeda K, Motokawa Y.
+  TITLE     Purification, characterization, and cDNA cloning of lipoate-activating enzyme from bovine liver.
+  JOURNAL   J Biol Chem 276:28819-23 (2001)
+            DOI:10.1074/jbc.M101748200
+REFERENCE   PMID:16043486
+  AUTHORS   Fujiwara K, Toma S, Okamura-Ikeda K, Motokawa Y, Nakagawa A, Taniguchi H.
+  TITLE     Crystal structure of lipoate-protein ligase A from Escherichia coli. Determination of the lipoic acid-binding site.
+  JOURNAL   J Biol Chem 280:33645-51 (2005)
+            DOI:10.1074/jbc.M505010200
+REFERENCE   PMID:9808738
+  AUTHORS   Yasuno R, Wada H.
+  TITLE     Biosynthesis of lipoic acid in Arabidopsis: cloning and characterization of the cDNA for lipoic acid synthase.
+  JOURNAL   Plant Physiol 118:935-43 (1998)
+            DOI:10.1104/pp.118.3.935
+REFERENCE   PMID:10671542
+  AUTHORS   Gueguen V, Macherel D, Jaquinod M, Douce R, Bourguignon J.
+  TITLE     Fatty acid and lipoic acid biosynthesis in higher plant mitochondria.
+  JOURNAL   J Biol Chem 275:5016-25 (2000)
+            DOI:10.1074/jbc.275.7.5016
+REFERENCE   PMID:11427685
+  AUTHORS   Wada M, Yasuno R, Jordan SW, Cronan JE Jr, Wada H.
+  TITLE     Lipoic acid metabolism in Arabidopsis thaliana: cloning and characterization of a cDNA encoding lipoyltransferase.
+  JOURNAL   Plant Cell Physiol 42:650-6 (2001)
+            DOI:10.1093/pcp/pce081
+REFERENCE   PMID:8206909
+  AUTHORS   Morris TW, Reed KE, Cronan JE Jr.
+  TITLE     Identification of the gene encoding lipoate-protein ligase A of Escherichia coli. Molecular cloning and characterization of the lplA gene and gene product.
+  JOURNAL   J Biol Chem 269:16091-100 (1994)
+REFERENCE   PMID:14700636
+  AUTHORS   Zhao X, Miller JR, Jiang Y, Marletta MA, Cronan JE.
+  TITLE     Assembly of the covalent linkage between lipoic acid and its cognate enzymes.
+  JOURNAL   Chem Biol 10:1293-302 (2003)
+            DOI:10.1016/j.chembiol.2003.11.016
+REFERENCE   PMID:15642479
+  AUTHORS   Nesbitt NM, Baleanu-Gogonea C, Cicchillo RM, Goodson K, Iwig DF, Broadwater JA, Haas JA, Fox BG, Booker SJ.
+  TITLE     Expression, purification, and physical characterization of Escherichia coli lipoyl(octanoyl)transferase.
+  JOURNAL   Protein Expr Purif 39:269-82 (2005)
+            DOI:10.1016/j.pep.2004.10.021
+KO_PATHWAY  ko00785
+///

@@ -1,0 +1,109 @@
+ENTRY       mmu04730                    Pathway
+NAME        Long-term depression - Mus musculus (mouse)
+DESCRIPTION Cerebellar long-term depression (LTD), thought to be a molecular and cellular basis for cerebellar learning, is a process involving a decrease in the synaptic strength between parallel fiber (PF) and Purkinje cells (PCs) induced by the conjunctive activation of PFs and climbing fiber (CF). Multiple signal transduction pathways have been shown to be involved in this process. Activation of PFs terminating on spines in dendritic branchlets leads to glutamate release and activation of both AMPA and mGluRs. Activation of CFs, which make multiple synaptic contacts on proximal dendrites, also via AMPA receptors, opens voltage-gated calcium channels (VGCCs) and causes a generalized influx of calcium. These cellular signals, generated from two different synaptic origins, trigger a cascade of events culminating in a phosphorylation-dependent, long-term reduction in AMPA receptor sensitivity at the PF-PC synapse. This may take place either through receptor internalization and/or through receptor desensitization.
+CLASS       Organismal Systems; Nervous system
+PATHWAY_MAP mmu04730  Long-term depression
+DBLINKS     GO: 0048169
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        18125  Nos1; nitric oxide synthase 1, neuronal [KO:K13240] [EC:1.14.13.39]
+            60596  Gucy1a1; guanylate cyclase 1, soluble, alpha 1 [KO:K12318] [EC:4.6.1.2]
+            234889  Gucy1a2; guanylate cyclase 1, soluble, alpha 2 [KO:K12318] [EC:4.6.1.2]
+            239134  Gucy1b2; guanylate cyclase 1, soluble, beta 2 [KO:K12319] [EC:4.6.1.2]
+            54195  Gucy1b1; guanylate cyclase 1, soluble, beta 1 [KO:K12319] [EC:4.6.1.2]
+            19091  Prkg1; protein kinase, cGMP-dependent, type I [KO:K07376] [EC:2.7.11.12]
+            19092  Prkg2; protein kinase, cGMP-dependent, type II [KO:K19477] [EC:2.7.11.12]
+            19051  Ppp1r17; protein phosphatase 1, regulatory subunit 17 [KO:K08067]
+            51792  Ppp2r1a; protein phosphatase 2, regulatory subunit A, alpha [KO:K03456]
+            73699  Ppp2r1b; protein phosphatase 2, regulatory subunit A, beta [KO:K03456]
+            19052  Ppp2ca; protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform [KO:K04382] [EC:3.1.3.16]
+            19053  Ppp2cb; protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform [KO:K04382] [EC:3.1.3.16]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            14804  Grid2; glutamate receptor, ionotropic, delta 2 [KO:K05207]
+            14816  Grm1; glutamate receptor, metabotropic 1 [KO:K04603]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            14681  Gnao1; guanine nucleotide binding protein, alpha O [KO:K04534]
+            14687  Gnaz; guanine nucleotide binding protein, alpha z subunit [KO:K04535]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            14673  Gna12; guanine nucleotide binding protein, alpha 12 [KO:K04346]
+            14674  Gna13; guanine nucleotide binding protein, alpha 13 [KO:K04639]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            14672  Gna11; guanine nucleotide binding protein, alpha 11 [KO:K04635]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            14799  Gria1; glutamate receptor, ionotropic, AMPA1 (alpha 1) [KO:K05197]
+            14800  Gria2; glutamate receptor, ionotropic, AMPA2 (alpha 2) [KO:K05198]
+            53623  Gria3; glutamate receptor, ionotropic, AMPA3 (alpha 3) [KO:K05199]
+            17096  Lyn; LYN proto-oncogene, Src family tyrosine kinase [KO:K05854] [EC:2.7.10.2]
+            12286  Cacna1a; calcium channel, voltage-dependent, P/Q type, alpha 1A subunit [KO:K04344]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            20190  Ryr1; ryanodine receptor 1, skeletal muscle [KO:K04961]
+            12918  Crh; corticotropin releasing hormone [KO:K05256]
+            12921  Crhr1; corticotropin releasing hormone receptor 1 [KO:K04578]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            16001  Igf1r; insulin-like growth factor I receptor [KO:K05087] [EC:2.7.10.1]
+COMPOUND    C00025  L-Glutamate
+            C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00219  Arachidonate
+            C00533  Nitric oxide
+            C00641  1,2-Diacyl-sn-glycerol
+            C00942  3',5'-Cyclic GMP
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01330  Sodium cation
+REFERENCE   PMID:12415297
+  AUTHORS   Ito M.
+  TITLE     The molecular organization of cerebellar long-term depression.
+  JOURNAL   Nat Rev Neurosci 3:896-902 (2002)
+            DOI:10.1038/nrn962
+REFERENCE   PMID:11427694
+  AUTHORS   Ito M.
+  TITLE     Cerebellar long-term depression: characterization, signal transduction, and functional roles.
+  JOURNAL   Physiol Rev 81:1143-95 (2001)
+            DOI:10.1152/physrev.2001.81.3.1143
+REFERENCE   
+  AUTHORS   Purves D, Augustine GJ (ed).
+  TITLE     Neuroscience
+  JOURNAL   Sunderland, Mass.:Sinauer Associates (2004)
+REFERENCE   PMID:9735948
+  AUTHORS   Daniel H, Levenes C, Crepel F.
+  TITLE     Cellular mechanisms of cerebellar LTD.
+  JOURNAL   Trends Neurosci 21:401-7 (1998)
+            DOI:10.1016/S0166-2236(98)01304-6
+REFERENCE   PMID:9602501
+  AUTHORS   Levenes C, Daniel H, Crepel F.
+  TITLE     Long-term depression of synaptic transmission in the cerebellum: cellular and molecular mechanisms revisited.
+  JOURNAL   Prog Neurobiol 55:79-91 (1998)
+            DOI:10.1016/S0301-0082(97)00096-8
+REFERENCE   PMID:14509570
+  AUTHORS   Metzger F, Kapfhammer JP.
+  TITLE     Protein kinase C: its role in activity-dependent Purkinje cell dendritic development and plasticity.
+  JOURNAL   Cerebellum 2:206-14 (2003)
+            DOI:10.1080/14734220310016150
+REL_PATHWAY mmu04020  Calcium signaling pathway
+            mmu04724  Glutamatergic synapse
+KO_PATHWAY  ko04730
+///

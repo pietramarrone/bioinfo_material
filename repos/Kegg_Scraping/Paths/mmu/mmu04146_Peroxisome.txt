@@ -1,0 +1,125 @@
+ENTRY       mmu04146                    Pathway
+NAME        Peroxisome - Mus musculus (mouse)
+DESCRIPTION Peroxisomes are essential organelles that play a key role in redox signalling and lipid homeostasis. They contribute to many crucial metabolic processes such as fatty acid oxidation, biosynthesis of ether lipids and free radical detoxification. The biogenesis of peroxisomes starts with the early peroxins PEX3, PEX16 and PEX19 and proceeds via several steps. The import of membrane proteins into peroxisomes needs PEX19 for recognition, targeting and insertion via docking at PEX3. Matrix proteins in the cytosol are recognized by peroxisomal targeting signals (PTS) and transported to the docking complex at the peroxisomal membrane. Peroxisomes' deficiencies lead to severe and often fatal inherited peroxisomal disorders (PD). PDs are usually classified in two groups. The first group is disorders of peroxisome biogenesis which include Zellweger syndrome, and the second group is single peroxisomal enzyme deficiencies.
+CLASS       Cellular Processes; Transport and catabolism
+PATHWAY_MAP mmu04146  Peroxisome
+DBLINKS     GO: 0005777
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        18633  Pex16; peroxisomal biogenesis factor 16 [KO:K13335]
+            56535  Pex3; peroxisomal biogenesis factor 3 [KO:K13336]
+            19298  Pex19; peroxisomal biogenesis factor 19 [KO:K13337]
+            19299  Abcd3; ATP-binding cassette, sub-family D (ALD), member 3 [KO:K05677]
+            71382  Pex1; peroxisomal biogenesis factor 1 [KO:K13338]
+            224824  Pex6; peroxisomal biogenesis factor 6 [KO:K13339]
+            74043  Pex26; peroxisomal biogenesis factor 26 [KO:K13340]
+            18634  Pex7; peroxisomal biogenesis factor 7 [KO:K13341]
+            19305  Pex5; peroxisomal biogenesis factor 5 [KO:K13342]
+            58869  Pex5l; peroxisomal biogenesis factor 5-like [KO:K13342]
+            56273  Pex14; peroxisomal biogenesis factor 14 [KO:K13343]
+            72129  Pex13; peroxisomal biogenesis factor 13 [KO:K13344]
+            103737  Pex12; peroxisomal biogenesis factor 12 [KO:K13345]
+            668173  Pex10; peroxisomal biogenesis factor 10 [KO:K13346]
+            19302  Pex2; peroxisomal biogenesis factor 2 [KO:K06664]
+            19301  Pxmp2; peroxisomal membrane protein 2 [KO:K13347]
+            17527  Mpv17; MpV17 mitochondrial inner membrane protein [KO:K13348]
+            234384  Mpv17l2; MPV17 mitochondrial membrane protein-like 2 [KO:K13348]
+            93734  Mpv17l; Mpv17 transgene, kidney disease mutant-like [KO:K13349]
+            59038  Pxmp4; peroxisomal membrane protein 4 [KO:K13350]
+            18631  Pex11a; peroxisomal biogenesis factor 11 alpha [KO:K13351]
+            18632  Pex11b; peroxisomal biogenesis factor 11 beta [KO:K13352]
+            69129  Pex11g; peroxisomal biogenesis factor 11 gamma [KO:K13353]
+            20524  Slc25a17; solute carrier family 25 (mitochondrial carrier, peroxisomal membrane protein), member 17 [KO:K13354]
+            56794  Hacl1; 2-hydroxyacyl-CoA lyase 1 [KO:K12261] [EC:4.1.-.-]
+            17117  Amacr; alpha-methylacyl-CoA racemase [KO:K01796] [EC:5.1.99.4]
+            16922  Phyh; phytanoyl-CoA hydroxylase [KO:K00477] [EC:1.14.11.18]
+            80911  Acox3; acyl-Coenzyme A oxidase 3, pristanoyl [KO:K00232] [EC:1.3.3.6]
+            11430  Acox1; acyl-Coenzyme A oxidase 1, palmitoyl [KO:K00232] [EC:1.3.3.6]
+            93732  Acox2; acyl-Coenzyme A oxidase 2, branched chain [KO:K10214] [EC:1.17.99.3]
+            15488  Hsd17b4; hydroxysteroid (17-beta) dehydrogenase 4 [KO:K12405] [EC:1.1.1.- 4.2.1.107 4.2.1.119]
+            20280  Scp2; sterol carrier protein 2, liver [KO:K08764] [EC:2.3.1.176]
+            12012  Baat; bile acid-Coenzyme A: amino acid N-acyltransferase [KO:K00659] [EC:2.3.1.65 3.1.2.2]
+            74147  Ehhadh; enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase [KO:K07514] [EC:4.2.1.17 1.1.1.35 5.3.3.8]
+            113868  Acaa1a; acetyl-Coenzyme A acyltransferase 1A [KO:K07513] [EC:2.3.1.16]
+            235674  Acaa1b; acetyl-Coenzyme A acyltransferase 1B [KO:K07513] [EC:2.3.1.16]
+            26378  Decr2; 2-4-dienoyl-Coenzyme A reductase 2, peroxisomal [KO:K13237] [EC:1.3.1.34]
+            51798  Ech1; enoyl coenzyme A hydratase 1, peroxisomal [KO:K12663] [EC:5.3.3.21]
+            11666  Abcd1; ATP-binding cassette, sub-family D (ALD), member 1 [KO:K05675]
+            26874  Abcd2; ATP-binding cassette, sub-family D (ALD), member 2 [KO:K05676]
+            19300  Abcd4; ATP-binding cassette, sub-family D (ALD), member 4 [KO:K05678]
+            26458  Slc27a2; solute carrier family 27 (fatty acid transporter), member 2 [KO:K08746] [EC:6.2.1.- 6.2.1.3]
+            14081  Acsl1; acyl-CoA synthetase long-chain family member 1 [KO:K01897] [EC:6.2.1.3]
+            50790  Acsl4; acyl-CoA synthetase long-chain family member 4 [KO:K01897] [EC:6.2.1.3]
+            216739  Acsl6; acyl-CoA synthetase long-chain family member 6 [KO:K01897] [EC:6.2.1.3]
+            74205  Acsl3; acyl-CoA synthetase long-chain family member 3 [KO:K01897] [EC:6.2.1.3]
+            433256  Acsl5; acyl-CoA synthetase long-chain family member 5 [KO:K01897] [EC:6.2.1.3]
+            111175  Pecr; peroxisomal trans-2-enoyl-CoA reductase [KO:K07753] [EC:1.3.1.38]
+            23986  Eci2; enoyl-Coenzyme A delta isomerase 2 [KO:K13239] [EC:5.3.3.8]
+            69123  Eci3; enoyl-Coenzyme A delta isomerase 3 [KO:K13239] [EC:5.3.3.8]
+            67528  Nudt7; nudix (nucleoside diphosphate linked moiety X)-type motif 7 [KO:K17879] [EC:3.6.1.-]
+            67993  Nudt12; nudix (nucleoside diphosphate linked moiety X)-type motif 12 [KO:K03426] [EC:3.6.1.22]
+            110959  Nudt19; nudix (nucleoside diphosphate linked moiety X)-type motif 19 [KO:K13355] [EC:3.6.1.-]
+            170789  Acot8; acyl-CoA thioesterase 8 [KO:K11992] [EC:3.1.2.27]
+            12908  Crat; carnitine acetyltransferase [KO:K00624] [EC:2.3.1.7]
+            74114  Crot; carnitine O-octanoyltransferase [KO:K05940] [EC:2.3.1.137]
+            56690  Mlycd; malonyl-CoA decarboxylase [KO:K01578] [EC:4.1.1.9]
+            14712  Gnpat; glyceronephosphate O-acyltransferase [KO:K00649] [EC:2.3.1.42]
+            228061  Agps; alkylglycerone phosphate synthase [KO:K00803] [EC:2.5.1.26]
+            330450  Far2; fatty acyl CoA reductase 2 [KO:K13356] [EC:1.2.1.84]
+            67420  Far1; fatty acyl CoA reductase 1 [KO:K13356] [EC:1.2.1.84]
+            17855  Mvk; mevalonate kinase [KO:K00869] [EC:2.7.1.36]
+            68603  Pmvk; phosphomevalonate kinase [KO:K13273] [EC:2.7.4.2]
+            11611  Agxt; alanine-glyoxylate aminotransferase [KO:K00830] [EC:2.6.1.44 2.6.1.45 2.6.1.51]
+            13142  Dao; D-amino acid oxidase [KO:K00273] [EC:1.4.3.3]
+            70503  Ddo; D-aspartate oxidase [KO:K00272] [EC:1.4.3.1]
+            15926  Idh1; isocitrate dehydrogenase 1 (NADP+), soluble [KO:K00031] [EC:1.1.1.42]
+            269951  Idh2; isocitrate dehydrogenase 2 (NADP+), mitochondrial [KO:K00031] [EC:1.1.1.42]
+            212503  Paox; polyamine oxidase (exo-N4-amino) [KO:K00308] [EC:1.5.3.13]
+            19193  Pipox; pipecolic acid oxidase [KO:K00306] [EC:1.5.3.1 1.5.3.7]
+            15356  Hmgcl; 3-hydroxy-3-methylglutaryl-Coenzyme A lyase [KO:K01640] [EC:4.1.3.4]
+            208982  Hmgcll1; 3-hydroxymethyl-3-methylglutaryl-Coenzyme A lyase-like 1 [KO:K01640] [EC:4.1.3.4]
+            56185  Hao2; hydroxyacid oxidase 2 [KO:K11517] [EC:1.1.3.15]
+            15112  Hao1; hydroxyacid oxidase 1, liver [KO:K11517] [EC:1.1.3.15]
+            12359  Cat; catalase [KO:K03781] [EC:1.11.1.6]
+            54683  Prdx5; peroxiredoxin 5 [KO:K11187] [EC:1.11.1.24]
+            20655  Sod1; superoxide dismutase 1, soluble [KO:K04565] [EC:1.15.1.1]
+            20656  Sod2; superoxide dismutase 2, mitochondrial [KO:K04564] [EC:1.15.1.1]
+            18126  Nos2; nitric oxide synthase 2, inducible [KO:K13241] [EC:1.14.13.39]
+            18477  Prdx1; peroxiredoxin 1 [KO:K13279] [EC:1.11.1.24]
+            13850  Ephx2; epoxide hydrolase 2, cytoplasmic [KO:K08726] [EC:3.3.2.10 3.1.3.76]
+            76263  Gstk1; glutathione S-transferase kappa 1 [KO:K13299] [EC:2.5.1.18]
+            22436  Xdh; xanthine dehydrogenase [KO:K00106] [EC:1.17.1.4 1.17.3.2]
+            28200  Dhrs4; dehydrogenase/reductase (SDR family) member 4 [KO:K11147] [EC:1.1.-.-]
+REFERENCE   PMID:17055078
+  AUTHORS   Wanders RJ, Waterham HR
+  TITLE     Peroxisomal disorders: the single peroxisomal enzyme deficiencies.
+  JOURNAL   Biochim Biophys Acta 1763:1707-20 (2006)
+            DOI:10.1016/j.bbamcr.2006.08.010
+REFERENCE   PMID:17055079
+  AUTHORS   Steinberg SJ, Dodt G, Raymond GV, Braverman NE, Moser AB, Moser HW
+  TITLE     Peroxisome biogenesis disorders.
+  JOURNAL   Biochim Biophys Acta 1763:1733-48 (2006)
+            DOI:10.1016/j.bbamcr.2006.09.010
+REFERENCE   PMID:17010456
+  AUTHORS   Rottensteiner H, Theodoulou FL
+  TITLE     The ins and outs of peroxisomes: co-ordination of membrane transport and peroxisomal metabolism.
+  JOURNAL   Biochim Biophys Acta 1763:1527-40 (2006)
+            DOI:10.1016/j.bbamcr.2006.08.012
+REFERENCE   PMID:16631601
+  AUTHORS   Iida R, Yasuda T, Tsubota E, Takatsuka H, Matsuki T, Kishi K
+  TITLE     Human Mpv17-like protein is localized in peroxisomes and regulates expression of antioxidant enzymes.
+  JOURNAL   Biochem Biophys Res Commun 344:948-54 (2006)
+            DOI:10.1016/j.bbrc.2006.04.008
+REFERENCE   
+  AUTHORS   Kleinman R, Goulet OJ, Mieli-Vergani G, Sanderson I, Sherman P, Shneider B.
+  TITLE     Walker's Pediatric Gastrointestinal Disease (5th edition)
+  JOURNAL   B.C.Decker (2008)
+REL_PATHWAY mmu00071  Fatty acid degradation
+            mmu00120  Primary bile acid biosynthesis
+            mmu00230  Purine metabolism
+            mmu00564  Glycerophospholipid metabolism
+            mmu00565  Ether lipid metabolism
+            mmu00830  Retinol metabolism
+            mmu00900  Terpenoid backbone biosynthesis
+            mmu03320  PPAR signaling pathway
+KO_PATHWAY  ko04146
+///

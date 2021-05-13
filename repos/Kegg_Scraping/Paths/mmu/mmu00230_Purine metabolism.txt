@@ -1,0 +1,262 @@
+ENTRY       mmu00230                    Pathway
+NAME        Purine metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Nucleotide metabolism
+PATHWAY_MAP mmu00230  Purine metabolism
+MODULE      mmu_M00005  PRPP biosynthesis, ribose 5P => PRPP [PATH:mmu00230]
+            mmu_M00048  Inosine monophosphate biosynthesis, PRPP + glutamine => IMP [PATH:mmu00230]
+            mmu_M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP [PATH:mmu00230]
+            mmu_M00050  Guanine ribonucleotide biosynthesis IMP => GDP,GTP [PATH:mmu00230]
+DBLINKS     GO: 0042278
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        74167  Nudt9; nudix (nucleoside diphosphate linked moiety X)-type motif 9 [KO:K13988] [EC:3.6.1.13]
+            66358  Adprm; ADP-ribose/CDP-alcohol diphosphatase, manganese dependent [KO:K01517] [EC:3.6.1.13 3.6.1.16 3.6.1.53]
+            53893  Nudt5; nudix (nucleoside diphosphate linked moiety X)-type motif 5 [KO:K13987] [EC:3.6.1.13 3.6.1.58 2.7.7.96]
+            72157  Pgm1; phosphoglucomutase 1 [KO:K01835] [EC:5.4.2.2]
+            66681  Pgm2; phosphoglucomutase 2 [KO:K15779] [EC:5.4.2.2 5.4.2.7]
+            19139  Prps1; phosphoribosyl pyrophosphate synthetase 1 [KO:K00948] [EC:2.7.6.1]
+            110639  Prps2; phosphoribosyl pyrophosphate synthetase 2 [KO:K00948] [EC:2.7.6.1]
+            328099  Prps1l3; phosphoribosyl pyrophosphate synthetase 1-like 3 [KO:K00948] [EC:2.7.6.1]
+            75456  Prps1l1; phosphoribosyl pyrophosphate synthetase 1-like 1 [KO:K00948] [EC:2.7.6.1]
+            231327  Ppat; phosphoribosyl pyrophosphate amidotransferase [KO:K00764] [EC:2.4.2.14]
+            14450  Gart; phosphoribosylglycinamide formyltransferase [KO:K11787] [EC:6.3.4.13 2.1.2.2 6.3.3.1]
+            237823  Pfas; phosphoribosylformylglycinamidine synthase (FGAR amidotransferase) [KO:K01952] [EC:6.3.5.3]
+            67054  Paics; phosphoribosylaminoimidazole carboxylase, phosphoribosylaminoribosylaminoimidazole, succinocarboxamide synthetase [KO:K01587] [EC:4.1.1.21 6.3.2.6]
+            11564  Adsl; adenylosuccinate lyase [KO:K01756] [EC:4.3.2.2]
+            108147  Atic; 5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase [KO:K00602] [EC:2.1.2.3 3.5.4.10]
+            11821  Aprt; adenine phosphoribosyl transferase [KO:K00759] [EC:2.4.2.7]
+            76952  Nt5c2; 5'-nucleotidase, cytosolic II [KO:K01081] [EC:3.1.3.5]
+            107569  Nt5c3; 5'-nucleotidase, cytosolic III [KO:K01081] [EC:3.1.3.5]
+            70881  Nt5c1b; 5'-nucleotidase, cytosolic IB [KO:K01081] [EC:3.1.3.5]
+            230718  Nt5c1a; 5'-nucleotidase, cytosolic IA [KO:K01081] [EC:3.1.3.5]
+            50773  Nt5c; 5',3'-nucleotidase, cytosolic [KO:K01081] [EC:3.1.3.5]
+            103850  Nt5m; 5',3'-nucleotidase, mitochondrial [KO:K01081] [EC:3.1.3.5]
+            68106  Nt5c3b; 5'-nucleotidase, cytosolic IIIB [KO:K01081] [EC:3.1.3.5]
+            66763  Nt5el; 5' nucleotidase, ecto-like [KO:K01081] [EC:3.1.3.5]
+            23959  Nt5e; 5' nucleotidase, ecto [KO:K19970] [EC:3.1.3.5]
+            18950  Pnp; purine-nucleoside phosphorylase [KO:K03783] [EC:2.4.2.1]
+            667034  Pnp2; purine-nucleoside phosphorylase 2 [KO:K03783] [EC:2.4.2.1]
+            15452  Hprt; hypoxanthine guanine phosphoribosyl transferase [KO:K00760] [EC:2.4.2.8]
+            23917  Impdh1; inosine monophosphate dehydrogenase 1 [KO:K00088] [EC:1.1.1.205]
+            23918  Impdh2; inosine monophosphate dehydrogenase 2 [KO:K00088] [EC:1.1.1.205]
+            54369  Nme6; NME/NM23 nucleoside diphosphate kinase 6 [KO:K00940] [EC:2.7.4.6]
+            18103  Nme2; NME/NM23 nucleoside diphosphate kinase 2 [KO:K00940] [EC:2.7.4.6]
+            56520  Nme4; NME/NM23 nucleoside diphosphate kinase 4 [KO:K00940] [EC:2.7.4.6]
+            79059  Nme3; NME/NM23 nucleoside diphosphate kinase 3 [KO:K00940] [EC:2.7.4.6]
+            171567  Nme7; NME/NM23 family member 7 [KO:K00940] [EC:2.7.4.6]
+            18102  Nme1; NME/NM23 nucleoside diphosphate kinase 1 [KO:K00940] [EC:2.7.4.6]
+            633979  Ak9; adenylate kinase 9 [KO:K18533] [EC:2.7.4.3 2.7.4.6]
+            12495  Entpd1; ectonucleoside triphosphate diphosphohydrolase 1 [KO:K01510] [EC:3.6.1.5]
+            215446  Entpd3; ectonucleoside triphosphate diphosphohydrolase 3 [KO:K01510] [EC:3.6.1.5]
+            72090  Entpd8; ectonucleoside triphosphate diphosphohydrolase 8 [KO:K01510] [EC:3.6.1.5]
+            76025  Cant1; calcium activated nucleotidase 1 [KO:K12304] [EC:3.6.1.6]
+            67464  Entpd4; ectonucleoside triphosphate diphosphohydrolase 4 [KO:K12305] [EC:3.6.1.6]
+            100862375  Entpd4b; ectonucleoside triphosphate diphosphohydrolase 4B [KO:K12305] [EC:3.6.1.6]
+            12499  Entpd5; ectonucleoside triphosphate diphosphohydrolase 5 [KO:K01511] [EC:3.6.1.6]
+            12497  Entpd6; ectonucleoside triphosphate diphosphohydrolase 6 [KO:K01511] [EC:3.6.1.6]
+            75686  Nudt16; nudix (nucleoside diphosphate linked moiety X)-type motif 16 [KO:K16855] [EC:3.6.1.62 3.6.1.64]
+            73532  Nudt16l2; nudix (nucleoside diphosphate linked moiety X)-type motif 16-like 2 [KO:K16855] [EC:3.6.1.62 3.6.1.64]
+            16434  Itpa; inosine triphosphatase (nucleoside triphosphate pyrophosphatase) [KO:K01519] [EC:3.6.1.-]
+            22436  Xdh; xanthine dehydrogenase [KO:K00106] [EC:1.17.1.4 1.17.3.2]
+            66401  Nudt2; nudix (nucleoside diphosphate linked moiety X)-type motif 2 [KO:K01518] [EC:3.6.1.17]
+            229363  Gmps; guanine monophosphate synthetase [KO:K01951] [EC:6.3.5.2]
+            66355  Gmpr; guanosine monophosphate reductase [KO:K00364] [EC:1.7.1.7]
+            105446  Gmpr2; guanosine monophosphate reductase 2 [KO:K00364] [EC:1.7.1.7]
+            14544  Gda; guanine deaminase [KO:K01487] [EC:3.5.4.3]
+            14923  Guk1; guanylate kinase 1 [KO:K00942] [EC:2.7.4.8]
+            18746  Pkm; pyruvate kinase, muscle [KO:K00873] [EC:2.7.1.40]
+            18770  Pklr; pyruvate kinase liver and red blood cell [KO:K12406] [EC:2.7.1.40]
+            20133  Rrm1; ribonucleotide reductase M1 [KO:K10807] [EC:1.17.4.1]
+            382985  Rrm2b; ribonucleotide reductase M2 B (TP53 inducible) [KO:K10808] [EC:1.17.4.1]
+            20135  Rrm2; ribonucleotide reductase M2 [KO:K10808] [EC:1.17.4.1]
+            27369  Dguok; deoxyguanosine kinase [KO:K00904] [EC:2.7.1.113]
+            68695  Hddc3; HD domain containing 3 [KO:K21138] [EC:3.1.7.2]
+            229589  Prune1; prune exopolyphosphatase [KO:K01514] [EC:3.6.1.11]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            271639  Adcy10; adenylate cyclase 10 [KO:K11265] [EC:4.6.1.1]
+            60596  Gucy1a1; guanylate cyclase 1, soluble, alpha 1 [KO:K12318] [EC:4.6.1.2]
+            234889  Gucy1a2; guanylate cyclase 1, soluble, alpha 2 [KO:K12318] [EC:4.6.1.2]
+            239134  Gucy1b2; guanylate cyclase 1, soluble, beta 2 [KO:K12319] [EC:4.6.1.2]
+            54195  Gucy1b1; guanylate cyclase 1, soluble, beta 1 [KO:K12319] [EC:4.6.1.2]
+            14917  Gucy2c; guanylate cyclase 2c [KO:K12320] [EC:4.6.1.2]
+            14919  Gucy2e; guanylate cyclase 2e [KO:K12321] [EC:4.6.1.2]
+            14918  Gucy2d; guanylate cyclase 2d [KO:K12321] [EC:4.6.1.2]
+            245650  Gucy2f; guanylate cyclase 2f [KO:K12322] [EC:4.6.1.2]
+            73707  Gucy2g; guanylate cyclase 2g [KO:K22600] [EC:4.6.1.2]
+            18160  Npr1; natriuretic peptide receptor 1 [KO:K12323] [EC:4.6.1.2]
+            230103  Npr2; natriuretic peptide receptor 2 [KO:K12324] [EC:4.6.1.2]
+            18573  Pde1a; phosphodiesterase 1A, calmodulin-dependent [KO:K13755] [EC:3.1.4.17]
+            18574  Pde1b; phosphodiesterase 1B, Ca2+-calmodulin dependent [KO:K13755] [EC:3.1.4.17]
+            18575  Pde1c; phosphodiesterase 1C [KO:K13755] [EC:3.1.4.17]
+            207728  Pde2a; phosphodiesterase 2A, cGMP-stimulated [KO:K18283] [EC:3.1.4.17]
+            54611  Pde3a; phosphodiesterase 3A, cGMP inhibited [KO:K19021] [EC:3.1.4.17]
+            18576  Pde3b; phosphodiesterase 3B, cGMP-inhibited [KO:K13296] [EC:3.1.4.17]
+            242202  Pde5a; phosphodiesterase 5A, cGMP-specific [KO:K13762] [EC:3.1.4.35]
+            225600  Pde6a; phosphodiesterase 6A, cGMP-specific, rod, alpha [KO:K08718] [EC:3.1.4.35]
+            18587  Pde6b; phosphodiesterase 6B, cGMP, rod receptor, beta polypeptide [KO:K13756] [EC:3.1.4.35]
+            110855  Pde6c; phosphodiesterase 6C, cGMP specific, cone, alpha prime [KO:K13757] [EC:3.1.4.35]
+            18582  Pde6d; phosphodiesterase 6D, cGMP-specific, rod, delta [KO:K13758]
+            18588  Pde6g; phosphodiesterase 6G, cGMP-specific, rod, gamma [KO:K13759]
+            78600  Pde6h; phosphodiesterase 6H, cGMP-specific, cone, gamma [KO:K13760]
+            18585  Pde9a; phosphodiesterase 9A [KO:K13761] [EC:3.1.4.35]
+            23984  Pde10a; phosphodiesterase 10A [KO:K18438] [EC:3.1.4.17 3.1.4.35]
+            241489  Pde11a; phosphodiesterase 11A [KO:K13298] [EC:3.1.4.17 3.1.4.35]
+            11565  Adssl1; adenylosuccinate synthetase like 1 [KO:K01939] [EC:6.3.4.4]
+            11566  Adss; adenylosuccinate synthetase, non muscle [KO:K01939] [EC:6.3.4.4]
+            11717  Ampd3; adenosine monophosphate deaminase 3 [KO:K01490] [EC:3.5.4.6]
+            109674  Ampd2; adenosine monophosphate deaminase 2 [KO:K01490] [EC:3.5.4.6]
+            229665  Ampd1; adenosine monophosphate deaminase 1 [KO:K01490] [EC:3.5.4.6]
+            11534  Adk; adenosine kinase [KO:K00856] [EC:2.7.1.20]
+            13178  Dck; deoxycytidine kinase [KO:K00893] [EC:2.7.1.74]
+            11486  Ada; adenosine deaminase [KO:K01488] [EC:3.5.4.4]
+            11637  Ak2; adenylate kinase 2 [KO:K00939] [EC:2.7.4.3]
+            11639  Ak4; adenylate kinase 4 [KO:K00939] [EC:2.7.4.3]
+            11636  Ak1; adenylate kinase 1 [KO:K00939] [EC:2.7.4.3]
+            229949  Ak5; adenylate kinase 5 [KO:K00939] [EC:2.7.4.3]
+            78801  Ak7; adenylate kinase 7 [KO:K00939] [EC:2.7.4.3]
+            68870  Ak8; adenylate kinase 8 [KO:K00939] [EC:2.7.4.3]
+            102216272  Ak6; adenylate kinase 6 [KO:K18532] [EC:2.7.4.3]
+            56248  Ak3; adenylate kinase 3 [KO:K00944] [EC:2.7.4.10]
+            12496  Entpd2; ectonucleoside triphosphate diphosphohydrolase 2 [KO:K01509] [EC:3.6.1.3]
+            66566  Ntpcr; nucleoside-triphosphatase, cancer-related [KO:K06928] [EC:3.6.1.15]
+            18577  Pde4a; phosphodiesterase 4A, cAMP specific [KO:K13293] [EC:3.1.4.53]
+            18578  Pde4b; phosphodiesterase 4B, cAMP specific [KO:K13293] [EC:3.1.4.53]
+            110385  Pde4c; phosphodiesterase 4C, cAMP specific [KO:K13293] [EC:3.1.4.53]
+            238871  Pde4d; phosphodiesterase 4D, cAMP specific [KO:K13293] [EC:3.1.4.53]
+            18583  Pde7a; phosphodiesterase 7A [KO:K18436] [EC:3.1.4.53]
+            29863  Pde7b; phosphodiesterase 7B [KO:K18436] [EC:3.1.4.53]
+            218461  Pde8b; phosphodiesterase 8B [KO:K18437] [EC:3.1.4.53]
+            18584  Pde8a; phosphodiesterase 8A [KO:K18437] [EC:3.1.4.53]
+            14198  Fhit; fragile histidine triad gene [KO:K01522] [EC:3.6.1.29]
+            224794  Enpp4; ectonucleotide pyrophosphatase/phosphodiesterase 4 [KO:K18424] [EC:3.6.1.29]
+            23972  Papss2; 3'-phosphoadenosine 5'-phosphosulfate synthase 2 [KO:K13811] [EC:2.7.7.4 2.7.1.25]
+            23971  Papss1; 3'-phosphoadenosine 5'-phosphosulfate synthase 1 [KO:K13811] [EC:2.7.7.4 2.7.1.25]
+            18605  Enpp1; ectonucleotide pyrophosphatase/phosphodiesterase 1 [KO:K01513] [EC:3.1.4.1 3.6.1.9]
+            209558  Enpp3; ectonucleotide pyrophosphatase/phosphodiesterase 3 [KO:K01513] [EC:3.1.4.1 3.6.1.9]
+            22262  Uox; urate oxidase [KO:K00365] [EC:1.7.3.3]
+            76974  Urah; urate (5-hydroxyiso-) hydrolase [KO:K07127] [EC:3.5.2.17]
+            231903  Urad; ureidoimidazoline (2-oxo-4-hydroxy-4-carboxy-5) decarboxylase [KO:K13485] [EC:4.1.1.97]
+            94041  Allc; allantoicase [KO:K01477] [EC:3.5.3.4]
+COMPOUND    C00002  ATP
+            C00008  ADP
+            C00011  CO2
+            C00014  Ammonia
+            C00020  AMP
+            C00035  GDP
+            C00037  Glycine
+            C00039  DNA
+            C00044  GTP
+            C00046  RNA
+            C00048  Glyoxylate
+            C00053  3'-Phosphoadenylyl sulfate
+            C00054  Adenosine 3',5'-bisphosphate
+            C00059  Sulfate
+            C00064  L-Glutamine
+            C00081  ITP
+            C00086  Urea
+            C00104  IDP
+            C00117  D-Ribose 5-phosphate
+            C00119  5-Phospho-alpha-D-ribose 1-diphosphate
+            C00130  IMP
+            C00131  dATP
+            C00144  GMP
+            C00147  Adenine
+            C00169  Carbamoyl phosphate
+            C00206  dADP
+            C00209  Oxalate
+            C00212  Adenosine
+            C00224  Adenylyl sulfate
+            C00242  Guanine
+            C00262  Hypoxanthine
+            C00286  dGTP
+            C00288  HCO3-
+            C00294  Inosine
+            C00301  ADP-ribose
+            C00330  Deoxyguanosine
+            C00360  dAMP
+            C00361  dGDP
+            C00362  dGMP
+            C00366  Urate
+            C00385  Xanthine
+            C00387  Guanosine
+            C00499  Allantoate
+            C00559  Deoxyadenosine
+            C00575  3',5'-Cyclic AMP
+            C00603  (S)-Ureidoglycolate
+            C00620  alpha-D-Ribose 1-phosphate
+            C00655  Xanthosine 5'-phosphate
+            C00700  XTP
+            C00802  Oxalureate
+            C00942  3',5'-Cyclic GMP
+            C01228  Guanosine 3',5'-bis(diphosphate)
+            C01260  P1,P4-Bis(5'-adenosyl)tetraphosphate
+            C01261  P1,P4-Bis(5'-guanosyl) tetraphosphate
+            C01344  dIDP
+            C01345  dITP
+            C01367  3'-AMP
+            C01444  Oxamate
+            C01762  Xanthosine
+            C02091  (S)-Ureidoglycine
+            C02348  (R)(-)-Allantoin
+            C02350  (S)-Allantoin
+            C02353  2',3'-Cyclic AMP
+            C02718  N-Formiminoglycine
+            C03090  5-Phosphoribosylamine
+            C03373  Aminoimidazole ribotide
+            C03483  Adenosine tetraphosphate
+            C03614  Inosine 5'-tetraphosphate
+            C03794  N6-(1,2-Dicarboxyethyl)-AMP
+            C03838  5'-Phosphoribosylglycinamide
+            C04051  5-Amino-4-imidazolecarboxyamide
+            C04376  5'-Phosphoribosyl-N-formylglycinamide
+            C04392  P1,P4-Bis(5'-xanthosyl) tetraphosphate
+            C04494  Guanosine 3'-diphosphate 5'-triphosphate
+            C04640  2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine
+            C04677  1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+            C04734  1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide
+            C04751  1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
+            C04823  1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole
+            C05239  5-Aminoimidazole
+            C05512  Deoxyinosine
+            C05513  Urate-3-ribonucleoside
+            C05515  5-Ureido-4-imidazole carboxylate
+            C05516  5-Amino-4-imidazole carboxylate
+            C05993  Acetyl adenylate
+            C06193  Guanosine 3'-phosphate
+            C06194  2',3'-Cyclic GMP
+            C06195  Imidazolone
+            C06196  2'-Deoxyinosine 5'-phosphate
+            C06197  P1,P3-Bis(5'-adenosyl) triphosphate
+            C06433  5'-Benzoylphosphoadenosine
+            C06435  5'-Butyrylphosphoinosine
+            C11821  5-Hydroxyisourate
+            C12248  5-Hydroxy-2-oxo-4-ureido-2,5-dihydro-1H-imidazole-5-carboxylate
+            C15667  5-Carboxyamino-1-(5-phospho-D-ribosyl)imidazole
+REFERENCE   PMID:10601204
+  AUTHORS   Cusa E, Obradors N, Baldoma L, Badia J, Aguilar J.
+  TITLE     Genetic analysis of a chromosomal region containing genes required for assimilation of allantoin nitrogen and linked glyoxylate metabolism in Escherichia coli.
+  JOURNAL   J Bacteriol 181:7479-84 (1999)
+            DOI:10.1128/JB.181.24.7479-7484.1999
+REFERENCE   PMID:10986234
+  AUTHORS   Xi H, Schneider BL, Reitzer L.
+  TITLE     Purine catabolism in Escherichia coli and function of xanthine dehydrogenase in purine salvage.
+  JOURNAL   J Bacteriol 182:5332-41 (2000)
+            DOI:10.1128/JB.182.19.5332-5341.2000
+REL_PATHWAY mmu00030  Pentose phosphate pathway
+            mmu00220  Arginine biosynthesis
+            mmu00250  Alanine, aspartate and glutamate metabolism
+            mmu00260  Glycine, serine and threonine metabolism
+            mmu00340  Histidine metabolism
+            mmu00630  Glyoxylate and dicarboxylate metabolism
+            mmu00730  Thiamine metabolism
+            mmu00740  Riboflavin metabolism
+            mmu00790  Folate biosynthesis
+KO_PATHWAY  ko00230
+///

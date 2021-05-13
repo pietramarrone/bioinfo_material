@@ -1,0 +1,124 @@
+ENTRY       mmu00591                    Pathway
+NAME        Linoleic acid metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Lipid metabolism
+PATHWAY_MAP mmu00591  Linoleic acid metabolism
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        26971  Pla2g2f; phospholipase A2, group IIF [KO:K01047] [EC:3.1.1.4]
+            18778  Pla2g1b; phospholipase A2, group IB, pancreas [KO:K01047] [EC:3.1.1.4]
+            18781  Pla2g2c; phospholipase A2, group IIC [KO:K01047] [EC:3.1.1.4]
+            18784  Pla2g5; phospholipase A2, group V [KO:K01047] [EC:3.1.1.4]
+            18782  Pla2g2d; phospholipase A2, group IID [KO:K01047] [EC:3.1.1.4]
+            26970  Pla2g2e; phospholipase A2, group IIE [KO:K01047] [EC:3.1.1.4]
+            66350  Pla2g12a; phospholipase A2, group XIIA [KO:K01047] [EC:3.1.1.4]
+            69836  Pla2g12b; phospholipase A2, group XIIB [KO:K01047] [EC:3.1.1.4]
+            26565  Pla2g10; phospholipase A2, group X [KO:K01047] [EC:3.1.1.4]
+            18780  Pla2g2a; phospholipase A2, group IIA (platelets, synovial fluid) [KO:K01047] [EC:3.1.1.4]
+            237625  Pla2g3; phospholipase A2, group III [KO:K01047] [EC:3.1.1.4]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            53357  Pla2g6; phospholipase A2, group VI [KO:K16343] [EC:3.1.1.4]
+            665270  Plb1; phospholipase B1 [KO:K14621] [EC:3.1.1.4 3.1.1.5]
+            225845  Plaat3; phospholipase A and acyltransferase 3 [KO:K16817] [EC:3.1.1.32 3.1.1.4]
+            11687  Alox15; arachidonate 15-lipoxygenase [KO:K00460] [EC:1.13.11.33]
+            13077  Cyp1a2; cytochrome P450, family 1, subfamily a, polypeptide 2 [KO:K07409] [EC:1.14.14.1]
+            13097  Cyp2c38; cytochrome P450, family 2, subfamily c, polypeptide 38 [KO:K07413] [EC:1.14.14.1]
+            13098  Cyp2c39; cytochrome P450, family 2, subfamily c, polypeptide 39 [KO:K07413] [EC:1.14.14.1]
+            13099  Cyp2c40; cytochrome P450, family 2, subfamily c, polypeptide 40 [KO:K07413] [EC:1.14.14.1]
+            226143  Cyp2c23; cytochrome P450, family 2, subfamily c, polypeptide 23 [KO:K07413] [EC:1.14.14.1]
+            13095  Cyp2c29; cytochrome P450, family 2, subfamily c, polypeptide 29 [KO:K07413] [EC:1.14.14.1]
+            226105  Cyp2c70; cytochrome P450, family 2, subfamily c, polypeptide 70 [KO:K07413] [EC:1.14.14.1]
+            13096  Cyp2c37; cytochrome P450, family 2. subfamily c, polypeptide 37 [KO:K07413] [EC:1.14.14.1]
+            72082  Cyp2c55; cytochrome P450, family 2, subfamily c, polypeptide 55 [KO:K07413] [EC:1.14.14.1]
+            72303  Cyp2c65; cytochrome P450, family 2, subfamily c, polypeptide 65 [KO:K07413] [EC:1.14.14.1]
+            69888  Cyp2c66; cytochrome P450, family 2, subfamily c, polypeptide 66 [KO:K07413] [EC:1.14.14.1]
+            107141  Cyp2c50; cytochrome P450, family 2, subfamily c, polypeptide 50 [KO:K07413] [EC:1.14.14.1]
+            404195  Cyp2c54; cytochrome P450, family 2, subfamily c, polypeptide 54 [KO:K07413] [EC:1.14.14.1]
+            433247  Cyp2c68; cytochrome P450, family 2, subfamily c, polypeptide 68 [KO:K07413] [EC:1.14.14.1]
+            665095  Cyp2j8; cytochrome P450, family 2, subfamily j, polypeptide 8 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            230459  Cyp2j13; cytochrome P450, family 2, subfamily j, polypeptide 13 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            100066  Cyp2j11; cytochrome P450, family 2, subfamily j, polypeptide 11 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            74519  Cyp2j9; cytochrome P450, family 2, subfamily j, polypeptide 9 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            13109  Cyp2j5; cytochrome P450, family 2, subfamily j, polypeptide 5 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            242546  Cyp2j12; cytochrome P450, family 2, subfamily j, polypeptide 12 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            13110  Cyp2j6; cytochrome P450, family 2, subfamily j, polypeptide 6 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            13106  Cyp2e1; cytochrome P450, family 2, subfamily e, polypeptide 1 [KO:K07415] [EC:1.14.13.-]
+            13112  Cyp3a11; cytochrome P450, family 3, subfamily a, polypeptide 11 [KO:K07424] [EC:1.14.14.1]
+            13113  Cyp3a13; cytochrome P450, family 3, subfamily a, polypeptide 13 [KO:K07424] [EC:1.14.14.1]
+            13114  Cyp3a16; cytochrome P450, family 3, subfamily a, polypeptide 16 [KO:K07424] [EC:1.14.14.1]
+            56388  Cyp3a25; cytochrome P450, family 3, subfamily a, polypeptide 25 [KO:K07424] [EC:1.14.14.1]
+            53973  Cyp3a41a; cytochrome P450, family 3, subfamily a, polypeptide 41A [KO:K07424] [EC:1.14.14.1]
+            337924  Cyp3a44; cytochrome P450, family 3, subfamily a, polypeptide 44 [KO:K07424] [EC:1.14.14.1]
+            100041375  Cyp3a41b; cytochrome P450, family 3, subfamily a, polypeptide 41B [KO:K07424] [EC:1.14.14.1]
+COMPOUND    C00157  Phosphatidylcholine
+            C00219  Arachidonate
+            C01595  Linoleate
+            C03242  Dihomo-gamma-linolenate
+            C04056  Rumenic acid
+            C04717  (9Z,11E)-(13S)-13-Hydroperoxyoctadeca-9,11-dienoic acid
+            C06426  (6Z,9Z,12Z)-Octadecatrienoic acid
+            C07289  Crepenynate
+            C07338  (9Z,12Z)-(11S)-11-Hydroperoxyoctadeca-9,12-dienoic acid
+            C07354  (7S,8S)-DiHODE
+            C14762  13(S)-HODE
+            C14765  13-OxoODE
+            C14766  9-OxoODE
+            C14767  9(S)-HODE
+            C14825  9(10)-EpOME
+            C14826  12(13)-EpOME
+            C14827  9(S)-HPODE
+            C14828  9,10-DHOME
+            C14829  12,13-DHOME
+            C14831  8(R)-HPODE
+            C14832  12,13-Epoxy-9-hydroxy-10-octadecenoate
+            C14833  9,12,13-TriHOME
+            C14834  9,10-Epoxy-13-hydroxy-11-octadecenoate
+            C14835  9,10,13-TriHOME
+            C14836  9,10-12,13-Diepoxyoctadecanoate
+            C14837  9,10-Dihydroxy-12,13-epoxyoctadecanoate
+            C19937  (8E,10R,12Z)-10-Hydroperoxy-8,12-octadecadienoate
+            C20186  5S,8R-DiHODE
+REFERENCE   PMID:14757320
+  AUTHORS   Nowak G, Grant DF, Moran JH.
+  TITLE     Linoleic acid epoxide promotes the maintenance of mitochondrial function and active Na+ transport following hypoxia.
+  JOURNAL   Toxicol Lett 147:161-75 (2004)
+            DOI:10.1016/j.toxlet.2003.11.002
+REFERENCE   PMID:12909723
+  AUTHORS   Shureiqi I, Jiang W, Zuo X, Wu Y, Stimmel JB, Leesnitzer LM, Morris JS, Fan HZ, Fischer SM, Lippman SM.
+  TITLE     The 15-lipoxygenase-1 product 13-S-hydroxyoctadecadienoic acid down-regulates PPAR-delta to induce apoptosis in colorectal cancer cells.
+  JOURNAL   Proc Natl Acad Sci U S A 100:9968-73 (2003)
+            DOI:10.1073/pnas.1631086100
+REFERENCE   PMID:12324235
+  AUTHORS   Spiteller G.
+  TITLE     Do changes in the cell membrane structure induce the generation of lipid peroxidation products which serve as first signalling molecules in cell to cell communication?
+  JOURNAL   Prostaglandins Leukot Essent Fatty Acids 67:151-62 (2002)
+            DOI:10.1054/plef.2002.0413
+REFERENCE   PMID:11302930
+  AUTHORS   Jude AR, Little JM, Bull AW, Podgorski I, Radominska-Pandya A.
+  TITLE     13-hydroxy- and 13-oxooctadecadienoic acids: novel substrates for human UDP-glucuronosyltransferases.
+  JOURNAL   Drug Metab Dispos 29:652-5 (2001)
+REFERENCE   PMID:9694817
+  AUTHORS   Su C, Sahlin M, Oliw EH.
+  TITLE     A protein radical and ferryl intermediates are generated by linoleate diol synthase, a ferric hemeprotein with dioxygenase and hydroperoxide isomerase activities.
+  JOURNAL   J Biol Chem 273:20744-51 (1998)
+            DOI:10.1074/jbc.273.33.20744
+REFERENCE   PMID:1634517
+  AUTHORS   Brodowsky ID, Hamberg M, Oliw EH.
+  TITLE     A linoleic acid (8R)-dioxygenase and hydroperoxide isomerase of the fungus Gaeumannomyces graminis. Biosynthesis of (8R)-hydroxylinoleic acid and (7S,8S)-dihydroxylinoleic acid from (8R)-hydroperoxylinoleic acid.
+  JOURNAL   J Biol Chem 267:14738-45 (1992)
+REFERENCE   PMID:12226220
+  AUTHORS   Hamberg M, Hamberg G.
+  TITLE     Peroxygenase-Catalyzed Fatty Acid Epoxidation in Cereal Seeds (Sequential Oxidation of Linoleic Acid into 9(S),12(S),13(S)-Trihydroxy-10(E)-Octadecenoic Acid).
+  JOURNAL   Plant Physiol 110:807-815 (1996)
+            DOI:10.1104/pp.110.3.807
+REFERENCE   PMID:8765137
+  AUTHORS   Moghaddam M, Motoba K, Borhan B, Pinot F, Hammock BD.
+  TITLE     Novel metabolic pathways for linoleic and arachidonic acid metabolism.
+  JOURNAL   Biochim Biophys Acta 1290:327-39 (1996)
+            DOI:10.1016/0304-4165(96)00037-2
+REL_PATHWAY mmu00590  Arachidonic acid metabolism
+KO_PATHWAY  ko00591
+///

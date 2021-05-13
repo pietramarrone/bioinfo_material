@@ -1,0 +1,111 @@
+ENTRY       hsa05130                    Pathway
+NAME        Pathogenic Escherichia coli infection - Homo sapiens (human)
+DESCRIPTION Enteropathogenic E. coli (EPEC) and enterohemorrhagic E. coli (EHEC) are closely related pathogenic strains of Escherichia coli. The hallmark of EPEC/EHEC infections [DS:H00278 H00277] is induction of attaching and effacing (A/E) lesions that damage intestinal epithelial cells. The capacity to form A/E lesions is encoded mainly by the locus of enterocyte effacement (LEE) pathogenicity island. Tir, Map, EspF, EspG are known LEE-encoded effector proteins secreted via the type III secretion system, which is also LEE-encoded, into the host cell. EPEC and EHEC Tir's link the extracellular bacterium to the cell cytoskeleton. Map and EspF are involved in mitochondrion membrane permeabilization. EspG interacts with tubulins and stimulates microtubule destabilization. LEE-encoded adhesin or intimin (Eae) is exported via the general secretory pathway to the periplasm, where it is inserted into the outer membrane. In addition to Tir, two potential host cell-carried intimin receptors, beta1 integrin (ITGB1) and nucleolin (NCL), have so far been identified. The distinguishing feature of EHEC is the elaboration of Shiga-like toxin (Stx). Stx cleaves ribosomal RNA, thereby disrupting protein synthesis and killing the intoxicated epithelial or endothelial cells.
+CLASS       Human Diseases; Infectious diseases: Bacterial
+PATHWAY_MAP hsa05130  Pathogenic Escherichia coli infection
+DISEASE     H00277  Enterohemorrhagic Escherichia coli (EHEC) infection
+            H00278  Enteropathogenic Escherichia coli (EPEC) infection
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        7100  TLR5; toll like receptor 5 [KO:K10168]
+            929  CD14; CD14 molecule [KO:K04391]
+            7099  TLR4; toll like receptor 4 [KO:K10160]
+            23643  LY96; lymphocyte antigen 96 [KO:K05400]
+            10376  TUBA1B; tubulin alpha 1b [KO:K07374]
+            7277  TUBA4A; tubulin alpha 4a [KO:K07374]
+            7278  TUBA3C; tubulin alpha 3c [KO:K07374]
+            7846  TUBA1A; tubulin alpha 1a [KO:K07374]
+            84790  TUBA1C; tubulin alpha 1c [KO:K07374]
+            51807  TUBA8; tubulin alpha 8 [KO:K07374]
+            112714  TUBA3E; tubulin alpha 3e [KO:K07374]
+            113457  TUBA3D; tubulin alpha 3d [KO:K07374]
+            79861  TUBAL3; tubulin alpha like 3 [KO:K07374]
+            84617  TUBB6; tubulin beta 6 class V [KO:K07375]
+            203068  TUBB; tubulin beta class I [KO:K07375]
+            81027  TUBB1; tubulin beta 1 class VI [KO:K07375]
+            7280  TUBB2A; tubulin beta 2A class IIa [KO:K07375]
+            10381  TUBB3; tubulin beta 3 class III [KO:K07375]
+            10382  TUBB4A; tubulin beta 4A class IVa [KO:K07375]
+            347688  TUBB8; tubulin beta 8 class VIII [KO:K07375]
+            347733  TUBB2B; tubulin beta 2B class IIb [KO:K07375]
+            10383  TUBB4B; tubulin beta 4B class IVb [KO:K07375]
+            9181  ARHGEF2; Rho/Rac guanine nucleotide exchange factor 2 [KO:K12791]
+            387  RHOA; ras homolog family member A [KO:K04513]
+            6093  ROCK1; Rho associated coiled-coil containing protein kinase 1 [KO:K04514] [EC:2.7.11.1]
+            9475  ROCK2; Rho associated coiled-coil containing protein kinase 2 [KO:K17388] [EC:2.7.11.1]
+            4690  NCK1; NCK adaptor protein 1 [KO:K07365]
+            8440  NCK2; NCK adaptor protein 2 [KO:K19862]
+            7454  WAS; WASP actin nucleation promoting factor [KO:K05747]
+            8976  WASL; WASP like actin nucleation promoting factor [KO:K05747]
+            10095  ARPC1B; actin related protein 2/3 complex subunit 1B [KO:K05757]
+            10552  ARPC1A; actin related protein 2/3 complex subunit 1A [KO:K05757]
+            10109  ARPC2; actin related protein 2/3 complex subunit 2 [KO:K05758]
+            10094  ARPC3; actin related protein 2/3 complex subunit 3 [KO:K05756]
+            10093  ARPC4; actin related protein 2/3 complex subunit 4 [KO:K05755]
+            10092  ARPC5; actin related protein 2/3 complex subunit 5 [KO:K05754]
+            81873  ARPC5L; actin related protein 2/3 complex subunit 5 like [KO:K05754]
+            60  ACTB; actin beta [KO:K05692]
+            71  ACTG1; actin gamma 1 [KO:K05692]
+            2534  FYN; FYN proto-oncogene, Src family tyrosine kinase [KO:K05703] [EC:2.7.10.2]
+            25  ABL1; ABL proto-oncogene 1, non-receptor tyrosine kinase [KO:K06619] [EC:2.7.10.2]
+            2017  CTTN; cortactin [KO:K06106]
+            3059  HCLS1; hematopoietic cell-specific Lyn substrate 1 [KO:K06106]
+            4691  NCL; nucleolin [KO:K11294]
+            3688  ITGB1; integrin subunit beta 1 [KO:K05719]
+            998  CDC42; cell division cycle 42 [KO:K04393]
+            100506658  OCLN; occludin [KO:K06088]
+            7430  EZR; ezrin [KO:K08007]
+            5578  PRKCA; protein kinase C alpha [KO:K02677] [EC:2.7.11.13]
+            999  CDH1; cadherin 1 [KO:K05689]
+            1499  CTNNB1; catenin beta 1 [KO:K02105]
+            10971  YWHAQ; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein theta [KO:K16197]
+            3875  KRT18; keratin 18 [KO:K07604]
+            7534  YWHAZ; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein zeta [KO:K16197]
+            9076  CLDN1; claudin 1 [KO:K06087]
+COMPOUND    C00350  Phosphatidylethanolamine
+REFERENCE   PMID:15040260
+  AUTHORS   Kaper JB, Nataro JP, Mobley HL.
+  TITLE     Pathogenic Escherichia coli.
+  JOURNAL   Nat Rev Microbiol 2:123-40 (2004)
+            DOI:10.1038/nrmicro818
+REFERENCE   PMID:15618137
+  AUTHORS   Torres AG, Zhou X, Kaper JB.
+  TITLE     Adherence of diarrheagenic Escherichia coli strains to epithelial cells.
+  JOURNAL   Infect Immun 73:18-29 (2005)
+            DOI:10.1128/IAI.73.1.18-29.2005
+REFERENCE   PMID:15694854
+  AUTHORS   Dean P, Maresca M, Kenny B.
+  TITLE     EPEC's weapons of mass subversion.
+  JOURNAL   Curr Opin Microbiol 8:28-34 (2005)
+            DOI:10.1016/j.mib.2004.12.010
+REFERENCE   PMID:15845459
+  AUTHORS   Garmendia J, Frankel G, Crepin VF.
+  TITLE     Enteropathogenic and enterohemorrhagic Escherichia coli infections: translocation, translocation, translocation.
+  JOURNAL   Infect Immun 73:2573-85 (2005)
+            DOI:10.1128/IAI.73.5.2573-2585.2005
+REFERENCE   PMID:16448495
+  AUTHORS   Spears KJ, Roe AJ, Gally DL.
+  TITLE     A comparison of enteropathogenic and enterohaemorrhagic Escherichia coli pathogenesis.
+  JOURNAL   FEMS Microbiol Lett 255:187-202 (2006)
+            DOI:10.1111/j.1574-6968.2006.00119.x
+REFERENCE   PMID:12101285
+  AUTHORS   Kenny B.
+  TITLE     Enteropathogenic Escherichia coli (EPEC)-- a crafty subversive little bug.
+  JOURNAL   Microbiology 148:1967-78 (2002)
+            DOI:10.1099/00221287-148-7-1967
+REFERENCE   PMID:16582930
+  AUTHORS   Hayward RD, Leong JM, Koronakis V, Campellone KG.
+  TITLE     Exploiting pathogenic Escherichia coli to model transmembrane receptor signalling.
+  JOURNAL   Nat Rev Microbiol 4:358-70 (2006)
+            DOI:10.1038/nrmicro1391
+REFERENCE   PMID:15318166
+  AUTHORS   Matsuzawa T, Kuwae A, Yoshida S, Sasakawa C, Abe A.
+  TITLE     Enteropathogenic Escherichia coli activates the RhoA signaling pathway via the stimulation of GEF-H1.
+  JOURNAL   EMBO J 23:3570-82 (2004)
+            DOI:10.1038/sj.emboj.7600359
+REFERENCE   PMID:19144561
+  AUTHORS   Dean P, Kenny B
+  TITLE     The effector repertoire of enteropathogenic E. coli: ganging up on the host cell.
+  JOURNAL   Curr Opin Microbiol 12:101-9 (2009)
+            DOI:10.1016/j.mib.2008.11.006
+KO_PATHWAY  ko05130
+///

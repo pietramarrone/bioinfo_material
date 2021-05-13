@@ -1,0 +1,159 @@
+ENTRY       mmu05321                    Pathway
+NAME        Inflammatory bowel disease (IBD) - Mus musculus (mouse)
+DESCRIPTION Inflammatory bowel disease (IBD), which includes Crohn disease (CD) and ulcerative colitis (UC), is characterized by chronic inflammation of the gastrointestinal tract due to environmental and genetic factors, infectious microbes, and the dysregulated immune system. Although many environmental factors (for example, geographic locations, smoking, etc.) affect the development of IBD, the most crucial might be the luminal (external) environment of the epithelial cells. There are pathogens that are found in increasing frequency in IBD. The microbial components such as flagellin, peptidoglycan, and lipopolysaccharide are recognized by receptors such as toll-like receptors (TLRs) and nucleotide-binding oligomerization domain (NOD) proteins, and also by antigen-presenting cells (APCs) in genetically susceptible host. The TLR recognition triggers the activation of NF-kappaB, leading to an inflammatory response. APC-expressed gene NOD2 has been associated with Crohn disease. In case of mutations of NOD2, negative regulation of IL-12 production is reduced with the stimulation of muramyl dipeptide (MDP), leading to CD. In addition, the APC mediates the differentiation of naive T cells into effector T cells (Th1, Th17, Th2) and natural killer T (NKT) cells. Th1 and Th17 cells produce high levels of IFN-gamma and IL-17, -22, respectively, both of which promote CD. In contrast, Th2 cells produce IL-4, -5, -10, which together with IL-13 from NKT induce UC.
+CLASS       Human Diseases; Immune disease
+PATHWAY_MAP mmu05321  Inflammatory bowel disease (IBD)
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        24088  Tlr2; toll-like receptor 2 [KO:K10159]
+            21898  Tlr4; toll-like receptor 4 [KO:K10160]
+            53791  Tlr5; toll-like receptor 5 [KO:K10168]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            257632  Nod2; nucleotide-binding oligomerization domain containing 2 [KO:K10165]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            15978  Ifng; interferon gamma [KO:K04687]
+            15979  Ifngr1; interferon gamma receptor 1 [KO:K05132]
+            15980  Ifngr2; interferon gamma receptor 2 [KO:K05133]
+            20846  Stat1; signal transducer and activator of transcription 1 [KO:K11220]
+            57765  Tbx21; T-box 21 [KO:K10166]
+            16189  Il4; interleukin 4 [KO:K05430]
+            16191  Il5; interleukin 5 [KO:K05428]
+            16159  Il12a; interleukin 12a [KO:K05406]
+            16160  Il12b; interleukin 12b [KO:K05425]
+            16162  Il12rb2; interleukin 12 receptor, beta 2 [KO:K05064]
+            16161  Il12rb1; interleukin 12 receptor, beta 1 [KO:K05063]
+            20849  Stat4; signal transducer and activator of transcription 4 [KO:K11222]
+            16183  Il2; interleukin 2 [KO:K05429]
+            16173  Il18; interleukin 18 [KO:K05482]
+            16182  Il18r1; interleukin 18 receptor 1 [KO:K05173]
+            16174  Il18rap; interleukin 18 receptor accessory protein [KO:K05174]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            16193  Il6; interleukin 6 [KO:K05405]
+            16175  Il1a; interleukin 1 alpha [KO:K04383]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            21808  Tgfb2; transforming growth factor, beta 2 [KO:K13376]
+            21809  Tgfb3; transforming growth factor, beta 3 [KO:K13377]
+            17126  Smad2; SMAD family member 2 [KO:K04500]
+            17127  Smad3; SMAD family member 3 [KO:K23605]
+            20848  Stat3; signal transducer and activator of transcription 3 [KO:K04692]
+            60505  Il21; interleukin 21 [KO:K05434]
+            60504  Il21r; interleukin 21 receptor [KO:K05075]
+            83430  Il23a; interleukin 23, alpha subunit p19 [KO:K05426]
+            209590  Il23r; interleukin 23 receptor [KO:K05065]
+            19885  Rorc; RAR-related orphan receptor gamma [KO:K08534]
+            19883  Rora; RAR-related orphan receptor alpha [KO:K08532]
+            20371  Foxp3; forkhead box P3 [KO:K10163]
+            16171  Il17a; interleukin 17A [KO:K05489]
+            257630  Il17f; interleukin 17F [KO:K05494]
+            50929  Il22; interleukin 22 [KO:K05445]
+            16190  Il4ra; interleukin 4 receptor, alpha [KO:K05071]
+            16186  Il2rg; interleukin 2 receptor, gamma chain [KO:K05070]
+            20852  Stat6; signal transducer and activator of transcription 6 [KO:K11225]
+            14462  Gata3; GATA binding protein 3 [KO:K17895]
+            16153  Il10; interleukin 10 [KO:K05443]
+            16163  Il13; interleukin 13 [KO:K05435]
+            17132  Maf; avian musculoaponeurotic fibrosarcoma oncogene homolog [KO:K09035]
+            18018  Nfatc1; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 1 [KO:K04446]
+REFERENCE   PMID:20134493
+  AUTHORS   Melmed GY, Targan SR
+  TITLE     Future biologic targets for IBD: potentials and pitfalls.
+  JOURNAL   Nat Rev Gastroenterol Hepatol 7:110-7 (2010)
+            DOI:10.1038/nrgastro.2009.218
+REFERENCE   PMID:18200661
+  AUTHORS   Shih DQ, Targan SR
+  TITLE     Immunopathogenesis of inflammatory bowel disease.
+  JOURNAL   World J Gastroenterol 14:390-400 (2008)
+            DOI:10.3748/wjg.14.390
+REFERENCE   PMID:17499605
+  AUTHORS   Baumgart DC, Carding SR
+  TITLE     Inflammatory bowel disease: cause and immunobiology.
+  JOURNAL   Lancet 369:1627-40 (2007)
+            DOI:10.1016/S0140-6736(07)60750-8
+REFERENCE   PMID:16493424
+  AUTHORS   Strober W, Murray PJ, Kitani A, Watanabe T
+  TITLE     Signalling pathways and molecular interactions of NOD1 and NOD2.
+  JOURNAL   Nat Rev Immunol 6:9-20 (2006)
+            DOI:10.1038/nri1747
+REFERENCE   PMID:21487504
+  AUTHORS   Matricon J, Barnich N, Ardid D
+  TITLE     Immunopathogenesis of inflammatory bowel disease.
+  JOURNAL   Self Nonself 1:299-309 (2010)
+            DOI:10.4161/self.1.4.13560
+REFERENCE   PMID:12797537
+  AUTHORS   Agnello D, Lankford CS, Bream J, Morinobu A, Gadina M, O'Shea JJ, Frucht DM
+  TITLE     Cytokines and transcription factors that regulate T helper cell differentiation: new players and new insights.
+  JOURNAL   J Clin Immunol 23:147-61 (2003)
+            DOI:10.1023/A:1023381027062
+REFERENCE   PMID:10898785
+  AUTHORS   Glimcher LH, Murphy KM
+  TITLE     Lineage commitment in the immune system: the T helper lymphocyte grows up.
+  JOURNAL   Genes Dev 14:1693-711 (2000)
+            DOI:10.1101/gad.14.14.1693
+REFERENCE   PMID:12042806
+  AUTHORS   Neurath MF, Finotto S, Glimcher LH
+  TITLE     The role of Th1/Th2 polarization in mucosal immunity.
+  JOURNAL   Nat Med 8:567-73 (2002)
+            DOI:10.1038/nm0602-567
+REFERENCE   PMID:12006974
+  AUTHORS   Afkarian M, Sedy JR, Yang J, Jacobson NG, Cereb N, Yang SY, Murphy TL, Murphy KM
+  TITLE     T-bet is a STAT1-induced regulator of IL-12R expression in naive CD4+ T cells.
+  JOURNAL   Nat Immunol 3:549-57 (2002)
+            DOI:10.1038/ni794
+REFERENCE   PMID:18242222
+  AUTHORS   Sartor RB
+  TITLE     Microbial influences in inflammatory bowel diseases.
+  JOURNAL   Gastroenterology 134:577-94 (2008)
+            DOI:10.1053/j.gastro.2007.11.059
+REFERENCE   PMID:9759857
+  AUTHORS   Yoshimoto T, Takeda K, Tanaka T, Ohkusu K, Kashiwamura S, Okamura H, Akira S, Nakanishi K
+  TITLE     IL-12 up-regulates IL-18 receptor expression on T cells, Th1 cells, and B cells: synergism with IL-18 for IFN-gamma production.
+  JOURNAL   J Immunol 161:3400-7 (1998)
+REFERENCE   PMID:23176791
+  AUTHORS   Hur SJ, Kang SH, Jung HS, Kim SC, Jeon HS, Kim IH, Lee JD
+  TITLE     Review of natural products actions on cytokines in inflammatory bowel disease.
+  JOURNAL   Nutr Res 32:801-16 (2012)
+            DOI:10.1016/j.nutres.2012.09.013
+REFERENCE   PMID:18563156
+  AUTHORS   Bettelli E, Korn T, Oukka M, Kuchroo VK
+  TITLE     Induction and effector functions of T(H)17 cells.
+  JOURNAL   Nature 453:1051-7 (2008)
+            DOI:10.1038/nature07036
+REFERENCE   PMID:18053739
+  AUTHORS   Ivanov II, Zhou L, Littman DR
+  TITLE     Transcriptional regulation of Th17 cell differentiation.
+  JOURNAL   Semin Immunol 19:409-17 (2007)
+            DOI:10.1016/j.smim.2007.10.011
+REFERENCE   PMID:19322214
+  AUTHORS   Di Cesare A, Di Meglio P, Nestle FO
+  TITLE     The IL-23/Th17 axis in the immunopathogenesis of psoriasis.
+  JOURNAL   J Invest Dermatol 129:1339-50 (2009)
+            DOI:10.1038/jid.2009.59
+REFERENCE   PMID:19381306
+  AUTHORS   Jetten AM
+  TITLE     Retinoid-related orphan receptors (RORs): critical roles in development, immunity, circadian rhythm, and cellular metabolism.
+  JOURNAL   Nucl Recept Signal 7:e003 (2009)
+            DOI:10.1621/nrs.07003
+REFERENCE   PMID:21681604
+  AUTHORS   Bene L, Falus A, Baffy N, Fulop AK
+  TITLE     Cellular and molecular mechanisms in the two major forms of inflammatory bowel disease.
+  JOURNAL   Pathol Oncol Res 17:463-72 (2011)
+            DOI:10.1007/s12253-011-9397-4
+REL_PATHWAY mmu04060  Cytokine-cytokine receptor interaction
+            mmu04612  Antigen processing and presentation
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04621  NOD-like receptor signaling pathway
+            mmu04630  JAK-STAT signaling pathway
+            mmu04659  Th17 cell differentiation
+            mmu04660  T cell receptor signaling pathway
+KO_PATHWAY  ko05321
+///

@@ -1,0 +1,58 @@
+ENTRY       mmu00220                    Pathway
+NAME        Arginine biosynthesis - Mus musculus (mouse)
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP mmu00220  Arginine biosynthesis
+MODULE      mmu_M00029  Urea cycle [PATH:mmu00220]
+            mmu_M00844  Arginine biosynthesis, ornithine => arginine [PATH:mmu00220]
+DBLINKS     GO: 0006525
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        18416  Otc; ornithine transcarbamylase [KO:K00611] [EC:2.1.3.3]
+            11898  Ass1; argininosuccinate synthetase 1 [KO:K01940] [EC:6.3.4.5]
+            109900  Asl; argininosuccinate lyase [KO:K01755] [EC:4.3.2.1]
+            11846  Arg1; arginase, liver [KO:K01476] [EC:3.5.3.1]
+            11847  Arg2; arginase type II [KO:K01476] [EC:3.5.3.1]
+            18125  Nos1; nitric oxide synthase 1, neuronal [KO:K13240] [EC:1.14.13.39]
+            18126  Nos2; nitric oxide synthase 2, inducible [KO:K13241] [EC:1.14.13.39]
+            18127  Nos3; nitric oxide synthase 3, endothelial cell [KO:K13242] [EC:1.14.13.39]
+            216456  Gls2; glutaminase 2 (liver, mitochondrial) [KO:K01425] [EC:3.5.1.2]
+            14660  Gls; glutaminase [KO:K01425] [EC:3.5.1.2]
+            14645  Glul; glutamate-ammonia ligase (glutamine synthetase) [KO:K01915] [EC:6.3.1.2]
+            14661  Glud1; glutamate dehydrogenase 1 [KO:K00261] [EC:1.4.1.3]
+            227231  Cps1; carbamoyl-phosphate synthetase 1 [KO:K01948] [EC:6.3.4.16]
+            14718  Got1; glutamic-oxaloacetic transaminase 1, soluble [KO:K14454] [EC:2.6.1.1]
+            14719  Got2; glutamatic-oxaloacetic transaminase 2, mitochondrial [KO:K14455] [EC:2.6.1.1]
+            108682  Gpt2; glutamic pyruvate transaminase (alanine aminotransferase) 2 [KO:K00814] [EC:2.6.1.2]
+            76282  Gpt; glutamic pyruvic transaminase, soluble [KO:K00814] [EC:2.6.1.2]
+            217214  Nags; N-acetylglutamate synthase [KO:K11067] [EC:2.3.1.1]
+            109652  Acy1; aminoacylase 1 [KO:K14677] [EC:3.5.1.14]
+COMPOUND    C00011  CO2
+            C00014  Ammonia
+            C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00049  L-Aspartate
+            C00062  L-Arginine
+            C00064  L-Glutamine
+            C00077  L-Ornithine
+            C00086  Urea
+            C00122  Fumarate
+            C00169  Carbamoyl phosphate
+            C00327  L-Citrulline
+            C00437  N-Acetylornithine
+            C00624  N-Acetyl-L-glutamate
+            C01010  Urea-1-carboxylate
+            C01250  N-Acetyl-L-glutamate 5-semialdehyde
+            C03406  N-(L-Arginino)succinate
+            C04133  N-Acetyl-L-glutamate 5-phosphate
+            C15532  N-Acetyl-L-citrulline
+            C20948  LysW-L-glutamate
+            C20949  LysW-L-glutamyl 5-phosphate
+            C20950  LysW-L-glutamate 5-semialdehyde
+            C20951  LysW-L-ornithine
+REL_PATHWAY mmu00020  Citrate cycle (TCA cycle)
+            mmu00240  Pyrimidine metabolism
+            mmu00250  Alanine, aspartate and glutamate metabolism
+            mmu00330  Arginine and proline metabolism
+            mmu00472  D-Arginine and D-ornithine metabolism
+            mmu00910  Nitrogen metabolism
+KO_PATHWAY  ko00220
+///

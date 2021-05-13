@@ -1,0 +1,174 @@
+ENTRY       mmu05416                    Pathway
+NAME        Viral myocarditis - Mus musculus (mouse)
+DESCRIPTION Myocarditis is a cardiac disease associated with inflammation and injury of the myocardium. It results from various etiologies, both noninfectious and infectious, but coxsackievirus B3 (CVB3) is still considered the dominant etiological agent. Myocarditis may be caused by direct cytopathic effects of virus, a pathologic immune response to persistent virus, or autoimmunity triggered by the viral infection. The virus enters the myocyte through internalization of the coxsackie-adenoviral receptor (CAR) and its coreceptor, decay-accelerating factor (DAF). Viral proteases cleave various proteins in the host cell. One example is viral protease 2A, which cleaves eukaryote initiation factor 4G (eIF4G) and the dystrophin protein, resulting in a complete shutdown of cap-dependent RNA translation and cytoskeletal destruction in infected cardiomyocytes, respectively. CVB3 also cleaves the member of the Bcl-2 family Bid, leading to apoptosis. CVB3 infection also induces the cleavage of cyclin D protein through a proteasome-dependent pathway, leading to the host cell-growth arrest. Viral infection and necrosis of myocytes may lead to the release of intracellular antigens, resulting in activation of self-reactive T cells. CVB infection is a significant cause of dilated cardiomyopathy (DCM) as well as myocarditis. Epidemiologically, myocarditis underlies a significant portion of patients with DCM.
+CLASS       Human Diseases; Cardiovascular disease
+PATHWAY_MAP mmu05416  Viral myocarditis
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        13052  Cxadr; coxsackie virus and adenovirus receptor [KO:K06788]
+            13136  Cd55; CD55 molecule, decay accelerating factor for complement [KO:K04006]
+            13137  Cd55b; CD55 molecule, decay accelerating factor for complement B [KO:K04006]
+            14360  Fyn; Fyn proto-oncogene [KO:K05703] [EC:2.7.10.2]
+            12389  Cav1; caveolin 1, caveolae protein [KO:K06278]
+            11350  Abl1; c-abl oncogene 1, non-receptor tyrosine kinase [KO:K06619] [EC:2.7.10.2]
+            11352  Abl2; v-abl Abelson murine leukemia viral oncogene 2 (arg, Abelson-related gene) [KO:K08887] [EC:2.7.10.2]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            19354  Rac2; Rac family small GTPase 2 [KO:K07860]
+            170758  Rac3; Rac family small GTPase 3 [KO:K07861]
+            24052  Sgcd; sarcoglycan, delta (dystrophin-associated glycoprotein) [KO:K12563]
+            24053  Sgcg; sarcoglycan, gamma (dystrophin-associated glycoprotein) [KO:K12564]
+            20391  Sgca; sarcoglycan, alpha (dystrophin-associated glycoprotein) [KO:K12565]
+            24051  Sgcb; sarcoglycan, beta (dystrophin-associated glycoprotein) [KO:K12566]
+            16772  Lama1; laminin, alpha 1 [KO:K05637]
+            16773  Lama2; laminin, alpha 2 [KO:K05637]
+            13138  Dag1; dystroglycan 1 [KO:K06265]
+            13405  Dmd; dystrophin, muscular dystrophy [KO:K10366]
+            11465  Actg1; actin, gamma, cytoplasmic 1 [KO:K05692]
+            11461  Actb; actin, beta [KO:K05692]
+            13690  Eif4g2; eukaryotic translation initiation factor 4, gamma 2 [KO:K03260]
+            230861  Eif4g3; eukaryotic translation initiation factor 4 gamma, 3 [KO:K03260]
+            208643  Eif4g1; eukaryotic translation initiation factor 4, gamma 1 [KO:K03260]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            12370  Casp8; caspase 8 [KO:K04398] [EC:3.4.22.61]
+            12122  Bid; BH3 interacting domain death agonist [KO:K04726]
+            13063  Cycs; cytochrome c, somatic [KO:K08738]
+            13067  Cyct; cytochrome c, testis [KO:K08738]
+            12371  Casp9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            12367  Casp3; caspase 3 [KO:K02187] [EC:3.4.22.56]
+            140781  Myh7; myosin, heavy polypeptide 7, cardiac muscle, beta [KO:K17751]
+            17888  Myh6; myosin, heavy polypeptide 6, cardiac muscle, alpha [KO:K17751]
+            21947  Cd40lg; CD40 ligand [KO:K03161]
+            21939  Cd40; CD40 antigen [KO:K03160]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            14990  H2-M2; histocompatibility 2, M region locus 2 [KO:K06751]
+            14991  H2-M3; histocompatibility 2, M region locus 3 [KO:K06751]
+            14997  H2-M9; histocompatibility 2, M region locus 9 [KO:K06751]
+            15006  H2-Q1; histocompatibility 2, Q region locus 1 [KO:K06751]
+            15007  H2-Q10; histocompatibility 2, Q region locus 10 [KO:K06751]
+            15013  H2-Q2; histocompatibility 2, Q region locus 2 [KO:K06751]
+            15018  H2-Q7; histocompatibility 2, Q region locus 7 [KO:K06751]
+            15019  H2-Q8; histocompatibility 2, Q region locus 8 [KO:K06751]
+            15039  H2-T22; histocompatibility 2, T region locus 22 [KO:K06751]
+            15040  H2-T23; histocompatibility 2, T region locus 23 [KO:K06751]
+            15042  H2-T24; histocompatibility 2, T region locus 24 [KO:K06751]
+            15043  H2-T3; histocompatibility 2, T region locus 3 [KO:K06751]
+            15051  H2-T9; histocompatibility 2, T region locus 9 [KO:K06751]
+            224753  H2-M10.4; histocompatibility 2, M region locus 10.4 [KO:K06751]
+            224754  H2-M11; histocompatibility 2, M region locus 11 [KO:K06751]
+            224756  H2-M1; histocompatibility 2, M region locus 1 [KO:K06751]
+            224761  H2-M10.5; histocompatibility 2, M region locus 10.5 [KO:K06751]
+            333715  H2-M10.2; histocompatibility 2, M region locus 10.2 [KO:K06751]
+            399549  H2-M10.6; histocompatibility 2, M region locus 10.6 [KO:K06751]
+            15024  H2-T10; histocompatibility 2, T region locus 10 [KO:K06751]
+            110557  H2-Q6; histocompatibility 2, Q region locus 6 [KO:K06751]
+            110696  H2-M10.3; histocompatibility 2, M region locus 10.3 [KO:K06751]
+            14963  H2-Bl; histocompatibility 2, blastocyst [KO:K06751]
+            14964  H2-D1; histocompatibility 2, D region locus 1 [KO:K06751]
+            14972  H2-K1; histocompatibility 2, K1, K region [KO:K06751]
+            14985  H2-M10.1; histocompatibility 2, M region locus 10.1 [KO:K06751]
+            547349  H2-K1; MHC class I family member [KO:K06751]
+            15033  H2-T18; histocompatibility 2, T region locus 18 [KO:K06751]
+            110558  H2-Q9; histocompatibility 2, Q region locus 9 [KO:K06751]
+            667977  Gm8909; predicted gene 8909 [KO:K06751]
+            14980  H2-L; histocompatibility 2, D region locus L [KO:K06751]
+            69717  Gm10499; predicted gene 10499 [KO:K06751]
+            15015  H2-Q4; histocompatibility 2, Q region locus 4 [KO:K06751]
+            667803  H2-T-ps; histocompatibility 2, T region locus, pseudogene [KO:K06751]
+            100529082  Gm11127; predicted gene 11127 [KO:K06751]
+            240095  H2-M5; histocompatibility 2, M region locus 5 [KO:K06751]
+            630294  Gm7030; predicted gene 7030 [KO:K06751]
+            12519  Cd80; CD80 antigen [KO:K05412]
+            12524  Cd86; CD86 antigen [KO:K05413]
+            12487  Cd28; CD28 antigen [KO:K06470]
+            18646  Prf1; perforin 1 (pore forming protein) [KO:K07818]
+            16408  Itgal; integrin alpha L [KO:K05718]
+            16414  Itgb2; integrin beta 2 [KO:K06464]
+            16415  Itgb2l; integrin beta 2-like [KO:K06464]
+            15894  Icam1; intercellular adhesion molecule 1 [KO:K06490]
+REFERENCE   PMID:18039131
+  AUTHORS   Esfandiarei M, McManus BM
+  TITLE     Molecular biology and pathogenesis of viral myocarditis.
+  JOURNAL   Annu Rev Pathol 3:127-55 (2008)
+            DOI:10.1146/annurev.pathmechdis.3.121806.151534
+REFERENCE   PMID:12920582
+  AUTHORS   Badorff C, Knowlton KU
+  TITLE     Dystrophin disruption in enterovirus-induced myocarditis and dilated cardiomyopathy: from bench to bedside.
+  JOURNAL   Med Microbiol Immunol 193:121-6 (2004)
+            DOI:10.1007/s00430-003-0189-7
+REFERENCE   PMID:17200452
+  AUTHORS   Maekawa Y, Ouzounian M, Opavsky MA, Liu PP
+  TITLE     Connecting the missing link between dilated cardiomyopathy and viral myocarditis: virus, cytoskeleton, and innate immunity.
+  JOURNAL   Circulation 115:5-8 (2007)
+            DOI:10.1161/CIRCULATIONAHA.106.670554
+REFERENCE   PMID:12439638
+  AUTHORS   Pankuweit S, Portig I, Maisch B
+  TITLE     Pathophysiology of cardiac inflammation: molecular mechanisms.
+  JOURNAL   Herz 27:669-76 (2002)
+            DOI:10.1007/s00059-002-2421-4
+REFERENCE   PMID:16845885
+  AUTHORS   Gao G, Luo H
+  TITLE     The ubiquitin-proteasome pathway in viral infections.
+  JOURNAL   Can J Physiol Pharmacol 84:5-14 (2006)
+            DOI:10.1139/y05-144
+REFERENCE   PMID:16413486
+  AUTHORS   Coyne CB, Bergelson JM
+  TITLE     Virus-induced Abl and Fyn kinase signals permit coxsackievirus entry through epithelial tight junctions.
+  JOURNAL   Cell 124:119-31 (2006)
+            DOI:10.1016/j.cell.2005.10.035
+REFERENCE   PMID:10904843
+  AUTHORS   Badorff C, Lee GH, Knowlton KU
+  TITLE     Enteroviral cardiomyopathy: bad news for the dystrophin-glycoprotein complex.
+  JOURNAL   Herz 25:227-32 (2000)
+            DOI:10.1007/s000590050011
+REFERENCE   PMID:18357777
+  AUTHORS   Knowlton KU
+  TITLE     CVB infection and mechanisms of viral cardiomyopathy.
+  JOURNAL   Curr Top Microbiol Immunol 323:315-35 (2008)
+            DOI:10.1007/978-3-540-75546-3_15
+REFERENCE   PMID:18545064
+  AUTHORS   Castellano G, Affuso F, Di Conza P, Fazio S
+  TITLE     Myocarditis and dilated cardiomyopathy: possible connections and treatments.
+  JOURNAL   J Cardiovasc Med (Hagerstown) 9:666-71 (2008)
+            DOI:10.2459/JCM.0b013e3282f3e9c2
+REFERENCE   PMID:19357408
+  AUTHORS   Cooper LT Jr
+  TITLE     Myocarditis.
+  JOURNAL   N Engl J Med 360:1526-38 (2009)
+            DOI:10.1056/NEJMra0800028
+REFERENCE   PMID:10051305
+  AUTHORS   Kawai C
+  TITLE     From myocarditis to cardiomyopathy: mechanisms of inflammation and cell death: learning from the past for the future.
+  JOURNAL   Circulation 99:1091-100 (1999)
+            DOI:10.1161/01.CIR.99.8.1091
+REFERENCE   PMID:11524405
+  AUTHORS   Liu PP, Mason JW
+  TITLE     Advances in the understanding of myocarditis.
+  JOURNAL   Circulation 104:1076-82 (2001)
+            DOI:10.1161/hc3401.095198
+REFERENCE   PMID:14522402
+  AUTHORS   Mason JW
+  TITLE     Myocarditis and dilated cardiomyopathy: an inflammatory link.
+  JOURNAL   Cardiovasc Res 60:5-10 (2003)
+            DOI:10.1016/S0008-6363(03)00437-1
+REFERENCE   PMID:16817756
+  AUTHORS   Tam PE
+  TITLE     Coxsackievirus myocarditis: interplay between virus and host in the pathogenesis of heart disease.
+  JOURNAL   Viral Immunol 19:133-46 (2006)
+            DOI:10.1089/vim.2006.19.133
+REL_PATHWAY mmu03050  Proteasome
+            mmu04110  Cell cycle
+            mmu04210  Apoptosis
+            mmu04260  Cardiac muscle contraction
+            mmu04512  ECM-receptor interaction
+            mmu04612  Antigen processing and presentation
+            mmu04660  T cell receptor signaling pathway
+            mmu05414  Dilated cardiomyopathy (DCM)
+KO_PATHWAY  ko05416
+///

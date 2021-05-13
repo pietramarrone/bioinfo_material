@@ -1,0 +1,479 @@
+ENTRY       mmu04151                    Pathway
+NAME        PI3K-Akt signaling pathway - Mus musculus (mouse)
+DESCRIPTION The phosphatidylinositol 3' -kinase(PI3K)-Akt signaling pathway is activated by many types of cellular stimuli or toxic insults and regulates fundamental cellular functions such as transcription, translation, proliferation, growth, and survival. The binding of growth factors to their receptor tyrosine kinase (RTK) or G protein-coupled receptors (GPCR) stimulates class Ia and Ib PI3K isoforms, respectively. PI3K catalyzes the production of phosphatidylinositol-3,4,5-triphosphate (PIP3) at the cell membrane. PIP3 in turn serves as a second messenger that helps to activate Akt. Once active, Akt can control key cellular processes by phosphorylating substrates involved in apoptosis, protein synthesis, metabolism, and cell cycle.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04151  PI3K-Akt signaling pathway
+DBLINKS     GO: 0043491
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        13645  Egf; epidermal growth factor [KO:K04357]
+            21802  Tgfa; transforming growth factor alpha [KO:K08774]
+            13874  Ereg; epiregulin [KO:K09784]
+            11839  Areg; amphiregulin [KO:K09782]
+            14164  Fgf1; fibroblast growth factor 1 [KO:K18496]
+            14173  Fgf2; fibroblast growth factor 2 [KO:K18497]
+            14174  Fgf3; fibroblast growth factor 3 [KO:K04358]
+            14175  Fgf4; fibroblast growth factor 4 [KO:K04358]
+            14176  Fgf5; fibroblast growth factor 5 [KO:K04358]
+            14178  Fgf7; fibroblast growth factor 7 [KO:K04358]
+            14179  Fgf8; fibroblast growth factor 8 [KO:K04358]
+            14180  Fgf9; fibroblast growth factor 9 [KO:K04358]
+            14165  Fgf10; fibroblast growth factor 10 [KO:K04358]
+            80903  Fgf16; fibroblast growth factor 16 [KO:K04358]
+            14171  Fgf17; fibroblast growth factor 17 [KO:K04358]
+            14172  Fgf18; fibroblast growth factor 18 [KO:K04358]
+            80857  Fgf20; fibroblast growth factor 20 [KO:K04358]
+            67112  Fgf22; fibroblast growth factor 22 [KO:K04358]
+            14177  Fgf6; fibroblast growth factor 6 [KO:K04358]
+            14170  Fgf15; fibroblast growth factor 15 [KO:K22603]
+            56636  Fgf21; fibroblast growth factor 21 [KO:K22429]
+            64654  Fgf23; fibroblast growth factor 23 [KO:K22428]
+            18048  Klk1b4; kallikrein 1-related pepidase b4 [KO:K05451]
+            18049  Ngf; nerve growth factor [KO:K02582]
+            12064  Bdnf; brain derived neurotrophic factor [KO:K04355]
+            18205  Ntf3; neurotrophin 3 [KO:K04356]
+            78405  Ntf5; neurotrophin 5 [KO:K12457]
+            16334  Ins2; insulin II [KO:K04526]
+            16333  Ins1; insulin I [KO:K04526]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            16002  Igf2; insulin-like growth factor 2 [KO:K13769]
+            18590  Pdgfa; platelet derived growth factor, alpha [KO:K04359]
+            18591  Pdgfb; platelet derived growth factor, B polypeptide [KO:K17386]
+            54635  Pdgfc; platelet-derived growth factor, C polypeptide [KO:K05450]
+            71785  Pdgfd; platelet-derived growth factor, D polypeptide [KO:K05450]
+            12977  Csf1; colony stimulating factor 1 (macrophage) [KO:K05453]
+            17311  Kitl; kit ligand [KO:K05461]
+            14256  Flt3l; FMS-like tyrosine kinase 3 ligand [KO:K05454]
+            22339  Vegfa; vascular endothelial growth factor A [KO:K05448]
+            22340  Vegfb; vascular endothelial growth factor B [KO:K16858]
+            18654  Pgf; placental growth factor [KO:K16859]
+            22341  Vegfc; vascular endothelial growth factor C [KO:K05449]
+            14205  Vegfd; vascular endothelial growth factor D [KO:K05449]
+            15234  Hgf; hepatocyte growth factor [KO:K05460]
+            11600  Angpt1; angiopoietin 1 [KO:K05465]
+            11601  Angpt2; angiopoietin 2 [KO:K05466]
+            11602  Angpt4; angiopoietin 4 [KO:K05467]
+            13636  Efna1; ephrin A1 [KO:K05462]
+            13637  Efna2; ephrin A2 [KO:K05462]
+            13639  Efna4; ephrin A4 [KO:K05462]
+            13640  Efna5; ephrin A5 [KO:K05462]
+            13638  Efna3; ephrin A3 [KO:K05462]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            13866  Erbb2; erb-b2 receptor tyrosine kinase 2 [KO:K05083] [EC:2.7.10.1]
+            13867  Erbb3; erb-b2 receptor tyrosine kinase 3 [KO:K05084] [EC:2.7.10.1]
+            13869  Erbb4; erb-b2 receptor tyrosine kinase 4 [KO:K05085] [EC:2.7.10.1]
+            14182  Fgfr1; fibroblast growth factor receptor 1 [KO:K04362] [EC:2.7.10.1]
+            14183  Fgfr2; fibroblast growth factor receptor 2 [KO:K05093] [EC:2.7.10.1]
+            14184  Fgfr3; fibroblast growth factor receptor 3 [KO:K05094] [EC:2.7.10.1]
+            14186  Fgfr4; fibroblast growth factor receptor 4 [KO:K05095] [EC:2.7.10.1]
+            18053  Ngfr; nerve growth factor receptor (TNFR superfamily, member 16) [KO:K02583]
+            18211  Ntrk1; neurotrophic tyrosine kinase, receptor, type 1 [KO:K03176] [EC:2.7.10.1]
+            18212  Ntrk2; neurotrophic tyrosine kinase, receptor, type 2 [KO:K04360] [EC:2.7.10.1]
+            16337  Insr; insulin receptor [KO:K04527] [EC:2.7.10.1]
+            16001  Igf1r; insulin-like growth factor I receptor [KO:K05087] [EC:2.7.10.1]
+            18595  Pdgfra; platelet derived growth factor receptor, alpha polypeptide [KO:K04363] [EC:2.7.10.1]
+            18596  Pdgfrb; platelet derived growth factor receptor, beta polypeptide [KO:K05089] [EC:2.7.10.1]
+            12978  Csf1r; colony stimulating factor 1 receptor [KO:K05090] [EC:2.7.10.1]
+            16590  Kit; KIT proto-oncogene receptor tyrosine kinase [KO:K05091] [EC:2.7.10.1]
+            14255  Flt3; FMS-like tyrosine kinase 3 [KO:K05092] [EC:2.7.10.1]
+            14254  Flt1; FMS-like tyrosine kinase 1 [KO:K05096] [EC:2.7.10.1]
+            14257  Flt4; FMS-like tyrosine kinase 4 [KO:K05097] [EC:2.7.10.1]
+            16542  Kdr; kinase insert domain protein receptor [KO:K05098] [EC:2.7.10.1]
+            17295  Met; met proto-oncogene [KO:K05099] [EC:2.7.10.1]
+            21687  Tek; TEK receptor tyrosine kinase [KO:K05121] [EC:2.7.10.1]
+            13836  Epha2; Eph receptor A2 [KO:K05103] [EC:2.7.10.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            16367  Irs1; insulin receptor substrate 1 [KO:K16172]
+            24088  Tlr2; toll-like receptor 2 [KO:K10159]
+            21898  Tlr4; toll-like receptor 4 [KO:K10160]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            20963  Syk; spleen tyrosine kinase [KO:K05855] [EC:2.7.10.2]
+            12478  Cd19; CD19 antigen [KO:K06465]
+            83490  Pik3ap1; phosphoinositide-3-kinase adaptor protein 1 [KO:K12230]
+            14599  Gh; growth hormone [KO:K05438]
+            19109  Prl; prolactin [KO:K05439]
+            18413  Osm; oncostatin M [KO:K05418]
+            16183  Il2; interleukin 2 [KO:K05429]
+            16187  Il3; interleukin 3 [KO:K04736]
+            16193  Il6; interleukin 6 [KO:K05405]
+            16189  Il4; interleukin 4 [KO:K05430]
+            16196  Il7; interleukin 7 [KO:K05431]
+            15962  Ifna1; interferon alpha 1 [KO:K05414]
+            15965  Ifna2; interferon alpha 2 [KO:K05414]
+            15967  Ifna4; interferon alpha 4 [KO:K05414]
+            15968  Ifna5; interferon alpha 5 [KO:K05414]
+            15969  Ifna6; interferon alpha 6 [KO:K05414]
+            15970  Ifna7; interferon alpha 7 [KO:K05414]
+            15972  Ifna9; interferon alpha 9 [KO:K05414]
+            15964  Ifna11; interferon alpha 11 [KO:K05414]
+            242519  Ifna12; interferon alpha 12 [KO:K05414]
+            230396  Ifna13; interferon alpha 13 [KO:K05414]
+            404549  Ifna14; interferon alpha 14 [KO:K05414]
+            15974  Ifnab; interferon alpha B [KO:K05414]
+            242517  Ifna15; interferon alpha 15 [KO:K05414]
+            15977  Ifnb1; interferon beta 1, fibroblast [KO:K05415]
+            13856  Epo; erythropoietin [KO:K05437]
+            12985  Csf3; colony stimulating factor 3 (granulocyte) [KO:K05423]
+            14600  Ghr; growth hormone receptor [KO:K05080]
+            19116  Prlr; prolactin receptor [KO:K05081]
+            18414  Osmr; oncostatin M receptor [KO:K05057]
+            16184  Il2ra; interleukin 2 receptor, alpha chain [KO:K05068]
+            16185  Il2rb; interleukin 2 receptor, beta chain [KO:K05069]
+            16186  Il2rg; interleukin 2 receptor, gamma chain [KO:K05070]
+            16188  Il3ra; interleukin 3 receptor, alpha chain [KO:K04737]
+            16194  Il6ra; interleukin 6 receptor, alpha [KO:K05055]
+            16190  Il4ra; interleukin 4 receptor, alpha [KO:K05071]
+            16197  Il7r; interleukin 7 receptor [KO:K05072]
+            15975  Ifnar1; interferon (alpha and beta) receptor 1 [KO:K05130]
+            15976  Ifnar2; interferon (alpha and beta) receptor 2 [KO:K05131]
+            13857  Epor; erythropoietin receptor [KO:K05079]
+            12986  Csf3r; colony stimulating factor 3 receptor (granulocyte) [KO:K05061]
+            16451  Jak1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            16452  Jak2; Janus kinase 2 [KO:K04447] [EC:2.7.10.2]
+            16453  Jak3; Janus kinase 3 [KO:K11218] [EC:2.7.10.2]
+            12842  Col1a1; collagen, type I, alpha 1 [KO:K06236]
+            12843  Col1a2; collagen, type I, alpha 2 [KO:K06236]
+            12824  Col2a1; collagen, type II, alpha 1 [KO:K19719]
+            12826  Col4a1; collagen, type IV, alpha 1 [KO:K06237]
+            12827  Col4a2; collagen, type IV, alpha 2 [KO:K06237]
+            12829  Col4a4; collagen, type IV, alpha 4 [KO:K06237]
+            94216  Col4a6; collagen, type IV, alpha 6 [KO:K06237]
+            12830  Col4a5; collagen, type IV, alpha 5 [KO:K06237]
+            12828  Col4a3; collagen, type IV, alpha 3 [KO:K06237]
+            12834  Col6a2; collagen, type VI, alpha 2 [KO:K06238]
+            12833  Col6a1; collagen, type VI, alpha 1 [KO:K06238]
+            245026  Col6a6; collagen, type VI, alpha 6 [KO:K06238]
+            12835  Col6a3; collagen, type VI, alpha 3 [KO:K06238]
+            68553  Col6a4; collagen, type VI, alpha 4 [KO:K06238]
+            665033  Col6a5; collagen, type VI, alpha 5 [KO:K06238]
+            12839  Col9a1; collagen, type IX, alpha 1 [KO:K08131]
+            12840  Col9a2; collagen, type IX, alpha 2 [KO:K08131]
+            12841  Col9a3; collagen, type IX, alpha 3 [KO:K08131]
+            16772  Lama1; laminin, alpha 1 [KO:K05637]
+            16773  Lama2; laminin, alpha 2 [KO:K05637]
+            16774  Lama3; laminin, alpha 3 [KO:K06240]
+            16776  Lama5; laminin, alpha 5 [KO:K06240]
+            16775  Lama4; laminin, alpha 4 [KO:K06241]
+            16777  Lamb1; laminin B1 [KO:K05636]
+            16779  Lamb2; laminin, beta 2 [KO:K06243]
+            16780  Lamb3; laminin, beta 3 [KO:K06244]
+            226519  Lamc1; laminin, gamma 1 [KO:K05635]
+            16782  Lamc2; laminin, gamma 2 [KO:K06246]
+            23928  Lamc3; laminin gamma 3 [KO:K06247]
+            12643  Chad; chondroadherin [KO:K06248]
+            19699  Reln; reelin [KO:K06249] [EC:3.4.21.-]
+            21825  Thbs1; thrombospondin 1 [KO:K16857]
+            12845  Comp; cartilage oligomeric matrix protein [KO:K04659]
+            21826  Thbs2; thrombospondin 2 [KO:K04659]
+            21827  Thbs3; thrombospondin 3 [KO:K04659]
+            21828  Thbs4; thrombospondin 4 [KO:K04659]
+            14268  Fn1; fibronectin 1 [KO:K05717]
+            20750  Spp1; secreted phosphoprotein 1 [KO:K06250]
+            22370  Vtn; vitronectin [KO:K06251]
+            21923  Tnc; tenascin C [KO:K06252]
+            21960  Tnr; tenascin R [KO:K06252]
+            329278  Tnn; tenascin N [KO:K06252]
+            81877  Tnxb; tenascin XB [KO:K06252]
+            22371  Vwf; Von Willebrand factor [KO:K03900]
+            15891  Ibsp; integrin binding sialoprotein [KO:K06253]
+            109700  Itga1; integrin alpha 1 [KO:K06480]
+            16398  Itga2; integrin alpha 2 [KO:K06481]
+            16399  Itga2b; integrin alpha 2b [KO:K06476]
+            16400  Itga3; integrin alpha 3 [KO:K06482]
+            16401  Itga4; integrin alpha 4 [KO:K06483]
+            16402  Itga5; integrin alpha 5 (fibronectin receptor alpha) [KO:K06484]
+            16403  Itga6; integrin alpha 6 [KO:K06485]
+            16404  Itga7; integrin alpha 7 [KO:K06583]
+            241226  Itga8; integrin alpha 8 [KO:K06584]
+            104099  Itga9; integrin alpha 9 [KO:K06585]
+            213119  Itga10; integrin, alpha 10 [KO:K06586]
+            319480  Itga11; integrin alpha 11 [KO:K06587]
+            16410  Itgav; integrin alpha V [KO:K06487]
+            16412  Itgb1; integrin beta 1 (fibronectin receptor beta) [KO:K05719]
+            16416  Itgb3; integrin beta 3 [KO:K06493]
+            192897  Itgb4; integrin beta 4 [KO:K06525]
+            16419  Itgb5; integrin beta 5 [KO:K06588]
+            16420  Itgb6; integrin beta 6 [KO:K06589]
+            16421  Itgb7; integrin beta 7 [KO:K06590]
+            320910  Itgb8; integrin beta 8 [KO:K06591]
+            14083  Ptk2; PTK2 protein tyrosine kinase 2 [KO:K05725] [EC:2.7.10.2]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            14062  F2r; coagulation factor II (thrombin) receptor [KO:K03914]
+            12669  Chrm1; cholinergic receptor, muscarinic 1, CNS [KO:K04129]
+            243764  Chrm2; cholinergic receptor, muscarinic 2, cardiac [KO:K04130]
+            14745  Lpar1; lysophosphatidic acid receptor 1 [KO:K04289]
+            53978  Lpar2; lysophosphatidic acid receptor 2 [KO:K04291]
+            65086  Lpar3; lysophosphatidic acid receptor 3 [KO:K04294]
+            78134  Lpar4; lysophosphatidic acid receptor 4 [KO:K04275]
+            381810  Lpar5; lysophosphatidic acid receptor 5 [KO:K08390]
+            67168  Lpar6; lysophosphatidic acid receptor 6 [KO:K04273]
+            14688  Gnb1; guanine nucleotide binding protein (G protein), beta 1 [KO:K04536]
+            14693  Gnb2; guanine nucleotide binding protein (G protein), beta 2 [KO:K04537]
+            14695  Gnb3; guanine nucleotide binding protein (G protein), beta 3 [KO:K07825]
+            14696  Gnb4; guanine nucleotide binding protein (G protein), beta 4 [KO:K04538]
+            14697  Gnb5; guanine nucleotide binding protein (G protein), beta 5 [KO:K04539]
+            14702  Gng2; guanine nucleotide binding protein (G protein), gamma 2 [KO:K07826]
+            14704  Gng3; guanine nucleotide binding protein (G protein), gamma 3 [KO:K04540]
+            14706  Gng4; guanine nucleotide binding protein (G protein), gamma 4 [KO:K04541]
+            14707  Gng5; guanine nucleotide binding protein (G protein), gamma 5 [KO:K04542]
+            14708  Gng7; guanine nucleotide binding protein (G protein), gamma 7 [KO:K04543]
+            14709  Gng8; guanine nucleotide binding protein (G protein), gamma 8 [KO:K04544]
+            14700  Gng10; guanine nucleotide binding protein (G protein), gamma 10 [KO:K04545]
+            66066  Gng11; guanine nucleotide binding protein (G protein), gamma 11 [KO:K04546]
+            14701  Gng12; guanine nucleotide binding protein (G protein), gamma 12 [KO:K04347]
+            100503710  Gm5741; predicted gene 5741 [KO:K04347]
+            64337  Gng13; guanine nucleotide binding protein (G protein), gamma 13 [KO:K04547]
+            14699  Gngt1; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 1 [KO:K04548]
+            14710  Gngt2; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 2 [KO:K04549]
+            30955  Pik3cg; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [KO:K21289] [EC:2.7.1.153]
+            320207  Pik3r5; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            104709  Pik3r6; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            18607  Pdpk1; 3-phosphoinositide dependent protein kinase 1 [KO:K06276] [EC:2.7.11.1]
+            20869  Stk11; serine/threonine kinase 11 [KO:K07298] [EC:2.7.11.1]
+            105787  Prkaa1; protein kinase, AMP-activated, alpha 1 catalytic subunit [KO:K07198] [EC:2.7.11.11]
+            108079  Prkaa2; protein kinase, AMP-activated, alpha 2 catalytic subunit [KO:K07198] [EC:2.7.11.11]
+            74747  Ddit4; DNA-damage-inducible transcript 4 [KO:K08270]
+            64930  Tsc1; TSC complex subunit 1 [KO:K07206]
+            22084  Tsc2; TSC complex subunit 2 [KO:K07207]
+            19744  Rheb; Ras homolog enriched in brain [KO:K07208]
+            56716  Mlst8; MTOR associated protein, LST8 homolog (S. cerevisiae) [KO:K08266]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            74370  Rptor; regulatory associated protein of MTOR, complex 1 [KO:K07204]
+            13685  Eif4ebp1; eukaryotic translation initiation factor 4E binding protein 1 [KO:K07205]
+            13684  Eif4e; eukaryotic translation initiation factor 4E [KO:K03259]
+            26987  Eif4e2; eukaryotic translation initiation factor 4E member 2 [KO:K03259]
+            218268  Eif4e1b; eukaryotic translation initiation factor 4E family member 1B [KO:K03259]
+            58988  Rps6kb2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04688] [EC:2.7.11.1]
+            72508  Rps6kb1; ribosomal protein S6 kinase, polypeptide 1 [KO:K04688] [EC:2.7.11.1]
+            75705  Eif4b; eukaryotic translation initiation factor 4B [KO:K03258]
+            20104  Rps6; ribosomal protein S6 [KO:K02991]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            320795  Pkn1; protein kinase N1 [KO:K06071] [EC:2.7.11.13]
+            109333  Pkn2; protein kinase N2 [KO:K23691] [EC:2.7.11.13]
+            263803  Pkn3; protein kinase N3 [KO:K23692] [EC:2.7.11.13]
+            20393  Sgk1; serum/glucocorticoid regulated kinase 1 [KO:K13302] [EC:2.7.11.1]
+            27219  Sgk2; serum/glucocorticoid regulated kinase 2 [KO:K13303] [EC:2.7.11.1]
+            170755  Sgk3; serum/glucocorticoid regulated kinase 3 [KO:K13304] [EC:2.7.11.1]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            14924  Magi1; membrane associated guanylate kinase, WW and PDZ domain containing 1 [KO:K05631]
+            50791  Magi2; membrane associated guanylate kinase, WW and PDZ domain containing 2 [KO:K05629]
+            19211  Pten; phosphatase and tensin homolog [KO:K01110] [EC:3.1.3.16 3.1.3.48 3.1.3.67]
+            75778  Them4; thioesterase superfamily member 4 [KO:K16339] [EC:3.1.2.2]
+            19052  Ppp2ca; protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform [KO:K04382] [EC:3.1.3.16]
+            19053  Ppp2cb; protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform [KO:K04382] [EC:3.1.3.16]
+            51792  Ppp2r1a; protein phosphatase 2, regulatory subunit A, alpha [KO:K03456]
+            73699  Ppp2r1b; protein phosphatase 2, regulatory subunit A, beta [KO:K03456]
+            52432  Ppp2r2d; protein phosphatase 2, regulatory subunit B, delta [KO:K04354]
+            72930  Ppp2r2b; protein phosphatase 2, regulatory subunit B, beta [KO:K04354]
+            269643  Ppp2r2c; protein phosphatase 2, regulatory subunit B, gamma [KO:K04354]
+            71978  Ppp2r2a; protein phosphatase 2, regulatory subunit B, alpha [KO:K04354]
+            100039815  Gm2436; predicted gene 2436 [KO:K11583]
+            100039830  Gm2446; predicted gene 2446 [KO:K11583]
+            59032  Ppp2r3c; protein phosphatase 2, regulatory subunit B'', gamma [KO:K11583]
+            235542  Ppp2r3a; protein phosphatase 2, regulatory subunit B'', alpha [KO:K11583]
+            19054  Ppp2r3d; protein phosphatase 2 (formerly 2A), regulatory subunit B'', delta [KO:K11583]
+            225849  Ppp2r5b; protein phosphatase 2, regulatory subunit B', beta [KO:K11584]
+            26931  Ppp2r5c; protein phosphatase 2, regulatory subunit B', gamma [KO:K11584]
+            21770  Ppp2r5d; protein phosphatase 2, regulatory subunit B', delta [KO:K11584]
+            26932  Ppp2r5e; protein phosphatase 2, regulatory subunit B', epsilon [KO:K11584]
+            226849  Ppp2r5a; protein phosphatase 2, regulatory subunit B', alpha [KO:K11584]
+            15519  Hsp90aa1; heat shock protein 90, alpha (cytosolic), class A member 1 [KO:K04079]
+            15516  Hsp90ab1; heat shock protein 90 alpha (cytosolic), class B member 1 [KO:K04079]
+            22027  Hsp90b1; heat shock protein 90, beta (Grp94), member 1 [KO:K09487]
+            12539  Cdc37; cell division cycle 37 [KO:K09554]
+            74343  Crtc2; CREB regulated transcription coactivator 2 [KO:K16333]
+            98432  Phlpp1; PH domain and leucine rich repeat protein phosphatase 1 [KO:K16340] [EC:3.1.3.16]
+            244650  Phlpp2; PH domain and leucine rich repeat protein phosphatase 2 [KO:K16340] [EC:3.1.3.16]
+            21432  Tcl1; T cell lymphoma breakpoint 1 [KO:K10167]
+            27379  Tcl1b1; T cell leukemia/lymphoma 1B, 1 [KO:K16836]
+            27380  Tcl1b4; T cell leukemia/lymphoma 1B, 4 [KO:K16836]
+            17763  Mtcp1; mature T cell proliferation 1 [KO:K16837]
+            18127  Nos3; nitric oxide synthase 3, endothelial cell [KO:K13242] [EC:1.14.13.39]
+            12189  Brca1; breast cancer 1, early onset [KO:K10605] [EC:2.3.2.27]
+            56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            14936  Gys1; glycogen synthase 1, muscle [KO:K00693] [EC:2.4.1.11]
+            232493  Gys2; glycogen synthase 2 [KO:K00693] [EC:2.4.1.11]
+            18534  Pck1; phosphoenolpyruvate carboxykinase 1, cytosolic [KO:K01596] [EC:4.1.1.32]
+            74551  Pck2; phosphoenolpyruvate carboxykinase 2 (mitochondrial) [KO:K01596] [EC:4.1.1.32]
+            14377  G6pc; glucose-6-phosphatase, catalytic [KO:K01084] [EC:3.1.3.9]
+            14378  G6pc2; glucose-6-phosphatase, catalytic, 2 [KO:K01084] [EC:3.1.3.9]
+            68401  G6pc3; glucose 6 phosphatase, catalytic, 3 [KO:K01084] [EC:3.1.3.9]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            12576  Cdkn1b; cyclin-dependent kinase inhibitor 1B [KO:K06624]
+            12566  Cdk2; cyclin-dependent kinase 2 [KO:K02206] [EC:2.7.11.22]
+            12567  Cdk4; cyclin-dependent kinase 4 [KO:K02089] [EC:2.7.11.22]
+            12571  Cdk6; cyclin-dependent kinase 6 [KO:K02091] [EC:2.7.11.22]
+            12444  Ccnd2; cyclin D2 [KO:K10151]
+            12445  Ccnd3; cyclin D3 [KO:K10152]
+            12447  Ccne1; cyclin E1 [KO:K06626]
+            12448  Ccne2; cyclin E2 [KO:K06626]
+            56484  Foxo3; forkhead box O3 [KO:K09408]
+            19651  Rbl2; RB transcriptional corepressor like 2 [KO:K16332]
+            14103  Fasl; Fas ligand (TNF superfamily, member 6) [KO:K04389]
+            12125  Bcl2l11; BCL2-like 11 (apoptosis facilitator) [KO:K16341]
+            22631  Ywhaz; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide [KO:K16197]
+            54401  Ywhab; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide [KO:K16197]
+            22630  Ywhaq; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein theta [KO:K16197]
+            22627  Ywhae; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, epsilon polypeptide [KO:K06630]
+            22629  Ywhah; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide [KO:K16198]
+            22628  Ywhag; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, gamma polypeptide [KO:K16198]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            12048  Bcl2l1; BCL2-like 1 [KO:K04570]
+            12043  Bcl2; B cell leukemia/lymphoma 2 [KO:K02161]
+            12371  Casp9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            11909  Atf2; activating transcription factor 2 [KO:K04450]
+            11911  Atf4; activating transcription factor 4 [KO:K04374]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            12915  Atf6b; activating transcription factor 6 beta [KO:K09049]
+            17210  Mcl1; myeloid cell leukemia sequence 1 [KO:K02539]
+            20181  Rxra; retinoid X receptor alpha [KO:K08524]
+            15370  Nr4a1; nuclear receptor subfamily 4, group A, member 1 [KO:K04465]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            17863  Myb; myeloblastosis oncogene [KO:K09420]
+            17246  Mdm2; transformed mouse 3T3 cell double minute 2 [KO:K06643] [EC:2.3.2.27]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+COMPOUND    C00020  AMP
+            C00533  Nitric oxide
+            C04637  1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:16847462
+  AUTHORS   Engelman JA, Luo J, Cantley LC
+  TITLE     The evolution of phosphatidylinositol 3-kinases as regulators of growth and metabolism.
+  JOURNAL   Nat Rev Genet 7:606-19 (2006)
+            DOI:10.1038/nrg1879
+REFERENCE   PMID:15784165
+  AUTHORS   Song G, Ouyang G, Bao S
+  TITLE     The activation of Akt/PKB signaling pathway and cell survival.
+  JOURNAL   J Cell Mol Med 9:59-71 (2005)
+            DOI:10.1111/j.1582-4934.2005.tb00337.x
+REFERENCE   PMID:21620960
+  AUTHORS   Hers I, Vincent EE, Tavare JM
+  TITLE     Akt signalling in health and disease.
+  JOURNAL   Cell Signal 23:1515-27 (2011)
+            DOI:10.1016/j.cellsig.2011.05.004
+REFERENCE   PMID:18842113
+  AUTHORS   Duronio V
+  TITLE     The life of a cell: apoptosis regulation by the PI3K/PKB pathway.
+  JOURNAL   Biochem J 415:333-44 (2008)
+            DOI:10.1042/BJ20081056
+REFERENCE   PMID:16248975
+  AUTHORS   Kim D, Chung J.
+  TITLE     Akt: versatile mediator of cell survival and beyond.
+  JOURNAL   J Biochem Mol Biol 35:106-15 (2002)
+            DOI:10.5483/bmbrep.2002.35.1.106
+REFERENCE   PMID:12660731
+  AUTHORS   Koyasu S
+  TITLE     The role of PI3K in immune cells.
+  JOURNAL   Nat Immunol 4:313-9 (2003)
+            DOI:10.1038/ni0403-313
+REFERENCE   PMID:12669022
+  AUTHORS   Okkenhaug K, Vanhaesebroeck B.
+  TITLE     PI3K in lymphocyte development, differentiation and activation.
+  JOURNAL   Nat Rev Immunol 3:317-30 (2003)
+            DOI:10.1038/nri1056
+REFERENCE   PMID:15209374
+  AUTHORS   Richardson CJ, Schalm SS, Blenis J
+  TITLE     PI3-kinase and TOR: PIKTORing cell growth.
+  JOURNAL   Semin Cell Dev Biol 15:147-59 (2004)
+            DOI:10.1016/j.semcdb.2003.12.023
+REFERENCE   PMID:21440011
+  AUTHORS   Zhang X, Tang N, Hadden TJ, Rishi AK
+  TITLE     Akt, FoxO and regulation of apoptosis.
+  JOURNAL   Biochim Biophys Acta 1813:1978-86 (2011)
+            DOI:10.1016/j.bbamcr.2011.03.010
+REFERENCE   PMID:21779440
+  AUTHORS   Georgescu MM
+  TITLE     PTEN Tumor Suppressor Network in PI3K-Akt Pathway Control.
+  JOURNAL   Genes Cancer 1:1170-7 (2010)
+            DOI:10.1177/1947601911407325
+REFERENCE   PMID:12531180
+  AUTHORS   West KA, Castillo SS, Dennis PA
+  TITLE     Activation of the PI3K/Akt pathway and chemotherapeutic resistance.
+  JOURNAL   Drug Resist Updat 5:234-48 (2002)
+            DOI:10.1016/S1368-7646(02)00120-6
+REFERENCE   PMID:9838078
+  AUTHORS   Wymann MP, Pirola L
+  TITLE     Structure and function of phosphoinositide 3-kinases.
+  JOURNAL   Biochim Biophys Acta 1436:127-50 (1998)
+            DOI:10.1016/S0005-2760(98)00139-8
+REFERENCE   PMID:12048182
+  AUTHORS   Moelling K, Schad K, Bosse M, Zimmermann S, Schweneker M
+  TITLE     Regulation of Raf-Akt Cross-talk.
+  JOURNAL   J Biol Chem 277:31099-106 (2002)
+            DOI:10.1074/jbc.M111974200
+REFERENCE   PMID:16187290
+  AUTHORS   Kikani CK, Dong LQ, Liu F
+  TITLE     "New"-clear functions of PDK1: beyond a master kinase in the cytosol?
+  JOURNAL   J Cell Biochem 96:1157-62 (2005)
+            DOI:10.1002/jcb.20651
+REFERENCE   PMID:11357143
+  AUTHORS   Blume-Jensen P, Hunter T
+  TITLE     Oncogenic kinase signalling.
+  JOURNAL   Nature 411:355-65 (2001)
+            DOI:10.1038/35077225
+REFERENCE   PMID:15505410
+  AUTHORS   Osaki M, Oshimura M, Ito H
+  TITLE     PI3K-Akt pathway: its functions and alterations in human cancer.
+  JOURNAL   Apoptosis 9:667-76 (2004)
+            DOI:10.1023/B:APPT.0000045801.15585.dd
+REFERENCE   PMID:17360849
+  AUTHORS   Noguchi M, Ropars V, Roumestand C, Suizu F
+  TITLE     Proto-oncogene TCL1: more than just a coactivator for Akt.
+  JOURNAL   FASEB J 21:2273-84 (2007)
+            DOI:10.1096/fj.06-7684com
+REFERENCE   PMID:20602996
+  AUTHORS   Lemmon MA, Schlessinger J
+  TITLE     Cell signaling by receptor tyrosine kinases.
+  JOURNAL   Cell 141:1117-34 (2010)
+            DOI:10.1016/j.cell.2010.06.011
+REFERENCE   PMID:22367796
+  AUTHORS   Skaper SD
+  TITLE     The neurotrophin family of neurotrophic factors: an overview.
+  JOURNAL   Methods Mol Biol 846:1-12 (2012)
+            DOI:10.1007/978-1-61779-536-7_1
+REL_PATHWAY mmu00010  Glycolysis / Gluconeogenesis
+            mmu04010  MAPK signaling pathway
+            mmu04012  ErbB signaling pathway
+            mmu04062  Chemokine signaling pathway
+            mmu04064  NF-kappa B signaling pathway
+            mmu04068  FoxO signaling pathway
+            mmu04110  Cell cycle
+            mmu04115  p53 signaling pathway
+            mmu04150  mTOR signaling pathway
+            mmu04210  Apoptosis
+            mmu04370  VEGF signaling pathway
+            mmu04510  Focal adhesion
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04630  JAK-STAT signaling pathway
+            mmu04662  B cell receptor signaling pathway
+            mmu04910  Insulin signaling pathway
+KO_PATHWAY  ko04151
+///

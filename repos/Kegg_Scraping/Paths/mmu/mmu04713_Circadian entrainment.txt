@@ -1,0 +1,203 @@
+ENTRY       mmu04713                    Pathway
+NAME        Circadian entrainment - Mus musculus (mouse)
+DESCRIPTION Circadian entrainment is a fundamental property by which the period of the internal biological clock is entrained by recurring exogenous signals, such that the organism's endocrine and behavioral rhythms are synchronized to environmental cues. In mammals, a master clock is located in the suprachiasmatic nuclei (SCN) of the hypothalamus and may synchronize circadian oscillators in peripheral tissues. Light signal is the dominant synchronizer for master SCN clock. Downstream from the retina, glutamate and PACAP are released and trigger the activation of signal transduction cascades, including CamKII and nNOS activity, cAMP- and cGMP-dependent protein kinases, and mitogen-activated protein kinase (MAPK). Of non-photic entrainment, important phase shifting capabilities have been found for melatonin, which inhibits light-induced phase shifts through inhibition of adenylate cyclase (AC). Multiple entrainment pathways converge into CREB regulation. In turn, phosphorylated CREB activates clock gene expression.
+CLASS       Organismal Systems; Environmental adaptation
+PATHWAY_MAP mmu04713  Circadian entrainment
+DBLINKS     GO: 0009649
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14810  Grin1; glutamate receptor, ionotropic, NMDA1 (zeta 1) [KO:K05208]
+            14811  Grin2a; glutamate receptor, ionotropic, NMDA2A (epsilon 1) [KO:K05209]
+            14812  Grin2b; glutamate receptor, ionotropic, NMDA2B (epsilon 2) [KO:K05210]
+            14813  Grin2c; glutamate receptor, ionotropic, NMDA2C (epsilon 3) [KO:K05211]
+            14814  Grin2d; glutamate receptor, ionotropic, NMDA2D (epsilon 4) [KO:K05212]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            18125  Nos1; nitric oxide synthase 1, neuronal [KO:K13240] [EC:1.14.13.39]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            73086  Rps6ka5; ribosomal protein S6 kinase, polypeptide 5 [KO:K04445] [EC:2.7.11.1]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            20190  Ryr1; ryanodine receptor 1, skeletal muscle [KO:K04961]
+            20191  Ryr2; ryanodine receptor 2, cardiac [KO:K04962]
+            20192  Ryr3; ryanodine receptor 3 [KO:K04963]
+            70729  Nos1ap; nitric oxide synthase 1 (neuronal) adaptor protein [KO:K16513]
+            19416  Rasd1; RAS, dexamethasone-induced 1 [KO:K07843]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            14681  Gnao1; guanine nucleotide binding protein, alpha O [KO:K04534]
+            14688  Gnb1; guanine nucleotide binding protein (G protein), beta 1 [KO:K04536]
+            14693  Gnb2; guanine nucleotide binding protein (G protein), beta 2 [KO:K04537]
+            14695  Gnb3; guanine nucleotide binding protein (G protein), beta 3 [KO:K07825]
+            14696  Gnb4; guanine nucleotide binding protein (G protein), beta 4 [KO:K04538]
+            14697  Gnb5; guanine nucleotide binding protein (G protein), beta 5 [KO:K04539]
+            14702  Gng2; guanine nucleotide binding protein (G protein), gamma 2 [KO:K07826]
+            14704  Gng3; guanine nucleotide binding protein (G protein), gamma 3 [KO:K04540]
+            14706  Gng4; guanine nucleotide binding protein (G protein), gamma 4 [KO:K04541]
+            14707  Gng5; guanine nucleotide binding protein (G protein), gamma 5 [KO:K04542]
+            14708  Gng7; guanine nucleotide binding protein (G protein), gamma 7 [KO:K04543]
+            14709  Gng8; guanine nucleotide binding protein (G protein), gamma 8 [KO:K04544]
+            14700  Gng10; guanine nucleotide binding protein (G protein), gamma 10 [KO:K04545]
+            66066  Gng11; guanine nucleotide binding protein (G protein), gamma 11 [KO:K04546]
+            14701  Gng12; guanine nucleotide binding protein (G protein), gamma 12 [KO:K04347]
+            100503710  Gm5741; predicted gene 5741 [KO:K04347]
+            64337  Gng13; guanine nucleotide binding protein (G protein), gamma 13 [KO:K04547]
+            14699  Gngt1; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 1 [KO:K04548]
+            14710  Gngt2; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 2 [KO:K04549]
+            14799  Gria1; glutamate receptor, ionotropic, AMPA1 (alpha 1) [KO:K05197]
+            14800  Gria2; glutamate receptor, ionotropic, AMPA2 (alpha 2) [KO:K05198]
+            53623  Gria3; glutamate receptor, ionotropic, AMPA3 (alpha 3) [KO:K05199]
+            14802  Gria4; glutamate receptor, ionotropic, AMPA4 (alpha 4) [KO:K05200]
+            12291  Cacna1g; calcium channel, voltage-dependent, T type, alpha 1G subunit [KO:K04854]
+            58226  Cacna1h; calcium channel, voltage-dependent, T type, alpha 1H subunit [KO:K04855]
+            239556  Cacna1i; calcium channel, voltage-dependent, alpha 1I subunit [KO:K04856]
+            11516  Adcyap1; adenylate cyclase activating polypeptide 1 [KO:K05262]
+            11517  Adcyap1r1; adenylate cyclase activating polypeptide 1 receptor 1 [KO:K04587]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            271639  Adcy10; adenylate cyclase 10 [KO:K11265] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            60596  Gucy1a1; guanylate cyclase 1, soluble, alpha 1 [KO:K12318] [EC:4.6.1.2]
+            234889  Gucy1a2; guanylate cyclase 1, soluble, alpha 2 [KO:K12318] [EC:4.6.1.2]
+            239134  Gucy1b2; guanylate cyclase 1, soluble, beta 2 [KO:K12319] [EC:4.6.1.2]
+            54195  Gucy1b1; guanylate cyclase 1, soluble, beta 1 [KO:K12319] [EC:4.6.1.2]
+            19091  Prkg1; protein kinase, cGMP-dependent, type I [KO:K07376] [EC:2.7.11.12]
+            19092  Prkg2; protein kinase, cGMP-dependent, type II [KO:K19477] [EC:2.7.11.12]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            244701  Mtnr1b; melatonin receptor 1B [KO:K04286]
+            17773  Mtnr1a; melatonin receptor 1A [KO:K04285]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            16519  Kcnj3; potassium inwardly-rectifying channel, subfamily J, member 3 [KO:K04997]
+            16521  Kcnj5; potassium inwardly-rectifying channel, subfamily J, member 5 [KO:K04999]
+            16522  Kcnj6; potassium inwardly-rectifying channel, subfamily J, member 6 [KO:K05000]
+            16524  Kcnj9; potassium inwardly-rectifying channel, subfamily J, member 9 [KO:K05002]
+            18626  Per1; period circadian clock 1 [KO:K21944]
+            18627  Per2; period circadian clock 2 [KO:K02633]
+            18628  Per3; period circadian clock 3 [KO:K21945]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+COMPOUND    C00025  L-Glutamate
+            C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00238  Potassium cation
+            C00533  Nitric oxide
+            C00575  3',5'-Cyclic AMP
+            C00942  3',5'-Cyclic GMP
+            C01330  Sodium cation
+            C01598  Melatonin
+REFERENCE   PMID:17646042
+  AUTHORS   Brown TM, Piggins HD
+  TITLE     Electrophysiology of the suprachiasmatic circadian clock.
+  JOURNAL   Prog Neurobiol 82:229-55 (2007)
+            DOI:10.1016/j.pneurobio.2007.05.002
+REFERENCE   PMID:19109992
+  AUTHORS   Dickson L, Finlayson K
+  TITLE     VPAC and PAC receptors: From ligands to function.
+  JOURNAL   Pharmacol Ther 121:294-316 (2009)
+            DOI:10.1016/j.pharmthera.2008.11.006
+REFERENCE   PMID:20664079
+  AUTHORS   Golombek DA, Rosenstein RE
+  TITLE     Physiology of circadian entrainment.
+  JOURNAL   Physiol Rev 90:1063-102 (2010)
+            DOI:10.1152/physrev.00009.2009
+REFERENCE   PMID:16217123
+  AUTHORS   Dubocovich ML, Markowska M
+  TITLE     Functional MT1 and MT2 melatonin receptors in mammals.
+  JOURNAL   Endocrine 27:101-10 (2005)
+            DOI:10.1385/ENDO:27:2:101
+REFERENCE   PMID:20605968
+  AUTHORS   Dubocovich ML, Delagrange P, Krause DN, Sugden D, Cardinali DP, Olcese J
+  TITLE     International Union of Basic and Clinical Pharmacology. LXXV. Nomenclature, classification, and pharmacology of G protein-coupled melatonin receptors.
+  JOURNAL   Pharmacol Rev 62:343-80 (2010)
+            DOI:10.1124/pr.110.002832
+REFERENCE   PMID:19449447
+  AUTHORS   Hardeland R
+  TITLE     Melatonin: signaling mechanisms of a pleiotropic agent.
+  JOURNAL   Biofactors 35:183-92 (2009)
+            DOI:10.1002/biof.23
+REFERENCE   PMID:12700026
+  AUTHORS   Golombek DA, Ferreyra GA, Agostino PV, Murad AD, Rubio MF, Pizzio GA, Katz ME, Marpegan L, Bekinschtein TA
+  TITLE     From light to genes: moving the hands of the circadian clock.
+  JOURNAL   Front Biosci 8:s285-93 (2003)
+            DOI:10.2741/1038
+REFERENCE   PMID:17586087
+  AUTHORS   Mertens I, Husson SJ, Janssen T, Lindemans M, Schoofs L
+  TITLE     PACAP and PDF signaling in the regulation of mammalian and insect circadian rhythms.
+  JOURNAL   Peptides 28:1775-83 (2007)
+            DOI:10.1016/j.peptides.2007.05.005
+REFERENCE   PMID:15813931
+  AUTHORS   Kim DY, Choi HJ, Kim JS, Kim YS, Jeong DU, Shin HC, Kim MJ, Han HC, Hong SK, Kim YI
+  TITLE     Voltage-gated calcium channels play crucial roles in the glutamate-induced phase shifts of the rat suprachiasmatic circadian clock.
+  JOURNAL   Eur J Neurosci 21:1215-22 (2005)
+            DOI:10.1111/j.1460-9568.2005.03950.x
+REFERENCE   PMID:15016477
+  AUTHORS   Agostino PV, Ferreyra GA, Murad AD, Watanabe Y, Golombek DA
+  TITLE     Diurnal, circadian and photic regulation of calcium/calmodulin-dependent kinase II and neuronal nitric oxide synthase in the hamster suprachiasmatic nuclei.
+  JOURNAL   Neurochem Int 44:617-25 (2004)
+            DOI:10.1016/j.neuint.2003.09.005
+REFERENCE   PMID:11294753
+  AUTHORS   Ferreyra GA, Golombek DA
+  TITLE     Rhythmicity of the cGMP-related signal transduction pathway in the mammalian circadian system.
+  JOURNAL   Am J Physiol Regul Integr Comp Physiol 280:R1348-55 (2001)
+            DOI:10.1152/ajpregu.2001.280.5.R1348
+REFERENCE   PMID:15930378
+  AUTHORS   Butcher GQ, Lee B, Cheng HY, Obrietan K
+  TITLE     Light stimulates MSK1 activation in the suprachiasmatic nucleus via a PACAP-ERK/MAP kinase-dependent mechanism.
+  JOURNAL   J Neurosci 25:5305-13 (2005)
+            DOI:10.1523/JNEUROSCI.4361-04.2005
+REFERENCE   PMID:10446325
+  AUTHORS   Hamada T, Niki T, Ziging P, Sugiyama T, Watanabe S, Mikoshiba K, Ishida N
+  TITLE     Differential expression patterns of inositol trisphosphate receptor types 1 and 3 in the rat suprachiasmatic nucleus.
+  JOURNAL   Brain Res 838:131-5 (1999)
+            DOI:10.1016/S0006-8993(99)01719-9
+REFERENCE   PMID:10208575
+  AUTHORS   Diaz-Munoz M, Dent MA, Granados-Fuentes D, Hall AC, Hernandez-Cruz A, Harrington ME, Aguilar-Roblero R
+  TITLE     Circadian modulation of the ryanodine receptor type 2 in the SCN of rodents.
+  JOURNAL   Neuroreport 10:481-6 (1999)
+            DOI:10.1097/00001756-199902250-00007
+REFERENCE   PMID:11086993
+  AUTHORS   Fang M, Jaffrey SR, Sawa A, Ye K, Luo X, Snyder SH
+  TITLE     Dexras1: a G protein specifically coupled to neuronal nitric oxide synthase via CAPON.
+  JOURNAL   Neuron 28:183-93 (2000)
+            DOI:10.1016/S0896-6273(00)00095-7
+REFERENCE   PMID:12573527
+  AUTHORS   Takahashi H, Umeda N, Tsutsumi Y, Fukumura R, Ohkaze H, Sujino M, van der Horst G, Yasui A, Inouye ST, Fujimori A, Ohhata T, Araki R, Abe M
+  TITLE     Mouse dexamethasone-induced RAS protein 1 gene is expressed in a circadian rhythmic manner in the suprachiasmatic nucleus.
+  JOURNAL   Brain Res Mol Brain Res 110:1-6 (2003)
+            DOI:10.1016/S0169-328X(02)00543-0
+REFERENCE   PMID:17167088
+  AUTHORS   Cheng HY, Dziema H, Papp J, Mathur DP, Koletar M, Ralph MR, Penninger JM, Obrietan K
+  TITLE     The molecular gatekeeper Dexras1 sculpts the photic responsiveness of the mammalian circadian clock.
+  JOURNAL   J Neurosci 26:12984-95 (2006)
+            DOI:10.1523/JNEUROSCI.4253-06.2006
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04710  Circadian rhythm
+KO_PATHWAY  ko04713
+///

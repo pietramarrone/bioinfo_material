@@ -1,0 +1,109 @@
+ENTRY       mmu04962                    Pathway
+NAME        Vasopressin-regulated water reabsorption - Mus musculus (mouse)
+DESCRIPTION In the kidney, the antidiuretic hormone vasopressin (AVP) is a critical regulator of water homeostasis by controlling the water movement from lumen to the interstitium for water reabsorption and adjusting the urinary water excretion. In normal physiology, AVP is secreted into the circulation by the posterior pituitary gland, in response to an increase in serum osmolality or a decrease in effective circulating volume. When reaching the kidney, AVP binds to V2 receptors on the basolateral surface of the collecting duct epithelium, triggering a G-protein-linked signaling cascade, which leads to water channel aquaporin-2 (AQP2) vesicle insertion into the apical plasma membrane. This results in higher water permeability in the collecting duct and, driven by an osmotic gradient, pro-urinary water then passes the membrane through AQP2 and leaves the cell on the basolateral side via AQP3 and AQP4 water channels, which are constitutively expressed on the basolateral side of these cells. When isotonicity is restored, reduced blood AVP levels results in AQP2 internalization, leaving the apical membrane watertight again.
+CLASS       Organismal Systems; Excretory system
+PATHWAY_MAP mmu04962  Vasopressin-regulated water reabsorption
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        11998  Avp; arginine vasopressin [KO:K05242]
+            12000  Avpr2; arginine vasopressin receptor 2 [KO:K04228]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            11857  Arhgdib; Rho, GDP dissociation inhibitor (GDI) beta [KO:K12462]
+            192662  Arhgdia; Rho GDP dissociation inhibitor (GDI) alpha [KO:K12462]
+            14570  Arhgdig; Rho GDP dissociation inhibitor (GDI) gamma [KO:K12462]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            11827  Aqp2; aquaporin 2 [KO:K09865]
+            53869  Rab11a; RAB11A, member RAS oncogene family [KO:K07904]
+            19326  Rab11b; RAB11B, member RAS oncogene family [KO:K07905]
+            13424  Dync1h1; dynein cytoplasmic 1 heavy chain 1 [KO:K10413]
+            110350  Dync2h1; dynein cytoplasmic 2 heavy chain 1 [KO:K10414]
+            13426  Dync1i1; dynein cytoplasmic 1 intermediate chain 1 [KO:K10415]
+            13427  Dync1i2; dynein cytoplasmic 1 intermediate chain 2 [KO:K10415]
+            234663  Dync1li2; dynein, cytoplasmic 1 light intermediate chain 2 [KO:K10416]
+            235661  Dync1li1; dynein cytoplasmic 1 light intermediate chain 1 [KO:K10416]
+            213575  Dync2li1; dynein cytoplasmic 2 light intermediate chain 1 [KO:K10417]
+            56455  Dynll1; dynein light chain LC8-type 1 [KO:K10418]
+            68097  Dynll2; dynein light chain LC8-type 2 [KO:K10418]
+            13191  Dctn1; dynactin 1 [KO:K04648]
+            69654  Dctn2; dynactin 2 [KO:K10424]
+            67665  Dctn4; dynactin 4 [KO:K10426]
+            59288  Dctn5; dynactin 5 [KO:K10427]
+            22428  Dctn6; dynactin 6 [KO:K10428]
+            22318  Vamp2; vesicle-associated membrane protein 2 [KO:K13504]
+            18195  Nsf; N-ethylmaleimide sensitive fusion protein [KO:K06027] [EC:3.6.4.6]
+            20909  Stx4a; syntaxin 4A (placental) [KO:K13502]
+            271457  Rab5a; RAB5A, member RAS oncogene family [KO:K07887]
+            19344  Rab5b; RAB5B, member RAS oncogene family [KO:K07888]
+            19345  Rab5c; RAB5C, member RAS oncogene family [KO:K07889]
+            11829  Aqp4; aquaporin 4 [KO:K09866]
+            11828  Aqp3; aquaporin 3 [KO:K09876]
+COMPOUND    C00001  H2O
+            C00575  3',5'-Cyclic AMP
+REFERENCE   PMID:18431594
+  AUTHORS   Boone M, Deen PM
+  TITLE     Physiology and pathophysiology of the vasopressin-regulated renal water reabsorption.
+  JOURNAL   Pflugers Arch 456:1005-24 (2008)
+            DOI:10.1007/s00424-008-0498-1
+REFERENCE   PMID:18566824
+  AUTHORS   Takata K, Matsuzaki T, Tajika Y, Ablimit A, Hasegawa T
+  TITLE     Localization and trafficking of aquaporin 2 in the kidney.
+  JOURNAL   Histochem Cell Biol 130:197-209 (2008)
+            DOI:10.1007/s00418-008-0457-0
+REFERENCE   PMID:10073616
+  AUTHORS   Nielsen S, Kwon TH, Christensen BM, Promeneur D, Frokiaer J, Marples D
+  TITLE     Physiology and pathophysiology of renal aquaporins.
+  JOURNAL   J Am Soc Nephrol 10:647-63 (1999)
+REFERENCE   PMID:10070156
+  AUTHORS   Marples D, Frokiaer J, Nielsen S
+  TITLE     Long-term regulation of aquaporins in the kidney.
+  JOURNAL   Am J Physiol 276:F331-9 (1999)
+            DOI:10.1152/ajprenal.1999.276.3.F331
+REFERENCE   PMID:10099706
+  AUTHORS   Ward DT, Hammond TG, Harris HW
+  TITLE     Modulation of vasopressin-elicited water transport by trafficking of aquaporin2-containing vesicles.
+  JOURNAL   Annu Rev Physiol 61:683-97 (1999)
+            DOI:10.1146/annurev.physiol.61.1.683
+REFERENCE   PMID:18655910
+  AUTHORS   Fenton RA, Moeller HB
+  TITLE     Recent discoveries in vasopressin-regulated aquaporin-2 trafficking.
+  JOURNAL   Prog Brain Res 170:571-9 (2008)
+            DOI:10.1016/S0079-6123(08)00444-5
+REFERENCE   PMID:11773613
+  AUTHORS   Nielsen S, Frokiaer J, Marples D, Kwon TH, Agre P, Knepper MA
+  TITLE     Aquaporins in the kidney: from molecules to medicine.
+  JOURNAL   Physiol Rev 82:205-44 (2002)
+            DOI:10.1152/physrev.00024.2001
+REFERENCE   PMID:11001488
+  AUTHORS   Deen PM, van Balkom BW, Kamsteeg EJ
+  TITLE     Routing of the aquaporin-2 water channel in health and disease.
+  JOURNAL   Eur J Cell Biol 79:523-30 (2000)
+            DOI:10.1078/0171-9335-00075
+REFERENCE   PMID:15522987
+  AUTHORS   Bonilla-Felix M
+  TITLE     Development of water transport in the collecting duct.
+  JOURNAL   Am J Physiol Renal Physiol 287:F1093-101 (2004)
+            DOI:10.1152/ajprenal.00119.2004
+REFERENCE   PMID:17956998
+  AUTHORS   Uawithya P, Pisitkun T, Ruttenberg BE, Knepper MA
+  TITLE     Transcriptional profiling of native inner medullary collecting duct cells from rat kidney.
+  JOURNAL   Physiol Genomics 32:229-53 (2008)
+            DOI:10.1152/physiolgenomics.00201.2007
+REFERENCE   PMID:14586738
+  AUTHORS   Nguyen MK, Nielsen S, Kurtz I
+  TITLE     Molecular pathogenesis of nephrogenic diabetes insipidus.
+  JOURNAL   Clin Exp Nephrol 7:9-17 (2003)
+            DOI:10.1007/s101570300001
+REL_PATHWAY mmu04144  Endocytosis
+            mmu04530  Tight junction
+KO_PATHWAY  ko04962
+///

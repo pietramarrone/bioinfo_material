@@ -1,0 +1,148 @@
+ENTRY       mmu04975                    Pathway
+NAME        Fat digestion and absorption - Mus musculus (mouse)
+DESCRIPTION Fat is an important energy source from food. More than 95% of dietary fat is long-chain triacylglycerols (TAG), the remaining being phospholipids (4.5%) and sterols. In the small intestine lumen, dietary TAG is hydrolyzed to fatty acids (FA) and monoacylglycerols (MAG) by pancreatic lipase. These products are then emulsified with the help of phospholipids (PL) and bile acids (BA) present in bile to form micelles. Free FAs and MAGs are taken up by the enterocyte where they are rapidly resynthesized in endoplasmic reticulum (ER) to form TAG. PLs from the diet as well as bile - mainly LPA - too are absorbed by the enterocyte and are acylated to form phosphatidic acid (PA), which is also converted into TAG. Absorbed cholesterol (CL) is acylated to cholesterol esters (CE). Within the ER, TAG joins CE and apolipoprotein B (ApoB) to form chylomicrons that enter circulation through the lymph.
+CLASS       Organismal Systems; Digestive system
+PATHWAY_MAP mmu04975  Fat digestion and absorption
+DBLINKS     GO: 0044241 0030299
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        67717  Lipf; lipase, gastric [KO:K14452] [EC:3.1.1.3]
+            69060  Pnlip; pancreatic lipase [KO:K14073] [EC:3.1.1.3]
+            18946  Pnliprp1; pancreatic lipase related protein 1 [KO:K14074] [EC:3.1.1.3]
+            18947  Pnliprp2; pancreatic lipase-related protein 2 [KO:K14075] [EC:3.1.1.3]
+            12613  Cel; carboxyl ester lipase [KO:K12298] [EC:3.1.1.13 3.1.1.3]
+            26971  Pla2g2f; phospholipase A2, group IIF [KO:K01047] [EC:3.1.1.4]
+            18778  Pla2g1b; phospholipase A2, group IB, pancreas [KO:K01047] [EC:3.1.1.4]
+            18781  Pla2g2c; phospholipase A2, group IIC [KO:K01047] [EC:3.1.1.4]
+            18784  Pla2g5; phospholipase A2, group V [KO:K01047] [EC:3.1.1.4]
+            18782  Pla2g2d; phospholipase A2, group IID [KO:K01047] [EC:3.1.1.4]
+            26970  Pla2g2e; phospholipase A2, group IIE [KO:K01047] [EC:3.1.1.4]
+            66350  Pla2g12a; phospholipase A2, group XIIA [KO:K01047] [EC:3.1.1.4]
+            69836  Pla2g12b; phospholipase A2, group XIIB [KO:K01047] [EC:3.1.1.4]
+            26565  Pla2g10; phospholipase A2, group X [KO:K01047] [EC:3.1.1.4]
+            18780  Pla2g2a; phospholipase A2, group IIA (platelets, synovial fluid) [KO:K01047] [EC:3.1.1.4]
+            237625  Pla2g3; phospholipase A2, group III [KO:K01047] [EC:3.1.1.4]
+            109791  Clps; colipase, pancreatic [KO:K14460]
+            12491  Cd36; CD36 molecule [KO:K06259]
+            14719  Got2; glutamatic-oxaloacetic transaminase 2, mitochondrial [KO:K14455] [EC:2.6.1.1]
+            14079  Fabp2; fatty acid binding protein 2, intestinal [KO:K08751]
+            14080  Fabp1; fatty acid binding protein 1, liver [KO:K08750]
+            26457  Slc27a1; solute carrier family 27 (fatty acid transporter), member 1 [KO:K08745] [EC:6.2.1.-]
+            26569  Slc27a4; solute carrier family 27 (fatty acid transporter), member 4 [KO:K08745] [EC:6.2.1.-]
+            55979  Agpat1; 1-acylglycerol-3-phosphate O-acyltransferase 1 (lysophosphatidic acid acyltransferase, alpha) [KO:K13509] [EC:2.3.1.51]
+            67512  Agpat2; 1-acylglycerol-3-phosphate O-acyltransferase 2 (lysophosphatidic acid acyltransferase, beta) [KO:K13509] [EC:2.3.1.51]
+            19012  Plpp1; phospholipid phosphatase 1 [KO:K01080] [EC:3.1.3.4]
+            50784  Plpp2; phospholipid phosphatase 2 [KO:K01080] [EC:3.1.3.4]
+            67916  Plpp3; phospholipid phosphatase 3 [KO:K01080] [EC:3.1.3.4]
+            233549  Mogat2; monoacylglycerol O-acyltransferase 2 [KO:K14457] [EC:2.3.1.22]
+            13350  Dgat1; diacylglycerol O-acyltransferase 1 [KO:K11155] [EC:2.3.1.20 2.3.1.75 2.3.1.76]
+            67800  Dgat2; diacylglycerol O-acyltransferase 2 [KO:K11160] [EC:2.3.1.20 2.3.1.75]
+            20778  Scarb1; scavenger receptor class B, member 1 [KO:K13885]
+            237636  Npc1l1; NPC1 like intracellular cholesterol transporter 1 [KO:K14461]
+            110460  Acat2; acetyl-Coenzyme A acetyltransferase 2 [KO:K00626] [EC:2.3.1.9]
+            110446  Acat1; acetyl-Coenzyme A acetyltransferase 1 [KO:K00626] [EC:2.3.1.9]
+            27409  Abcg5; ATP binding cassette subfamily G member 5 [KO:K05683]
+            67470  Abcg8; ATP binding cassette subfamily G member 8 [KO:K05684]
+            11808  Apoa4; apolipoprotein A-IV [KO:K08760]
+            238055  Apob; apolipoprotein B [KO:K14462]
+            17777  Mttp; microsomal triglyceride transfer protein [KO:K14463]
+            11806  Apoa1; apolipoprotein A-I [KO:K08757]
+            11303  Abca1; ATP-binding cassette, sub-family A (ABC1), member 1 [KO:K05641]
+COMPOUND    C00010  CoA
+            C00040  Acyl-CoA
+            C00162  Fatty acid
+            C00165  Diacylglycerol
+            C00187  Cholesterol
+            C00416  Phosphatidate
+            C00422  Triacylglycerol
+            C00681  1-Acyl-sn-glycerol 3-phosphate
+            C00865  Phospholipid
+            C01558  Bile salt
+            C01885  1-Acylglycerol
+            C02112  2-Acylglycerol
+            C02530  Cholesterol ester
+REFERENCE   PMID:19158321
+  AUTHORS   Iqbal J, Hussain MM
+  TITLE     Intestinal lipid absorption.
+  JOURNAL   Am J Physiol Endocrinol Metab 296:E1183-94 (2009)
+            DOI:10.1152/ajpendo.90899.2008
+REFERENCE   PMID:20522896
+  AUTHORS   Goodman BE
+  TITLE     Insights into digestion and absorption of major nutrients in humans.
+  JOURNAL   Adv Physiol Educ 34:44-53 (2010)
+            DOI:10.1152/advan.00094.2009
+REFERENCE   PMID:19280719
+  AUTHORS   Niot I, Poirier H, Tran TT, Besnard P
+  TITLE     Intestinal absorption of long-chain fatty acids: evidence and uncertainties.
+  JOURNAL   Prog Lipid Res 48:101-15 (2009)
+            DOI:10.1016/j.plipres.2009.01.001
+REFERENCE   PMID:15286736
+  AUTHORS   Shi Y, Burn P
+  TITLE     Lipid metabolic enzymes: emerging drug targets for the treatment of obesity.
+  JOURNAL   Nat Rev Drug Discov 3:695-710 (2004)
+            DOI:10.1038/nrd1469
+REFERENCE   PMID:20148678
+  AUTHORS   Mansbach CM, Siddiqi SA
+  TITLE     The biogenesis of chylomicrons.
+  JOURNAL   Annu Rev Physiol 72:315-33 (2010)
+            DOI:10.1146/annurev-physiol-021909-135801
+REFERENCE   PMID:19116371
+  AUTHORS   Shi Y, Cheng D
+  TITLE     Beyond triglyceride synthesis: the dynamic functional roles of MGAT and DGAT enzymes in energy metabolism.
+  JOURNAL   Am J Physiol Endocrinol Metab 297:E10-8 (2009)
+            DOI:10.1152/ajpendo.90949.2008
+REFERENCE   PMID:10924713
+  AUTHORS   Ros E
+  TITLE     Intestinal absorption of triglyceride and cholesterol. Dietary and pharmacological inhibition to reduce cardiovascular risk.
+  JOURNAL   Atherosclerosis 151:357-79 (2000)
+            DOI:10.1016/S0021-9150(00)00456-1
+REFERENCE   PMID:12621063
+  AUTHORS   Yen CL, Farese RV Jr
+  TITLE     MGAT2, a monoacylglycerol acyltransferase expressed in the small intestine.
+  JOURNAL   J Biol Chem 278:18532-7 (2003)
+            DOI:10.1074/jbc.M301633200
+REFERENCE   PMID:17495606
+  AUTHORS   Levy E, Spahis S, Sinnett D, Peretti N, Maupas-Schwalm F, Delvin E, Lambert M, Lavoie MA
+  TITLE     Intestinal cholesterol transport proteins: an update and beyond.
+  JOURNAL   Curr Opin Lipidol 18:310-8 (2007)
+            DOI:10.1097/MOL.0b013e32813fa2e2
+REFERENCE   PMID:18830418
+  AUTHORS   Williams KJ
+  TITLE     Molecular processes that handle -- and mishandle -- dietary lipids.
+  JOURNAL   J Clin Invest 118:3247-59 (2008)
+            DOI:10.1172/JCI35206
+REFERENCE   PMID:11504671
+  AUTHORS   Lu K, Lee MH, Patel SB
+  TITLE     Dietary cholesterol absorption; more than just bile.
+  JOURNAL   Trends Endocrinol Metab 12:314-20 (2001)
+            DOI:10.1016/S1043-2760(01)00433-7
+REFERENCE   PMID:14976303
+  AUTHORS   Klett EL, Patel SB
+  TITLE     Biomedicine. Will the real cholesterol transporter please stand up.
+  JOURNAL   Science 303:1149-50 (2004)
+            DOI:10.1126/science.1095519
+REFERENCE   PMID:17002594
+  AUTHORS   Wang DQ
+  TITLE     Regulation of intestinal cholesterol absorption.
+  JOURNAL   Annu Rev Physiol 69:221-48 (2007)
+            DOI:10.1146/annurev.physiol.69.031905.160725
+REFERENCE   PMID:19663632
+  AUTHORS   Patel JP, Brocks DR
+  TITLE     The effect of oral lipids and circulating lipoproteins on the metabolism of drugs.
+  JOURNAL   Expert Opin Drug Metab Toxicol 5:1385-98 (2009)
+            DOI:10.1517/17425250903176439
+REFERENCE   PMID:15891388
+  AUTHORS   Hussain MM, Fatma S, Pan X, Iqbal J
+  TITLE     Intestinal lipoprotein assembly.
+  JOURNAL   Curr Opin Lipidol 16:281-5 (2005)
+            DOI:10.1097/01.mol.0000169347.53568.5a
+REFERENCE   PMID:20493784
+  AUTHORS   Kindel T, Lee DM, Tso P
+  TITLE     The mechanism of the formation and secretion of chylomicrons.
+  JOURNAL   Atheroscler Suppl 11:11-6 (2010)
+            DOI:10.1016/j.atherosclerosissup.2010.03.003
+REL_PATHWAY mmu00561  Glycerolipid metabolism
+            mmu04530  Tight junction
+            mmu04972  Pancreatic secretion
+            mmu04976  Bile secretion
+KO_PATHWAY  ko04975
+///

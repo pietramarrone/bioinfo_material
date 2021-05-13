@@ -1,0 +1,309 @@
+ENTRY       mmu04934                    Pathway
+NAME        Cushing syndrome - Mus musculus (mouse)
+DESCRIPTION Cushing syndrome (CS) is a rare disorder resulting from prolonged exposure to excess glucocorticoids via exogenous and endogenous sources. The typical clinical features of CS are related to hypercortisolism and include accumulation of central fat, moon facies, neuromuscular weakness, osteoporosis or bone fractures, metabolic complications, and mood changes. Traditionally, endogenous CS is classified as adrenocorticotropic hormone (ACTH)-dependent (about 80%) or ACTH- independent (about 20%). Among ACTH-dependent forms, pituitary corticotroph adenoma (Cushing's disease) is most common. Most pituitary tumors are sporadic, resulting from monoclonal expansion of a single mutated cell. Recently recurrent activating somatic driver mutations in the ubiquitin-specific protease 8 gene (USP8) were identified in almost half of corticotroph adenoma. Germline mutations in MEN1 (encoding menin), AIP (encoding aryl-hydrocarbon receptor-interacting protein), PRKAR1A (encoding cAMP-dependent protein kinase type I alpha regulatory subunit) and CDKN1B (encoding cyclin-dependent kinase inhibitor 1B; also known as p27 Kip1) have been identified in familial forms of pituitary adenomas. However, the frequency of familial pituitary adenomas is less than 5% in patients with pituitary adenomas. Among ACTH-independent CS, adrenal adenoma is most common. Rare adrenal causes of CS include primary bilateral macronodular adrenal hyperplasia (BMAH) or primary pigmented nodular adrenocortical disease (PPNAD).
+CLASS       Human Diseases; Endocrine and metabolic disease
+PATHWAY_MAP mmu04934  Cushing syndrome
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        12918  Crh; corticotropin releasing hormone [KO:K05256]
+            12921  Crhr1; corticotropin releasing hormone receptor 1 [KO:K04578]
+            12922  Crhr2; corticotropin releasing hormone receptor 2 [KO:K04579]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            11909  Atf2; activating transcription factor 2 [KO:K04450]
+            11911  Atf4; activating transcription factor 4 [KO:K04374]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            12915  Atf6b; activating transcription factor 6 beta [KO:K09049]
+            17283  Men1; multiple endocrine neoplasia 1 [KO:K14970]
+            23808  Ash2l; ASH2 like histone lysine methyltransferase complex subunit [KO:K14964]
+            213464  Rbbp5; retinoblastoma binding protein 5, histone lysine methyltransferase complex subunit [KO:K14961]
+            69544  Wdr5b; WD repeat domain 5B [KO:K14963]
+            140858  Wdr5; WD repeat domain 5 [KO:K14963]
+            214162  Kmt2a; lysine (K)-specific methyltransferase 2A [KO:K09186] [EC:2.1.1.354]
+            381022  Kmt2d; lysine (K)-specific methyltransferase 2D [KO:K09187] [EC:2.1.1.354]
+            12580  Cdkn2c; cyclin dependent kinase inhibitor 2C [KO:K06622]
+            12579  Cdkn2b; cyclin dependent kinase inhibitor 2B [KO:K04685]
+            12578  Cdkn2a; cyclin dependent kinase inhibitor 2A [KO:K06621]
+            12567  Cdk4; cyclin-dependent kinase 4 [KO:K02089] [EC:2.7.11.22]
+            12571  Cdk6; cyclin-dependent kinase 6 [KO:K02091] [EC:2.7.11.22]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            19645  Rb1; RB transcriptional corepressor 1 [KO:K06618]
+            13555  E2f1; E2F transcription factor 1 [KO:K17454]
+            242705  E2f2; E2F transcription factor 2 [KO:K09389]
+            13557  E2f3; E2F transcription factor 3 [KO:K06620]
+            19416  Rasd1; RAS, dexamethasone-induced 1 [KO:K07843]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            11622  Ahr; aryl-hydrocarbon receptor [KO:K09093]
+            114230  Aipl1; aryl hydrocarbon receptor-interacting protein-like 1 [KO:K17767]
+            11632  Aip; aryl-hydrocarbon receptor-interacting protein [KO:K17767]
+            11863  Arnt; aryl hydrocarbon receptor nuclear translocator [KO:K09097]
+            12576  Cdkn1b; cyclin-dependent kinase inhibitor 1B [KO:K06624]
+            12566  Cdk2; cyclin-dependent kinase 2 [KO:K02206] [EC:2.7.11.22]
+            12447  Ccne1; cyclin E1 [KO:K06626]
+            12448  Ccne2; cyclin E2 [KO:K06626]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            109905  Rap1a; RAS-related protein 1a [KO:K04353]
+            215449  Rap1b; RAS related protein 1b [KO:K07836]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            15370  Nr4a1; nuclear receptor subfamily 4, group A, member 1 [KO:K04465]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            84092  Usp8; ubiquitin specific peptidase 8 [KO:K11839] [EC:3.4.19.12]
+            18976  Pomc; pro-opiomelanocortin-alpha [KO:K05228]
+            17200  Mc2r; melanocortin 2 receptor [KO:K04200]
+            77037  Mrap; melanocortin 2 receptor accessory protein [KO:K22398]
+            218461  Pde8b; phosphodiesterase 8B [KO:K18437] [EC:3.1.4.53]
+            18584  Pde8a; phosphodiesterase 8A [KO:K18437] [EC:3.1.4.53]
+            241489  Pde11a; phosphodiesterase 11A [KO:K13298] [EC:3.1.4.17 3.1.4.35]
+            26423  Nr5a1; nuclear receptor subfamily 5, group A, member 1 [KO:K08560]
+            20683  Sp1; trans-acting transcription factor 1 [KO:K04684]
+            18514  Pbx1; pre B cell leukemia homeobox 1 [KO:K09355]
+            13072  Cyp11b2; cytochrome P450, family 11, subfamily b, polypeptide 2 [KO:K00497] [EC:1.14.15.4]
+            110115  Cyp11b1; cytochrome P450, family 11, subfamily b, polypeptide 1 [KO:K00497] [EC:1.14.15.4]
+            13074  Cyp17a1; cytochrome P450, family 17, subfamily a, polypeptide 1 [KO:K00512] [EC:1.14.14.19 1.14.14.32]
+            20845  Star; steroidogenic acute regulatory protein [KO:K16931]
+            320024  Nceh1; neutral cholesterol ester hydrolase 1 [KO:K14349] [EC:3.1.1.-]
+            233912  Armc5; armadillo repeat containing 5 [KO:K22499]
+            11606  Agt; angiotensinogen (serpin peptidase inhibitor, clade A, member 8) [KO:K09821]
+            11607  Agtr1a; angiotensin II receptor, type 1a [KO:K04166]
+            11608  Agtr1b; angiotensin II receptor, type 1b [KO:K04166]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            14672  Gna11; guanine nucleotide binding protein, alpha 11 [KO:K04635]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            16526  Kcnk2; potassium channel, subfamily K, member 2 [KO:K04913]
+            12291  Cacna1g; calcium channel, voltage-dependent, T type, alpha 1G subunit [KO:K04854]
+            58226  Cacna1h; calcium channel, voltage-dependent, T type, alpha 1H subunit [KO:K04855]
+            239556  Cacna1i; calcium channel, voltage-dependent, alpha 1I subunit [KO:K04856]
+            109305  Orai1; ORAI calcium release-activated calcium modulator 1 [KO:K16056]
+            16492  Kcna4; potassium voltage-gated channel, shaker-related subfamily, member 4 [KO:K04877]
+            16527  Kcnk3; potassium channel, subfamily K, member 3 [KO:K04914]
+            16835  Ldlr; low density lipoprotein receptor [KO:K12473]
+            20778  Scarb1; scavenger receptor class B, member 1 [KO:K13885]
+            13070  Cyp11a1; cytochrome P450, family 11, subfamily a, polypeptide 1 [KO:K00498] [EC:1.14.15.6]
+            15495  Hsd3b4; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 4 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            15496  Hsd3b5; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 5 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            15493  Hsd3b2; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            15492  Hsd3b1; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 1 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            15497  Hsd3b6; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 6 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            100043456  Gm10681; predicted gene 10681 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            13079  Cyp21a1; cytochrome P450, family 21, subfamily a, polypeptide 1 [KO:K00513] [EC:1.14.14.16]
+            14194  Fh1; fumarate hydratase 1 [KO:K01679] [EC:4.2.1.2]
+            22408  Wnt1; wingless-type MMTV integration site family, member 1 [KO:K03209]
+            22413  Wnt2; wingless-type MMTV integration site family, member 2 [KO:K00182]
+            22414  Wnt2b; wingless-type MMTV integration site family, member 2B [KO:K00182]
+            22415  Wnt3; wingless-type MMTV integration site family, member 3 [KO:K00312]
+            22416  Wnt3a; wingless-type MMTV integration site family, member 3A [KO:K00312]
+            22417  Wnt4; wingless-type MMTV integration site family, member 4 [KO:K00408]
+            22418  Wnt5a; wingless-type MMTV integration site family, member 5A [KO:K00444]
+            22419  Wnt5b; wingless-type MMTV integration site family, member 5B [KO:K00444]
+            22420  Wnt6; wingless-type MMTV integration site family, member 6 [KO:K00445]
+            22421  Wnt7a; wingless-type MMTV integration site family, member 7A [KO:K00572]
+            22422  Wnt7b; wingless-type MMTV integration site family, member 7B [KO:K00572]
+            20890  Wnt8a; wingless-type MMTV integration site family, member 8A [KO:K00714]
+            22423  Wnt8b; wingless-type MMTV integration site family, member 8B [KO:K00714]
+            216795  Wnt9a; wingless-type MMTV integration site family, member 9A [KO:K01064]
+            22412  Wnt9b; wingless-type MMTV integration site family, member 9B [KO:K01064]
+            22410  Wnt10b; wingless-type MMTV integration site family, member 10B [KO:K01357]
+            22409  Wnt10a; wingless-type MMTV integration site family, member 10A [KO:K01357]
+            22411  Wnt11; wingless-type MMTV integration site family, member 11 [KO:K01384]
+            93735  Wnt16; wingless-type MMTV integration site family, member 16 [KO:K01558]
+            14362  Fzd1; frizzled class receptor 1 [KO:K02432]
+            14369  Fzd7; frizzled class receptor 7 [KO:K02432]
+            57265  Fzd2; frizzled class receptor 2 [KO:K02235]
+            14365  Fzd3; frizzled class receptor 3 [KO:K02329]
+            14366  Fzd4; frizzled class receptor 4 [KO:K02354]
+            14367  Fzd5; frizzled class receptor 5 [KO:K02375]
+            14370  Fzd8; frizzled class receptor 8 [KO:K02375]
+            14368  Fzd6; frizzled class receptor 6 [KO:K02376]
+            93897  Fzd10; frizzled class receptor 10 [KO:K02842]
+            14371  Fzd9; frizzled class receptor 9 [KO:K02842]
+            13544  Dvl3; dishevelled segment polarity protein 3 [KO:K02353]
+            13542  Dvl1; dishevelled segment polarity protein 1 [KO:K02353]
+            13543  Dvl2; dishevelled segment polarity protein 2 [KO:K02353]
+            56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            12005  Axin1; axin 1 [KO:K02157]
+            12006  Axin2; axin 2 [KO:K04385]
+            12387  Ctnnb1; catenin (cadherin associated protein), beta 1 [KO:K02105]
+            11789  Apc; APC, WNT signaling pathway regulator [KO:K02085]
+            23805  Apc2; APC regulator of WNT signaling pathway 2 [KO:K02085]
+            21414  Tcf7; transcription factor 7, T cell specific [KO:K02620]
+            21415  Tcf7l1; transcription factor 7 like 1 (T cell specific, HMG box) [KO:K04490]
+            21416  Tcf7l2; transcription factor 7 like 2, T cell specific, HMG box [KO:K04491]
+            16842  Lef1; lymphoid enhancer binding factor 1 [KO:K04492]
+COMPOUND    C00020  AMP
+            C00076  Calcium cation
+            C00187  Cholesterol
+            C00238  Potassium cation
+            C00410  Progesterone
+            C00575  3',5'-Cyclic AMP
+            C00735  Cortisol
+            C01176  17alpha-Hydroxyprogesterone
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01953  Pregnenolone
+            C05138  17alpha-Hydroxypregnenolone
+            C05488  11-Deoxycortisol
+            C07557  2,3,7,8-Tetrachlorodibenzodioxin
+REFERENCE   PMID:26004339
+  AUTHORS   Lacroix A, Feelders RA, Stratakis CA, Nieman LK
+  TITLE     Cushing's syndrome.
+  JOURNAL   Lancet 386:913-27 (2015)
+            DOI:10.1016/S0140-6736(14)61375-1
+REFERENCE   PMID:27588171
+  AUTHORS   Xiong Q, Ge W
+  TITLE     Gene mutations in Cushing's disease.
+  JOURNAL   Biomed Rep 5:277-282 (2016)
+            DOI:10.3892/br.2016.729
+REFERENCE   PMID:25877147
+  AUTHORS   Fukuoka H, Takahashi Y
+  TITLE     The role of genetic and epigenetic changes in pituitary tumorigenesis.
+  JOURNAL   Neurol Med Chir (Tokyo) 54 Suppl 3:943-57 (2014)
+            DOI:10.2176/nmc.suppl.2014-3
+REFERENCE   PMID:18987159
+  AUTHORS   Quereda V, Malumbres M
+  TITLE     Cell cycle control of pituitary development and disease.
+  JOURNAL   J Mol Endocrinol 42:75-86 (2009)
+            DOI:10.1677/JME-08-0146
+REFERENCE   PMID:27742789
+  AUTHORS   Caimari F, Korbonits M
+  TITLE     Novel Genetic Causes of Pituitary Adenomas.
+  JOURNAL   Clin Cancer Res 22:5030-5042 (2016)
+            DOI:10.1158/1078-0432.CCR-16-0452
+REFERENCE   PMID:25350067
+  AUTHORS   Lecoq AL, Kamenicky P, Guiochon-Mantel A, Chanson P
+  TITLE     Genetic mutations in sporadic pituitary adenomas--what to screen for?
+  JOURNAL   Nat Rev Endocrinol 11:43-54 (2015)
+            DOI:10.1038/nrendo.2014.181
+REFERENCE   PMID:27625633
+  AUTHORS   Hannah-Shmouni F, Faucz FR, Stratakis CA
+  TITLE     Alterations of Phosphodiesterases in Adrenocortical Tumors.
+  JOURNAL   Front Endocrinol (Lausanne) 7:111 (2016)
+            DOI:10.3389/fendo.2016.00111
+REFERENCE   PMID:21423242
+  AUTHORS   Melmed S
+  TITLE     Pathogenesis of pituitary tumors.
+  JOURNAL   Nat Rev Endocrinol 7:257-66 (2011)
+            DOI:10.1038/nrendo.2011.40
+REFERENCE   PMID:19407507
+  AUTHORS   Daly AF, Tichomirowa MA, Beckers A
+  TITLE     Genetic, molecular and clinical features of familial isolated pituitary adenomas.
+  JOURNAL   Horm Res 71 Suppl 2:116-22 (2009)
+            DOI:10.1159/000192448
+REFERENCE   PMID:28850717
+  AUTHORS   Albani A, Theodoropoulou M, Reincke M
+  TITLE     Genetics of Cushing's disease.
+  JOURNAL   Clin Endocrinol (Oxf) 88:3-12 (2018)
+            DOI:10.1111/cen.13457
+REFERENCE   PMID:26045561
+  AUTHORS   Duan K, Hernandez KG, Mete O
+  TITLE     Clinicopathological correlates of adrenal Cushing's syndrome.
+  JOURNAL   Postgrad Med J 91:331-42 (2015)
+            DOI:10.1136/postgradmedj-2014-202612rep
+REFERENCE   PMID:26264719
+  AUTHORS   Drougat L, Espiard S, Bertherat J
+  TITLE     Genetics of primary bilateral macronodular adrenal hyperplasia: a model for early diagnosis of Cushing's syndrome?
+  JOURNAL   Eur J Endocrinol 173:M121-31 (2015)
+            DOI:10.1530/EJE-15-0532
+REFERENCE   PMID:17955016
+  AUTHORS   Stratakis CA, Boikos SA
+  TITLE     Genetics of adrenal tumors associated with Cushing's syndrome: a new classification for bilateral adrenocortical hyperplasias.
+  JOURNAL   Nat Clin Pract Endocrinol Metab 3:748-57 (2007)
+            DOI:10.1038/ncpendmet0648
+REFERENCE   PMID:19906235
+  AUTHORS   Refojo D, Holsboer F
+  TITLE     CRH signaling. Molecular specificity for drug targeting in the CNS.
+  JOURNAL   Ann N Y Acad Sci 1179:106-19 (2009)
+            DOI:10.1111/j.1749-6632.2009.04983.x
+REFERENCE   PMID:12089357
+  AUTHORS   Kovalovsky D, Refojo D, Liberman AC, Hochbaum D, Pereda MP, Coso OA, Stalla GK, Holsboer F, Arzt E
+  TITLE     Activation and induction of NUR77/NURR1 in corticotrophs by CRH/cAMP: involvement of calcium, protein kinase A, and MAPK pathways.
+  JOURNAL   Mol Endocrinol 16:1638-51 (2002)
+            DOI:10.1210/mend.16.7.0863
+REFERENCE   PMID:15380809
+  AUTHORS   Lacroix A, Baldacchino V, Bourdeau I, Hamet P, Tremblay J
+  TITLE     Cushing's syndrome variants secondary to aberrant hormone receptors.
+  JOURNAL   Trends Endocrinol Metab 15:375-82 (2004)
+            DOI:10.1016/j.tem.2004.08.007
+REFERENCE   PMID:25485838
+  AUTHORS   Reincke M, Sbiera S, Hayakawa A, Theodoropoulou M, Osswald A, Beuschlein F, Meitinger T, Mizuno-Yamasaki E, Kawaguchi K, Saeki Y, Tanaka K, Wieland T, Graf E, Saeger W, Ronchi CL, Allolio B, Buchfelder M, Strom TM, Fassnacht M, Komada M
+  TITLE     Mutations in the deubiquitinase gene USP8 cause Cushing's disease.
+  JOURNAL   Nat Genet 47:31-8 (2015)
+            DOI:10.1038/ng.3166
+REFERENCE   PMID:25930709
+  AUTHORS   Kaiser UB
+  TITLE     Cushing's disease: towards precision medicine.
+  JOURNAL   Cell Res 25:649-50 (2015)
+            DOI:10.1038/cr.2015.53
+REFERENCE   PMID:28487882
+  AUTHORS   Uzilov AV, Cheesman KC, Fink MY, Newman LC, Pandya C, Lalazar Y, Hefti M, Fowkes M, Deikus G, Lau CY, Moe AS, Kinoshita Y, Kasai Y, Zweig M, Gupta A, Starcevic D, Mahajan M, Schadt EE, Post KD, Donovan MJ, Sebra R, Chen R, Geer EB
+  TITLE     Identification of a novel RASD1 somatic mutation in a USP8-mutated corticotroph adenoma.
+  JOURNAL   Cold Spring Harb Mol Case Stud 3:a001602 (2017)
+            DOI:10.1101/mcs.a001602
+REFERENCE   PMID:26285834
+  AUTHORS   Huang C, Shi Y, Zhao Y
+  TITLE     USP8 mutation in Cushing's disease.
+  JOURNAL   Oncotarget 6:18240-1 (2015)
+            DOI:10.18632/oncotarget.4856
+REFERENCE   PMID:26012588
+  AUTHORS   Theodoropoulou M, Reincke M, Fassnacht M, Komada M
+  TITLE     Decoding the genetic basis of Cushing's disease: USP8 in the spotlight.
+  JOURNAL   Eur J Endocrinol 173:M73-83 (2015)
+            DOI:10.1530/EJE-15-0320
+REFERENCE   PMID:29370219
+  AUTHORS   Yu L, Zhang J, Guo X, Chen X, He Z, He Q
+  TITLE     ARMC5 mutations in familial and sporadic primary bilateral macronodular adrenal hyperplasia.
+  JOURNAL   PLoS One 13:e0191602 (2018)
+            DOI:10.1371/journal.pone.0191602
+REFERENCE   PMID:19075677
+  AUTHORS   Wu X, Hua X
+  TITLE     Menin, histone h3 methyltransferases, and regulation of cell proliferation: current knowledge and perspective.
+  JOURNAL   Curr Mol Med 8:805-15 (2008)
+            DOI:10.2174/156652408786733702
+REFERENCE   PMID:20457215
+  AUTHORS   Ozfirat Z, Korbonits M
+  TITLE     AIP gene and familial isolated pituitary adenomas.
+  JOURNAL   Mol Cell Endocrinol 326:71-9 (2010)
+            DOI:10.1016/j.mce.2010.05.001
+REL_PATHWAY mmu00020  Citrate cycle (TCA cycle)
+            mmu00140  Steroid hormone biosynthesis
+            mmu04020  Calcium signaling pathway
+            mmu04024  cAMP signaling pathway
+            mmu04110  Cell cycle
+            mmu04310  Wnt signaling pathway
+            mmu04927  Cortisol synthesis and secretion
+            mmu04960  Aldosterone-regulated sodium reabsorption
+KO_PATHWAY  ko04934
+///

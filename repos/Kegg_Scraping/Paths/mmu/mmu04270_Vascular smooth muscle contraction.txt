@@ -1,0 +1,282 @@
+ENTRY       mmu04270                    Pathway
+NAME        Vascular smooth muscle contraction - Mus musculus (mouse)
+DESCRIPTION The vascular smooth muscle cell (VSMC) is a highly specialized cell whose principal function is contraction. On contraction, VSMCs shorten, thereby decreasing the diameter of a blood vessel to regulate the blood flow and pressure. 
+            The principal mechanisms that regulate the contractile state of VSMCs are changes in cytosolic Ca2+ concentration ([Ca2+]c). In response to vasoconstrictor stimuli, Ca2+ is mobilized from intracellular stores and/or the extracellular space to increase [Ca2+]c in VSMCs. The increase in [Ca2+]c, in turn, activates the Ca2+-CaM-MLCK pathway and stimulates MLC20 phosphorylation, leading to myosin-actin interactions and, hence, the development of contractile force. The sensitivity of contractile myofilaments or MLC20 phosphorylation to Ca2+ can be secondarily modulated by other signaling pathways. During receptor stimulation, the contractile force is greatly enhanced by the inhibition of myosin phosphatase. Rho/Rho kinase, PKC, and arachidonic acid have been proposed to play a pivotal role in this enhancement. 
+            The signaling events that mediate relaxation include the removal of a contractile agonist (passive relaxation) and activation of cyclic nucleotide-dependent signaling pathways in the continued presence of a contractile agonist (active relaxation). Active relaxation occurs through the inhibition of both Ca2+ mobilization and myofilament Ca2+ sensitivity in VSMCs.
+CLASS       Organismal Systems; Circulatory system
+PATHWAY_MAP mmu04270  Vascular smooth muscle contraction
+DBLINKS     GO: 0014829
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        11549  Adra1a; adrenergic receptor, alpha 1a [KO:K04135]
+            11548  Adra1b; adrenergic receptor, alpha 1b [KO:K04136]
+            11550  Adra1d; adrenergic receptor, alpha 1d [KO:K04137]
+            11606  Agt; angiotensinogen (serpin peptidase inhibitor, clade A, member 8) [KO:K09821]
+            11607  Agtr1a; angiotensin II receptor, type 1a [KO:K04166]
+            11608  Agtr1b; angiotensin II receptor, type 1b [KO:K04166]
+            13614  Edn1; endothelin 1 [KO:K16366]
+            13615  Edn2; endothelin 2 [KO:K16367]
+            13616  Edn3; endothelin 3 [KO:K05227]
+            13617  Ednra; endothelin receptor type A [KO:K04197]
+            11998  Avp; arginine vasopressin [KO:K05242]
+            54140  Avpr1a; arginine vasopressin receptor 1A [KO:K04226]
+            26361  Avpr1b; arginine vasopressin receptor 1B [KO:K04227]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            14672  Gna11; guanine nucleotide binding protein, alpha 11 [KO:K04635]
+            26971  Pla2g2f; phospholipase A2, group IIF [KO:K01047] [EC:3.1.1.4]
+            18778  Pla2g1b; phospholipase A2, group IB, pancreas [KO:K01047] [EC:3.1.1.4]
+            18781  Pla2g2c; phospholipase A2, group IIC [KO:K01047] [EC:3.1.1.4]
+            18784  Pla2g5; phospholipase A2, group V [KO:K01047] [EC:3.1.1.4]
+            18782  Pla2g2d; phospholipase A2, group IID [KO:K01047] [EC:3.1.1.4]
+            26970  Pla2g2e; phospholipase A2, group IIE [KO:K01047] [EC:3.1.1.4]
+            66350  Pla2g12a; phospholipase A2, group XIIA [KO:K01047] [EC:3.1.1.4]
+            69836  Pla2g12b; phospholipase A2, group XIIB [KO:K01047] [EC:3.1.1.4]
+            26565  Pla2g10; phospholipase A2, group X [KO:K01047] [EC:3.1.1.4]
+            18780  Pla2g2a; phospholipase A2, group IIA (platelets, synovial fluid) [KO:K01047] [EC:3.1.1.4]
+            237625  Pla2g3; phospholipase A2, group III [KO:K01047] [EC:3.1.1.4]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            53357  Pla2g6; phospholipase A2, group VI [KO:K16343] [EC:3.1.1.4]
+            13118  Cyp4a12b; cytochrome P450, family 4, subfamily a, polypeptide 12B [KO:K07425] [EC:1.14.14.80]
+            13117  Cyp4a10; cytochrome P450, family 4, subfamily a, polypeptide 10 [KO:K07425] [EC:1.14.14.80]
+            13119  Cyp4a14; cytochrome P450, family 4, subfamily a, polypeptide 14 [KO:K07425] [EC:1.14.14.80]
+            435802  Cyp4a30b; cytochrome P450, family 4, subfamily a, polypeptide 30b [KO:K07425] [EC:1.14.14.80]
+            230639  Cyp4a29; cytochrome P450, family 4, subfamily a, polypeptide 29 [KO:K07425] [EC:1.14.14.80]
+            666168  Cyp4a31; cytochrome P450, family 4, subfamily a, polypeptide 31 [KO:K07425] [EC:1.14.14.80]
+            100040843  Cyp4a32; cytochrome P450, family 4, subfamily a, polypeptide 32 [KO:K07425] [EC:1.14.14.80]
+            277753  Cyp4a12a; cytochrome P450, family 4, subfamily a, polypeptide 12a [KO:K07425] [EC:1.14.14.80]
+            16531  Kcnma1; potassium large conductance calcium-activated channel, subfamily M, alpha member 1 [KO:K04936]
+            16532  Kcnu1; potassium channel, subfamily U, member 1 [KO:K05274]
+            16533  Kcnmb1; potassium large conductance calcium-activated channel, subfamily M, beta member 1 [KO:K04937]
+            72413  Kcnmb2; potassium large conductance calcium-activated channel, subfamily M, beta member 2 [KO:K04938]
+            100502876  Kcnmb3; potassium large conductance calcium-activated channel, subfamily M, beta member 3 [KO:K04939]
+            58802  Kcnmb4; potassium large conductance calcium-activated channel, subfamily M, beta member 4 [KO:K04941]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            107589  Mylk; myosin, light polypeptide kinase [KO:K00907] [EC:2.7.11.18]
+            213435  Mylk3; myosin light chain kinase 3 [KO:K00907] [EC:2.7.11.18]
+            228785  Mylk2; myosin, light polypeptide kinase 2, skeletal muscle [KO:K00907] [EC:2.7.11.18]
+            238564  Mylk4; myosin light chain kinase family, member 4 [KO:K00907] [EC:2.7.11.18]
+            17904  Myl6; myosin, light polypeptide 6, alkali, smooth muscle and non-muscle [KO:K12751]
+            216459  Myl6b; myosin, light polypeptide 6B [KO:K12751]
+            98932  Myl9; myosin, light polypeptide 9, regulatory [KO:K12755]
+            17880  Myh11; myosin, heavy polypeptide 11, smooth muscle [KO:K10352]
+            17886  Myh9; myosin, heavy polypeptide 9, non-muscle [KO:K10352]
+            71960  Myh14; myosin, heavy polypeptide 14 [KO:K10352]
+            77579  Myh10; myosin, heavy polypeptide 10, non-muscle [KO:K10352]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            18753  Prkcd; protein kinase C, delta [KO:K06068] [EC:2.7.11.13]
+            18754  Prkce; protein kinase C, epsilon [KO:K18050] [EC:2.7.11.13]
+            18755  Prkch; protein kinase C, eta [KO:K18051] [EC:2.7.11.13]
+            18761  Prkcq; protein kinase C, theta [KO:K18052] [EC:2.7.11.13]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            109624  Cald1; caldesmon 1 [KO:K12327]
+            11475  Acta2; actin, alpha 2, smooth muscle, aorta [KO:K12313]
+            11468  Actg2; actin, gamma 2, smooth muscle, enteric [KO:K12315]
+            68458  Ppp1r14a; protein phosphatase 1, regulatory inhibitor subunit 14A [KO:K12328]
+            19045  Ppp1ca; protein phosphatase 1 catalytic subunit alpha [KO:K06269] [EC:3.1.3.16]
+            19046  Ppp1cb; protein phosphatase 1 catalytic subunit beta [KO:K06269] [EC:3.1.3.16]
+            19047  Ppp1cc; protein phosphatase 1 catalytic subunit gamma [KO:K06269] [EC:3.1.3.16]
+            434233  Ppp1ccb; protein phosphatase 1 catalytic subunit gamma B [KO:K06269] [EC:3.1.3.16]
+            17931  Ppp1r12a; protein phosphatase 1, regulatory subunit 12A [KO:K06270]
+            329251  Ppp1r12b; protein phosphatase 1, regulatory subunit 12B [KO:K12329]
+            232807  Ppp1r12c; protein phosphatase 1, regulatory subunit 12C [KO:K17457]
+            14673  Gna12; guanine nucleotide binding protein, alpha 12 [KO:K04346]
+            14674  Gna13; guanine nucleotide binding protein, alpha 13 [KO:K04639]
+            69632  Arhgef12; Rho guanine nucleotide exchange factor (GEF) 12 [KO:K07532]
+            16801  Arhgef1; Rho guanine nucleotide exchange factor (GEF) 1 [KO:K12330]
+            213498  Arhgef11; Rho guanine nucleotide exchange factor (GEF) 11 [KO:K12331]
+            11848  Rhoa; ras homolog family member A [KO:K04513]
+            67653  4930544G11Rik; RIKEN cDNA 4930544G11 gene [KO:K04513]
+            19877  Rock1; Rho-associated coiled-coil containing protein kinase 1 [KO:K04514] [EC:2.7.11.1]
+            19878  Rock2; Rho-associated coiled-coil containing protein kinase 2 [KO:K17388] [EC:2.7.11.1]
+            11540  Adora2a; adenosine A2a receptor [KO:K04266]
+            11541  Adora2b; adenosine A2b receptor [KO:K04267]
+            19222  Ptgir; prostaglandin I receptor (IP) [KO:K04263]
+            116903  Calcb; calcitonin-related polypeptide, beta [KO:K12332]
+            12310  Calca; calcitonin/calcitonin-related polypeptide, alpha [KO:K12332]
+            11535  Adm; adrenomedullin [KO:K12333]
+            54598  Calcrl; calcitonin receptor-like [KO:K04577]
+            51801  Ramp1; receptor (calcitonin) activity modifying protein 1 [KO:K08447]
+            54409  Ramp2; receptor (calcitonin) activity modifying protein 2 [KO:K08448]
+            56089  Ramp3; receptor (calcitonin) activity modifying protein 3 [KO:K08449]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            230899  Nppa; natriuretic peptide type A [KO:K12334]
+            18158  Nppb; natriuretic peptide type B [KO:K12335]
+            18160  Npr1; natriuretic peptide receptor 1 [KO:K12323] [EC:4.6.1.2]
+            18159  Nppc; natriuretic peptide type C [KO:K12336]
+            230103  Npr2; natriuretic peptide receptor 2 [KO:K12324] [EC:4.6.1.2]
+            19091  Prkg1; protein kinase, cGMP-dependent, type I [KO:K07376] [EC:2.7.11.12]
+            17540  Mrvi1; MRV integration site 1 [KO:K12337]
+            60596  Gucy1a1; guanylate cyclase 1, soluble, alpha 1 [KO:K12318] [EC:4.6.1.2]
+            234889  Gucy1a2; guanylate cyclase 1, soluble, alpha 2 [KO:K12318] [EC:4.6.1.2]
+            239134  Gucy1b2; guanylate cyclase 1, soluble, beta 2 [KO:K12319] [EC:4.6.1.2]
+            54195  Gucy1b1; guanylate cyclase 1, soluble, beta 1 [KO:K12319] [EC:4.6.1.2]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00212  Adenosine
+            C00219  Arachidonate
+            C00238  Potassium cation
+            C00533  Nitric oxide
+            C00547  L-Noradrenaline
+            C00575  3',5'-Cyclic AMP
+            C00942  3',5'-Cyclic GMP
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01312  Prostaglandin I2
+            C14748  20-HETE
+            C14768  5,6-EET
+            C14769  8,9-EET
+            C14770  11,12-EET
+            C14771  14,15-EET
+REFERENCE   PMID:17458653
+  AUTHORS   Akata T
+  TITLE     Cellular and molecular mechanisms regulating vascular tone. Part 2: regulatory mechanisms modulating Ca2+ mobilization and/or myofilament Ca2+ sensitivity in vascular smooth muscle cells.
+  JOURNAL   J Anesth 21:232-42 (2007)
+            DOI:10.1007/s00540-006-0488-4
+REFERENCE   PMID:12689814
+  AUTHORS   Ogut O, Brozovich FV
+  TITLE     Regulation of force in vascular smooth muscle.
+  JOURNAL   J Mol Cell Cardiol 35:347-55 (2003)
+            DOI:10.1016/S0022-2828(03)00045-2
+REFERENCE   PMID:16339747
+  AUTHORS   Hilgers RH, Webb RC
+  TITLE     Molecular aspects of arterial smooth muscle contraction: focus on Rho.
+  JOURNAL   Exp Biol Med (Maywood) 230:829-35 (2005)
+            DOI:10.1177/153537020523001107
+REFERENCE   PMID:12693609
+  AUTHORS   Schlossmann J, Feil R, Hofmann F
+  TITLE     Signaling through NO and cGMP-dependent protein kinases.
+  JOURNAL   Ann Med 35:21-7 (2003)
+            DOI:10.1080/07853890310004093
+REFERENCE   PMID:16870827
+  AUTHORS   Mehta PK, Griendling KK
+  TITLE     Angiotensin II cell signaling: physiological and pathological effects in the cardiovascular system.
+  JOURNAL   Am J Physiol Cell Physiol 292:C82-97 (2007)
+            DOI:10.1152/ajpcell.00287.2006
+REFERENCE   PMID:19120701
+  AUTHORS   Kim HR, Appel S, Vetterkind S, Gangopadhyay SS, Morgan KG
+  TITLE     Smooth muscle signalling pathways in health and disease.
+  JOURNAL   J Cell Mol Med 12:2165-80 (2008)
+            DOI:10.1111/j.1582-4934.2008.00552.x
+REFERENCE   PMID:11165670
+  AUTHORS   Fukata Y, Amano M, Kaibuchi K
+  TITLE     Rho-Rho-kinase pathway in smooth muscle contraction and cytoskeletal reorganization of non-muscle cells.
+  JOURNAL   Trends Pharmacol Sci 22:32-9 (2001)
+            DOI:10.1016/S0165-6147(00)01596-0
+REFERENCE   PMID:17158339
+  AUTHORS   Dimopoulos GJ, Semba S, Kitazawa K, Eto M, Kitazawa T
+  TITLE     Ca2+-dependent rapid Ca2+ sensitization of contraction in arterial smooth muscle.
+  JOURNAL   Circ Res 100:121-9 (2007)
+            DOI:10.1161/01.RES.0000253902.90489.df
+REFERENCE   PMID:17200683
+  AUTHORS   Hynynen MM, Khalil RA
+  TITLE     The vascular endothelin system in hypertension--recent patents and discoveries.
+  JOURNAL   Recent Pat Cardiovasc Drug Discov 1:95-108 (2006)
+            DOI:10.2174/157489006775244263
+REFERENCE   PMID:15269340
+  AUTHORS   Brain SD, Grant AD
+  TITLE     Vascular actions of calcitonin gene-related peptide and adrenomedullin.
+  JOURNAL   Physiol Rev 84:903-34 (2004)
+            DOI:10.1152/physrev.00037.2003
+REFERENCE   PMID:11773611
+  AUTHORS   Roman RJ
+  TITLE     P-450 metabolites of arachidonic acid in the control of cardiovascular function.
+  JOURNAL   Physiol Rev 82:131-85 (2002)
+            DOI:10.1152/physrev.00021.2001
+REFERENCE   PMID:18040024
+  AUTHORS   Surks HK
+  TITLE     cGMP-dependent protein kinase I and smooth muscle relaxation: a tale of two isoforms.
+  JOURNAL   Circ Res 101:1078-80 (2007)
+            DOI:10.1161/CIRCRESAHA.107.165779
+REFERENCE   PMID:15026027
+  AUTHORS   Vanhoutte PM
+  TITLE     Endothelium-dependent hyperpolarizations: the history.
+  JOURNAL   Pharmacol Res 49:503-8 (2004)
+            DOI:10.1016/j.phrs.2003.11.015
+REFERENCE   PMID:10221985
+  AUTHORS   Davis MJ, Hill MA
+  TITLE     Signaling mechanisms underlying the vascular myogenic response.
+  JOURNAL   Physiol Rev 79:387-423 (1999)
+            DOI:10.1152/physrev.1999.79.2.387
+REFERENCE   PMID:11679404
+  AUTHORS   Fleming I.
+  TITLE     Cytochrome p450 and vascular homeostasis.
+  JOURNAL   Circ Res 89:753-62 (2001)
+            DOI:10.1161/hh2101.099268
+REFERENCE   PMID:10911373
+  AUTHORS   Carvajal JA, Germain AM, Huidobro-Toro JP, Weiner CP
+  TITLE     Molecular mechanism of cGMP-mediated smooth muscle relaxation.
+  JOURNAL   J Cell Physiol 184:409-20 (2000)
+            DOI:10.1002/1097-4652(200009)184:3<409::AID-JCP16>3.0.CO;2-K
+REFERENCE   PMID:18552454
+  AUTHORS   Ko EA, Han J, Jung ID, Park WS
+  TITLE     Physiological roles of K+ channels in vascular smooth muscle cells.
+  JOURNAL   J Smooth Muscle Res 44:65-81 (2008)
+            DOI:10.1540/jsmr.44.65
+REFERENCE   PMID:18703404
+  AUTHORS   Woodard GE, Rosado JA
+  TITLE     Natriuretic peptides in vascular physiology and pathology.
+  JOURNAL   Int Rev Cell Mol Biol 268:59-93 (2008)
+            DOI:10.1016/S1937-6448(08)00803-4
+REFERENCE   PMID:11709400
+  AUTHORS   Berry C, Touyz R, Dominiczak AF, Webb RC, Johns DG
+  TITLE     Angiotensin receptors: signaling, vascular pathophysiology, and interactions with ceramide.
+  JOURNAL   Am J Physiol Heart Circ Physiol 281:H2337-65 (2001)
+            DOI:10.1152/ajpheart.2001.281.6.H2337
+REFERENCE   PMID:15725705
+  AUTHORS   Hirano K, Hirano M, Kanaide H
+  TITLE     Regulation of myosin phosphorylation and myofilament Ca2+ sensitivity in vascular smooth muscle.
+  JOURNAL   J Smooth Muscle Res 40:219-36 (2004)
+            DOI:10.1540/jsmr.40.219
+REFERENCE   PMID:9458738
+  AUTHORS   Freeman EJ, Ruehr ML, Dorman RV
+  TITLE     ANG II-induced translocation of cytosolic PLA2 to the nucleus in vascular smooth muscle cells.
+  JOURNAL   Am J Physiol 274:C282-8 (1998)
+            DOI:10.1152/ajpcell.1998.274.1.C282
+REFERENCE   PMID:12060106
+  AUTHORS   Murphy TV, Spurrell BE, Hill MA
+  TITLE     Cellular signalling in arteriolar myogenic constriction: involvement of tyrosine phosphorylation pathways.
+  JOURNAL   Clin Exp Pharmacol Physiol 29:612-9 (2002)
+            DOI:10.1046/j.1440-1681.2002.03698.x
+REL_PATHWAY mmu00590  Arachidonic acid metabolism
+            mmu04020  Calcium signaling pathway
+KO_PATHWAY  ko04270
+///

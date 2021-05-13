@@ -1,0 +1,84 @@
+ENTRY       mmu03420                    Pathway
+NAME        Nucleotide excision repair - Mus musculus (mouse)
+DESCRIPTION Nucleotide excision repair (NER) is a mechanism to recognize and repair bulky DNA damage caused by compounds, environmental carcinogens, and exposure to UV-light. In humans hereditary defects in the NER pathway are linked to at least three diseases: xeroderma pigmentosum (XP), Cockayne syndrome (CS), and trichothiodystrophy (TTD). The repair of damaged DNA involves at least 30 polypeptides within two different sub-pathways of NER known as transcription-coupled repair (TCR-NER) and global genome repair (GGR-NER). TCR refers to the expedited repair of lesions located in the actively transcribed strand of genes by RNA polymerase II (RNAP II). In GGR-NER the first step of damage recognition involves XPC-hHR23B complex together with XPE complex (in prokaryotes, uvrAB complex). The following steps of GGR-NER and TCR-NER are similar.
+CLASS       Genetic Information Processing; Replication and repair
+PATHWAY_MAP mmu03420  Nucleotide excision repair
+DBLINKS     GO: 0006289
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        56438  Rbx1; ring-box 1 [KO:K03868] [EC:2.3.2.32]
+            72584  Cul4b; cullin 4B [KO:K10609]
+            99375  Cul4a; cullin 4A [KO:K10609]
+            13194  Ddb1; damage specific DNA binding protein 1 [KO:K10610]
+            107986  Ddb2; damage specific DNA binding protein 2 [KO:K10140]
+            22591  Xpc; xeroderma pigmentosum, complementation group C [KO:K10838]
+            19359  Rad23b; RAD23 homolog B, nucleotide excision repair protein [KO:K10839]
+            19358  Rad23a; RAD23 homolog A, nucleotide excision repair protein [KO:K10839]
+            26370  Cetn2; centrin 2 [KO:K10840]
+            71991  Ercc8; excision repaiross-complementing rodent repair deficiency, complementation group 8 [KO:K10570]
+            319955  Ercc6; excision repair cross-complementing rodent repair deficiency, complementation group 6 [KO:K10841]
+            12572  Cdk7; cyclin-dependent kinase 7 [KO:K02202] [EC:2.7.11.22 2.7.11.23]
+            17420  Mnat1; menage a trois 1 [KO:K10842]
+            66671  Ccnh; cyclin H [KO:K06634]
+            13872  Ercc3; excision repair cross-complementing rodent repair deficiency, complementation group 3 [KO:K10843] [EC:3.6.4.12]
+            13871  Ercc2; excision repair cross-complementing rodent repair deficiency, complementation group 2 [KO:K10844] [EC:3.6.4.12]
+            66467  Gtf2h5; general transcription factor IIH, polypeptide 5 [KO:K10845]
+            14884  Gtf2h1; general transcription factor II H, polypeptide 1 [KO:K03141]
+            23894  Gtf2h2; general transcription factor II H, polypeptide 2 [KO:K03142]
+            209357  Gtf2h3; general transcription factor IIH, polypeptide 3 [KO:K03143]
+            14885  Gtf2h4; general transcription factor II H, polypeptide 4 [KO:K03144]
+            22592  Ercc5; excision repair cross-complementing rodent repair deficiency, complementation group 5 [KO:K10846]
+            22590  Xpa; xeroderma pigmentosum, complementation group A [KO:K10847]
+            68275  Rpa1; replication protein A1 [KO:K07466]
+            19891  Rpa2; replication protein A2 [KO:K10739]
+            68240  Rpa3; replication protein A3 [KO:K10740]
+            50505  Ercc4; excision repair cross-complementing rodent repair deficiency, complementation group 4 [KO:K10848] [EC:3.1.-.-]
+            13870  Ercc1; excision repair cross-complementing rodent repair deficiency, complementation group 1 [KO:K10849]
+            18971  Pold1; polymerase (DNA directed), delta 1, catalytic subunit [KO:K02327] [EC:2.7.7.7]
+            18972  Pold2; polymerase (DNA directed), delta 2, regulatory subunit [KO:K02328]
+            67967  Pold3; polymerase (DNA-directed), delta 3, accessory subunit [KO:K03504]
+            69745  Pold4; polymerase (DNA-directed), delta 4 [KO:K03505]
+            18973  Pole; polymerase (DNA directed), epsilon [KO:K02324] [EC:2.7.7.7]
+            18974  Pole2; polymerase (DNA directed), epsilon 2 (p59 subunit) [KO:K02325] [EC:2.7.7.7]
+            59001  Pole3; polymerase (DNA directed), epsilon 3 (p17 subunit) [KO:K02326] [EC:2.7.7.7]
+            66979  Pole4; polymerase (DNA-directed), epsilon 4 (p12 subunit) [KO:K03506] [EC:2.7.7.7]
+            18538  Pcna; proliferating cell nuclear antigen [KO:K04802]
+            19687  Rfc1; replication factor C (activator 1) 1 [KO:K10754]
+            106344  Rfc4; replication factor C (activator 1) 4 [KO:K10755]
+            19718  Rfc2; replication factor C (activator 1) 2 [KO:K10755]
+            72151  Rfc5; replication factor C (activator 1) 5 [KO:K10756]
+            69263  Rfc3; replication factor C (activator 1) 3 [KO:K10756]
+            16881  Lig1; ligase I, DNA, ATP-dependent [KO:K10747] [EC:6.5.1.1 6.5.1.6 6.5.1.7]
+REFERENCE   PMID:11436314
+  AUTHORS   Sugasawa K.
+  TITLE     [Molecular mechanism of mammalian nucleotide excision repair] Japanese
+  JOURNAL   Tanpakushitsu Kakusan Koso 46:893-901 (2001)
+REFERENCE   PMID:11436316
+  AUTHORS   Nakatsu Y.
+  TITLE     [Transcription-coupled repair and Cockayne syndrome] Japanese
+  JOURNAL   Tanpakushitsu Kakusan Koso 46:908-15 (2001)
+REFERENCE   PMID:11436323
+  AUTHORS   Nakagawa N, Masui R, Kuramitsu S.
+  TITLE     [Structure and function of DNA repair enzyme UvrB from Thermus thermophilus HB8] Japanese
+  JOURNAL   Tanpakushitsu Kakusan Koso 46:968-75 (2001)
+REFERENCE   PMID:17276014
+  AUTHORS   Kraemer KH, Patronas NJ, Schiffmann R, Brooks BP, Tamura D, DiGiovanna JJ.
+  TITLE     Xeroderma pigmentosum, trichothiodystrophy and Cockayne syndrome: a complex genotype-phenotype relationship.
+  JOURNAL   Neuroscience 145:1388-96 (2007)
+            DOI:10.1016/j.neuroscience.2006.12.020
+REFERENCE   PMID:17884153
+  AUTHORS   Saldivar JS, Wu X, Follen M, Gershenson D.
+  TITLE     Nucleotide excision repair pathway review I: implications in ovarian cancer and platinum sensitivity.
+  JOURNAL   Gynecol Oncol 107:S56-71 (2007)
+            DOI:10.1016/j.ygyno.2007.07.043
+REFERENCE   PMID:16922398
+  AUTHORS   Sugasawa K.
+  TITLE     [DNA repair pathways involving Cul4A ubiquitin ligases] Japanese
+  JOURNAL   Tanpakushitsu Kakusan Koso 51:1339-44 (2006)
+REFERENCE   PMID:18018633
+  AUTHORS   Ito S, Ando D, Tanaka K.
+  TITLE     [Cross-talk between DNA repair and transcription: molecular mechanism and disorders] Japanese
+  JOURNAL   Tanpakushitsu Kakusan Koso 52:1823-31 (2007)
+REL_PATHWAY mmu03020  RNA polymerase
+            mmu04120  Ubiquitin mediated proteolysis
+KO_PATHWAY  ko03420
+///

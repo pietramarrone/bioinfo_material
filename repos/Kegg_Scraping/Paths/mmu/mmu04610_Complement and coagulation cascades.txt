@@ -1,0 +1,180 @@
+ENTRY       mmu04610                    Pathway
+NAME        Complement and coagulation cascades - Mus musculus (mouse)
+DESCRIPTION The complement system is a proteolytic cascade in blood plasma and a mediator of innate immunity, a nonspecific defense mechanism against pathogens. There are three pathways of complement activation: the classical pathway, the lectin pathway, and the alternative pathway. All of these pathways generate a crucial enzymatic activity that, in turn, generates the effector molecules of complement. The main consequences of complement activation are the opsonization of pathogens, the recruitment of inflammatory and immunocompetent cells, and the direct killing of pathogens. Blood coagulation is another series of proenzyme-to-serine protease conversions, culminating the formation of thrombin, the enzyme responsible for the conversion of soluble fibrinogen to the insoluble fibrin clot. Protease-activated receptors, such as those activated by thrombin, are members of G protein-coupled receptors and function as a mediator of innate immunity. The kallikrein-kinin system is an endogenous metabolic cascade, triggering of which results in the release of vasoactive kinins (bradykinin-related peptides). Kinin peptides are implicated in many physiological and pathological processes including the regulation of blood pressure and sodium homeostasis, inflammatory processes, and the cardioprotective effects of preconditioning.
+CLASS       Organismal Systems; Immune system
+PATHWAY_MAP mmu04610  Complement and coagulation cascades
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14066  F3; coagulation factor III [KO:K03901]
+            14068  F7; coagulation factor VII [KO:K01320] [EC:3.4.21.21]
+            14058  F10; coagulation factor X [KO:K01314] [EC:3.4.21.6]
+            14067  F5; coagulation factor V [KO:K03902]
+            14061  F2; coagulation factor II [KO:K01313] [EC:3.4.21.5]
+            58992  F12; coagulation factor XII (Hageman factor) [KO:K01328] [EC:3.4.21.38]
+            109821  F11; coagulation factor XI [KO:K01323] [EC:3.4.21.27]
+            14071  F9; coagulation factor IX [KO:K01321] [EC:3.4.21.22]
+            22371  Vwf; Von Willebrand factor [KO:K03900]
+            14069  F8; coagulation factor VIII [KO:K03899]
+            21824  Thbd; thrombomodulin [KO:K03907]
+            19124  Procr; protein C receptor, endothelial [KO:K06557]
+            19123  Proc; protein C [KO:K01344] [EC:3.4.21.69]
+            14062  F2r; coagulation factor II (thrombin) receptor [KO:K03914]
+            14064  F2rl2; coagulation factor II (thrombin) receptor-like 2 [KO:K04235]
+            14065  F2rl3; coagulation factor II (thrombin) receptor-like 3 [KO:K04236]
+            74145  F13a1; coagulation factor XIII, A1 subunit [KO:K03917] [EC:2.3.2.13]
+            14060  F13b; coagulation factor XIII, beta subunit [KO:K03906]
+            56373  Cpb2; carboxypeptidase B2 (plasma) [KO:K01300] [EC:3.4.17.20]
+            14161  Fga; fibrinogen alpha chain [KO:K03903]
+            110135  Fgb; fibrinogen beta chain [KO:K03904]
+            99571  Fgg; fibrinogen gamma chain [KO:K03905]
+            16621  Klkb1; kallikrein B, plasma 1 [KO:K01324] [EC:3.4.21.34]
+            16644  Kng1; kininogen 1 [KO:K03898]
+            385643  Kng2; kininogen 2 [KO:K03898]
+            12061  Bdkrb1; bradykinin receptor, beta 1 [KO:K03915]
+            12062  Bdkrb2; bradykinin receptor, beta 2 [KO:K03916]
+            18815  Plg; plasminogen [KO:K01315] [EC:3.4.21.7]
+            21788  Tfpi; tissue factor pathway inhibitor [KO:K03909]
+            11905  Serpinc1; serine (or cysteine) peptidase inhibitor, clade C (antithrombin), member 1 [KO:K03911]
+            15160  Serpind1; serine (or cysteine) peptidase inhibitor, clade D, member 1 [KO:K03912]
+            268591  Serpina5; serine (or cysteine) peptidase inhibitor, clade A, member 5 [KO:K03913]
+            19128  Pros1; protein S (alpha) [KO:K03908]
+            18787  Serpine1; serine (or cysteine) peptidase inhibitor, clade E, member 1 [KO:K03982]
+            18788  Serpinb2; serine (or cysteine) peptidase inhibitor, clade B, member 2 [KO:K19821]
+            18791  Plat; plasminogen activator, tissue [KO:K01343] [EC:3.4.21.68]
+            18792  Plau; plasminogen activator, urokinase [KO:K01348] [EC:3.4.21.73]
+            18793  Plaur; plasminogen activator, urokinase receptor [KO:K03985]
+            20700  Serpina1a; serine (or cysteine) peptidase inhibitor, clade A, member 1A [KO:K03984]
+            20701  Serpina1b; serine (or cysteine) preptidase inhibitor, clade A, member 1B [KO:K03984]
+            20702  Serpina1c; serine (or cysteine) peptidase inhibitor, clade A, member 1C [KO:K03984]
+            20703  Serpina1d; serine (or cysteine) peptidase inhibitor, clade A, member 1D [KO:K03984]
+            20704  Serpina1e; serine (or cysteine) peptidase inhibitor, clade A, member 1E [KO:K03984]
+            18816  Serpinf2; serine (or cysteine) peptidase inhibitor, clade F, member 2 [KO:K03983]
+            232345  A2m; alpha-2-macroglobulin [KO:K03910]
+            14962  Cfb; complement factor B [KO:K01335] [EC:3.4.21.47]
+            11537  Cfd; complement factor D (adipsin) [KO:K01334] [EC:3.4.21.46]
+            12266  C3; complement component 3 [KO:K03990]
+            15139  Hc; hemolytic complement [KO:K03994]
+            12274  C6; complement component 6 [KO:K03995]
+            109828  C7; complement component 7 [KO:K03996]
+            230558  C8a; complement component 8, alpha polypeptide [KO:K03997]
+            110382  C8b; complement component 8, beta polypeptide [KO:K03998]
+            69379  C8g; complement component 8, gamma polypeptide [KO:K03999]
+            12279  C9; complement component 9 [KO:K04000]
+            12259  C1qa; complement component 1, q subcomponent, alpha polypeptide [KO:K03986]
+            12260  C1qb; complement component 1, q subcomponent, beta polypeptide [KO:K03987]
+            12262  C1qc; complement component 1, q subcomponent, C chain [KO:K03988]
+            50909  C1ra; complement component 1, r subcomponent A [KO:K01330] [EC:3.4.21.41]
+            667277  C1rb; complement component 1, r subcomponent B [KO:K01330] [EC:3.4.21.41]
+            317677  C1s2; complement component 1, s subcomponent 2 [KO:K01331] [EC:3.4.21.42]
+            50908  C1s1; complement component 1, s subcomponent 1 [KO:K01331] [EC:3.4.21.42]
+            17194  Mbl1; mannose-binding lectin (protein A) 1 [KO:K03991]
+            17195  Mbl2; mannose-binding lectin (protein C) 2 [KO:K03991]
+            17174  Masp1; mannan-binding lectin serine peptidase 1 [KO:K03992] [EC:3.4.21.-]
+            17175  Masp2; mannan-binding lectin serine peptidase 2 [KO:K03993] [EC:3.4.21.104]
+            12263  C2; complement component 2 (within H-2S) [KO:K01332] [EC:3.4.21.43]
+            12268  C4b; complement component 4B (Chido blood group) [KO:K03989]
+            12267  C3ar1; complement component 3a receptor 1 [KO:K04009]
+            278180  Vsig4; V-set and immunoglobulin domain containing 4 [KO:K19822]
+            12946  Cr1l; complement component (3b/4b) receptor 1-like [KO:K04011]
+            12902  Cr2; complement receptor 2 [KO:K04012]
+            16409  Itgam; integrin alpha M [KO:K06461]
+            16414  Itgb2; integrin beta 2 [KO:K06464]
+            16415  Itgb2l; integrin beta 2-like [KO:K06464]
+            16411  Itgax; integrin alpha X [KO:K06462]
+            12273  C5ar1; complement component 5a receptor 1 [KO:K04010]
+            12628  Cfh; complement component factor h [KO:K04004]
+            214403  Gm4788; predicted gene 4788 [KO:K04004]
+            12630  Cfi; complement component factor i [KO:K01333] [EC:3.4.21.45]
+            12258  Serping1; serine (or cysteine) peptidase inhibitor, clade G, member 1 [KO:K04001]
+            13136  Cd55; CD55 molecule, decay accelerating factor for complement [KO:K04006]
+            13137  Cd55b; CD55 molecule, decay accelerating factor for complement B [KO:K04006]
+            17221  Cd46; CD46 antigen, complement regulatory protein [KO:K04007]
+            12269  C4bp; complement component 4 binding protein [KO:K04002]
+            22789  Zp3r; zona pellucida 3 receptor [KO:K04002]
+            50702  Cfhr1; complement factor H-related 1 [KO:K23815]
+            545366  Cfhr2; complement factor H-related 2 [KO:K23815]
+            624286  Cfhr3; complement factor H-related 3 [KO:K23815]
+            12509  Cd59a; CD59a antigen [KO:K04008]
+            333883  Cd59b; CD59b antigen [KO:K04008]
+            12759  Clu; clusterin [KO:K17252]
+            22370  Vtn; vitronectin [KO:K06251]
+COMPOUND    C00290  Fibrin
+REFERENCE   PMID:26489954
+  AUTHORS   Bajic G, Degn SE, Thiel S, Andersen GR
+  TITLE     Complement activation, regulation, and molecular basis for complement-related diseases.
+  JOURNAL   EMBO J 34:2735-57 (2015)
+            DOI:10.15252/embj.201591881
+REFERENCE   PMID:25568220
+  AUTHORS   Mathern DR, Heeger PS
+  TITLE     Molecules Great and Small: The Complement System.
+  JOURNAL   Clin J Am Soc Nephrol 10:1636-50 (2015)
+            DOI:10.2215/CJN.06230614
+REFERENCE   PMID:26082779
+  AUTHORS   Merle NS, Church SE, Fremeaux-Bacchi V, Roumenina LT
+  TITLE     Complement System Part I - Molecular Mechanisms of Activation and Regulation.
+  JOURNAL   Front Immunol 6:262 (2015)
+            DOI:10.3389/fimmu.2015.00262
+REFERENCE   PMID:21811895
+  AUTHORS   Oikonomopoulou K, Ricklin D, Ward PA, Lambris JD
+  TITLE     Interactions between coagulation and complement--their role in inflammation.
+  JOURNAL   Semin Immunopathol 34:151-65 (2012)
+            DOI:10.1007/s00281-011-0280-x
+REFERENCE   PMID:25705421
+  AUTHORS   Kurosawa S, Stearns-Kurosawa DJ
+  TITLE     Complement, thrombotic microangiopathy and disseminated intravascular coagulation.
+  JOURNAL   J Intensive Care 2:65 (2014)
+            DOI:10.1186/s40560-014-0061-4
+REFERENCE   PMID:23110467
+  AUTHORS   Hillmeister P, Persson PB
+  TITLE     The Kallikrein-Kinin system.
+  JOURNAL   Acta Physiol (Oxf) 206:215-9 (2012)
+            DOI:10.1111/apha.12007
+REFERENCE   PMID:17635716
+  AUTHORS   Rau JC, Beaulieu LM, Huntington JA, Church FC
+  TITLE     Serpins in thrombosis, hemostasis and fibrinolysis.
+  JOURNAL   J Thromb Haemost 5 Suppl 1:102-15 (2007)
+            DOI:10.1111/j.1538-7836.2007.02516.x
+REFERENCE   PMID:26324800
+  AUTHORS   Crooks MG, Hart SP
+  TITLE     Coagulation and anticoagulation in idiopathic pulmonary fibrosis.
+  JOURNAL   Eur Respir Rev 24:392-9 (2015)
+            DOI:10.1183/16000617.00008414
+REFERENCE   PMID:23911436
+  AUTHORS   Christiaans SC, Wagener BM, Esmon CT, Pittet JF
+  TITLE     Protein C and acute inflammation: a clinical and biological perspective.
+  JOURNAL   Am J Physiol Lung Cell Mol Physiol 305:L455-66 (2013)
+            DOI:10.1152/ajplung.00093.2013
+REFERENCE   PMID:24924409
+  AUTHORS   Alberelli MA, De Candia E
+  TITLE     Functional role of protease activated receptors in vascular biology.
+  JOURNAL   Vascul Pharmacol 62:72-81 (2014)
+            DOI:10.1016/j.vph.2014.06.001
+REFERENCE   PMID:20027185
+  AUTHORS   Smith HW, Marshall CJ
+  TITLE     Regulation of cell signalling by uPAR.
+  JOURNAL   Nat Rev Mol Cell Biol 11:23-36 (2010)
+            DOI:10.1038/nrm2821
+REFERENCE   PMID:23564577
+  AUTHORS   Ricklin D, Lambris JD
+  TITLE     Complement in immune and inflammatory disorders: pathophysiological mechanisms.
+  JOURNAL   J Immunol 190:3831-8 (2013)
+            DOI:10.4049/jimmunol.1203487
+REFERENCE   PMID:23564578
+  AUTHORS   Ricklin D, Lambris JD
+  TITLE     Complement in immune and inflammatory disorders: therapeutic interventions.
+  JOURNAL   J Immunol 190:3839-47 (2013)
+            DOI:10.4049/jimmunol.1203200
+REFERENCE   PMID:25309880
+  AUTHORS   Loof TG, Deicke C, Medina E
+  TITLE     The role of coagulation/fibrinolysis during Streptococcus pyogenes infection.
+  JOURNAL   Front Cell Infect Microbiol 4:128 (2014)
+            DOI:10.3389/fcimb.2014.00128
+REFERENCE   PMID:25979655
+  AUTHORS   Jozsi M, Tortajada A, Uzonyi B, Goicoechea de Jorge E, Rodriguez de Cordoba S
+  TITLE     Factor H-related proteins determine complement-activating surfaces.
+  JOURNAL   Trends Immunol 36:374-84 (2015)
+            DOI:10.1016/j.it.2015.04.008
+REL_PATHWAY mmu04611  Platelet activation
+            mmu04662  B cell receptor signaling pathway
+            mmu04750  Inflammatory mediator regulation of TRP channels
+KO_PATHWAY  ko04610
+///

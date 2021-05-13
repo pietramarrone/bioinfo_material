@@ -1,0 +1,194 @@
+ENTRY       mmu01100                    Pathway
+NAME        Metabolic pathways - Mus musculus (mouse)
+PATHWAY_MAP mmu01100  Metabolic pathways
+MODULE      mmu_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate [PATH:mmu01100]
+            mmu_M00002  Glycolysis, core module involving three-carbon compounds [PATH:mmu01100]
+            mmu_M00003  Gluconeogenesis, oxaloacetate => fructose-6P [PATH:mmu01100]
+            mmu_M00004  Pentose phosphate pathway (Pentose phosphate cycle) [PATH:mmu01100]
+            mmu_M00005  PRPP biosynthesis, ribose 5P => PRPP [PATH:mmu01100]
+            mmu_M00006  Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P [PATH:mmu01100]
+            mmu_M00007  Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P [PATH:mmu01100]
+            mmu_M00009  Citrate cycle (TCA cycle, Krebs cycle) [PATH:mmu01100]
+            mmu_M00010  Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate [PATH:mmu01100]
+            mmu_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate [PATH:mmu01100]
+            mmu_M00014  Glucuronate pathway (uronate pathway) [PATH:mmu01100]
+            mmu_M00015  Proline biosynthesis, glutamate => proline [PATH:mmu01100]
+            mmu_M00020  Serine biosynthesis, glycerate-3P => serine [PATH:mmu01100]
+            mmu_M00027  GABA (gamma-Aminobutyrate) shunt [PATH:mmu01100]
+            mmu_M00029  Urea cycle [PATH:mmu01100]
+            mmu_M00032  Lysine degradation, lysine => saccharopine => acetoacetyl-CoA [PATH:mmu01100]
+            mmu_M00034  Methionine salvage pathway [PATH:mmu01100]
+            mmu_M00035  Methionine degradation [PATH:mmu01100]
+            mmu_M00036  Leucine degradation, leucine => acetoacetate + acetyl-CoA [PATH:mmu01100]
+            mmu_M00037  Melatonin biosynthesis, tryptophan => serotonin => melatonin [PATH:mmu01100]
+            mmu_M00038  Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate [PATH:mmu01100]
+            mmu_M00042  Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline [PATH:mmu01100]
+            mmu_M00043  Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine [PATH:mmu01100]
+            mmu_M00044  Tyrosine degradation, tyrosine => homogentisate [PATH:mmu01100]
+            mmu_M00045  Histidine degradation, histidine => N-formiminoglutamate => glutamate [PATH:mmu01100]
+            mmu_M00046  Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate [PATH:mmu01100]
+            mmu_M00047  Creatine pathway [PATH:mmu01100]
+            mmu_M00048  Inosine monophosphate biosynthesis, PRPP + glutamine => IMP [PATH:mmu01100]
+            mmu_M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP [PATH:mmu01100]
+            mmu_M00050  Guanine ribonucleotide biosynthesis IMP => GDP,GTP [PATH:mmu01100]
+            mmu_M00051  Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP [PATH:mmu01100]
+            mmu_M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP [PATH:mmu01100]
+            mmu_M00055  N-glycan precursor biosynthesis [PATH:mmu01100]
+            mmu_M00056  O-glycan biosynthesis, mucin type core [PATH:mmu01100]
+            mmu_M00057  Glycosaminoglycan biosynthesis, linkage tetrasaccharide [PATH:mmu01100]
+            mmu_M00058  Glycosaminoglycan biosynthesis, chondroitin sulfate backbone [PATH:mmu01100]
+            mmu_M00059  Glycosaminoglycan biosynthesis, heparan sulfate backbone [PATH:mmu01100]
+            mmu_M00065  GPI-anchor biosynthesis, core oligosaccharide [PATH:mmu01100]
+            mmu_M00066  Lactosylceramide biosynthesis [PATH:mmu01100]
+            mmu_M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid [PATH:mmu01100]
+            mmu_M00068  Glycosphingolipid biosynthesis, globo-series, LacCer => Gb4Cer [PATH:mmu01100]
+            mmu_M00069  Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3 [PATH:mmu01100]
+            mmu_M00070  Glycosphingolipid biosynthesis, lacto-series, LacCer => Lc4Cer [PATH:mmu01100]
+            mmu_M00071  Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer [PATH:mmu01100]
+            mmu_M00072  N-glycosylation by oligosaccharyltransferase [PATH:mmu01100]
+            mmu_M00073  N-glycan precursor trimming [PATH:mmu01100]
+            mmu_M00075  N-glycan biosynthesis, complex type [PATH:mmu01100]
+            mmu_M00076  Dermatan sulfate degradation [PATH:mmu01100]
+            mmu_M00077  Chondroitin sulfate degradation [PATH:mmu01100]
+            mmu_M00078  Heparan sulfate degradation [PATH:mmu01100]
+            mmu_M00079  Keratan sulfate degradation [PATH:mmu01100]
+            mmu_M00082  Fatty acid biosynthesis, initiation [PATH:mmu01100]
+            mmu_M00083  Fatty acid biosynthesis, elongation [PATH:mmu01100]
+            mmu_M00085  Fatty acid elongation in mitochondria [PATH:mmu01100]
+            mmu_M00086  beta-Oxidation, acyl-CoA synthesis [PATH:mmu01100]
+            mmu_M00087  beta-Oxidation [PATH:mmu01100]
+            mmu_M00089  Triacylglycerol biosynthesis [PATH:mmu01100]
+            mmu_M00090  Phosphatidylcholine (PC) biosynthesis, choline => PC [PATH:mmu01100]
+            mmu_M00091  Phosphatidylcholine (PC) biosynthesis, PE => PC [PATH:mmu01100]
+            mmu_M00092  Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE [PATH:mmu01100]
+            mmu_M00094  Ceramide biosynthesis [PATH:mmu01100]
+            mmu_M00095  C5 isoprenoid biosynthesis, mevalonate pathway [PATH:mmu01100]
+            mmu_M00098  Acylglycerol degradation [PATH:mmu01100]
+            mmu_M00099  Sphingosine biosynthesis [PATH:mmu01100]
+            mmu_M00100  Sphingosine degradation [PATH:mmu01100]
+            mmu_M00101  Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol [PATH:mmu01100]
+            mmu_M00103  Cholecalciferol biosynthesis [PATH:mmu01100]
+            mmu_M00106  Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate [PATH:mmu01100]
+            mmu_M00107  Steroid hormone biosynthesis, cholesterol => prognenolone => progesterone [PATH:mmu01100]
+            mmu_M00109  C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone [PATH:mmu01100]
+            mmu_M00110  C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone [PATH:mmu01100]
+            mmu_M00118  Glutathione biosynthesis, glutamate => glutathione [PATH:mmu01100]
+            mmu_M00120  Coenzyme A biosynthesis, pantothenate => CoA [PATH:mmu01100]
+            mmu_M00128  Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate => ubiquinone [PATH:mmu01100]
+            mmu_M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate [PATH:mmu01100]
+            mmu_M00130  Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4 [PATH:mmu01100]
+            mmu_M00131  Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol [PATH:mmu01100]
+            mmu_M00132  Inositol phosphate metabolism, Ins(1,3,4)P3 => phytate [PATH:mmu01100]
+            mmu_M00133  Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine [PATH:mmu01100]
+            mmu_M00134  Polyamine biosynthesis, arginine => ornithine => putrescine [PATH:mmu01100]
+            mmu_M00135  GABA biosynthesis, eukaryotes, putrescine => GABA [PATH:mmu01100]
+            mmu_M00141  C1-unit interconversion, eukaryotes [PATH:mmu01100]
+            mmu_M00307  Pyruvate oxidation, pyruvate => acetyl-CoA [PATH:mmu01100]
+            mmu_M00338  Cysteine biosynthesis, homocysteine + serine => cysteine [PATH:mmu01100]
+            mmu_M00367  C10-C20 isoprenoid biosynthesis, non-plant eukaryotes [PATH:mmu01100]
+            mmu_M00415  Fatty acid elongation in endoplasmic reticulum [PATH:mmu01100]
+            mmu_M00549  Nucleotide sugar biosynthesis, glucose => UDP-glucose [PATH:mmu01100]
+            mmu_M00554  Nucleotide sugar biosynthesis, galactose => UDP-galactose [PATH:mmu01100]
+            mmu_M00555  Betaine biosynthesis, choline => betaine [PATH:mmu01100]
+            mmu_M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P [PATH:mmu01100]
+            mmu_M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:mmu01100]
+            mmu_M00842  Tetrahydrobiopterin biosynthesis, GTP => BH4 [PATH:mmu01100]
+            mmu_M00844  Arginine biosynthesis, ornithine => arginine [PATH:mmu01100]
+            mmu_M00854  Glycogen biosynthesis, glucose-1P => glycogen/starch [PATH:mmu01100]
+            mmu_M00855  Glycogen degradation, glycogen => glucose-6P [PATH:mmu01100]
+            mmu_M00861  beta-Oxidation, peroxisome, VLCFA [PATH:mmu01100]
+            mmu_M00862  beta-Oxidation, peroxisome, tri/dihydroxycholestanoyl-CoA => choloyl/chenodeoxycholoyl-CoA [PATH:mmu01100]
+            mmu_M00868  Heme biosynthesis, animals and fungi, glycine => heme [PATH:mmu01100]
+            mmu_M00872  O-glycan biosynthesis, mannose type (core M3) [PATH:mmu01100]
+            mmu_M00873  Fatty acid biosynthesis in mitochondria, animals [PATH:mmu01100]
+            mmu_M00880  Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor [PATH:mmu01100]
+            mmu_M00892  UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc [PATH:mmu01100]
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+REL_PATHWAY mmu00010  Glycolysis / Gluconeogenesis
+            mmu00020  Citrate cycle (TCA cycle)
+            mmu00030  Pentose phosphate pathway
+            mmu00040  Pentose and glucuronate interconversions
+            mmu00051  Fructose and mannose metabolism
+            mmu00052  Galactose metabolism
+            mmu00053  Ascorbate and aldarate metabolism
+            mmu00061  Fatty acid biosynthesis
+            mmu00062  Fatty acid elongation
+            mmu00071  Fatty acid degradation
+            mmu00072  Synthesis and degradation of ketone bodies
+            mmu00100  Steroid biosynthesis
+            mmu00120  Primary bile acid biosynthesis
+            mmu00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            mmu00140  Steroid hormone biosynthesis
+            mmu00190  Oxidative phosphorylation
+            mmu00220  Arginine biosynthesis
+            mmu00230  Purine metabolism
+            mmu00232  Caffeine metabolism
+            mmu00240  Pyrimidine metabolism
+            mmu00250  Alanine, aspartate and glutamate metabolism
+            mmu00260  Glycine, serine and threonine metabolism
+            mmu00270  Cysteine and methionine metabolism
+            mmu00280  Valine, leucine and isoleucine degradation
+            mmu00290  Valine, leucine and isoleucine biosynthesis
+            mmu00310  Lysine degradation
+            mmu00330  Arginine and proline metabolism
+            mmu00340  Histidine metabolism
+            mmu00350  Tyrosine metabolism
+            mmu00360  Phenylalanine metabolism
+            mmu00380  Tryptophan metabolism
+            mmu00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            mmu00410  beta-Alanine metabolism
+            mmu00430  Taurine and hypotaurine metabolism
+            mmu00440  Phosphonate and phosphinate metabolism
+            mmu00450  Selenocompound metabolism
+            mmu00471  D-Glutamine and D-glutamate metabolism
+            mmu00472  D-Arginine and D-ornithine metabolism
+            mmu00480  Glutathione metabolism
+            mmu00500  Starch and sucrose metabolism
+            mmu00510  N-Glycan biosynthesis
+            mmu00511  Other glycan degradation
+            mmu00512  Mucin type O-glycan biosynthesis
+            mmu00513  Various types of N-glycan biosynthesis
+            mmu00514  Other types of O-glycan biosynthesis
+            mmu00515  Mannose type O-glycan biosynthesis
+            mmu00520  Amino sugar and nucleotide sugar metabolism
+            mmu00524  Neomycin, kanamycin and gentamicin biosynthesis
+            mmu00531  Glycosaminoglycan degradation
+            mmu00532  Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+            mmu00533  Glycosaminoglycan biosynthesis - keratan sulfate
+            mmu00534  Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+            mmu00561  Glycerolipid metabolism
+            mmu00562  Inositol phosphate metabolism
+            mmu00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+            mmu00564  Glycerophospholipid metabolism
+            mmu00565  Ether lipid metabolism
+            mmu00590  Arachidonic acid metabolism
+            mmu00591  Linoleic acid metabolism
+            mmu00592  alpha-Linolenic acid metabolism
+            mmu00600  Sphingolipid metabolism
+            mmu00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            mmu00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+            mmu00604  Glycosphingolipid biosynthesis - ganglio series
+            mmu00620  Pyruvate metabolism
+            mmu00630  Glyoxylate and dicarboxylate metabolism
+            mmu00640  Propanoate metabolism
+            mmu00650  Butanoate metabolism
+            mmu00670  One carbon pool by folate
+            mmu00730  Thiamine metabolism
+            mmu00740  Riboflavin metabolism
+            mmu00750  Vitamin B6 metabolism
+            mmu00760  Nicotinate and nicotinamide metabolism
+            mmu00770  Pantothenate and CoA biosynthesis
+            mmu00780  Biotin metabolism
+            mmu00785  Lipoic acid metabolism
+            mmu00790  Folate biosynthesis
+            mmu00830  Retinol metabolism
+            mmu00860  Porphyrin and chlorophyll metabolism
+            mmu00900  Terpenoid backbone biosynthesis
+            mmu00910  Nitrogen metabolism
+            mmu00920  Sulfur metabolism
+            mmu00980  Metabolism of xenobiotics by cytochrome P450
+            mmu00982  Drug metabolism - cytochrome P450
+            mmu00983  Drug metabolism - other enzymes
+            mmu01040  Biosynthesis of unsaturated fatty acids
+KO_PATHWAY  ko01100
+///

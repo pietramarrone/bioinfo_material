@@ -1,0 +1,165 @@
+ENTRY       mmu05414                    Pathway
+NAME        Dilated cardiomyopathy (DCM) - Mus musculus (mouse)
+DESCRIPTION Dilated cardiomyopathy (DCM) is a heart muscle disease characterised by dilation and impaired contraction of the left or both ventricles that results in progressive heart failure and sudden cardiac death from ventricular arrhythmia. Genetically inherited forms of DCM ("familial" DCM) have been identified in 25-35% of patients presenting with this disease, and the inherited gene defects are an important cause of "familial" DCM. The pathophysiology may be separated into two categories: defects in force generation and defects in force transmission. In cases where an underlying pathology cannot be identified, the patient is diagnosed with an "idiopathic" DCM. Current hypotheses regarding causes of "idiopathic" DCM focus on myocarditis induced by enterovirus and subsequent autoimmune myocardium impairments. Antibodies to the beta1-adrenergic receptor (beta1AR), which are detected in a substantial number of patients with "idiopathic" DCM, may increase the concentration of intracellular cAMP and intracellular Ca2+, a condition often leading to a transient hyper-performance of the heart followed by depressed heart function and heart failure.
+CLASS       Human Diseases; Cardiovascular disease
+PATHWAY_MAP mmu05414  Dilated cardiomyopathy (DCM)
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        109700  Itga1; integrin alpha 1 [KO:K06480]
+            16398  Itga2; integrin alpha 2 [KO:K06481]
+            16399  Itga2b; integrin alpha 2b [KO:K06476]
+            16400  Itga3; integrin alpha 3 [KO:K06482]
+            16401  Itga4; integrin alpha 4 [KO:K06483]
+            16402  Itga5; integrin alpha 5 (fibronectin receptor alpha) [KO:K06484]
+            16403  Itga6; integrin alpha 6 [KO:K06485]
+            16404  Itga7; integrin alpha 7 [KO:K06583]
+            241226  Itga8; integrin alpha 8 [KO:K06584]
+            104099  Itga9; integrin alpha 9 [KO:K06585]
+            213119  Itga10; integrin, alpha 10 [KO:K06586]
+            319480  Itga11; integrin alpha 11 [KO:K06587]
+            16410  Itgav; integrin alpha V [KO:K06487]
+            16412  Itgb1; integrin beta 1 (fibronectin receptor beta) [KO:K05719]
+            16416  Itgb3; integrin beta 3 [KO:K06493]
+            192897  Itgb4; integrin beta 4 [KO:K06525]
+            16419  Itgb5; integrin beta 5 [KO:K06588]
+            16420  Itgb6; integrin beta 6 [KO:K06589]
+            16421  Itgb7; integrin beta 7 [KO:K06590]
+            320910  Itgb8; integrin beta 8 [KO:K06591]
+            24052  Sgcd; sarcoglycan, delta (dystrophin-associated glycoprotein) [KO:K12563]
+            24053  Sgcg; sarcoglycan, gamma (dystrophin-associated glycoprotein) [KO:K12564]
+            20391  Sgca; sarcoglycan, alpha (dystrophin-associated glycoprotein) [KO:K12565]
+            24051  Sgcb; sarcoglycan, beta (dystrophin-associated glycoprotein) [KO:K12566]
+            16772  Lama1; laminin, alpha 1 [KO:K05637]
+            16773  Lama2; laminin, alpha 2 [KO:K05637]
+            13138  Dag1; dystroglycan 1 [KO:K06265]
+            13346  Des; desmin [KO:K07610]
+            13405  Dmd; dystrophin, muscular dystrophy [KO:K10366]
+            11465  Actg1; actin, gamma, cytoplasmic 1 [KO:K05692]
+            11461  Actb; actin, beta [KO:K05692]
+            22138  Ttn; titin [KO:K12567] [EC:2.7.11.1]
+            21956  Tnnt2; troponin T2, cardiac [KO:K12045]
+            21924  Tnnc1; troponin C, cardiac/slow skeletal [KO:K05865]
+            21954  Tnni3; troponin I, cardiac 3 [KO:K12044]
+            11464  Actc1; actin, alpha, cardiac muscle 1 [KO:K12314]
+            22003  Tpm1; tropomyosin 1, alpha [KO:K10373]
+            22004  Tpm2; tropomyosin 2, beta [KO:K10374]
+            59069  Tpm3; tropomyosin 3, gamma [KO:K09290]
+            326618  Tpm4; tropomyosin 4 [KO:K10375]
+            17868  Mybpc3; myosin binding protein C, cardiac [KO:K12568]
+            17897  Myl3; myosin, light polypeptide 3 [KO:K12749]
+            17906  Myl2; myosin, light polypeptide 2, regulatory, cardiac, slow [KO:K10351]
+            140781  Myh7; myosin, heavy polypeptide 7, cardiac muscle, beta [KO:K17751]
+            17888  Myh6; myosin, heavy polypeptide 6, cardiac muscle, alpha [KO:K17751]
+            13726  Emd; emerin [KO:K12569]
+            16905  Lmna; lamin A [KO:K12641]
+            11554  Adrb1; adrenergic receptor, beta 1 [KO:K04141]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            12295  Cacnb1; calcium channel, voltage-dependent, beta 1 subunit [KO:K04862]
+            12296  Cacnb2; calcium channel, voltage-dependent, beta 2 subunit [KO:K04863]
+            12297  Cacnb3; calcium channel, voltage-dependent, beta 3 subunit [KO:K04864]
+            12298  Cacnb4; calcium channel, voltage-dependent, beta 4 subunit [KO:K04865]
+            12293  Cacna2d1; calcium channel, voltage-dependent, alpha2/delta subunit 1 [KO:K04858]
+            56808  Cacna2d2; calcium channel, voltage-dependent, alpha 2/delta subunit 2 [KO:K04859]
+            12294  Cacna2d3; calcium channel, voltage-dependent, alpha2/delta subunit 3 [KO:K04860]
+            319734  Cacna2d4; calcium channel, voltage-dependent, alpha 2/delta subunit 4 [KO:K04861]
+            12299  Cacng1; calcium channel, voltage-dependent, gamma subunit 1 [KO:K04866]
+            12300  Cacng2; calcium channel, voltage-dependent, gamma subunit 2 [KO:K04867]
+            54376  Cacng3; calcium channel, voltage-dependent, gamma subunit 3 [KO:K04868]
+            54377  Cacng4; calcium channel, voltage-dependent, gamma subunit 4 [KO:K04869]
+            140723  Cacng5; calcium channel, voltage-dependent, gamma subunit 5 [KO:K04870]
+            54378  Cacng6; calcium channel, voltage-dependent, gamma subunit 6 [KO:K04871]
+            81904  Cacng7; calcium channel, voltage-dependent, gamma subunit 7 [KO:K04872]
+            81905  Cacng8; calcium channel, voltage-dependent, gamma subunit 8 [KO:K04873]
+            20191  Ryr2; ryanodine receptor 2, cardiac [KO:K04962]
+            11937  Atp2a1; ATPase, Ca++ transporting, cardiac muscle, fast twitch 1 [KO:K05853] [EC:7.2.2.10]
+            53313  Atp2a3; ATPase, Ca++ transporting, ubiquitous [KO:K05853] [EC:7.2.2.10]
+            11938  Atp2a2; ATPase, Ca++ transporting, cardiac muscle, slow twitch 2 [KO:K05853] [EC:7.2.2.10]
+            18821  Pln; phospholamban [KO:K05852]
+            20541  Slc8a1; solute carrier family 8 (sodium/calcium exchanger), member 1 [KO:K05849]
+            110891  Slc8a2; solute carrier family 8 (sodium/calcium exchanger), member 2 [KO:K05849]
+            110893  Slc8a3; solute carrier family 8 (sodium/calcium exchanger), member 3 [KO:K05849]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            21808  Tgfb2; transforming growth factor, beta 2 [KO:K13376]
+            21809  Tgfb3; transforming growth factor, beta 3 [KO:K13377]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            11606  Agt; angiotensinogen (serpin peptidase inhibitor, clade A, member 8) [KO:K09821]
+COMPOUND    C00076  Calcium cation
+            C00575  3',5'-Cyclic AMP
+            C01330  Sodium cation
+REFERENCE   PMID:12270949
+  AUTHORS   Fatkin D, Graham RM
+  TITLE     Molecular mechanisms of inherited cardiomyopathies.
+  JOURNAL   Physiol Rev 82:945-80 (2002)
+            DOI:10.1152/physrev.00012.2002
+REFERENCE   PMID:18672201
+  AUTHORS   Lappe JM, Pelfrey CM, Tang WH
+  TITLE     Recent insights into the role of autoimmunity in idiopathic dilated cardiomyopathy.
+  JOURNAL   J Card Fail 14:521-30 (2008)
+            DOI:10.1016/j.cardfail.2008.02.016
+REFERENCE   PMID:19273156
+  AUTHORS   Zhao P, Sharma AC, Ren J
+  TITLE     Pathogenesis and therapy of autoimmunity-induced dilated cardiomyopathy.
+  JOURNAL   Front Biosci 14:1708-15 (2009)
+            DOI:10.2741/3334
+REFERENCE   PMID:11716909
+  AUTHORS   Franz WM, Muller OJ, Katus HA
+  TITLE     Cardiomyopathies: from genetics to the prospect of treatment.
+  JOURNAL   Lancet 358:1627-37 (2001)
+            DOI:10.1016/S0140-6736(01)06657-0
+REFERENCE   PMID:11805847
+  AUTHORS   Towbin JA, Bowles NE
+  TITLE     The failing heart.
+  JOURNAL   Nature 415:227-33 (2002)
+            DOI:10.1038/415227a
+REFERENCE   PMID:19017683
+  AUTHORS   Luk A, Ahn E, Soor GS, Butany J
+  TITLE     Dilated cardiomyopathy: a review.
+  JOURNAL   J Clin Pathol 62:219-25 (2009)
+            DOI:10.1136/jcp.2008.060731
+REFERENCE   PMID:19246813
+  AUTHORS   Yoshikawa T, Baba A, Nagatomo Y
+  TITLE     Autoimmune mechanisms underlying dilated cardiomyopathy.
+  JOURNAL   Circ J 73:602-7 (2009)
+            DOI:10.1253/circj.CJ-08-1151
+REFERENCE   PMID:14522402
+  AUTHORS   Mason JW
+  TITLE     Myocarditis and dilated cardiomyopathy: an inflammatory link.
+  JOURNAL   Cardiovasc Res 60:5-10 (2003)
+            DOI:10.1016/S0008-6363(03)00437-1
+REFERENCE   PMID:15146239
+  AUTHORS   Jahns R, Boivin V, Hein L, Triebel S, Angermann CE, Ertl G, Lohse MJ
+  TITLE     Direct evidence for a beta 1-adrenergic receptor-directed autoimmune attack as a cause of idiopathic dilated cardiomyopathy.
+  JOURNAL   J Clin Invest 113:1419-29 (2004)
+            DOI:10.1172/JCI20149
+REFERENCE   PMID:11524405
+  AUTHORS   Liu PP, Mason JW
+  TITLE     Advances in the understanding of myocarditis.
+  JOURNAL   Circulation 104:1076-82 (2001)
+            DOI:10.1161/hc3401.095198
+REFERENCE   PMID:16817756
+  AUTHORS   Tam PE
+  TITLE     Coxsackievirus myocarditis: interplay between virus and host in the pathogenesis of heart disease.
+  JOURNAL   Viral Immunol 19:133-46 (2006)
+            DOI:10.1089/vim.2006.19.133
+REL_PATHWAY mmu04260  Cardiac muscle contraction
+            mmu04350  TGF-beta signaling pathway
+            mmu04512  ECM-receptor interaction
+            mmu04614  Renin-angiotensin system
+            mmu05416  Viral myocarditis
+KO_PATHWAY  ko05414
+///

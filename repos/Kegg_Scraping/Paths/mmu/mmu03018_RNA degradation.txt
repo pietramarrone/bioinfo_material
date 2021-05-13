@@ -1,0 +1,127 @@
+ENTRY       mmu03018                    Pathway
+NAME        RNA degradation - Mus musculus (mouse)
+DESCRIPTION The correct processing, quality control and turnover of cellular RNA molecules are critical to many aspects in the expression of genetic information. In eukaryotes, two major pathways of mRNA decay exist and both pathways are initiated by poly(A) shortening of the mRNA. In the 5' to 3' pathway, this is followed by decapping which then permits the 5' to 3' exonucleolytic degradation of transcripts. In the 3' to 5' pathway, the exosome, a large multisubunit complex, plays a key role. The exosome exists in archaeal cells, too. In bacteria, endoribonuclease E, a key enzyme involved in RNA decay and processing, organizes a protein complex called degradosome. RNase E or R interacts with the phosphate-dependent exoribonuclease polynucleotide phosphorylase, DEAD-box helicases, and additional factors in the RNA-degrading complex.
+CLASS       Genetic Information Processing; Folding, sorting and degradation
+PATHWAY_MAP mmu03018  RNA degradation
+DBLINKS     GO: 0006401
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        69305  Dcps; decapping enzyme, scavenger [KO:K12584] [EC:3.6.1.59]
+            66583  Exosc1; exosome component 1 [KO:K07573]
+            227715  Exosc2; exosome component 2 [KO:K03679]
+            66362  Exosc3; exosome component 3 [KO:K03681]
+            69639  Exosc8; exosome component 8 [KO:K12586]
+            72544  Exosc6; exosome component 6 [KO:K12587]
+            66446  Exosc7; exosome component 7 [KO:K12589]
+            109075  Exosc4; exosome component 4 [KO:K11600]
+            27998  Exosc5; exosome component 5 [KO:K12590]
+            50911  Exosc9; exosome component 9 [KO:K03678]
+            72662  Dis3; DIS3 homolog, exosome endoribonuclease and 3'-5' exoribonuclease [KO:K12585] [EC:3.1.13.-]
+            50912  Exosc10; exosome component 10 [KO:K12591] [EC:3.1.13.-]
+            57316  C1d; C1D nuclear receptor co-repressor [KO:K12592]
+            68533  Mphosph6; M phase phosphoprotein 6 [KO:K12593]
+            213550  Dis3l; DIS3 like exosome 3'-5' exoribonuclease [KO:K18681] [EC:3.1.13.-]
+            210106  Tent4a; terminal nucleotidyltransferase 4A [KO:K03514] [EC:2.7.7.19]
+            214627  Tent4b; terminal nucleotidyltransferase 4B [KO:K03514] [EC:2.7.7.19]
+            319885  Zcchc7; zinc finger, CCHC domain containing 7 [KO:K12597]
+            72198  Mtrex; Mtr4 exosome RNA helicase [KO:K12598] [EC:3.6.4.13]
+            108077  Skiv2l; superkiller viralicidic activity 2-like (S. cerevisiae) [KO:K12599] [EC:3.6.4.-]
+            218343  Ttc37; tetratricopeptide repeat domain 37 [KO:K12600]
+            66317  Wdr61; WD repeat domain 61 [KO:K12602]
+            104625  Cnot6; CCR4-NOT transcription complex, subunit 6 [KO:K12603] [EC:3.1.13.4]
+            231464  Cnot6l; CCR4-NOT transcription complex, subunit 6-like [KO:K12603] [EC:3.1.13.4]
+            234594  Cnot1; CCR4-NOT transcription complex, subunit 1 [KO:K12604]
+            72068  Cnot2; CCR4-NOT transcription complex, subunit 2 [KO:K12605]
+            232791  Cnot3; CCR4-NOT transcription complex, subunit 3 [KO:K12580]
+            53621  Cnot4; CCR4-NOT transcription complex, subunit 4 [KO:K10643] [EC:2.3.2.27]
+            18983  Cnot7; CCR4-NOT transcription complex, subunit 7 [KO:K12581]
+            69125  Cnot8; CCR4-NOT transcription complex, subunit 8 [KO:K12581]
+            58184  Cnot9; CCR4-NOT transcription complex, subunit 9 [KO:K12606]
+            78893  Cnot10; CCR4-NOT transcription complex, subunit 10 [KO:K12607]
+            72162  Dhx36; DEAH (Asp-Glu-Ala-His) box polypeptide 36 [KO:K14442] [EC:3.6.4.13]
+            74108  Parn; poly(A)-specific ribonuclease (deadenylation nuclease) [KO:K01148] [EC:3.1.13.4]
+            240023  Pnldc1; poly(A)-specific ribonuclease (PARN)-like domain containing 1 [KO:K01148] [EC:3.1.13.4]
+            12226  Btg1; BTG anti-proliferation factor 1 [KO:K14443]
+            12227  Btg2; BTG anti-proliferation factor 2 [KO:K14443]
+            12228  Btg3; BTG anti-proliferation factor 3 [KO:K14443]
+            194735  Btg1c; BTG anti-proliferation factor 1C [KO:K14443]
+            22057  Tob1; transducer of ErbB-2.1 [KO:K14443]
+            436199  Btg1b; BTG anti-proliferation factor 1B [KO:K14443]
+            56057  Btg4; BTG anti-proliferation factor 4 [KO:K14443]
+            57259  Tob2; transducer of ERBB2, 2 [KO:K14443]
+            18458  Pabpc1; poly(A) binding protein, cytoplasmic 1 [KO:K13126]
+            93728  Pabpc5; poly(A) binding protein, cytoplasmic 5 [KO:K13126]
+            230721  Pabpc4; poly(A) binding protein, cytoplasmic 4 [KO:K13126]
+            381404  Pabpc1l; poly(A) binding protein, cytoplasmic 1-like [KO:K13126]
+            67543  Pabpc6; poly(A) binding protein, cytoplasmic 6 [KO:K13126]
+            241989  Pabpc4l; poly(A) binding protein, cytoplasmic 4-like [KO:K13126]
+            18459  Pabpc2; poly(A) binding protein, cytoplasmic 2 [KO:K13126]
+            103135  Pan2; PAN2 poly(A) specific ribonuclease subunit [KO:K12571] [EC:3.1.13.4]
+            72587  Pan3; PAN3 poly(A) specific ribonuclease subunit [KO:K12572]
+            75901  Dcp1a; decapping mRNA 1A [KO:K12610] [EC:3.-.-.-]
+            319618  Dcp1b; decapping mRNA 1B [KO:K12611] [EC:3.-.-.-]
+            70640  Dcp2; decapping mRNA 2 [KO:K12613] [EC:3.6.1.62]
+            13209  Ddx6; DEAD (Asp-Glu-Ala-Asp) box polypeptide 6 [KO:K12614] [EC:3.6.4.13]
+            353190  Edc3; enhancer of mRNA decapping 3 [KO:K12615]
+            234699  Edc4; enhancer of mRNA decapping 4 [KO:K12616]
+            225929  Patl1; protein associated with topoisomerase II homolog 1 (yeast) [KO:K12617]
+            24127  Xrn1; 5'-3' exoribonuclease 1 [KO:K12618] [EC:3.1.13.-]
+            24128  Xrn2; 5'-3' exoribonuclease 2 [KO:K12619] [EC:3.1.13.-]
+            75686  Nudt16; nudix (nucleoside diphosphate linked moiety X)-type motif 16 [KO:K16855] [EC:3.6.1.62 3.6.1.64]
+            73532  Nudt16l2; nudix (nucleoside diphosphate linked moiety X)-type motif 16-like 2 [KO:K16855] [EC:3.6.1.62 3.6.1.64]
+            67207  Lsm1; LSM1 homolog, mRNA degradation associated [KO:K12620]
+            27756  Lsm2; LSM2 homolog, U6 small nuclear RNA and mRNA degradation associated [KO:K12621]
+            67678  Lsm3; LSM3 homolog, U6 small nuclear RNA and mRNA degradation associated [KO:K12622]
+            50783  Lsm4; LSM4 homolog, U6 small nuclear RNA and mRNA degradation associated [KO:K12623]
+            66373  Lsm5; LSM5 homolog, U6 small nuclear RNA and mRNA degradation associated [KO:K12624]
+            78651  Lsm6; LSM6 homolog, U6 small nuclear RNA and mRNA degradation associated [KO:K12625]
+            66094  Lsm7; LSM7 homolog, U6 small nuclear RNA and mRNA degradation associated [KO:K12626]
+            76522  Lsm8; LSM8 homolog, U6 small nuclear RNA associated [KO:K12627]
+            13806  Eno1; enolase 1, alpha non-neuron [KO:K01689] [EC:4.2.1.11]
+            13807  Eno2; enolase 2, gamma neuronal [KO:K01689] [EC:4.2.1.11]
+            13808  Eno3; enolase 3, beta muscle [KO:K01689] [EC:4.2.1.11]
+            433182  Eno1b; enolase 1B, retrotransposed [KO:K01689] [EC:4.2.1.11]
+            226265  Eno4; enolase 4 [KO:K01689] [EC:4.2.1.11]
+            71701  Pnpt1; polyribonucleotide nucleotidyltransferase 1 [KO:K00962] [EC:2.7.7.8]
+            18641  Pfkl; phosphofructokinase, liver, B-type [KO:K00850] [EC:2.7.1.11]
+            18642  Pfkm; phosphofructokinase, muscle [KO:K00850] [EC:2.7.1.11]
+            56421  Pfkp; phosphofructokinase, platelet [KO:K00850] [EC:2.7.1.11]
+            15526  Hspa9; heat shock protein 9 [KO:K04043]
+            15510  Hspd1; heat shock protein 1 (chaperonin) [KO:K04077]
+REFERENCE   PMID:19239894
+  AUTHORS   Houseley J, Tollervey D
+  TITLE     The many pathways of RNA degradation.
+  JOURNAL   Cell 136:763-76 (2009)
+            DOI:10.1016/j.cell.2009.01.019
+REFERENCE   PMID:16968219
+  AUTHORS   Buttner K, Wenig K, Hopfner KP
+  TITLE     The exosome: a macromolecular cage for controlled RNA degradation.
+  JOURNAL   Mol Microbiol 61:1372-9 (2006)
+            DOI:10.1111/j.1365-2958.2006.05331.x
+REFERENCE   PMID:16939780
+  AUTHORS   Schilders G, van Dijk E, Raijmakers R, Pruijn GJ
+  TITLE     Cell and molecular biology of the exosome: how to make or break an RNA.
+  JOURNAL   Int Rev Cytol 251:159-208 (2006)
+            DOI:10.1016/S0074-7696(06)51005-8
+REFERENCE   PMID:17471261
+  AUTHORS   Hartung S, Hopfner KP
+  TITLE     The exosome, plugged.
+  JOURNAL   EMBO Rep 8:456-7 (2007)
+            DOI:10.1038/sj.embor.7400961
+REFERENCE   PMID:17447862
+  AUTHORS   Carpousis AJ
+  TITLE     The RNA degradosome of Escherichia coli: an mRNA-degrading machine assembled on RNase E.
+  JOURNAL   Annu Rev Microbiol 61:71-87 (2007)
+            DOI:10.1146/annurev.micro.61.080706.093440
+REFERENCE   PMID:16766188
+  AUTHORS   Marcaida MJ, DePristo MA, Chandran V, Carpousis AJ, Luisi BF
+  TITLE     The RNA degradosome: life in the fast lane of adaptive molecular evolution.
+  JOURNAL   Trends Biochem Sci 31:359-65 (2006)
+            DOI:10.1016/j.tibs.2006.05.005
+REFERENCE   PMID:17560162
+  AUTHORS   Condon C
+  TITLE     Maturation and degradation of RNA in bacteria.
+  JOURNAL   Curr Opin Microbiol 10:271-8 (2007)
+            DOI:10.1016/j.mib.2007.05.008
+REL_PATHWAY mmu03015  mRNA surveillance pathway
+KO_PATHWAY  ko03018
+///

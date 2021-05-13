@@ -1,0 +1,98 @@
+ENTRY       mmu00640                    Pathway
+NAME        Propanoate metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP mmu00640  Propanoate metabolism
+MODULE      mmu_M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:mmu00640]
+DBLINKS     GO: 0019541
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        68738  Acss1; acyl-CoA synthetase short-chain family member 1 [KO:K01895] [EC:6.2.1.1]
+            60525  Acss2; acyl-CoA synthetase short-chain family member 2 [KO:K01895] [EC:6.2.1.1]
+            380660  Acss3; acyl-CoA synthetase short-chain family member 3 [KO:K01908] [EC:6.2.1.17]
+            12039  Bckdha; branched chain ketoacid dehydrogenase E1, alpha polypeptide [KO:K00166] [EC:1.2.4.4]
+            12040  Bckdhb; branched chain ketoacid dehydrogenase E1, beta polypeptide [KO:K00167] [EC:1.2.4.4]
+            13171  Dbt; dihydrolipoamide branched chain transacylase E2 [KO:K09699] [EC:2.3.1.168]
+            13382  Dld; dihydrolipoamide dehydrogenase [KO:K00382] [EC:1.8.1.4]
+            11409  Acads; acyl-Coenzyme A dehydrogenase, short chain [KO:K00248] [EC:1.3.8.1]
+            80911  Acox3; acyl-Coenzyme A oxidase 3, pristanoyl [KO:K00232] [EC:1.3.3.6]
+            11430  Acox1; acyl-Coenzyme A oxidase 1, palmitoyl [KO:K00232] [EC:1.3.3.6]
+            97212  Hadha; hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit alpha [KO:K07515] [EC:4.2.1.17 1.1.1.211]
+            74147  Ehhadh; enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase [KO:K07514] [EC:4.2.1.17 1.1.1.35 5.3.3.8]
+            93747  Echs1; enoyl Coenzyme A hydratase, short chain, 1, mitochondrial [KO:K07511] [EC:4.2.1.17]
+            227095  Hibch; 3-hydroxyisobutyryl-Coenzyme A hydrolase [KO:K05605] [EC:3.1.2.4]
+            107476  Acaca; acetyl-Coenzyme A carboxylase alpha [KO:K11262] [EC:6.4.1.2 6.3.4.14 2.1.3.15]
+            100705  Acacb; acetyl-Coenzyme A carboxylase beta [KO:K01946] [EC:6.4.1.2 6.3.4.14 2.1.3.15]
+            56690  Mlycd; malonyl-CoA decarboxylase [KO:K01578] [EC:4.1.1.9]
+            268860  Abat; 4-aminobutyrate aminotransferase [KO:K13524] [EC:2.6.1.19 2.6.1.22]
+            110821  Pcca; propionyl-Coenzyme A carboxylase, alpha polypeptide [KO:K01965] [EC:6.4.1.3]
+            66904  Pccb; propionyl Coenzyme A carboxylase, beta polypeptide [KO:K01966] [EC:6.4.1.3 2.1.3.15]
+            52665  Echdc1; enoyl Coenzyme A hydratase domain containing 1 [KO:K18426] [EC:4.1.1.94 4.1.1.-]
+            73724  Mcee; methylmalonyl CoA epimerase [KO:K05606] [EC:5.1.99.1]
+            17850  Mmut; methylmalonyl-Coenzyme A mutase [KO:K01847] [EC:5.4.99.2]
+            56451  Suclg1; succinate-CoA ligase, GDP-forming, alpha subunit [KO:K01899] [EC:6.2.1.4 6.2.1.5]
+            20917  Suclg2; succinate-Coenzyme A ligase, GDP-forming, beta subunit [KO:K01900] [EC:6.2.1.4 6.2.1.5]
+            20916  Sucla2; succinate-Coenzyme A ligase, ADP-forming, beta subunit [KO:K01900] [EC:6.2.1.4 6.2.1.5]
+            104776  Aldh6a1; aldehyde dehydrogenase family 6, subfamily A1 [KO:K00140] [EC:1.2.1.18 1.2.1.27]
+            16828  Ldha; lactate dehydrogenase A [KO:K00016] [EC:1.1.1.27]
+            16832  Ldhb; lactate dehydrogenase B [KO:K00016] [EC:1.1.1.27]
+            16833  Ldhc; lactate dehydrogenase C [KO:K00016] [EC:1.1.1.27]
+            106557  Ldhal6b; lactate dehydrogenase A-like 6B [KO:K00016] [EC:1.1.1.27]
+            110460  Acat2; acetyl-Coenzyme A acetyltransferase 2 [KO:K00626] [EC:2.3.1.9]
+            110446  Acat1; acetyl-Coenzyme A acetyltransferase 1 [KO:K00626] [EC:2.3.1.9]
+COMPOUND    C00024  Acetyl-CoA
+            C00033  Acetate
+            C00042  Succinate
+            C00068  Thiamin diphosphate
+            C00083  Malonyl-CoA
+            C00091  Succinyl-CoA
+            C00099  beta-Alanine
+            C00100  Propanoyl-CoA
+            C00109  2-Oxobutanoate
+            C00111  Glycerone phosphate
+            C00132  Methanol
+            C00163  Propanoate
+            C00164  Acetoacetate
+            C00186  (S)-Lactate
+            C00207  Acetone
+            C00222  3-Oxopropanoate
+            C00332  Acetoacetyl-CoA
+            C00424  (S)-Lactaldehyde
+            C00479  Propanal
+            C00546  Methylglyoxal
+            C00583  Propane-1,2-diol
+            C00683  (S)-Methylmalonyl-CoA
+            C00804  Propynoate
+            C00827  Lactoyl-CoA
+            C00894  Propenoyl-CoA
+            C01013  3-Hydroxypropanoate
+            C01213  (R)-Methylmalonyl-CoA
+            C01845  Propan-2-ol
+            C02170  Methylmalonate
+            C02225  2-Methylcitrate
+            C02335  beta-Alanyl-CoA
+            C02876  Propanoyl phosphate
+            C04225  (Z)-But-2-ene-1,2,3-tricarboxylate
+            C04593  (2S,3R)-3-Hydroxybutane-1,2,3-tricarboxylate
+            C05235  Hydroxyacetone
+            C05668  3-Hydroxypropionyl-CoA
+            C05979  Propane-1-ol
+            C05983  Propionyladenylate
+            C05984  2-Hydroxybutanoic acid
+            C05989  3-Oxopropionyl-CoA
+            C06002  (S)-Methylmalonate semialdehyde
+            C15972  Enzyme N6-(lipoyl)lysine
+            C15973  Enzyme N6-(dihydrolipoyl)lysine
+            C17530  Methyl acetate
+            C20783  Propane
+            C21017  2-(alpha-Hydroxypropyl)thiamine diphosphate
+            C21018  Enzyme N6-(S-propyldihydrolipoyl)lysine
+            C21250  2-Methyl-trans-aconitate
+REL_PATHWAY mmu00010  Glycolysis / Gluconeogenesis
+            mmu00020  Citrate cycle (TCA cycle)
+            mmu00260  Glycine, serine and threonine metabolism
+            mmu00270  Cysteine and methionine metabolism
+            mmu00280  Valine, leucine and isoleucine degradation
+            mmu00410  beta-Alanine metabolism
+            mmu00620  Pyruvate metabolism
+            mmu00770  Pantothenate and CoA biosynthesis
+KO_PATHWAY  ko00640
+///

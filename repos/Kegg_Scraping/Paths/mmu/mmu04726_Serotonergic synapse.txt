@@ -1,0 +1,266 @@
+ENTRY       mmu04726                    Pathway
+NAME        Serotonergic synapse - Mus musculus (mouse)
+DESCRIPTION Serotonin (5-Hydroxytryptamine, 5-HT) is a monoamine neurotransmitter that plays important roles in physiological functions such as learning and memory, emotion, sleep, pain, motor function and endocrine secretion, as well as in pathological states including abnormal mood and cognition. Once released from presynaptic axonal terminals, 5-HT binds to receptors, which have been divided into 7 subfamilies on the basis of conserved structures and signaling mechanisms. These families include the ionotropic 5-HT3 receptors and G-protein-coupled 5-HT receptors, the 5-HT1 (Gi /Go -coupled), 5-HT2(Gq-coupled), 5-HT4/6/7 (Gs-coupled) and 5-HT5 receptors. Presynaptically localized 5-HT1B receptors are thought to be the autoreceptors that suppress excess 5-HT release. 5-HT's actions are terminated by transporter- mediated reuptake into neurons, leading to catabolism by monoamine oxidase.
+CLASS       Organismal Systems; Nervous system
+PATHWAY_MAP mmu04726  Serotonergic synapse
+DBLINKS     GO: 0007210
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        21990  Tph1; tryptophan hydroxylase 1 [KO:K00502] [EC:1.14.16.4]
+            216343  Tph2; tryptophan hydroxylase 2 [KO:K00502] [EC:1.14.16.4]
+            13195  Ddc; dopa decarboxylase [KO:K01593] [EC:4.1.1.28 4.1.1.105]
+            110877  Slc18a1; solute carrier family 18 (vesicular monoamine), member 1 [KO:K08155]
+            214084  Slc18a2; solute carrier family 18 (vesicular monoamine), member 2 [KO:K08155]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            15558  Htr2a; 5-hydroxytryptamine (serotonin) receptor 2A [KO:K04157]
+            15559  Htr2b; 5-hydroxytryptamine (serotonin) receptor 2B [KO:K04157]
+            15560  Htr2c; 5-hydroxytryptamine (serotonin) receptor 2C [KO:K04157]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            13097  Cyp2c38; cytochrome P450, family 2, subfamily c, polypeptide 38 [KO:K07413] [EC:1.14.14.1]
+            13098  Cyp2c39; cytochrome P450, family 2, subfamily c, polypeptide 39 [KO:K07413] [EC:1.14.14.1]
+            13099  Cyp2c40; cytochrome P450, family 2, subfamily c, polypeptide 40 [KO:K07413] [EC:1.14.14.1]
+            226143  Cyp2c23; cytochrome P450, family 2, subfamily c, polypeptide 23 [KO:K07413] [EC:1.14.14.1]
+            13095  Cyp2c29; cytochrome P450, family 2, subfamily c, polypeptide 29 [KO:K07413] [EC:1.14.14.1]
+            226105  Cyp2c70; cytochrome P450, family 2, subfamily c, polypeptide 70 [KO:K07413] [EC:1.14.14.1]
+            13096  Cyp2c37; cytochrome P450, family 2. subfamily c, polypeptide 37 [KO:K07413] [EC:1.14.14.1]
+            72082  Cyp2c55; cytochrome P450, family 2, subfamily c, polypeptide 55 [KO:K07413] [EC:1.14.14.1]
+            72303  Cyp2c65; cytochrome P450, family 2, subfamily c, polypeptide 65 [KO:K07413] [EC:1.14.14.1]
+            69888  Cyp2c66; cytochrome P450, family 2, subfamily c, polypeptide 66 [KO:K07413] [EC:1.14.14.1]
+            107141  Cyp2c50; cytochrome P450, family 2, subfamily c, polypeptide 50 [KO:K07413] [EC:1.14.14.1]
+            404195  Cyp2c54; cytochrome P450, family 2, subfamily c, polypeptide 54 [KO:K07413] [EC:1.14.14.1]
+            433247  Cyp2c68; cytochrome P450, family 2, subfamily c, polypeptide 68 [KO:K07413] [EC:1.14.14.1]
+            56448  Cyp2d22; cytochrome P450, family 2, subfamily d, polypeptide 22 [KO:K07414] [EC:1.14.14.1]
+            13105  Cyp2d9; cytochrome P450, family 2, subfamily d, polypeptide 9 [KO:K07414] [EC:1.14.14.1]
+            13101  Cyp2d10; cytochrome P450, family 2, subfamily d, polypeptide 10 [KO:K07414] [EC:1.14.14.1]
+            76279  Cyp2d26; cytochrome P450, family 2, subfamily d, polypeptide 26 [KO:K07414] [EC:1.14.14.1]
+            223706  Cyp2d34; cytochrome P450, family 2, subfamily d, polypeptide 34 [KO:K07414] [EC:1.14.14.1]
+            380997  Cyp2d12; cytochrome P450, family 2, subfamily d, polypeptide 12 [KO:K07414] [EC:1.14.14.1]
+            545123  Cyp2d11; cytochrome P450, family 2, subfamily d, polypeptide 11 [KO:K07414] [EC:1.14.14.1]
+            71754  Cyp2d40; cytochrome P450, family 2, subfamily d, polypeptide 40 [KO:K07414] [EC:1.14.14.1]
+            665095  Cyp2j8; cytochrome P450, family 2, subfamily j, polypeptide 8 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            230459  Cyp2j13; cytochrome P450, family 2, subfamily j, polypeptide 13 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            100066  Cyp2j11; cytochrome P450, family 2, subfamily j, polypeptide 11 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            74519  Cyp2j9; cytochrome P450, family 2, subfamily j, polypeptide 9 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            13109  Cyp2j5; cytochrome P450, family 2, subfamily j, polypeptide 5 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            242546  Cyp2j12; cytochrome P450, family 2, subfamily j, polypeptide 12 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            13110  Cyp2j6; cytochrome P450, family 2, subfamily j, polypeptide 6 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            81906  Cyp4x1; cytochrome P450, family 4, subfamily x, polypeptide 1 [KO:K07428] [EC:1.14.14.1]
+            11689  Alox5; arachidonate 5-lipoxygenase [KO:K00461] [EC:1.13.11.34]
+            11684  Alox12; arachidonate 12-lipoxygenase [KO:K00458] [EC:1.13.11.31]
+            11685  Alox12e; arachidonate lipoxygenase, epidermal [KO:K00458] [EC:1.13.11.31]
+            11686  Alox12b; arachidonate 12-lipoxygenase, 12R type [KO:K08021] [EC:1.13.11.-]
+            11687  Alox15; arachidonate 15-lipoxygenase [KO:K00460] [EC:1.13.11.33]
+            11688  Alox8; arachidonate 8-lipoxygenase [KO:K08022] [EC:1.13.11.33 1.13.11.-]
+            19224  Ptgs1; prostaglandin-endoperoxide synthase 1 [KO:K00509] [EC:1.14.99.1]
+            19225  Ptgs2; prostaglandin-endoperoxide synthase 2 [KO:K11987] [EC:1.14.99.1]
+            15561  Htr3a; 5-hydroxytryptamine (serotonin) receptor 3A [KO:K04819]
+            57014  Htr3b; 5-hydroxytryptamine (serotonin) receptor 3B [KO:K04819]
+            15562  Htr4; 5 hydroxytryptamine (serotonin) receptor 4 [KO:K04160]
+            15565  Htr6; 5-hydroxytryptamine (serotonin) receptor 6 [KO:K04162]
+            15566  Htr7; 5-hydroxytryptamine (serotonin) receptor 7 [KO:K04163]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            140492  Kcnn2; potassium intermediate/small conductance calcium-activated channel, subfamily N, member 2 [KO:K04943]
+            16508  Kcnd2; potassium voltage-gated channel, Shal-related family, member 2 [KO:K04892]
+            14400  Gabrb1; gamma-aminobutyric acid (GABA) A receptor, subunit beta 1 [KO:K05181]
+            14402  Gabrb3; gamma-aminobutyric acid (GABA) A receptor, subunit beta 3 [KO:K05181]
+            14401  Gabrb2; gamma-aminobutyric acid (GABA) A receptor, subunit beta 2 [KO:K05181]
+            223864  Rapgef3; Rap guanine nucleotide exchange factor (GEF) 3 [KO:K08014]
+            11820  App; amyloid beta (A4) precursor protein [KO:K04520]
+            15550  Htr1a; 5-hydroxytryptamine (serotonin) receptor 1A [KO:K04153]
+            15551  Htr1b; 5-hydroxytryptamine (serotonin) receptor 1B [KO:K04153]
+            15552  Htr1d; 5-hydroxytryptamine (serotonin) receptor 1D [KO:K04153]
+            15557  Htr1f; 5-hydroxytryptamine (serotonin) receptor 1F [KO:K04153]
+            15563  Htr5a; 5-hydroxytryptamine (serotonin) receptor 5A [KO:K04161]
+            15564  Htr5b; 5-hydroxytryptamine (serotonin) receptor 5B [KO:K04161]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            14681  Gnao1; guanine nucleotide binding protein, alpha O [KO:K04534]
+            14688  Gnb1; guanine nucleotide binding protein (G protein), beta 1 [KO:K04536]
+            14693  Gnb2; guanine nucleotide binding protein (G protein), beta 2 [KO:K04537]
+            14695  Gnb3; guanine nucleotide binding protein (G protein), beta 3 [KO:K07825]
+            14696  Gnb4; guanine nucleotide binding protein (G protein), beta 4 [KO:K04538]
+            14697  Gnb5; guanine nucleotide binding protein (G protein), beta 5 [KO:K04539]
+            14702  Gng2; guanine nucleotide binding protein (G protein), gamma 2 [KO:K07826]
+            14704  Gng3; guanine nucleotide binding protein (G protein), gamma 3 [KO:K04540]
+            14706  Gng4; guanine nucleotide binding protein (G protein), gamma 4 [KO:K04541]
+            14707  Gng5; guanine nucleotide binding protein (G protein), gamma 5 [KO:K04542]
+            14708  Gng7; guanine nucleotide binding protein (G protein), gamma 7 [KO:K04543]
+            14709  Gng8; guanine nucleotide binding protein (G protein), gamma 8 [KO:K04544]
+            14700  Gng10; guanine nucleotide binding protein (G protein), gamma 10 [KO:K04545]
+            66066  Gng11; guanine nucleotide binding protein (G protein), gamma 11 [KO:K04546]
+            14701  Gng12; guanine nucleotide binding protein (G protein), gamma 12 [KO:K04347]
+            100503710  Gm5741; predicted gene 5741 [KO:K04347]
+            64337  Gng13; guanine nucleotide binding protein (G protein), gamma 13 [KO:K04547]
+            14699  Gngt1; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 1 [KO:K04548]
+            14710  Gngt2; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 2 [KO:K04549]
+            12367  Casp3; caspase 3 [KO:K02187] [EC:3.4.22.56]
+            19252  Dusp1; dual specificity phosphatase 1 [KO:K21278] [EC:3.1.3.16 3.1.3.48]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            12286  Cacna1a; calcium channel, voltage-dependent, P/Q type, alpha 1A subunit [KO:K04344]
+            12287  Cacna1b; calcium channel, voltage-dependent, N type, alpha 1B subunit [KO:K04849]
+            16519  Kcnj3; potassium inwardly-rectifying channel, subfamily J, member 3 [KO:K04997]
+            16522  Kcnj6; potassium inwardly-rectifying channel, subfamily J, member 6 [KO:K05000]
+            16524  Kcnj9; potassium inwardly-rectifying channel, subfamily J, member 9 [KO:K05002]
+            16521  Kcnj5; potassium inwardly-rectifying channel, subfamily J, member 5 [KO:K04999]
+            22063  Trpc1; transient receptor potential cation channel, subfamily C, member 1 [KO:K04964]
+            15567  Slc6a4; solute carrier family 6 (neurotransmitter transporter, serotonin), member 4 [KO:K05037]
+            17161  Maoa; monoamine oxidase A [KO:K00274] [EC:1.4.3.4]
+            109731  Maob; monoamine oxidase B [KO:K00274] [EC:1.4.3.4]
+COMPOUND    C00076  Calcium cation
+            C00078  L-Tryptophan
+            C00165  Diacylglycerol
+            C00219  Arachidonate
+            C00238  Potassium cation
+            C00427  Prostaglandin H2
+            C00575  3',5'-Cyclic AMP
+            C00584  Prostaglandin E2
+            C00639  Prostaglandin F2alpha
+            C00643  5-Hydroxy-L-tryptophan
+            C00696  Prostaglandin D2
+            C00780  Serotonin
+            C00909  Leukotriene A4
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01330  Sodium cation
+            C02165  Leukotriene B4
+            C02166  Leukotriene C4
+            C02198  Thromboxane A2
+            C04822  8(R)-HPETE
+            C05356  5(S)-HPETE
+            C05635  5-Hydroxyindoleacetate
+            C05953  Prostaglandin A2
+            C05954  Prostaglandin B2
+            C05955  Prostaglandin C2
+            C05956  Prostaglandin G2
+            C05957  Prostaglandin J2
+            C05963  Thromboxane B2
+            C05964  11-Dehydro-thromboxane B2
+            C05965  12(S)-HPETE
+            C05966  15(S)-HPETE
+            C14768  5,6-EET
+            C14769  8,9-EET
+            C14770  11,12-EET
+            C14771  14,15-EET
+            C14772  5,6-DHET
+            C14773  8,9-DHET
+            C14774  11,12-DHET
+            C14775  14,15-DHET
+            C14812  12(R)-HPETE
+            C14820  11(R)-HPETE
+            C14821  9(S)-HPETE
+            C14823  8(S)-HPETE
+REFERENCE   PMID:18676031
+  AUTHORS   Millan MJ, Marin P, Bockaert J, Mannoury la Cour C
+  TITLE     Signaling at G-protein-coupled serotonin receptors: recent advances and future research directions.
+  JOURNAL   Trends Pharmacol Sci 29:454-64 (2008)
+            DOI:10.1016/j.tips.2008.06.007
+REFERENCE   PMID:16896947
+  AUTHORS   Bockaert J, Claeysen S, Becamel C, Dumuis A, Marin P
+  TITLE     Neuronal 5-HT metabotropic receptors: fine-tuning of their structure, signaling, and roles in synaptic modulation.
+  JOURNAL   Cell Tissue Res 326:553-72 (2006)
+            DOI:10.1007/s00441-006-0286-1
+REFERENCE   PMID:11916537
+  AUTHORS   Raymond JR, Mukhin YV, Gelasco A, Turner J, Collinsworth G, Gettys TW, Grewal JS, Garnovskaya MN
+  TITLE     Multiplicity of mechanisms of serotonin receptor signal transduction.
+  JOURNAL   Pharmacol Ther 92:179-212 (2001)
+            DOI:10.1016/S0163-7258(01)00169-3
+REFERENCE   PMID:15034221
+  AUTHORS   Noda M, Higashida H, Aoki S, Wada K
+  TITLE     Multiple signal transduction pathways mediated by 5-HT receptors.
+  JOURNAL   Mol Neurobiol 29:31-9 (2004)
+            DOI:10.1385/MN:29:1:31
+REFERENCE   PMID:20561690
+  AUTHORS   Daubert EA, Condron BG
+  TITLE     Serotonin: a regulator of neuronal morphology and circuitry.
+  JOURNAL   Trends Neurosci 33:424-34 (2010)
+            DOI:10.1016/j.tins.2010.05.005
+REFERENCE   PMID:16826372
+  AUTHORS   Chameau P, van Hooft JA
+  TITLE     Serotonin 5-HT(3) receptors in the central nervous system.
+  JOURNAL   Cell Tissue Res 326:573-81 (2006)
+            DOI:10.1007/s00441-006-0255-8
+REFERENCE   PMID:9651340
+  AUTHORS   Tournois C, Mutel V, Manivet P, Launay JM, Kellermann O
+  TITLE     Cross-talk between 5-hydroxytryptamine receptors in a serotonergic cell line. Involvement of arachidonic acid metabolism.
+  JOURNAL   J Biol Chem 273:17498-503 (1998)
+            DOI:10.1074/jbc.273.28.17498
+REFERENCE   PMID:19545642
+  AUTHORS   Iliff JJ, Jia J, Nelson J, Goyagi T, Klaus J, Alkayed NJ
+  TITLE     Epoxyeicosanoid signaling in CNS function and disease.
+  JOURNAL   Prostaglandins Other Lipid Mediat 91:68-84 (2010)
+            DOI:10.1016/j.prostaglandins.2009.06.004
+REFERENCE   PMID:12676358
+  AUTHORS   Adayev T, Ray I, Sondhi R, Sobocki T, Banerjee P
+  TITLE     The G protein-coupled 5-HT1A receptor causes suppression of caspase-3 through MAPK and protein kinase Calpha.
+  JOURNAL   Biochim Biophys Acta 1640:85-96 (2003)
+            DOI:10.1016/S0167-4889(03)00023-5
+REFERENCE   PMID:11701344
+  AUTHORS   Albert PR, Tiberi M
+  TITLE     Receptor signaling and structure: insights from serotonin-1 receptors.
+  JOURNAL   Trends Endocrinol Metab 12:453-60 (2001)
+            DOI:10.1016/S1043-2760(01)00498-2
+REFERENCE   PMID:9658404
+  AUTHORS   Durham PL, Russo AF
+  TITLE     Serotonergic repression of mitogen-activated protein kinase control of the calcitonin gene-related peptide enhancer.
+  JOURNAL   Mol Endocrinol 12:1002-9 (1998)
+            DOI:10.1210/mend.12.7.0135
+REFERENCE   PMID:15710402
+  AUTHORS   Robert S, Maillet M, Morel E, Launay JM, Fischmeister R, Mercken L, Lezoualc'h F
+  TITLE     Regulation of the amyloid precursor protein ectodomain shedding by the 5-HT4 receptor and Epac.
+  JOURNAL   FEBS Lett 579:1136-42 (2005)
+            DOI:10.1016/j.febslet.2005.01.010
+REFERENCE   PMID:12543273
+  AUTHORS   Lezoualc'h F, Robert SJ
+  TITLE     The serotonin 5-HT4 receptor and the amyloid precursor protein processing.
+  JOURNAL   Exp Gerontol 38:159-66 (2003)
+            DOI:10.1016/S0531-5565(02)00157-2
+REFERENCE   PMID:11043573
+  AUTHORS   Durham PL, Russo AF
+  TITLE     Differential regulation of mitogen-activated protein kinase-responsive genes by the duration of a calcium signal.
+  JOURNAL   Mol Endocrinol 14:1570-82 (2000)
+            DOI:10.1210/mend.14.10.0529
+REFERENCE   PMID:9542727
+  AUTHORS   Hagberg GB, Blomstrand F, Nilsson M, Tamir H, Hansson E
+  TITLE     Stimulation of 5-HT2A receptors on astrocytes in primary culture opens voltage-independent Ca2+ channels.
+  JOURNAL   Neurochem Int 32:153-62 (1998)
+            DOI:10.1016/S0197-0186(97)00087-9
+REFERENCE   
+  AUTHORS   Nestler EJ, Hyman SE, Malenka RC.
+  TITLE     Molecular neuropharmacology: A foundation for clinical neuroscience
+  JOURNAL   The McGraw-Hill Companies, Inc. (2001)
+REL_PATHWAY mmu00380  Tryptophan metabolism
+            mmu00590  Arachidonic acid metabolism
+            mmu04020  Calcium signaling pathway
+            mmu04721  Synaptic vesicle cycle
+            mmu04976  Bile secretion
+KO_PATHWAY  ko04726
+///

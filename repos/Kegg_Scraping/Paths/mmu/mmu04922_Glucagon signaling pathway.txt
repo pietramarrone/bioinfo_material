@@ -1,0 +1,231 @@
+ENTRY       mmu04922                    Pathway
+NAME        Glucagon signaling pathway - Mus musculus (mouse)
+DESCRIPTION Glucagon is conventionally regarded as a counterregulatory hormone for insulin and plays a critical anti-hypoglycemic role by maintaining glucose homeostasis in both animals and humans. To increase blood glucose, glucagon promotes hepatic glucose output by increasing glycogenolysis and gluconeogenesis and by decreasing glycogenesis and glycolysis in a concerted fashion via multiple mechanisms. Glucagon also stimulates hepatic mitochondrial beta-oxidation to supply energy for glucose production. Glucagon performs its main effect via activation of adenylate cyclase. The adenylate-cyclase-derived cAMP activates protein kinase A (PKA), which then phosphorylates downstream targets, such as cAMP response element binding protein (CREB) and the bifunctional enzyme 6-phosphofructo-2-kinase/ fructose-2,6-bisphosphatase (one of the isoforms being PFK/FBPase 1, encoded by PFKFB1).
+CLASS       Organismal Systems; Endocrine system
+PATHWAY_MAP mmu04922  Glucagon signaling pathway
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            18576  Pde3b; phosphodiesterase 3B, cGMP-inhibited [KO:K13296] [EC:3.1.4.17]
+            14526  Gcg; glucagon [KO:K05259]
+            14527  Gcgr; glucagon receptor [KO:K04583]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            11909  Atf2; activating transcription factor 2 [KO:K04450]
+            11911  Atf4; activating transcription factor 4 [KO:K04374]
+            12913  Creb3; cAMP responsive element binding protein 3 [KO:K09048]
+            26427  Creb3l1; cAMP responsive element binding protein 3-like 1 [KO:K09048]
+            208647  Creb3l2; cAMP responsive element binding protein 3-like 2 [KO:K09048]
+            208677  Creb3l3; cAMP responsive element binding protein 3-like 3 [KO:K09048]
+            78284  Creb3l4; cAMP responsive element binding protein 3-like 4 [KO:K09048]
+            231991  Creb5; cAMP responsive element binding protein 5 [KO:K09047]
+            104570  Ppp4r3b; protein phosphatase 4 regulatory subunit 3B [KO:K17491]
+            245509  4932429P05Rik; RIKEN cDNA 4932429P05 gene [KO:K17491]
+            245511  4930415L06Rik; RIKEN cDNA 4930415L06 gene [KO:K17491]
+            68734  Ppp4r3a; protein phosphatase 4 regulatory subunit 3A [KO:K17491]
+            56420  Ppp4c; protein phosphatase 4, catalytic subunit [KO:K15423] [EC:3.1.3.16]
+            74343  Crtc2; CREB regulated transcription coactivator 2 [KO:K16333]
+            235344  Sik2; salt inducible kinase 2 [KO:K16311] [EC:2.7.11.1]
+            12914  Crebbp; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            328572  Ep300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            19017  Ppargc1a; peroxisome proliferative activated receptor, gamma, coactivator 1 alpha [KO:K07202]
+            17691  Sik1; salt inducible kinase 1 [KO:K19008] [EC:2.7.11.1]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            19057  Ppp3cc; protein phosphatase 3, catalytic subunit, gamma isoform [KO:K04348] [EC:3.1.3.16]
+            19055  Ppp3ca; protein phosphatase 3, catalytic subunit, alpha isoform [KO:K04348] [EC:3.1.3.16]
+            19056  Ppp3cb; protein phosphatase 3, catalytic subunit, beta isoform [KO:K04348] [EC:3.1.3.16]
+            19058  Ppp3r1; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type I) [KO:K06268]
+            19059  Ppp3r2; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type II) [KO:K06268]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            56458  Foxo1; forkhead box O1 [KO:K07201]
+            93759  Sirt1; sirtuin 1 [KO:K11411] [EC:2.3.1.286]
+            19013  Ppara; peroxisome proliferator activated receptor alpha [KO:K07294]
+            15469  Prmt1; protein arginine N-methyltransferase 1 [KO:K11434] [EC:2.1.1.319]
+            14377  G6pc; glucose-6-phosphatase, catalytic [KO:K01084] [EC:3.1.3.9]
+            14378  G6pc2; glucose-6-phosphatase, catalytic, 2 [KO:K01084] [EC:3.1.3.9]
+            68401  G6pc3; glucose 6 phosphatase, catalytic, 3 [KO:K01084] [EC:3.1.3.9]
+            18534  Pck1; phosphoenolpyruvate carboxykinase 1, cytosolic [KO:K01596] [EC:4.1.1.32]
+            74551  Pck2; phosphoenolpyruvate carboxykinase 2 (mitochondrial) [KO:K01596] [EC:4.1.1.32]
+            12894  Cpt1a; carnitine palmitoyltransferase 1a, liver [KO:K08765] [EC:2.3.1.21]
+            12895  Cpt1b; carnitine palmitoyltransferase 1b, muscle [KO:K19523] [EC:2.3.1.21]
+            78070  Cpt1c; carnitine palmitoyltransferase 1c [KO:K19524] [EC:2.3.1.21]
+            14936  Gys1; glycogen synthase 1, muscle [KO:K00693] [EC:2.4.1.11]
+            232493  Gys2; glycogen synthase 2 [KO:K00693] [EC:2.4.1.11]
+            110094  Phka2; phosphorylase kinase alpha 2 [KO:K07190]
+            18679  Phka1; phosphorylase kinase alpha 1 [KO:K07190]
+            102093  Phkb; phosphorylase kinase beta [KO:K07190]
+            18682  Phkg1; phosphorylase kinase gamma 1 [KO:K00871] [EC:2.7.11.19]
+            68961  Phkg2; phosphorylase kinase, gamma 2 (testis) [KO:K00871] [EC:2.7.11.19]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            19309  Pygm; muscle glycogen phosphorylase [KO:K00688] [EC:2.4.1.1]
+            110078  Pygb; brain glycogen phosphorylase [KO:K00688] [EC:2.4.1.1]
+            110095  Pygl; liver glycogen phosphorylase [KO:K00688] [EC:2.4.1.1]
+            18639  Pfkfb1; 6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 1 [KO:K19028] [EC:2.7.1.105 3.1.3.46]
+            105787  Prkaa1; protein kinase, AMP-activated, alpha 1 catalytic subunit [KO:K07198] [EC:2.7.11.11]
+            108079  Prkaa2; protein kinase, AMP-activated, alpha 2 catalytic subunit [KO:K07198] [EC:2.7.11.11]
+            19079  Prkab1; protein kinase, AMP-activated, beta 1 non-catalytic subunit [KO:K07199]
+            108097  Prkab2; protein kinase, AMP-activated, beta 2 non-catalytic subunit [KO:K07199]
+            19082  Prkag1; protein kinase, AMP-activated, gamma 1 non-catalytic subunit [KO:K07200]
+            241113  Prkag3; protein kinase, AMP-activated, gamma 3 non-catalytic subunit [KO:K07200]
+            108099  Prkag2; protein kinase, AMP-activated, gamma 2 non-catalytic subunit [KO:K07200]
+            107476  Acaca; acetyl-Coenzyme A carboxylase alpha [KO:K11262] [EC:6.4.1.2 6.3.4.14 2.1.3.15]
+            100705  Acacb; acetyl-Coenzyme A carboxylase beta [KO:K01946] [EC:6.4.1.2 6.3.4.14 2.1.3.15]
+            20525  Slc2a1; solute carrier family 2 (facilitated glucose transporter), member 1 [KO:K07299]
+            20526  Slc2a2; solute carrier family 2 (facilitated glucose transporter), member 2 [KO:K07593]
+            103988  Gck; glucokinase [KO:K12407] [EC:2.7.1.2]
+            14121  Fbp1; fructose bisphosphatase 1 [KO:K03841] [EC:3.1.3.11]
+            14120  Fbp2; fructose bisphosphatase 2 [KO:K03841] [EC:3.1.3.11]
+            18641  Pfkl; phosphofructokinase, liver, B-type [KO:K00850] [EC:2.7.1.11]
+            18642  Pfkm; phosphofructokinase, muscle [KO:K00850] [EC:2.7.1.11]
+            56421  Pfkp; phosphofructokinase, platelet [KO:K00850] [EC:2.7.1.11]
+            18648  Pgam1; phosphoglycerate mutase 1 [KO:K01834] [EC:5.4.2.11]
+            56012  Pgam2; phosphoglycerate mutase 2 [KO:K01834] [EC:5.4.2.11]
+            18746  Pkm; pyruvate kinase, muscle [KO:K00873] [EC:2.7.1.40]
+            18597  Pdha1; pyruvate dehydrogenase E1 alpha 1 [KO:K00161] [EC:1.2.4.1]
+            18598  Pdha2; pyruvate dehydrogenase E1 alpha 2 [KO:K00161] [EC:1.2.4.1]
+            68263  Pdhb; pyruvate dehydrogenase (lipoamide) beta [KO:K00162] [EC:1.2.4.1]
+            16828  Ldha; lactate dehydrogenase A [KO:K00016] [EC:1.1.1.27]
+            16832  Ldhb; lactate dehydrogenase B [KO:K00016] [EC:1.1.1.27]
+            16833  Ldhc; lactate dehydrogenase C [KO:K00016] [EC:1.1.1.27]
+            106557  Ldhal6b; lactate dehydrogenase A-like 6B [KO:K00016] [EC:1.1.1.27]
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00026  2-Oxoglutarate
+            C00031  D-Glucose
+            C00036  Oxaloacetate
+            C00040  Acyl-CoA
+            C00042  Succinate
+            C00074  Phosphoenolpyruvate
+            C00076  Calcium cation
+            C00083  Malonyl-CoA
+            C00085  D-Fructose 6-phosphate
+            C00103  D-Glucose 1-phosphate
+            C00122  Fumarate
+            C00149  (S)-Malate
+            C00158  Citrate
+            C00182  Glycogen
+            C00186  (S)-Lactate
+            C00197  3-Phospho-D-glycerate
+            C00311  Isocitrate
+            C00354  D-Fructose 1,6-bisphosphate
+            C00575  3',5'-Cyclic AMP
+            C00631  2-Phospho-D-glycerate
+            C00665  beta-D-Fructose 2,6-bisphosphate
+            C00668  alpha-D-Glucose 6-phosphate
+            C01172  beta-D-Glucose 6-phosphate
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+REFERENCE   PMID:12626323
+  AUTHORS   Jiang G, Zhang BB
+  TITLE     Glucagon and regulation of glucose metabolism.
+  JOURNAL   Am J Physiol Endocrinol Metab 284:E671-8 (2003)
+            DOI:10.1152/ajpendo.00492.2002
+REFERENCE   PMID:24692138
+  AUTHORS   Rui L
+  TITLE     Energy metabolism in the liver.
+  JOURNAL   Compr Physiol 4:177-97 (2014)
+            DOI:10.1002/cphy.c130024
+REFERENCE   PMID:22004992
+  AUTHORS   Jitrapakdee S
+  TITLE     Transcription factors and coactivators controlling nutrient and hormonal regulation of hepatic gluconeogenesis.
+  JOURNAL   Int J Biochem Cell Biol 44:33-45 (2012)
+            DOI:10.1016/j.biocel.2011.10.001
+REFERENCE   PMID:16601267
+  AUTHORS   Desvergne B, Michalik L, Wahli W.
+  TITLE     Transcriptional regulation of metabolism.
+  JOURNAL   Physiol Rev 86:465-514 (2006)
+            DOI:10.1152/physrev.00025.2005
+REFERENCE   PMID:22550228
+  AUTHORS   Hardie DG
+  TITLE     Organismal carbohydrate and lipid homeostasis.
+  JOURNAL   Cold Spring Harb Perspect Biol 4:a006031 (2012)
+            DOI:10.1101/cshperspect.a006031
+REFERENCE   PMID:22796337
+  AUTHORS   Hasenour CM, Berglund ED, Wasserman DH
+  TITLE     Emerging role of AMP-activated protein kinase in endocrine control of metabolism in the liver.
+  JOURNAL   Mol Cell Endocrinol 366:152-62 (2013)
+            DOI:10.1016/j.mce.2012.06.018
+REFERENCE   PMID:18669612
+  AUTHORS   Quesada I, Tuduri E, Ripoll C, Nadal A
+  TITLE     Physiology of the pancreatic alpha-cell and glucagon secretion: role in glucose homeostasis and diabetes.
+  JOURNAL   J Endocrinol 199:5-19 (2008)
+            DOI:10.1677/JOE-08-0290
+REFERENCE   PMID:24238363
+  AUTHORS   Oh KJ, Han HS, Kim MJ, Koo SH
+  TITLE     CREB and FoxO1: two transcription factors for the regulation of hepatic gluconeogenesis.
+  JOURNAL   BMB Rep 46:567-74 (2013)
+            DOI:10.5483/BMBRep.2013.46.12.248
+REFERENCE   PMID:16479585
+  AUTHORS   Cheng A, Saltiel AR
+  TITLE     More TORC for the gluconeogenic engine.
+  JOURNAL   Bioessays 28:231-4 (2006)
+            DOI:10.1002/bies.20375
+REFERENCE   PMID:21346730
+  AUTHORS   Altarejos JY, Montminy M
+  TITLE     CREB and the CRTC co-activators: sensors for hormonal and metabolic signals.
+  JOURNAL   Nat Rev Mol Cell Biol 12:141-51 (2011)
+            DOI:10.1038/nrm3072
+REFERENCE   PMID:24393785
+  AUTHORS   Pernicova I, Korbonits M
+  TITLE     Metformin--mode of action and clinical implications for diabetes and cancer.
+  JOURNAL   Nat Rev Endocrinol 10:143-56 (2014)
+            DOI:10.1038/nrendo.2013.256
+REFERENCE   PMID:20735177
+  AUTHORS   Hirota K, Fukamizu A
+  TITLE     Transcriptional regulation of energy metabolism in the liver.
+  JOURNAL   J Recept Signal Transduct Res 30:403-9 (2010)
+            DOI:10.3109/10799893.2010.509730
+REFERENCE   PMID:21941300
+  AUTHORS   Chalkiadaki A, Guarente L
+  TITLE     Metabolic signals regulate SIRT1 expression.
+  JOURNAL   EMBO Rep 12:985-6 (2011)
+            DOI:10.1038/embor.2011.179
+REFERENCE   PMID:22249520
+  AUTHORS   Chalkiadaki A, Guarente L
+  TITLE     Sirtuins mediate mammalian metabolic responses to nutrient availability.
+  JOURNAL   Nat Rev Endocrinol 8:287-96 (2012)
+            DOI:10.1038/nrendo.2011.225
+REFERENCE   PMID:19912989
+  AUTHORS   Tang BL, Chua CE
+  TITLE     Is systemic activation of Sirt1 beneficial for ageing-associated metabolic disorders?
+  JOURNAL   Biochem Biophys Res Commun 391:6-10 (2010)
+            DOI:10.1016/j.bbrc.2009.11.016
+REFERENCE   PMID:22503562
+  AUTHORS   Ozcan L, Wong CC, Li G, Xu T, Pajvani U, Park SK, Wronska A, Chen BX, Marks AR, Fukamizu A, Backs J, Singer HA, Yates JR 3rd, Accili D, Tabas I
+  TITLE     Calcium signaling through CaMKII regulates hepatic glucose production in fasting and obesity.
+  JOURNAL   Cell Metab 15:739-51 (2012)
+            DOI:10.1016/j.cmet.2012.03.002
+REFERENCE   PMID:22495310
+  AUTHORS   Wang Y, Li G, Goode J, Paz JC, Ouyang K, Screaton R, Fischer WH, Chen J, Tabas I, Montminy M
+  TITLE     Inositol-1,4,5-trisphosphate receptor regulates hepatic gluconeogenesis in fasting and diabetes.
+  JOURNAL   Nature 485:128-32 (2012)
+            DOI:10.1038/nature10988
+REL_PATHWAY mmu00010  Glycolysis / Gluconeogenesis
+            mmu00020  Citrate cycle (TCA cycle)
+            mmu00061  Fatty acid biosynthesis
+            mmu00190  Oxidative phosphorylation
+            mmu04020  Calcium signaling pathway
+            mmu04024  cAMP signaling pathway
+            mmu04068  FoxO signaling pathway
+            mmu04910  Insulin signaling pathway
+KO_PATHWAY  ko04922
+///

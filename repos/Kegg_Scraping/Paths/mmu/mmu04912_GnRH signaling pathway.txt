@@ -1,0 +1,158 @@
+ENTRY       mmu04912                    Pathway
+NAME        GnRH signaling pathway - Mus musculus (mouse)
+DESCRIPTION Gonadotropin-releasing hormone (GnRH) secretion from the hypothalamus acts upon its receptor in the anterior pituitary to regulate the production and release of the gonadotropins, LH and FSH. The GnRHR is coupled to Gq/11 proteins to activate phospholipase C which transmits its signal to diacylglycerol (DAG) and inositol 1,4,5-trisphosphate (IP3). DAG activates the intracellular protein kinase C (PKC) pathway and IP3 stimulates release of intracellular calcium. In addition to the classical Gq/11, coupling of Gs is occasionally observed in a cell-specific fashion. Signaling downstream of protein kinase C (PKC) leads to transactivation of the epidermal growth factor (EGF) receptor and activation of mitogen-activated protein kinases (MAPKs), including extracellular-signal-regulated kinase (ERK), Jun N-terminal kinase (JNK) and p38 MAPK. Active MAPKs translocate to the nucleus, resulting in activation of transcription factors and rapid induction of early genes.
+CLASS       Organismal Systems; Endocrine system
+PATHWAY_MAP mmu04912  GnRH signaling pathway
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14714  Gnrh1; gonadotropin releasing hormone 1 [KO:K05252]
+            14715  Gnrhr; gonadotropin releasing hormone receptor [KO:K04280]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            11911  Atf4; activating transcription factor 4 [KO:K04374]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            14672  Gna11; guanine nucleotide binding protein, alpha 11 [KO:K04635]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18753  Prkcd; protein kinase C, delta [KO:K06068] [EC:2.7.11.13]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            26401  Map3k1; mitogen-activated protein kinase kinase kinase 1 [KO:K04416] [EC:2.7.11.25]
+            26405  Map3k2; mitogen-activated protein kinase kinase kinase 2 [KO:K04420] [EC:2.7.11.25]
+            26406  Map3k3; mitogen-activated protein kinase kinase kinase 3 [KO:K04421] [EC:2.7.11.25]
+            26407  Map3k4; mitogen-activated protein kinase kinase kinase 4 [KO:K04428] [EC:2.7.11.25]
+            26397  Map2k3; mitogen-activated protein kinase kinase 3 [KO:K04432] [EC:2.7.12.2]
+            26399  Map2k6; mitogen-activated protein kinase kinase 6 [KO:K04433] [EC:2.7.12.2]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            23939  Mapk7; mitogen-activated protein kinase 7 [KO:K04464] [EC:2.7.11.24]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            18806  Pld2; phospholipase D2 [KO:K01115] [EC:3.1.4.4]
+            18805  Pld1; phospholipase D1 [KO:K01115] [EC:3.1.4.4]
+            20779  Src; Rous sarcoma oncogene [KO:K05704] [EC:2.7.10.2]
+            12540  Cdc42; cell division cycle 42 [KO:K04393]
+            26398  Map2k4; mitogen-activated protein kinase kinase 4 [KO:K04430] [EC:2.7.12.2]
+            26400  Map2k7; mitogen-activated protein kinase kinase 7 [KO:K04431] [EC:2.7.12.2]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            16866  Lhb; luteinizing hormone beta [KO:K08521]
+            12640  Cga; glycoprotein hormones, alpha subunit [KO:K08522]
+            14308  Fshb; follicle stimulating hormone beta [KO:K05250]
+            19229  Ptk2b; PTK2 protein tyrosine kinase 2 beta [KO:K05871] [EC:2.7.10.2]
+            17390  Mmp2; matrix metallopeptidase 2 [KO:K01398] [EC:3.4.24.24]
+            17387  Mmp14; matrix metallopeptidase 14 (membrane-inserted) [KO:K07763] [EC:3.4.24.80]
+            15200  Hbegf; heparin-binding EGF-like growth factor [KO:K08523]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            13712  Elk1; ELK1, member of ETS oncogene family [KO:K04375]
+            13653  Egr1; early growth response 1 [KO:K09203]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00219  Arachidonate
+            C00416  Phosphatidate
+            C00575  3',5'-Cyclic AMP
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+REFERENCE   PMID:15350605
+  AUTHORS   Ruf F, Sealfon SC.
+  TITLE     Genomics view of gonadotrope signaling circuits.
+  JOURNAL   Trends Endocrinol Metab 15:331-8 (2004)
+            DOI:10.1016/j.tem.2004.07.008
+REFERENCE   PMID:15613448
+  AUTHORS   Harrison GS, Wierman ME, Nett TM, Glode LM.
+  TITLE     Gonadotropin-releasing hormone and its receptor in normal and malignant cells.
+  JOURNAL   Endocr Relat Cancer 11:725-48 (2004)
+            DOI:10.1677/erc.1.00777
+REFERENCE   PMID:15982836
+  AUTHORS   Pawson AJ, McNeilly AS.
+  TITLE     The pituitary effects of GnRH.
+  JOURNAL   Anim Reprod Sci 88:75-94 (2005)
+            DOI:10.1016/j.anireprosci.2005.05.010
+REFERENCE   
+  AUTHORS   DeGroot LJ, Jameson JL (ed).
+  TITLE     Endocrinology (Fifth edition)
+  JOURNAL   Elsevier Saunders (2006)
+REFERENCE   PMID:10707049
+  AUTHORS   Naor Z, Benard O, Seger R.
+  TITLE     Activation of MAPK cascades by G-protein-coupled receptors: the case of gonadotropin-releasing hormone receptor.
+  JOURNAL   Trends Endocrinol Metab 11:91-9 (2000)
+            DOI:10.1016/S1043-2760(99)00232-5
+REFERENCE   PMID:14596811
+  AUTHORS   Ruf F, Fink MY, Sealfon SC.
+  TITLE     Structure of the GnRH receptor-stimulated signaling network: insights from genomics.
+  JOURNAL   Front Neuroendocrinol 24:181-99 (2003)
+            DOI:10.1016/S0091-3022(03)00027-X
+REFERENCE   PMID:12943720
+  AUTHORS   Farshori PQ, Shah BH, Arora KK, Martinez-Fuentes A, Catt KJ.
+  TITLE     Activation and nuclear translocation of PKCdelta, Pyk2 and ERK1/2 by gonadotropin releasing hormone in HEK293 cells.
+  JOURNAL   J Steroid Biochem Mol Biol 85:337-47 (2003)
+            DOI:10.1016/S0960-0760(03)00226-7
+REFERENCE   PMID:15080147
+  AUTHORS   Shah BH, Catt KJ.
+  TITLE     Matrix metalloproteinases in reproductive endocrinology.
+  JOURNAL   Trends Endocrinol Metab 15:47-9 (2004)
+            DOI:10.1016/j.tem.2004.01.004
+REFERENCE   PMID:12963732
+  AUTHORS   Roelle S, Grosse R, Aigner A, Krell HW, Czubayko F, Gudermann T.
+  TITLE     Matrix metalloproteinases 2 and 9 mediate epidermal growth factor receptor transactivation by gonadotropin-releasing hormone.
+  JOURNAL   J Biol Chem 278:47307-18 (2003)
+            DOI:10.1074/jbc.M304377200
+REFERENCE   PMID:18708085
+  AUTHORS   Naor Z
+  TITLE     Signaling by G-protein-coupled receptor (GPCR): studies on the GnRH receptor.
+  JOURNAL   Front Neuroendocrinol 30:10-29 (2009)
+            DOI:10.1016/j.yfrne.2008.07.001
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04024  cAMP signaling pathway
+            mmu04060  Cytokine-cytokine receptor interaction
+            mmu04080  Neuroactive ligand-receptor interaction
+KO_PATHWAY  ko04912
+///

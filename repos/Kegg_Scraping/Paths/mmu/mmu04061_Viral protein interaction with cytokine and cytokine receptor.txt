@@ -1,0 +1,269 @@
+ENTRY       mmu04061                    Pathway
+NAME        Viral protein interaction with cytokine and cytokine receptor - Mus musculus (mouse)
+DESCRIPTION Viruses have evolved diverse mechanisms to evade detection and destruction by the immune system, including copying and repurposing host cytokine and cytokine receptor genes. Viral cytokines and cytokine receptors, together with a group of structurally unique, soluble, cytokine-binding or cytokine receptor-binding proteins, represent the three major molecular strategies for subversion and modulation of the host cytokine networks mainly in large DNA viruses. Viral cytokines and cytokine receptor homologs, including other binding proteins, may activate or inhibit cytokine signaling and possibly affect different aspects of immunity.
+CLASS       Environmental Information Processing; Signaling molecules and interaction
+PATHWAY_MAP mmu04061  Viral protein interaction with cytokine and cytokine receptor
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        20304  Ccl5; chemokine (C-C motif) ligand 5 [KO:K12499]
+            20302  Ccl3; chemokine (C-C motif) ligand 3 [KO:K05408]
+            20307  Ccl8; chemokine (C-C motif) ligand 8 [KO:K16596]
+            20308  Ccl9; chemokine (C-C motif) ligand 9 [KO:K22671]
+            20305  Ccl6; chemokine (C-C motif) ligand 6 [KO:K05510]
+            20306  Ccl7; chemokine (C-C motif) ligand 7 [KO:K05509]
+            20296  Ccl2; chemokine (C-C motif) ligand 2 [KO:K14624]
+            20293  Ccl12; chemokine (C-C motif) ligand 12 [KO:K14624]
+            20301  Ccl27a; chemokine (C-C motif) ligand 27A [KO:K16598]
+            100040048  Ccl27b; chemokine (C-C motif) ligand 27b [KO:K16598]
+            100041579  Gm20878; predicted gene, 20878 [KO:K16598]
+            100039863  Gm13306; predicted gene 13306 [KO:K16598]
+            100861978  c-C motif chemokine 27-like [KO:K16598]
+            100039939  Gm2506; predicted gene 2506 [KO:K16598]
+            100862247  Gm21586; predicted gene, 21586 [KO:K16598]
+            621580  Gm21953; predicted gene, 21953 [KO:K16598]
+            20292  Ccl11; chemokine (C-C motif) ligand 11 [KO:K16597]
+            56221  Ccl24; chemokine (C-C motif) ligand 24 [KO:K21097]
+            541307  Ccl26; chemokine (C-C motif) ligand 26 [KO:K21096]
+            56838  Ccl28; chemokine (C-C motif) ligand 28 [KO:K05513]
+            20295  Ccl17; chemokine (C-C motif) ligand 17 [KO:K21083]
+            20299  Ccl22; chemokine (C-C motif) ligand 22 [KO:K21095]
+            20303  Ccl4; chemokine (C-C motif) ligand 4 [KO:K12964]
+            20297  Ccl20; chemokine (C-C motif) ligand 20 [KO:K14625]
+            20290  Ccl1; chemokine (C-C motif) ligand 1 [KO:K05514]
+            20300  Ccl25; chemokine (C-C motif) ligand 25 [KO:K13072]
+            24047  Ccl19; chemokine (C-C motif) ligand 19 [KO:K05512]
+            100039053  Gm2023; predicted gene 2023 [KO:K05512]
+            100862177  Ccl21d; chemokine (C-C motif) ligand 21D [KO:K16062]
+            100504346  Gm13304; predicted gene 13304 [KO:K16062]
+            100504239  Gm10591; predicted gene 10591 [KO:K16062]
+            100042493  Ccl21b; chemokine (C-C motif) ligand 21B (leucine) [KO:K16062]
+            100041593  C-C motif chemokine 21c [KO:K16062]
+            100041504  C-C motif chemokine 21c [KO:K16062]
+            65956  Ccl21c; chemokine (C-C motif) ligand 21C (leucine) [KO:K16062]
+            100504362  Gm1987; predicted gene 1987 [KO:K16062]
+            18829  Ccl21a; chemokine (C-C motif) ligand 21A (serine) [KO:K16062]
+            14825  Cxcl1; chemokine (C-X-C motif) ligand 1 [KO:K05505]
+            20310  Cxcl2; chemokine (C-X-C motif) ligand 2 [KO:K05505]
+            330122  Cxcl3; chemokine (C-X-C motif) ligand 3 [KO:K05505]
+            20311  Cxcl5; chemokine (C-X-C motif) ligand 5 [KO:K05506]
+            57349  Ppbp; pro-platelet basic protein [KO:K10029]
+            56744  Pf4; platelet factor 4 [KO:K05407]
+            17329  Cxcl9; chemokine (C-X-C motif) ligand 9 [KO:K05416]
+            15945  Cxcl10; chemokine (C-X-C motif) ligand 10 [KO:K12671]
+            56066  Cxcl11; chemokine (C-X-C motif) ligand 11 [KO:K12672]
+            55985  Cxcl13; chemokine (C-X-C motif) ligand 13 [KO:K10032]
+            20315  Cxcl12; chemokine (C-X-C motif) ligand 12 [KO:K10031]
+            57266  Cxcl14; chemokine (C-X-C motif) ligand 14 [KO:K10033]
+            16963  Xcl1; chemokine (C motif) ligand 1 [KO:K05507]
+            20312  Cx3cl1; chemokine (C-X3-C motif) ligand 1 [KO:K05508]
+            16153  Il10; interleukin 10 [KO:K05443]
+            16193  Il6; interleukin 6 [KO:K05405]
+            16183  Il2; interleukin 2 [KO:K05429]
+            16173  Il18; interleukin 18 [KO:K05482]
+            329244  Il19; interleukin 19 [KO:K05444]
+            58181  Il20; interleukin 20 [KO:K22667]
+            93672  Il24; interleukin 24 [KO:K22668]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            16992  Lta; lymphotoxin A [KO:K05468]
+            50930  Tnfsf14; tumor necrosis factor (ligand) superfamily, member 14 [KO:K05477]
+            22035  Tnfsf10; tumor necrosis factor (ligand) superfamily, member 10 [KO:K04721]
+            76527  Il34; interleukin 34 [KO:K22633]
+            12977  Csf1; colony stimulating factor 1 (macrophage) [KO:K05453]
+            12768  Ccr1; chemokine (C-C motif) receptor 1 [KO:K04176]
+            12770  Ccr1l1; chemokine (C-C motif) receptor 1-like 1 [KO:K04176]
+            12772  Ccr2; chemokine (C-C motif) receptor 2 [KO:K04177]
+            12771  Ccr3; chemokine (C-C motif) receptor 3 [KO:K04178]
+            12773  Ccr4; chemokine (C-C motif) receptor 4 [KO:K04179]
+            12774  Ccr5; chemokine (C-C motif) receptor 5 [KO:K04180]
+            12458  Ccr6; chemokine (C-C motif) receptor 6 [KO:K04181]
+            12776  Ccr8; chemokine (C-C motif) receptor 8 [KO:K04183]
+            12769  Ccr9; chemokine (C-C motif) receptor 9 [KO:K04184]
+            252837  Ackr4; atypical chemokine receptor 4 [KO:K04186]
+            12777  Ccr10; chemokine (C-C motif) receptor 10 [KO:K04185]
+            12775  Ccr7; chemokine (C-C motif) receptor 7 [KO:K04182]
+            227288  Cxcr1; chemokine (C-X-C motif) receptor 1 [KO:K04175]
+            12765  Cxcr2; chemokine (C-X-C motif) receptor 2 [KO:K05050]
+            12766  Cxcr3; chemokine (C-X-C motif) receptor 3 [KO:K04188]
+            12145  Cxcr5; chemokine (C-X-C motif) receptor 5 [KO:K04190]
+            12767  Cxcr4; chemokine (C-X-C motif) receptor 4 [KO:K04189]
+            12778  Ackr3; atypical chemokine receptor 3 [KO:K04304]
+            23832  Xcr1; chemokine (C motif) receptor 1 [KO:K04193]
+            13051  Cx3cr1; chemokine (C-X3-C motif) receptor 1 [KO:K04192]
+            16154  Il10ra; interleukin 10 receptor, alpha [KO:K05134]
+            16155  Il10rb; interleukin 10 receptor, beta [KO:K05135]
+            16194  Il6ra; interleukin 6 receptor, alpha [KO:K05055]
+            16195  Il6st; interleukin 6 signal transducer [KO:K05060]
+            16184  Il2ra; interleukin 2 receptor, alpha chain [KO:K05068]
+            16185  Il2rb; interleukin 2 receptor, beta chain [KO:K05069]
+            16186  Il2rg; interleukin 2 receptor, gamma chain [KO:K05070]
+            16182  Il18r1; interleukin 18 receptor 1 [KO:K05173]
+            16174  Il18rap; interleukin 18 receptor accessory protein [KO:K05174]
+            237313  Il20ra; interleukin 20 receptor, alpha [KO:K05136]
+            213208  Il20rb; interleukin 20 receptor beta [KO:K05137]
+            230828  Il22ra1; interleukin 22 receptor, alpha 1 [KO:K05138]
+            21937  Tnfrsf1a; tumor necrosis factor receptor superfamily, member 1a [KO:K03158]
+            21938  Tnfrsf1b; tumor necrosis factor receptor superfamily, member 1b [KO:K05141]
+            17000  Ltbr; lymphotoxin B receptor [KO:K03159]
+            230979  Tnfrsf14; tumor necrosis factor receptor superfamily, member 14 (herpesvirus entry mediator) [KO:K05152]
+            21933  Tnfrsf10b; tumor necrosis factor receptor superfamily, member 10b [KO:K04722]
+            12978  Csf1r; colony stimulating factor 1 receptor [KO:K05090] [EC:2.7.10.1]
+REFERENCE   PMID:12511874
+  AUTHORS   Alcami A
+  TITLE     Viral mimicry of cytokines, chemokines and their receptors.
+  JOURNAL   Nat Rev Immunol 3:36-50 (2003)
+            DOI:10.1038/nri980
+REFERENCE   PMID:28848041
+  AUTHORS   Pontejo SM, Murphy PM
+  TITLE     Chemokines encoded by herpesviruses.
+  JOURNAL   J Leukoc Biol 102:1199-1217 (2017)
+            DOI:10.1189/jlb.4RU0417-145RR
+REFERENCE   PMID:25805993
+  AUTHORS   de Munnik SM, Smit MJ, Leurs R, Vischer HF
+  TITLE     Modulation of cellular signaling by herpesvirus-encoded G protein-coupled receptors.
+  JOURNAL   Front Pharmacol 6:40 (2015)
+            DOI:10.3389/fphar.2015.00040
+REFERENCE   PMID:24445563
+  AUTHORS   Vischer HF, Siderius M, Leurs R, Smit MJ
+  TITLE     Herpesvirus-encoded GPCRs: neglected players in inflammatory and proliferative diseases?
+  JOURNAL   Nat Rev Drug Discov 13:123-39 (2014)
+            DOI:10.1038/nrd4189
+REFERENCE   PMID:9325239
+  AUTHORS   Smith CA, Smith TD, Smolak PJ, Friend D, Hagen H, Gerhart M, Park L, Pickup DJ, Torrance D, Mohler K, Schooley K, Goodwin RG
+  TITLE     Poxvirus genomes encode a secreted, soluble protein that preferentially inhibits beta chemokine activity yet lacks sequence homology to known chemokine receptors.
+  JOURNAL   Virology 236:316-27 (1997)
+            DOI:10.1006/viro.1997.8730
+REFERENCE   PMID:9621074
+  AUTHORS   Isegawa Y, Ping Z, Nakano K, Sugimoto N, Yamanishi K
+  TITLE     Human herpesvirus 6 open reading frame U12 encodes a functional beta-chemokine receptor.
+  JOURNAL   J Virol 72:6104-12 (1998)
+            DOI:10.1128/JVI.72.7.6104-6112.1998
+REFERENCE   PMID:9600978
+  AUTHORS   Damon I, Murphy PM, Moss B
+  TITLE     Broad spectrum chemokine antagonistic activity of a human poxvirus chemokine homolog.
+  JOURNAL   Proc Natl Acad Sci U S A 95:6403-7 (1998)
+            DOI:10.1073/pnas.95.11.6403
+REFERENCE   PMID:16365449
+  AUTHORS   Dewin DR, Catusse J, Gompels UA
+  TITLE     Identification and characterization of U83A viral chemokine, a broad and potent beta-chemokine agonist for human CCRs with unique selectivity and inhibition by spliced isoform.
+  JOURNAL   J Immunol 176:544-56 (2006)
+            DOI:10.4049/jimmunol.176.1.544
+REFERENCE   PMID:16332987
+  AUTHORS   Fitzsimons CP, Gompels UA, Verzijl D, Vischer HF, Mattick C, Leurs R, Smit MJ
+  TITLE     Chemokine-directed trafficking of receptor stimulus to different g proteins: selective inducible and constitutive signaling by human herpesvirus 6-encoded chemokine receptor U51.
+  JOURNAL   Mol Pharmacol 69:888-98 (2006)
+            DOI:10.1124/mol.105.015222
+REFERENCE   PMID:15536129
+  AUTHORS   Wang D, Bresnahan W, Shenk T
+  TITLE     Human cytomegalovirus encodes a highly specific RANTES decoy receptor.
+  JOURNAL   Proc Natl Acad Sci U S A 101:16642-7 (2004)
+            DOI:10.1073/pnas.0407233101
+REFERENCE   PMID:22319442
+  AUTHORS   Viejo-Borbolla A, Martinez-Martin N, Nel HJ, Rueda P, Martin R, Blanco S, Arenzana-Seisdedos F, Thelen M, Fallon PG, Alcami A
+  TITLE     Enhancement of chemokine function as an immunomodulatory strategy employed by human herpesviruses.
+  JOURNAL   PLoS Pathog 8:e1002497 (2012)
+            DOI:10.1371/journal.ppat.1002497
+REFERENCE   PMID:16581912
+  AUTHORS   Alejo A, Ruiz-Arguello MB, Ho Y, Smith VP, Saraiva M, Alcami A
+  TITLE     A chemokine-binding domain in the tumor necrosis factor receptor from variola (smallpox) virus.
+  JOURNAL   Proc Natl Acad Sci U S A 103:5995-6000 (2006)
+            DOI:10.1073/pnas.0510462103
+REFERENCE   PMID:15890946
+  AUTHORS   Tadagaki K, Nakano K, Yamanishi K
+  TITLE     Human herpesvirus 7 open reading frames U12 and U51 encode functional beta-chemokine receptors.
+  JOURNAL   J Virol 79:7068-76 (2005)
+            DOI:10.1128/JVI.79.11.7068-7076.2005
+REFERENCE   PMID:12960231
+  AUTHORS   Lee C, Liu QH, Tomkowicz B, Yi Y, Freedman BD, Collman RG
+  TITLE     Macrophage activation through CCR5- and CXCR4-mediated gp120-elicited signaling pathways.
+  JOURNAL   J Leukoc Biol 74:676-82 (2003)
+            DOI:10.1189/jlb.0503206
+REFERENCE   PMID:14645913
+  AUTHORS   Najarro P, Lee HJ, Fox J, Pease J, Smith GL
+  TITLE     Yaba-like disease virus protein 7L is a cell-surface receptor for chemokine CCL1.
+  JOURNAL   J Gen Virol 84:3325-36 (2003)
+            DOI:10.1099/vir.0.19591-0
+REFERENCE   PMID:16528029
+  AUTHORS   Najarro P, Gubser C, Hollinshead M, Fox J, Pease J, Smith GL
+  TITLE     Yaba-like disease virus chemokine receptor 7L, a CCR8 orthologue.
+  JOURNAL   J Gen Virol 87:809-16 (2006)
+            DOI:10.1099/vir.0.81427-0
+REFERENCE   PMID:18286574
+  AUTHORS   Catusse J, Spinks J, Mattick C, Dyer A, Laing K, Fitzsimons C, Smit MJ, Gompels UA
+  TITLE     Immunomodulation by herpesvirus U51A chemokine receptor via CCL5 and FOG-2 down-regulation plus XCR1 and CCR7 mimicry in human leukocytes.
+  JOURNAL   Eur J Immunol 38:763-77 (2008)
+            DOI:10.1002/eji.200737618
+REFERENCE   PMID:8992974
+  AUTHORS   Liu Y, de Waal Malefyt R, Briere F, Parham C, Bridon JM, Banchereau J, Moore KW, Xu J
+  TITLE     The EBV IL-10 homologue is a selective agonist with impaired binding to the IL-10 receptor.
+  JOURNAL   J Immunol 158:604-13 (1997)
+REFERENCE   PMID:15837194
+  AUTHORS   Yoon SI, Jones BC, Logsdon NJ, Walter MR
+  TITLE     Same structure, different function crystal structure of the Epstein-Barr virus IL-10 bound to the soluble IL-10R1 chain.
+  JOURNAL   Structure 13:551-64 (2005)
+            DOI:10.1016/j.str.2005.01.016
+REFERENCE   PMID:10677520
+  AUTHORS   Kotenko SV, Saccani S, Izotova LS, Mirochnitchenko OV, Pestka S
+  TITLE     Human cytomegalovirus harbors its own unique IL-10 homolog (cmvIL-10).
+  JOURNAL   Proc Natl Acad Sci U S A 97:1695-700 (2000)
+            DOI:10.1073/pnas.97.4.1695
+REFERENCE   PMID:15280480
+  AUTHORS   Chang WL, Baumgarth N, Yu D, Barry PA
+  TITLE     Human cytomegalovirus-encoded interleukin-10 homolog inhibits maturation of dendritic cells and alters their functionality.
+  JOURNAL   J Virol 78:8720-31 (2004)
+            DOI:10.1128/JVI.78.16.8720-8731.2004
+REFERENCE   PMID:11238858
+  AUTHORS   Li H, Wang H, Nicholas J
+  TITLE     Detection of direct binding of human herpesvirus 8-encoded interleukin-6 (vIL-6) to both gp130 and IL-6 receptor (IL-6R) and identification of amino acid residues of vIL-6 important for IL-6R-dependent and -independent signaling.
+  JOURNAL   J Virol 75:3325-34 (2001)
+            DOI:10.1128/JVI.75.7.3325-3334.2001
+REFERENCE   PMID:11468184
+  AUTHORS   Nicot C, Mulloy JC, Ferrari MG, Johnson JM, Fu K, Fukumoto R, Trovato R, Fullen J, Leonard WJ, Franchini G
+  TITLE     HTLV-1 p12(I) protein enhances STAT5 activation and decreases the interleukin-2 requirement for proliferation of primary human peripheral blood mononuclear cells.
+  JOURNAL   Blood 98:823-9 (2001)
+            DOI:10.1182/blood.v98.3.823
+REFERENCE   PMID:10500212
+  AUTHORS   Xiang Y, Moss B
+  TITLE     IL-18 binding and inhibition of interferon gamma induction by human poxvirus-encoded proteins.
+  JOURNAL   Proc Natl Acad Sci U S A 96:11537-42 (1999)
+            DOI:10.1073/pnas.96.20.11537
+REFERENCE   PMID:15166422
+  AUTHORS   Bartlett NW, Dumoutier L, Renauld JC, Kotenko SV, McVey CE, Lee HJ, Smith GL
+  TITLE     A new member of the interleukin 10-related cytokine family encoded by a poxvirus.
+  JOURNAL   J Gen Virol 85:1401-12 (2004)
+            DOI:10.1099/vir.0.79980-0
+REFERENCE   PMID:9557689
+  AUTHORS   Strockbine LD, Cohen JI, Farrah T, Lyman SD, Wagener F, DuBose RF, Armitage RJ, Spriggs MK
+  TITLE     The Epstein-Barr virus BARF1 gene encodes a novel, soluble colony-stimulating factor-1 receptor.
+  JOURNAL   J Virol 72:4015-21 (1998)
+            DOI:10.1128/JVI.72.5.4015-4021.1998
+REFERENCE   PMID:17229074
+  AUTHORS   Snow AL, Martinez OM
+  TITLE     Epstein-Barr virus: evasive maneuvers in the development of PTLD.
+  JOURNAL   Am J Transplant 7:271-7 (2007)
+            DOI:10.1111/j.1600-6143.2006.01650.x
+REFERENCE   PMID:22826234
+  AUTHORS   Shim AH, Chang RA, Chen X, Longnecker R, He X
+  TITLE     Multipronged attenuation of macrophage-colony stimulating factor signaling by Epstein-Barr virus BARF1.
+  JOURNAL   Proc Natl Acad Sci U S A 109:12962-7 (2012)
+            DOI:10.1073/pnas.1205309109
+REFERENCE   PMID:11934887
+  AUTHORS   Filippova M, Song H, Connolly JL, Dermody TS, Duerksen-Hughes PJ
+  TITLE     The human papillomavirus 16 E6 protein binds to tumor necrosis factor (TNF) R1 and protects cells from TNF-induced apoptosis.
+  JOURNAL   J Biol Chem 277:21730-9 (2002)
+            DOI:10.1074/jbc.M200113200
+REFERENCE   PMID:12676996
+  AUTHORS   Brunetti CR, Paulose-Murphy M, Singh R, Qin J, Barrett JW, Tardivel A, Schneider P, Essani K, McFadden G
+  TITLE     A secreted high-affinity inhibitor of human TNF from Tanapox virus.
+  JOURNAL   Proc Natl Acad Sci U S A 100:4831-6 (2003)
+            DOI:10.1073/pnas.0737244100
+REFERENCE   PMID:18723002
+  AUTHORS   Sciortino MT, Medici MA, Marino-Merlo F, Zaccaria D, Giuffre-Cuculletto M, Venuti A, Grelli S, Bramanti P, Mastino A
+  TITLE     Involvement of gD/HVEM interaction in NF-kB-dependent inhibition of apoptosis by HSV-1 gD.
+  JOURNAL   Biochem Pharmacol 76:1522-32 (2008)
+            DOI:10.1016/j.bcp.2008.07.030
+REFERENCE   PMID:23498957
+  AUTHORS   Smith W, Tomasec P, Aicheler R, Loewendorf A, Nemcovicova I, Wang EC, Stanton RJ, Macauley M, Norris P, Willen L, Ruckova E, Nomoto A, Schneider P, Hahn G, Zajonc DM, Ware CF, Wilkinson GW, Benedict CA
+  TITLE     Human cytomegalovirus glycoprotein UL141 targets the TRAIL death receptors to thwart host innate antiviral defenses.
+  JOURNAL   Cell Host Microbe 13:324-35 (2013)
+            DOI:10.1016/j.chom.2013.02.003
+KO_PATHWAY  ko04061
+///

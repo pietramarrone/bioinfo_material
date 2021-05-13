@@ -1,0 +1,58 @@
+ENTRY       mmu03020                    Pathway
+NAME        RNA polymerase - Mus musculus (mouse)
+CLASS       Genetic Information Processing; Transcription
+PATHWAY_MAP mmu03020  RNA polymerase
+DBLINKS     GO: 0000428
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        231329  Polr2b; polymerase (RNA) II (DNA directed) polypeptide B [KO:K03010] [EC:2.7.7.6]
+            20020  Polr2a; polymerase (RNA) II (DNA directed) polypeptide A [KO:K03006] [EC:2.7.7.6]
+            20021  Polr2c; polymerase (RNA) II (DNA directed) polypeptide C [KO:K03011]
+            20022  Polr2j; polymerase (RNA) II (DNA directed) polypeptide J [KO:K03008]
+            69241  Polr2d; polymerase (RNA) II (DNA directed) polypeptide D [KO:K03012]
+            67710  Polr2g; polymerase (RNA) II (DNA directed) polypeptide G [KO:K03015]
+            69920  Polr2i; polymerase (RNA) II (DNA directed) polypeptide I [KO:K03017]
+            66420  Polr2e; polymerase (RNA) II (DNA directed) polypeptide E [KO:K03013]
+            69833  Polr2f; polymerase (RNA) II (DNA directed) polypeptide F [KO:K03014]
+            245841  Polr2h; polymerase (RNA) II (DNA directed) polypeptide H [KO:K03016]
+            100862456  DNA-directed RNA polymerases I, II, and III subunit RPABC4 [KO:K03009]
+            102641086  DNA-directed RNA polymerases I, II, and III subunit RPABC4 [KO:K03009]
+            66491  Polr2l; polymerase (RNA) II (DNA directed) polypeptide L [KO:K03007]
+            70428  Polr3b; polymerase (RNA) III (DNA directed) polypeptide B [KO:K03021] [EC:2.7.7.6]
+            218832  Polr3a; polymerase (RNA) III (DNA directed) polypeptide A [KO:K03018] [EC:2.7.7.6]
+            20018  Polr1d; polymerase (RNA) I polypeptide D [KO:K03020]
+            20016  Polr1c; polymerase (RNA) I polypeptide C [KO:K03027]
+            74414  Polr3c; polymerase (RNA) III (DNA directed) polypeptide C [KO:K03023]
+            67065  Polr3d; polymerase (RNA) III (DNA directed) polypeptide D [KO:K03026]
+            26939  Polr3e; polymerase (RNA) III (DNA directed) polypeptide E [KO:K14721]
+            67005  Polr3k; polymerase (RNA) III (DNA directed) polypeptide K [KO:K03019]
+            78929  Polr3h; polymerase (RNA) III (DNA directed) polypeptide H [KO:K03022]
+            67486  Polr3g; polymerase (RNA) III (DNA directed) polypeptide G [KO:K03024]
+            69870  Polr3gl; polymerase (RNA) III (DNA directed) polypeptide G like [KO:K03024]
+            70408  Polr3f; polymerase (RNA) III (DNA directed) polypeptide F [KO:K03025]
+            20017  Polr1b; polymerase (RNA) I polypeptide B [KO:K03002] [EC:2.7.7.6]
+            20019  Polr1a; polymerase (RNA) I polypeptide A [KO:K02999] [EC:2.7.7.6]
+            66136  Znrd1; zinc ribbon domain containing 1 [KO:K03000]
+            64424  Polr1e; polymerase (RNA) I polypeptide E [KO:K03005]
+            28071  Twistnb; twist basic helix-loop-helix transcription factor 1 neighbor [KO:K03004]
+REFERENCE   PMID:10499798
+  AUTHORS   Zhang G, Campbell EA, Minakhin L, Richter C, Severinov K, Darst SA.
+  TITLE     Crystal structure of Thermus aquaticus core RNA polymerase at 3.3 A resolution.
+  JOURNAL   Cell 98:811-824 (1999)
+            DOI:10.1016/S0092-8674(00)81515-9
+REFERENCE   PMID:10784442
+  AUTHORS   Cramer P, Bushnell DA, Fu J, Gnatt AL, Maier-Davis B, Thompson NE, Burgess RR, Edwards AM, David PR, Kornberg RD.
+  TITLE     Architecture of RNA polymerase II and implications for the transcription mechanism.
+  JOURNAL   Science 288:640-649 (2000)
+            DOI:10.1126/science.288.5466.640
+REFERENCE   PMID:19880312
+  AUTHORS   Hirata A, Murakami KS
+  TITLE     Archaeal RNA polymerase.
+  JOURNAL   Curr Opin Struct Biol 19:724-31 (2009)
+            DOI:10.1016/j.sbi.2009.10.006
+REFERENCE   PMID:18573085
+  AUTHORS   Cramer P, Armache KJ, Baumli S, Benkert S, Brueckner F, Buchen C, Damsma GE, Dengl S, Geiger SR, Jasiak AJ, Jawhari A, Jennebach S, Kamenski T, Kettenberger H, Kuhn CD, Lehmann E, Leike K, Sydow JF, Vannini A
+  TITLE     Structure of eukaryotic RNA polymerases.
+  JOURNAL   Annu Rev Biophys 37:337-52 (2008)
+            DOI:10.1146/annurev.biophys.37.032807.130008
+KO_PATHWAY  ko03020
+///

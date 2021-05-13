@@ -1,0 +1,120 @@
+ENTRY       mmu00600                    Pathway
+NAME        Sphingolipid metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Lipid metabolism
+PATHWAY_MAP mmu00600  Sphingolipid metabolism
+MODULE      mmu_M00066  Lactosylceramide biosynthesis [PATH:mmu00600]
+            mmu_M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid [PATH:mmu00600]
+            mmu_M00094  Ceramide biosynthesis [PATH:mmu00600]
+            mmu_M00099  Sphingosine biosynthesis [PATH:mmu00600]
+            mmu_M00100  Sphingosine degradation [PATH:mmu00600]
+DBLINKS     GO: 0006665 0030148
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        20773  Sptlc2; serine palmitoyltransferase, long chain base subunit 2 [KO:K00654] [EC:2.3.1.50]
+            268656  Sptlc1; serine palmitoyltransferase, long chain base subunit 1 [KO:K00654] [EC:2.3.1.50]
+            228677  Sptlc3; serine palmitoyltransferase, long chain base subunit 3 [KO:K00654] [EC:2.3.1.50]
+            70750  Kdsr; 3-ketodihydrosphingosine reductase [KO:K04708] [EC:1.1.1.102]
+            545975  Cers3; ceramide synthase 3 [KO:K04710] [EC:2.3.1.24]
+            76893  Cers2; ceramide synthase 2 [KO:K04710] [EC:2.3.1.24]
+            93898  Cers1; ceramide synthase 1 [KO:K04710] [EC:2.3.1.24]
+            67260  Cers4; ceramide synthase 4 [KO:K04710] [EC:2.3.1.24]
+            241447  Cers6; ceramide synthase 6 [KO:K23727] [EC:2.3.1.291]
+            71949  Cers5; ceramide synthase 5 [KO:K23727] [EC:2.3.1.291]
+            11886  Asah1; N-acylsphingosine amidohydrolase 1 [KO:K12348] [EC:3.5.1.23]
+            54447  Asah2; N-acylsphingosine amidohydrolase 2 [KO:K12349] [EC:3.5.1.23]
+            230379  Acer2; alkaline ceramidase 2 [KO:K01441] [EC:3.5.1.23]
+            171168  Acer1; alkaline ceramidase 1 [KO:K01441] [EC:3.5.1.23]
+            66190  Acer3; alkaline ceramidase 3 [KO:K04711] [EC:3.5.1.-]
+            70059  Degs2; delta(4)-desaturase, sphingolipid 2 [KO:K04712] [EC:1.14.19.17 1.14.18.5]
+            13244  Degs1; delta(4)-desaturase, sphingolipid 1 [KO:K04712] [EC:1.14.19.17 1.14.18.5]
+            619326  9130409I23Rik; RIKEN cDNA 9130409I23 gene [KO:K04712] [EC:1.14.19.17 1.14.18.5]
+            208449  Sgms1; sphingomyelin synthase 1 [KO:K04714] [EC:2.7.8.27]
+            74442  Sgms2; sphingomyelin synthase 2 [KO:K04714] [EC:2.7.8.27]
+            20597  Smpd1; sphingomyelin phosphodiesterase 1, acid lysosomal [KO:K12350] [EC:3.1.4.12]
+            20598  Smpd2; sphingomyelin phosphodiesterase 2, neutral [KO:K12351] [EC:3.1.4.12]
+            58994  Smpd3; sphingomyelin phosphodiesterase 3, neutral [KO:K12352] [EC:3.1.4.12]
+            77626  Smpd4; sphingomyelin phosphodiesterase 4 [KO:K12353] [EC:3.1.4.12]
+            238011  Enpp7; ectonucleotide pyrophosphatase/phosphodiesterase 7 [KO:K12354] [EC:3.1.4.12]
+            223753  Cerk; ceramide kinase [KO:K04715] [EC:2.7.1.138]
+            19012  Plpp1; phospholipid phosphatase 1 [KO:K01080] [EC:3.1.3.4]
+            50784  Plpp2; phospholipid phosphatase 2 [KO:K01080] [EC:3.1.3.4]
+            67916  Plpp3; phospholipid phosphatase 3 [KO:K01080] [EC:3.1.3.4]
+            81535  Sgpp1; sphingosine-1-phosphate phosphatase 1 [KO:K04716] [EC:3.1.3.-]
+            433323  Sgpp2; sphingosine-1-phosphate phosphatase 2 [KO:K04717] [EC:3.1.3.-]
+            56632  Sphk2; sphingosine kinase 2 [KO:K04718] [EC:2.7.1.91]
+            20698  Sphk1; sphingosine kinase 1 [KO:K04718] [EC:2.7.1.91]
+            20397  Sgpl1; sphingosine phosphate lyase 1 [KO:K01634] [EC:4.1.2.27]
+            22234  Ugcg; UDP-glucose ceramide glucosyltransferase [KO:K00720] [EC:2.4.1.80]
+            14466  Gba; glucosidase, beta, acid [KO:K01201] [EC:3.2.1.45]
+            230101  Gba2; glucosidase beta 2 [KO:K17108] [EC:3.2.1.45]
+            56386  B4galt6; UDP-Gal:betaGlcNAc beta 1,4-galactosyltransferase, polypeptide 6 [KO:K07553] [EC:2.4.1.274]
+            12091  Glb1; galactosidase, beta 1 [KO:K12309] [EC:3.2.1.23]
+            22239  Ugt8a; UDP galactosyltransferase 8A [KO:K04628] [EC:2.4.1.47]
+            14420  Galc; galactosylceramidase [KO:K01202] [EC:3.2.1.46]
+            53897  Gal3st1; galactose-3-O-sulfotransferase 1 [KO:K01019] [EC:2.8.2.11]
+            11883  Arsa; arylsulfatase A [KO:K01134] [EC:3.1.6.8]
+            18010  Neu1; neuraminidase 1 [KO:K01186] [EC:3.2.1.18]
+            50877  Neu3; neuraminidase 3 [KO:K12357] [EC:3.2.1.18]
+            241159  Neu4; sialidase 4 [KO:K12357] [EC:3.2.1.18]
+            23956  Neu2; neuraminidase 2 [KO:K12357] [EC:3.2.1.18]
+            11605  Gla; galactosidase, alpha [KO:K01189] [EC:3.2.1.22]
+COMPOUND    C00065  L-Serine
+            C00154  Palmitoyl-CoA
+            C00195  N-Acylsphingosine
+            C00319  Sphingosine
+            C00346  Ethanolamine phosphate
+            C00550  Sphingomyelin
+            C00836  Sphinganine
+            C01120  Sphinganine 1-phosphate
+            C01190  Glucosylceramide
+            C01290  Lactosylceramide
+            C01747  Psychosine
+            C02686  Galactosylceramide
+            C02934  3-Dehydrosphinganine
+            C02960  Ceramide 1-phosphate
+            C03640  Sphingosyl-phosphocholine
+            C05681  Ceramide 2-aminoethylphosphonate
+            C06062  Ceramide phosphoethanolamine
+            C06124  Sphingosine 1-phosphate
+            C06125  Sulfatide
+            C06126  Digalactosylceramide
+            C06127  Digalactosylceramide sulfate
+            C06128  GM4
+            C12126  Dihydroceramide
+            C12144  Phytosphingosine
+            C12145  Phytoceramide
+REFERENCE   PMID:12011104
+  AUTHORS   Merrill AH Jr.
+  TITLE     De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.
+  JOURNAL   J Biol Chem 277:25843-6 (2002)
+            DOI:10.1074/jbc.R200009200
+REFERENCE   PMID:10652340
+  AUTHORS   Tani M, Okino N, Mitsutake S, Tanigawa T, Izu H, Ito M.
+  TITLE     Purification and characterization of a neutral ceramidase from mouse liver. A single protein catalyzes the reversible reaction in which ceramide is both hydrolyzed and synthesized.
+  JOURNAL   J Biol Chem 275:3462-8 (2000)
+            DOI:10.1074/jbc.275.5.3462
+REFERENCE   PMID:11305904
+  AUTHORS   Hannun YA, Luberto C, Argraves KM.
+  TITLE     Enzymes of sphingolipid metabolism: from modular to integrative signaling.
+  JOURNAL   Biochemistry 40:4893-903 (2001)
+            DOI:10.1021/bi002836k
+REFERENCE   PMID:1495423
+  AUTHORS   Merrill AH Jr, Wang E.
+  TITLE     Enzymes of ceramide biosynthesis.
+  JOURNAL   Methods Enzymol 209:427-37 (1992)
+            DOI:10.1016/0076-6879(92)09053-6
+REFERENCE   PMID:8457204
+  AUTHORS   Hirschberg K, Rodger J, Futerman AH.
+  TITLE     The long-chain sphingoid base of sphingolipids is acylated at the cytosolic surface of the endoplasmic reticulum in rat liver.
+  JOURNAL   Biochem J 290 ( Pt 3):751-7 (1993)
+            DOI:10.1042/bj2900751
+REFERENCE   PMID:10366774
+  AUTHORS   Dickson RC, Lester RL.
+  TITLE     Metabolism and selected functions of sphingolipids in the yeast Saccharomyces cerevisiae.
+  JOURNAL   Biochim Biophys Acta 1438:305-21 (1999)
+            DOI:10.1016/S1388-1981(99)00068-2
+REL_PATHWAY mmu00260  Glycine, serine and threonine metabolism
+            mmu00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            mmu00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+            mmu00604  Glycosphingolipid biosynthesis - ganglio series
+KO_PATHWAY  ko00600
+///

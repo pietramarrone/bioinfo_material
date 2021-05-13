@@ -1,0 +1,99 @@
+ENTRY       mmu05310                    Pathway
+NAME        Asthma - Mus musculus (mouse)
+DESCRIPTION Asthma is a complex syndrome with many clinical phenotypes in both adults and children. Its major characteristics include a variable degree of airflow obstruction, bronchial hyperresponsiveness, and airway inflammation. Inhaled allergens encounter antigen presenting cells (APC) that line the airway. Upon recognition of the antigen and activation by APC, naive T cells differentiate into TH2 cells. Activated TH2 stimulate the formation of IgE by B cells. IgE molecules bind to IgE receptors located on mast cells. The crosslinking of mast-cell-bound IgE by allergens leads to the release of biologically active mediators (histamine, leukotrienes) by means of degranulation and, so, to the immediate symptoms of allergy. Mast cells also release chemotactic factors that contribute to the recruitment of inflammatory cells, particularly eosinophils, whose proliferation and differentiation from bone marrow progenitors is promoted by IL-5. The activation of eosinophils leads to release of toxic granules and oxygen free radicals that lead to tissue damage and promote the development of chronic inflammation.
+CLASS       Human Diseases; Immune disease
+PATHWAY_MAP mmu05310  Asthma
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            16189  Il4; interleukin 4 [KO:K05430]
+            21947  Cd40lg; CD40 ligand [KO:K03161]
+            21939  Cd40; CD40 antigen [KO:K03160]
+            14125  Fcer1a; Fc receptor, IgE, high affinity I, alpha polypeptide [KO:K08089]
+            14126  Ms4a2; membrane-spanning 4-domains, subfamily A, member 2 [KO:K08090]
+            14127  Fcer1g; Fc receptor, IgE, high affinity I, gamma polypeptide [KO:K07983]
+            16198  Il9; interleukin 9 [KO:K05432]
+            16153  Il10; interleukin 10 [KO:K05443]
+            16163  Il13; interleukin 13 [KO:K05435]
+            16191  Il5; interleukin 5 [KO:K05428]
+            20292  Ccl11; chemokine (C-C motif) ligand 11 [KO:K16597]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            16187  Il3; interleukin 3 [KO:K04736]
+            19074  Prg2; proteoglycan 2, bone marrow [KO:K10786]
+            13861  Epx; eosinophil peroxidase [KO:K10788] [EC:1.11.1.7]
+COMPOUND    C00388  Histamine
+            C00696  Prostaglandin D2
+            C02166  Leukotriene C4
+            C04598  2-Acetyl-1-alkyl-sn-glycero-3-phosphocholine
+            C05951  Leukotriene D4
+REFERENCE   PMID:11172168
+  AUTHORS   Busse WW, Lemanske RF Jr.
+  TITLE     Asthma.
+  JOURNAL   N Engl J Med 344:350-62 (2001)
+            DOI:10.1056/NEJM200102013440507
+REFERENCE   PMID:11477111
+  AUTHORS   Renauld JC.
+  TITLE     New insights into the role of cytokines in asthma.
+  JOURNAL   J Clin Pathol 54:577-89 (2001)
+            DOI:10.1136/jcp.54.8.577
+REFERENCE   PMID:10719286
+  AUTHORS   Romagnani S.
+  TITLE     The role of lymphocytes in allergic disease.
+  JOURNAL   J Allergy Clin Immunol 105:399-408 (2000)
+            DOI:10.1067/mai.2000.104575
+REFERENCE   PMID:17976144
+  AUTHORS   Averbeck M, Gebhardt C, Emmrich F, Treudler R, Simon JC.
+  TITLE     Immunologic principles of allergic disease.
+  JOURNAL   J Dtsch Dermatol Ges 5:1015-28 (2007)
+            DOI:10.1111/j.1610-0387.2007.06538.x
+REFERENCE   PMID:11686879
+  AUTHORS   Conroy DM, Williams TJ.
+  TITLE     Eotaxin and the attraction of eosinophils to the asthmatic lung.
+  JOURNAL   Respir Res 2:150-6 (2001)
+            DOI:10.1186/rr52
+REFERENCE   PMID:17133123
+  AUTHORS   Effros RM, Nagaraj H.
+  TITLE     Asthma: new developments concerning immune mechanisms, diagnosis and treatment.
+  JOURNAL   Curr Opin Pulm Med 13:37-43 (2007)
+            DOI:10.1097/MCP.0b013e3280108757
+REFERENCE   PMID:18274560
+  AUTHORS   Barnes PJ.
+  TITLE     Immunology of asthma and chronic obstructive pulmonary disease.
+  JOURNAL   Nat Rev Immunol 8:183-92 (2008)
+            DOI:10.1038/nri2254
+REFERENCE   PMID:18274559
+  AUTHORS   Holgate ST, Polosa R.
+  TITLE     Treatment strategies for allergy and asthma.
+  JOURNAL   Nat Rev Immunol 8:218-30 (2008)
+            DOI:10.1038/nri2262
+REFERENCE   PMID:12093011
+  AUTHORS   Valenta R.
+  TITLE     The future of antigen-specific immunotherapy of allergy.
+  JOURNAL   Nat Rev Immunol 2:446-53 (2002)
+            DOI:10.1038/nri824
+REFERENCE   PMID:17364144
+  AUTHORS   Trivedi SG, Lloyd CM.
+  TITLE     Eosinophils in the pathogenesis of allergic airways disease.
+  JOURNAL   Cell Mol Life Sci 64:1269-89 (2007)
+            DOI:10.1007/s00018-007-6527-y
+REFERENCE   PMID:10811837
+  AUTHORS   Heinecke JW.
+  TITLE     Eosinophil-dependent bromination in the pathogenesis of asthma.
+  JOURNAL   J Clin Invest 105:1331-2 (2000)
+            DOI:10.1172/JCI10072
+REL_PATHWAY mmu04060  Cytokine-cytokine receptor interaction
+            mmu04514  Cell adhesion molecules (CAMs)
+            mmu04612  Antigen processing and presentation
+            mmu04630  JAK-STAT signaling pathway
+            mmu04660  T cell receptor signaling pathway
+            mmu04662  B cell receptor signaling pathway
+            mmu04664  Fc epsilon RI signaling pathway
+KO_PATHWAY  ko05310
+///

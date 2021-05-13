@@ -1,0 +1,233 @@
+ENTRY       mmu04611                    Pathway
+NAME        Platelet activation - Mus musculus (mouse)
+DESCRIPTION Platelets play a key and beneficial role for primary hemostasis on the disruption of the integrity of vessel wall. Platelet adhesion and activation at sites of vascular wall injury is initiated by adhesion to adhesive macromolecules, such as collagen and von Willebrand factor (vWF), or by soluble platelet agonists, such as ADP, thrombin, and thromboxane A2. Different receptors are stimulated by various agonists, almost converging in increasing intracellular Ca2+ concentration that stimulate platelet shape change and granule secretion and ultimately induce the "inside-out" signaling process leading to activation of the ligand-binding function of integrin alpha IIb beta 3. Binding of alpha IIb beta 3 to its ligands, mainly fibrinogen, mediates platelet adhesion and aggregation and triggers "outside-in" signaling, resulting in platelet spreading, additional granule secretion, stabilization of platelet adhesion and aggregation, and clot retraction.
+CLASS       Organismal Systems; Immune system
+PATHWAY_MAP mmu04611  Platelet activation
+DBLINKS     GO: 0030168
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        21390  Tbxa2r; thromboxane A2 receptor [KO:K04264]
+            14061  F2; coagulation factor II [KO:K01313] [EC:3.4.21.5]
+            14062  F2r; coagulation factor II (thrombin) receptor [KO:K03914]
+            14065  F2rl3; coagulation factor II (thrombin) receptor-like 3 [KO:K04236]
+            14674  Gna13; guanine nucleotide binding protein, alpha 13 [KO:K04639]
+            16801  Arhgef1; Rho guanine nucleotide exchange factor (GEF) 1 [KO:K12330]
+            69632  Arhgef12; Rho guanine nucleotide exchange factor (GEF) 12 [KO:K07532]
+            11848  Rhoa; ras homolog family member A [KO:K04513]
+            67653  4930544G11Rik; RIKEN cDNA 4930544G11 gene [KO:K04513]
+            19877  Rock1; Rho-associated coiled-coil containing protein kinase 1 [KO:K04514] [EC:2.7.11.1]
+            19878  Rock2; Rho-associated coiled-coil containing protein kinase 2 [KO:K17388] [EC:2.7.11.1]
+            19045  Ppp1ca; protein phosphatase 1 catalytic subunit alpha [KO:K06269] [EC:3.1.3.16]
+            19046  Ppp1cb; protein phosphatase 1 catalytic subunit beta [KO:K06269] [EC:3.1.3.16]
+            19047  Ppp1cc; protein phosphatase 1 catalytic subunit gamma [KO:K06269] [EC:3.1.3.16]
+            434233  Ppp1ccb; protein phosphatase 1 catalytic subunit gamma B [KO:K06269] [EC:3.1.3.16]
+            17931  Ppp1r12a; protein phosphatase 1, regulatory subunit 12A [KO:K06270]
+            67938  Myl12b; myosin, light chain 12B, regulatory [KO:K12757]
+            67268  Myl12a; myosin, light chain 12A, regulatory, non-sarcomeric [KO:K12757]
+            18436  P2rx1; purinergic receptor P2X, ligand-gated ion channel, 1 [KO:K05215]
+            109305  Orai1; ORAI calcium release-activated calcium modulator 1 [KO:K16056]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            20866  Stim1; stromal interaction molecule 1 [KO:K16059]
+            107589  Mylk; myosin, light polypeptide kinase [KO:K00907] [EC:2.7.11.18]
+            213435  Mylk3; myosin light chain kinase 3 [KO:K00907] [EC:2.7.11.18]
+            228785  Mylk2; myosin, light polypeptide kinase 2, skeletal muscle [KO:K00907] [EC:2.7.11.18]
+            238564  Mylk4; myosin light chain kinase family, member 4 [KO:K00907] [EC:2.7.11.18]
+            18441  P2ry1; purinergic receptor P2Y, G-protein coupled 1 [KO:K04270]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            18762  Prkcz; protein kinase C, zeta [KO:K18952] [EC:2.7.11.13]
+            18759  Prkci; protein kinase C, iota [KO:K06069] [EC:2.7.11.13]
+            19419  Rasgrp1; RAS guanyl releasing protein 1 [KO:K04350]
+            19395  Rasgrp2; RAS, guanyl releasing protein 2 [KO:K12361]
+            109905  Rap1a; RAS-related protein 1a [KO:K04353]
+            215449  Rap1b; RAS related protein 1b [KO:K07836]
+            54519  Apbb1ip; amyloid beta (A4) precursor protein-binding, family B, member 1 interacting protein [KO:K17704]
+            21894  Tln1; talin 1 [KO:K06271]
+            70549  Tln2; talin 2 [KO:K06271]
+            16399  Itga2b; integrin alpha 2b [KO:K06476]
+            16416  Itgb3; integrin beta 3 [KO:K06493]
+            108101  Fermt3; fermitin family member 3 [KO:K17084]
+            14161  Fga; fibrinogen alpha chain [KO:K03903]
+            110135  Fgb; fibrinogen beta chain [KO:K03904]
+            99571  Fgg; fibrinogen gamma chain [KO:K03905]
+            70839  P2ry12; purinergic receptor P2Y, G-protein coupled 12 [KO:K04298]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            19222  Ptgir; prostaglandin I receptor (IP) [KO:K04263]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            30955  Pik3cg; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [KO:K21289] [EC:2.7.1.153]
+            320207  Pik3r5; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            104709  Pik3r6; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            22323  Vasp; vasodilator-stimulated phosphoprotein [KO:K06274]
+            11465  Actg1; actin, gamma, cytoplasmic 1 [KO:K05692]
+            11461  Actb; actin, beta [KO:K05692]
+            20779  Src; Rous sarcoma oncogene [KO:K05704] [EC:2.7.10.2]
+            232906  Arhgap35; Rho GTPase activating protein 35 [KO:K05732]
+            20963  Syk; spleen tyrosine kinase [KO:K05855] [EC:2.7.10.2]
+            12842  Col1a1; collagen, type I, alpha 1 [KO:K06236]
+            12843  Col1a2; collagen, type I, alpha 2 [KO:K06236]
+            12825  Col3a1; collagen, type III, alpha 1 [KO:K19720]
+            243816  Gp6; glycoprotein 6 (platelet) [KO:K06264]
+            14127  Fcer1g; Fc receptor, IgE, high affinity I, gamma polypeptide [KO:K07983]
+            17096  Lyn; LYN proto-oncogene, Src family tyrosine kinase [KO:K05854] [EC:2.7.10.2]
+            14360  Fyn; Fyn proto-oncogene [KO:K05703] [EC:2.7.10.2]
+            16398  Itga2; integrin alpha 2 [KO:K06481]
+            16412  Itgb1; integrin beta 1 (fibronectin receptor beta) [KO:K05719]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            16822  Lcp2; lymphocyte cytosolic protein 2 [KO:K07361]
+            234779  Plcg2; phospholipase C, gamma 2 [KO:K05859] [EC:3.1.4.11]
+            12229  Btk; Bruton agammaglobulinemia tyrosine kinase [KO:K07370] [EC:2.7.10.2]
+            22371  Vwf; Von Willebrand factor [KO:K03900]
+            14729  Gp5; glycoprotein 5 (platelet) [KO:K06260]
+            14723  Gp1ba; glycoprotein 1b, alpha polypeptide [KO:K06261]
+            14724  Gp1bb; glycoprotein Ib, beta polypeptide [KO:K06262]
+            54368  Gp9; glycoprotein 9 (platelet) [KO:K06263]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            18127  Nos3; nitric oxide synthase 3, endothelial cell [KO:K13242] [EC:1.14.13.39]
+            60596  Gucy1a1; guanylate cyclase 1, soluble, alpha 1 [KO:K12318] [EC:4.6.1.2]
+            234889  Gucy1a2; guanylate cyclase 1, soluble, alpha 2 [KO:K12318] [EC:4.6.1.2]
+            239134  Gucy1b2; guanylate cyclase 1, soluble, beta 2 [KO:K12319] [EC:4.6.1.2]
+            54195  Gucy1b1; guanylate cyclase 1, soluble, beta 1 [KO:K12319] [EC:4.6.1.2]
+            19091  Prkg1; protein kinase, cGMP-dependent, type I [KO:K07376] [EC:2.7.11.12]
+            19092  Prkg2; protein kinase, cGMP-dependent, type II [KO:K19477] [EC:2.7.11.12]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            19224  Ptgs1; prostaglandin-endoperoxide synthase 1 [KO:K00509] [EC:1.14.99.1]
+            21391  Tbxas1; thromboxane A synthase 1, platelet [KO:K01832] [EC:5.3.99.5]
+            20619  Snap23; synaptosomal-associated protein 23 [KO:K08508]
+            22320  Vamp8; vesicle-associated membrane protein 8 [KO:K08512]
+COMPOUND    C00002  ATP
+            C00008  ADP
+            C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00219  Arachidonate
+            C00427  Prostaglandin H2
+            C00533  Nitric oxide
+            C00575  3',5'-Cyclic AMP
+            C00942  3',5'-Cyclic GMP
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01312  Prostaglandin I2
+            C02198  Thromboxane A2
+            C05956  Prostaglandin G2
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:21071698
+  AUTHORS   Li Z, Delaney MK, O'Brien KA, Du X
+  TITLE     Signaling during platelet adhesion and activation.
+  JOURNAL   Arterioscler Thromb Vasc Biol 30:2341-9 (2010)
+            DOI:10.1161/ATVBAHA.110.207522
+REFERENCE   PMID:22119499
+  AUTHORS   Broos K, De Meyer SF, Feys HB, Vanhoorelbeke K, Deckmyn H
+  TITLE     Blood platelet biochemistry.
+  JOURNAL   Thromb Res 129:245-9 (2012)
+            DOI:10.1016/j.thromres.2011.11.002
+REFERENCE   PMID:16149014
+  AUTHORS   Jurk K, Kehrel BE
+  TITLE     Platelets: physiology and biochemistry.
+  JOURNAL   Semin Thromb Hemost 31:381-92 (2005)
+            DOI:10.1055/s-2005-916671
+REFERENCE   PMID:17158345
+  AUTHORS   Offermanns S
+  TITLE     Activation of platelet function through G protein-coupled receptors.
+  JOURNAL   Circ Res 99:1293-304 (2006)
+            DOI:10.1161/01.RES.0000251742.71301.16
+REFERENCE   PMID:18174460
+  AUTHORS   Varga-Szabo D, Pleines I, Nieswandt B
+  TITLE     Cell adhesion mechanisms in platelets.
+  JOURNAL   Arterioscler Thromb Vasc Biol 28:403-12 (2008)
+            DOI:10.1161/ATVBAHA.107.150474
+REFERENCE   PMID:18550847
+  AUTHORS   Yin H, Liu J, Li Z, Berndt MC, Lowell CA, Du X
+  TITLE     Src family tyrosine kinase Lyn mediates VWF/GPIb-IX-induced platelet activation via the cGMP signaling pathway.
+  JOURNAL   Blood 112:1139-46 (2008)
+            DOI:10.1182/blood-2008-02-140970
+REFERENCE   PMID:19630797
+  AUTHORS   Bergmeier W, Stefanini L
+  TITLE     Novel molecules in calcium signaling in platelets.
+  JOURNAL   J Thromb Haemost 7 Suppl 1:187-90 (2009)
+            DOI:10.1111/j.1538-7836.2009.03379.x
+REFERENCE   PMID:18544684
+  AUTHORS   Cifuni SM, Wagner DD, Bergmeier W
+  TITLE     CalDAG-GEFI and protein kinase C represent alternative pathways leading to activation of integrin alphaIIbbeta3 in platelets.
+  JOURNAL   Blood 112:1696-703 (2008)
+            DOI:10.1182/blood-2008-02-139733
+REFERENCE   PMID:23106920
+  AUTHORS   Heemskerk JW, Mattheij NJ, Cosemans JM
+  TITLE     Platelet-based coagulation: different populations, different functions.
+  JOURNAL   J Thromb Haemost 11:2-16 (2013)
+            DOI:10.1111/jth.12045
+REFERENCE   PMID:19286885
+  AUTHORS   Rivera J, Lozano ML, Navarro-Nunez L, Vicente V
+  TITLE     Platelet receptors and signaling in the dynamics of thrombus formation.
+  JOURNAL   Haematologica 94:700-11 (2009)
+            DOI:10.3324/haematol.2008.003178
+REFERENCE   PMID:18363565
+  AUTHORS   Banno A, Ginsberg MH
+  TITLE     Integrin activation.
+  JOURNAL   Biochem Soc Trans 36:229-34 (2008)
+            DOI:10.1042/BST0360229
+REFERENCE   PMID:20089227
+  AUTHORS   Angiolillo DJ, Ferreiro JL
+  TITLE     Platelet adenosine diphosphate P2Y12 receptor antagonism: benefits and limitations of current treatment strategies and future directions.
+  JOURNAL   Rev Esp Cardiol 63:60-76 (2010)
+            DOI:10.1016/s1885-5857(10)70010-4
+REFERENCE   PMID:22701130
+  AUTHORS   Joo SJ
+  TITLE     Mechanisms of Platelet Activation and Integrin alphaIIbeta3.
+  JOURNAL   Korean Circ J 42:295-301 (2012)
+            DOI:10.4070/kcj.2012.42.5.295
+REFERENCE   PMID:20002545
+  AUTHORS   Harper MT, Poole AW
+  TITLE     Diverse functions of protein kinase C isoforms in platelet activation and thrombus formation.
+  JOURNAL   J Thromb Haemost 8:454-62 (2010)
+            DOI:10.1111/j.1538-7836.2009.03722.x
+REFERENCE   PMID:23805129
+  AUTHORS   Fitch-Tewfik JL, Flaumenhaft R
+  TITLE     Platelet granule exocytosis: a comparison with chromaffin cells.
+  JOURNAL   Front Endocrinol (Lausanne) 4:77 (2013)
+            DOI:10.3389/fendo.2013.00077
+REFERENCE   PMID:18641368
+  AUTHORS   Boylan B, Gao C, Rathore V, Gill JC, Newman DK, Newman PJ
+  TITLE     Identification of FcgammaRIIa as the ITAM-bearing receptor mediating alphaIIbbeta3 outside-in integrin signaling in human platelets.
+  JOURNAL   Blood 112:2780-6 (2008)
+            DOI:10.1182/blood-2008-02-142125
+REL_PATHWAY mmu00590  Arachidonic acid metabolism
+            mmu04015  Rap1 signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04610  Complement and coagulation cascades
+            mmu05211  Renal cell carcinoma
+KO_PATHWAY  ko04611
+///

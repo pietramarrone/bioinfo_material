@@ -1,0 +1,175 @@
+ENTRY       mmu04612                    Pathway
+NAME        Antigen processing and presentation - Mus musculus (mouse)
+CLASS       Organismal Systems; Immune system
+PATHWAY_MAP mmu04612  Antigen processing and presentation
+DBLINKS     GO: 0019885 0019886 0042591
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        15978  Ifng; interferon gamma [KO:K04687]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            19186  Psme1; proteasome (prosome, macropain) activator subunit 1 (PA28 alpha) [KO:K06696]
+            19188  Psme2; proteasome (prosome, macropain) activator subunit 2 (PA28 beta) [KO:K06697]
+            621823  Psme2b; protease (prosome, macropain) activator subunit 2B [KO:K06697]
+            19192  Psme3; proteaseome (prosome, macropain) activator subunit 3 (PA28 gamma, Ki) [KO:K06698]
+            15481  Hspa8; heat shock protein 8 [KO:K03283]
+            15482  Hspa1l; heat shock protein 1-like [KO:K03283]
+            193740  Hspa1a; heat shock protein 1A [KO:K03283]
+            15512  Hspa2; heat shock protein 2 [KO:K03283]
+            15511  Hspa1b; heat shock protein 1B [KO:K03283]
+            15525  Hspa4; heat shock protein 4 [KO:K09489]
+            15519  Hsp90aa1; heat shock protein 90, alpha (cytosolic), class A member 1 [KO:K04079]
+            15516  Hsp90ab1; heat shock protein 90 alpha (cytosolic), class B member 1 [KO:K04079]
+            14990  H2-M2; histocompatibility 2, M region locus 2 [KO:K06751]
+            14991  H2-M3; histocompatibility 2, M region locus 3 [KO:K06751]
+            14997  H2-M9; histocompatibility 2, M region locus 9 [KO:K06751]
+            15006  H2-Q1; histocompatibility 2, Q region locus 1 [KO:K06751]
+            15007  H2-Q10; histocompatibility 2, Q region locus 10 [KO:K06751]
+            15013  H2-Q2; histocompatibility 2, Q region locus 2 [KO:K06751]
+            15018  H2-Q7; histocompatibility 2, Q region locus 7 [KO:K06751]
+            15019  H2-Q8; histocompatibility 2, Q region locus 8 [KO:K06751]
+            15039  H2-T22; histocompatibility 2, T region locus 22 [KO:K06751]
+            15040  H2-T23; histocompatibility 2, T region locus 23 [KO:K06751]
+            15042  H2-T24; histocompatibility 2, T region locus 24 [KO:K06751]
+            15043  H2-T3; histocompatibility 2, T region locus 3 [KO:K06751]
+            15051  H2-T9; histocompatibility 2, T region locus 9 [KO:K06751]
+            224753  H2-M10.4; histocompatibility 2, M region locus 10.4 [KO:K06751]
+            224754  H2-M11; histocompatibility 2, M region locus 11 [KO:K06751]
+            224756  H2-M1; histocompatibility 2, M region locus 1 [KO:K06751]
+            224761  H2-M10.5; histocompatibility 2, M region locus 10.5 [KO:K06751]
+            333715  H2-M10.2; histocompatibility 2, M region locus 10.2 [KO:K06751]
+            399549  H2-M10.6; histocompatibility 2, M region locus 10.6 [KO:K06751]
+            15024  H2-T10; histocompatibility 2, T region locus 10 [KO:K06751]
+            110557  H2-Q6; histocompatibility 2, Q region locus 6 [KO:K06751]
+            110696  H2-M10.3; histocompatibility 2, M region locus 10.3 [KO:K06751]
+            14963  H2-Bl; histocompatibility 2, blastocyst [KO:K06751]
+            14964  H2-D1; histocompatibility 2, D region locus 1 [KO:K06751]
+            14972  H2-K1; histocompatibility 2, K1, K region [KO:K06751]
+            14985  H2-M10.1; histocompatibility 2, M region locus 10.1 [KO:K06751]
+            547349  H2-K1; MHC class I family member [KO:K06751]
+            15033  H2-T18; histocompatibility 2, T region locus 18 [KO:K06751]
+            110558  H2-Q9; histocompatibility 2, Q region locus 9 [KO:K06751]
+            667977  Gm8909; predicted gene 8909 [KO:K06751]
+            14980  H2-L; histocompatibility 2, D region locus L [KO:K06751]
+            69717  Gm10499; predicted gene 10499 [KO:K06751]
+            15015  H2-Q4; histocompatibility 2, Q region locus 4 [KO:K06751]
+            667803  H2-T-ps; histocompatibility 2, T region locus, pseudogene [KO:K06751]
+            100529082  Gm11127; predicted gene 11127 [KO:K06751]
+            240095  H2-M5; histocompatibility 2, M region locus 5 [KO:K06751]
+            630294  Gm7030; predicted gene 7030 [KO:K06751]
+            14828  Hspa5; heat shock protein 5 [KO:K09490] [EC:3.6.4.10]
+            12330  Canx; calnexin [KO:K08054]
+            12010  B2m; beta-2 microglobulin [KO:K08055]
+            14827  Pdia3; protein disulfide isomerase associated 3 [KO:K08056] [EC:5.3.4.1]
+            12317  Calr; calreticulin [KO:K08057]
+            21356  Tapbp; TAP binding protein [KO:K08058]
+            21354  Tap1; transporter 1, ATP-binding cassette, sub-family B (MDR/TAP) [KO:K05653]
+            21355  Tap2; transporter 2, ATP-binding cassette, sub-family B (MDR/TAP) [KO:K05654]
+            12525  Cd8a; CD8 antigen, alpha chain [KO:K06458]
+            12526  Cd8b1; CD8 antigen, beta chain 1 [KO:K06459]
+            245616  Kir3dl1; killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 1 [KO:K07980]
+            245615  Kir3dl2; killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 2 [KO:K07980]
+            16641  Klrc1; killer cell lectin-like receptor subfamily C, member 1 [KO:K06541]
+            16643  Klrd1; killer cell lectin-like receptor, subfamily D, member 1 [KO:K06516]
+            65972  Ifi30; interferon gamma inducible protein 30 [KO:K08059]
+            19141  Lgmn; legumain [KO:K01369] [EC:3.4.22.34]
+            13030  Ctsb; cathepsin B [KO:K01363] [EC:3.4.22.1]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            16149  Cd74; CD74 antigen (invariant polypeptide of major histocompatibility complex, class II antigen-associated) [KO:K06505]
+            13039  Ctsl; cathepsin L [KO:K01365] [EC:3.4.22.15]
+            13040  Ctss; cathepsin S [KO:K01368] [EC:3.4.22.27]
+            12504  Cd4; CD4 antigen [KO:K06454]
+            12265  Ciita; class II transactivator [KO:K08060] [EC:2.7.11.1]
+            53970  Rfx5; regulatory factor X, 5 (influences HLA class II expression) [KO:K08061]
+            19727  Rfxank; regulatory factor X-associated ankyrin-containing protein [KO:K08062]
+            170767  Rfxap; regulatory factor X-associated protein [KO:K08063]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            18044  Nfya; nuclear transcription factor-Y alpha [KO:K08064]
+            18045  Nfyb; nuclear transcription factor-Y beta [KO:K08065]
+            18046  Nfyc; nuclear transcription factor-Y gamma [KO:K08066]
+REFERENCE   PMID:15771591
+  AUTHORS   Trombetta ES, Mellman I.
+  TITLE     Cell biology of antigen processing in vitro and in vivo.
+  JOURNAL   Annu Rev Immunol 23:975-1028 (2005)
+            DOI:10.1146/annurev.immunol.22.012703.104538
+REFERENCE   PMID:15814328
+  AUTHORS   Inaba K, Inaba M.
+  TITLE     Antigen recognition and presentation by dendritic cells.
+  JOURNAL   Int J Hematol 81:181-7 (2005)
+            DOI:10.1532/IJH97.04200
+REFERENCE   PMID:11905820
+  AUTHORS   Heath WR, Carbone FR.
+  TITLE     Cross-presentation in viral immunity and self-tolerance.
+  JOURNAL   Nat Rev Immunol 1:126-34 (2001)
+            DOI:10.1038/35100512
+REFERENCE   PMID:15304636
+  AUTHORS   Abele R, Tampe R.
+  TITLE     The ABCs of immunology: structure and function of TAP, the transporter associated with antigen processing.
+  JOURNAL   Physiology (Bethesda) 19:216-24 (2004)
+            DOI:10.1152/physiol.00002.2004
+REFERENCE   PMID:16200082
+  AUTHORS   Reith W, LeibundGut-Landmann S, Waldburger JM.
+  TITLE     Regulation of MHC class II gene expression by the class II transactivator.
+  JOURNAL   Nat Rev Immunol 5:793-806 (2005)
+            DOI:10.1038/nri1708
+REFERENCE   PMID:12776207
+  AUTHORS   Honey K, Rudensky AY.
+  TITLE     Lysosomal cysteine proteases regulate antigen presentation.
+  JOURNAL   Nat Rev Immunol 3:472-82 (2003)
+            DOI:10.1038/nri1110
+REFERENCE   PMID:12974477
+  AUTHORS   Sercarz EE, Maverakis E.
+  TITLE     Mhc-guided processing: binding of large antigen fragments.
+  JOURNAL   Nat Rev Immunol 3:621-9 (2003)
+            DOI:10.1038/nri1149
+REFERENCE   PMID:15224093
+  AUTHORS   Ackerman AL, Cresswell P.
+  TITLE     Cellular mechanisms governing cross-presentation of exogenous antigens.
+  JOURNAL   Nat Immunol 5:678-84 (2004)
+            DOI:10.1038/ni1082
+REFERENCE   PMID:16181333
+  AUTHORS   Cresswell P, Ackerman AL, Giodini A, Peaper DR, Wearsch PA.
+  TITLE     Mechanisms of MHC class I-restricted antigen processing and cross-presentation.
+  JOURNAL   Immunol Rev 207:145-57 (2005)
+            DOI:10.1111/j.0105-2896.2005.00316.x
+REFERENCE   PMID:15653312
+  AUTHORS   Zika E, Ting JP.
+  TITLE     Epigenetic control of MHC-II: interplay between CIITA and histone-modifying enzymes.
+  JOURNAL   Curr Opin Immunol 17:58-64 (2005)
+            DOI:10.1016/j.coi.2004.11.008
+REFERENCE   PMID:11244040
+  AUTHORS   Reith W, Mach B.
+  TITLE     The bare lymphocyte syndrome and the regulation of MHC expression.
+  JOURNAL   Annu Rev Immunol 19:331-73 (2001)
+            DOI:10.1146/annurev.immunol.19.1.331
+REFERENCE   PMID:15745856
+  AUTHORS   Lizee G, Basha G, Jefferies WA.
+  TITLE     Tails of wonder: endocytic-sorting motifs key for exogenous antigen presentation.
+  JOURNAL   Trends Immunol 26:141-9 (2005)
+            DOI:10.1016/j.it.2005.01.005
+REFERENCE   PMID:15224094
+  AUTHORS   Watts C.
+  TITLE     The exogenous pathway for antigen presentation on major histocompatibility complex class II and CD1 molecules.
+  JOURNAL   Nat Immunol 5:685-92 (2004)
+            DOI:10.1038/ni1088
+REFERENCE   PMID:15653315
+  AUTHORS   Kaufmann SH, Schaible UE.
+  TITLE     Antigen presentation and recognition in bacterial infections.
+  JOURNAL   Curr Opin Immunol 17:79-87 (2005)
+            DOI:10.1016/j.coi.2004.12.004
+REFERENCE   PMID:20010787
+  AUTHORS   Groettrup M, Kirk CJ, Basler M
+  TITLE     Proteasomes in immune cells: more than peptide producers?
+  JOURNAL   Nat Rev Immunol 10:73-8 (2010)
+            DOI:10.1038/nri2687
+REL_PATHWAY mmu03050  Proteasome
+            mmu04650  Natural killer cell mediated cytotoxicity
+            mmu04660  T cell receptor signaling pathway
+KO_PATHWAY  ko04612
+///

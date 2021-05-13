@@ -1,0 +1,114 @@
+ENTRY       mmu05143                    Pathway
+NAME        African trypanosomiasis - Mus musculus (mouse)
+DESCRIPTION Trypanosoma brucei, the parasite responsible for African trypanosomiasis (sleeping sickness), are spread by the tsetse fly in sub-Saharan Africa. The parasites are able to pass through the blood-brain barrier and cause neurological damage by inducing cytokines like TNF alpha, IFN gamma, and IL1. These cytokines and other metabolites such as nitric oxide and somnogenic prostaglandin D2 disturb circadian rhythms in patients with African trypanosomiasis.
+CLASS       Human Diseases; Infectious disease: parasitic
+PATHWAY_MAP mmu05143  African trypanosomiasis
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        81897  Tlr9; toll-like receptor 9 [KO:K10161]
+            17874  Myd88; myeloid differentiation primary response gene 88 [KO:K04729]
+            50492  Thop1; thimet oligopeptidase 1 [KO:K01392] [EC:3.4.24.15]
+            16644  Kng1; kininogen 1 [KO:K03898]
+            385643  Kng2; kininogen 2 [KO:K03898]
+            230899  Nppa; natriuretic peptide type A [KO:K12334]
+            11806  Apoa1; apolipoprotein A-I [KO:K08757]
+            110257  Hba-a2; hemoglobin alpha, adult chain 2 [KO:K13822]
+            15122  Hba-a1; hemoglobin alpha, adult chain 1 [KO:K13822]
+            15129  Hbb-b1; hemoglobin, beta adult major chain [KO:K13823]
+            15130  Hbb-b2; hemoglobin, beta adult minor chain [KO:K13823]
+            101488143  Hbb-bt; hemoglobin, beta adult t chain [KO:K13823]
+            100503605  Hbb-bs; hemoglobin, beta adult s chain [KO:K13823]
+            16153  Il10; interleukin 10 [KO:K05443]
+            16159  Il12a; interleukin 12a [KO:K05406]
+            16160  Il12b; interleukin 12b [KO:K05425]
+            16173  Il18; interleukin 18 [KO:K05482]
+            15978  Ifng; interferon gamma [KO:K04687]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+            16193  Il6; interleukin 6 [KO:K05405]
+            14103  Fasl; Fas ligand (TNF superfamily, member 6) [KO:K04389]
+            14102  Fas; Fas (TNF receptor superfamily member 6) [KO:K04390]
+            22329  Vcam1; vascular cell adhesion molecule 1 [KO:K06527]
+            20339  Sele; selectin, endothelial cell [KO:K06494]
+            15894  Icam1; intercellular adhesion molecule 1 [KO:K06490]
+            16775  Lama4; laminin, alpha 4 [KO:K06241]
+            15930  Ido1; indoleamine 2,3-dioxygenase 1 [KO:K00463] [EC:1.13.11.52]
+            209176  Ido2; indoleamine 2,3-dioxygenase 2 [KO:K00463] [EC:1.13.11.52]
+            14063  F2rl1; coagulation factor II (thrombin) receptor-like 1 [KO:K04234]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+COMPOUND    C00076  Calcium cation
+            C00078  L-Tryptophan
+            C00165  Diacylglycerol
+            C00328  L-Kynurenine
+            C00533  Nitric oxide
+            C00584  Prostaglandin E2
+            C00696  Prostaglandin D2
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+REFERENCE   PMID:19168735
+  AUTHORS   Antoine-Moussiaux N, Buscher P, Desmecht D
+  TITLE     Host-parasite interactions in trypanosomiasis: on the way to an antidisease strategy.
+  JOURNAL   Infect Immun 77:1276-84 (2009)
+            DOI:10.1128/IAI.01185-08
+REFERENCE   PMID:12088284
+  AUTHORS   Enanga B, Burchmore RJ, Stewart ML, Barrett MP
+  TITLE     Sleeping sickness and the brain.
+  JOURNAL   Cell Mol Life Sci 59:845-58 (2002)
+            DOI:10.1007/s00018-002-8472-0
+REFERENCE   PMID:16600243
+  AUTHORS   Bisser S, Ouwe-Missi-Oukem-Boyer ON, Toure FS, Taoufiq Z, Bouteille B, Buguet A, Mazier D
+  TITLE     Harbouring in the brain: A focus on immune evasion mechanisms and their deleterious effects in malaria and human African trypanosomiasis.
+  JOURNAL   Int J Parasitol 36:529-40 (2006)
+            DOI:10.1016/j.ijpara.2006.02.001
+REFERENCE   PMID:17582444
+  AUTHORS   Masocha W, Rottenberg ME, Kristensson K
+  TITLE     Migration of African trypanosomes across the blood-brain barrier.
+  JOURNAL   Physiol Behav 92:110-4 (2007)
+            DOI:10.1016/j.physbeh.2007.05.045
+REFERENCE   PMID:11850009
+  AUTHORS   Lonsdale-Eccles JD, Grab DJ
+  TITLE     Trypanosome hydrolases and the blood-brain barrier.
+  JOURNAL   Trends Parasitol 18:17-9 (2002)
+            DOI:10.1016/S1471-4922(01)02120-1
+REFERENCE   PMID:19016378
+  AUTHORS   Grab DJ, Kennedy PG
+  TITLE     Traversal of human and animal trypanosomes across the blood-brain barrier.
+  JOURNAL   J Neurovirol 14:344-51 (2008)
+            DOI:10.1080/13550280802282934
+REFERENCE   PMID:19995590
+  AUTHORS   Kristensson K, Nygard M, Bertini G, Bentivoglio M
+  TITLE     African trypanosome infections of the nervous system: parasite entry and effects on sleep and synaptic functions.
+  JOURNAL   Prog Neurobiol 91:152-71 (2010)
+            DOI:10.1016/j.pneurobio.2009.12.001
+REFERENCE   PMID:19559585
+  AUTHORS   Pays E, Vanhollebeke B
+  TITLE     Human innate immunity against African trypanosomes.
+  JOURNAL   Curr Opin Immunol 21:493-8 (2009)
+            DOI:10.1016/j.coi.2009.05.024
+REFERENCE   PMID:9574925
+  AUTHORS   Donelson JE, Hill KL, El-Sayed NM
+  TITLE     Multiple mechanisms of immune evasion by African trypanosomes.
+  JOURNAL   Mol Biochem Parasitol 91:51-66 (1998)
+            DOI:10.1016/S0166-6851(97)00209-0
+REFERENCE   PMID:19621073
+  AUTHORS   Grab DJ, Garcia-Garcia JC, Nikolskaia OV, Kim YV, Brown A, Pardo CA, Zhang Y, Becker KG, Wilson BA, de A Lima AP, Scharfstein J, Dumler JS
+  TITLE     Protease activated receptor signaling is required for African trypanosome traversal of human brain microvascular endothelial cells.
+  JOURNAL   PLoS Negl Trop Dis 3:e479 (2009)
+            DOI:10.1371/journal.pntd.0000479
+REFERENCE   PMID:20398209
+  AUTHORS   Vanhollebeke B, Pays E
+  TITLE     The trypanolytic factor of human serum: many ways to enter the parasite, a single way to kill.
+  JOURNAL   Mol Microbiol 76:806-14 (2010)
+            DOI:10.1111/j.1365-2958.2010.07156.x
+REL_PATHWAY mmu00380  Tryptophan metabolism
+            mmu04210  Apoptosis
+            mmu04610  Complement and coagulation cascades
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04710  Circadian rhythm
+KO_PATHWAY  ko05143
+///

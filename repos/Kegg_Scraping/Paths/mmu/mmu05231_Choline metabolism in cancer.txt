@@ -1,0 +1,196 @@
+ENTRY       mmu05231                    Pathway
+NAME        Choline metabolism in cancer - Mus musculus (mouse)
+DESCRIPTION Abnormal choline metabolism is emerging as a metabolic hallmark that is associated with oncogenesis and tumour progression. Following transformation, oncogenic signalling via pathways such as the RAS and PI3K-AKT pathways, and transcription factors associated with oncogenesis such as hypoxia-inducible factor 1 (HIF1) mediate overexpression and activation of choline cycle enzymes, which causes increased levels of choline-containing precursors and breakdown products of membrane phospholipids. These products of choline phospholipid metabolism, such as phosphocholine (PCho), diacylglycerol (DAG) and phosphatidic acid, may function as second messengers that are essential for the mitogenic activity of growth factors, particularly in the activation of the ras-raf-1-MAPK cascade and protein kinase C pathway.
+CLASS       Human Diseases; Cancer: overview
+PATHWAY_MAP mmu05231  Choline metabolism in cancer
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        13645  Egf; epidermal growth factor [KO:K04357]
+            18590  Pdgfa; platelet derived growth factor, alpha [KO:K04359]
+            18591  Pdgfb; platelet derived growth factor, B polypeptide [KO:K17386]
+            54635  Pdgfc; platelet-derived growth factor, C polypeptide [KO:K05450]
+            71785  Pdgfd; platelet-derived growth factor, D polypeptide [KO:K05450]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            18595  Pdgfra; platelet derived growth factor receptor, alpha polypeptide [KO:K04363] [EC:2.7.10.1]
+            18596  Pdgfrb; platelet derived growth factor receptor, beta polypeptide [KO:K05089] [EC:2.7.10.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            19730  Ralgds; ral guanine nucleotide dissociation stimulator [KO:K08732]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            18607  Pdpk1; 3-phosphoinositide dependent protein kinase 1 [KO:K06276] [EC:2.7.11.1]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            64930  Tsc1; TSC complex subunit 1 [KO:K07206]
+            22084  Tsc2; TSC complex subunit 2 [KO:K07207]
+            19744  Rheb; Ras homolog enriched in brain [KO:K07208]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            58988  Rps6kb2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04688] [EC:2.7.11.1]
+            72508  Rps6kb1; ribosomal protein S6 kinase, polypeptide 1 [KO:K04688] [EC:2.7.11.1]
+            13685  Eif4ebp1; eukaryotic translation initiation factor 4E binding protein 1 [KO:K07205]
+            18717  Pip5k1c; phosphatidylinositol-4-phosphate 5-kinase, type 1 gamma [KO:K00889] [EC:2.7.1.68]
+            18719  Pip5k1b; phosphatidylinositol-4-phosphate 5-kinase, type 1 beta [KO:K00889] [EC:2.7.1.68]
+            18720  Pip5k1a; phosphatidylinositol-4-phosphate 5-kinase, type 1 alpha [KO:K00889] [EC:2.7.1.68]
+            22376  Was; Wiskott-Aldrich syndrome [KO:K05747]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            19354  Rac2; Rac family small GTPase 2 [KO:K07860]
+            170758  Rac3; Rac family small GTPase 3 [KO:K07861]
+            83767  Wasf1; WAS protein family, member 1 [KO:K05753]
+            242687  Wasf2; WAS protein family, member 2 [KO:K05748]
+            245880  Wasf3; WAS protein family, member 3 [KO:K06083]
+            20683  Sp1; trans-acting transcription factor 1 [KO:K04684]
+            18806  Pld2; phospholipase D2 [KO:K01115] [EC:3.1.4.4]
+            18805  Pld1; phospholipase D1 [KO:K01115] [EC:3.1.4.4]
+            63993  Slc5a7; solute carrier family 5 (choline transporter), member 7 [KO:K14387]
+            100434  Slc44a1; solute carrier family 44, member 1 [KO:K06515]
+            70129  Slc44a4; solute carrier family 44, member 4 [KO:K15377]
+            242259  Slc44a5; solute carrier family 44, member 5 [KO:K15377]
+            68682  Slc44a2; solute carrier family 44, member 2 [KO:K15377]
+            213603  Slc44a3; solute carrier family 44, member 3 [KO:K15282]
+            20517  Slc22a1; solute carrier family 22 (organic cation transporter), member 1 [KO:K08198]
+            20518  Slc22a2; solute carrier family 22 (organic cation transporter), member 2 [KO:K08199]
+            20519  Slc22a3; solute carrier family 22 (organic cation transporter), member 3 [KO:K08200]
+            20520  Slc22a5; solute carrier family 22 (organic cation transporter), member 5 [KO:K08202]
+            56517  Slc22a21; solute carrier family 22 (organic cation transporter), member 21 [KO:K08202]
+            30805  Slc22a4; solute carrier family 22 (organic cation transporter), member 4 [KO:K08202]
+            12660  Chka; choline kinase alpha [KO:K14156] [EC:2.7.1.32 2.7.1.82]
+            12651  Chkb; choline kinase beta [KO:K14156] [EC:2.7.1.32 2.7.1.82]
+            15251  Hif1a; hypoxia inducible factor 1, alpha subunit [KO:K08268]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+            13026  Pcyt1a; phosphate cytidylyltransferase 1, choline, alpha isoform [KO:K00968] [EC:2.7.7.15]
+            236899  Pcyt1b; phosphate cytidylyltransferase 1, choline, beta isoform [KO:K00968] [EC:2.7.7.15]
+            212862  Chpt1; choline phosphotransferase 1 [KO:K00994] [EC:2.7.8.2]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            19012  Plpp1; phospholipid phosphatase 1 [KO:K01080] [EC:3.1.3.4]
+            50784  Plpp2; phospholipid phosphatase 2 [KO:K01080] [EC:3.1.3.4]
+            67916  Plpp3; phospholipid phosphatase 3 [KO:K01080] [EC:3.1.3.4]
+            13139  Dgka; diacylglycerol kinase, alpha [KO:K00901] [EC:2.7.1.107]
+            110197  Dgkg; diacylglycerol kinase, gamma [KO:K00901] [EC:2.7.1.107]
+            110524  Dgkq; diacylglycerol kinase, theta [KO:K00901] [EC:2.7.1.107]
+            104418  Dgkz; diacylglycerol kinase zeta [KO:K00901] [EC:2.7.1.107]
+            217480  Dgkb; diacylglycerol kinase, beta [KO:K00901] [EC:2.7.1.107]
+            56077  Dgke; diacylglycerol kinase, epsilon [KO:K00901] [EC:2.7.1.107]
+            320127  Dgki; diacylglycerol kinase, iota [KO:K00901] [EC:2.7.1.107]
+            380921  Dgkh; diacylglycerol kinase, eta [KO:K00901] [EC:2.7.1.107]
+            227333  Dgkd; diacylglycerol kinase, delta [KO:K00901] [EC:2.7.1.107]
+            331374  Dgkk; diacylglycerol kinase kappa [KO:K00901] [EC:2.7.1.107]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            18777  Lypla1; lysophospholipase 1 [KO:K06128] [EC:3.1.1.5]
+            74182  Gpcpd1; glycerophosphocholine phosphodiesterase 1 [KO:K18695] [EC:3.1.4.2]
+COMPOUND    C00093  sn-Glycerol 3-phosphate
+            C00114  Choline
+            C00157  Phosphatidylcholine
+            C00162  Fatty acid
+            C00165  Diacylglycerol
+            C00307  CDP-choline
+            C00416  Phosphatidate
+            C00588  Choline phosphate
+            C00670  sn-Glycero-3-phosphocholine
+            C04230  1-Acyl-sn-glycero-3-phosphocholine
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:22089420
+  AUTHORS   Glunde K, Bhujwalla ZM, Ronen SM
+  TITLE     Choline metabolism in malignant transformation.
+  JOURNAL   Nat Rev Cancer 11:835-48 (2011)
+            DOI:10.1038/nrc3162
+REFERENCE   PMID:19935796
+  AUTHORS   Beloueche-Babari M, Chung YL, Al-Saffar NM, Falck-Miniotis M, Leach MO
+  TITLE     Metabolic assessment of the action of targeted cancer therapeutics using magnetic resonance spectroscopy.
+  JOURNAL   Br J Cancer 102:1-7 (2010)
+            DOI:10.1038/sj.bjc.6605457
+REFERENCE   PMID:22429397
+  AUTHORS   Abalsamo L, Spadaro F, Bozzuto G, Paris L, Cecchetti S, Lugini L, Iorio E, Molinari A, Ramoni C, Podo F
+  TITLE     Inhibition of phosphatidylcholine-specific phospholipase C results in loss of mesenchymal traits in metastatic breast cancer cells.
+  JOURNAL   Breast Cancer Res 14:R50 (2012)
+            DOI:10.1186/bcr3151
+REFERENCE   PMID:19264150
+  AUTHORS   Foster DA
+  TITLE     Phosphatidic acid signaling to mTOR: signals for the survival of human cancer cells.
+  JOURNAL   Biochim Biophys Acta 1791:949-55 (2009)
+            DOI:10.1016/j.bbalip.2009.02.009
+REFERENCE   PMID:16432178
+  AUTHORS   Beloueche-Babari M, Jackson LE, Al-Saffar NM, Eccles SA, Raynaud FI, Workman P, Leach MO, Ronen SM
+  TITLE     Identification of magnetic resonance detectable metabolic changes associated with inhibition of phosphoinositide 3-kinase signaling in human breast cancer cells.
+  JOURNAL   Mol Cancer Ther 5:187-96 (2006)
+            DOI:10.1158/1535-7163.MCT-03-0220
+REFERENCE   PMID:23350810
+  AUTHORS   Ridgway ND
+  TITLE     The role of phosphatidylcholine and choline metabolites to cell proliferation and survival.
+  JOURNAL   Crit Rev Biochem Mol Biol 48:20-38 (2013)
+            DOI:10.3109/10409238.2012.735643
+REFERENCE   PMID:22921309
+  AUTHORS   Awwad HM, Geisel J, Obeid R
+  TITLE     The role of choline in prostate cancer.
+  JOURNAL   Clin Biochem 45:1548-53 (2012)
+            DOI:10.1016/j.clinbiochem.2012.08.012
+REFERENCE   PMID:16230400
+  AUTHORS   Iorio E, Mezzanzanica D, Alberti P, Spadaro F, Ramoni C, D'Ascenzo S, Millimaggi D, Pavan A, Dolo V, Canevari S, Podo F
+  TITLE     Alterations of choline phospholipid metabolism in ovarian tumor progression.
+  JOURNAL   Cancer Res 65:9369-76 (2005)
+            DOI:10.1158/0008-5472.CAN-05-1146
+REFERENCE   PMID:14523987
+  AUTHORS   Ackerstaff E, Glunde K, Bhujwalla ZM
+  TITLE     Choline phospholipid metabolism: a target in cancer cells?
+  JOURNAL   J Cell Biochem 90:525-33 (2003)
+            DOI:10.1002/jcb.10659
+REFERENCE   PMID:23076158
+  AUTHORS   Park JB, Lee CS, Jang JH, Ghim J, Kim YJ, You S, Hwang D, Suh PG, Ryu SH
+  TITLE     Phospholipase signalling networks in cancer.
+  JOURNAL   Nat Rev Cancer 12:782-92 (2012)
+            DOI:10.1038/nrc3379
+REFERENCE   PMID:19855431
+  AUTHORS   Yalcin A, Clem B, Makoni S, Clem A, Nelson K, Thornburg J, Siow D, Lane AN, Brock SE, Goswami U, Eaton JW, Telang S, Chesney J
+  TITLE     Selective inhibition of choline kinase simultaneously attenuates MAPK and PI3K/AKT signaling.
+  JOURNAL   Oncogene 29:139-49 (2010)
+            DOI:10.1038/onc.2009.317
+REFERENCE   PMID:21793073
+  AUTHORS   Glunde K, Jiang L, Moestue SA, Gribbestad IS
+  TITLE     MRS and MRSI guidance in molecular medicine: targeting and monitoring of choline and glucose metabolism in cancer.
+  JOURNAL   NMR Biomed 24:673-90 (2011)
+            DOI:10.1002/nbm.1751
+REFERENCE   PMID:19136975
+  AUTHORS   Scott SA, Selvy PE, Buck JR, Cho HP, Criswell TL, Thomas AL, Armstrong MD, Arteaga CL, Lindsley CW, Brown HA
+  TITLE     Design of isoform-selective phospholipase D inhibitors that modulate cancer cell invasiveness.
+  JOURNAL   Nat Chem Biol 5:108-17 (2009)
+            DOI:10.1038/nchembio.140
+REFERENCE   PMID:14517341
+  AUTHORS   Foster DA, Xu L
+  TITLE     Phospholipase D in cell proliferation and cancer.
+  JOURNAL   Mol Cancer Res 1:789-800 (2003)
+REFERENCE   PMID:20528734
+  AUTHORS   Zhou H, Huang S
+  TITLE     mTOR signaling in cancer cell motility and tumor metastasis.
+  JOURNAL   Crit Rev Eukaryot Gene Expr 20:1-16 (2010)
+            DOI:10.1615/critreveukargeneexpr.v20.i1.10
+REL_PATHWAY mmu00564  Glycerophospholipid metabolism
+            mmu04010  MAPK signaling pathway
+            mmu04150  mTOR signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04810  Regulation of actin cytoskeleton
+KO_PATHWAY  ko05231
+///

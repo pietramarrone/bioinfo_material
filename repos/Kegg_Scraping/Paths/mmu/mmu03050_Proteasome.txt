@@ -1,0 +1,94 @@
+ENTRY       mmu03050                    Pathway
+NAME        Proteasome - Mus musculus (mouse)
+DESCRIPTION The proteasome is a protein-destroying apparatus involved in many essential cellular functions, such as regulation of cell cycle, cell differentiation, signal transduction pathways, antigen processing for appropriate immune responses, stress signaling, inflammatory responses, and apoptosis. It is capable of degrading a variety of cellular proteins in a rapid and timely fashion and most substrate proteins are modified by ubiquitin before their degradation by the proteasome. The proteasome is a large protein complex consisting of a proteolytic core called the 20S particle and ancillary factors that regulate its activity in various ways. The most common form is the 26S proteasome containing one 20S core particle and two 19S regulatory particles that enable the proteasome to degrade ubiquitinated proteins by an ATP-dependent mechanism. Another form is the immunoproteasome containing two 11S regulatory particles, PA28 alpha and PA28 beta, which are induced by interferon gamma under the conditions of intensified immune response. Other regulatory particles include PA28 gamma and PA200. Although PA28 gamma also belongs to a family of activators of the 20S proteasome, it is localized within the nucleus and forms a homoheptamer. PA28 gamma has been implicated in the regulation of cell cycle progression and apoptosis. PA200 has been identified as a large nuclear protein that stimulates proteasomal hydrolysis of peptides.
+CLASS       Genetic Information Processing; Folding, sorting and degradation
+PATHWAY_MAP mmu03050  Proteasome
+DBLINKS     GO: 0000502
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        22123  Psmd3; proteasome (prosome, macropain) 26S subunit, non-ATPase, 3 [KO:K03033]
+            67151  Psmd9; proteasome (prosome, macropain) 26S subunit, non-ATPase, 9 [KO:K06693]
+            66997  Psmd12; proteasome (prosome, macropain) 26S subunit, non-ATPase, 12 [KO:K03035]
+            69077  Psmd11; proteasome (prosome, macropain) 26S subunit, non-ATPase, 11 [KO:K03036]
+            66413  Psmd6; proteasome (prosome, macropain) 26S subunit, non-ATPase, 6 [KO:K03037]
+            17463  Psmd7; proteasome (prosome, macropain) 26S subunit, non-ATPase, 7 [KO:K03038]
+            23997  Psmd13; proteasome (prosome, macropain) 26S subunit, non-ATPase, 13 [KO:K03039]
+            59029  Psmd14; proteasome (prosome, macropain) 26S subunit, non-ATPase, 14 [KO:K03030]
+            57296  Psmd8; proteasome (prosome, macropain) 26S subunit, non-ATPase, 8 [KO:K03031]
+            20422  Sem1; SEM1, 26S proteasome complex subunit [KO:K10881]
+            19185  Psmd4; proteasome (prosome, macropain) 26S subunit, non-ATPase, 4 [KO:K03029]
+            21762  Psmd2; proteasome (prosome, macropain) 26S subunit, non-ATPase, 2 [KO:K03028]
+            70247  Psmd1; proteasome (prosome, macropain) 26S subunit, non-ATPase, 1 [KO:K03032]
+            56436  Adrm1; adhesion regulating molecule 1 [KO:K06691]
+            19181  Psmc2; proteasome (prosome, macropain) 26S subunit, ATPase 2 [KO:K03061]
+            19179  Psmc1; protease (prosome, macropain) 26S subunit, ATPase 1 [KO:K03062]
+            19184  Psmc5; protease (prosome, macropain) 26S subunit, ATPase 5 [KO:K03066]
+            67089  Psmc6; proteasome (prosome, macropain) 26S subunit, ATPase, 6 [KO:K03064]
+            19182  Psmc3; proteasome (prosome, macropain) 26S subunit, ATPase 3 [KO:K03065]
+            23996  Psmc4; proteasome (prosome, macropain) 26S subunit, ATPase, 4 [KO:K03063]
+            19186  Psme1; proteasome (prosome, macropain) activator subunit 1 (PA28 alpha) [KO:K06696]
+            19188  Psme2; proteasome (prosome, macropain) activator subunit 2 (PA28 beta) [KO:K06697]
+            621823  Psme2b; protease (prosome, macropain) activator subunit 2B [KO:K06697]
+            19192  Psme3; proteaseome (prosome, macropain) activator subunit 3 (PA28 gamma, Ki) [KO:K06698]
+            103554  Psme4; proteasome (prosome, macropain) activator subunit 4 [KO:K06699]
+            26443  Psma6; proteasome subunit alpha 6 [KO:K02730] [EC:3.4.25.1]
+            19166  Psma2; proteasome subunit alpha 2 [KO:K02726] [EC:3.4.25.1]
+            26441  Psma4; proteasome subunit alpha 4 [KO:K02728] [EC:3.4.25.1]
+            26444  Psma7; proteasome subunit alpha 7 [KO:K02731] [EC:3.4.25.1]
+            73677  Psma8; proteasome subunit alpha 8 [KO:K02731] [EC:3.4.25.1]
+            26442  Psma5; proteasome subunit alpha 5 [KO:K02729] [EC:3.4.25.1]
+            26440  Psma1; proteasome subunit alpha 1 [KO:K02725] [EC:3.4.25.1]
+            19167  Psma3; proteasome subunit alpha 3 [KO:K02727] [EC:3.4.25.1]
+            19175  Psmb6; proteasome (prosome, macropain) subunit, beta type 6 [KO:K02738] [EC:3.4.25.1]
+            19177  Psmb7; proteasome (prosome, macropain) subunit, beta type 7 [KO:K02739] [EC:3.4.25.1]
+            26446  Psmb3; proteasome (prosome, macropain) subunit, beta type 3 [KO:K02735] [EC:3.4.25.1]
+            26445  Psmb2; proteasome (prosome, macropain) subunit, beta type 2 [KO:K02734] [EC:3.4.25.1]
+            19173  Psmb5; proteasome (prosome, macropain) subunit, beta type 5 [KO:K02737] [EC:3.4.25.1]
+            19170  Psmb1; proteasome (prosome, macropain) subunit, beta type 1 [KO:K02732] [EC:3.4.25.1]
+            19172  Psmb4; proteasome (prosome, macropain) subunit, beta type 4 [KO:K02736] [EC:3.4.25.1]
+            16912  Psmb9; proteasome (prosome, macropain) subunit, beta type 9 (large multifunctional peptidase 2) [KO:K02741] [EC:3.4.25.1]
+            19171  Psmb10; proteasome (prosome, macropain) subunit, beta type 10 [KO:K02733] [EC:3.4.25.1]
+            16913  Psmb8; proteasome (prosome, macropain) subunit, beta type 8 (large multifunctional peptidase 7) [KO:K02740] [EC:3.4.25.1]
+            73902  Psmb11; proteasome (prosome, macropain) subunit, beta type, 11 [KO:K11598] [EC:3.4.25.1]
+            15978  Ifng; interferon gamma [KO:K04687]
+            228769  Psmf1; proteasome (prosome, macropain) inhibitor subunit 1 [KO:K06700]
+            66537  Pomp; proteasome maturation protein [KO:K11599]
+REFERENCE   PMID:16338359
+  AUTHORS   Hirano Y, Murata S, Tanaka K
+  TITLE     Large- and small-scale purification of mammalian 26S proteasomes.
+  JOURNAL   Methods Enzymol 399:227-40 (2005)
+            DOI:10.1016/S0076-6879(05)99015-0
+REFERENCE   PMID:18497808
+  AUTHORS   Saeki Y, Tanaka K
+  TITLE     Cell biology: two hands for degradation.
+  JOURNAL   Nature 453:460-1 (2008)
+            DOI:10.1038/453460a
+REFERENCE   PMID:16919475
+  AUTHORS   Smith DM, Benaroudj N, Goldberg A
+  TITLE     Proteasomes and their associated ATPases: a destructive combination.
+  JOURNAL   J Struct Biol 156:72-83 (2006)
+            DOI:10.1016/j.jsb.2006.04.012
+REFERENCE   PMID:16181324
+  AUTHORS   Strehl B, Seifert U, Kruger E, Heink S, Kuckelkorn U, Kloetzel PM
+  TITLE     Interferon-gamma, the functional plasticity of the ubiquitin-proteasome system, and MHC class I antigen processing.
+  JOURNAL   Immunol Rev 207:19-30 (2005)
+            DOI:10.1111/j.0105-2896.2005.00308.x
+REFERENCE   PMID:16922378
+  AUTHORS   Isono E, Toh-e A
+  TITLE     [Biogenesis of the 26S proteasome in the yeast Saccharomyces cerevisiae]
+  JOURNAL   Tanpakushitsu Kakusan Koso 51:1224-9 (2006)
+REFERENCE   PMID:16922379
+  AUTHORS   Hirano Y, Murata S
+  TITLE     [Mechanism of the assembly of mammalian 20S proteasome]
+  JOURNAL   Tanpakushitsu Kakusan Koso 51:1230-5 (2006)
+REFERENCE   PMID:16922380
+  AUTHORS   Saeki Y, Yashiroda H
+  TITLE     [Diversity of proteasome activators]
+  JOURNAL   Tanpakushitsu Kakusan Koso 51:1236-40 (2006)
+REFERENCE   PMID:19483713
+  AUTHORS   Darwin KH
+  TITLE     Prokaryotic ubiquitin-like protein (Pup), proteasomes and pathogenesis.
+  JOURNAL   Nat Rev Microbiol 7:485-91 (2009)
+            DOI:10.1038/nrmicro2148
+REL_PATHWAY mmu04120  Ubiquitin mediated proteolysis
+KO_PATHWAY  ko03050
+///

@@ -1,0 +1,161 @@
+ENTRY       mmu04540                    Pathway
+NAME        Gap junction - Mus musculus (mouse)
+DESCRIPTION Gap junctions contain intercellular channels that allow direct communication between the cytosolic compartments of adjacent cells. Each gap junction channel is formed by docking of two 'hemichannels', each containing six connexins, contributed by each neighboring cell. These channels permit the direct transfer of small molecules including ions, amino acids, nucleotides, second messengers and other metabolites between adjacent cells. Gap junctional communication is essential for many physiological events, including embryonic development, electrical coupling, metabolic transport, apoptosis, and tissue homeostasis. Communication through Gap Junction is sensitive to a variety of stimuli, including changes in the level of intracellular Ca2+, pH, transjunctional applied voltage and phosphorylation/dephosphorylation processes. This figure represents the possible activation routes of different protein kinases involved in Cx43 and Cx36 phosphorylation.
+CLASS       Cellular Processes; Cellular community - eukaryotes
+PATHWAY_MAP mmu04540  Gap junction
+DBLINKS     GO: 0005921
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        14609  Gja1; gap junction protein, alpha 1 [KO:K07372]
+            14617  Gjd2; gap junction protein, delta 2 [KO:K07373]
+            14745  Lpar1; lysophosphatidic acid receptor 1 [KO:K04289]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            18590  Pdgfa; platelet derived growth factor, alpha [KO:K04359]
+            18591  Pdgfb; platelet derived growth factor, B polypeptide [KO:K17386]
+            54635  Pdgfc; platelet-derived growth factor, C polypeptide [KO:K05450]
+            71785  Pdgfd; platelet-derived growth factor, D polypeptide [KO:K05450]
+            13645  Egf; epidermal growth factor [KO:K04357]
+            18595  Pdgfra; platelet derived growth factor receptor, alpha polypeptide [KO:K04363] [EC:2.7.10.1]
+            18596  Pdgfrb; platelet derived growth factor receptor, beta polypeptide [KO:K05089] [EC:2.7.10.1]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            20779  Src; Rous sarcoma oncogene [KO:K05704] [EC:2.7.10.2]
+            26405  Map3k2; mitogen-activated protein kinase kinase kinase 2 [KO:K04420] [EC:2.7.11.25]
+            23938  Map2k5; mitogen-activated protein kinase kinase 5 [KO:K04463] [EC:2.7.12.2]
+            23939  Mapk7; mitogen-activated protein kinase 7 [KO:K04464] [EC:2.7.11.24]
+            22145  Tuba4a; tubulin, alpha 4A [KO:K07374]
+            22144  Tuba3a; tubulin, alpha 3A [KO:K07374]
+            22142  Tuba1a; tubulin, alpha 1A [KO:K07374]
+            22146  Tuba1c; tubulin, alpha 1C [KO:K07374]
+            22147  Tuba3b; tubulin, alpha 3B [KO:K07374]
+            22143  Tuba1b; tubulin, alpha 1B [KO:K07374]
+            53857  Tuba8; tubulin, alpha 8 [KO:K07374]
+            238463  Tubal3; tubulin, alpha-like 3 [KO:K07374]
+            227613  Tubb4b; tubulin, beta 4B class IVB [KO:K07375]
+            22151  Tubb2a; tubulin, beta 2A class IIA [KO:K07375]
+            22152  Tubb3; tubulin, beta 3 class III [KO:K07375]
+            22153  Tubb4a; tubulin, beta 4A class IVA [KO:K07375]
+            67951  Tubb6; tubulin, beta 6 class V [KO:K07375]
+            22154  Tubb5; tubulin, beta 5 class I [KO:K07375]
+            545486  Tubb1; tubulin, beta 1 class VI [KO:K07375]
+            73710  Tubb2b; tubulin, beta 2B class IIB [KO:K07375]
+            104318  Csnk1d; casein kinase 1, delta [KO:K08959] [EC:2.7.11.1]
+            12534  Cdk1; cyclin-dependent kinase 1 [KO:K02087] [EC:2.7.11.22 2.7.11.23]
+            21872  Tjp1; tight junction protein 1 [KO:K05701]
+            11554  Adrb1; adrenergic receptor, beta 1 [KO:K04141]
+            13488  Drd1; dopamine receptor D1 [KO:K04144]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            13489  Drd2; dopamine receptor D2 [KO:K04145]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            15558  Htr2a; 5-hydroxytryptamine (serotonin) receptor 2A [KO:K04157]
+            15559  Htr2b; 5-hydroxytryptamine (serotonin) receptor 2B [KO:K04157]
+            15560  Htr2c; 5-hydroxytryptamine (serotonin) receptor 2C [KO:K04157]
+            14816  Grm1; glutamate receptor, metabotropic 1 [KO:K04603]
+            108071  Grm5; glutamate receptor, metabotropic 5 [KO:K04604]
+            14672  Gna11; guanine nucleotide binding protein, alpha 11 [KO:K04635]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            60596  Gucy1a1; guanylate cyclase 1, soluble, alpha 1 [KO:K12318] [EC:4.6.1.2]
+            234889  Gucy1a2; guanylate cyclase 1, soluble, alpha 2 [KO:K12318] [EC:4.6.1.2]
+            239134  Gucy1b2; guanylate cyclase 1, soluble, beta 2 [KO:K12319] [EC:4.6.1.2]
+            54195  Gucy1b1; guanylate cyclase 1, soluble, beta 1 [KO:K12319] [EC:4.6.1.2]
+            19091  Prkg1; protein kinase, cGMP-dependent, type I [KO:K07376] [EC:2.7.11.12]
+            19092  Prkg2; protein kinase, cGMP-dependent, type II [KO:K19477] [EC:2.7.11.12]
+COMPOUND    C00025  L-Glutamate
+            C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00533  Nitric oxide
+            C00547  L-Noradrenaline
+            C00575  3',5'-Cyclic AMP
+            C00681  1-Acyl-sn-glycerol 3-phosphate
+            C00780  Serotonin
+            C00942  3',5'-Cyclic GMP
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C03758  Dopamine
+REFERENCE   PMID:14506308
+  AUTHORS   Saez JC, Berthoud VM, Branes MC, Martinez AD, Beyer EC.
+  TITLE     Plasma membrane channels formed by connexins: their regulation and functions.
+  JOURNAL   Physiol Rev 83:1359-400 (2003)
+            DOI:10.1152/physrev.00007.2003
+REFERENCE   PMID:15033580
+  AUTHORS   Warn-Cramer BJ, Lau AF.
+  TITLE     Regulation of gap junctions by tyrosine protein kinases.
+  JOURNAL   Biochim Biophys Acta 1662:81-95 (2004)
+            DOI:10.1016/j.bbamem.2003.10.018
+REFERENCE   PMID:9535909
+  AUTHORS   Warn-Cramer BJ, Cottrell GT, Burt JM, Lau AF.
+  TITLE     Regulation of connexin-43 gap junctional intercellular communication by mitogen-activated protein kinase.
+  JOURNAL   J Biol Chem 273:9188-96 (1998)
+            DOI:10.1074/jbc.273.15.9188
+REFERENCE   PMID:10751659
+  AUTHORS   Roerig B, Feller MB.
+  TITLE     Neurotransmitters and gap junctions in developing neural circuits.
+  JOURNAL   Brain Res Brain Res Rev 32:86-114 (2000)
+            DOI:10.1016/S0165-0173(99)00069-7
+REFERENCE   PMID:10873290
+  AUTHORS   Hatton GI.
+  TITLE     Synaptic modulation of neuronal coupling.
+  JOURNAL   Cell Biol Int 22:765-80 (1998)
+            DOI:10.1006/cbir.1998.0386
+REFERENCE   PMID:12566218
+  AUTHORS   Cruciani V, Mikalsen SO.
+  TITLE     Connexins, gap junctional intercellular communication and kinases.
+  JOURNAL   Biol Cell 94:433-43 (2002)
+            DOI:10.1016/S0248-4900(02)00014-X
+REFERENCE   PMID:15094344
+  AUTHORS   Giepmans BN.
+  TITLE     Gap junctions and connexin-interacting proteins.
+  JOURNAL   Cardiovasc Res 62:233-45 (2004)
+            DOI:10.1016/j.cardiores.2003.12.009
+REFERENCE   PMID:15955302
+  AUTHORS   Laird DW.
+  TITLE     Connexin phosphorylation as a regulatory event linked to gap junction internalization and degradation.
+  JOURNAL   Biochim Biophys Acta 1711:172-82 (2005)
+            DOI:10.1016/j.bbamem.2004.09.009
+REFERENCE   PMID:15033579
+  AUTHORS   Peracchia C.
+  TITLE     Chemical gating of gap junction channels; roles of calcium, pH and calmodulin.
+  JOURNAL   Biochim Biophys Acta 1662:61-80 (2004)
+            DOI:10.1016/j.bbamem.2003.10.020
+REFERENCE   PMID:15033578
+  AUTHORS   Bukauskas FF, Verselis VK.
+  TITLE     Gap junction channel gating.
+  JOURNAL   Biochim Biophys Acta 1662:42-60 (2004)
+            DOI:10.1016/j.bbamem.2004.01.008
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04060  Cytokine-cytokine receptor interaction
+            mmu04070  Phosphatidylinositol signaling system
+            mmu04080  Neuroactive ligand-receptor interaction
+KO_PATHWAY  ko04540
+///

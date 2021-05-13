@@ -1,0 +1,61 @@
+ENTRY       mmu00514                    Pathway
+NAME        Other types of O-glycan biosynthesis - Mus musculus (mouse)
+DESCRIPTION O-linked glycosylation is the attachment of monosaccharides to the hydroxyl groups of amino acids, mostly serine and threonine, and is found in eukaryotes, archaea and bacteria. O-glycans exhibit diverse types of modifications where the innermost monosaccharide is N-acetylgalactosamine (map00512), mannose in mammals (map00515), and others (this map) including N-acetylglucosamine, fucose, glucose, galactose, mannose in yeast and arabinose in plants.
+CLASS       Metabolism; Glycan biosynthesis and metabolism
+PATHWAY_MAP mmu00514  Other types of O-glycan biosynthesis
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        108155  Ogt; O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase) [KO:K09667] [EC:2.4.1.255]
+            101351  Eogt; EGF domain-specific O-linked N-acetylglucosamine (GlcNAc) transferase [KO:K18134] [EC:2.4.1.255]
+            140484  Pofut1; protein O-fucosyltransferase 1 [KO:K03691] [EC:2.4.1.221]
+            80294  Pofut2; protein O-fucosyltransferase 2 [KO:K03691] [EC:2.4.1.221]
+            16848  Lfng; LFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase [KO:K05948] [EC:2.4.1.222]
+            17305  Mfng; MFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase [KO:K05948] [EC:2.4.1.222]
+            19719  Rfng; RFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase [KO:K05948] [EC:2.4.1.222]
+            14595  B4galt1; UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1 [KO:K07966] [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-]
+            53418  B4galt2; UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2 [KO:K07967] [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-]
+            57370  B4galt3; UDP-Gal:betaGlcNAc beta 1,4-galactosyltransferase, polypeptide 3 [KO:K07968] [EC:2.4.1.90 2.4.1.38 2.4.1.-]
+            20440  St6gal1; beta galactoside alpha 2,6 sialyltransferase 1 [KO:K00778] [EC:2.4.99.1]
+            240119  St6gal2; beta galactoside alpha 2,6 sialyltransferase 2 [KO:K00779] [EC:2.4.99.1]
+            20441  St3gal3; ST3 beta-galactoside alpha-2,3-sialyltransferase 3 [KO:K00781] [EC:2.4.99.6]
+            381694  B3glct; beta-3-glucosyltransferase [KO:K13675] [EC:2.4.1.-]
+            224143  Poglut1; protein O-glucosyltransferase 1 [KO:K13667] [EC:2.4.1.-]
+            223827  Gxylt1; glucoside xylosyltransferase 1 [KO:K13676] [EC:2.4.2.-]
+            232313  Gxylt2; glucoside xylosyltransferase 2 [KO:K13676] [EC:2.4.2.-]
+            268880  Xxylt1; xyloside xylosyltransferase 1 [KO:K23800] [EC:2.4.2.-]
+            234407  Colgalt1; collagen beta(1-O)galactosyltransferase 1 [KO:K11703] [EC:2.4.1.50]
+            269132  Colgalt2; collagen beta(1-O)galactosyltransferase 2 [KO:K11703] [EC:2.4.1.50]
+            26433  Plod3; procollagen-lysine, 2-oxoglutarate 5-dioxygenase 3 [KO:K13646] [EC:1.14.11.4 2.4.1.50 2.4.1.66]
+            99011  Pomt1; protein-O-mannosyltransferase 1 [KO:K00728] [EC:2.4.1.109]
+            217734  Pomt2; protein-O-mannosyltransferase 2 [KO:K00728] [EC:2.4.1.109]
+            14423  Galnt1; polypeptide N-acetylgalactosaminyltransferase 1 [KO:K00710] [EC:2.4.1.41]
+            171212  Galnt10; polypeptide N-acetylgalactosaminyltransferase 10 [KO:K00710] [EC:2.4.1.41]
+            108760  Galnt16; polypeptide N-acetylgalactosaminyltransferase 16 [KO:K00710] [EC:2.4.1.41]
+            207839  Galnt6; polypeptide N-acetylgalactosaminyltransferase 6 [KO:K00710] [EC:2.4.1.41]
+            108150  Galnt7; polypeptide N-acetylgalactosaminyltransferase 7 [KO:K00710] [EC:2.4.1.41]
+            241391  Galnt5; polypeptide N-acetylgalactosaminyltransferase 5 [KO:K00710] [EC:2.4.1.41]
+            212996  Galnt17; polypeptide N-acetylgalactosaminyltransferase 17 [KO:K00710] [EC:2.4.1.41]
+            230145  Galnt12; polypeptide N-acetylgalactosaminyltransferase 12 [KO:K00710] [EC:2.4.1.41]
+            271786  Galnt13; polypeptide N-acetylgalactosaminyltransferase 13 [KO:K00710] [EC:2.4.1.41]
+            108148  Galnt2; polypeptide N-acetylgalactosaminyltransferase 2 [KO:K00710] [EC:2.4.1.41]
+            14426  Galnt4; polypeptide N-acetylgalactosaminyltransferase 4 [KO:K00710] [EC:2.4.1.41]
+            233733  Galnt18; polypeptide N-acetylgalactosaminyltransferase 18 [KO:K00710] [EC:2.4.1.41]
+            71685  Galnt14; polypeptide N-acetylgalactosaminyltransferase 14 [KO:K00710] [EC:2.4.1.41]
+            67909  Galntl5; UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 5 [KO:K00710] [EC:2.4.1.41]
+            14425  Galnt3; polypeptide N-acetylgalactosaminyltransferase 3 [KO:K00710] [EC:2.4.1.41]
+            231050  Galnt11; polypeptide N-acetylgalactosaminyltransferase 11 [KO:K00710] [EC:2.4.1.41]
+            78754  Galnt15; polypeptide N-acetylgalactosaminyltransferase 15 [KO:K00710] [EC:2.4.1.41]
+            270049  Galntl6; UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 6 [KO:K00710] [EC:2.4.1.41]
+            94192  C1galt1; core 1 synthase, glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase, 1 [KO:K00731] [EC:2.4.1.122]
+            59048  C1galt1c1; C1GALT1-specific chaperone 1 [KO:K09653]
+REFERENCE   PMID:22669261
+  AUTHORS   Kizuka Y, Oka S
+  TITLE     Regulated expression and neural functions of human natural killer-1 (HNK-1) carbohydrate.
+  JOURNAL   Cell Mol Life Sci 69:4135-47 (2012)
+            DOI:10.1007/s00018-012-1036-z
+REFERENCE   PMID:19429925
+  AUTHORS   Lommel M, Strahl S
+  TITLE     Protein O-mannosylation: conserved from bacteria to humans.
+  JOURNAL   Glycobiology 19:816-28 (2009)
+            DOI:10.1093/glycob/cwp066
+KO_PATHWAY  ko00514
+///

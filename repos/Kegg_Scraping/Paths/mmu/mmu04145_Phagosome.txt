@@ -1,0 +1,231 @@
+ENTRY       mmu04145                    Pathway
+NAME        Phagosome - Mus musculus (mouse)
+DESCRIPTION Phagocytosis is the process of taking in relatively large particles by a cell, and is a central mechanism in the tissue remodeling, inflammation, and defense against infectious agents. A phagosome is formed when the specific receptors on the phagocyte surface recognize ligands on the particle surface. After formation, nascent phagosomes progressively acquire digestive characteristics. This maturation of phagosomes involves regulated interaction with the other membrane organelles, including recycling endosomes, late endosomes and lysosomes. The fusion of phagosomes and lysosomes releases toxic products that kill most bacteria and degrade them into fragments. However, some bacteria have strategies to escape the bactericidal mechanisms associated with phagocytosis and survive within host phagocytes.
+CLASS       Cellular Processes; Transport and catabolism
+PATHWAY_MAP mmu04145  Phagosome
+DBLINKS     GO: 0045335
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        22319  Vamp3; vesicle-associated membrane protein 3 [KO:K13505]
+            100226  Stx12; syntaxin 12 [KO:K13813]
+            53331  Stx7; syntaxin 7 [KO:K08488]
+            11465  Actg1; actin, gamma, cytoplasmic 1 [KO:K05692]
+            11461  Actb; actin, beta [KO:K05692]
+            12721  Coro1a; coronin, actin binding protein 1A [KO:K13882]
+            71116  Stx18; syntaxin 18 [KO:K08492]
+            20333  Sec22b; SEC22 homolog B, vesicle trafficking protein [KO:K08517]
+            14990  H2-M2; histocompatibility 2, M region locus 2 [KO:K06751]
+            14991  H2-M3; histocompatibility 2, M region locus 3 [KO:K06751]
+            14997  H2-M9; histocompatibility 2, M region locus 9 [KO:K06751]
+            15006  H2-Q1; histocompatibility 2, Q region locus 1 [KO:K06751]
+            15007  H2-Q10; histocompatibility 2, Q region locus 10 [KO:K06751]
+            15013  H2-Q2; histocompatibility 2, Q region locus 2 [KO:K06751]
+            15018  H2-Q7; histocompatibility 2, Q region locus 7 [KO:K06751]
+            15019  H2-Q8; histocompatibility 2, Q region locus 8 [KO:K06751]
+            15039  H2-T22; histocompatibility 2, T region locus 22 [KO:K06751]
+            15040  H2-T23; histocompatibility 2, T region locus 23 [KO:K06751]
+            15042  H2-T24; histocompatibility 2, T region locus 24 [KO:K06751]
+            15043  H2-T3; histocompatibility 2, T region locus 3 [KO:K06751]
+            15051  H2-T9; histocompatibility 2, T region locus 9 [KO:K06751]
+            224753  H2-M10.4; histocompatibility 2, M region locus 10.4 [KO:K06751]
+            224754  H2-M11; histocompatibility 2, M region locus 11 [KO:K06751]
+            224756  H2-M1; histocompatibility 2, M region locus 1 [KO:K06751]
+            224761  H2-M10.5; histocompatibility 2, M region locus 10.5 [KO:K06751]
+            333715  H2-M10.2; histocompatibility 2, M region locus 10.2 [KO:K06751]
+            399549  H2-M10.6; histocompatibility 2, M region locus 10.6 [KO:K06751]
+            15024  H2-T10; histocompatibility 2, T region locus 10 [KO:K06751]
+            110557  H2-Q6; histocompatibility 2, Q region locus 6 [KO:K06751]
+            110696  H2-M10.3; histocompatibility 2, M region locus 10.3 [KO:K06751]
+            14963  H2-Bl; histocompatibility 2, blastocyst [KO:K06751]
+            14964  H2-D1; histocompatibility 2, D region locus 1 [KO:K06751]
+            14972  H2-K1; histocompatibility 2, K1, K region [KO:K06751]
+            14985  H2-M10.1; histocompatibility 2, M region locus 10.1 [KO:K06751]
+            547349  H2-K1; MHC class I family member [KO:K06751]
+            15033  H2-T18; histocompatibility 2, T region locus 18 [KO:K06751]
+            110558  H2-Q9; histocompatibility 2, Q region locus 9 [KO:K06751]
+            667977  Gm8909; predicted gene 8909 [KO:K06751]
+            14980  H2-L; histocompatibility 2, D region locus L [KO:K06751]
+            69717  Gm10499; predicted gene 10499 [KO:K06751]
+            15015  H2-Q4; histocompatibility 2, Q region locus 4 [KO:K06751]
+            667803  H2-T-ps; histocompatibility 2, T region locus, pseudogene [KO:K06751]
+            100529082  Gm11127; predicted gene 11127 [KO:K06751]
+            240095  H2-M5; histocompatibility 2, M region locus 5 [KO:K06751]
+            630294  Gm7030; predicted gene 7030 [KO:K06751]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            271457  Rab5a; RAB5A, member RAS oncogene family [KO:K07887]
+            19344  Rab5b; RAB5B, member RAS oncogene family [KO:K07888]
+            19345  Rab5c; RAB5C, member RAS oncogene family [KO:K07889]
+            216238  Eea1; early endosome antigen 1 [KO:K12478]
+            225326  Pik3c3; phosphatidylinositol 3-kinase catalytic subunit type 3 [KO:K00914] [EC:2.7.1.137]
+            22042  Tfrc; transferrin receptor [KO:K06503]
+            15239  Hgs; HGF-regulated tyrosine kinase substrate [KO:K12182]
+            11964  Atp6v1a; ATPase, H+ transporting, lysosomal V1 subunit A [KO:K02145] [EC:7.1.2.2]
+            11966  Atp6v1b2; ATPase, H+ transporting, lysosomal V1 subunit B2 [KO:K02147]
+            110935  Atp6v1b1; ATPase, H+ transporting, lysosomal V1 subunit B1 [KO:K02147]
+            66335  Atp6v1c1; ATPase, H+ transporting, lysosomal V1 subunit C1 [KO:K02148]
+            68775  Atp6v1c2; ATPase, H+ transporting, lysosomal V1 subunit C2 [KO:K02148]
+            73834  Atp6v1d; ATPase, H+ transporting, lysosomal V1 subunit D [KO:K02149]
+            11973  Atp6v1e1; ATPase, H+ transporting, lysosomal V1 subunit E1 [KO:K02150]
+            74915  Atp6v1e2; ATPase, H+ transporting, lysosomal V1 subunit E2 [KO:K02150]
+            66144  Atp6v1f; ATPase, H+ transporting, lysosomal V1 subunit F [KO:K02151]
+            66237  Atp6v1g2; ATPase, H+ transporting, lysosomal V1 subunit G2 [KO:K02152]
+            66290  Atp6v1g1; ATPase, H+ transporting, lysosomal V1 subunit G1 [KO:K02152]
+            338375  Atp6v1g3; ATPase, H+ transporting, lysosomal V1 subunit G3 [KO:K02152]
+            11974  Atp6v0e; ATPase, H+ transporting, lysosomal V0 subunit E [KO:K02153]
+            76252  Atp6v0e2; ATPase, H+ transporting, lysosomal V0 subunit E2 [KO:K02153]
+            11975  Atp6v0a1; ATPase, H+ transporting, lysosomal V0 subunit A1 [KO:K02154]
+            21871  Atp6v0a2; ATPase, H+ transporting, lysosomal V0 subunit A2 [KO:K02154]
+            27060  Tcirg1; T cell, immune regulator 1, ATPase, H+ transporting, lysosomal V0 protein A3 [KO:K02154]
+            140494  Atp6v0a4; ATPase, H+ transporting, lysosomal V0 subunit A4 [KO:K02154]
+            11972  Atp6v0d1; ATPase, H+ transporting, lysosomal V0 subunit D1 [KO:K02146]
+            242341  Atp6v0d2; ATPase, H+ transporting, lysosomal V0 subunit D2 [KO:K02146]
+            108664  Atp6v1h; ATPase, H+ transporting, lysosomal V1 subunit H [KO:K02144]
+            11984  Atp6v0c; ATPase, H+ transporting, lysosomal V0 subunit C [KO:K02155]
+            114143  Atp6v0b; ATPase, H+ transporting, lysosomal V0 subunit B [KO:K03661]
+            54411  Atp6ap1; ATPase, H+ transporting, lysosomal accessory protein 1 [KO:K03662]
+            19349  Rab7; RAB7, member RAS oncogene family [KO:K07897]
+            226421  Rab7b; RAB7B, member RAS oncogene family [KO:K07898]
+            280408  Rilp; Rab interacting lysosomal protein [KO:K13883]
+            13424  Dync1h1; dynein cytoplasmic 1 heavy chain 1 [KO:K10413]
+            110350  Dync2h1; dynein cytoplasmic 2 heavy chain 1 [KO:K10414]
+            13426  Dync1i1; dynein cytoplasmic 1 intermediate chain 1 [KO:K10415]
+            13427  Dync1i2; dynein cytoplasmic 1 intermediate chain 2 [KO:K10415]
+            234663  Dync1li2; dynein, cytoplasmic 1 light intermediate chain 2 [KO:K10416]
+            235661  Dync1li1; dynein cytoplasmic 1 light intermediate chain 1 [KO:K10416]
+            22145  Tuba4a; tubulin, alpha 4A [KO:K07374]
+            22144  Tuba3a; tubulin, alpha 3A [KO:K07374]
+            22142  Tuba1a; tubulin, alpha 1A [KO:K07374]
+            22146  Tuba1c; tubulin, alpha 1C [KO:K07374]
+            22147  Tuba3b; tubulin, alpha 3B [KO:K07374]
+            22143  Tuba1b; tubulin, alpha 1B [KO:K07374]
+            53857  Tuba8; tubulin, alpha 8 [KO:K07374]
+            238463  Tubal3; tubulin, alpha-like 3 [KO:K07374]
+            227613  Tubb4b; tubulin, beta 4B class IVB [KO:K07375]
+            22151  Tubb2a; tubulin, beta 2A class IIA [KO:K07375]
+            22152  Tubb3; tubulin, beta 3 class III [KO:K07375]
+            22153  Tubb4a; tubulin, beta 4A class IVA [KO:K07375]
+            67951  Tubb6; tubulin, beta 6 class V [KO:K07375]
+            22154  Tubb5; tubulin, beta 5 class I [KO:K07375]
+            545486  Tubb1; tubulin, beta 1 class VI [KO:K07375]
+            73710  Tubb2b; tubulin, beta 2B class IIB [KO:K07375]
+            16783  Lamp1; lysosomal-associated membrane protein 1 [KO:K06528]
+            16784  Lamp2; lysosomal-associated membrane protein 2 [KO:K06528]
+            18711  Pikfyve; phosphoinositide kinase, FYVE type zinc finger containing [KO:K00921] [EC:2.7.1.150]
+            17113  M6pr; mannose-6-phosphate receptor, cation dependent [KO:K10089]
+            18125  Nos1; nitric oxide synthase 1, neuronal [KO:K13240] [EC:1.14.13.39]
+            17523  Mpo; myeloperoxidase [KO:K10789] [EC:1.11.2.2]
+            13039  Ctsl; cathepsin L [KO:K01365] [EC:3.4.22.15]
+            13040  Ctss; cathepsin S [KO:K01368] [EC:3.4.22.27]
+            53421  Sec61a1; Sec61 alpha 1 subunit (S. cerevisiae) [KO:K10956]
+            57743  Sec61a2; Sec61, alpha subunit 2 (S. cerevisiae) [KO:K10956]
+            66212  Sec61b; Sec61 beta subunit [KO:K09481]
+            20335  Sec61g; SEC61, gamma subunit [KO:K07342]
+            100046078  Gm15266; predicted gene 15266 [KO:K07342]
+            21354  Tap1; transporter 1, ATP-binding cassette, sub-family B (MDR/TAP) [KO:K05653]
+            21355  Tap2; transporter 2, ATP-binding cassette, sub-family B (MDR/TAP) [KO:K05654]
+            12317  Calr; calreticulin [KO:K08057]
+            12330  Canx; calnexin [KO:K08054]
+            14129  Fcgr1; Fc receptor, IgG, high affinity I [KO:K06498]
+            14130  Fcgr2b; Fc receptor, IgG, low affinity IIb [KO:K12560]
+            14131  Fcgr3; Fc receptor, IgG, low affinity III [KO:K16824]
+            246256  Fcgr4; Fc receptor, IgG, low affinity IV [KO:K06463]
+            50909  C1ra; complement component 1, r subcomponent A [KO:K01330] [EC:3.4.21.41]
+            667277  C1rb; complement component 1, r subcomponent B [KO:K01330] [EC:3.4.21.41]
+            16409  Itgam; integrin alpha M [KO:K06461]
+            16414  Itgb2; integrin beta 2 [KO:K06464]
+            16415  Itgb2l; integrin beta 2-like [KO:K06464]
+            12266  C3; complement component 3 [KO:K03990]
+            71693  Colec11; collectin sub-family member 11 [KO:K10066]
+            140792  Colec12; collectin sub-family member 12 [KO:K10062]
+            17194  Mbl1; mannose-binding lectin (protein A) 1 [KO:K03991]
+            17195  Mbl2; mannose-binding lectin (protein C) 2 [KO:K03991]
+            20387  Sftpa1; surfactant associated protein A1 [KO:K10067]
+            20390  Sftpd; surfactant associated protein D [KO:K10068]
+            16410  Itgav; integrin alpha V [KO:K06487]
+            16398  Itga2; integrin alpha 2 [KO:K06481]
+            16402  Itga5; integrin alpha 5 (fibronectin receptor alpha) [KO:K06484]
+            16412  Itgb1; integrin beta 1 (fibronectin receptor beta) [KO:K05719]
+            16416  Itgb3; integrin beta 3 [KO:K06493]
+            16419  Itgb5; integrin beta 5 [KO:K06588]
+            21825  Thbs1; thrombospondin 1 [KO:K16857]
+            12845  Comp; cartilage oligomeric matrix protein [KO:K04659]
+            21826  Thbs2; thrombospondin 2 [KO:K04659]
+            21827  Thbs3; thrombospondin 3 [KO:K04659]
+            21828  Thbs4; thrombospondin 4 [KO:K04659]
+            24088  Tlr2; toll-like receptor 2 [KO:K10159]
+            21899  Tlr6; toll-like receptor 6 [KO:K10169]
+            21898  Tlr4; toll-like receptor 4 [KO:K10160]
+            12475  Cd14; CD14 antigen [KO:K04391]
+            17533  Mrc1; mannose receptor, C type 1 [KO:K06560]
+            17534  Mrc2; mannose receptor, C type 2 [KO:K06560]
+            18779  Pla2r1; phospholipase A2 receptor 1 [KO:K06560]
+            170776  Cd209c; CD209c antigen [KO:K06563]
+            170779  Cd209d; CD209d antigen [KO:K06563]
+            170780  Cd209e; CD209e antigen [KO:K06563]
+            170786  Cd209a; CD209a antigen [KO:K06563]
+            69165  Cd209b; CD209b antigen [KO:K06563]
+            69142  Cd209f; CD209f antigen [KO:K06563]
+            70192  Cd209g; CD209g antigen [KO:K06563]
+            56644  Clec7a; C-type lectin domain family 7, member a [KO:K10074]
+            20288  Msr1; macrophage scavenger receptor 1 [KO:K06558]
+            17167  Marco; macrophage receptor with collagenous structure [KO:K13884]
+            108078  Olr1; oxidized low density lipoprotein (lectin-like) receptor 1 [KO:K08763]
+            20778  Scarb1; scavenger receptor class B, member 1 [KO:K13885]
+            12491  Cd36; CD36 molecule [KO:K06259]
+            13057  Cyba; cytochrome b-245, alpha polypeptide [KO:K08009]
+            13058  Cybb; cytochrome b-245, beta polypeptide [KO:K21421] [EC:1.-.-.-]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            17969  Ncf1; neutrophil cytosolic factor 1 [KO:K08011]
+            17970  Ncf2; neutrophil cytosolic factor 2 [KO:K08010]
+            17972  Ncf4; neutrophil cytosolic factor 4 [KO:K08012]
+COMPOUND    C04549  1-Phosphatidyl-1D-myo-inositol 3-phosphate
+REFERENCE   PMID:15894272
+  AUTHORS   Stuart LM, Ezekowitz RA
+  TITLE     Phagocytosis: elegant complexity.
+  JOURNAL   Immunity 22:539-50 (2005)
+            DOI:10.1016/j.immuni.2005.05.002
+REFERENCE   PMID:10684585
+  AUTHORS   Tjelle TE, Lovdal T, Berg T
+  TITLE     Phagosome dynamics and function.
+  JOURNAL   Bioessays 22:255-63 (2000)
+            DOI:10.1002/(SICI)1521-1878(200003)22:3<255::AID-BIES7>3.0.CO;2-R
+REFERENCE   PMID:18492791
+  AUTHORS   Dupuy AG, Caron E
+  TITLE     Integrin-dependent phagocytosis: spreading from microadhesion to new concepts.
+  JOURNAL   J Cell Sci 121:1773-83 (2008)
+            DOI:10.1242/jcs.018036
+REFERENCE   PMID:15036145
+  AUTHORS   Brumell JH, Grinstein S
+  TITLE     Salmonella redirects phagosomal maturation.
+  JOURNAL   Curr Opin Microbiol 7:78-84 (2004)
+            DOI:10.1016/j.mib.2003.12.005
+REFERENCE   PMID:17245426
+  AUTHORS   Huynh KK, Eskelinen EL, Scott CC, Malevanets A, Saftig P, Grinstein S
+  TITLE     LAMP proteins are required for fusion of lysosomes with phagosomes.
+  JOURNAL   EMBO J 26:313-24 (2007)
+            DOI:10.1038/sj.emboj.7601511
+REFERENCE   PMID:17637737
+  AUTHORS   Luzio JP, Pryor PR, Bright NA
+  TITLE     Lysosomes: fusion and function.
+  JOURNAL   Nat Rev Mol Cell Biol 8:622-32 (2007)
+            DOI:10.1038/nrm2217
+REFERENCE   PMID:18513324
+  AUTHORS   Sumimoto H
+  TITLE     Structure, regulation and evolution of Nox-family NADPH oxidases that produce reactive oxygen species.
+  JOURNAL   FEBS J 275:3249-77 (2008)
+            DOI:10.1111/j.1742-4658.2008.06488.x
+REL_PATHWAY mmu04142  Lysosome
+            mmu04144  Endocytosis
+            mmu04610  Complement and coagulation cascades
+            mmu04612  Antigen processing and presentation
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04666  Fc gamma R-mediated phagocytosis
+KO_PATHWAY  ko04145
+///

@@ -1,0 +1,254 @@
+ENTRY       mmu04750                    Pathway
+NAME        Inflammatory mediator regulation of TRP channels - Mus musculus (mouse)
+DESCRIPTION The TRP channels that exhibit a unique response to temperature have been given the name thermo-TRPs. Among all thermo- TRP channels, TRPV1-4, TRPM8, and TRPA1 are expressed in subsets of nociceptive dorsal root ganglion (DRG) neuron cell bodies including their peripheral and central projections. These channels can be modulated indirectly by inflammatory mediators such as PGE2, bradykinin, ATP, NGF, and proinflammatory cytokines that are generated during tissue injury. While the noxious heat receptor TRPV1 is sensitized (that is, their excitability can be increased) by post-translational modifications upon activation of G-protein coupled receptors (GPCRs) or tyrosine kinase receptors, the receptors for inflammatory mediators, the same action appears to mainly desensitize TRPM8, the main somatic innocuous cold sensor. This aforementioned sensitization could allow the receptor to become active at body temperature, so it not only contributes toward thermal hypersensitivity but also is possibly a substrate for ongoing persistent pain.
+CLASS       Organismal Systems; Sensory system
+PATHWAY_MAP mmu04750  Inflammatory mediator regulation of TRP channels
+DBLINKS     GO: 0019233
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        16644  Kng1; kininogen 1 [KO:K03898]
+            385643  Kng2; kininogen 2 [KO:K03898]
+            12061  Bdkrb1; bradykinin receptor, beta 1 [KO:K03915]
+            12062  Bdkrb2; bradykinin receptor, beta 2 [KO:K03916]
+            15558  Htr2a; 5-hydroxytryptamine (serotonin) receptor 2A [KO:K04157]
+            15559  Htr2b; 5-hydroxytryptamine (serotonin) receptor 2B [KO:K04157]
+            15560  Htr2c; 5-hydroxytryptamine (serotonin) receptor 2C [KO:K04157]
+            15465  Hrh1; histamine receptor H1 [KO:K04149]
+            18442  P2ry2; purinergic receptor P2Y, G-protein coupled 2 [KO:K04269]
+            14682  Gnaq; guanine nucleotide binding protein, alpha q polypeptide [KO:K04634]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            53357  Pla2g6; phospholipase A2, group VI [KO:K16343] [EC:3.1.1.4]
+            11684  Alox12; arachidonate 12-lipoxygenase [KO:K00458] [EC:1.13.11.31]
+            11685  Alox12e; arachidonate lipoxygenase, epidermal [KO:K00458] [EC:1.13.11.31]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            18754  Prkce; protein kinase C, epsilon [KO:K18050] [EC:2.7.11.13]
+            19045  Ppp1ca; protein phosphatase 1 catalytic subunit alpha [KO:K06269] [EC:3.1.3.16]
+            19046  Ppp1cb; protein phosphatase 1 catalytic subunit beta [KO:K06269] [EC:3.1.3.16]
+            19047  Ppp1cc; protein phosphatase 1 catalytic subunit gamma [KO:K06269] [EC:3.1.3.16]
+            434233  Ppp1ccb; protein phosphatase 1 catalytic subunit gamma B [KO:K06269] [EC:3.1.3.16]
+            277328  Trpa1; transient receptor potential cation channel, subfamily A, member 1 [KO:K04984]
+            193034  Trpv1; transient receptor potential cation channel, subfamily V, member 1 [KO:K05222]
+            11419  Asic1; acid-sensing (proton-gated) ion channel 1 [KO:K04829]
+            11418  Asic2; acid-sensing (proton-gated) ion channel 2 [KO:K04828]
+            171209  Asic3; acid-sensing (proton-gated) ion channel 3 [KO:K04830]
+            241118  Asic4; acid-sensing (proton-gated) ion channel family member 4 [KO:K04831]
+            58170  Asic5; acid-sensing (proton-gated) ion channel family member 5 [KO:K04832]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+            108058  Camk2d; calcium/calmodulin-dependent protein kinase II, delta [KO:K04515] [EC:2.7.11.17]
+            12325  Camk2g; calcium/calmodulin-dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            12323  Camk2b; calcium/calmodulin-dependent protein kinase II, beta [KO:K04515] [EC:2.7.11.17]
+            12322  Camk2a; calcium/calmodulin-dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+            16177  Il1r1; interleukin 1 receptor, type I [KO:K04386]
+            16180  Il1rap; interleukin 1 receptor accessory protein [KO:K04723]
+            26397  Map2k3; mitogen-activated protein kinase kinase 3 [KO:K04432] [EC:2.7.12.2]
+            26399  Map2k6; mitogen-activated protein kinase kinase 6 [KO:K04433] [EC:2.7.12.2]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            18048  Klk1b4; kallikrein 1-related pepidase b4 [KO:K05451]
+            18049  Ngf; nerve growth factor [KO:K02582]
+            18211  Ntrk1; neurotrophic tyrosine kinase, receptor, type 1 [KO:K03176] [EC:2.7.10.1]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            234779  Plcg2; phospholipase C, gamma 2 [KO:K05859] [EC:3.1.4.11]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            18753  Prkcd; protein kinase C, delta [KO:K06068] [EC:2.7.11.13]
+            20779  Src; Rous sarcoma oncogene [KO:K05704] [EC:2.7.10.2]
+            171382  Trpm8; transient receptor potential cation channel, subfamily M, member 8 [KO:K04983]
+            19217  Ptger2; prostaglandin E receptor 2 (subtype EP2) [KO:K04259]
+            19219  Ptger4; prostaglandin E receptor 4 (subtype EP4) [KO:K04261]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            63873  Trpv4; transient receptor potential cation channel, subfamily V, member 4 [KO:K04973]
+            14063  F2rl1; coagulation factor II (thrombin) receptor-like 1 [KO:K04234]
+            13097  Cyp2c38; cytochrome P450, family 2, subfamily c, polypeptide 38 [KO:K07413] [EC:1.14.14.1]
+            13098  Cyp2c39; cytochrome P450, family 2, subfamily c, polypeptide 39 [KO:K07413] [EC:1.14.14.1]
+            13099  Cyp2c40; cytochrome P450, family 2, subfamily c, polypeptide 40 [KO:K07413] [EC:1.14.14.1]
+            226143  Cyp2c23; cytochrome P450, family 2, subfamily c, polypeptide 23 [KO:K07413] [EC:1.14.14.1]
+            13095  Cyp2c29; cytochrome P450, family 2, subfamily c, polypeptide 29 [KO:K07413] [EC:1.14.14.1]
+            226105  Cyp2c70; cytochrome P450, family 2, subfamily c, polypeptide 70 [KO:K07413] [EC:1.14.14.1]
+            13096  Cyp2c37; cytochrome P450, family 2. subfamily c, polypeptide 37 [KO:K07413] [EC:1.14.14.1]
+            72082  Cyp2c55; cytochrome P450, family 2, subfamily c, polypeptide 55 [KO:K07413] [EC:1.14.14.1]
+            72303  Cyp2c65; cytochrome P450, family 2, subfamily c, polypeptide 65 [KO:K07413] [EC:1.14.14.1]
+            69888  Cyp2c66; cytochrome P450, family 2, subfamily c, polypeptide 66 [KO:K07413] [EC:1.14.14.1]
+            107141  Cyp2c50; cytochrome P450, family 2, subfamily c, polypeptide 50 [KO:K07413] [EC:1.14.14.1]
+            404195  Cyp2c54; cytochrome P450, family 2, subfamily c, polypeptide 54 [KO:K07413] [EC:1.14.14.1]
+            433247  Cyp2c68; cytochrome P450, family 2, subfamily c, polypeptide 68 [KO:K07413] [EC:1.14.14.1]
+            665095  Cyp2j8; cytochrome P450, family 2, subfamily j, polypeptide 8 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            230459  Cyp2j13; cytochrome P450, family 2, subfamily j, polypeptide 13 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            100066  Cyp2j11; cytochrome P450, family 2, subfamily j, polypeptide 11 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            74519  Cyp2j9; cytochrome P450, family 2, subfamily j, polypeptide 9 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            13109  Cyp2j5; cytochrome P450, family 2, subfamily j, polypeptide 5 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            242546  Cyp2j12; cytochrome P450, family 2, subfamily j, polypeptide 12 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            13110  Cyp2j6; cytochrome P450, family 2, subfamily j, polypeptide 6 [KO:K07418] [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            13118  Cyp4a12b; cytochrome P450, family 4, subfamily a, polypeptide 12B [KO:K07425] [EC:1.14.14.80]
+            13117  Cyp4a10; cytochrome P450, family 4, subfamily a, polypeptide 10 [KO:K07425] [EC:1.14.14.80]
+            13119  Cyp4a14; cytochrome P450, family 4, subfamily a, polypeptide 14 [KO:K07425] [EC:1.14.14.80]
+            435802  Cyp4a30b; cytochrome P450, family 4, subfamily a, polypeptide 30b [KO:K07425] [EC:1.14.14.80]
+            230639  Cyp4a29; cytochrome P450, family 4, subfamily a, polypeptide 29 [KO:K07425] [EC:1.14.14.80]
+            666168  Cyp4a31; cytochrome P450, family 4, subfamily a, polypeptide 31 [KO:K07425] [EC:1.14.14.80]
+            100040843  Cyp4a32; cytochrome P450, family 4, subfamily a, polypeptide 32 [KO:K07425] [EC:1.14.14.80]
+            277753  Cyp4a12a; cytochrome P450, family 4, subfamily a, polypeptide 12a [KO:K07425] [EC:1.14.14.80]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            18755  Prkch; protein kinase C, eta [KO:K18051] [EC:2.7.11.13]
+            18761  Prkcq; protein kinase C, theta [KO:K18052] [EC:2.7.11.13]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            22368  Trpv2; transient receptor potential cation channel, subfamily V, member 2 [KO:K04971]
+            246788  Trpv3; transient receptor potential cation channel, subfamily V, member 3 [KO:K04972]
+COMPOUND    C00002  ATP
+            C00076  Calcium cation
+            C00080  H+
+            C00165  Diacylglycerol
+            C00219  Arachidonate
+            C00388  Histamine
+            C00400  (-)-Menthol
+            C00469  Ethanol
+            C00575  3',5'-Cyclic AMP
+            C00584  Prostaglandin E2
+            C00780  Serotonin
+            C00808  (+)-Camphor
+            C00809  (-)-Camphor
+            C00903  Cinnamaldehyde
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01330  Sodium cation
+            C02165  Leukotriene B4
+            C04742  (15S)-15-Hydroxy-5,8,11-cis-13-trans-eicosatetraenoate
+            C04805  5(S)-HETE
+            C05965  12(S)-HPETE
+            C05966  15(S)-HPETE
+            C06254  Lysophospholipid
+            C06866  Capsaicin
+            C07600  Allicin
+            C09155  Phorbol
+            C09179  Resiniferatoxin
+            C09844  1,8-Cineole
+            C11695  Anandamide
+            C12083  (5Z,7E,9E,14Z,17Z)-Icosapentaenoate
+            C12271  N-Arachidonyl dopamine
+            C14768  5,6-EET
+            C14769  8,9-EET
+            C19317  Allyl isothiocyanate
+            C20171  Icilin
+            C20698  2-Aminoethyl diphenylborinate
+REFERENCE   PMID:15820689
+  AUTHORS   Wang H, Woolf CJ
+  TITLE     Pain TRPs.
+  JOURNAL   Neuron 46:9-12 (2005)
+            DOI:10.1016/j.neuron.2005.03.011
+REFERENCE   PMID:17321113
+  AUTHORS   Levine JD, Alessandri-Haber N
+  TITLE     TRP channels: targets for the relief of pain.
+  JOURNAL   Biochim Biophys Acta 1772:989-1003 (2007)
+            DOI:10.1016/j.bbadis.2007.01.008
+REFERENCE   PMID:18427980
+  AUTHORS   Cheng JK, Ji RR
+  TITLE     Intracellular signaling in primary sensory neurons and persistent pain.
+  JOURNAL   Neurochem Res 33:1970-8 (2008)
+            DOI:10.1007/s11064-008-9711-z
+REFERENCE   PMID:24099085
+  AUTHORS   Julius D
+  TITLE     TRP channels and pain.
+  JOURNAL   Annu Rev Cell Dev Biol 29:355-84 (2013)
+            DOI:10.1146/annurev-cellbio-101011-155833
+REFERENCE   PMID:12838328
+  AUTHORS   Patapoutian A, Peier AM, Story GM, Viswanath V
+  TITLE     ThermoTRP channels and beyond: mechanisms of temperature sensation.
+  JOURNAL   Nat Rev Neurosci 4:529-39 (2003)
+            DOI:10.1038/nrn1141
+REFERENCE   PMID:16776582
+  AUTHORS   Dhaka A, Viswanath V, Patapoutian A
+  TITLE     Trp ion channels and temperature sensation.
+  JOURNAL   Annu Rev Neurosci 29:135-61 (2006)
+            DOI:10.1146/annurev.neuro.29.051605.112958
+REFERENCE   PMID:18615141
+  AUTHORS   Story GM
+  TITLE     The emerging role of TRP channels in mechanisms of temperature and pain sensation.
+  JOURNAL   Curr Neuropharmacol 4:183-96 (2006)
+            DOI:10.2174/157015906778019482
+REFERENCE   PMID:17548207
+  AUTHORS   Velazquez KT, Mohammad H, Sweitzer SM
+  TITLE     Protein kinase C in pain: involvement of multiple isoforms.
+  JOURNAL   Pharmacol Res 55:578-89 (2007)
+            DOI:10.1016/j.phrs.2007.04.006
+REFERENCE   PMID:16319926
+  AUTHORS   Zhang X, Huang J, McNaughton PA
+  TITLE     NGF rapidly increases membrane expression of TRPV1 heat-gated ion channels.
+  JOURNAL   EMBO J 24:4211-23 (2005)
+            DOI:10.1038/sj.emboj.7600893
+REFERENCE   PMID:19074743
+  AUTHORS   Bessac BF, Jordt SE
+  TITLE     Breathtaking TRP channels: TRPA1 and TRPV1 in airway chemosensation and reflex control.
+  JOURNAL   Physiology (Bethesda) 23:360-70 (2008)
+            DOI:10.1152/physiol.00026.2008
+REFERENCE   PMID:17684094
+  AUTHORS   Trevisani M, Siemens J, Materazzi S, Bautista DM, Nassini R, Campi B, Imamachi N, Andre E, Patacchini R, Cottrell GS, Gatti R, Basbaum AI, Bunnett NW, Julius D, Geppetti P
+  TITLE     4-Hydroxynonenal, an endogenous aldehyde, causes pain and neurogenic inflammation through activation of the irritant receptor TRPA1.
+  JOURNAL   Proc Natl Acad Sci U S A 104:13519-24 (2007)
+            DOI:10.1073/pnas.0705923104
+REFERENCE   PMID:21841075
+  AUTHORS   Latorre R, Brauchi S, Madrid R, Orio P
+  TITLE     A cool channel in cold transduction.
+  JOURNAL   Physiology (Bethesda) 26:273-85 (2011)
+            DOI:10.1152/physiol.00004.2011
+REFERENCE   PMID:20932256
+  AUTHORS   Babes A, Ciobanu AC, Neacsu C, Babes RM
+  TITLE     TRPM8, a sensor for mild cooling in mammalian sensory nerve endings.
+  JOURNAL   Curr Pharm Biotechnol 12:78-88 (2011)
+            DOI:10.2174/138920111793937835
+REFERENCE   PMID:23000387
+  AUTHORS   Loyd DR, Henry MA, Hargreaves KM
+  TITLE     Serotonergic neuromodulation of peripheral nociceptors.
+  JOURNAL   Semin Cell Dev Biol 24:51-7 (2013)
+            DOI:10.1016/j.semcdb.2012.09.002
+REFERENCE   PMID:17124270
+  AUTHORS   Grant AD, Cottrell GS, Amadesi S, Trevisani M, Nicoletti P, Materazzi S, Altier C, Cenac N, Zamponi GW, Bautista-Cruz F, Lopez CB, Joseph EK, Levine JD, Liedtke W, Vanner S, Vergnolle N, Geppetti P, Bunnett NW
+  TITLE     Protease-activated receptor 2 sensitizes the transient receptor potential vanilloid 4 ion channel to cause mechanical hyperalgesia in mice.
+  JOURNAL   J Physiol 578:715-33 (2007)
+            DOI:10.1113/jphysiol.2006.121111
+REFERENCE   PMID:22470230
+  AUTHORS   Mandadi S, Armati PJ, Roufogalis BD
+  TITLE     Protein kinase C modulation of thermo-sensitive transient receptor potential channels: Implications for pain signaling.
+  JOURNAL   J Nat Sci Biol Med 2:13-25 (2011)
+            DOI:10.4103/0976-9668.82311
+REL_PATHWAY mmu00590  Arachidonic acid metabolism
+            mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+KO_PATHWAY  ko04750
+///

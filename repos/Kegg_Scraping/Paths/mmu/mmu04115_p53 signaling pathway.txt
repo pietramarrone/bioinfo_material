@@ -1,0 +1,153 @@
+ENTRY       mmu04115                    Pathway
+NAME        p53 signaling pathway - Mus musculus (mouse)
+DESCRIPTION p53 activation is induced by a number of stress signals, including DNA damage, oxidative stress and activated oncogenes. The p53 protein is employed as a transcriptional activator of p53-regulated genes. This results in three major outputs; cell cycle arrest, cellular senescence or apoptosis. Other p53-regulated gene functions communicate with adjacent cells, repair the damaged DNA or set up positive and negative feedback loops that enhance or attenuate the functions of the p53 protein and integrate these stress responses with other signal transduction pathways.
+CLASS       Cellular Processes; Cell growth and death
+PATHWAY_MAP mmu04115  p53 signaling pathway
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        11920  Atm; ataxia telangiectasia mutated [KO:K04728] [EC:2.7.11.1]
+            50883  Chek2; checkpoint kinase 2 [KO:K06641] [EC:2.7.11.1]
+            245000  Atr; ataxia telangiectasia and Rad3 related [KO:K06640] [EC:2.7.11.1]
+            12649  Chek1; checkpoint kinase 1 [KO:K02216] [EC:2.7.11.1]
+            98376  Gorab; golgin, RAB6-interacting [KO:K19748]
+            12578  Cdkn2a; cyclin dependent kinase inhibitor 2A [KO:K06621]
+            17246  Mdm2; transformed mouse 3T3 cell double minute 2 [KO:K06643] [EC:2.3.2.27]
+            17248  Mdm4; transformed mouse 3T3 cell double minute 4 [KO:K10127]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            12444  Ccnd2; cyclin D2 [KO:K10151]
+            12445  Ccnd3; cyclin D3 [KO:K10152]
+            12567  Cdk4; cyclin-dependent kinase 4 [KO:K02089] [EC:2.7.11.22]
+            12571  Cdk6; cyclin-dependent kinase 6 [KO:K02091] [EC:2.7.11.22]
+            12447  Ccne1; cyclin E1 [KO:K06626]
+            12448  Ccne2; cyclin E2 [KO:K06626]
+            12566  Cdk2; cyclin-dependent kinase 2 [KO:K02206] [EC:2.7.11.22]
+            55948  Sfn; stratifin [KO:K06644]
+            67874  Rprm; reprimo, TP53 dependent G2 arrest mediator candidate [KO:K10128]
+            268697  Ccnb1; cyclin B1 [KO:K05868]
+            12442  Ccnb2; cyclin B2 [KO:K21770]
+            12534  Cdk1; cyclin-dependent kinase 1 [KO:K02087] [EC:2.7.11.22 2.7.11.23]
+            13197  Gadd45a; growth arrest and DNA-damage-inducible 45 alpha [KO:K04402]
+            17873  Gadd45b; growth arrest and DNA-damage-inducible 45 beta [KO:K04402]
+            23882  Gadd45g; growth arrest and DNA-damage-inducible 45 gamma [KO:K04402]
+            29870  Gtse1; G two S phase expressed protein 1 [KO:K10129]
+            14102  Fas; Fas (TNF receptor superfamily member 6) [KO:K04390]
+            57913  Pidd1; p53 induced death domain protein 1 [KO:K10130]
+            21933  Tnfrsf10b; tumor necrosis factor receptor superfamily, member 10b [KO:K04722]
+            12370  Casp8; caspase 8 [KO:K04398] [EC:3.4.22.61]
+            12122  Bid; BH3 interacting domain death agonist [KO:K04726]
+            12028  Bax; BCL2-associated X protein [KO:K02159]
+            58801  Pmaip1; phorbol-12-myristate-13-acetate-induced protein 1 [KO:K10131]
+            170770  Bbc3; BCL2 binding component 3 [KO:K10132]
+            30954  Siva1; SIVA1, apoptosis-inducing factor [KO:K22744]
+            12048  Bcl2l1; BCL2-like 1 [KO:K04570]
+            12043  Bcl2; B cell leukemia/lymphoma 2 [KO:K02161]
+            13663  Ei24; etoposide induced 2.4 mRNA [KO:K10134]
+            66940  Shisa5; shisa family member 5 [KO:K10135]
+            64058  Perp; PERP, TP53 apoptosis effector [KO:K10136]
+            22401  Zmat3; zinc finger matrin type 3 [KO:K10137]
+            20437  Siah1a; siah E3 ubiquitin protein ligase 1A [KO:K04506] [EC:2.3.2.27]
+            20438  Siah1b; siah E3 ubiquitin protein ligase 1B [KO:K04506] [EC:2.3.2.27]
+            13063  Cycs; cytochrome c, somatic [KO:K08738]
+            13067  Cyct; cytochrome c, testis [KO:K08738]
+            11783  Apaf1; apoptotic peptidase activating factor 1 [KO:K02084]
+            12371  Casp9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            12367  Casp3; caspase 3 [KO:K02187] [EC:3.4.22.56]
+            71361  Aifm2; apoptosis-inducing factor, mitochondrion-associated 2 [KO:K22745]
+            16009  Igfbp3; insulin-like growth factor binding protein 3 [KO:K10138]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            18787  Serpine1; serine (or cysteine) peptidase inhibitor, clade E, member 1 [KO:K03982]
+            107831  Adgrb1; adhesion G protein-coupled receptor B1 [KO:K04596]
+            12521  Cd82; CD82 antigen [KO:K06509]
+            21825  Thbs1; thrombospondin 1 [KO:K16857]
+            20724  Serpinb5; serine (or cysteine) peptidase inhibitor, clade B, member 5 [KO:K10139]
+            107986  Ddb2; damage specific DNA binding protein 2 [KO:K10140]
+            382985  Rrm2b; ribonucleotide reductase M2 B (TP53 inducible) [KO:K10808] [EC:1.17.4.1]
+            20135  Rrm2; ribonucleotide reductase M2 [KO:K10808] [EC:1.17.4.1]
+            140742  Sesn1; sestrin 1 [KO:K10141]
+            75747  Sesn3; sestrin 3 [KO:K10141]
+            230784  Sesn2; sestrin 2 [KO:K20394]
+            19211  Pten; phosphatase and tensin homolog [KO:K01110] [EC:3.1.3.16 3.1.3.48 3.1.3.67]
+            22084  Tsc2; TSC complex subunit 2 [KO:K07207]
+            68428  Steap3; STEAP family member 3 [KO:K10142] [EC:1.16.1.-]
+            26374  Cop1; COP1, E3 ubiquitin ligase [KO:K10143] [EC:2.3.2.27]
+            68098  Rchy1; ring finger and CHY zinc finger domain containing 1 [KO:K10144] [EC:2.3.2.27]
+            12450  Ccng1; cyclin G1 [KO:K10145]
+            12452  Ccng2; cyclin G2 [KO:K10146]
+            53892  Ppm1d; protein phosphatase 1D magnesium-dependent, delta isoform [KO:K10147] [EC:3.1.3.16]
+            22062  Trp73; transformation related protein 73 [KO:K10148]
+REFERENCE   PMID:16557269
+  AUTHORS   Levine AJ, Hu W, Feng Z.
+  TITLE     The P53 pathway: what questions remain to be explored?
+  JOURNAL   Cell Death Differ 13:1027-36 (2006)
+            DOI:10.1038/sj.cdd.4401910
+REFERENCE   PMID:15838523
+  AUTHORS   Harris SL, Levine AJ.
+  TITLE     The p53 pathway: positive and negative feedback loops.
+  JOURNAL   Oncogene 24:2899-908 (2005)
+            DOI:10.1038/sj.onc.1208615
+REFERENCE   PMID:11747320
+  AUTHORS   Balint E E, Vousden KH.
+  TITLE     Activation and activities of the p53 tumour suppressor protein.
+  JOURNAL   Br J Cancer 85:1813-23 (2001)
+            DOI:10.1054/bjoc.2001.2128
+REFERENCE   PMID:11313928
+  AUTHORS   Taylor WR, Stark GR.
+  TITLE     Regulation of the G2/M transition by p53.
+  JOURNAL   Oncogene 20:1803-15 (2001)
+            DOI:10.1038/sj.onc.1204252
+REFERENCE   PMID:15116721
+  AUTHORS   Hofseth LJ, Hussain SP, Harris CC.
+  TITLE     p53: 25 years after its discovery.
+  JOURNAL   Trends Pharmacol Sci 25:177-81 (2004)
+            DOI:10.1016/j.tips.2004.02.009
+REFERENCE   PMID:12505356
+  AUTHORS   Pietenpol JA, Stewart ZA.
+  TITLE     Cell cycle checkpoint signaling: cell cycle arrest versus apoptosis.
+  JOURNAL   Toxicology 181-182:475-81 (2002)
+            DOI:10.1016/S0300-483X(02)00460-2
+REFERENCE   PMID:10714958
+  AUTHORS   Tokino T, Nakamura Y.
+  TITLE     The role of p53-target genes in human cancer.
+  JOURNAL   Crit Rev Oncol Hematol 33:1-6 (2000)
+            DOI:10.1016/S1040-8428(99)00051-7
+REFERENCE   PMID:16697662
+  AUTHORS   Hermeking H, Benzinger A.
+  TITLE     14-3-3 proteins in cell cycle regulation.
+  JOURNAL   Semin Cancer Biol 16:183-92 (2006)
+            DOI:10.1016/j.semcancer.2006.03.002
+REFERENCE   PMID:16915296
+  AUTHORS   Sherr CJ.
+  TITLE     Divorcing ARF and p53: an unsettled case.
+  JOURNAL   Nat Rev Cancer 6:663-73 (2006)
+            DOI:10.1038/nrc1954
+REFERENCE   PMID:17409411
+  AUTHORS   Feng Z, Hu W, de Stanchina E, Teresky AK, Jin S, Lowe S, Levine AJ.
+  TITLE     The regulation of AMPK beta1, TSC2, and PTEN expression by p53: stress, cell and tissue specificity, and the role of these gene products in modulating the IGF-1-AKT-mTOR pathways.
+  JOURNAL   Cancer Res 67:3043-53 (2007)
+            DOI:10.1158/0008-5472.CAN-06-4149
+REFERENCE   PMID:26037915
+  AUTHORS   Resnick-Silverman L, Manfredi JJ
+  TITLE     Two Faces of SIVA.
+  JOURNAL   Cancer Discov 5:581-3 (2015)
+            DOI:10.1158/2159-8290.CD-15-0484
+REFERENCE   PMID:19584092
+  AUTHORS   Resch U, Schichl YM, Winsauer G, Gudi R, Prasad K, de Martin R
+  TITLE     Siva1 is a XIAP-interacting protein that balances NFkappaB and JNK signalling to promote apoptosis.
+  JOURNAL   J Cell Sci 122:2651-61 (2009)
+            DOI:10.1242/jcs.049940
+REFERENCE   PMID:19240372
+  AUTHORS   Barkinge JL, Gudi R, Sarah H, Chu F, Borthakur A, Prabhakar BS, Prasad KV
+  TITLE     The p53-induced Siva-1 plays a significant role in cisplatin-mediated apoptosis.
+  JOURNAL   J Carcinog 8:2 (2009)
+            DOI:10.4103/1477-3163.45389
+REFERENCE   PMID:12135761
+  AUTHORS   Ohiro Y, Garkavtsev I, Kobayashi S, Sreekumar KR, Nantz R, Higashikubo BT, Duffy SL, Higashikubo R, Usheva A, Gius D, Kley N, Horikoshi N
+  TITLE     A novel p53-inducible apoptogenic gene, PRG3, encodes a homologue of the apoptosis-inducing factor (AIF).
+  JOURNAL   FEBS Lett 524:163-71 (2002)
+            DOI:10.1016/S0014-5793(02)03049-1
+REL_PATHWAY mmu04110  Cell cycle
+            mmu04210  Apoptosis
+            mmu04218  Cellular senescence
+KO_PATHWAY  ko04115
+///

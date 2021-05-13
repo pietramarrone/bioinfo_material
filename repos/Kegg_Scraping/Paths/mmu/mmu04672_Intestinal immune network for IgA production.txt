@@ -1,0 +1,107 @@
+ENTRY       mmu04672                    Pathway
+NAME        Intestinal immune network for IgA production - Mus musculus (mouse)
+DESCRIPTION The intestine is the largest lymphoid tissue in the body. One striking feature of intestinal immunity is its ability to generate great amounts of noninflammatory immunoglobulin A (IgA) antibodies that serve as the first line of defense against microorganisms. The basic map of IgA production includes induction of mucosal B cells in the Peyer's patches, circulation through the bloodstream and homing to intestinal mucosa of IgA-commited plasma cells, and local antibody production for export across the intestinal membranes. Multiple cytokines, including TGF-{beta}, IL-10, IL-4, IL-5, and IL-6, are required to promote IgA class switching and terminal differentiation process of the B cells. Secreted IgA promotes immune exclusion by entrapping dietary antigens and microorganisms in the mucus and functions for neutralization of toxins and pathogenic microbes.
+CLASS       Organismal Systems; Immune system
+PATHWAY_MAP mmu04672  Intestinal immune network for IgA production
+DBLINKS     GO: 0002387
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        12519  Cd80; CD80 antigen [KO:K05412]
+            12524  Cd86; CD86 antigen [KO:K05413]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            12487  Cd28; CD28 antigen [KO:K06470]
+            16183  Il2; interleukin 2 [KO:K05429]
+            16189  Il4; interleukin 4 [KO:K05430]
+            16191  Il5; interleukin 5 [KO:K05428]
+            16193  Il6; interleukin 6 [KO:K05405]
+            16153  Il10; interleukin 10 [KO:K05443]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            69583  Tnfsf13; tumor necrosis factor (ligand) superfamily, member 13 [KO:K05475]
+            24099  Tnfsf13b; tumor necrosis factor (ligand) superfamily, member 13b [KO:K05476]
+            57916  Tnfrsf13b; tumor necrosis factor receptor superfamily, member 13b [KO:K05150]
+            21935  Tnfrsf17; tumor necrosis factor receptor superfamily, member 17 [KO:K05153]
+            72049  Tnfrsf13c; tumor necrosis factor receptor superfamily, member 13c [KO:K05151]
+            11628  Aicda; activation-induced cytidine deaminase [KO:K10989] [EC:3.5.4.38]
+            21939  Cd40; CD40 antigen [KO:K03160]
+            21947  Cd40lg; CD40 ligand [KO:K03161]
+            54167  Icos; inducible T cell co-stimulator [KO:K06713]
+            50723  Icosl; icos ligand [KO:K06710]
+            12769  Ccr9; chemokine (C-C motif) receptor 9 [KO:K04184]
+            16401  Itga4; integrin alpha 4 [KO:K06483]
+            16421  Itgb7; integrin beta 7 [KO:K06590]
+            20315  Cxcl12; chemokine (C-X-C motif) ligand 12 [KO:K10031]
+            12767  Cxcr4; chemokine (C-X-C motif) receptor 4 [KO:K04189]
+            56838  Ccl28; chemokine (C-C motif) ligand 28 [KO:K05513]
+            12777  Ccr10; chemokine (C-C motif) receptor 10 [KO:K04185]
+            20300  Ccl25; chemokine (C-C motif) ligand 25 [KO:K13072]
+            17123  Madcam1; mucosal vascular addressin cell adhesion molecule 1 [KO:K06779]
+            17000  Ltbr; lymphotoxin B receptor [KO:K03159]
+            53859  Map3k14; mitogen-activated protein kinase kinase kinase 14 [KO:K04466] [EC:2.7.11.25]
+            16168  Il15; interleukin 15 [KO:K05433]
+            16169  Il15ra; interleukin 15 receptor, alpha chain [KO:K05074]
+            18703  Pigr; polymeric immunoglobulin receptor [KO:K13073]
+COMPOUND    C00777  Retinoate
+            C15493  9-cis-Retinoic acid
+REFERENCE   PMID:12511876
+  AUTHORS   Fagarasan S, Honjo T
+  TITLE     Intestinal IgA synthesis: regulation of front-line body defences.
+  JOURNAL   Nat Rev Immunol 3:63-72 (2003)
+            DOI:10.1038/nri982
+REFERENCE   PMID:19079156
+  AUTHORS   Macpherson AJ, McCoy KD, Johansen FE, Brandtzaeg P
+  TITLE     The immune geography of IgA induction and function.
+  JOURNAL   Mucosal Immunol 1:11-22 (2008)
+            DOI:10.1038/mi.2007.6
+REFERENCE   PMID:15971106
+  AUTHORS   Kunisawa J, Kiyono H
+  TITLE     A marvel of mucosal T cells and secretory antibodies for the creation of first lines of defense.
+  JOURNAL   Cell Mol Life Sci 62:1308-21 (2005)
+            DOI:10.1007/s00018-005-5035-1
+REFERENCE   PMID:18549797
+  AUTHORS   Cerutti A, Rescigno M
+  TITLE     The biology of intestinal immunoglobulin A responses.
+  JOURNAL   Immunity 28:740-50 (2008)
+            DOI:10.1016/j.immuni.2008.05.001
+REFERENCE   PMID:18243016
+  AUTHORS   Tsuji M, Suzuki K, Kinoshita K, Fagarasan S
+  TITLE     Dynamic interactions between bacteria and immune cells leading to intestinal IgA synthesis.
+  JOURNAL   Semin Immunol 20:59-66 (2008)
+            DOI:10.1016/j.smim.2007.12.003
+REFERENCE   PMID:17182536
+  AUTHORS   Corthesy B
+  TITLE     Roundtrip ticket for secretory IgA: role in mucosal homeostasis?
+  JOURNAL   J Immunol 178:27-32 (2007)
+            DOI:10.4049/jimmunol.178.1.27
+REFERENCE   PMID:18838301
+  AUTHORS   Suzuki K, Fagarasan S
+  TITLE     How host-bacterial interactions lead to IgA synthesis in the gut.
+  JOURNAL   Trends Immunol 29:523-31 (2008)
+            DOI:10.1016/j.it.2008.08.001
+REFERENCE   PMID:19079167
+  AUTHORS   Mora JR, von Andrian UH
+  TITLE     Differentiation and homing of IgA-secreting cells.
+  JOURNAL   Mucosal Immunol 1:96-109 (2008)
+            DOI:10.1038/mi.2007.14
+REFERENCE   PMID:17161619
+  AUTHORS   Suzuki K, Ha SA, Tsuji M, Fagarasan S
+  TITLE     Intestinal IgA synthesis: a primitive form of adaptive immunity that regulates microbial communities in the gut.
+  JOURNAL   Semin Immunol 19:127-35 (2007)
+            DOI:10.1016/j.smim.2006.10.001
+REFERENCE   PMID:18483500
+  AUTHORS   Cerutti A
+  TITLE     The regulation of IgA class switching.
+  JOURNAL   Nat Rev Immunol 8:421-34 (2008)
+            DOI:10.1038/nri2322
+REL_PATHWAY mmu04612  Antigen processing and presentation
+            mmu04660  T cell receptor signaling pathway
+            mmu04662  B cell receptor signaling pathway
+            mmu04670  Leukocyte transendothelial migration
+KO_PATHWAY  ko04672
+///

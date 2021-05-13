@@ -1,0 +1,96 @@
+ENTRY       mmu00565                    Pathway
+NAME        Ether lipid metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Lipid metabolism
+PATHWAY_MAP mmu00565  Ether lipid metabolism
+MODULE      mmu_M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid [PATH:mmu00565]
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        228061  Agps; alkylglycerone phosphate synthase [KO:K00803] [EC:2.5.1.26]
+            19012  Plpp1; phospholipid phosphatase 1 [KO:K01080] [EC:3.1.3.4]
+            50784  Plpp2; phospholipid phosphatase 2 [KO:K01080] [EC:3.1.3.4]
+            67916  Plpp3; phospholipid phosphatase 3 [KO:K01080] [EC:3.1.3.4]
+            28042  Selenoi; selenoprotein I [KO:K00993] [EC:2.7.8.1]
+            212862  Chpt1; choline phosphotransferase 1 [KO:K00994] [EC:2.7.8.2]
+            99712  Cept1; choline/ethanolaminephosphotransferase 1 [KO:K13644] [EC:2.7.8.1 2.7.8.2]
+            26971  Pla2g2f; phospholipase A2, group IIF [KO:K01047] [EC:3.1.1.4]
+            18778  Pla2g1b; phospholipase A2, group IB, pancreas [KO:K01047] [EC:3.1.1.4]
+            18781  Pla2g2c; phospholipase A2, group IIC [KO:K01047] [EC:3.1.1.4]
+            18784  Pla2g5; phospholipase A2, group V [KO:K01047] [EC:3.1.1.4]
+            18782  Pla2g2d; phospholipase A2, group IID [KO:K01047] [EC:3.1.1.4]
+            26970  Pla2g2e; phospholipase A2, group IIE [KO:K01047] [EC:3.1.1.4]
+            66350  Pla2g12a; phospholipase A2, group XIIA [KO:K01047] [EC:3.1.1.4]
+            69836  Pla2g12b; phospholipase A2, group XIIB [KO:K01047] [EC:3.1.1.4]
+            26565  Pla2g10; phospholipase A2, group X [KO:K01047] [EC:3.1.1.4]
+            18780  Pla2g2a; phospholipase A2, group IIA (platelets, synovial fluid) [KO:K01047] [EC:3.1.1.4]
+            237625  Pla2g3; phospholipase A2, group III [KO:K01047] [EC:3.1.1.4]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            53357  Pla2g6; phospholipase A2, group VI [KO:K16343] [EC:3.1.1.4]
+            665270  Plb1; phospholipase B1 [KO:K14621] [EC:3.1.1.4 3.1.1.5]
+            225845  Plaat3; phospholipase A and acyltransferase 3 [KO:K16817] [EC:3.1.1.32 3.1.1.4]
+            99010  Lpcat4; lysophosphatidylcholine acyltransferase 4 [KO:K13512] [EC:2.3.1.23 2.3.1.-]
+            320981  Enpp6; ectonucleotide pyrophosphatase/phosphodiesterase 6 [KO:K08743] [EC:3.1.4.-]
+            18606  Enpp2; ectonucleotide pyrophosphatase/phosphodiesterase 2 [KO:K01122] [EC:3.1.4.39]
+            68616  Gdpd3; glycerophosphodiester phosphodiesterase domain containing 3 [KO:K22387] [EC:3.1.4.39]
+            66569  Gdpd1; glycerophosphodiester phosphodiesterase domain containing 1 [KO:K22387] [EC:3.1.4.39]
+            68255  Tmem86b; transmembrane protein 86B [KO:K18575] [EC:3.3.2.2]
+            18806  Pld2; phospholipase D2 [KO:K01115] [EC:3.1.4.4]
+            18805  Pld1; phospholipase D1 [KO:K01115] [EC:3.1.4.4]
+            18807  Pld3; phospholipase D family, member 3 [KO:K16860] [EC:3.1.4.4]
+            104759  Pld4; phospholipase D family, member 4 [KO:K16860] [EC:3.1.4.4]
+            22239  Ugt8a; UDP galactosyltransferase 8A [KO:K04628] [EC:2.4.1.47]
+            53897  Gal3st1; galactose-3-O-sulfotransferase 1 [KO:K01019] [EC:2.8.2.11]
+            270084  Lpcat2; lysophosphatidylcholine acyltransferase 2 [KO:K13510] [EC:2.3.1.23 2.3.1.67]
+            210992  Lpcat1; lysophosphatidylcholine acyltransferase 1 [KO:K13510] [EC:2.3.1.23 2.3.1.67]
+            70902  Lpcat2b; lysophosphatidylcholine acyltransferase 2B [KO:K13510] [EC:2.3.1.23 2.3.1.67]
+            18472  Pafah1b1; platelet-activating factor acetylhydrolase, isoform 1b, subunit 1 [KO:K16794]
+            18475  Pafah1b2; platelet-activating factor acetylhydrolase, isoform 1b, subunit 2 [KO:K16795] [EC:3.1.1.47]
+            18476  Pafah1b3; platelet-activating factor acetylhydrolase, isoform 1b, subunit 3 [KO:K16795] [EC:3.1.1.47]
+            100163  Pafah2; platelet-activating factor acetylhydrolase 2 [KO:K01062] [EC:3.1.1.47]
+            27226  Pla2g7; phospholipase A2, group VII (platelet-activating factor acetylhydrolase, plasma) [KO:K01062] [EC:3.1.1.47]
+COMPOUND    C00670  sn-Glycero-3-phosphocholine
+            C00958  Plasmenylcholine
+            C01233  sn-Glycero-3-phosphoethanolamine
+            C01264  2-Acetyl-1-alkyl-sn-glycero-3-phosphate
+            C02773  1-Alkyl-sn-glycerol
+            C03201  1-Alkyl-2-acylglycerol
+            C03372  Acylglycerone phosphate
+            C03454  1-Alkenyl-2-acylglycerol
+            C03715  O-Alkylglycerone phosphate
+            C03820  1-Alkyl-2-acetyl-sn-glycerol
+            C03968  1-Alkyl-sn-glycero-3-phosphate
+            C04317  1-Organyl-2-lyso-sn-glycero-3-phosphocholine
+            C04361  1-O-Alkyl-2-acetyl-3-acyl-sn-glycerol
+            C04475  1-Alkyl-2-acylglycerophosphoethanolamine
+            C04517  1-(1-Alkenyl)-sn-glycero-3-phosphocholine
+            C04598  2-Acetyl-1-alkyl-sn-glycero-3-phosphocholine
+            C04635  1-(1-Alkenyl)-sn-glycero-3-phosphoethanolamine
+            C04756  O-1-Alk-1-enyl-2-acyl-sn-glycero-3-phosphoethanolamine
+            C05212  1-Radyl-2-acyl-sn-glycero-3-phosphocholine
+            C05977  2-Acyl-1-alkyl-sn-glycero-3-phosphate
+            C15645  1-(1-Alkenyl)-sn-glycerol
+            C15646  1-(1-Alkenyl)-sn-glycero-3-phosphate
+            C15647  2-Acyl-1-(1-alkenyl)-sn-glycero-3-phosphate
+            C20825  Seminolipid
+            C20859  Galactosyl-1-alkyl-2-acylglycerol
+REFERENCE   PMID:11275267
+  AUTHORS   Nagan N, Zoeller RA.
+  TITLE     Plasmalogens: biosynthesis and functions.
+  JOURNAL   Prog Lipid Res 40:199-229 (2001)
+            DOI:10.1016/S0163-7827(01)00003-0
+REFERENCE   PMID:11015622
+  AUTHORS   Montrucchio G, Alloatti G, Camussi G.
+  TITLE     Role of platelet-activating factor in cardiovascular pathophysiology.
+  JOURNAL   Physiol Rev 80:1669-99 (2000)
+            DOI:10.1152/physrev.2000.80.4.1669
+REFERENCE   PMID:15788404
+  AUTHORS   Sakagami H, Aoki J, Natori Y, Nishikawa K, Kakehi Y, Natori Y, Arai H.
+  TITLE     Biochemical and molecular characterization of a novel choline-specific glycerophosphodiester phosphodiesterase belonging to the nucleotide pyrophosphatase/phosphodiesterase family.
+  JOURNAL   J Biol Chem 280:23084-93 (2005)
+            DOI:10.1074/jbc.M413438200
+REL_PATHWAY mmu00564  Glycerophospholipid metabolism
+KO_PATHWAY  ko00565
+///

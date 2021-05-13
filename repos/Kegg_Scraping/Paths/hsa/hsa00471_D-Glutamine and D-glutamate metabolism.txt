@@ -1,0 +1,26 @@
+ENTRY       hsa00471                    Pathway
+NAME        D-Glutamine and D-glutamate metabolism - Homo sapiens (human)
+CLASS       Metabolism; Metabolism of other amino acids
+PATHWAY_MAP hsa00471  D-Glutamine and D-glutamate metabolism
+DISEASE     H01267  Familial hyperinsulinemic hypoglycemia
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        27165  GLS2; glutaminase 2 [KO:K01425] [EC:3.5.1.2]
+            2744  GLS; glutaminase [KO:K01425] [EC:3.5.1.2]
+            2747  GLUD2; glutamate dehydrogenase 2 [KO:K00261] [EC:1.4.1.3]
+            2746  GLUD1; glutamate dehydrogenase 1 [KO:K00261] [EC:1.4.1.3]
+            80017  DGLUCY; D-glutamate cyclase [KO:K22210] [EC:4.2.1.48]
+COMPOUND    C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00064  L-Glutamine
+            C00217  D-Glutamate
+            C00692  UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+            C00819  D-Glutamine
+            C01050  UDP-N-acetylmuramate
+            C01212  UDP-N-acetylmuramoyl-L-alanine
+            C02237  5-Oxo-D-proline
+            C02671  D-Glutamyl-peptide
+            C03933  5-D-Glutamyl-D-glutamyl-peptide
+            C05723  Poly-gamma-D-glutamate
+            C22053  UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-L-glutamate
+KO_PATHWAY  ko00471
+///

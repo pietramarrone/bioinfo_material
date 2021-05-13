@@ -1,0 +1,144 @@
+ENTRY       mmu05033                    Pathway
+NAME        Nicotine addiction - Mus musculus (mouse)
+DESCRIPTION Nicotine is one of the main psychoactive ingredients in tobacco that contributes to the harmful tobacco smoking habit. A common feature of addictive drugs, including nicotine, is that they increase dopamine (DA) release in the nucleus accumbens (NAc). The principal dopaminergic projections to NAc arise from neurons in the ventral tegmental area (VTA). In the VTA, alpha6- and alpha4beta2-containing nAChRs (alpha6*-AChRs and alpha4beta2*-AChRs, respectively) are located on GABAergic terminals and provide inhibitory inputs onto DAergic neuons, while alpha7*-nAChRs are located on glutamatergic terminals and activation of these receptors enhances glutamate release and increases excitability of DAergic neurons. Nicotine acts as an agonist to activate and desensitize these nicotinic acetylcholine receptors (nAChRs). After a short exposure to nicotine, alpha6*- and alpha4beta2*- nAChRs on GABAergic afferents are desensitized, decreasing GABA release and decreasing local inhibition of DA neurons. But the alpha7*-nAChRs on glutamatergic afferents remain active and enhance glutamate excitation of the DA neurons, leading to increased DA release in the NAc -and so facilitate the reinforcing effects of nicotine.
+CLASS       Human Diseases; Substance dependence
+PATHWAY_MAP mmu05033  Nicotine addiction
+DBLINKS     GO: 0035094
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        22348  Slc32a1; solute carrier family 32 (GABA vesicular transporter), member 1 [KO:K15015]
+            11440  Chrna6; cholinergic receptor, nicotinic, alpha polypeptide 6 [KO:K04808]
+            12286  Cacna1a; calcium channel, voltage-dependent, P/Q type, alpha 1A subunit [KO:K04344]
+            12287  Cacna1b; calcium channel, voltage-dependent, N type, alpha 1B subunit [KO:K04849]
+            11438  Chrna4; cholinergic receptor, nicotinic, alpha polypeptide 4 [KO:K04806]
+            11444  Chrnb2; cholinergic receptor, nicotinic, beta polypeptide 2 (neuronal) [KO:K04813]
+            14394  Gabra1; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 1 [KO:K05175]
+            14395  Gabra2; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 2 [KO:K05175]
+            14396  Gabra3; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 3 [KO:K05175]
+            14397  Gabra4; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 4 [KO:K05175]
+            110886  Gabra5; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 5 [KO:K05175]
+            14399  Gabra6; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 6 [KO:K05175]
+            14400  Gabrb1; gamma-aminobutyric acid (GABA) A receptor, subunit beta 1 [KO:K05181]
+            14402  Gabrb3; gamma-aminobutyric acid (GABA) A receptor, subunit beta 3 [KO:K05181]
+            14401  Gabrb2; gamma-aminobutyric acid (GABA) A receptor, subunit beta 2 [KO:K05181]
+            14405  Gabrg1; gamma-aminobutyric acid (GABA) A receptor, subunit gamma 1 [KO:K05186]
+            14406  Gabrg2; gamma-aminobutyric acid (GABA) A receptor, subunit gamma 2 [KO:K05186]
+            14407  Gabrg3; gamma-aminobutyric acid (GABA) A receptor, subunit gamma 3 [KO:K05186]
+            14403  Gabrd; gamma-aminobutyric acid (GABA) A receptor, subunit delta [KO:K05184]
+            14404  Gabre; gamma-aminobutyric acid (GABA) A receptor, subunit epsilon [KO:K05185]
+            57249  Gabrq; gamma-aminobutyric acid (GABA) A receptor, subunit theta [KO:K05192]
+            216643  Gabrp; gamma-aminobutyric acid (GABA) A receptor, pi [KO:K05189]
+            14408  Gabrr1; gamma-aminobutyric acid (GABA) C receptor, subunit rho 1 [KO:K05190]
+            14409  Gabrr2; gamma-aminobutyric acid (GABA) C receptor, subunit rho 2 [KO:K05190]
+            328699  Gabrr3; gamma-aminobutyric acid (GABA) receptor, rho 3 [KO:K05190]
+            140919  Slc17a6; solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 6 [KO:K12302]
+            216227  Slc17a8; solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 8 [KO:K12302]
+            72961  Slc17a7; solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 7 [KO:K12302]
+            11441  Chrna7; cholinergic receptor, nicotinic, alpha polypeptide 7 [KO:K04809]
+            14810  Grin1; glutamate receptor, ionotropic, NMDA1 (zeta 1) [KO:K05208]
+            14811  Grin2a; glutamate receptor, ionotropic, NMDA2A (epsilon 1) [KO:K05209]
+            14812  Grin2b; glutamate receptor, ionotropic, NMDA2B (epsilon 2) [KO:K05210]
+            14813  Grin2c; glutamate receptor, ionotropic, NMDA2C (epsilon 3) [KO:K05211]
+            14814  Grin2d; glutamate receptor, ionotropic, NMDA2D (epsilon 4) [KO:K05212]
+            242443  Grin3a; glutamate receptor ionotropic, NMDA3A [KO:K05213]
+            170483  Grin3b; glutamate receptor, ionotropic, NMDA3B [KO:K05214]
+            14799  Gria1; glutamate receptor, ionotropic, AMPA1 (alpha 1) [KO:K05197]
+            14800  Gria2; glutamate receptor, ionotropic, AMPA2 (alpha 2) [KO:K05198]
+            53623  Gria3; glutamate receptor, ionotropic, AMPA3 (alpha 3) [KO:K05199]
+            14802  Gria4; glutamate receptor, ionotropic, AMPA4 (alpha 4) [KO:K05200]
+COMPOUND    C00025  L-Glutamate
+            C00076  Calcium cation
+            C00334  4-Aminobutanoate
+            C00698  Cl-
+            C00745  Nicotine
+            C01330  Sodium cation
+            C01996  Acetylcholine
+REFERENCE   PMID:12436424
+  AUTHORS   Mansvelder HD, McGehee DS
+  TITLE     Cellular and synaptic mechanisms of nicotine addiction.
+  JOURNAL   J Neurobiol 53:606-17 (2002)
+            DOI:10.1002/neu.10148
+REFERENCE   PMID:15661626
+  AUTHORS   Wonnacott S, Sidhpura N, Balfour DJ
+  TITLE     Nicotine: from molecular mechanisms to behaviour.
+  JOURNAL   Curr Opin Pharmacol 5:53-9 (2005)
+            DOI:10.1016/j.coph.2004.12.002
+REFERENCE   PMID:19669944
+  AUTHORS   Mao D, McGehee DS
+  TITLE     Nicotine and behavioral sensitization.
+  JOURNAL   J Mol Neurosci 40:154-63 (2010)
+            DOI:10.1007/s12031-009-9230-7
+REFERENCE   PMID:19184650
+  AUTHORS   Barik J, Wonnacott S
+  TITLE     Molecular and cellular mechanisms of action of nicotine in the CNS.
+  JOURNAL   Handb Exp Pharmacol 173-207 (2009)
+            DOI:10.1007/978-3-540-69248-5_7
+REFERENCE   PMID:19498417
+  AUTHORS   Yang KC, Jin GZ, Wu J
+  TITLE     Mysterious alpha6-containing nAChRs: function, pharmacology, and pathophysiology.
+  JOURNAL   Acta Pharmacol Sin 30:740-51 (2009)
+            DOI:10.1038/aps.2009.63
+REFERENCE   PMID:14747518
+  AUTHORS   Pidoplichko VI, Noguchi J, Areola OO, Liang Y, Peterson J, Zhang T, Dani JA
+  TITLE     Nicotinic cholinergic synaptic mechanisms in the ventral tegmental area contribute to nicotine addiction.
+  JOURNAL   Learn Mem 11:60-9 (2004)
+            DOI:10.1101/lm.70004
+REFERENCE   PMID:12716925
+  AUTHORS   Wooltorton JR, Pidoplichko VI, Broide RS, Dani JA
+  TITLE     Differential desensitization and distribution of nicotinic acetylcholine receptor subtypes in midbrain dopamine areas.
+  JOURNAL   J Neurosci 23:3176-85 (2003)
+            DOI:10.1523/JNEUROSCI.23-08-03176.2003
+REFERENCE   PMID:19434058
+  AUTHORS   Xi ZX, Spiller K, Gardner EL
+  TITLE     Mechanism-based medication development for the treatment of nicotine dependence.
+  JOURNAL   Acta Pharmacol Sin 30:723-39 (2009)
+            DOI:10.1038/aps.2009.46
+REFERENCE   PMID:14708004
+  AUTHORS   Laviolette SR, van der Kooy D
+  TITLE     The neurobiology of nicotine addiction: bridging the gap from molecules to behaviour.
+  JOURNAL   Nat Rev Neurosci 5:55-65 (2004)
+            DOI:10.1038/nrn1298
+REFERENCE   PMID:20485364
+  AUTHORS   Changeux JP
+  TITLE     Nicotine addiction and nicotinic receptors: lessons from genetically modified mice.
+  JOURNAL   Nat Rev Neurosci 11:389-401 (2010)
+            DOI:10.1038/nrn2849
+REFERENCE   PMID:17009926
+  AUTHORS   Dani JA, Bertrand D
+  TITLE     Nicotinic acetylcholine receptors and nicotinic cholinergic mechanisms of the central nervous system.
+  JOURNAL   Annu Rev Pharmacol Toxicol 47:699-729 (2007)
+            DOI:10.1146/annurev.pharmtox.47.120505.105214
+REFERENCE   PMID:11906697
+  AUTHORS   Mansvelder HD, Keath JR, McGehee DS
+  TITLE     Synaptic mechanisms underlie nicotine-induced excitability of brain reward areas.
+  JOURNAL   Neuron 33:905-19 (2002)
+            DOI:10.1016/S0896-6273(02)00625-6
+REFERENCE   PMID:18723034
+  AUTHORS   O'Dell LE
+  TITLE     A psychobiological framework of the substrates that mediate nicotine use during adolescence.
+  JOURNAL   Neuropharmacology 56 Suppl 1:263-78 (2009)
+            DOI:10.1016/j.neuropharm.2008.07.039
+REFERENCE   PMID:20833261
+  AUTHORS   Ortells MO, Arias HR
+  TITLE     Neuronal networks of nicotine addiction.
+  JOURNAL   Int J Biochem Cell Biol 42:1931-5 (2010)
+            DOI:10.1016/j.biocel.2010.08.019
+REFERENCE   PMID:16251989
+  AUTHORS   Dani JA, Harris RA
+  TITLE     Nicotine addiction and comorbidity with alcohol abuse and mental illness.
+  JOURNAL   Nat Neurosci 8:1465-70 (2005)
+            DOI:10.1038/nn1580
+REFERENCE   PMID:18640919
+  AUTHORS   Markou A
+  TITLE     Review. Neurobiology of nicotine dependence.
+  JOURNAL   Philos Trans R Soc Lond B Biol Sci 363:3159-68 (2008)
+            DOI:10.1098/rstb.2008.0095
+REFERENCE   PMID:15165747
+  AUTHORS   Dajas-Bailador F, Wonnacott S
+  TITLE     Nicotinic acetylcholine receptors and the regulation of neuronal signalling.
+  JOURNAL   Trends Pharmacol Sci 25:317-24 (2004)
+            DOI:10.1016/j.tips.2004.04.006
+REL_PATHWAY mmu04724  Glutamatergic synapse
+            mmu04727  GABAergic synapse
+            mmu04728  Dopaminergic synapse
+KO_PATHWAY  ko05033
+///

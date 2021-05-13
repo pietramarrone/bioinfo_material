@@ -1,0 +1,52 @@
+ENTRY       mmu03430                    Pathway
+NAME        Mismatch repair - Mus musculus (mouse)
+DESCRIPTION DNA mismatch repair (MMR) is a highly conserved biological pathway that plays a key role in maintaining genomic stability. MMR corrects DNA mismatches generated during DNA replication, thereby preventing mutations from becoming permanent in dividing cells. MMR also suppresses homologous recombination and was recently shown to play a role in DNA damage signaling. Defects in MMR are associated with genome-wide instability, predisposition to certain types of cancer including HNPCC, resistance to certain chemotherapeutic agents, and abnormalities in meiosis and sterility in mammalian systems.
+            The Escherichia coli MMR pathway has been extensively studied and is well characterized. In E. coli, the mismatch-activated MutS-MutL-ATP complex licenses MutH to incise the nearest unmethylated GATC sequence. UvrD and an exonuclease generate a gap. This gap is filled by pol III and DNA ligase. The GATC sites are then methylated by Dam. Several human MMR proteins have been identified based on their homology to E. coli MMR proteins. These include human homologs of MutS and MutL. Although E. coli MutS and MutL proteins are homodimers, human MutS and MutL homologs are heterodimers. The role of hemimethylated dGATC sites as a signal for strand discrimination is not conserved from E. coli to human. Human MMR is presumed to be nick-directed in vivo, and is thought to discriminate daughter and template strands using a strand-specific nick.
+CLASS       Genetic Information Processing; Replication and repair
+PATHWAY_MAP mmu03430  Mismatch repair
+DBLINKS     GO: 0006298
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        381760  Ssbp1; single-stranded DNA binding protein 1 [KO:K03111]
+            18861  Pms2; PMS1 homolog2, mismatch repair system component [KO:K10858]
+            17350  Mlh1; mutL homolog 1 [KO:K08734]
+            17688  Msh6; mutS homolog 6 [KO:K08737]
+            17685  Msh2; mutS homolog 2 [KO:K08735]
+            17686  Msh3; mutS homolog 3 [KO:K08736]
+            217716  Mlh3; mutL homolog 3 [KO:K08739]
+            19687  Rfc1; replication factor C (activator 1) 1 [KO:K10754]
+            106344  Rfc4; replication factor C (activator 1) 4 [KO:K10755]
+            19718  Rfc2; replication factor C (activator 1) 2 [KO:K10755]
+            72151  Rfc5; replication factor C (activator 1) 5 [KO:K10756]
+            69263  Rfc3; replication factor C (activator 1) 3 [KO:K10756]
+            18538  Pcna; proliferating cell nuclear antigen [KO:K04802]
+            26909  Exo1; exonuclease 1 [KO:K10746] [EC:3.1.-.-]
+            68275  Rpa1; replication protein A1 [KO:K07466]
+            19891  Rpa2; replication protein A2 [KO:K10739]
+            68240  Rpa3; replication protein A3 [KO:K10740]
+            18971  Pold1; polymerase (DNA directed), delta 1, catalytic subunit [KO:K02327] [EC:2.7.7.7]
+            18972  Pold2; polymerase (DNA directed), delta 2, regulatory subunit [KO:K02328]
+            67967  Pold3; polymerase (DNA-directed), delta 3, accessory subunit [KO:K03504]
+            69745  Pold4; polymerase (DNA-directed), delta 4 [KO:K03505]
+            16881  Lig1; ligase I, DNA, ATP-dependent [KO:K10747] [EC:6.5.1.1 6.5.1.6 6.5.1.7]
+REFERENCE   PMID:16612326
+  AUTHORS   Jiricny J.
+  TITLE     The multifaceted mismatch-repair system.
+  JOURNAL   Nat Rev Mol Cell Biol 7:335-46 (2006)
+            DOI:10.1038/nrm1907
+REFERENCE   PMID:18157157
+  AUTHORS   Li GM.
+  TITLE     Mechanisms and functions of DNA mismatch repair.
+  JOURNAL   Cell Res 18:85-98 (2008)
+            DOI:10.1038/cr.2007.115
+REFERENCE   PMID:11920679
+  AUTHORS   Marti TM, Kunz C, Fleck O.
+  TITLE     DNA mismatch repair and mutation avoidance pathways.
+  JOURNAL   J Cell Physiol 191:28-41 (2002)
+            DOI:10.1002/jcp.10077
+REFERENCE   PMID:11436301
+  AUTHORS   Ikejima M, Shimada T.
+  TITLE     [Molecular mechanism of mismatch repair] Japanese
+  JOURNAL   Tanpakushitsu Kakusan Koso 46:1124-9 (2001)
+REL_PATHWAY mmu05210  Colorectal cancer
+KO_PATHWAY  ko03430
+///

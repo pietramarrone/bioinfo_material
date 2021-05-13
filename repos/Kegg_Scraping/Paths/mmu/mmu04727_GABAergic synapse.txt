@@ -1,0 +1,191 @@
+ENTRY       mmu04727                    Pathway
+NAME        GABAergic synapse - Mus musculus (mouse)
+DESCRIPTION Gamma aminobutyric acid (GABA) is the most abundant inhibitory neurotransmitter in the mammalian central nervous system (CNS). When released in the synaptic cleft, GABA binds to three major classes of receptors: GABAA, GABAB, and GABAC receptors. GABAA and GABAC receptors are ionotropic and mediate fast GABA responses by triggering chloride channel openings, while GABAB receptors are metabotropic and mediate slower GABA responses by activating G-proteins and influencing second messenger systems. GABAA receptors, the major sites for fast inhibitory neurotransmission in the CNS, are regulated by phosphorylation mechanisms, affecting both their functional properties and their cell surface mobility and trafficking. GABA release by the presynaptic terminal is negatively regulated by GABAB autoreceptors, and is cleared from the extracellular space by GABA transporters (GATs) located either on the presynaptic terminal or neighboring glial cells.
+CLASS       Organismal Systems; Nervous system
+PATHWAY_MAP mmu04727  GABAergic synapse
+DBLINKS     GO: 0051932
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        105727  Slc38a1; solute carrier family 38, member 1 [KO:K14990]
+            67760  Slc38a2; solute carrier family 38, member 2 [KO:K14207]
+            216456  Gls2; glutaminase 2 (liver, mitochondrial) [KO:K01425] [EC:3.5.1.2]
+            14660  Gls; glutaminase [KO:K01425] [EC:3.5.1.2]
+            14415  Gad1; glutamate decarboxylase 1 [KO:K01580] [EC:4.1.1.15]
+            14417  Gad2; glutamic acid decarboxylase 2 [KO:K01580] [EC:4.1.1.15]
+            22348  Slc32a1; solute carrier family 32 (GABA vesicular transporter), member 1 [KO:K15015]
+            268860  Abat; 4-aminobutyrate aminotransferase [KO:K13524] [EC:2.6.1.19 2.6.1.22]
+            14394  Gabra1; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 1 [KO:K05175]
+            14395  Gabra2; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 2 [KO:K05175]
+            14396  Gabra3; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 3 [KO:K05175]
+            14397  Gabra4; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 4 [KO:K05175]
+            110886  Gabra5; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 5 [KO:K05175]
+            14399  Gabra6; gamma-aminobutyric acid (GABA) A receptor, subunit alpha 6 [KO:K05175]
+            14400  Gabrb1; gamma-aminobutyric acid (GABA) A receptor, subunit beta 1 [KO:K05181]
+            14402  Gabrb3; gamma-aminobutyric acid (GABA) A receptor, subunit beta 3 [KO:K05181]
+            14401  Gabrb2; gamma-aminobutyric acid (GABA) A receptor, subunit beta 2 [KO:K05181]
+            14405  Gabrg1; gamma-aminobutyric acid (GABA) A receptor, subunit gamma 1 [KO:K05186]
+            14406  Gabrg2; gamma-aminobutyric acid (GABA) A receptor, subunit gamma 2 [KO:K05186]
+            14407  Gabrg3; gamma-aminobutyric acid (GABA) A receptor, subunit gamma 3 [KO:K05186]
+            14403  Gabrd; gamma-aminobutyric acid (GABA) A receptor, subunit delta [KO:K05184]
+            14404  Gabre; gamma-aminobutyric acid (GABA) A receptor, subunit epsilon [KO:K05185]
+            57249  Gabrq; gamma-aminobutyric acid (GABA) A receptor, subunit theta [KO:K05192]
+            216643  Gabrp; gamma-aminobutyric acid (GABA) A receptor, pi [KO:K05189]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            20779  Src; Rous sarcoma oncogene [KO:K05704] [EC:2.7.10.2]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            15114  Hap1; huntingtin-associated protein 1 [KO:K04647]
+            57436  Gabarapl1; gamma-aminobutyric acid (GABA) A receptor-associated protein-like 1 [KO:K08341]
+            56486  Gabarap; gamma-aminobutyric acid receptor associated protein [KO:K08341]
+            93739  Gabarapl2; gamma-aminobutyric acid (GABA) A receptor-associated protein-like 2 [KO:K08341]
+            18195  Nsf; N-ethylmaleimide sensitive fusion protein [KO:K06027] [EC:3.6.4.6]
+            70827  Trak2; trafficking protein, kinesin binding 2 [KO:K15374]
+            227120  Plcl1; phospholipase C-like 1 [KO:K15375]
+            268566  Gphn; gephyrin [KO:K15376] [EC:2.10.1.1 2.7.7.75]
+            57138  Slc12a5; solute carrier family 12, member 5 [KO:K23967]
+            14408  Gabrr1; gamma-aminobutyric acid (GABA) C receptor, subunit rho 1 [KO:K05190]
+            14409  Gabrr2; gamma-aminobutyric acid (GABA) C receptor, subunit rho 2 [KO:K05190]
+            328699  Gabrr3; gamma-aminobutyric acid (GABA) receptor, rho 3 [KO:K05190]
+            12286  Cacna1a; calcium channel, voltage-dependent, P/Q type, alpha 1A subunit [KO:K04344]
+            12287  Cacna1b; calcium channel, voltage-dependent, N type, alpha 1B subunit [KO:K04849]
+            12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            54393  Gabbr1; gamma-aminobutyric acid (GABA) B receptor, 1 [KO:K04615]
+            242425  Gabbr2; gamma-aminobutyric acid (GABA) B receptor, 2 [KO:K04615]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            14681  Gnao1; guanine nucleotide binding protein, alpha O [KO:K04534]
+            14688  Gnb1; guanine nucleotide binding protein (G protein), beta 1 [KO:K04536]
+            14693  Gnb2; guanine nucleotide binding protein (G protein), beta 2 [KO:K04537]
+            14695  Gnb3; guanine nucleotide binding protein (G protein), beta 3 [KO:K07825]
+            14696  Gnb4; guanine nucleotide binding protein (G protein), beta 4 [KO:K04538]
+            14697  Gnb5; guanine nucleotide binding protein (G protein), beta 5 [KO:K04539]
+            14702  Gng2; guanine nucleotide binding protein (G protein), gamma 2 [KO:K07826]
+            14704  Gng3; guanine nucleotide binding protein (G protein), gamma 3 [KO:K04540]
+            14706  Gng4; guanine nucleotide binding protein (G protein), gamma 4 [KO:K04541]
+            14707  Gng5; guanine nucleotide binding protein (G protein), gamma 5 [KO:K04542]
+            14708  Gng7; guanine nucleotide binding protein (G protein), gamma 7 [KO:K04543]
+            14709  Gng8; guanine nucleotide binding protein (G protein), gamma 8 [KO:K04544]
+            14700  Gng10; guanine nucleotide binding protein (G protein), gamma 10 [KO:K04545]
+            66066  Gng11; guanine nucleotide binding protein (G protein), gamma 11 [KO:K04546]
+            14701  Gng12; guanine nucleotide binding protein (G protein), gamma 12 [KO:K04347]
+            100503710  Gm5741; predicted gene 5741 [KO:K04347]
+            64337  Gng13; guanine nucleotide binding protein (G protein), gamma 13 [KO:K04547]
+            14699  Gngt1; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 1 [KO:K04548]
+            14710  Gngt2; guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 2 [KO:K04549]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            16522  Kcnj6; potassium inwardly-rectifying channel, subfamily J, member 6 [KO:K05000]
+            232333  Slc6a1; solute carrier family 6 (neurotransmitter transporter, GABA), member 1 [KO:K05034]
+            14412  Slc6a13; solute carrier family 6 (neurotransmitter transporter, GABA), member 13 [KO:K05046]
+            243616  Slc6a11; solute carrier family 6 (neurotransmitter transporter, GABA), member 11 [KO:K05044]
+            14411  Slc6a12; solute carrier family 6 (neurotransmitter transporter, betaine/GABA), member 12 [KO:K05045]
+            14645  Glul; glutamate-ammonia ligase (glutamine synthetase) [KO:K01915] [EC:6.3.1.2]
+            76257  Slc38a3; solute carrier family 38, member 3 [KO:K13576]
+            209837  Slc38a5; solute carrier family 38, member 5 [KO:K14992]
+COMPOUND    C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00042  Succinate
+            C00064  L-Glutamine
+            C00076  Calcium cation
+            C00238  Potassium cation
+            C00334  4-Aminobutanoate
+            C00575  3',5'-Cyclic AMP
+            C00698  Cl-
+REFERENCE   
+  AUTHORS   Davis KL, Charney D, Coyle JT, Nemeroff C (ed).
+  TITLE     Neuropsychopharmacology: The fifth generation of progress
+  JOURNAL   Lippincott Williams & Wikins (2002)
+            DOI:10.1002/hup.431
+REFERENCE   PMID:17499109
+  AUTHORS   Farrant M, Kaila K
+  TITLE     The cellular, molecular and ionic basis of GABA(A) receptor signalling.
+  JOURNAL   Prog Brain Res 160:59-87 (2007)
+            DOI:10.1016/S0079-6123(06)60005-8
+REFERENCE   PMID:9364667
+  AUTHORS   Ben-Ari Y, Khazipov R, Leinekugel X, Caillard O, Gaiarsa JL
+  TITLE     GABAA, NMDA and AMPA receptors: a developmentally regulated 'menage a trois'.
+  JOURNAL   Trends Neurosci 20:523-9 (1997)
+            DOI:10.1016/S0166-2236(97)01147-8
+REFERENCE   PMID:20655485
+  AUTHORS   Pinard A, Seddik R, Bettler B
+  TITLE     GABAB receptors: physiological functions and mechanisms of diversity.
+  JOURNAL   Adv Pharmacol 58:231-55 (2010)
+            DOI:10.1016/S1054-3589(10)58010-4
+REFERENCE   PMID:21376567
+  AUTHORS   Chalifoux JR, Carter AG
+  TITLE     GABAB receptor modulation of synaptic function.
+  JOURNAL   Curr Opin Neurobiol 21:339-44 (2011)
+            DOI:10.1016/j.conb.2011.02.004
+REFERENCE   PMID:20655481
+  AUTHORS   Padgett CL, Slesinger PA
+  TITLE     GABAB receptor coupling to G-proteins and ion channels.
+  JOURNAL   Adv Pharmacol 58:123-47 (2010)
+            DOI:10.1016/S1054-3589(10)58006-2
+REFERENCE   PMID:17499108
+  AUTHORS   Emson PC
+  TITLE     GABA(B) receptors: structure and function.
+  JOURNAL   Prog Brain Res 160:43-57 (2007)
+            DOI:10.1016/S0079-6123(06)60004-6
+REFERENCE   PMID:16932937
+  AUTHORS   Kornau HC
+  TITLE     GABA(B) receptors and synaptic modulation.
+  JOURNAL   Cell Tissue Res 326:517-33 (2006)
+            DOI:10.1007/s00441-006-0264-7
+REFERENCE   PMID:18382465
+  AUTHORS   Jacob TC, Moss SJ, Jurd R
+  TITLE     GABA(A) receptor trafficking and its role in the dynamic modulation of neuronal inhibition.
+  JOURNAL   Nat Rev Neurosci 9:331-43 (2008)
+            DOI:10.1038/nrn2370
+REFERENCE   PMID:12086709
+  AUTHORS   Kneussel M
+  TITLE     Dynamic regulation of GABA(A) receptors at synaptic sites.
+  JOURNAL   Brain Res Brain Res Rev 39:74-83 (2002)
+            DOI:10.1016/S0165-0173(02)00159-5
+REFERENCE   PMID:21555068
+  AUTHORS   Luscher B, Fuchs T, Kilpatrick CL
+  TITLE     GABAA receptor trafficking-mediated plasticity of inhibitory synapses.
+  JOURNAL   Neuron 70:385-409 (2011)
+            DOI:10.1016/j.neuron.2011.03.024
+REFERENCE   PMID:19374920
+  AUTHORS   Arancibia-Carcamo IL, Kittler JT
+  TITLE     Regulation of GABA(A) receptor membrane trafficking and synaptic localization.
+  JOURNAL   Pharmacol Ther 123:17-31 (2009)
+            DOI:10.1016/j.pharmthera.2009.03.012
+REFERENCE   PMID:16787421
+  AUTHORS   Bak LK, Schousboe A, Waagepetersen HS
+  TITLE     The glutamate/GABA-glutamine cycle: aspects of transport, neurotransmitter homeostasis and ammonia transfer.
+  JOURNAL   J Neurochem 98:641-53 (2006)
+            DOI:10.1111/j.1471-4159.2006.03913.x
+REFERENCE   PMID:15210304
+  AUTHORS   Conti F, Minelli A, Melone M
+  TITLE     GABA transporters in the mammalian cerebral cortex: localization, development and pathological implications.
+  JOURNAL   Brain Res Brain Res Rev 45:196-212 (2004)
+            DOI:10.1016/j.brainresrev.2004.03.003
+REFERENCE   PMID:12888801
+  AUTHORS   Brambilla P, Perez J, Barale F, Schettini G, Soares JC
+  TITLE     GABAergic dysfunction in mood disorders.
+  JOURNAL   Mol Psychiatry 8:721-37, 715 (2003)
+            DOI:10.1038/sj.mp.4001362
+REFERENCE   PMID:10780899
+  AUTHORS   Chebib M, Johnston GA
+  TITLE     GABA-Activated ligand gated ion channels: medicinal chemistry and molecular biology.
+  JOURNAL   J Med Chem 43:1427-47 (2000)
+            DOI:10.1021/jm9904349
+REL_PATHWAY mmu00020  Citrate cycle (TCA cycle)
+            mmu00250  Alanine, aspartate and glutamate metabolism
+            mmu04144  Endocytosis
+            mmu04721  Synaptic vesicle cycle
+KO_PATHWAY  ko04727
+///

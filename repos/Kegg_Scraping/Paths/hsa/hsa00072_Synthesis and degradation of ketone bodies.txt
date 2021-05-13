@@ -1,0 +1,26 @@
+ENTRY       hsa00072                    Pathway
+NAME        Synthesis and degradation of ketone bodies - Homo sapiens (human)
+CLASS       Metabolism; Lipid metabolism
+PATHWAY_MAP hsa00072  Synthesis and degradation of ketone bodies
+DISEASE     H01076  Alpha-methylacetoacetic aciduria
+            H01121  Succinyl CoA:3-oxoacid CoA transferase (SCOT) deficiency
+            H01123  HMG-CoA synthase deficiency
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        3157  HMGCS1; 3-hydroxy-3-methylglutaryl-CoA synthase 1 [KO:K01641] [EC:2.3.3.10]
+            3158  HMGCS2; 3-hydroxy-3-methylglutaryl-CoA synthase 2 [KO:K01641] [EC:2.3.3.10]
+            3155  HMGCL; 3-hydroxy-3-methylglutaryl-CoA lyase [KO:K01640] [EC:4.1.3.4]
+            54511  HMGCLL1; 3-hydroxymethyl-3-methylglutaryl-CoA lyase like 1 [KO:K01640] [EC:4.1.3.4]
+            5019  OXCT1; 3-oxoacid CoA-transferase 1 [KO:K01027] [EC:2.8.3.5]
+            64064  OXCT2; 3-oxoacid CoA-transferase 2 [KO:K01027] [EC:2.8.3.5]
+            39  ACAT2; acetyl-CoA acetyltransferase 2 [KO:K00626] [EC:2.3.1.9]
+            38  ACAT1; acetyl-CoA acetyltransferase 1 [KO:K00626] [EC:2.3.1.9]
+            622  BDH1; 3-hydroxybutyrate dehydrogenase 1 [KO:K00019] [EC:1.1.1.30]
+            56898  BDH2; 3-hydroxybutyrate dehydrogenase 2 [KO:K00019] [EC:1.1.1.30]
+COMPOUND    C00024  Acetyl-CoA
+            C00164  Acetoacetate
+            C00207  Acetone
+            C00332  Acetoacetyl-CoA
+            C00356  (S)-3-Hydroxy-3-methylglutaryl-CoA
+            C01089  (R)-3-Hydroxybutanoate
+KO_PATHWAY  ko00072
+///

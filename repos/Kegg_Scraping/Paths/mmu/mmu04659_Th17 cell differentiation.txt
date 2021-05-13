@@ -1,0 +1,226 @@
+ENTRY       mmu04659                    Pathway
+NAME        Th17 cell differentiation - Mus musculus (mouse)
+DESCRIPTION Interleukin (IL)-17-producing helper T (Th17) cells serve as a subset of CD4+ T cells involved in epithelial cell- and neutrophil mediated immune responses against extracellular microbes and in the pathogenesis of autoimmune diseases. In vivo, Th17 differentiation requires antigen presentation and co-stimulation, and activation of antigen presenting-cells (APCs) to produce TGF-beta, IL-6, IL-1, IL-23 and IL-21. This initial activation results in the activation and up-regulation of STAT3, ROR(gamma)t and other transcriptional factors in CD4+ T cells, which bind to the promoter regions of the IL-17, IL-21 and IL-22 genes and induce IL-17, IL-21 and IL-22. In contrast, the differentiation of Th17 cells and their IL-17 expression are negatively regulated by IL-2, Th2 cytokine IL-4, IL-27 and Th1 cytokine IFN-gamma through STAT5, STAT6 and STAT1 activation, respectively. Retinoid acid and the combination of IL-2 and TGF-beta upregulate Foxp3, which also downregulates cytokines like IL-17 and IL-21. The inhibition of Th17 differentiation may serve as a protective strategy to 'fine-tune' the expression IL-17 so it does not cause excessive inflammation. Thus, balanced differentiation of Th cells is crucial for immunity and host protection.
+CLASS       Organismal Systems; Immune system
+PATHWAY_MAP mmu04659  Th17 cell differentiation
+DBLINKS     GO: 0072539
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        16176  Il1b; interleukin 1 beta [KO:K04519]
+            16177  Il1r1; interleukin 1 receptor, type I [KO:K04386]
+            16180  Il1rap; interleukin 1 receptor accessory protein [KO:K04723]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            16364  Irf4; interferon regulatory factor 4 [KO:K09445]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            21812  Tgfbr1; transforming growth factor, beta receptor I [KO:K04674] [EC:2.7.11.30]
+            21813  Tgfbr2; transforming growth factor, beta receptor II [KO:K04388] [EC:2.7.11.30]
+            17126  Smad2; SMAD family member 2 [KO:K04500]
+            17127  Smad3; SMAD family member 3 [KO:K23605]
+            17128  Smad4; SMAD family member 4 [KO:K04501]
+            60505  Il21; interleukin 21 [KO:K05434]
+            60504  Il21r; interleukin 21 receptor [KO:K05075]
+            16186  Il2rg; interleukin 2 receptor, gamma chain [KO:K05070]
+            16451  Jak1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            16453  Jak3; Janus kinase 3 [KO:K11218] [EC:2.7.10.2]
+            16193  Il6; interleukin 6 [KO:K05405]
+            16194  Il6ra; interleukin 6 receptor, alpha [KO:K05055]
+            16195  Il6st; interleukin 6 signal transducer [KO:K05060]
+            16452  Jak2; Janus kinase 2 [KO:K04447] [EC:2.7.10.2]
+            83430  Il23a; interleukin 23, alpha subunit p19 [KO:K05426]
+            209590  Il23r; interleukin 23 receptor [KO:K05065]
+            16161  Il12rb1; interleukin 12 receptor, beta 1 [KO:K05063]
+            54721  Tyk2; tyrosine kinase 2 [KO:K11219] [EC:2.7.10.2]
+            20848  Stat3; signal transducer and activator of transcription 3 [KO:K04692]
+            19885  Rorc; RAR-related orphan receptor gamma [KO:K08534]
+            19883  Rora; RAR-related orphan receptor alpha [KO:K08532]
+            15251  Hif1a; hypoxia inducible factor 1, alpha subunit [KO:K08268]
+            15519  Hsp90aa1; heat shock protein 90, alpha (cytosolic), class A member 1 [KO:K04079]
+            15516  Hsp90ab1; heat shock protein 90 alpha (cytosolic), class B member 1 [KO:K04079]
+            11622  Ahr; aryl-hydrocarbon receptor [KO:K09093]
+            16171  Il17a; interleukin 17A [KO:K05489]
+            257630  Il17f; interleukin 17F [KO:K05494]
+            50929  Il22; interleukin 22 [KO:K05445]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            12504  Cd4; CD4 antigen [KO:K06454]
+            16818  Lck; lymphocyte protein tyrosine kinase [KO:K05856] [EC:2.7.10.2]
+            12501  Cd3e; CD3 antigen, epsilon polypeptide [KO:K06451]
+            12502  Cd3g; CD3 antigen, gamma polypeptide [KO:K06452]
+            12503  Cd247; CD247 antigen [KO:K06453]
+            12500  Cd3d; CD3 antigen, delta polypeptide [KO:K06450]
+            22637  Zap70; zeta-chain (TCR) associated protein kinase [KO:K07360] [EC:2.7.10.2]
+            16797  Lat; linker for activation of T cells [KO:K07362]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            19057  Ppp3cc; protein phosphatase 3, catalytic subunit, gamma isoform [KO:K04348] [EC:3.1.3.16]
+            19055  Ppp3ca; protein phosphatase 3, catalytic subunit, alpha isoform [KO:K04348] [EC:3.1.3.16]
+            19056  Ppp3cb; protein phosphatase 3, catalytic subunit, beta isoform [KO:K04348] [EC:3.1.3.16]
+            19058  Ppp3r1; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type I) [KO:K06268]
+            19059  Ppp3r2; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type II) [KO:K06268]
+            18018  Nfatc1; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 1 [KO:K04446]
+            18019  Nfatc2; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 2 [KO:K17332]
+            18021  Nfatc3; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 3 [KO:K17333]
+            18761  Prkcq; protein kinase C, theta [KO:K18052] [EC:2.7.11.13]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            18035  Nfkbia; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [KO:K04734]
+            18036  Nfkbib; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, beta [KO:K02581]
+            18037  Nfkbie; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, epsilon [KO:K05872]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            16189  Il4; interleukin 4 [KO:K05430]
+            16190  Il4ra; interleukin 4 receptor, alpha [KO:K05071]
+            20852  Stat6; signal transducer and activator of transcription 6 [KO:K11225]
+            14462  Gata3; GATA binding protein 3 [KO:K17895]
+            12394  Runx1; runt related transcription factor 1 [KO:K08367]
+            239114  Il17d; interleukin 17D [KO:K05492]
+            50931  Il27ra; interleukin 27 receptor, alpha [KO:K19598]
+            15978  Ifng; interferon gamma [KO:K04687]
+            15979  Ifngr1; interferon gamma receptor 1 [KO:K05132]
+            15980  Ifngr2; interferon gamma receptor 2 [KO:K05133]
+            20846  Stat1; signal transducer and activator of transcription 1 [KO:K11220]
+            57765  Tbx21; T-box 21 [KO:K10166]
+            16183  Il2; interleukin 2 [KO:K05429]
+            16184  Il2ra; interleukin 2 receptor, alpha chain [KO:K05068]
+            16185  Il2rb; interleukin 2 receptor, beta chain [KO:K05069]
+            20850  Stat5a; signal transducer and activator of transcription 5A [KO:K11223]
+            20851  Stat5b; signal transducer and activator of transcription 5B [KO:K11224]
+            20371  Foxp3; forkhead box P3 [KO:K10163]
+            19401  Rara; retinoic acid receptor, alpha [KO:K08527]
+            20181  Rxra; retinoid X receptor alpha [KO:K08524]
+            20182  Rxrb; retinoid X receptor beta [KO:K08525]
+            20183  Rxrg; retinoid X receptor gamma [KO:K08526]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00777  Retinoate
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+REFERENCE   PMID:23325835
+  AUTHORS   Muranski P, Restifo NP
+  TITLE     Essentials of Th17 cell commitment and plasticity.
+  JOURNAL   Blood 121:2402-14 (2013)
+            DOI:10.1182/blood-2012-09-378653
+REFERENCE   PMID:19379825
+  AUTHORS   O'Shea JJ, Steward-Tharp SM, Laurence A, Watford WT, Wei L, Adamson AS, Fan S
+  TITLE     Signal transduction and Th17 cell differentiation.
+  JOURNAL   Microbes Infect 11:599-611 (2009)
+            DOI:10.1016/j.micinf.2009.04.007
+REFERENCE   PMID:21084214
+  AUTHORS   Hirahara K, Ghoreschi K, Laurence A, Yang XP, Kanno Y, O'Shea JJ
+  TITLE     Signal transduction pathways and transcriptional regulation in Th17 cell differentiation.
+  JOURNAL   Cytokine Growth Factor Rev 21:425-34 (2010)
+            DOI:10.1016/j.cytogfr.2010.10.006
+REFERENCE   PMID:18166487
+  AUTHORS   Chen Z, Laurence A, O'Shea JJ
+  TITLE     Signal transduction pathways and transcriptional regulation in the control of Th17 differentiation.
+  JOURNAL   Semin Immunol 19:400-8 (2007)
+            DOI:10.1016/j.smim.2007.10.015
+REFERENCE   PMID:22640807
+  AUTHORS   Maddur MS, Miossec P, Kaveri SV, Bayry J
+  TITLE     Th17 cells: biology, pathogenesis of autoimmune and inflammatory diseases, and therapeutic strategies.
+  JOURNAL   Am J Pathol 181:8-18 (2012)
+            DOI:10.1016/j.ajpath.2012.03.044
+REFERENCE   PMID:23036716
+  AUTHORS   Hemdan NY, Birkenmeier G, Wichmann G
+  TITLE     Key molecules in the differentiation and commitment program of T helper 17 (Th17) cells up-to-date.
+  JOURNAL   Immunol Lett 148:97-109 (2012)
+            DOI:10.1016/j.imlet.2012.09.007
+REFERENCE   PMID:18408735
+  AUTHORS   Dong C
+  TITLE     TH17 cells in development: an updated view of their molecular identity and genetic programming.
+  JOURNAL   Nat Rev Immunol 8:337-48 (2008)
+            DOI:10.1038/nri2295
+REFERENCE   PMID:20054607
+  AUTHORS   Torchinsky MB, Blander JM
+  TITLE     T helper 17 cells: discovery, function, and physiological trigger.
+  JOURNAL   Cell Mol Life Sci 67:1407-21 (2010)
+            DOI:10.1007/s00018-009-0248-3
+REFERENCE   PMID:19381306
+  AUTHORS   Jetten AM
+  TITLE     Retinoid-related orphan receptors (RORs): critical roles in development, immunity, circadian rhythm, and cellular metabolism.
+  JOURNAL   Nucl Recept Signal 7:e003 (2009)
+            DOI:10.1621/nrs.07003
+REFERENCE   PMID:22133865
+  AUTHORS   Oestreich KJ, Weinmann AS
+  TITLE     T-bet employs diverse regulatory mechanisms to repress transcription.
+  JOURNAL   Trends Immunol 33:78-83 (2012)
+            DOI:10.1016/j.it.2011.10.005
+REFERENCE   PMID:24325586
+  AUTHORS   Manni ML, Robinson KM, Alcorn JF
+  TITLE     A tale of two cytokines: IL-17 and IL-22 in asthma and infection.
+  JOURNAL   Expert Rev Respir Med 8:25-42 (2014)
+            DOI:10.1586/17476348.2014.854167
+REFERENCE   PMID:21776333
+  AUTHORS   Sha Y, Markovic-Plese S
+  TITLE     A role of IL-1R1 signaling in the differentiation of Th17 cells and the development of autoimmune diseases.
+  JOURNAL   Self Nonself 2:35-42 (2011)
+            DOI:10.4161/self.2.1.15639
+REFERENCE   PMID:20488727
+  AUTHORS   Nakayama T, Yamashita M
+  TITLE     The TCR-mediated signaling pathways that control the direction of helper T cell differentiation.
+  JOURNAL   Semin Immunol 22:303-9 (2010)
+            DOI:10.1016/j.smim.2010.04.010
+REFERENCE   PMID:21151104
+  AUTHORS   Lazarevic V, Chen X, Shim JH, Hwang ES, Jang E, Bolm AN, Oukka M, Kuchroo VK, Glimcher LH
+  TITLE     T-bet represses T(H)17 differentiation by preventing Runx1-mediated activation of the gene encoding RORgammat.
+  JOURNAL   Nat Immunol 12:96-104 (2011)
+            DOI:10.1038/ni.1969
+REFERENCE   PMID:22754770
+  AUTHORS   Pan F, Barbi J, Pardoll DM
+  TITLE     Hypoxia-inducible factor 1: A link between metabolism and T cell differentiation and a potential therapeutic target.
+  JOURNAL   Oncoimmunology 1:510-515 (2012)
+            DOI:10.4161/onci.19457
+REFERENCE   PMID:18362914
+  AUTHORS   Veldhoen M, Hirota K, Westendorf AM, Buer J, Dumoutier L, Renauld JC, Stockinger B
+  TITLE     The aryl hydrocarbon receptor links TH17-cell-mediated autoimmunity to environmental toxins.
+  JOURNAL   Nature 453:106-9 (2008)
+            DOI:10.1038/nature06881
+REFERENCE   PMID:17768419
+  AUTHORS   Deenick EK, Tangye SG
+  TITLE     Autoimmunity: IL-21: a new player in Th17-cell differentiation.
+  JOURNAL   Immunol Cell Biol 85:503-5 (2007)
+            DOI:10.1038/sj.icb.7100114
+REFERENCE   PMID:26253381
+  AUTHORS   Meka RR, Venkatesha SH, Dudics S, Acharya B, Moudgil KD
+  TITLE     IL-27-induced modulation of autoimmunity and its therapeutic potential.
+  JOURNAL   Autoimmun Rev 14:1131-41 (2015)
+            DOI:10.1016/j.autrev.2015.08.001
+REFERENCE   PMID:16200068
+  AUTHORS   Park H, Li Z, Yang XO, Chang SH, Nurieva R, Wang YH, Wang Y, Hood L, Zhu Z, Tian Q, Dong C
+  TITLE     A distinct lineage of CD4 T cells regulates tissue inflammation by producing interleukin 17.
+  JOURNAL   Nat Immunol 6:1133-41 (2005)
+            DOI:10.1038/ni1261
+REFERENCE   PMID:22324470
+  AUTHORS   Zhu S, Qian Y
+  TITLE     IL-17/IL-17 receptor system in autoimmune disease: mechanisms and therapeutic potential.
+  JOURNAL   Clin Sci (Lond) 122:487-511 (2012)
+            DOI:10.1042/CS20110496
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04064  NF-kappa B signaling pathway
+            mmu04066  HIF-1 signaling pathway
+            mmu04350  TGF-beta signaling pathway
+            mmu04514  Cell adhesion molecules (CAMs)
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04630  JAK-STAT signaling pathway
+            mmu04660  T cell receptor signaling pathway
+            mmu05321  Inflammatory bowel disease (IBD)
+            mmu05323  Rheumatoid arthritis
+KO_PATHWAY  ko04659
+///

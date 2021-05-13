@@ -1,0 +1,91 @@
+ENTRY       mmu00601                    Pathway
+NAME        Glycosphingolipid biosynthesis - lacto and neolacto series - Mus musculus (mouse)
+CLASS       Metabolism; Glycan biosynthesis and metabolism
+PATHWAY_MAP mmu00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+MODULE      mmu_M00070  Glycosphingolipid biosynthesis, lacto-series, LacCer => Lc4Cer [PATH:mmu00601]
+            mmu_M00071  Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer [PATH:mmu00601]
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        108105  B3gnt5; UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 5 [KO:K03766] [EC:2.4.1.206]
+            102637973  Gm34653; predicted gene, 34653 [KO:K03766] [EC:2.4.1.206]
+            26877  B3galt1; UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 1 [KO:K07819] [EC:2.4.1.86]
+            26878  B3galt2; UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 2 [KO:K07820] [EC:2.4.1.86]
+            93961  B3galt5; UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 5 [KO:K03877] [EC:2.4.1.-]
+            14343  Fut1; fucosyltransferase 1 [KO:K00718] [EC:2.4.1.69]
+            14344  Fut2; fucosyltransferase 2 [KO:K00718] [EC:2.4.1.69]
+            56546  Sec1; secretory blood group 1 [KO:K00718] [EC:2.4.1.69]
+            20441  St3gal3; ST3 beta-galactoside alpha-2,3-sialyltransferase 3 [KO:K00781] [EC:2.4.99.6]
+            20443  St3gal4; ST3 beta-galactoside alpha-2,3-sialyltransferase 4 [KO:K03494] [EC:2.4.99.4]
+            14594  Ggta1; glycoprotein galactosyltransferase alpha 1, 3 [KO:K00743] [EC:2.4.1.87]
+            80908  Abo; ABO blood group (transferase A, alpha 1-3-N-acetylgalactosaminyltransferase, transferase B, alpha 1-3-galactosyltransferase) [KO:K00709] [EC:2.4.1.40 2.4.1.37]
+            14595  B4galt1; UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1 [KO:K07966] [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-]
+            53418  B4galt2; UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2 [KO:K07967] [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-]
+            57370  B4galt3; UDP-Gal:betaGlcNAc beta 1,4-galactosyltransferase, polypeptide 3 [KO:K07968] [EC:2.4.1.90 2.4.1.38 2.4.1.-]
+            56375  B4galt4; UDP-Gal:betaGlcNAc beta 1,4-galactosyltransferase, polypeptide 4 [KO:K07969] [EC:2.4.1.90 2.4.1.275 2.4.1.-]
+            14348  Fut9; fucosyltransferase 9 [KO:K03663] [EC:2.4.1.152]
+            14345  Fut4; fucosyltransferase 4 [KO:K07632] [EC:2.4.1.-]
+            14347  Fut7; fucosyltransferase 7 [KO:K07635] [EC:2.4.1.-]
+            54613  St3gal6; ST3 beta-galactoside alpha-2,3-sialyltransferase 6 [KO:K03792] [EC:2.4.99.6]
+            20449  St8sia1; ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 1 [KO:K03371] [EC:2.4.99.8]
+            239559  A4galt; alpha 1,4-galactosyltransferase [KO:K01988] [EC:2.4.1.228]
+            26879  B3galnt1; UDP-GalNAc:betaGlcNAc beta 1,3-galactosaminyltransferase, polypeptide 1 [KO:K00719] [EC:2.4.1.79]
+            53625  B3gnt2; UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 2 [KO:K00741] [EC:2.4.1.149]
+            72297  B3gnt3; UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 3 [KO:K07970] [EC:2.4.1.146 2.4.1.149]
+            231727  B3gnt4; UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 4 [KO:K07971] [EC:2.4.1.149]
+            14538  Gcnt2; glucosaminyl (N-acetyl) transferase 2, I-branching enzyme [KO:K00742] [EC:2.4.1.150]
+COMPOUND    G00036  Lc3Cer
+            G00037  Lc4Cer
+            G00038
+            G00039  Type IB glycolipid
+            G00040
+            G00042  Type IA glycolipid
+            G00043
+            G00044  IV2Fuc-Lc4Cer
+            G00045  IV2Fuc,III4Fuc-Lc4Cer
+            G00046  Fuc-Lc4Cer
+            G00047  3'-isoLM1
+            G00048  Fuc-3'-isoLM1
+            G00050  Paragloboside
+            G00051  nLc5Cer
+            G00052  Type II B antigen
+            G00054  Type II A antigen
+            G00055  IV2Fuc-nLc4Cer
+            G00056  III3,IV2Fuc-nLc4Cer
+            G00057
+            G00058  Type IIIH glycolipid
+            G00059  Type IIIA glycolipid
+            G00060  III3Fuc-nLc4Cer
+            G00061  Sialyl-6-paragloboside
+            G00062  Sialyl-3-paragloboside
+            G00063  IV3NeuAc,III3Fuc-nLc4Cer
+            G00064  3',8'-LD1
+            G00066  nLc5Cer
+            G00067  nLc6Cer
+            G00068  nLc7Cer
+            G00069  nLc8Cer
+            G00071  VI2Fuc-nLc6
+            G00072
+            G00073
+            G00074
+            G00075  Type IIIAb
+            G00076  III3Fuc-nLc6Cer
+            G00077
+            G00078  iso-nLc8Cer
+            G00079
+            G00080
+            G00081
+            G00082
+            G00083
+            G00084
+            G00085
+            G00086
+            G00087  VI6NeuAc-nLc6Cer
+            G00088  VI3NeuAc-nLc6Cer
+            G00089  V3Fuc-nLc6Cer
+            G00090  V3Fuc,III3Fuc-nLc6Cer
+            G00091
+            G00092  Lactosylceramide
+            G00428  IV4Gala-nLc4-Cer
+            G00889  PX2
+REL_PATHWAY mmu00600  Sphingolipid metabolism
+KO_PATHWAY  ko00601
+///

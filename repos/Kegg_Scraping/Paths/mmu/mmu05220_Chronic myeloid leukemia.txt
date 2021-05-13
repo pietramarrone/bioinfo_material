@@ -1,0 +1,144 @@
+ENTRY       mmu05220                    Pathway
+NAME        Chronic myeloid leukemia - Mus musculus (mouse)
+DESCRIPTION Chronic myeloid leukemia (CML) is a clonal myeloproliferative disorder of a pluripotent stem cell. The natural history of CML has a triphasic clinical course comprising of an initial chronic phase (CP), which is characterized by expansion of functionally normal myeloid cells, followed by an accelerated phase (AP) and finally a more aggressive blast phase (BP), with loss of terminal differentiation capacity. On the cellular level, CML is associated with a specific chromosome abnormality, the t(9; 22) reciprocal translocation that forms the Philadelphia (Ph) chromosome. The Ph chromosome is the result of a molecular rearrangement between the c-ABL proto-oncogene on chromosome 9 and the BCR (breakpoint cluster region) gene on chromosome 22. The BCR/ABL fusion gene encodes p210 BCR/ABL, an oncoprotein, which, unlike the normal p145 c-Abl, has constitutive tyrosine kinase activity and is predominantly localized in the cytoplasm. While fusion of c-ABL and BCR is believed to be the primary cause of the chronic phase of CML, progression to blast crisis requires other molecular changes. Common secondary abnormalities include mutations in TP53, RB, and p16/INK4A, or overexpression of genes such as EVI1. Additional chromosome translocations are also observed,such as t(3;21)(q26;q22), which generates AML1-EVI1.
+CLASS       Human Diseases; Cancer: specific types
+PATHWAY_MAP mmu05220  Chronic myeloid leukemia
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        110279  Bcr; BCR activator of RhoGEF and GTPase [KO:K08878] [EC:2.7.11.1]
+            11350  Abl1; c-abl oncogene 1, non-receptor tyrosine kinase [KO:K06619] [EC:2.7.10.2]
+            12928  Crk; v-crk avian sarcoma virus CT10 oncogene homolog [KO:K04438]
+            12929  Crkl; v-crk avian sarcoma virus CT10 oncogene homolog-like [KO:K04438]
+            12402  Cbl; Casitas B-lineage lymphoma [KO:K04707] [EC:2.3.2.27]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            12015  Bad; BCL2-associated agonist of cell death [KO:K02158]
+            12048  Bcl2l1; BCL2-like 1 [KO:K04570]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            18035  Nfkbia; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [KO:K04734]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            17246  Mdm2; transformed mouse 3T3 cell double minute 2 [KO:K06643] [EC:2.3.2.27]
+            22059  Trp53; transformation related protein 53 [KO:K04451]
+            12576  Cdkn1b; cyclin-dependent kinase inhibitor 1B [KO:K06624]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            14389  Gab2; growth factor receptor bound protein 2-associated protein 2 [KO:K08091]
+            19247  Ptpn11; protein tyrosine phosphatase, non-receptor type 11 [KO:K07293] [EC:3.1.3.48]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            20416  Shc1; src homology 2 domain-containing transforming protein C1 [KO:K06279]
+            216148  Shc2; SHC (Src homology 2 domain containing) transforming protein 2 [KO:K17447]
+            20418  Shc3; src homology 2 domain-containing transforming protein C3 [KO:K17448]
+            271849  Shc4; SHC (Src homology 2 domain containing) family, member 4 [KO:K17449]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+            20850  Stat5a; signal transducer and activator of transcription 5A [KO:K11223]
+            20851  Stat5b; signal transducer and activator of transcription 5B [KO:K11224]
+            12578  Cdkn2a; cyclin dependent kinase inhibitor 2A [KO:K06621]
+            12575  Cdkn1a; cyclin-dependent kinase inhibitor 1A (P21) [KO:K06625]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            12567  Cdk4; cyclin-dependent kinase 4 [KO:K02089] [EC:2.7.11.22]
+            12571  Cdk6; cyclin-dependent kinase 6 [KO:K02091] [EC:2.7.11.22]
+            19645  Rb1; RB transcriptional corepressor 1 [KO:K06618]
+            13555  E2f1; E2F transcription factor 1 [KO:K17454]
+            242705  E2f2; E2F transcription factor 2 [KO:K09389]
+            13557  E2f3; E2F transcription factor 3 [KO:K06620]
+            13197  Gadd45a; growth arrest and DNA-damage-inducible 45 alpha [KO:K04402]
+            17873  Gadd45b; growth arrest and DNA-damage-inducible 45 beta [KO:K04402]
+            23882  Gadd45g; growth arrest and DNA-damage-inducible 45 gamma [KO:K04402]
+            12028  Bax; BCL2-associated X protein [KO:K02159]
+            12018  Bak1; BCL2-antagonist/killer 1 [KO:K14021]
+            107986  Ddb2; damage specific DNA binding protein 2 [KO:K10140]
+            27015  Polk; polymerase (DNA directed), kappa [KO:K03511] [EC:2.7.7.7]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            21808  Tgfb2; transforming growth factor, beta 2 [KO:K13376]
+            21809  Tgfb3; transforming growth factor, beta 3 [KO:K13377]
+            21812  Tgfbr1; transforming growth factor, beta receptor I [KO:K04674] [EC:2.7.11.30]
+            21813  Tgfbr2; transforming growth factor, beta receptor II [KO:K04388] [EC:2.7.11.30]
+            17127  Smad3; SMAD family member 3 [KO:K23605]
+            17128  Smad4; SMAD family member 4 [KO:K04501]
+            14013  Mecom; MDS1 and EVI1 complex locus [KO:K04462]
+            12394  Runx1; runt related transcription factor 1 [KO:K08367]
+            13016  Ctbp1; C-terminal binding protein 1 [KO:K04496]
+            13017  Ctbp2; C-terminal binding protein 2 [KO:K04496]
+            15182  Hdac2; histone deacetylase 2 [KO:K06067] [EC:3.5.1.98]
+            433759  Hdac1; histone deacetylase 1 [KO:K06067] [EC:3.5.1.98]
+COMPOUND    C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:15719031
+  AUTHORS   Ren R.
+  TITLE     Mechanisms of BCR-ABL in the pathogenesis of chronic myelogenous leukaemia.
+  JOURNAL   Nat Rev Cancer 5:172-83 (2005)
+            DOI:10.1038/nrc1567
+REFERENCE   PMID:11071626
+  AUTHORS   Deininger MW, Goldman JM, Melo JV.
+  TITLE     The molecular biology of chronic myeloid leukemia.
+  JOURNAL   Blood 96:3343-56 (2000)
+REFERENCE   PMID:14982876
+  AUTHORS   Calabretta B, Perrotti D.
+  TITLE     The biology of CML blast crisis.
+  JOURNAL   Blood 103:4010-22 (2004)
+            DOI:10.1182/blood-2003-12-4111
+REFERENCE   PMID:10403855
+  AUTHORS   Faderl S, Talpaz M, Estrov Z, O'Brien S, Kurzrock R, Kantarjian HM.
+  TITLE     The biology of chronic myeloid leukemia.
+  JOURNAL   N Engl J Med 341:164-72 (1999)
+            DOI:10.1056/NEJM199907153410306
+REFERENCE   PMID:15156182
+  AUTHORS   Mitani K.
+  TITLE     Molecular mechanisms of leukemogenesis by AML1/EVI-1.
+  JOURNAL   Oncogene 23:4263-9 (2004)
+            DOI:10.1038/sj.onc.1207777
+REFERENCE   PMID:16484590
+  AUTHORS   Dong M, Blobe GC.
+  TITLE     Role of transforming growth factor-beta in hematologic malignancies.
+  JOURNAL   Blood 107:4589-96 (2006)
+            DOI:10.1182/blood-2005-10-4169
+REFERENCE   PMID:9834202
+  AUTHORS   Kurokawa M, Mitani K, Imai Y, Ogawa S, Yazaki Y, Hirai H.
+  TITLE     The t(3;21) fusion product, AML1/Evi-1, interacts with Smad3 and blocks transforming growth factor-beta-mediated growth inhibition of myeloid cells.
+  JOURNAL   Blood 92:4003-12 (1998)
+REFERENCE   PMID:12801837
+  AUTHORS   Brusa G, Benvenuti M, Mazzacurati L, Mancini M, Pattacini L, Martinelli G, Barbieri E, Greenberger JS, Baccarani M, Santucci MA.
+  TITLE     p53 loss of function enhances genomic instability and accelerates clonal evolution of murine myeloid progenitors expressing the p(210)BCR-ABL tyrosine kinase.
+  JOURNAL   Haematologica 88:622-30 (2003)
+REFERENCE   PMID:11160144
+  AUTHORS   Baldwin AS.
+  TITLE     Control of oncogenesis and cancer therapy resistance by the transcription factor NF-kappaB.
+  JOURNAL   J Clin Invest 107:241-6 (2001)
+            DOI:10.1172/JCI11991
+REFERENCE   PMID:12244301
+  AUTHORS   Shin I, Yakes FM, Rojo F, Shin NY, Bakin AV, Baselga J, Arteaga CL.
+  TITLE     PKB/Akt mediates cell-cycle progression by phosphorylation of p27(Kip1) at threonine 157 and modulation of its cellular localization.
+  JOURNAL   Nat Med 8:1145-52 (2002)
+            DOI:10.1038/nm759
+REFERENCE   PMID:22286129
+  AUTHORS   Hantschel O, Warsch W, Eckelhart E, Kaupe I, Grebien F, Wagner KU, Superti-Furga G, Sexl V
+  TITLE     BCR-ABL uncouples canonical JAK2-STAT5 signaling in chronic myeloid leukemia.
+  JOURNAL   Nat Chem Biol 8:285-93 (2012)
+            DOI:10.1038/nchembio.775
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04110  Cell cycle
+            mmu04115  p53 signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04210  Apoptosis
+            mmu04350  TGF-beta signaling pathway
+            mmu04640  Hematopoietic cell lineage
+KO_PATHWAY  ko05220
+///

@@ -1,0 +1,143 @@
+ENTRY       mmu04914                    Pathway
+NAME        Progesterone-mediated oocyte maturation - Mus musculus (mouse)
+DESCRIPTION Xenopus oocytes are naturally arrested at G2 of meiosis I. Exposure to either insulin/IGF-1 or the steroid hormone progesterone breaks this arrest and induces resumption of the two meiotic division cycles and maturation of the oocyte into a mature, fertilizable egg. This process is termed oocyte maturation. The transition is accompanied by an increase in maturation promoting factor (MPF or Cdc2/cyclin B) which precedes germinal vesicle breakdown (GVBD). Most reports point towards the Mos-MEK1-ERK2 pathway [where ERK is an extracellular signal-related protein kinase, MEK is a MAPK/ERK kinase and Mos is a p42(MAPK) activator] and the polo-like kinase/CDC25 pathway as responsible for the activation of MPF in meiosis, most likely triggered by a decrease in cAMP.
+CLASS       Organismal Systems; Endocrine system
+PATHWAY_MAP mmu04914  Progesterone-mediated oocyte maturation
+DBLINKS     GO: 0001556
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        18667  Pgr; progesterone receptor [KO:K08556]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            14677  Gnai1; guanine nucleotide binding protein (G protein), alpha inhibiting 1 [KO:K04630]
+            14679  Gnai3; guanine nucleotide binding protein (G protein), alpha inhibiting 3 [KO:K04630]
+            14678  Gnai2; guanine nucleotide binding protein (G protein), alpha inhibiting 2 [KO:K04630]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            18747  Prkaca; protein kinase, cAMP dependent, catalytic, alpha [KO:K04345] [EC:2.7.11.11]
+            18749  Prkacb; protein kinase, cAMP dependent, catalytic, beta [KO:K04345] [EC:2.7.11.11]
+            20878  Aurka; aurora kinase A [KO:K11481] [EC:2.7.11.1]
+            12877  Cpeb1; cytoplasmic polyadenylation element binding protein 1 [KO:K02602]
+            208922  Cpeb3; cytoplasmic polyadenylation element binding protein 3 [KO:K02602]
+            231207  Cpeb2; cytoplasmic polyadenylation element binding protein 2 [KO:K02602]
+            67579  Cpeb4; cytoplasmic polyadenylation element binding protein 4 [KO:K02602]
+            70891  Spdya; speedy/RINGO cell cycle regulator family, member A [KO:K08694]
+            74673  Spdye4a; speedy/RINGO cell cycle regulator family, member E4A [KO:K08694]
+            241634  Spdye4c; speedy/RINGO cell cycle regulator family, member E4C [KO:K08694]
+            330228  Spdye4b; speedy/RINGO cell cycle regulator family, member E4B [KO:K08694]
+            12566  Cdk2; cyclin-dependent kinase 2 [KO:K02206] [EC:2.7.11.22]
+            12534  Cdk1; cyclin-dependent kinase 1 [KO:K02087] [EC:2.7.11.22 2.7.11.23]
+            12428  Ccna2; cyclin A2 [KO:K06627]
+            12427  Ccna1; cyclin A1 [KO:K06627]
+            17451  Mos; Moloney sarcoma oncogene [KO:K04367] [EC:2.7.11.1]
+            15519  Hsp90aa1; heat shock protein 90, alpha (cytosolic), class A member 1 [KO:K04079]
+            15516  Hsp90ab1; heat shock protein 90 alpha (cytosolic), class B member 1 [KO:K04079]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            110651  Rps6ka3; ribosomal protein S6 kinase polypeptide 3 [KO:K04373] [EC:2.7.11.1]
+            20111  Rps6ka1; ribosomal protein S6 kinase polypeptide 1 [KO:K04373] [EC:2.7.11.1]
+            20112  Rps6ka2; ribosomal protein S6 kinase, polypeptide 2 [KO:K04373] [EC:2.7.11.1]
+            67071  Rps6ka6; ribosomal protein S6 kinase polypeptide 6 [KO:K04373] [EC:2.7.11.1]
+            268930  Pkmyt1; protein kinase, membrane associated tyrosine/threonine 1 [KO:K06633] [EC:2.7.11.1]
+            268697  Ccnb1; cyclin B1 [KO:K05868]
+            12442  Ccnb2; cyclin B2 [KO:K21770]
+            209091  Ccnb3; cyclin B3 [KO:K21771]
+            20868  Stk10; serine/threonine kinase 10 [KO:K08837] [EC:2.7.11.1]
+            18817  Plk1; polo like kinase 1 [KO:K06631] [EC:2.7.11.21]
+            12530  Cdc25a; cell division cycle 25A [KO:K06645] [EC:3.1.3.48]
+            12531  Cdc25b; cell division cycle 25B [KO:K05866] [EC:3.1.3.48]
+            12532  Cdc25c; cell division cycle 25C [KO:K05867] [EC:3.1.3.48]
+            16334  Ins2; insulin II [KO:K04526]
+            16333  Ins1; insulin I [KO:K04526]
+            16000  Igf1; insulin-like growth factor 1 [KO:K05459]
+            16001  Igf1r; insulin-like growth factor I receptor [KO:K05087] [EC:2.7.10.1]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            18576  Pde3b; phosphodiesterase 3B, cGMP-inhibited [KO:K13296] [EC:3.1.4.17]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            11836  Araf; Araf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            109880  Braf; Braf transforming gene [KO:K04365] [EC:2.7.11.1]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            12235  Bub1; BUB1, mitotic checkpoint serine/threonine kinase [KO:K02178] [EC:2.7.11.1]
+            17120  Mad1l1; MAD1 mitotic arrest deficient 1-like 1 [KO:K06679]
+            56150  Mad2l1; MAD2 mitotic arrest deficient-like 1 [KO:K02537]
+            71890  Mad2l2; MAD2 mitotic arrest deficient-like 2 [KO:K13728]
+            56371  Fzr1; fizzy and cell division cycle 20 related 1 [KO:K03364]
+            17222  Anapc1; anaphase promoting complex subunit 1 [KO:K03348]
+            99152  Anapc2; anaphase promoting complex subunit 2 [KO:K03349]
+            217232  Cdc27; cell division cycle 27 [KO:K03350]
+            52206  Anapc4; anaphase promoting complex subunit 4 [KO:K03351]
+            59008  Anapc5; anaphase-promoting complex subunit 5 [KO:K03352]
+            69957  Cdc16; CDC16 cell division cycle 16 [KO:K03353]
+            56317  Anapc7; anaphase promoting complex subunit 7 [KO:K03354]
+            52563  Cdc23; CDC23 cell division cycle 23 [KO:K03355]
+            68999  Anapc10; anaphase promoting complex subunit 10 [KO:K03357]
+            66156  Anapc11; anaphase promoting complex subunit 11 [KO:K03358]
+            66440  Cdc26; cell division cycle 26 [KO:K03359]
+            69010  Anapc13; anaphase promoting complex subunit 13 [KO:K12456]
+            110033  Kif22; kinesin family member 22 [KO:K10403]
+COMPOUND    C00410  Progesterone
+            C00575  3',5'-Cyclic AMP
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+            C11554  1-Phosphatidyl-1D-myo-inositol 3,4-bisphosphate
+REFERENCE   PMID:12045215
+  AUTHORS   Schmitt A, Nebreda AR.
+  TITLE     Signalling pathways in oocyte meiotic maturation.
+  JOURNAL   J Cell Sci 115:2457-9 (2002)
+REFERENCE   PMID:12084906
+  AUTHORS   Cato AC, Nestl A, Mink S.
+  TITLE     Rapid actions of steroid receptors in cellular signaling pathways.
+  JOURNAL   Sci STKE 2002:RE9 (2002)
+            DOI:10.1126/stke.2002.138.re9
+REFERENCE   PMID:11730319
+  AUTHORS   Maller JL, Schwab MS, Roberts BT, Gross SD, Taieb FE, Tunquist BJ.
+  TITLE     The pathway of MAP kinase mediation of CSF arrest in Xenopus oocytes.
+  JOURNAL   Biol Cell 93:27-33 (2001)
+            DOI:10.1016/S0248-4900(01)01127-3
+REFERENCE   PMID:11063930
+  AUTHORS   Nebreda AR, Ferby I.
+  TITLE     Regulation of the meiotic cell cycle in oocytes.
+  JOURNAL   Curr Opin Cell Biol 12:666-75 (2000)
+            DOI:10.1016/S0955-0674(00)00150-2
+REFERENCE   PMID:10497333
+  AUTHORS   Ferrell JE Jr.
+  TITLE     Xenopus oocyte maturation: new lessons from a good egg.
+  JOURNAL   Bioessays 21:833-42 (1999)
+            DOI:10.1002/(SICI)1521-1878(199910)21:10<833::AID-BIES5>3.0.CO;2-P
+REFERENCE   PMID:12374568
+  AUTHORS   Andersen CB, Sakaue H, Nedachi T, Kovacina KS, Clayberger C, Conti M, Roth RA.
+  TITLE     Protein kinase B/Akt is essential for the insulin- but not progesterone-stimulated resumption of meiosis in Xenopus oocytes.
+  JOURNAL   Biochem J 369:227-38 (2003)
+            DOI:10.1042/BJ20021243
+REFERENCE   PMID:12477927
+  AUTHORS   Duckworth BC, Weaver JS, Ruderman JV.
+  TITLE     G2 arrest in Xenopus oocytes depends on phosphorylation of cdc25 by protein kinase A.
+  JOURNAL   Proc Natl Acad Sci U S A 99:16794-9 (2002)
+            DOI:10.1073/pnas.222661299
+REFERENCE   PMID:11148128
+  AUTHORS   Abrieu A, Doree M, Fisher D.
+  TITLE     The interplay between cyclin-B-Cdc2 kinase (MPF) and MAP kinase during maturation of oocytes.
+  JOURNAL   J Cell Sci 114:257-67 (2001)
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04110  Cell cycle
+KO_PATHWAY  ko04914
+///

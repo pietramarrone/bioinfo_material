@@ -1,0 +1,92 @@
+ENTRY       mmu00620                    Pathway
+NAME        Pyruvate metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP mmu00620  Pyruvate metabolism
+MODULE      mmu_M00307  Pyruvate oxidation, pyruvate => acetyl-CoA [PATH:mmu00620]
+DBLINKS     GO: 0006090
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        68738  Acss1; acyl-CoA synthetase short-chain family member 1 [KO:K01895] [EC:6.2.1.1]
+            60525  Acss2; acyl-CoA synthetase short-chain family member 2 [KO:K01895] [EC:6.2.1.1]
+            18597  Pdha1; pyruvate dehydrogenase E1 alpha 1 [KO:K00161] [EC:1.2.4.1]
+            18598  Pdha2; pyruvate dehydrogenase E1 alpha 2 [KO:K00161] [EC:1.2.4.1]
+            68263  Pdhb; pyruvate dehydrogenase (lipoamide) beta [KO:K00162] [EC:1.2.4.1]
+            235339  Dlat; dihydrolipoamide S-acetyltransferase (E2 component of pyruvate dehydrogenase complex) [KO:K00627] [EC:2.3.1.12]
+            13382  Dld; dihydrolipoamide dehydrogenase [KO:K00382] [EC:1.8.1.4]
+            18746  Pkm; pyruvate kinase, muscle [KO:K00873] [EC:2.7.1.40]
+            18770  Pklr; pyruvate kinase liver and red blood cell [KO:K12406] [EC:2.7.1.40]
+            107476  Acaca; acetyl-Coenzyme A carboxylase alpha [KO:K11262] [EC:6.4.1.2 6.3.4.14 2.1.3.15]
+            100705  Acacb; acetyl-Coenzyme A carboxylase beta [KO:K01946] [EC:6.4.1.2 6.3.4.14 2.1.3.15]
+            66204  Acyp1; acylphosphatase 1, erythrocyte (common) type [KO:K01512] [EC:3.6.1.7]
+            75572  Acyp2; acylphosphatase 2, muscle type [KO:K01512] [EC:3.6.1.7]
+            11669  Aldh2; aldehyde dehydrogenase 2, mitochondrial [KO:K00128] [EC:1.2.1.3]
+            11671  Aldh3a2; aldehyde dehydrogenase family 3, subfamily A2 [KO:K00128] [EC:1.2.1.3]
+            72535  Aldh1b1; aldehyde dehydrogenase 1 family, member B1 [KO:K00128] [EC:1.2.1.3]
+            110695  Aldh7a1; aldehyde dehydrogenase family 7, member A1 [KO:K14085] [EC:1.2.1.31 1.2.1.8 1.2.1.3]
+            56752  Aldh9a1; aldehyde dehydrogenase 9, subfamily A1 [KO:K00149] [EC:1.2.1.47 1.2.1.3]
+            74156  Acot12; acyl-CoA thioesterase 12 [KO:K01067] [EC:3.1.2.1]
+            16828  Ldha; lactate dehydrogenase A [KO:K00016] [EC:1.1.1.27]
+            16832  Ldhb; lactate dehydrogenase B [KO:K00016] [EC:1.1.1.27]
+            16833  Ldhc; lactate dehydrogenase C [KO:K00016] [EC:1.1.1.27]
+            106557  Ldhal6b; lactate dehydrogenase A-like 6B [KO:K00016] [EC:1.1.1.27]
+            52815  Ldhd; lactate dehydrogenase D [KO:K00102] [EC:1.1.2.4]
+            109801  Glo1; glyoxalase 1 [KO:K01759] [EC:4.4.1.5]
+            14651  Hagh; hydroxyacyl glutathione hydrolase [KO:K01069] [EC:3.1.2.6]
+            76238  Grhpr; glyoxylate reductase/hydroxypyruvate reductase [KO:K00049] [EC:1.1.1.79 1.1.1.81]
+            107029  Me2; malic enzyme 2, NAD(+)-dependent, mitochondrial [KO:K00027] [EC:1.1.1.38]
+            17436  Me1; malic enzyme 1, NADP(+)-dependent, cytosolic [KO:K00029] [EC:1.1.1.40]
+            109264  Me3; malic enzyme 3, NADP(+)-dependent, mitochondrial [KO:K00029] [EC:1.1.1.40]
+            18563  Pcx; pyruvate carboxylase [KO:K01958] [EC:6.4.1.1]
+            17449  Mdh1; malate dehydrogenase 1, NAD (soluble) [KO:K00025] [EC:1.1.1.37]
+            17448  Mdh2; malate dehydrogenase 2, NAD (mitochondrial) [KO:K00026] [EC:1.1.1.37]
+            14194  Fh1; fumarate hydratase 1 [KO:K01679] [EC:4.2.1.2]
+            18534  Pck1; phosphoenolpyruvate carboxykinase 1, cytosolic [KO:K01596] [EC:4.1.1.32]
+            74551  Pck2; phosphoenolpyruvate carboxykinase 2 (mitochondrial) [KO:K01596] [EC:4.1.1.32]
+            110460  Acat2; acetyl-Coenzyme A acetyltransferase 2 [KO:K00626] [EC:2.3.1.9]
+            110446  Acat1; acetyl-Coenzyme A acetyltransferase 1 [KO:K00626] [EC:2.3.1.9]
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00033  Acetate
+            C00036  Oxaloacetate
+            C00042  Succinate
+            C00058  Formate
+            C00068  Thiamin diphosphate
+            C00074  Phosphoenolpyruvate
+            C00083  Malonyl-CoA
+            C00084  Acetaldehyde
+            C00122  Fumarate
+            C00149  (S)-Malate
+            C00186  (S)-Lactate
+            C00227  Acetyl phosphate
+            C00256  (R)-Lactate
+            C00332  Acetoacetyl-CoA
+            C00424  (S)-Lactaldehyde
+            C00546  Methylglyoxal
+            C00937  (R)-Lactaldehyde
+            C01251  (R)-2-Hydroxybutane-1,2,4-tricarboxylate
+            C02488  (R)-2-Ethylmalate
+            C02504  alpha-Isopropylmalate
+            C03248  Acetylenedicarboxylate
+            C03451  (R)-S-Lactoylglutathione
+            C03981  2-Hydroxyethylenedicarboxylate
+            C05125  2-(alpha-Hydroxyethyl)thiamine diphosphate
+            C05993  Acetyl adenylate
+            C05994  2-Propylmalate
+            C15972  Enzyme N6-(lipoyl)lysine
+            C15973  Enzyme N6-(dihydrolipoyl)lysine
+            C16255  [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
+REFERENCE   
+  AUTHORS   Nishizuka Y, Seyama Y, Ikai A, Ishimura Y, Kawaguchi A (eds).
+  TITLE     [Cellular Functions and Metabolic Maps] (In Japanese)
+  JOURNAL   Tokyo Kagaku Dojin (1997)
+REL_PATHWAY mmu00010  Glycolysis / Gluconeogenesis
+            mmu00020  Citrate cycle (TCA cycle)
+            mmu00061  Fatty acid biosynthesis
+            mmu00072  Synthesis and degradation of ketone bodies
+            mmu00260  Glycine, serine and threonine metabolism
+            mmu00290  Valine, leucine and isoleucine biosynthesis
+            mmu00630  Glyoxylate and dicarboxylate metabolism
+            mmu00640  Propanoate metabolism
+            mmu00650  Butanoate metabolism
+            mmu00760  Nicotinate and nicotinamide metabolism
+KO_PATHWAY  ko00620
+///

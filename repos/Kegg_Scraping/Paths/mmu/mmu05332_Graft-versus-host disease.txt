@@ -1,0 +1,125 @@
+ENTRY       mmu05332                    Pathway
+NAME        Graft-versus-host disease - Mus musculus (mouse)
+DESCRIPTION Graft-versus-host disease (GVHD) is a lethal complication of allogeneic hematopoietic stem cell transplantation (HSCT) where immunocompetent donor T cells attack the genetically disparate host cells. GVHD pathophysiology can be summerized in a three-step process. Step 1 involves the development of an inflammatory milieu resulting from damage in the host tissues induced by the preparative chemotherapy or radiotherapy regimen. Damaged tissues secrete inflammatory cytokines, including interleukin 1 (IL-1), and tumor necrosis factor (TNF-alpha ). During step 2, antigen-presenting cells (APCs) trigger the activation of donor-derived T cells, which induce further T-cell expansion, induce cytotoxic T lymphocytes (CTL) and natural killer (NK) cells responses and prime additional mononuclear phagocytes to produce TNF-alpha and IL-1. Also, nitric oxide (NO) is produced by activated macrophages, and it may contribute to the tissue damage seen during step 3. During step 3, the effector phase, activated CTL and NK cells mediate cytotoxicity against target host cells through Fas-Fas ligand interactions and perforin-granzyme B.
+CLASS       Human Diseases; Immune disease
+PATHWAY_MAP mmu05332  Graft-versus-host disease
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        16193  Il6; interleukin 6 [KO:K05405]
+            16175  Il1a; interleukin 1 alpha [KO:K04383]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            12519  Cd80; CD80 antigen [KO:K05412]
+            12524  Cd86; CD86 antigen [KO:K05413]
+            12487  Cd28; CD28 antigen [KO:K06470]
+            16183  Il2; interleukin 2 [KO:K05429]
+            14990  H2-M2; histocompatibility 2, M region locus 2 [KO:K06751]
+            14991  H2-M3; histocompatibility 2, M region locus 3 [KO:K06751]
+            14997  H2-M9; histocompatibility 2, M region locus 9 [KO:K06751]
+            15006  H2-Q1; histocompatibility 2, Q region locus 1 [KO:K06751]
+            15007  H2-Q10; histocompatibility 2, Q region locus 10 [KO:K06751]
+            15013  H2-Q2; histocompatibility 2, Q region locus 2 [KO:K06751]
+            15018  H2-Q7; histocompatibility 2, Q region locus 7 [KO:K06751]
+            15019  H2-Q8; histocompatibility 2, Q region locus 8 [KO:K06751]
+            15039  H2-T22; histocompatibility 2, T region locus 22 [KO:K06751]
+            15040  H2-T23; histocompatibility 2, T region locus 23 [KO:K06751]
+            15042  H2-T24; histocompatibility 2, T region locus 24 [KO:K06751]
+            15043  H2-T3; histocompatibility 2, T region locus 3 [KO:K06751]
+            15051  H2-T9; histocompatibility 2, T region locus 9 [KO:K06751]
+            224753  H2-M10.4; histocompatibility 2, M region locus 10.4 [KO:K06751]
+            224754  H2-M11; histocompatibility 2, M region locus 11 [KO:K06751]
+            224756  H2-M1; histocompatibility 2, M region locus 1 [KO:K06751]
+            224761  H2-M10.5; histocompatibility 2, M region locus 10.5 [KO:K06751]
+            333715  H2-M10.2; histocompatibility 2, M region locus 10.2 [KO:K06751]
+            399549  H2-M10.6; histocompatibility 2, M region locus 10.6 [KO:K06751]
+            15024  H2-T10; histocompatibility 2, T region locus 10 [KO:K06751]
+            110557  H2-Q6; histocompatibility 2, Q region locus 6 [KO:K06751]
+            110696  H2-M10.3; histocompatibility 2, M region locus 10.3 [KO:K06751]
+            14963  H2-Bl; histocompatibility 2, blastocyst [KO:K06751]
+            14964  H2-D1; histocompatibility 2, D region locus 1 [KO:K06751]
+            14972  H2-K1; histocompatibility 2, K1, K region [KO:K06751]
+            14985  H2-M10.1; histocompatibility 2, M region locus 10.1 [KO:K06751]
+            547349  H2-K1; MHC class I family member [KO:K06751]
+            15033  H2-T18; histocompatibility 2, T region locus 18 [KO:K06751]
+            110558  H2-Q9; histocompatibility 2, Q region locus 9 [KO:K06751]
+            667977  Gm8909; predicted gene 8909 [KO:K06751]
+            14980  H2-L; histocompatibility 2, D region locus L [KO:K06751]
+            69717  Gm10499; predicted gene 10499 [KO:K06751]
+            15015  H2-Q4; histocompatibility 2, Q region locus 4 [KO:K06751]
+            667803  H2-T-ps; histocompatibility 2, T region locus, pseudogene [KO:K06751]
+            100529082  Gm11127; predicted gene 11127 [KO:K06751]
+            240095  H2-M5; histocompatibility 2, M region locus 5 [KO:K06751]
+            630294  Gm7030; predicted gene 7030 [KO:K06751]
+            14103  Fasl; Fas ligand (TNF superfamily, member 6) [KO:K04389]
+            14102  Fas; Fas (TNF receptor superfamily member 6) [KO:K04390]
+            18646  Prf1; perforin 1 (pore forming protein) [KO:K07818]
+            14939  Gzmb; granzyme B [KO:K01353] [EC:3.4.21.79]
+            15978  Ifng; interferon gamma [KO:K04687]
+            245616  Kir3dl1; killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 1 [KO:K07980]
+            245615  Kir3dl2; killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 2 [KO:K07980]
+            16641  Klrc1; killer cell lectin-like receptor subfamily C, member 1 [KO:K06541]
+            16643  Klrd1; killer cell lectin-like receptor, subfamily D, member 1 [KO:K06516]
+COMPOUND    C00338  Lipopolysaccharide
+            C00533  Nitric oxide
+REFERENCE   PMID:16412784
+  AUTHORS   Ferrara JL, Reddy P.
+  TITLE     Pathophysiology of graft-versus-host disease.
+  JOURNAL   Semin Hematol 43:3-10 (2006)
+            DOI:10.1053/j.seminhematol.2005.09.001
+REFERENCE   PMID:14735553
+  AUTHORS   Reddy P.
+  TITLE     Pathophysiology of acute graft-versus-host disease.
+  JOURNAL   Hematol Oncol 21:149-61 (2003)
+            DOI:10.1002/hon.716
+REFERENCE   PMID:17900507
+  AUTHORS   Sun Y, Tawara I, Toubai T, Reddy P.
+  TITLE     Pathophysiology of acute graft-versus-host disease: recent advances.
+  JOURNAL   Transl Res 150:197-214 (2007)
+            DOI:10.1016/j.trsl.2007.06.003
+REFERENCE   PMID:15882431
+  AUTHORS   Jaksch M, Mattsson J.
+  TITLE     The pathophysiology of acute graft-versus-host disease.
+  JOURNAL   Scand J Immunol 61:398-409 (2005)
+            DOI:10.1111/j.1365-3083.2005.01595.x
+REFERENCE   PMID:12359826
+  AUTHORS   Vogelsang GB, Lee L, Bensen-Kennedy DM.
+  TITLE     Pathogenesis and treatment of graft-versus-host disease after bone marrow transplant.
+  JOURNAL   Annu Rev Med 54:29-52 (2003)
+            DOI:10.1146/annurev.med.54.101601.152339
+REFERENCE   PMID:14556773
+  AUTHORS   Reddy P, Ferrara JL.
+  TITLE     Immunobiology of acute graft-versus-host disease.
+  JOURNAL   Blood Rev 17:187-94 (2003)
+            DOI:10.1016/S0268-960X(03)00009-2
+REFERENCE   PMID:16147539
+  AUTHORS   Blazar BR, Murphy WJ.
+  TITLE     Bone marrow transplantation and approaches to avoid graft-versus-host disease (GVHD).
+  JOURNAL   Philos Trans R Soc Lond B Biol Sci 360:1747-67 (2005)
+            DOI:10.1098/rstb.2005.1701
+REFERENCE   PMID:15372473
+  AUTHORS   Couriel D, Caldera H, Champlin R, Komanduri K.
+  TITLE     Acute graft-versus-host disease: pathophysiology, clinical manifestations, and management.
+  JOURNAL   Cancer 101:1936-46 (2004)
+            DOI:10.1002/cncr.20613
+REFERENCE   PMID:17784964
+  AUTHORS   Jacobsohn DA, Vogelsang GB.
+  TITLE     Acute graft versus host disease.
+  JOURNAL   Orphanet J Rare Dis 2:35 (2007)
+            DOI:10.1186/1750-1172-2-35
+REL_PATHWAY mmu04060  Cytokine-cytokine receptor interaction
+            mmu04210  Apoptosis
+            mmu04514  Cell adhesion molecules (CAMs)
+            mmu04612  Antigen processing and presentation
+            mmu04620  Toll-like receptor signaling pathway
+            mmu04650  Natural killer cell mediated cytotoxicity
+            mmu04660  T cell receptor signaling pathway
+KO_PATHWAY  ko05332
+///

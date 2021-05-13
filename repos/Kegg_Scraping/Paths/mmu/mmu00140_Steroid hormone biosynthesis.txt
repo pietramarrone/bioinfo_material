@@ -1,0 +1,251 @@
+ENTRY       mmu00140                    Pathway
+NAME        Steroid hormone biosynthesis - Mus musculus (mouse)
+DESCRIPTION Steroid hormones derived from cholesterol are a class of biologically active compounds in vertebrates. The cholesterol side-chain cleavage enzyme CYP11A1 catalyzes conversion of cholesterol, a C27 compound, to the first C21 steroid, pregnenolone, which is converted by a bifunctional enzyme complex to the gestagen hormone, progesterone [MD:M00107]. Pregnenolone and progesterone are the starting materials for the three groups of steroids: C21 steroids of glucocorticoids and mineralocorticoids, C19 steroids of androgens, and C18 steroids of estrogens. (i) Progesterone is converted by hydroxylations at carbons 21 and 11 to corticosterone, which is further modified by hydroxylation and oxydoreduction at carbon 18 to yield aldosterone, a mineralcorticoid [MD:M00108]. Cortisol, the main glucocorticoid, is formed from 17alpha-hydroxyprogesterone with 11-deoxycortisol as an intermediate [MD:M00109]. (ii) Male hormone testosterone is formed from pregnenolone by two pathways, delta5 pathway via dehydroepiandrosterone and delta4 pathway via androstenedione [MD:M00110]. The enzyme CYP17A1 is responsible for the 17,20 lyase and 17alpha-hydroxylase activities in respective pathways. (iii) Female hormones estrone and estradiol are formed from testosterone and 4-androstene-3,17-dione by oxidative removal of the C19 methyl group and subsequent aromatization of ring A [MD:M00111]. In addition to these three groups, recent studies show that there is another group, termed neurosteroids, synthesized in the brain rather than the peripheral endocrine gland.
+CLASS       Metabolism; Lipid metabolism
+PATHWAY_MAP mmu00140  Steroid hormone biosynthesis
+MODULE      mmu_M00107  Steroid hormone biosynthesis, cholesterol => prognenolone => progesterone [PATH:mmu00140]
+            mmu_M00109  C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone [PATH:mmu00140]
+            mmu_M00110  C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone [PATH:mmu00140]
+DBLINKS     GO: 0034754
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        13070  Cyp11a1; cytochrome P450, family 11, subfamily a, polypeptide 1 [KO:K00498] [EC:1.14.15.6]
+            13074  Cyp17a1; cytochrome P450, family 17, subfamily a, polypeptide 1 [KO:K00512] [EC:1.14.14.19 1.14.14.32]
+            20905  Sts; steroid sulfatase [KO:K01131] [EC:3.1.6.2]
+            54200  Sult2b1; sulfotransferase family, cytosolic, 2B, member 1 [KO:K01015] [EC:2.8.2.2]
+            13079  Cyp21a1; cytochrome P450, family 21, subfamily a, polypeptide 1 [KO:K00513] [EC:1.14.14.16]
+            15495  Hsd3b4; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 4 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            15496  Hsd3b5; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 5 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            15493  Hsd3b2; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            15492  Hsd3b1; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 1 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            15497  Hsd3b6; hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 6 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            100043456  Gm10681; predicted gene 10681 [KO:K00070] [EC:1.1.1.145 5.3.3.1]
+            78925  Srd5a1; steroid 5 alpha-reductase 1 [KO:K12343] [EC:1.3.1.22]
+            94224  Srd5a2; steroid 5 alpha-reductase 2 [KO:K12344] [EC:1.3.1.22]
+            57357  Srd5a3; steroid 5 alpha-reductase 3 [KO:K12345] [EC:1.3.1.22 1.3.1.94]
+            13072  Cyp11b2; cytochrome P450, family 11, subfamily b, polypeptide 2 [KO:K00497] [EC:1.14.15.4]
+            110115  Cyp11b1; cytochrome P450, family 11, subfamily b, polypeptide 1 [KO:K00497] [EC:1.14.15.4]
+            208665  Akr1d1; aldo-keto reductase family 1, member D1 [KO:K00251] [EC:1.3.1.3]
+            15483  Hsd11b1; hydroxysteroid 11-beta dehydrogenase 1 [KO:K15680] [EC:1.1.1.146]
+            15484  Hsd11b2; hydroxysteroid 11-beta dehydrogenase 2 [KO:K00071] [EC:1.1.1.-]
+            105349  Akr1c18; aldo-keto reductase family 1, member C18 [KO:K05295] [EC:1.1.1.149]
+            13123  Cyp7b1; cytochrome P450, family 7, subfamily b, polypeptide 1 [KO:K07430] [EC:1.14.14.29]
+            20860  Sult1e1; sulfotransferase family 1E, member 1 [KO:K01016] [EC:2.8.2.4]
+            15485  Hsd17b1; hydroxysteroid (17-beta) dehydrogenase 1 [KO:K00044] [EC:1.1.1.62]
+            15486  Hsd17b2; hydroxysteroid (17-beta) dehydrogenase 2 [KO:K13368] [EC:1.1.1.62 1.1.1.239]
+            27400  Hsd17b6; hydroxysteroid (17-beta) dehydrogenase 6 [KO:K13369] [EC:1.1.1.62 1.1.1.105 1.1.1.239]
+            15490  Hsd17b7; hydroxysteroid (17-beta) dehydrogenase 7 [KO:K13373] [EC:1.1.1.62 1.1.1.270]
+            14979  H2-Ke6; H2-K region expressed gene 6 [KO:K13370] [EC:1.1.1.62 1.1.1.239]
+            56348  Hsd17b12; hydroxysteroid (17-beta) dehydrogenase 12 [KO:K10251] [EC:1.1.1.62 1.1.1.330]
+            192970  Dhrs11; dehydrogenase/reductase (SDR family) member 11 [KO:K22970] [EC:1.1.1.62 1.1.1.270]
+            13076  Cyp1a1; cytochrome P450, family 1, subfamily a, polypeptide 1 [KO:K07408] [EC:1.14.14.1]
+            13077  Cyp1a2; cytochrome P450, family 1, subfamily a, polypeptide 2 [KO:K07409] [EC:1.14.14.1]
+            13088  Cyp2b10; cytochrome P450, family 2, subfamily b, polypeptide 10 [KO:K07412] [EC:1.14.14.1]
+            13089  Cyp2b13; cytochrome P450, family 2, subfamily b, polypeptide 13 [KO:K07412] [EC:1.14.14.1]
+            13090  Cyp2b19; cytochrome P450, family 2, subfamily b, polypeptide 19 [KO:K07412] [EC:1.14.14.1]
+            13094  Cyp2b9; cytochrome P450, family 2, subfamily b, polypeptide 9 [KO:K07412] [EC:1.14.14.1]
+            243881  Cyp2b23; cytochrome P450, family 2, subfamily b, polypeptide 23 [KO:K07412] [EC:1.14.14.1]
+            13097  Cyp2c38; cytochrome P450, family 2, subfamily c, polypeptide 38 [KO:K07413] [EC:1.14.14.1]
+            13098  Cyp2c39; cytochrome P450, family 2, subfamily c, polypeptide 39 [KO:K07413] [EC:1.14.14.1]
+            13099  Cyp2c40; cytochrome P450, family 2, subfamily c, polypeptide 40 [KO:K07413] [EC:1.14.14.1]
+            226143  Cyp2c23; cytochrome P450, family 2, subfamily c, polypeptide 23 [KO:K07413] [EC:1.14.14.1]
+            13095  Cyp2c29; cytochrome P450, family 2, subfamily c, polypeptide 29 [KO:K07413] [EC:1.14.14.1]
+            226105  Cyp2c70; cytochrome P450, family 2, subfamily c, polypeptide 70 [KO:K07413] [EC:1.14.14.1]
+            13096  Cyp2c37; cytochrome P450, family 2. subfamily c, polypeptide 37 [KO:K07413] [EC:1.14.14.1]
+            72082  Cyp2c55; cytochrome P450, family 2, subfamily c, polypeptide 55 [KO:K07413] [EC:1.14.14.1]
+            72303  Cyp2c65; cytochrome P450, family 2, subfamily c, polypeptide 65 [KO:K07413] [EC:1.14.14.1]
+            69888  Cyp2c66; cytochrome P450, family 2, subfamily c, polypeptide 66 [KO:K07413] [EC:1.14.14.1]
+            107141  Cyp2c50; cytochrome P450, family 2, subfamily c, polypeptide 50 [KO:K07413] [EC:1.14.14.1]
+            404195  Cyp2c54; cytochrome P450, family 2, subfamily c, polypeptide 54 [KO:K07413] [EC:1.14.14.1]
+            433247  Cyp2c68; cytochrome P450, family 2, subfamily c, polypeptide 68 [KO:K07413] [EC:1.14.14.1]
+            56448  Cyp2d22; cytochrome P450, family 2, subfamily d, polypeptide 22 [KO:K07414] [EC:1.14.14.1]
+            13105  Cyp2d9; cytochrome P450, family 2, subfamily d, polypeptide 9 [KO:K07414] [EC:1.14.14.1]
+            13101  Cyp2d10; cytochrome P450, family 2, subfamily d, polypeptide 10 [KO:K07414] [EC:1.14.14.1]
+            76279  Cyp2d26; cytochrome P450, family 2, subfamily d, polypeptide 26 [KO:K07414] [EC:1.14.14.1]
+            223706  Cyp2d34; cytochrome P450, family 2, subfamily d, polypeptide 34 [KO:K07414] [EC:1.14.14.1]
+            380997  Cyp2d12; cytochrome P450, family 2, subfamily d, polypeptide 12 [KO:K07414] [EC:1.14.14.1]
+            545123  Cyp2d11; cytochrome P450, family 2, subfamily d, polypeptide 11 [KO:K07414] [EC:1.14.14.1]
+            71754  Cyp2d40; cytochrome P450, family 2, subfamily d, polypeptide 40 [KO:K07414] [EC:1.14.14.1]
+            13112  Cyp3a11; cytochrome P450, family 3, subfamily a, polypeptide 11 [KO:K07424] [EC:1.14.14.1]
+            13113  Cyp3a13; cytochrome P450, family 3, subfamily a, polypeptide 13 [KO:K07424] [EC:1.14.14.1]
+            13114  Cyp3a16; cytochrome P450, family 3, subfamily a, polypeptide 16 [KO:K07424] [EC:1.14.14.1]
+            56388  Cyp3a25; cytochrome P450, family 3, subfamily a, polypeptide 25 [KO:K07424] [EC:1.14.14.1]
+            53973  Cyp3a41a; cytochrome P450, family 3, subfamily a, polypeptide 41A [KO:K07424] [EC:1.14.14.1]
+            337924  Cyp3a44; cytochrome P450, family 3, subfamily a, polypeptide 44 [KO:K07424] [EC:1.14.14.1]
+            100041375  Cyp3a41b; cytochrome P450, family 3, subfamily a, polypeptide 41B [KO:K07424] [EC:1.14.14.1]
+            13106  Cyp2e1; cytochrome P450, family 2, subfamily e, polypeptide 1 [KO:K07415] [EC:1.14.13.-]
+            13078  Cyp1b1; cytochrome P450, family 1, subfamily b, polypeptide 1 [KO:K07410] [EC:1.14.14.1]
+            13075  Cyp19a1; cytochrome P450, family 19, subfamily a, polypeptide 1 [KO:K07434] [EC:1.14.14.14]
+            13122  Cyp7a1; cytochrome P450, family 7, subfamily a, polypeptide 1 [KO:K00489] [EC:1.14.14.23]
+            22238  Ugt2b5; UDP glucuronosyltransferase 2 family, polypeptide B5 [KO:K00699] [EC:2.4.1.17]
+            22236  Ugt1a2; UDP glucuronosyltransferase 1 family, polypeptide A2 [KO:K00699] [EC:2.4.1.17]
+            94284  Ugt1a6a; UDP glucuronosyltransferase 1 family, polypeptide A6A [KO:K00699] [EC:2.4.1.17]
+            94215  Ugt2a1; UDP glucuronosyltransferase 2 family, polypeptide A1 [KO:K00699] [EC:2.4.1.17]
+            394434  Ugt1a9; UDP glucuronosyltransferase 1 family, polypeptide A9 [KO:K00699] [EC:2.4.1.17]
+            394430  Ugt1a10; UDP glycosyltransferase 1 family, polypeptide A10 [KO:K00699] [EC:2.4.1.17]
+            394432  Ugt1a7c; UDP glucuronosyltransferase 1 family, polypeptide A7C [KO:K00699] [EC:2.4.1.17]
+            394433  Ugt1a5; UDP glucuronosyltransferase 1 family, polypeptide A5 [KO:K00699] [EC:2.4.1.17]
+            72094  Ugt2a3; UDP glucuronosyltransferase 2 family, polypeptide A3 [KO:K00699] [EC:2.4.1.17]
+            552899  Ugt2a2; UDP glucuronosyltransferase 2 family, polypeptide A2 [KO:K00699] [EC:2.4.1.17]
+            71773  Ugt2b1; UDP glucuronosyltransferase 2 family, polypeptide B1 [KO:K00699] [EC:2.4.1.17]
+            394435  Ugt1a6b; UDP glucuronosyltransferase 1 family, polypeptide A6B [KO:K00699] [EC:2.4.1.17]
+            394436  Ugt1a1; UDP glucuronosyltransferase 1 family, polypeptide A1 [KO:K00699] [EC:2.4.1.17]
+            100727  Ugt2b34; UDP glucuronosyltransferase 2 family, polypeptide B34 [KO:K00699] [EC:2.4.1.17]
+            231396  Ugt2b36; UDP glucuronosyltransferase 2 family, polypeptide B36 [KO:K00699] [EC:2.4.1.17]
+            100559  Ugt2b38; UDP glucuronosyltransferase 2 family, polypeptide B38 [KO:K00699] [EC:2.4.1.17]
+            112417  Ugt2b37; UDP glucuronosyltransferase 2 family, polypeptide B37 [KO:K00699] [EC:2.4.1.17]
+            243085  Ugt2b35; UDP glucuronosyltransferase 2 family, polypeptide B35 [KO:K00699] [EC:2.4.1.17]
+            12846  Comt; catechol-O-methyltransferase [KO:K00545] [EC:2.1.1.6]
+            791260  Tomt; transmembrane O-methyltransferase [KO:K00545] [EC:2.1.1.6]
+            15487  Hsd17b3; hydroxysteroid (17-beta) dehydrogenase 3 [KO:K10207] [EC:1.1.1.64]
+COMPOUND    C00187  Cholesterol
+            C00280  Androstenedione
+            C00410  Progesterone
+            C00468  Estrone
+            C00523  Androsterone
+            C00535  Testosterone
+            C00674  5alpha-Androstane-3,17-dione
+            C00735  Cortisol
+            C00762  Cortisone
+            C00951  Estradiol-17beta
+            C01124  18-Hydroxycorticosterone
+            C01176  17alpha-Hydroxyprogesterone
+            C01227  Dehydroepiandrosterone
+            C01780  Aldosterone
+            C01953  Pregnenolone
+            C02140  Corticosterone
+            C02373  4-Methylpentanal
+            C02537  Estradiol-17alpha
+            C02538  Estrone 3-sulfate
+            C03205  11-Deoxycorticosterone
+            C03681  5alpha-Pregnane-3,20-dione
+            C03747  11alpha-Hydroxyprogesterone
+            C03772  5beta-Androstane-3,17-dione
+            C03852  Androstan-3alpha,17beta-diol
+            C03917  Dihydrotestosterone
+            C03935  6beta-Hydroxy-17beta-estradiol
+            C04042  20alpha-Hydroxy-4-pregnen-3-one
+            C04295  Androstenediol
+            C04373  Etiocholanolone
+            C04518  17alpha,20alpha-Dihydroxypregn-4-en-3-one
+            C04555  Dehydroepiandrosterone sulfate
+            C04676  Testololactone
+            C05138  17alpha-Hydroxypregnenolone
+            C05139  16alpha-Hydroxydehydroepiandrosterone
+            C05140  16alpha-Hydroxyandrost-4-ene-3,17-dione
+            C05141  Estriol
+            C05284  11beta-Hydroxyandrost-4-ene-3,17-dione
+            C05285  Adrenosterone
+            C05290  19-Hydroxyandrost-4-ene-3,17-dione
+            C05291  7alpha-Hydroxytestosterone
+            C05293  5beta-Dihydrotestosterone
+            C05294  19-Hydroxytestosterone
+            C05295  19-Oxotestosterone
+            C05296  7alpha-Hydroxyandrost-4-ene-3,17-dione
+            C05297  19-Oxoandrost-4-ene-3,17-dione
+            C05298  2-Hydroxyestrone
+            C05299  2-Methoxyestrone
+            C05300  16alpha-Hydroxyestrone
+            C05301  2-Hydroxyestradiol
+            C05302  2-Methoxy-17beta-estradiol
+            C05469  17alpha,21-Dihydroxy-5beta-pregnane-3,11,20-trione
+            C05470  Tetrahydrocortisone
+            C05471  11beta,17alpha,21-Trihydroxy-5beta-pregnane-3,20-dione
+            C05472  Urocortisol
+            C05473  11beta,21-Dihydroxy-3,20-oxo-5beta-pregnan-18-al
+            C05474  3alpha,11beta,21-Trihydroxy-20-oxo-5beta-pregnan-18-al
+            C05475  11beta,21-Dihydroxy-5beta-pregnane-3,20-dione
+            C05476  Tetrahydrocorticosterone
+            C05477  21-Hydroxy-5beta-pregnane-3,11,20-trione
+            C05478  3alpha,21-Dihydroxy-5beta-pregnane-11,20-dione
+            C05479  5beta-Pregnane-3,20-dione
+            C05480  Pregnanolone
+            C05481  Cortolone
+            C05482  Cortol
+            C05483  3alpha,20alpha,21-Trihydroxy-5beta-pregnan-11-one
+            C05484  Pregnanediol
+            C05485  21-Hydroxypregnenolone
+            C05487  17alpha,21-Dihydroxypregnenolone
+            C05488  11-Deoxycortisol
+            C05489  11beta,17alpha,21-Trihydroxypregnenolone
+            C05490  11-Dehydrocorticosterone
+            C05497  21-Deoxycortisol
+            C05498  11beta-Hydroxyprogesterone
+            C05499  17alpha,20alpha-Dihydroxycholesterol
+            C05500  20alpha-Hydroxycholesterol
+            C05501  20alpha,22beta-Dihydroxycholesterol
+            C05502  22(R)-Hydroxycholesterol
+            C05503  Estradiol-17beta 3-glucuronide
+            C05504  16-Glucuronide-estriol
+            C08357  Estradiol-17beta 3-sulfate
+            C08358  2-Methoxyestrone 3-sulfate
+            C08359  2-Methoxyestradiol-17beta 3-sulfate
+            C11131  2-Methoxy-estradiol-17beta 3-glucuronide
+            C11132  2-Methoxyestrone 3-glucuronide
+            C11133  Estrone glucuronide
+            C11134  Testosterone glucuronide
+            C11135  Androsterone glucuronide
+            C11136  Etiocholan-3alpha-ol-17-one 3-glucuronide
+            C13712  Allopregnanolone
+            C13713  Allotetrahydrodeoxycorticosterone
+            C18038  7alpha-Hydroxypregnenolone
+            C18039  Aldosterone hemiacetal
+            C18040  5alpha-Dihydrodeoxycorticosterone
+            C18041  5alpha-Pregnan-20alpha-ol-3-one
+            C18042  5alpha-Pregnane-3alpha,20alpha-diol
+            C18043  Cholesterol sulfate
+            C18044  3beta-Hydroxypregn-5-en-20-one sulfate
+            C18045  7alpha-Hydroxydehydroepiandrosterone
+            C18075  11beta,17beta-Dihydroxy-4-androsten-3-one
+REFERENCE   PMID:10998348
+  AUTHORS   Penning TM, Burczynski ME, Jez JM, Hung CF, Lin HK, Ma H, Moore M, Palackal N, Ratnam K
+  TITLE     Human 3alpha-hydroxysteroid dehydrogenase isoforms (AKR1C1-AKR1C4) of the aldo-keto reductase superfamily: functional plasticity and tissue distribution reveals roles in the inactivation and formation of male and female sex hormones.
+  JOURNAL   Biochem J 351:67-77 (2000)
+            DOI:10.1042/bj3510067
+REFERENCE   PMID:11469811
+  AUTHORS   Tomlinson JW, Stewart PM
+  TITLE     Cortisol metabolism and the role of 11beta-hydroxysteroid dehydrogenase.
+  JOURNAL   Best Pract Res Clin Endocrinol Metab 15:61-78 (2001)
+            DOI:10.1053/beem.2000.0119
+REFERENCE   PMID:12604236
+  AUTHORS   Higaki Y, Usami N, Shintani S, Ishikura S, El-Kabbani O, Hara A
+  TITLE     Selective and potent inhibitors of human 20alpha-hydroxysteroid dehydrogenase (AKR1C1) that metabolizes neurosteroids derived from progesterone.
+  JOURNAL   Chem Biol Interact 143-144:503-13 (2003)
+            DOI:10.1016/S0009-2797(02)00206-5
+REFERENCE   PMID:12832414
+  AUTHORS   Thomas JL, Duax WL, Addlagatta A, Brandt S, Fuller RR, Norris W
+  TITLE     Structure/function relationships responsible for coenzyme specificity and the isomerase activity of human type 1 3 beta-hydroxysteroid dehydrogenase/isomerase.
+  JOURNAL   J Biol Chem 278:35483-90 (2003)
+            DOI:10.1074/jbc.M304752200
+REFERENCE   PMID:15642792
+  AUTHORS   Cavigelli SA, Monfort SL, Whitney TK, Mechref YS, Novotny M, McClintock MK
+  TITLE     Frequent serial fecal corticoid measures from rats reflect circadian and ovarian corticosterone rhythms.
+  JOURNAL   J Endocrinol 184:153-63 (2005)
+            DOI:10.1677/joe.1.05935
+REFERENCE   PMID:16413106
+  AUTHORS   Holmes MC, Seckl JR
+  TITLE     The role of 11beta-hydroxysteroid dehydrogenases in the brain.
+  JOURNAL   Mol Cell Endocrinol 248:9-14 (2006)
+            DOI:10.1016/j.mce.2005.12.002
+REFERENCE   PMID:16547389
+  AUTHORS   Matsunaga T, Shintani S, Hara A
+  TITLE     Multiplicity of mammalian reductases for xenobiotic carbonyl compounds.
+  JOURNAL   Drug Metab Pharmacokinet 21:1-18 (2006)
+            DOI:10.2133/dmpk.21.1
+REFERENCE   PMID:17459698
+  AUTHORS   Morris DJ, Latif SA, Hardy MP, Brem AS
+  TITLE     Endogenous inhibitors (GALFs) of 11beta-hydroxysteroid dehydrogenase isoforms 1 and 2: derivatives of adrenally produced corticosterone and cortisol.
+  JOURNAL   J Steroid Biochem Mol Biol 104:161-8 (2007)
+            DOI:10.1016/j.jsbmb.2007.03.020
+REFERENCE   PMID:17475203
+  AUTHORS   Sanai M, Endo S, Matsunaga T, Ishikura S, Tajima K, El-Kabbani O, Hara A
+  TITLE     Rat NAD+-dependent 3alpha-hydroxysteroid dehydrogenase (AKR1C17): a member of the aldo-keto reductase family highly expressed in kidney cytosol.
+  JOURNAL   Arch Biochem Biophys 464:122-9 (2007)
+            DOI:10.1016/j.abb.2007.04.003
+REFERENCE   PMID:17926129
+  AUTHORS   Ghayee HK, Auchus RJ
+  TITLE     Basic concepts and recent developments in human steroid hormone biosynthesis.
+  JOURNAL   Rev Endocr Metab Disord 8:289-300 (2007)
+            DOI:10.1007/s11154-007-9052-2
+REL_PATHWAY mmu00100  Steroid biosynthesis
+KO_PATHWAY  ko00140
+///

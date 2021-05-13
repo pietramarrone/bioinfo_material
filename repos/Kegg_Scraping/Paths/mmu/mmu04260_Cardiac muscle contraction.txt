@@ -1,0 +1,170 @@
+ENTRY       mmu04260                    Pathway
+NAME        Cardiac muscle contraction - Mus musculus (mouse)
+DESCRIPTION Contraction of the heart is a complex process initiated by the electrical excitation of cardiac myocytes (excitation-contraction coupling, ECC). In cardiac myocytes, Ca2+ influx induced by activation of voltage-dependent L-type Ca channels (DHP receptors) upon membrane depolarization triggers the release of Ca2+ via Ca2+ release channels (ryanodine receptors) of sarcoplasmic reticulum (SR) through a Ca2+ -induced Ca release (CICR) mechanism. Ca2+ ions released via the CICR mechanism diffuse through the cytosolic space to contractile proteins to bind to troponinC resulting in the release of inhibition induced by troponinI. The Ca2+ binding to troponinC thereby triggers the sliding of thin and thick filaments, that is, the activation of a crossbridge and subsequent cardiac force development and/or cell shortening. Recovery occurs as Ca2+ is pumped out of the cell by the Na+/Ca2+ exchanger (NCX) or is returned to the sarcoplasmic reticulum (SR) by sarco(endo)plasmic Ca2+ -ATPase (SERCA) pumps on the non-junctional region of the SR.
+CLASS       Organismal Systems; Circulatory system
+PATHWAY_MAP mmu04260  Cardiac muscle contraction
+DBLINKS     GO: 0060048
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        12288  Cacna1c; calcium channel, voltage-dependent, L type, alpha 1C subunit [KO:K04850]
+            12289  Cacna1d; calcium channel, voltage-dependent, L type, alpha 1D subunit [KO:K04851]
+            54652  Cacna1f; calcium channel, voltage-dependent, alpha 1F subunit [KO:K04853]
+            12292  Cacna1s; calcium channel, voltage-dependent, L type, alpha 1S subunit [KO:K04857]
+            12295  Cacnb1; calcium channel, voltage-dependent, beta 1 subunit [KO:K04862]
+            12296  Cacnb2; calcium channel, voltage-dependent, beta 2 subunit [KO:K04863]
+            12297  Cacnb3; calcium channel, voltage-dependent, beta 3 subunit [KO:K04864]
+            12298  Cacnb4; calcium channel, voltage-dependent, beta 4 subunit [KO:K04865]
+            12293  Cacna2d1; calcium channel, voltage-dependent, alpha2/delta subunit 1 [KO:K04858]
+            56808  Cacna2d2; calcium channel, voltage-dependent, alpha 2/delta subunit 2 [KO:K04859]
+            12294  Cacna2d3; calcium channel, voltage-dependent, alpha2/delta subunit 3 [KO:K04860]
+            319734  Cacna2d4; calcium channel, voltage-dependent, alpha 2/delta subunit 4 [KO:K04861]
+            12299  Cacng1; calcium channel, voltage-dependent, gamma subunit 1 [KO:K04866]
+            12300  Cacng2; calcium channel, voltage-dependent, gamma subunit 2 [KO:K04867]
+            54376  Cacng3; calcium channel, voltage-dependent, gamma subunit 3 [KO:K04868]
+            54377  Cacng4; calcium channel, voltage-dependent, gamma subunit 4 [KO:K04869]
+            140723  Cacng5; calcium channel, voltage-dependent, gamma subunit 5 [KO:K04870]
+            54378  Cacng6; calcium channel, voltage-dependent, gamma subunit 6 [KO:K04871]
+            81904  Cacng7; calcium channel, voltage-dependent, gamma subunit 7 [KO:K04872]
+            81905  Cacng8; calcium channel, voltage-dependent, gamma subunit 8 [KO:K04873]
+            20191  Ryr2; ryanodine receptor 2, cardiac [KO:K04962]
+            65973  Asph; aspartate-beta-hydroxylase [KO:K00476] [EC:1.14.11.16]
+            12373  Casq2; calsequestrin 2 [KO:K23445]
+            76757  Trdn; triadin [KO:K23449]
+            15464  Hrc; histidine rich calcium binding protein [KO:K23450]
+            11937  Atp2a1; ATPase, Ca++ transporting, cardiac muscle, fast twitch 1 [KO:K05853] [EC:7.2.2.10]
+            53313  Atp2a3; ATPase, Ca++ transporting, ubiquitous [KO:K05853] [EC:7.2.2.10]
+            11938  Atp2a2; ATPase, Ca++ transporting, cardiac muscle, slow twitch 2 [KO:K05853] [EC:7.2.2.10]
+            21924  Tnnc1; troponin C, cardiac/slow skeletal [KO:K05865]
+            21954  Tnni3; troponin I, cardiac 3 [KO:K12044]
+            21956  Tnnt2; troponin T2, cardiac [KO:K12045]
+            22003  Tpm1; tropomyosin 1, alpha [KO:K10373]
+            22004  Tpm2; tropomyosin 2, beta [KO:K10374]
+            59069  Tpm3; tropomyosin 3, gamma [KO:K09290]
+            326618  Tpm4; tropomyosin 4 [KO:K10375]
+            11464  Actc1; actin, alpha, cardiac muscle 1 [KO:K12314]
+            140781  Myh7; myosin, heavy polypeptide 7, cardiac muscle, beta [KO:K17751]
+            17888  Myh6; myosin, heavy polypeptide 6, cardiac muscle, alpha [KO:K17751]
+            17906  Myl2; myosin, light polypeptide 2, regulatory, cardiac, slow [KO:K10351]
+            17897  Myl3; myosin, light polypeptide 3 [KO:K12749]
+            17896  Myl4; myosin, light polypeptide 4 [KO:K12750]
+            66694  Uqcrfs1; ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1 [KO:K00411] [EC:7.1.1.8]
+            17711  CYTB; cytochrome b [KO:K00412]
+            66445  Cyc1; cytochrome c-1 [KO:K00413]
+            22273  Uqcrc1; ubiquinol-cytochrome c reductase core protein 1 [KO:K00414]
+            67003  Uqcrc2; ubiquinol cytochrome c reductase core protein 2 [KO:K00415]
+            66576  Uqcrh; ubiquinol-cytochrome c reductase hinge protein [KO:K00416]
+            67530  Uqcrb; ubiquinol-cytochrome c reductase binding protein [KO:K00417]
+            22272  Uqcrq; ubiquinol-cytochrome c reductase, complex III subunit VII [KO:K00418]
+            66152  Uqcr10; ubiquinol-cytochrome c reductase, complex III subunit X [KO:K00419]
+            66594  Uqcr11; ubiquinol-cytochrome c reductase, complex III subunit XI [KO:K00420]
+            17710  COX3; cytochrome c oxidase subunit III [KO:K02262]
+            17708  COX1; cytochrome c oxidase subunit I [KO:K02256] [EC:7.1.1.9]
+            17709  COX2; cytochrome c oxidase subunit II [KO:K02261]
+            12857  Cox4i1; cytochrome c oxidase subunit 4I1 [KO:K02263]
+            84682  Cox4i2; cytochrome c oxidase subunit 4I2 [KO:K02263]
+            12858  Cox5a; cytochrome c oxidase subunit 5A [KO:K02264]
+            12859  Cox5b; cytochrome c oxidase subunit 5B [KO:K02265]
+            12861  Cox6a1; cytochrome c oxidase subunit 6A1 [KO:K02266]
+            12862  Cox6a2; cytochrome c oxidase subunit 6A2 [KO:K02266]
+            110323  Cox6b1; cytochrome c oxidase, subunit 6B1 [KO:K02267]
+            333182  Cox6b2; cytochrome c oxidase subunit 6B2 [KO:K02267]
+            12864  Cox6c; cytochrome c oxidase subunit 6C [KO:K02268]
+            12866  Cox7a2; cytochrome c oxidase subunit 7A2 [KO:K02270]
+            12865  Cox7a1; cytochrome c oxidase subunit 7A1 [KO:K02270]
+            20463  Cox7a2l; cytochrome c oxidase subunit 7A2 like [KO:K02270]
+            66142  Cox7b; cytochrome c oxidase subunit 7B [KO:K02271]
+            78174  Cox7b2; cytochrome c oxidase subunit 7B2 [KO:K02271]
+            12867  Cox7c; cytochrome c oxidase subunit 7C [KO:K02272]
+            12868  Cox8a; cytochrome c oxidase subunit 8A [KO:K02273]
+            12869  Cox8b; cytochrome c oxidase subunit 8B [KO:K02273]
+            75483  Cox8c; cytochrome c oxidase subunit 8C [KO:K02273]
+            20541  Slc8a1; solute carrier family 8 (sodium/calcium exchanger), member 1 [KO:K05849]
+            110891  Slc8a2; solute carrier family 8 (sodium/calcium exchanger), member 2 [KO:K05849]
+            110893  Slc8a3; solute carrier family 8 (sodium/calcium exchanger), member 3 [KO:K05849]
+            236794  Slc9a6; solute carrier family 9 (sodium/hydrogen exchanger), member 6 [KO:K12041]
+            236727  Slc9a7; solute carrier family 9 (sodium/hydrogen exchanger), member 7 [KO:K12041]
+            11928  Atp1a1; ATPase, Na+/K+ transporting, alpha 1 polypeptide [KO:K01539] [EC:7.2.2.13]
+            98660  Atp1a2; ATPase, Na+/K+ transporting, alpha 2 polypeptide [KO:K01539] [EC:7.2.2.13]
+            232975  Atp1a3; ATPase, Na+/K+ transporting, alpha 3 polypeptide [KO:K01539] [EC:7.2.2.13]
+            27222  Atp1a4; ATPase, Na+/K+ transporting, alpha 4 polypeptide [KO:K01539] [EC:7.2.2.13]
+            67821  Atp1b4; ATPase, (Na+)/K+ transporting, beta 4 polypeptide [KO:K01540]
+            11931  Atp1b1; ATPase, Na+/K+ transporting, beta 1 polypeptide [KO:K01540]
+            11932  Atp1b2; ATPase, Na+/K+ transporting, beta 2 polypeptide [KO:K01540]
+            11933  Atp1b3; ATPase, Na+/K+ transporting, beta 3 polypeptide [KO:K01540]
+            11936  Fxyd2; FXYD domain-containing ion transport regulator 2 [KO:K01538]
+            20544  Slc9a1; solute carrier family 9 (sodium/hydrogen exchanger), member 1 [KO:K05742]
+COMPOUND    C00076  Calcium cation
+            C00080  H+
+            C00238  Potassium cation
+            C01330  Sodium cation
+REFERENCE   PMID:17988210
+  AUTHORS   Bers DM
+  TITLE     Calcium cycling and signaling in cardiac myocytes.
+  JOURNAL   Annu Rev Physiol 70:23-49 (2008)
+            DOI:10.1146/annurev.physiol.70.113006.100455
+REFERENCE   PMID:11805843
+  AUTHORS   Bers DM
+  TITLE     Cardiac excitation-contraction coupling.
+  JOURNAL   Nature 415:198-205 (2002)
+            DOI:10.1038/415198a
+REFERENCE   PMID:16799263
+  AUTHORS   Endoh M
+  TITLE     Signal transduction and Ca2+ signaling in intact myocardium.
+  JOURNAL   J Pharmacol Sci 100:525-37 (2006)
+            DOI:10.1254/jphs.CPJ06009X
+REFERENCE   PMID:18981594
+  AUTHORS   Endoh M
+  TITLE     Cardiac Ca2+ signaling and Ca2+ sensitizers.
+  JOURNAL   Circ J 72:1915-25 (2008)
+            DOI:10.1253/circj.CJ-08-0838
+REFERENCE   PMID:16552170
+  AUTHORS   Bers DM, Despa S
+  TITLE     Cardiac myocytes Ca2+ and Na+ regulation in normal and failing hearts.
+  JOURNAL   J Pharmacol Sci 100:315-22 (2006)
+            DOI:10.1254/jphs.CPJ06001X
+REFERENCE   PMID:10747208
+  AUTHORS   Gordon AM, Homsher E, Regnier M
+  TITLE     Regulation of contraction in striated muscle.
+  JOURNAL   Physiol Rev 80:853-924 (2000)
+            DOI:10.1152/physrev.2000.80.2.853
+REFERENCE   PMID:16701909
+  AUTHORS   Phrommintikul A, Chattipakorn N
+  TITLE     Roles of cardiac ryanodine receptor in heart failure and sudden cardiac death.
+  JOURNAL   Int J Cardiol 112:142-52 (2006)
+            DOI:10.1016/j.ijcard.2005.11.106
+REFERENCE   PMID:16096350
+  AUTHORS   Lacinova L
+  TITLE     Voltage-dependent calcium channels.
+  JOURNAL   Gen Physiol Biophys 24 Suppl 1:1-78 (2005)
+REFERENCE   PMID:12763850
+  AUTHORS   Lingrel J, Moseley A, Dostanic I, Cougnon M, He S, James P, Woo A, O'Connor K, Neumann J
+  TITLE     Functional roles of the alpha isoforms of the Na,K-ATPase.
+  JOURNAL   Ann N Y Acad Sci 986:354-9 (2003)
+            DOI:10.1111/j.1749-6632.2003.tb07214.x
+REFERENCE   PMID:11294886
+  AUTHORS   Berg JS, Powell BC, Cheney RE
+  TITLE     A millennial myosin census.
+  JOURNAL   Mol Biol Cell 12:780-94 (2001)
+            DOI:10.1091/mbc.12.4.780
+REFERENCE   PMID:15736582
+  AUTHORS   Parmacek MS, Solaro RJ
+  TITLE     Biology of the troponin complex in cardiac myocytes.
+  JOURNAL   Prog Cardiovasc Dis 47:159-76 (2004)
+            DOI:10.1016/j.pcad.2004.07.003
+REFERENCE   PMID:14659803
+  AUTHORS   Yamashita H, Sugiura S, Fujita H, Yasuda S, Nagai R, Saeki Y, Sunagawa K, Sugi H
+  TITLE     Myosin light chain isoforms modify force-generating ability of cardiac myosin by changing the kinetics of actin-myosin interaction.
+  JOURNAL   Cardiovasc Res 60:580-8 (2003)
+            DOI:10.1016/j.cardiores.2003.09.011
+REFERENCE   PMID:19403607
+  AUTHORS   Pritchard TJ, Kranias EG
+  TITLE     Junctin and the histidine-rich Ca2+ binding protein: potential roles in heart failure and arrhythmogenesis.
+  JOURNAL   J Physiol 587:3125-33 (2009)
+            DOI:10.1113/jphysiol.2009.172171
+REFERENCE   PMID:28596175
+  AUTHORS   Landstrom AP, Dobrev D, Wehrens XHT
+  TITLE     Calcium Signaling and Cardiac Arrhythmias.
+  JOURNAL   Circ Res 120:1969-1993 (2017)
+            DOI:10.1161/CIRCRESAHA.117.310083
+REL_PATHWAY mmu04020  Calcium signaling pathway
+KO_PATHWAY  ko04260
+///

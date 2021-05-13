@@ -1,0 +1,271 @@
+ENTRY       mmu04390                    Pathway
+NAME        Hippo signaling pathway - Mus musculus (mouse)
+DESCRIPTION Hippo signaling is an evolutionarily conserved signaling pathway that controls organ size from flies to humans. In humans and mice, the pathway consists of the MST1 and MST2 kinases, their cofactor Salvador and LATS1 and LATS2. In response to high cell densities, activated LATS1/2 phosphorylates the transcriptional coactivators YAP and TAZ, promoting its cytoplasmic localization, leading to cell apoptosis and restricting organ size overgrowth. When the Hippo pathway is inactivated at low cell density, YAP/TAZ translocates into the nucleus to bind to the transcription enhancer factor (TEAD/TEF) family of transcriptional factors to promote cell growth and proliferation. YAP/TAZ also interacts with other transcriptional factors or signaling molecules, by which Hippo pathway-mediated processes are interconnected with those of other key signaling cascades, such as those mediated by TGF-beta and Wnt growth factors.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04390  Hippo signaling pathway
+DBLINKS     GO: 0035329
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        241324  Crb2; crumbs family member 2 [KO:K16681]
+            170788  Crb1; crumbs family member 1, photoreceptor morphogenesis associated [KO:K16681]
+            93742  Pard3; par-3 family cell polarity regulator [KO:K04237]
+            56513  Pard6a; par-6 family cell polarity regulator alpha [KO:K06093]
+            58220  Pard6b; par-6 family cell polarity regulator beta [KO:K06093]
+            93737  Pard6g; par-6 family cell polarity regulator gamma [KO:K06093]
+            18762  Prkcz; protein kinase C, zeta [KO:K18952] [EC:2.7.11.13]
+            18759  Prkci; protein kinase C, iota [KO:K06069] [EC:2.7.11.13]
+            12695  Patj; PATJ, crumbs cell polarity complex component [KO:K06092]
+            56217  Mpp5; membrane protein, palmitoylated 5 (MAGUK p55 subfamily member 5) [KO:K06091]
+            27494  Amot; angiomotin [KO:K16819]
+            22601  Yap1; yes-associated protein 1 [KO:K16687]
+            97064  Wwtr1; WW domain containing transcription regulator 1 [KO:K16820]
+            12550  Cdh1; cadherin 1 [KO:K05689]
+            16475  Ajuba; ajuba LIM protein [KO:K16682]
+            101543  Wtip; WT1-interacting protein [KO:K16682]
+            29806  Limd1; LIM domains containing 1 [KO:K16682]
+            18016  Nf2; neurofibromin 2 [KO:K16684]
+            211652  Wwc1; WW, C2 and coiled-coil domain containing 1 [KO:K16685]
+            319710  Frmd6; FERM domain containing 6 [KO:K16822]
+            64010  Sav1; salvador family WW domain containing 1 [KO:K16686]
+            56274  Stk3; serine/threonine kinase 3 [KO:K04412]
+            73246  Rassf6; Ras association (RalGDS/AF-6) domain family member 6 [KO:K09854]
+            56289  Rassf1; Ras association (RalGDS/AF-6) domain family member 1 [KO:K09850]
+            19052  Ppp2ca; protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform [KO:K04382] [EC:3.1.3.16]
+            19053  Ppp2cb; protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform [KO:K04382] [EC:3.1.3.16]
+            51792  Ppp2r1a; protein phosphatase 2, regulatory subunit A, alpha [KO:K03456]
+            73699  Ppp2r1b; protein phosphatase 2, regulatory subunit A, beta [KO:K03456]
+            52432  Ppp2r2d; protein phosphatase 2, regulatory subunit B, delta [KO:K04354]
+            72930  Ppp2r2b; protein phosphatase 2, regulatory subunit B, beta [KO:K04354]
+            269643  Ppp2r2c; protein phosphatase 2, regulatory subunit B, gamma [KO:K04354]
+            71978  Ppp2r2a; protein phosphatase 2, regulatory subunit B, alpha [KO:K04354]
+            16798  Lats1; large tumor suppressor [KO:K08791] [EC:2.7.11.1]
+            50523  Lats2; large tumor suppressor 2 [KO:K08791] [EC:2.7.11.1]
+            232157  Mob1a; MOB kinase activator 1A [KO:K06685]
+            68473  Mob1b; MOB kinase activator 1B [KO:K06685]
+            19045  Ppp1ca; protein phosphatase 1 catalytic subunit alpha [KO:K06269] [EC:3.1.3.16]
+            19046  Ppp1cb; protein phosphatase 1 catalytic subunit beta [KO:K06269] [EC:3.1.3.16]
+            19047  Ppp1cc; protein phosphatase 1 catalytic subunit gamma [KO:K06269] [EC:3.1.3.16]
+            434233  Ppp1ccb; protein phosphatase 1 catalytic subunit gamma B [KO:K06269] [EC:3.1.3.16]
+            209456  Trp53bp2; transformation related protein 53 binding protein 2 [KO:K16823]
+            16897  Llgl1; LLGL1 scribble cell polarity complex component [KO:K06094]
+            217325  Llgl2; LLGL2 scribble cell polarity complex component [KO:K06094]
+            105782  Scrib; scribbled planar cell polarity [KO:K16175]
+            13383  Dlg1; discs large MAGUK scaffold protein 1 [KO:K12076]
+            23859  Dlg2; discs large MAGUK scaffold protein 2 [KO:K12075]
+            53310  Dlg3; discs large MAGUK scaffold protein 3 [KO:K21098]
+            13385  Dlg4; discs large MAGUK scaffold protein 4 [KO:K11828]
+            71228  Dlg5; discs large MAGUK scaffold protein 5 [KO:K24050]
+            104318  Csnk1d; casein kinase 1, delta [KO:K08959] [EC:2.7.11.1]
+            27373  Csnk1e; casein kinase 1, epsilon [KO:K08960] [EC:2.7.11.1]
+            103583  Fbxw11; F-box and WD-40 domain protein 11 [KO:K03362]
+            12234  Btrc; beta-transducin repeat containing protein [KO:K03362]
+            22062  Trp73; transformation related protein 73 [KO:K10148]
+            170770  Bbc3; BCL2 binding component 3 [KO:K10132]
+            21676  Tead1; TEA domain family member 1 [KO:K09448]
+            21679  Tead4; TEA domain family member 4 [KO:K09448]
+            21678  Tead3; TEA domain family member 3 [KO:K09448]
+            21677  Tead2; TEA domain family member 2 [KO:K09448]
+            14219  Ccn2; cellular communication network factor 2 [KO:K06827]
+            14633  Gli2; GLI-Kruppel family member GLI2 [KO:K16798]
+            11839  Areg; amphiregulin [KO:K09782]
+            11799  Birc5; baculoviral IAP repeat-containing 5 [KO:K08731]
+            11576  Afp; alpha fetoprotein [KO:K16144]
+            16414  Itgb2; integrin beta 2 [KO:K06464]
+            16415  Itgb2l; integrin beta 2-like [KO:K06464]
+            14164  Fgf1; fibroblast growth factor 1 [KO:K18496]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            21808  Tgfb2; transforming growth factor, beta 2 [KO:K13376]
+            21809  Tgfb3; transforming growth factor, beta 3 [KO:K13377]
+            21812  Tgfbr1; transforming growth factor, beta receptor I [KO:K04674] [EC:2.7.11.30]
+            21813  Tgfbr2; transforming growth factor, beta receptor II [KO:K04388] [EC:2.7.11.30]
+            17131  Smad7; SMAD family member 7 [KO:K19631]
+            17126  Smad2; SMAD family member 2 [KO:K04500]
+            17127  Smad3; SMAD family member 3 [KO:K23605]
+            17128  Smad4; SMAD family member 4 [KO:K04501]
+            18787  Serpine1; serine (or cysteine) peptidase inhibitor, clade E, member 1 [KO:K03982]
+            12156  Bmp2; bone morphogenetic protein 2 [KO:K21283]
+            12159  Bmp4; bone morphogenetic protein 4 [KO:K04662]
+            12160  Bmp5; bone morphogenetic protein 5 [KO:K04663]
+            12161  Bmp6; bone morphogenetic protein 6 [KO:K16620]
+            12162  Bmp7; bone morphogenetic protein 7 [KO:K16621]
+            12164  Bmp8b; bone morphogenetic protein 8b [KO:K16622]
+            12163  Bmp8a; bone morphogenetic protein 8a [KO:K16622]
+            14563  Gdf5; growth differentiation factor 5 [KO:K04664]
+            242316  Gdf6; growth differentiation factor 6 [KO:K20012]
+            238057  Gdf7; growth differentiation factor 7 [KO:K20013]
+            11705  Amh; anti-Mullerian hormone [KO:K04665]
+            12166  Bmpr1a; bone morphogenetic protein receptor, type 1A [KO:K04673] [EC:2.7.11.30]
+            12167  Bmpr1b; bone morphogenetic protein receptor, type 1B [KO:K13578] [EC:2.7.11.30]
+            12168  Bmpr2; bone morphogenetic protein receptor, type II (serine/threonine kinase) [KO:K04671] [EC:2.7.11.30]
+            17125  Smad1; SMAD family member 1 [KO:K04676]
+            15901  Id1; inhibitor of DNA binding 1, HLH protein [KO:K04680]
+            15902  Id2; inhibitor of DNA binding 2 [KO:K17693]
+            22408  Wnt1; wingless-type MMTV integration site family, member 1 [KO:K03209]
+            22413  Wnt2; wingless-type MMTV integration site family, member 2 [KO:K00182]
+            22414  Wnt2b; wingless-type MMTV integration site family, member 2B [KO:K00182]
+            22415  Wnt3; wingless-type MMTV integration site family, member 3 [KO:K00312]
+            22416  Wnt3a; wingless-type MMTV integration site family, member 3A [KO:K00312]
+            22417  Wnt4; wingless-type MMTV integration site family, member 4 [KO:K00408]
+            22418  Wnt5a; wingless-type MMTV integration site family, member 5A [KO:K00444]
+            22419  Wnt5b; wingless-type MMTV integration site family, member 5B [KO:K00444]
+            22420  Wnt6; wingless-type MMTV integration site family, member 6 [KO:K00445]
+            22421  Wnt7a; wingless-type MMTV integration site family, member 7A [KO:K00572]
+            22422  Wnt7b; wingless-type MMTV integration site family, member 7B [KO:K00572]
+            20890  Wnt8a; wingless-type MMTV integration site family, member 8A [KO:K00714]
+            22423  Wnt8b; wingless-type MMTV integration site family, member 8B [KO:K00714]
+            216795  Wnt9a; wingless-type MMTV integration site family, member 9A [KO:K01064]
+            22412  Wnt9b; wingless-type MMTV integration site family, member 9B [KO:K01064]
+            22410  Wnt10b; wingless-type MMTV integration site family, member 10B [KO:K01357]
+            22409  Wnt10a; wingless-type MMTV integration site family, member 10A [KO:K01357]
+            22411  Wnt11; wingless-type MMTV integration site family, member 11 [KO:K01384]
+            93735  Wnt16; wingless-type MMTV integration site family, member 16 [KO:K01558]
+            14362  Fzd1; frizzled class receptor 1 [KO:K02432]
+            14369  Fzd7; frizzled class receptor 7 [KO:K02432]
+            57265  Fzd2; frizzled class receptor 2 [KO:K02235]
+            14365  Fzd3; frizzled class receptor 3 [KO:K02329]
+            14366  Fzd4; frizzled class receptor 4 [KO:K02354]
+            14367  Fzd5; frizzled class receptor 5 [KO:K02375]
+            14370  Fzd8; frizzled class receptor 8 [KO:K02375]
+            14368  Fzd6; frizzled class receptor 6 [KO:K02376]
+            93897  Fzd10; frizzled class receptor 10 [KO:K02842]
+            14371  Fzd9; frizzled class receptor 9 [KO:K02842]
+            13544  Dvl3; dishevelled segment polarity protein 3 [KO:K02353]
+            13542  Dvl1; dishevelled segment polarity protein 1 [KO:K02353]
+            13543  Dvl2; dishevelled segment polarity protein 2 [KO:K02353]
+            22631  Ywhaz; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide [KO:K16197]
+            54401  Ywhab; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide [KO:K16197]
+            22630  Ywhaq; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein theta [KO:K16197]
+            22627  Ywhae; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, epsilon polypeptide [KO:K06630]
+            22629  Ywhah; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide [KO:K16198]
+            22628  Ywhag; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, gamma polypeptide [KO:K16198]
+            56637  Gsk3b; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            12387  Ctnnb1; catenin (cadherin associated protein), beta 1 [KO:K02105]
+            11789  Apc; APC, WNT signaling pathway regulator [KO:K02085]
+            23805  Apc2; APC regulator of WNT signaling pathway 2 [KO:K02085]
+            12005  Axin1; axin 1 [KO:K02157]
+            12006  Axin2; axin 2 [KO:K04385]
+            93960  Nkd1; naked cuticle 1 [KO:K03213]
+            72293  Nkd2; naked cuticle 2 [KO:K03213]
+            21414  Tcf7; transcription factor 7, T cell specific [KO:K02620]
+            21415  Tcf7l1; transcription factor 7 like 1 (T cell specific, HMG box) [KO:K04490]
+            21416  Tcf7l2; transcription factor 7 like 2, T cell specific, HMG box [KO:K04491]
+            16842  Lef1; lymphoid enhancer binding factor 1 [KO:K04492]
+            17869  Myc; myelocytomatosis oncogene [KO:K04377]
+            12443  Ccnd1; cyclin D1 [KO:K04503]
+            12444  Ccnd2; cyclin D2 [KO:K10151]
+            12445  Ccnd3; cyclin D3 [KO:K10152]
+            20674  Sox2; SRY (sex determining region Y)-box 2 [KO:K16796]
+            20583  Snai2; snail family zinc finger 2 [KO:K05706]
+            11797  Birc2; baculoviral IAP repeat-containing 2 [KO:K16060]
+            11796  Birc3; baculoviral IAP repeat-containing 3 [KO:K16060]
+            11465  Actg1; actin, gamma, cytoplasmic 1 [KO:K05692]
+            11461  Actb; actin, beta [KO:K05692]
+            12386  Ctnna2; catenin (cadherin associated protein), alpha 2 [KO:K05691]
+            216033  Ctnna3; catenin (cadherin associated protein), alpha 3 [KO:K05691]
+            12385  Ctnna1; catenin (cadherin associated protein), alpha 1 [KO:K05691]
+REFERENCE   PMID:22750148
+  AUTHORS   Schroeder MC, Halder G
+  TITLE     Regulation of the Hippo pathway by cell architecture and mechanical signals.
+  JOURNAL   Semin Cell Dev Biol 23:803-11 (2012)
+            DOI:10.1016/j.semcdb.2012.06.001
+REFERENCE   PMID:21808241
+  AUTHORS   Zhao B, Tumaneng K, Guan KL
+  TITLE     The Hippo pathway in organ size control, tissue regeneration and stem cell self-renewal.
+  JOURNAL   Nat Cell Biol 13:877-83 (2011)
+            DOI:10.1038/ncb2303
+REFERENCE   PMID:21874053
+  AUTHORS   Mauviel A, Nallet-Staub F, Varelas X
+  TITLE     Integrating developmental signals: a Hippo in the (path)way.
+  JOURNAL   Oncogene 31:1743-56 (2012)
+            DOI:10.1038/onc.2011.363
+REFERENCE   PMID:21084559
+  AUTHORS   Zhao B, Li L, Guan KL
+  TITLE     Hippo signaling at a glance.
+  JOURNAL   J Cell Sci 123:4001-6 (2010)
+            DOI:10.1242/jcs.069070
+REFERENCE   PMID:20439427
+  AUTHORS   Zhao B, Li L, Lei Q, Guan KL
+  TITLE     The Hippo-YAP pathway in organ size control and tumorigenesis: an updated version.
+  JOURNAL   Genes Dev 24:862-74 (2010)
+            DOI:10.1101/gad.1909210
+REFERENCE   PMID:23034192
+  AUTHORS   Tremblay AM, Camargo FD
+  TITLE     Hippo signaling in mammalian stem cells.
+  JOURNAL   Semin Cell Dev Biol 23:818-26 (2012)
+            DOI:10.1016/j.semcdb.2012.08.001
+REFERENCE   PMID:21138973
+  AUTHORS   Halder G, Johnson RL
+  TITLE     Hippo signaling: growth control and beyond.
+  JOURNAL   Development 138:9-22 (2011)
+            DOI:10.1242/dev.045500
+REFERENCE   PMID:22658639
+  AUTHORS   Ramos A, Camargo FD
+  TITLE     The Hippo signaling pathway and stem cell biology.
+  JOURNAL   Trends Cell Biol 22:339-46 (2012)
+            DOI:10.1016/j.tcb.2012.04.006
+REFERENCE   PMID:20951342
+  AUTHORS   Pan D
+  TITLE     The hippo signaling pathway in development and cancer.
+  JOURNAL   Dev Cell 19:491-505 (2010)
+            DOI:10.1016/j.devcel.2010.09.011
+REFERENCE   PMID:21324984
+  AUTHORS   Bao Y, Hata Y, Ikeda M, Withanage K
+  TITLE     Mammalian Hippo pathway: from development to cancer and beyond.
+  JOURNAL   J Biochem 149:361-79 (2011)
+            DOI:10.1093/jb/mvr021
+REFERENCE   PMID:18955139
+  AUTHORS   Zhao B, Lei QY, Guan KL
+  TITLE     The Hippo-YAP pathway: new connections between regulation of organ size and cancer.
+  JOURNAL   Curr Opin Cell Biol 20:638-46 (2008)
+            DOI:10.1016/j.ceb.2008.10.001
+REFERENCE   PMID:20945341
+  AUTHORS   Chan SW, Lim CJ, Chen L, Chong YF, Huang C, Song H, Hong W
+  TITLE     The Hippo pathway in biological control and cancer development.
+  JOURNAL   J Cell Physiol 226:928-39 (2011)
+            DOI:10.1002/jcp.22435
+REFERENCE   PMID:18328423
+  AUTHORS   Zeng Q, Hong W
+  TITLE     The emerging role of the hippo pathway in cell contact inhibition, organ size control, and cancer development in mammals.
+  JOURNAL   Cancer Cell 13:188-92 (2008)
+            DOI:10.1016/j.ccr.2008.02.011
+REFERENCE   PMID:19846288
+  AUTHORS   Badouel C, Garg A, McNeill H
+  TITLE     Herding Hippos: regulating growth in flies and man.
+  JOURNAL   Curr Opin Cell Biol 21:837-43 (2009)
+            DOI:10.1016/j.ceb.2009.09.010
+REFERENCE   PMID:17975546
+  AUTHORS   Buttitta LA, Edgar BA
+  TITLE     How size is controlled: from Hippos to Yorkies.
+  JOURNAL   Nat Cell Biol 9:1225-7 (2007)
+            DOI:10.1038/ncb1107-1225
+REFERENCE   PMID:22683405
+  AUTHORS   Liu AM, Wong KF, Jiang X, Qiao Y, Luk JM
+  TITLE     Regulators of mammalian Hippo pathway in cancer.
+  JOURNAL   Biochim Biophys Acta 1826:357-64 (2012)
+            DOI:10.1016/j.bbcan.2012.05.006
+REFERENCE   PMID:22830020
+  AUTHORS   Fausti F, Di Agostino S, Sacconi A, Strano S, Blandino G
+  TITLE     Hippo and rassf1a Pathways: A Growing Affair.
+  JOURNAL   Mol Biol Int 2012:307628 (2012)
+            DOI:10.1155/2012/307628
+REFERENCE   PMID:22895435
+  AUTHORS   Halder G, Dupont S, Piccolo S
+  TITLE     Transduction of mechanical and cytoskeletal cues by YAP and TAZ.
+  JOURNAL   Nat Rev Mol Cell Biol 13:591-600 (2012)
+            DOI:10.1038/nrm3416
+REFERENCE   PMID:22153608
+  AUTHORS   Varelas X, Wrana JL
+  TITLE     Coordinating developmental signaling: novel roles for the Hippo pathway.
+  JOURNAL   Trends Cell Biol 22:88-96 (2012)
+            DOI:10.1016/j.tcb.2011.10.002
+REFERENCE   PMID:21376238
+  AUTHORS   Schlegelmilch K, Mohseni M, Kirak O, Pruszak J, Rodriguez JR, Zhou D, Kreger BT, Vasioukhin V, Avruch J, Brummelkamp TR, Camargo FD
+  TITLE     Yap1 acts downstream of alpha-catenin to control epidermal proliferation.
+  JOURNAL   Cell 144:782-95 (2011)
+            DOI:10.1016/j.cell.2011.02.031
+REL_PATHWAY mmu04120  Ubiquitin mediated proteolysis
+            mmu04310  Wnt signaling pathway
+            mmu04350  TGF-beta signaling pathway
+            mmu04520  Adherens junction
+            mmu04530  Tight junction
+KO_PATHWAY  ko04390
+///

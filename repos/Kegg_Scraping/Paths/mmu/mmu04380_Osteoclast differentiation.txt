@@ -1,0 +1,235 @@
+ENTRY       mmu04380                    Pathway
+NAME        Osteoclast differentiation - Mus musculus (mouse)
+DESCRIPTION The osteoclasts, multinucleared cells originating from the hematopoietic monocyte-macrophage lineage, are responsible for bone resorption. Osteoclastogenesis is mainly regulated by signaling pathways activated by RANK and immune receptors, whose ligands are expressed on the surface of osteoblasts. Signaling from RANK changes gene expression patterns through transcription factors like NFATc1 and characterizes the active osteoclast.
+CLASS       Organismal Systems; Development and regeneration
+PATHWAY_MAP mmu04380  Osteoclast differentiation
+DBLINKS     GO: 0030316
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        12977  Csf1; colony stimulating factor 1 (macrophage) [KO:K05453]
+            12978  Csf1r; colony stimulating factor 1 receptor [KO:K05090] [EC:2.7.10.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            15978  Ifng; interferon gamma [KO:K04687]
+            15979  Ifngr1; interferon gamma receptor 1 [KO:K05132]
+            15980  Ifngr2; interferon gamma receptor 2 [KO:K05133]
+            20846  Stat1; signal transducer and activator of transcription 1 [KO:K11220]
+            16175  Il1a; interleukin 1 alpha [KO:K04383]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+            16177  Il1r1; interleukin 1 receptor, type I [KO:K04386]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            21937  Tnfrsf1a; tumor necrosis factor receptor superfamily, member 1a [KO:K03158]
+            21803  Tgfb1; transforming growth factor, beta 1 [KO:K13375]
+            21808  Tgfb2; transforming growth factor, beta 2 [KO:K13376]
+            21812  Tgfbr1; transforming growth factor, beta receptor I [KO:K04674] [EC:2.7.11.30]
+            21813  Tgfbr2; transforming growth factor, beta receptor II [KO:K04388] [EC:2.7.11.30]
+            21943  Tnfsf11; tumor necrosis factor (ligand) superfamily, member 11 [KO:K05473]
+            21934  Tnfrsf11a; tumor necrosis factor receptor superfamily, member 11a, NFKB activator [KO:K05147]
+            18383  Tnfrsf11b; tumor necrosis factor receptor superfamily, member 11b (osteoprotegerin) [KO:K05148]
+            22030  Traf2; TNF receptor-associated factor 2 [KO:K03173] [EC:2.3.2.27]
+            22034  Traf6; TNF receptor-associated factor 6 [KO:K03175] [EC:2.3.2.27]
+            16818  Lck; lymphocyte protein tyrosine kinase [KO:K05856] [EC:2.7.10.2]
+            14360  Fyn; Fyn proto-oncogene [KO:K05703] [EC:2.7.10.2]
+            53859  Map3k14; mitogen-activated protein kinase kinase kinase 14 [KO:K04466] [EC:2.7.11.25]
+            12675  Chuk; conserved helix-loop-helix ubiquitous kinase [KO:K04467] [EC:2.7.11.10]
+            19698  Relb; avian reticuloendotheliosis viral (v-rel) oncogene related B [KO:K09253]
+            18034  Nfkb2; nuclear factor of kappa light polypeptide gene enhancer in B cells 2, p49/p100 [KO:K04469]
+            26409  Map3k7; mitogen-activated protein kinase kinase kinase 7 [KO:K04427] [EC:2.7.11.25]
+            66513  Tab1; TGF-beta activated kinase 1/MAP3K7 binding protein 1 [KO:K04403]
+            68652  Tab2; TGF-beta activated kinase 1/MAP3K7 binding protein 2 [KO:K04404]
+            16151  Ikbkg; inhibitor of kappaB kinase gamma [KO:K07210]
+            16150  Ikbkb; inhibitor of kappaB kinase beta [KO:K07209] [EC:2.7.11.10]
+            18035  Nfkbia; nuclear factor of kappa light polypeptide gene enhancer in B cells inhibitor, alpha [KO:K04734]
+            19697  Rela; v-rel reticuloendotheliosis viral oncogene homolog A (avian) [KO:K04735]
+            18033  Nfkb1; nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105 [KO:K02580]
+            18019  Nfatc2; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 2 [KO:K17332]
+            18018  Nfatc1; nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 1 [KO:K04446]
+            15977  Ifnb1; interferon beta 1, fibroblast [KO:K05415]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26399  Map2k6; mitogen-activated protein kinase kinase 6 [KO:K04433] [EC:2.7.12.2]
+            26416  Mapk14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            19094  Mapk11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            29857  Mapk12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            26415  Mapk13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            26400  Map2k7; mitogen-activated protein kinase kinase 7 [KO:K04431] [EC:2.7.12.2]
+            26419  Mapk8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            26420  Mapk9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            26414  Mapk10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            14281  Fos; FBJ osteosarcoma oncogene [KO:K04379]
+            14282  Fosb; FBJ osteosarcoma oncogene B [KO:K09029]
+            14284  Fosl2; fos-like antigen 2 [KO:K09030]
+            14283  Fosl1; fos-like antigen 1 [KO:K04502]
+            16476  Jun; jun proto-oncogene [KO:K04448]
+            16478  Jund; jun D proto-oncogene [KO:K04449]
+            16477  Junb; jun B proto-oncogene [KO:K09028]
+            19353  Rac1; Rac family small GTPase 1 [KO:K04392]
+            237038  Nox1; NADPH oxidase 1 [KO:K08008]
+            13057  Cyba; cytochrome b-245, alpha polypeptide [KO:K08009]
+            17970  Ncf2; neutrophil cytosolic factor 2 [KO:K08010]
+            17969  Ncf1; neutrophil cytosolic factor 1 [KO:K08011]
+            17972  Ncf4; neutrophil cytosolic factor 4 [KO:K08012]
+            12229  Btk; Bruton agammaglobulinemia tyrosine kinase [KO:K07370] [EC:2.7.10.2]
+            21682  Tec; tec protein tyrosine kinase [KO:K07364] [EC:2.7.10.2]
+            232790  Oscar; osteoclast associated receptor [KO:K14377]
+            18722  Pira1; paired-Ig-like receptor A1 [KO:K06512]
+            18726  Lilra6; leukocyte immunoglobulin-like receptor, subfamily A (with TM domain), member 6 [KO:K06512]
+            18727  Pira4; paired-Ig-like receptor A4 [KO:K06512]
+            18729  Pira6; paired-Ig-like receptor A6 [KO:K06512]
+            18733  Pirb; paired Ig-like receptor B [KO:K06512]
+            232801  Lilra5; leukocyte immunoglobulin-like receptor, subfamily A (with TM domain), member 5 [KO:K06512]
+            14728  Lilrb4a; leukocyte immunoglobulin-like receptor, subfamily B, member 4A [KO:K06512]
+            18724  Pira11; paired-Ig-like receptor A11 [KO:K06512]
+            100038909  Gm14548; predicted gene 14548 [KO:K06512]
+            18725  Pira2; paired-Ig-like receptor A2 [KO:K06512]
+            100041146  Gm15448; predicted gene 15448 [KO:K06512]
+            18730  Pira7; paired-Ig-like receptor A7 [KO:K06512]
+            14129  Fcgr1; Fc receptor, IgG, high affinity I [KO:K06498]
+            14130  Fcgr2b; Fc receptor, IgG, low affinity IIb [KO:K12560]
+            14131  Fcgr3; Fc receptor, IgG, low affinity III [KO:K16824]
+            246256  Fcgr4; Fc receptor, IgG, low affinity IV [KO:K06463]
+            83433  Trem2; triggering receptor expressed on myeloid cells 2 [KO:K14378]
+            19261  Sirpa; signal-regulatory protein alpha [KO:K06551]
+            668101  Sirpb1b; signal-regulatory protein beta 1B [KO:K06551]
+            100038947  Sirpb1c; signal-regulatory protein beta 1C [KO:K06551]
+            751864  Gm9733; predicted gene 9733 [KO:K06551]
+            320832  Sirpb1a; signal-regulatory protein beta 1A [KO:K06551]
+            22177  Tyrobp; TYRO protein tyrosine kinase binding protein [KO:K07992]
+            20963  Syk; spleen tyrosine kinase [KO:K05855] [EC:2.7.10.2]
+            17060  Blnk; B cell linker [KO:K07371]
+            16822  Lcp2; lymphocyte cytosolic protein 2 [KO:K07361]
+            234779  Plcg2; phospholipase C, gamma 2 [KO:K05859] [EC:3.1.4.11]
+            19057  Ppp3cc; protein phosphatase 3, catalytic subunit, gamma isoform [KO:K04348] [EC:3.1.3.16]
+            19055  Ppp3ca; protein phosphatase 3, catalytic subunit, alpha isoform [KO:K04348] [EC:3.1.3.16]
+            19056  Ppp3cb; protein phosphatase 3, catalytic subunit, beta isoform [KO:K04348] [EC:3.1.3.16]
+            19058  Ppp3r1; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type I) [KO:K06268]
+            19059  Ppp3r2; protein phosphatase 3, regulatory subunit B, alpha isoform (calcineurin B, type II) [KO:K06268]
+            12326  Camk4; calcium/calmodulin-dependent protein kinase IV [KO:K05869] [EC:2.7.11.17]
+            12912  Creb1; cAMP responsive element binding protein 1 [KO:K05870]
+            20375  Spi1; spleen focus forming virus (SFFV) proviral integration oncogene [KO:K09438]
+            17342  Mitf; melanogenesis associated transcription factor [KO:K09455]
+            13038  Ctsk; cathepsin K [KO:K01371] [EC:3.4.22.38]
+            11433  Acp5; acid phosphatase 5, tartrate resistant [KO:K14379] [EC:3.1.3.2]
+            12311  Calcr; calcitonin receptor [KO:K04576]
+            16416  Itgb3; integrin beta 3 [KO:K06493]
+            19016  Pparg; peroxisome proliferator activated receptor gamma [KO:K08530]
+            15975  Ifnar1; interferon (alpha and beta) receptor 1 [KO:K05130]
+            15976  Ifnar2; interferon (alpha and beta) receptor 2 [KO:K05131]
+            16451  Jak1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            54721  Tyk2; tyrosine kinase 2 [KO:K11219] [EC:2.7.10.2]
+            20847  Stat2; signal transducer and activator of transcription 2 [KO:K11221]
+            16391  Irf9; interferon regulatory factor 9 [KO:K04693]
+            12703  Socs1; suppressor of cytokine signaling 1 [KO:K04694]
+            12702  Socs3; suppressor of cytokine signaling 3 [KO:K04696]
+            14389  Gab2; growth factor receptor bound protein 2-associated protein 2 [KO:K08091]
+            14200  Fhl2; four and a half LIM domains 2 [KO:K14380]
+            74256  Cyld; CYLD lysine 63 deubiquitinase [KO:K08601] [EC:3.4.19.12]
+            18412  Sqstm1; sequestosome 1 [KO:K14381]
+COMPOUND    C00027  Hydrogen peroxide
+            C00076  Calcium cation
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+REFERENCE   PMID:16313349
+  AUTHORS   Takayanagi H, Sato K, Takaoka A, Taniguchi T
+  TITLE     Interplay between interferon and other cytokine systems in bone metabolism.
+  JOURNAL   Immunol Rev 208:181-93 (2005)
+            DOI:10.1111/j.0105-2896.2005.00337.x
+REFERENCE   PMID:20392226
+  AUTHORS   Takayanagi H
+  TITLE     New immune connections in osteoclast formation.
+  JOURNAL   Ann N Y Acad Sci 1192:117-23 (2010)
+            DOI:10.1111/j.1749-6632.2009.05303.x
+REFERENCE   PMID:19585227
+  AUTHORS   Nakashima T, Takayanagi H
+  TITLE     Osteoimmunology: crosstalk between the immune and bone systems.
+  JOURNAL   J Clin Immunol 29:555-67 (2009)
+            DOI:10.1007/s10875-009-9316-6
+REFERENCE   PMID:18722561
+  AUTHORS   Caetano-Lopes J, Canhao H, Fonseca JE
+  TITLE     Osteoimmunology--the hidden immune regulation of bone.
+  JOURNAL   Autoimmun Rev 8:250-5 (2009)
+            DOI:10.1016/j.autrev.2008.07.038
+REFERENCE   PMID:18451259
+  AUTHORS   Lorenzo J, Horowitz M, Choi Y
+  TITLE     Osteoimmunology: interactions of the bone and immune system.
+  JOURNAL   Endocr Rev 29:403-40 (2008)
+            DOI:10.1210/er.2007-0038
+REFERENCE   PMID:17869613
+  AUTHORS   David JP
+  TITLE     Osteoimmunology: a view from the bone.
+  JOURNAL   Adv Immunol 95:149-65 (2007)
+            DOI:10.1016/S0065-2776(07)95005-1
+REFERENCE   PMID:16313342
+  AUTHORS   Jimi E, Ghosh S
+  TITLE     Role of nuclear factor-kappaB in the immune system and bone.
+  JOURNAL   Immunol Rev 208:80-7 (2005)
+            DOI:10.1111/j.0105-2896.2005.00329.x
+REFERENCE   PMID:12748652
+  AUTHORS   Boyle WJ, Simonet WS, Lacey DL
+  TITLE     Osteoclast differentiation and activation.
+  JOURNAL   Nature 423:337-42 (2003)
+            DOI:10.1038/nature01658
+REFERENCE   PMID:17633024
+  AUTHORS   Darnay BG, Besse A, Poblenz AT, Lamothe B, Jacoby JJ
+  TITLE     TRAFs in RANK signaling.
+  JOURNAL   Adv Exp Med Biol 597:152-9 (2007)
+            DOI:10.1007/978-0-387-70630-6_12
+REFERENCE   PMID:15122243
+  AUTHORS   Baron R
+  TITLE     Arming the osteoclast.
+  JOURNAL   Nat Med 10:458-60 (2004)
+            DOI:10.1038/nm0504-458
+REFERENCE   PMID:17380158
+  AUTHORS   Takayanagi H
+  TITLE     Osteoimmunology: shared mechanisms and crosstalk between the immune and bone systems.
+  JOURNAL   Nat Rev Immunol 7:292-304 (2007)
+            DOI:10.1038/nri2062
+REFERENCE   PMID:20703218
+  AUTHORS   Krum SA, Chang J, Miranda-Carboni G, Wang CY
+  TITLE     Novel functions for NFkappaB: inhibition of bone formation.
+  JOURNAL   Nat Rev Rheumatol 6:607-11 (2010)
+            DOI:10.1038/nrrheum.2010.133
+REFERENCE   PMID:15817678
+  AUTHORS   Lee NK, Choi YG, Baik JY, Han SY, Jeong DW, Bae YS, Kim N, Lee SY
+  TITLE     A crucial role for reactive oxygen species in RANKL-induced osteoclast differentiation.
+  JOURNAL   Blood 106:852-9 (2005)
+            DOI:10.1182/blood-2004-09-3662
+REFERENCE   PMID:18329366
+  AUTHORS   Shinohara M, Koga T, Okamoto K, Sakaguchi S, Arai K, Yasuda H, Takai T, Kodama T, Morio T, Geha RS, Kitamura D, Kurosaki T, Ellmeier W, Takayanagi H
+  TITLE     Tyrosine kinases Btk and Tec regulate osteoclast differentiation by linking RANK and ITAM signals.
+  JOURNAL   Cell 132:794-806 (2008)
+            DOI:10.1016/j.cell.2007.12.037
+REFERENCE   PMID:15546140
+  AUTHORS   Takayanagi H, Kim S, Koga T, Taniguchi T
+  TITLE     Stat1-mediated cytoplasmic attenuation in osteoimmunology.
+  JOURNAL   J Cell Biochem 94:232-40 (2005)
+            DOI:10.1002/jcb.20316
+REFERENCE   PMID:18382763
+  AUTHORS   Jin W, Chang M, Paul EM, Babu G, Lee AJ, Reiley W, Wright A, Zhang M, You J, Sun SC
+  TITLE     Deubiquitinating enzyme CYLD negatively regulates RANK signaling and osteoclastogenesis in mice.
+  JOURNAL   J Clin Invest 118:1858-66 (2008)
+            DOI:10.1172/JCI34257
+REFERENCE   PMID:16184196
+  AUTHORS   Bai S, Kitaura H, Zhao H, Chen J, Muller JM, Schule R, Darnay B, Novack DV, Ross FP, Teitelbaum SL
+  TITLE     FHL2 inhibits the activated osteoclast in a TRAF6-dependent manner.
+  JOURNAL   J Clin Invest 115:2742-51 (2005)
+            DOI:10.1172/JCI24921
+REFERENCE   PMID:12110142
+  AUTHORS   Takayanagi H, Kim S, Taniguchi T
+  TITLE     Signaling crosstalk between RANKL and interferons in osteoclast differentiation.
+  JOURNAL   Arthritis Res 4 Suppl 3:S227-32 (2002)
+            DOI:10.1186/ar581
+REL_PATHWAY mmu04010  MAPK signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04064  NF-kappa B signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04630  JAK-STAT signaling pathway
+KO_PATHWAY  ko04380
+///

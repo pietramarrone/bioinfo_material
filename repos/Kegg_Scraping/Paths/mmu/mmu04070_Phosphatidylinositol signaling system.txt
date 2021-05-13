@@ -1,0 +1,146 @@
+ENTRY       mmu04070                    Pathway
+NAME        Phosphatidylinositol signaling system - Mus musculus (mouse)
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04070  Phosphatidylinositol signaling system
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        224020  Pi4ka; phosphatidylinositol 4-kinase alpha [KO:K00888] [EC:2.7.1.67]
+            107650  Pi4kb; phosphatidylinositol 4-kinase beta [KO:K19801] [EC:2.7.1.67]
+            84095  Pi4k2a; phosphatidylinositol 4-kinase type 2 alpha [KO:K13711] [EC:2.7.1.67]
+            67073  Pi4k2b; phosphatidylinositol 4-kinase type 2 beta [KO:K13711] [EC:2.7.1.67]
+            83493  Sacm1l; SAC1 suppressor of actin mutations 1-like (yeast) [KO:K21797] [EC:3.1.3.-]
+            101490  Inpp5f; inositol polyphosphate-5-phosphatase F [KO:K21798] [EC:3.1.3.-]
+            18717  Pip5k1c; phosphatidylinositol-4-phosphate 5-kinase, type 1 gamma [KO:K00889] [EC:2.7.1.68]
+            18719  Pip5k1b; phosphatidylinositol-4-phosphate 5-kinase, type 1 beta [KO:K00889] [EC:2.7.1.68]
+            18720  Pip5k1a; phosphatidylinositol-4-phosphate 5-kinase, type 1 alpha [KO:K00889] [EC:2.7.1.68]
+            320634  Ocrl; OCRL, inositol polyphosphate-5-phosphatase [KO:K01099] [EC:3.1.3.36]
+            16330  Inpp5b; inositol polyphosphate-5-phosphatase B [KO:K01099] [EC:3.1.3.36]
+            64436  Inpp5e; inositol polyphosphate-5-phosphatase E [KO:K20278] [EC:3.1.3.36]
+            104015  Synj1; synaptojanin 1 [KO:K20279] [EC:3.1.3.36]
+            20975  Synj2; synaptojanin 2 [KO:K20279] [EC:3.1.3.36]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            19211  Pten; phosphatase and tensin homolog [KO:K01110] [EC:3.1.3.16 3.1.3.48 3.1.3.67]
+            16331  Inpp5d; inositol polyphosphate-5-phosphatase D [KO:K03084] [EC:3.1.3.86]
+            16332  Inppl1; inositol polyphosphate phosphatase-like 1 [KO:K15909] [EC:3.1.3.86]
+            269180  Inpp4a; inositol polyphosphate-4-phosphatase, type I [KO:K01109] [EC:3.1.3.66]
+            234515  Inpp4b; inositol polyphosphate-4-phosphatase, type II [KO:K01109] [EC:3.1.3.66]
+            18711  Pikfyve; phosphoinositide kinase, FYVE type zinc finger containing [KO:K00921] [EC:2.7.1.150]
+            17772  Mtm1; X-linked myotubular myopathy gene 1 [KO:K01108] [EC:3.1.3.64 3.1.3.95]
+            53332  Mtmr1; myotubularin related protein 1 [KO:K18081] [EC:3.1.3.64 3.1.3.95]
+            77116  Mtmr2; myotubularin related protein 2 [KO:K18081] [EC:3.1.3.64 3.1.3.95]
+            170749  Mtmr4; myotubularin related protein 4 [KO:K18082] [EC:3.1.3.48 3.1.3.64 3.1.3.95]
+            74302  Mtmr3; myotubularin related protein 3 [KO:K18082] [EC:3.1.3.48 3.1.3.64 3.1.3.95]
+            219135  Mtmr6; myotubularin related protein 6 [KO:K18083] [EC:3.1.3.64 3.1.3.95]
+            54384  Mtmr7; myotubularin related protein 7 [KO:K18083] [EC:3.1.3.64 3.1.3.95]
+            97287  Mtmr14; myotubularin related protein 14 [KO:K18086] [EC:3.1.3.64 3.1.3.95]
+            117150  Pip4k2c; phosphatidylinositol-5-phosphate 4-kinase, type II, gamma [KO:K00920] [EC:2.7.1.149]
+            18718  Pip4k2a; phosphatidylinositol-5-phosphate 4-kinase, type II, alpha [KO:K00920] [EC:2.7.1.149]
+            108083  Pip4k2b; phosphatidylinositol-5-phosphate 4-kinase, type II, beta [KO:K00920] [EC:2.7.1.149]
+            219024  Pip4p1; phosphatidylinositol-4,5-bisphosphate 4-phosphatase 1 [KO:K13084] [EC:3.1.3.78]
+            72519  Pip4p2; phosphatidylinositol-4,5-bisphosphate 4-phosphatase 2 [KO:K13084] [EC:3.1.3.78]
+            225326  Pik3c3; phosphatidylinositol 3-kinase catalytic subunit type 3 [KO:K00914] [EC:2.7.1.137]
+            18704  Pik3c2a; phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 alpha [KO:K00923] [EC:2.7.1.154]
+            18705  Pik3c2g; phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma [KO:K00923] [EC:2.7.1.154]
+            240752  Pik3c2b; phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta [KO:K00923] [EC:2.7.1.154]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            18799  Plcd1; phospholipase C, delta 1 [KO:K05857] [EC:3.1.4.11]
+            72469  Plcd3; phospholipase C, delta 3 [KO:K05857] [EC:3.1.4.11]
+            18802  Plcd4; phospholipase C, delta 4 [KO:K05857] [EC:3.1.4.11]
+            74055  Plce1; phospholipase C, epsilon 1 [KO:K05860] [EC:3.1.4.11]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            234779  Plcg2; phospholipase C, gamma 2 [KO:K05859] [EC:3.1.4.11]
+            114875  Plcz1; phospholipase C, zeta 1 [KO:K05861] [EC:3.1.4.11]
+            69718  Ipmk; inositol polyphosphate multikinase [KO:K00915] [EC:2.7.1.140 2.7.1.151]
+            320404  Itpkb; inositol 1,4,5-trisphosphate 3-kinase B [KO:K00911] [EC:2.7.1.127]
+            228550  Itpka; inositol 1,4,5-trisphosphate 3-kinase A [KO:K00911] [EC:2.7.1.127]
+            233011  Itpkc; inositol 1,4,5-trisphosphate 3-kinase C [KO:K00911] [EC:2.7.1.127]
+            212111  Inpp5a; inositol polyphosphate-5-phosphatase A [KO:K01106] [EC:3.1.3.56]
+            217837  Itpk1; inositol 1,3,4-triphosphate 5/6 kinase [KO:K00913] [EC:2.7.1.159 2.7.1.134]
+            75678  Ippk; inositol 1,3,4,5,6-pentakisphosphate 2-kinase [KO:K10572] [EC:2.7.1.158]
+            27399  Ip6k1; inositol hexaphosphate kinase 1 [KO:K07756] [EC:2.7.4.21]
+            76500  Ip6k2; inositol hexaphosphate kinase 2 [KO:K07756] [EC:2.7.4.21]
+            271424  Ip6k3; inositol hexaphosphate kinase 3 [KO:K07756] [EC:2.7.4.21]
+            327655  Ppip5k1; diphosphoinositol pentakisphosphate kinase 1 [KO:K13024] [EC:2.7.4.24]
+            227399  Ppip5k2; diphosphoinositol pentakisphosphate kinase 2 [KO:K13024] [EC:2.7.4.24]
+            16329  Inpp1; inositol polyphosphate-1-phosphatase [KO:K01107] [EC:3.1.3.57]
+            114663  Impa2; inositol monophosphatase 2 [KO:K01092] [EC:3.1.3.25]
+            55980  Impa1; inositol (myo)-1(or 4)-monophosphatase 1 [KO:K01092] [EC:3.1.3.25]
+            242291  Bpnt2; 3'(2'), 5'-bisphosphate nucleotidase 2 [KO:K15759] [EC:3.1.3.7]
+            13139  Dgka; diacylglycerol kinase, alpha [KO:K00901] [EC:2.7.1.107]
+            110197  Dgkg; diacylglycerol kinase, gamma [KO:K00901] [EC:2.7.1.107]
+            110524  Dgkq; diacylglycerol kinase, theta [KO:K00901] [EC:2.7.1.107]
+            104418  Dgkz; diacylglycerol kinase zeta [KO:K00901] [EC:2.7.1.107]
+            217480  Dgkb; diacylglycerol kinase, beta [KO:K00901] [EC:2.7.1.107]
+            56077  Dgke; diacylglycerol kinase, epsilon [KO:K00901] [EC:2.7.1.107]
+            320127  Dgki; diacylglycerol kinase, iota [KO:K00901] [EC:2.7.1.107]
+            380921  Dgkh; diacylglycerol kinase, eta [KO:K00901] [EC:2.7.1.107]
+            227333  Dgkd; diacylglycerol kinase, delta [KO:K00901] [EC:2.7.1.107]
+            331374  Dgkk; diacylglycerol kinase kappa [KO:K00901] [EC:2.7.1.107]
+            74596  Cds1; CDP-diacylglycerol synthase 1 [KO:K00981] [EC:2.7.7.41]
+            110911  Cds2; CDP-diacylglycerol synthase (phosphatidate cytidylyltransferase) 2 [KO:K00981] [EC:2.7.7.41]
+            52858  Cdipt; CDP-diacylglycerol--inositol 3-phosphatidyltransferase (phosphatidylinositol synthase) [KO:K00999] [EC:2.7.8.11]
+            16438  Itpr1; inositol 1,4,5-trisphosphate receptor 1 [KO:K04958]
+            16439  Itpr2; inositol 1,4,5-triphosphate receptor 2 [KO:K04959]
+            16440  Itpr3; inositol 1,4,5-triphosphate receptor 3 [KO:K04960]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18751  Prkcb; protein kinase C, beta [KO:K19662] [EC:2.7.11.13]
+            18752  Prkcg; protein kinase C, gamma [KO:K19663] [EC:2.7.11.13]
+            12313  Calm1; calmodulin 1 [KO:K02183]
+            80796  Calm4; calmodulin 4 [KO:K02183]
+            12315  Calm3; calmodulin 3 [KO:K02183]
+            12314  Calm2; calmodulin 2 [KO:K02183]
+            70405  Calml3; calmodulin-like 3 [KO:K02183]
+            494124  Calm5; calmodulin 5 [KO:K02183]
+            75600  Calml4; calmodulin-like 4 [KO:K02183]
+COMPOUND    C00076  Calcium cation
+            C00137  myo-Inositol
+            C00269  CDP-diacylglycerol
+            C00416  Phosphatidate
+            C00641  1,2-Diacyl-sn-glycerol
+            C01177  Inositol 1-phosphate
+            C01194  1-Phosphatidyl-D-myo-inositol
+            C01204  Phytic acid
+            C01220  1D-myo-Inositol 1,4-bisphosphate
+            C01243  1D-myo-Inositol 1,3,4-trisphosphate
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01272  1D-myo-Inositol 1,3,4,5-tetrakisphosphate
+            C01277  1-Phosphatidyl-1D-myo-inositol 4-phosphate
+            C01284  1D-myo-Inositol 1,3,4,5,6-pentakisphosphate
+            C03546  myo-Inositol 4-phosphate
+            C04006  1D-myo-Inositol 3-phosphate
+            C04062  D-myo-Inositol 1,3-bisphosphate
+            C04063  D-myo-Inositol 3,4-bisphosphate
+            C04477  1D-myo-Inositol 1,3,4,6-tetrakisphosphate
+            C04549  1-Phosphatidyl-1D-myo-inositol 3-phosphate
+            C04637  1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+            C11174  1-Diphosinositol pentakisphosphate
+            C11526  5-PP-InsP5
+            C11554  1-Phosphatidyl-1D-myo-inositol 3,4-bisphosphate
+            C11555  1D-myo-Inositol 1,4,5,6-tetrakisphosphate
+            C11556  1-Phosphatidyl-1D-myo-inositol 3,5-bisphosphate
+            C11557  1-Phosphatidyl-1D-myo-inositol 5-phosphate
+            C20690  1D-myo-Inositol 1,5-bis(diphosphate) 2,3,4,6-tetrakisphosphate
+REFERENCE   PMID:19580826
+  AUTHORS   Sasaki T, Takasuga S, Sasaki J, Kofuji S, Eguchi S, Yamazaki M, Suzuki A
+  TITLE     Mammalian phosphoinositide kinases and phosphatases.
+  JOURNAL   Prog Lipid Res 48:307-43 (2009)
+            DOI:10.1016/j.plipres.2009.06.001
+REFERENCE   PMID:19439500
+  AUTHORS   Shears SB
+  TITLE     Diphosphoinositol polyphosphates: metabolic messengers?
+  JOURNAL   Mol Pharmacol 76:236-52 (2009)
+            DOI:10.1124/mol.109.055897
+REL_PATHWAY mmu04020  Calcium signaling pathway
+            mmu04144  Endocytosis
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04510  Focal adhesion
+KO_PATHWAY  ko04070
+///

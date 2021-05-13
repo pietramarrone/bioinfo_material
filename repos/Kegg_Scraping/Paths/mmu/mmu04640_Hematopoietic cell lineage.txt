@@ -1,0 +1,161 @@
+ENTRY       mmu04640                    Pathway
+NAME        Hematopoietic cell lineage - Mus musculus (mouse)
+DESCRIPTION Blood-cell development progresses from a hematopoietic stem cell (HSC), which can undergo either self-renewal or differentiation into a multilineage committed progenitor cell: a common lymphoid progenitor (CLP) or a common myeloid progenitor (CMP). A CLP gives rise to the lymphoid lineage of white blood cells or leukocytes-the natural killer (NK) cells and the T and B lymphocytes. A CMP gives rise to the myeloid lineage, which comprises the rest of the leukocytes, the erythrocytes (red blood cells), and the megakaryocytes that produce platelets important in blood clotting. Cells undergoing these differentiation process express a stage- and lineage-specific set of surface markers. Therefore cellular stages are identified by the specific expression patterns of these genes.
+CLASS       Organismal Systems; Immune system
+PATHWAY_MAP mmu04640  Hematopoietic cell lineage
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        17311  Kitl; kit ligand [KO:K05461]
+            16196  Il7; interleukin 7 [KO:K05431]
+            16189  Il4; interleukin 4 [KO:K05430]
+            12981  Csf2; colony stimulating factor 2 (granulocyte-macrophage) [KO:K05427]
+            14256  Flt3l; FMS-like tyrosine kinase 3 ligand [KO:K05454]
+            16191  Il5; interleukin 5 [KO:K05428]
+            12985  Csf3; colony stimulating factor 3 (granulocyte) [KO:K05423]
+            16187  Il3; interleukin 3 [KO:K04736]
+            16193  Il6; interleukin 6 [KO:K05405]
+            16156  Il11; interleukin 11 [KO:K05417]
+            16175  Il1a; interleukin 1 alpha [KO:K04383]
+            16176  Il1b; interleukin 1 beta [KO:K04519]
+            21926  Tnf; tumor necrosis factor [KO:K03156]
+            12977  Csf1; colony stimulating factor 1 (macrophage) [KO:K05453]
+            13856  Epo; erythropoietin [KO:K05437]
+            21832  Thpo; thrombopoietin [KO:K06854]
+            12490  Cd34; CD34 antigen [KO:K06474]
+            14255  Flt3; FMS-like tyrosine kinase 3 [KO:K05092] [EC:2.7.10.1]
+            21673  Dntt; deoxynucleotidyltransferase, terminal [KO:K00977] [EC:2.7.7.31]
+            14960  H2-Aa; histocompatibility 2, class II antigen A, alpha [KO:K06752]
+            14961  H2-Ab1; histocompatibility 2, class II antigen A, beta 1 [KO:K06752]
+            14969  H2-Eb1; histocompatibility 2, class II antigen E beta [KO:K06752]
+            14998  H2-DMa; histocompatibility 2, class II, locus DMa [KO:K06752]
+            14999  H2-DMb1; histocompatibility 2, class II, locus Mb1 [KO:K06752]
+            15000  H2-DMb2; histocompatibility 2, class II, locus Mb2 [KO:K06752]
+            15001  H2-Oa; histocompatibility 2, O region alpha locus [KO:K06752]
+            15002  H2-Ob; histocompatibility 2, O region beta locus [KO:K06752]
+            100504404  H2-Ea; histocompatibility 2, class II antigen E alpha [KO:K06752]
+            12505  Cd44; CD44 antigen [KO:K06256]
+            16590  Kit; KIT proto-oncogene receptor tyrosine kinase [KO:K05091] [EC:2.7.10.1]
+            16184  Il2ra; interleukin 2 receptor, alpha chain [KO:K05068]
+            16197  Il7r; interleukin 7 receptor [KO:K05072]
+            22042  Tfrc; transferrin receptor [KO:K06503]
+            12494  Cd38; CD38 antigen [KO:K01242] [EC:3.2.2.6 2.4.99.20]
+            12516  Cd7; CD7 antigen [KO:K06457]
+            12481  Cd2; CD2 antigen [KO:K06449]
+            12507  Cd5; CD5 antigen [KO:K06455]
+            12479  Cd1d1; CD1d1 antigen [KO:K06448]
+            12480  Cd1d2; CD1d2 antigen [KO:K06448]
+            12504  Cd4; CD4 antigen [KO:K06454]
+            12525  Cd8a; CD8 antigen, alpha chain [KO:K06458]
+            12526  Cd8b1; CD8 antigen, beta chain 1 [KO:K06459]
+            12500  Cd3d; CD3 antigen, delta polypeptide [KO:K06450]
+            12501  Cd3e; CD3 antigen, epsilon polypeptide [KO:K06451]
+            12502  Cd3g; CD3 antigen, gamma polypeptide [KO:K06452]
+            17380  Mme; membrane metallo endopeptidase [KO:K01389] [EC:3.4.24.11]
+            12527  Cd9; CD9 antigen [KO:K06460]
+            12478  Cd19; CD19 antigen [KO:K06465]
+            12483  Cd22; CD22 antigen [KO:K06467]
+            12484  Cd24a; CD24a antigen [KO:K06469]
+            12482  Ms4a1; membrane-spanning 4-domains, subfamily A, member 1 [KO:K06466]
+            12902  Cr2; complement receptor 2 [KO:K04012]
+            12493  Cd37; CD37 antigen [KO:K06475]
+            14128  Fcer2a; Fc receptor, IgE, low affinity II, alpha polypeptide [KO:K06468]
+            12946  Cr1l; complement component (3b/4b) receptor 1-like [KO:K04011]
+            12982  Csf2ra; colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage) [KO:K05066]
+            16188  Il3ra; interleukin 3 receptor, alpha chain [KO:K04737]
+            12489  Cd33; CD33 antigen [KO:K06473]
+            233274  Siglech; sialic acid binding Ig-like lectin H [KO:K06473]
+            16190  Il4ra; interleukin 4 receptor, alpha [KO:K05071]
+            16194  Il6ra; interleukin 6 receptor, alpha [KO:K05055]
+            14129  Fcgr1; Fc receptor, IgG, high affinity I [KO:K06498]
+            12978  Csf1r; colony stimulating factor 1 receptor [KO:K05090] [EC:2.7.10.1]
+            16790  Anpep; alanyl (membrane) aminopeptidase [KO:K11140] [EC:3.4.11.2]
+            16409  Itgam; integrin alpha M [KO:K06461]
+            12475  Cd14; CD14 antigen [KO:K04391]
+            16199  Il9r; interleukin 9 receptor [KO:K05073]
+            16177  Il1r1; interleukin 1 receptor, type I [KO:K04386]
+            16178  Il1r2; interleukin 1 receptor, type II [KO:K04387]
+            12986  Csf3r; colony stimulating factor 3 receptor (granulocyte) [KO:K05061]
+            16192  Il5ra; interleukin 5 receptor, alpha [KO:K05067]
+            13857  Epor; erythropoietin receptor [KO:K05079]
+            12491  Cd36; CD36 molecule [KO:K06259]
+            14934  Gypa; glycophorin A [KO:K06575]
+            13136  Cd55; CD55 molecule, decay accelerating factor for complement [KO:K04006]
+            13137  Cd55b; CD55 molecule, decay accelerating factor for complement B [KO:K04006]
+            12509  Cd59a; CD59a antigen [KO:K04008]
+            333883  Cd59b; CD59b antigen [KO:K04008]
+            16157  Il11ra1; interleukin 11 receptor, alpha chain 1 [KO:K05056]
+            16158  Il11ra2; interleukin 11 receptor, alpha chain 2 [KO:K05056]
+            100861969  interleukin-11 receptor subunit alpha-2-like [KO:K05056]
+            100042555  Gm13305; predicted gene 13305 [KO:K05056]
+            100038993  Gm2002; predicted gene 2002 [KO:K05056]
+            16416  Itgb3; integrin beta 3 [KO:K06493]
+            16399  Itga2b; integrin alpha 2b [KO:K06476]
+            54368  Gp9; glycoprotein 9 (platelet) [KO:K06263]
+            14723  Gp1ba; glycoprotein 1b, alpha polypeptide [KO:K06261]
+            14724  Gp1bb; glycoprotein Ib, beta polypeptide [KO:K06262]
+            14729  Gp5; glycoprotein 5 (platelet) [KO:K06260]
+            109700  Itga1; integrin alpha 1 [KO:K06480]
+            16398  Itga2; integrin alpha 2 [KO:K06481]
+            16400  Itga3; integrin alpha 3 [KO:K06482]
+            16401  Itga4; integrin alpha 4 [KO:K06483]
+            16402  Itga5; integrin alpha 5 (fibronectin receptor alpha) [KO:K06484]
+            16403  Itga6; integrin alpha 6 [KO:K06485]
+REFERENCE   
+  AUTHORS   Janeway CA Jr, Travers P, Walport M, Shlomchik MJ
+  TITLE     Immunobiology - International editon: The immune system in health and disease
+  JOURNAL   Harcourt Publishers Ltd, a subsidiary of Harcourt International Ltd (2001)
+REFERENCE   (Japanese)
+  AUTHORS   Abe T
+  TITLE     [Atlas of malignancies in hematopoietic organ - Morphology, immunology, chromosome and gene] (Japanese)
+  JOURNAL   Nihonijishinhousya (2000)
+REFERENCE   PMID:15771582
+  AUTHORS   Rothenberg EV, Taghon T.
+  TITLE     Molecular genetics of T cell development.
+  JOURNAL   Annu Rev Immunol 23:601-49 (2005)
+            DOI:10.1146/annurev.immunol.23.021704.115737
+REFERENCE   PMID:12415312
+  AUTHORS   Ceredig R, Rolink T.
+  TITLE     A positive look at double-negative thymocytes.
+  JOURNAL   Nat Rev Immunol 2:888-97 (2002)
+            DOI:10.1038/nri937
+REFERENCE   PMID:15156179
+  AUTHORS   de Bruijn MF, Speck NA.
+  TITLE     Core-binding factors in hematopoiesis and immune function.
+  JOURNAL   Oncogene 23:4238-48 (2004)
+            DOI:10.1038/sj.onc.1207763
+REFERENCE   PMID:14985712
+  AUTHORS   Radtke F, Wilson A, Mancini SJ, MacDonald HR.
+  TITLE     Notch regulation of lymphocyte development and function.
+  JOURNAL   Nat Immunol 5:247-53 (2004)
+            DOI:10.1038/ni1045
+REFERENCE   PMID:12360214
+  AUTHORS   Spits H.
+  TITLE     Development of alphabeta T cells in the human thymus.
+  JOURNAL   Nat Rev Immunol 2:760-72 (2002)
+            DOI:10.1038/nri913
+REFERENCE   PMID:9927518
+  AUTHORS   Di Santo JP, Aifantis I, Rosmaraki E, Garcia C, Feinberg J, Fehling HJ, Fischer A, von Boehmer H, Rocha B.
+  TITLE     The common cytokine receptor gamma chain and the pre-T cell receptor provide independent but critically overlapping signals in early alpha/beta T cell development.
+  JOURNAL   J Exp Med 189:563-74 (1999)
+            DOI:10.1084/jem.189.3.563
+REFERENCE   PMID:11905810
+  AUTHORS   Mak TW, Penninger JM, Ohashi PS.
+  TITLE     Knockout mice: a paradigm shift in modern immunology.
+  JOURNAL   Nat Rev Immunol 1:11-9 (2001)
+            DOI:10.1038/35095551
+REFERENCE   PMID:15738953
+  AUTHORS   Shapiro-Shelef M, Calame K.
+  TITLE     Regulation of plasma-cell development.
+  JOURNAL   Nat Rev Immunol 5:230-42 (2005)
+            DOI:10.1038/nri1572
+REFERENCE   PMID:14670296
+  AUTHORS   Maillard I, Adler SH, Pear WS.
+  TITLE     Notch and the immune system.
+  JOURNAL   Immunity 19:781-91 (2003)
+            DOI:10.1016/S1074-7613(03)00325-X
+REFERENCE   PMID:15629410
+  AUTHORS   Alpdogan O, van den Brink MR.
+  TITLE     IL-7 and IL-15: therapeutic cytokines for immunodeficiency.
+  JOURNAL   Trends Immunol 26:56-64 (2005)
+            DOI:10.1016/j.it.2004.11.002
+KO_PATHWAY  ko04640
+///

@@ -1,0 +1,292 @@
+ENTRY       mmu04072                    Pathway
+NAME        Phospholipase D signaling pathway - Mus musculus (mouse)
+DESCRIPTION Phospholipase D (PLD) is an essential enzyme responsible for the production of the lipid second messenger phosphatidic acid (PA), which is involved in fundamental cellular processes, including membrane trafficking, actin cytoskeleton remodeling, cell proliferation and cell survival. PLD activity can be stimulated by a large number of cell surface receptors and is elaborately regulated by intracellular factors, including protein kinase C isoforms, small GTPases of the ARF, Rho and Ras families and the phosphoinositide, phosphatidylinositol 4,5-bisphosphate (PIP2). The PLD-produced PA activates signaling proteins and acts as a node within the membrane to which signaling proteins translocate. Several signaling proteins, including Raf-1 and mTOR, directly bind PA to mediate translocation or activation, respectively.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP mmu04072  Phospholipase D signaling pathway
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        13645  Egf; epidermal growth factor [KO:K04357]
+            18590  Pdgfa; platelet derived growth factor, alpha [KO:K04359]
+            18591  Pdgfb; platelet derived growth factor, B polypeptide [KO:K17386]
+            54635  Pdgfc; platelet-derived growth factor, C polypeptide [KO:K05450]
+            71785  Pdgfd; platelet-derived growth factor, D polypeptide [KO:K05450]
+            17311  Kitl; kit ligand [KO:K05461]
+            16334  Ins2; insulin II [KO:K04526]
+            16333  Ins1; insulin I [KO:K04526]
+            13649  Egfr; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            18595  Pdgfra; platelet derived growth factor receptor, alpha polypeptide [KO:K04363] [EC:2.7.10.1]
+            18596  Pdgfrb; platelet derived growth factor receptor, beta polypeptide [KO:K05089] [EC:2.7.10.1]
+            16590  Kit; KIT proto-oncogene receptor tyrosine kinase [KO:K05091] [EC:2.7.10.1]
+            16337  Insr; insulin receptor [KO:K04527] [EC:2.7.10.1]
+            14784  Grb2; growth factor receptor bound protein 2 [KO:K04364]
+            14388  Gab1; growth factor receptor bound protein 2-associated protein 1 [KO:K09593]
+            14389  Gab2; growth factor receptor bound protein 2-associated protein 2 [KO:K08091]
+            20416  Shc1; src homology 2 domain-containing transforming protein C1 [KO:K06279]
+            216148  Shc2; SHC (Src homology 2 domain containing) transforming protein 2 [KO:K17447]
+            20418  Shc3; src homology 2 domain-containing transforming protein C3 [KO:K17448]
+            271849  Shc4; SHC (Src homology 2 domain containing) family, member 4 [KO:K17449]
+            19247  Ptpn11; protein tyrosine phosphatase, non-receptor type 11 [KO:K07293] [EC:3.1.3.48]
+            20662  Sos1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            20663  Sos2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            15461  Hras; Harvey rat sarcoma virus oncogene [KO:K02833]
+            16653  Kras; Kirsten rat sarcoma viral oncogene homolog [KO:K07827]
+            18176  Nras; neuroblastoma ras oncogene [KO:K07828]
+            17532  Mras; muscle and microspikes RAS [KO:K07831]
+            20130  Rras; related RAS viral (r-ras) oncogene [KO:K07829]
+            66922  Rras2; related RAS viral (r-ras) oncogene 2 [KO:K07830]
+            19730  Ralgds; ral guanine nucleotide dissociation stimulator [KO:K08732]
+            56044  Rala; v-ral simian leukemia viral oncogene A (ras related) [KO:K07834]
+            64143  Ralb; v-ral simian leukemia viral oncogene B [KO:K07835]
+            18706  Pik3ca; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            18707  Pik3cd; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            74769  Pik3cb; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            18709  Pik3r2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            18708  Pik3r1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            18710  Pik3r3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            11651  Akt1; thymoma viral proto-oncogene 1 [KO:K04456] [EC:2.7.11.1]
+            11652  Akt2; thymoma viral proto-oncogene 2 [KO:K04456] [EC:2.7.11.1]
+            23797  Akt3; thymoma viral proto-oncogene 3 [KO:K04456] [EC:2.7.11.1]
+            64930  Tsc1; TSC complex subunit 1 [KO:K07206]
+            22084  Tsc2; TSC complex subunit 2 [KO:K07207]
+            19744  Rheb; Ras homolog enriched in brain [KO:K07208]
+            56717  Mtor; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            11848  Rhoa; ras homolog family member A [KO:K04513]
+            67653  4930544G11Rik; RIKEN cDNA 4930544G11 gene [KO:K04513]
+            11840  Arf1; ADP-ribosylation factor 1 [KO:K07937]
+            11841  Arf2; ADP-ribosylation factor 2 [KO:K07937]
+            11845  Arf6; ADP-ribosylation factor 6 [KO:K07941]
+            18803  Plcg1; phospholipase C, gamma 1 [KO:K01116] [EC:3.1.4.11]
+            234779  Plcg2; phospholipase C, gamma 2 [KO:K05859] [EC:3.1.4.11]
+            14125  Fcer1a; Fc receptor, IgE, high affinity I, alpha polypeptide [KO:K08089]
+            14126  Ms4a2; membrane-spanning 4-domains, subfamily A, member 2 [KO:K08090]
+            14127  Fcer1g; Fc receptor, IgE, high affinity I, gamma polypeptide [KO:K07983]
+            14360  Fyn; Fyn proto-oncogene [KO:K05703] [EC:2.7.10.2]
+            20963  Syk; spleen tyrosine kinase [KO:K05855] [EC:2.7.10.2]
+            18750  Prkca; protein kinase C, alpha [KO:K02677] [EC:2.7.11.13]
+            18806  Pld2; phospholipase D2 [KO:K01115] [EC:3.1.4.4]
+            18805  Pld1; phospholipase D1 [KO:K01115] [EC:3.1.4.4]
+            329502  Pla2g4e; phospholipase A2, group IVE [KO:K16342] [EC:3.1.1.4]
+            18783  Pla2g4a; phospholipase A2, group IVA (cytosolic, calcium-dependent) [KO:K16342] [EC:3.1.1.4]
+            211429  Pla2g4b; phospholipase A2, group IVB (cytosolic) [KO:K16342] [EC:3.1.1.4]
+            232889  Pla2g4c; phospholipase A2, group IVC (cytosolic, calcium-independent) [KO:K16342] [EC:3.1.1.4]
+            78390  Pla2g4d; phospholipase A2, group IVD [KO:K16342] [EC:3.1.1.4]
+            271844  Pla2g4f; phospholipase A2, group IVF [KO:K16342] [EC:3.1.1.4]
+            55979  Agpat1; 1-acylglycerol-3-phosphate O-acyltransferase 1 (lysophosphatidic acid acyltransferase, alpha) [KO:K13509] [EC:2.3.1.51]
+            67512  Agpat2; 1-acylglycerol-3-phosphate O-acyltransferase 2 (lysophosphatidic acid acyltransferase, beta) [KO:K13509] [EC:2.3.1.51]
+            28169  Agpat3; 1-acylglycerol-3-phosphate O-acyltransferase 3 [KO:K13523] [EC:2.3.1.51 2.3.1.-]
+            68262  Agpat4; 1-acylglycerol-3-phosphate O-acyltransferase 4 (lysophosphatidic acid acyltransferase, delta) [KO:K13523] [EC:2.3.1.51 2.3.1.-]
+            52123  Agpat5; 1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon) [KO:K19007] [EC:2.3.1.51]
+            56632  Sphk2; sphingosine kinase 2 [KO:K04718] [EC:2.7.1.91]
+            20698  Sphk1; sphingosine kinase 1 [KO:K04718] [EC:2.7.1.91]
+            110157  Raf1; v-raf-leukemia viral oncogene 1 [KO:K04366] [EC:2.7.11.1]
+            26395  Map2k1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            26396  Map2k2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            26413  Mapk1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            26417  Mapk3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            18717  Pip5k1c; phosphatidylinositol-4-phosphate 5-kinase, type 1 gamma [KO:K00889] [EC:2.7.1.68]
+            18719  Pip5k1b; phosphatidylinositol-4-phosphate 5-kinase, type 1 beta [KO:K00889] [EC:2.7.1.68]
+            18720  Pip5k1a; phosphatidylinositol-4-phosphate 5-kinase, type 1 alpha [KO:K00889] [EC:2.7.1.68]
+            13139  Dgka; diacylglycerol kinase, alpha [KO:K00901] [EC:2.7.1.107]
+            110197  Dgkg; diacylglycerol kinase, gamma [KO:K00901] [EC:2.7.1.107]
+            110524  Dgkq; diacylglycerol kinase, theta [KO:K00901] [EC:2.7.1.107]
+            104418  Dgkz; diacylglycerol kinase zeta [KO:K00901] [EC:2.7.1.107]
+            217480  Dgkb; diacylglycerol kinase, beta [KO:K00901] [EC:2.7.1.107]
+            56077  Dgke; diacylglycerol kinase, epsilon [KO:K00901] [EC:2.7.1.107]
+            320127  Dgki; diacylglycerol kinase, iota [KO:K00901] [EC:2.7.1.107]
+            380921  Dgkh; diacylglycerol kinase, eta [KO:K00901] [EC:2.7.1.107]
+            227333  Dgkd; diacylglycerol kinase, delta [KO:K00901] [EC:2.7.1.107]
+            331374  Dgkk; diacylglycerol kinase kappa [KO:K00901] [EC:2.7.1.107]
+            19012  Plpp1; phospholipid phosphatase 1 [KO:K01080] [EC:3.1.3.4]
+            50784  Plpp2; phospholipid phosphatase 2 [KO:K01080] [EC:3.1.3.4]
+            67916  Plpp3; phospholipid phosphatase 3 [KO:K01080] [EC:3.1.3.4]
+            14061  F2; coagulation factor II [KO:K01313] [EC:3.4.21.5]
+            11606  Agt; angiotensinogen (serpin peptidase inhibitor, clade A, member 8) [KO:K09821]
+            11998  Avp; arginine vasopressin [KO:K05242]
+            11607  Agtr1a; angiotensin II receptor, type 1a [KO:K04166]
+            11608  Agtr1b; angiotensin II receptor, type 1b [KO:K04166]
+            14062  F2r; coagulation factor II (thrombin) receptor [KO:K03914]
+            14816  Grm1; glutamate receptor, metabotropic 1 [KO:K04603]
+            108068  Grm2; glutamate receptor, metabotropic 2 [KO:K04605]
+            108069  Grm3; glutamate receptor, metabotropic 3 [KO:K04606]
+            268934  Grm4; glutamate receptor, metabotropic 4 [KO:K04607]
+            108071  Grm5; glutamate receptor, metabotropic 5 [KO:K04604]
+            108072  Grm6; glutamate receptor, metabotropic 6 [KO:K04608]
+            108073  Grm7; glutamate receptor, metabotropic 7 [KO:K04609]
+            14823  Grm8; glutamate receptor, metabotropic 8 [KO:K04610]
+            54140  Avpr1a; arginine vasopressin receptor 1A [KO:K04226]
+            26361  Avpr1b; arginine vasopressin receptor 1B [KO:K04227]
+            12000  Avpr2; arginine vasopressin receptor 2 [KO:K04228]
+            14745  Lpar1; lysophosphatidic acid receptor 1 [KO:K04289]
+            53978  Lpar2; lysophosphatidic acid receptor 2 [KO:K04291]
+            65086  Lpar3; lysophosphatidic acid receptor 3 [KO:K04294]
+            78134  Lpar4; lysophosphatidic acid receptor 4 [KO:K04275]
+            381810  Lpar5; lysophosphatidic acid receptor 5 [KO:K08390]
+            67168  Lpar6; lysophosphatidic acid receptor 6 [KO:K04273]
+            19220  Ptgfr; prostaglandin F receptor [KO:K04262]
+            227288  Cxcr1; chemokine (C-X-C motif) receptor 1 [KO:K04175]
+            12765  Cxcr2; chemokine (C-X-C motif) receptor 2 [KO:K05050]
+            18795  Plcb1; phospholipase C, beta 1 [KO:K05858] [EC:3.1.4.11]
+            18797  Plcb3; phospholipase C, beta 3 [KO:K05858] [EC:3.1.4.11]
+            18798  Plcb4; phospholipase C, beta 4 [KO:K05858] [EC:3.1.4.11]
+            18796  Plcb2; phospholipase C, beta 2 [KO:K05858] [EC:3.1.4.11]
+            14673  Gna12; guanine nucleotide binding protein, alpha 12 [KO:K04346]
+            19229  Ptk2b; PTK2 protein tyrosine kinase 2 beta [KO:K05871] [EC:2.7.10.2]
+            14674  Gna13; guanine nucleotide binding protein, alpha 13 [KO:K04639]
+            30955  Pik3cg; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [KO:K21289] [EC:2.7.1.153]
+            320207  Pik3r5; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            104709  Pik3r6; phosphoinositide-3-kinase regulatory subunit 5 [KO:K21290]
+            19157  Cyth1; cytohesin 1 [KO:K18441]
+            19158  Cyth2; cytohesin 2 [KO:K18441]
+            19159  Cyth3; cytohesin 3 [KO:K18441]
+            72318  Cyth4; cytohesin 4 [KO:K18441]
+            14683  Gnas; GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus [KO:K04632]
+            432530  Adcy1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            210044  Adcy2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            104111  Adcy3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            104110  Adcy4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            224129  Adcy5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            11512  Adcy6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            11513  Adcy7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            11514  Adcy8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            11515  Adcy9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            223864  Rapgef3; Rap guanine nucleotide exchange factor (GEF) 3 [KO:K08014]
+            56508  Rapgef4; Rap guanine nucleotide exchange factor (GEF) 4 [KO:K04351]
+            13429  Dnm1; dynamin 1 [KO:K01528] [EC:3.6.5.5]
+            103967  Dnm3; dynamin 3 [KO:K01528] [EC:3.6.5.5]
+            13430  Dnm2; dynamin 2 [KO:K23484] [EC:3.6.5.5]
+COMPOUND    C00025  L-Glutamate
+            C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00416  Phosphatidate
+            C00575  3',5'-Cyclic AMP
+            C00639  Prostaglandin F2alpha
+            C00681  1-Acyl-sn-glycerol 3-phosphate
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C04637  1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+            C06124  Sphingosine 1-phosphate
+REFERENCE   PMID:17245604
+  AUTHORS   Oude Weernink PA, Lopez de Jesus M, Schmidt M
+  TITLE     Phospholipase D signaling: orchestration by PIP2 and small GTPases.
+  JOURNAL   Naunyn Schmiedebergs Arch Pharmacol 374:399-411 (2007)
+            DOI:10.1007/s00210-007-0131-4
+REFERENCE   PMID:21936578
+  AUTHORS   Selvy PE, Lavieri RR, Lindsley CW, Brown HA
+  TITLE     Phospholipase D: enzymology, functionality, and chemical modulation.
+  JOURNAL   Chem Rev 111:6064-119 (2011)
+            DOI:10.1021/cr200296t
+REFERENCE   PMID:24995811
+  AUTHORS   Brandenburg LO, Pufe T, Koch T
+  TITLE     Role of phospholipase d in g-protein coupled receptor function.
+  JOURNAL   Membranes (Basel) 4:302-18 (2014)
+            DOI:10.3390/membranes4030302
+REFERENCE   PMID:17054901
+  AUTHORS   Oude Weernink PA, Han L, Jakobs KH, Schmidt M
+  TITLE     Dynamic phospholipid signaling by G protein-coupled receptors.
+  JOURNAL   Biochim Biophys Acta 1768:888-900 (2007)
+            DOI:10.1016/j.bbamem.2006.09.012
+REFERENCE   PMID:24990952
+  AUTHORS   Foster DA, Salloum D, Menon D, Frias MA
+  TITLE     Phospholipase D and the maintenance of phosphatidic acid levels for regulation of mammalian target of rapamycin (mTOR).
+  JOURNAL   J Biol Chem 289:22583-8 (2014)
+            DOI:10.1074/jbc.R114.566091
+REFERENCE   PMID:16143829
+  AUTHORS   Jenkins GM, Frohman MA
+  TITLE     Phospholipase D: a lipid centric review.
+  JOURNAL   Cell Mol Life Sci 62:2305-16 (2005)
+            DOI:10.1007/s00018-005-5195-z
+REFERENCE   PMID:19815110
+  AUTHORS   Metcalfe DD, Peavy RD, Gilfillan AM
+  TITLE     Mechanisms of mast cell signaling in anaphylaxis.
+  JOURNAL   J Allergy Clin Immunol 124:639-46; quiz 647-8 (2009)
+            DOI:10.1016/j.jaci.2009.08.035
+REFERENCE   PMID:18936782
+  AUTHORS   Kalesnikoff J, Galli SJ
+  TITLE     New developments in mast cell biology.
+  JOURNAL   Nat Immunol 9:1215-23 (2008)
+            DOI:10.1038/ni.f.216
+REFERENCE   PMID:12217395
+  AUTHORS   Cockcroft S, Way G, O'Luanaigh N, Pardo R, Sarri E, Fensome A
+  TITLE     Signalling role for ARF and phospholipase D in mast cell exocytosis stimulated by crosslinking of the high affinity FcepsilonR1 receptor.
+  JOURNAL   Mol Immunol 38:1277-82 (2002)
+            DOI:10.1016/S0161-5890(02)00075-5
+REFERENCE   PMID:19410013
+  AUTHORS   Lee CS, Kim KL, Jang JH, Choi YS, Suh PG, Ryu SH
+  TITLE     The roles of phospholipase D in EGFR signaling.
+  JOURNAL   Biochim Biophys Acta 1791:862-8 (2009)
+            DOI:10.1016/j.bbalip.2009.04.007
+REFERENCE   PMID:16622417
+  AUTHORS   Lee CS, Kim IS, Park JB, Lee MN, Lee HY, Suh PG, Ryu SH
+  TITLE     The phox homology domain of phospholipase D activates dynamin GTPase activity and accelerates EGFR endocytosis.
+  JOURNAL   Nat Cell Biol 8:477-84 (2006)
+            DOI:10.1038/ncb1401
+REFERENCE   PMID:14769825
+  AUTHORS   Kam Y, Exton JH
+  TITLE     Role of phospholipase D1 in the regulation of mTOR activity by lysophosphatidic acid.
+  JOURNAL   FASEB J 18:311-9 (2004)
+            DOI:10.1096/fj.03-0731com
+REFERENCE   PMID:9310372
+  AUTHORS   Kozawa O, Blume-Jensen P, Heldin CH, Ronnstrand L
+  TITLE     Involvement of phosphatidylinositol 3'-kinase in stem-cell-factor-induced phospholipase D activation and arachidonic acid release.
+  JOURNAL   Eur J Biochem 248:149-55 (1997)
+            DOI:10.1111/j.1432-1033.1997.00149.x
+REFERENCE   PMID:11042115
+  AUTHORS   Slaaby R, Du G, Altshuller YM, Frohman MA, Seedorf K
+  TITLE     Insulin-induced phospholipase D1 and phospholipase D2 activity in human embryonic kidney-293 cells mediated by the phospholipase C gamma and protein kinase C alpha signalling cascade.
+  JOURNAL   Biochem J 351 Pt 3:613-9 (2000)
+            DOI:10.1042/bj3510613
+REFERENCE   PMID:11991733
+  AUTHORS   Fahimi-Vahid M, Gosau N, Michalek C, Han L, Jakobs KH, Schmidt M, Roberts N, Avkiran M, Wieland T
+  TITLE     Distinct signaling pathways mediate cardiomyocyte phospholipase D stimulation by endothelin-1 and thrombin.
+  JOURNAL   J Mol Cell Cardiol 34:441-53 (2002)
+            DOI:10.1006/jmcc.2002.1525
+REFERENCE   PMID:10666319
+  AUTHORS   Freeman EJ
+  TITLE     The Ang II-induced growth of vascular smooth muscle cells involves a phospholipase D-mediated signaling mechanism.
+  JOURNAL   Arch Biochem Biophys 374:363-70 (2000)
+            DOI:10.1006/abbi.1999.1608
+REFERENCE   PMID:9119890
+  AUTHORS   Naro F, Donchenko V, Minotti S, Zolla L, Molinaro M, Adamo S
+  TITLE     Role of phospholipase C and D signalling pathways in vasopressin-dependent myogenic differentiation.
+  JOURNAL   J Cell Physiol 171:34-42 (1997)
+            DOI:10.1002/(SICI)1097-4652(199704)171:1<34::AID-JCP5>3.0.CO;2-I
+REFERENCE   PMID:10807766
+  AUTHORS   Murdoch C, Finn A
+  TITLE     Chemokine receptors and their role in inflammation and infectious diseases.
+  JOURNAL   Blood 95:3032-43 (2000)
+REFERENCE   PMID:8135758
+  AUTHORS   Sugiyama T, Sakai T, Nozawa Y, Oka N
+  TITLE     Prostaglandin F2 alpha-stimulated phospholipase D activation in osteoblast-like MC3T3-E1 cells: involvement in sustained 1,2-diacylglycerol production.
+  JOURNAL   Biochem J 298 ( Pt 2):479-84 (1994)
+            DOI:10.1042/bj2980479
+REFERENCE   PMID:17210675
+  AUTHORS   Foster DA
+  TITLE     Regulation of mTOR by phosphatidic acid?
+  JOURNAL   Cancer Res 67:1-4 (2007)
+            DOI:10.1158/0008-5472.CAN-06-3016
+REFERENCE   PMID:15310762
+  AUTHORS   Delon C, Manifava M, Wood E, Thompson D, Krugmann S, Pyne S, Ktistakis NT
+  TITLE     Sphingosine kinase 1 is an intracellular effector of phosphatidic acid.
+  JOURNAL   J Biol Chem 279:44763-74 (2004)
+            DOI:10.1074/jbc.M405771200
+REFERENCE   PMID:23076158
+  AUTHORS   Park JB, Lee CS, Jang JH, Ghim J, Kim YJ, You S, Hwang D, Suh PG, Ryu SH
+  TITLE     Phospholipase signalling networks in cancer.
+  JOURNAL   Nat Rev Cancer 12:782-92 (2012)
+            DOI:10.1038/nrc3379
+REFERENCE   PMID:19264150
+  AUTHORS   Foster DA
+  TITLE     Phosphatidic acid signaling to mTOR: signals for the survival of human cancer cells.
+  JOURNAL   Biochim Biophys Acta 1791:949-55 (2009)
+            DOI:10.1016/j.bbalip.2009.02.009
+REL_PATHWAY mmu00561  Glycerolipid metabolism
+            mmu04010  MAPK signaling pathway
+            mmu04014  Ras signaling pathway
+            mmu04020  Calcium signaling pathway
+            mmu04024  cAMP signaling pathway
+            mmu04071  Sphingolipid signaling pathway
+            mmu04144  Endocytosis
+            mmu04150  mTOR signaling pathway
+            mmu04151  PI3K-Akt signaling pathway
+            mmu04664  Fc epsilon RI signaling pathway
+KO_PATHWAY  ko04072
+///

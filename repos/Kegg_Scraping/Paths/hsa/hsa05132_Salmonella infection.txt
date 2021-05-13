@@ -1,0 +1,215 @@
+ENTRY       hsa05132                    Pathway
+NAME        Salmonella infection - Homo sapiens (human)
+DESCRIPTION Salmonella infection usually presents as a self-limiting gastroenteritis or the more severe typhoid fever and bacteremia. The common disease-causing Salmonella species in human is a single species, Salmonella enterica, which has numerous serovars.
+            Following intestinal colonization Salmonella inject effector proteins into the host cells using a type III secretion system (T3SS), T3SS1. Then a small group of effector proteins induce rearrangement of the actin cytoskeleton resulting in membrane ruffles and rapid internalization of the bacteria.The T3SS2 is responsible for translocating effector proteins that direct Salmonella-containing vacuole (SCV) maturation. The majority of the bacteria are known to survive and replicate in SCV.
+CLASS       Human Diseases; Infectious diseases: Bacterial
+PATHWAY_MAP hsa05132  Salmonella infection
+DISEASE     H00111  Typhoid fever
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        929  CD14; CD14 molecule [KO:K04391]
+            7099  TLR4; toll like receptor 4 [KO:K10160]
+            3929  LBP; lipopolysaccharide binding protein [KO:K05399]
+            4615  MYD88; MYD88 innate immune signal transduction adaptor [KO:K04729]
+            7100  TLR5; toll like receptor 5 [KO:K10168]
+            58484  NLRC4; NLR family CARD domain containing 4 [KO:K12805]
+            29108  PYCARD; PYD and CARD domain containing [KO:K12799]
+            834  CASP1; caspase 1 [KO:K01370] [EC:3.4.22.36]
+            5879  RAC1; Rac family small GTPase 1 [KO:K04392]
+            998  CDC42; cell division cycle 42 [KO:K04393]
+            391  RHOG; ras homolog family member G [KO:K07863]
+            5600  MAPK11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            6300  MAPK12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            5603  MAPK13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            1432  MAPK14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            5599  MAPK8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            5602  MAPK10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            5601  MAPK9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            2353  FOS; Fos proto-oncogene, AP-1 transcription factor subunit [KO:K04379]
+            3725  JUN; Jun proto-oncogene, AP-1 transcription factor subunit [KO:K04448]
+            4790  NFKB1; nuclear factor kappa B subunit 1 [KO:K02580]
+            5970  RELA; RELA proto-oncogene, NF-kB subunit [KO:K04735]
+            3606  IL18; interleukin 18 [KO:K05482]
+            3553  IL1B; interleukin 1 beta [KO:K04519]
+            3552  IL1A; interleukin 1 alpha [KO:K04383]
+            3569  IL6; interleukin 6 [KO:K05405]
+            3576  CXCL8; C-X-C motif chemokine ligand 8 [KO:K10030]
+            6348  CCL3; C-C motif chemokine ligand 3 [KO:K05408]
+            6349  CCL3L1; C-C motif chemokine ligand 3 like 1 [KO:K05408]
+            414062  CCL3L3; C-C motif chemokine ligand 3 like 3 [KO:K05408]
+            6351  CCL4; C-C motif chemokine ligand 4 [KO:K12964]
+            9560  CCL4L2; C-C motif chemokine ligand 4 like 2 [KO:K12964]
+            388372  CCL4L1; C-C motif chemokine ligand 4 like 1 [KO:K12964]
+            2919  CXCL1; C-X-C motif chemokine ligand 1 [KO:K05505]
+            2920  CXCL2; C-X-C motif chemokine ligand 2 [KO:K05505]
+            2921  CXCL3; C-X-C motif chemokine ligand 3 [KO:K05505]
+            1437  CSF2; colony stimulating factor 2 [KO:K05427]
+            8936  WASF1; WASP family member 1 [KO:K05753]
+            10163  WASF2; WASP family member 2 [KO:K05748]
+            7454  WAS; WASP actin nucleation promoting factor [KO:K05747]
+            8976  WASL; WASP like actin nucleation promoting factor [KO:K05747]
+            10092  ARPC5; actin related protein 2/3 complex subunit 5 [KO:K05754]
+            81873  ARPC5L; actin related protein 2/3 complex subunit 5 like [KO:K05754]
+            10093  ARPC4; actin related protein 2/3 complex subunit 4 [KO:K05755]
+            10094  ARPC3; actin related protein 2/3 complex subunit 3 [KO:K05756]
+            10095  ARPC1B; actin related protein 2/3 complex subunit 1B [KO:K05757]
+            10552  ARPC1A; actin related protein 2/3 complex subunit 1A [KO:K05757]
+            10109  ARPC2; actin related protein 2/3 complex subunit 2 [KO:K05758]
+            7082  TJP1; tight junction protein 1 [KO:K05701]
+            60  ACTB; actin beta [KO:K05692]
+            71  ACTG1; actin gamma 1 [KO:K05692]
+            5585  PKN1; protein kinase N1 [KO:K06071] [EC:2.7.11.13]
+            29941  PKN3; protein kinase N3 [KO:K06071] [EC:2.7.11.13]
+            5586  PKN2; protein kinase N2 [KO:K06071] [EC:2.7.11.13]
+            6093  ROCK1; Rho associated coiled-coil containing protein kinase 1 [KO:K04514] [EC:2.7.11.1]
+            9475  ROCK2; Rho associated coiled-coil containing protein kinase 2 [KO:K17388] [EC:2.7.11.1]
+            23207  PLEKHM2; pleckstrin homology and RUN domain containing M2 [KO:K15348]
+            147700  KLC3; kinesin light chain 3 [KO:K10407]
+            3831  KLC1; kinesin light chain 1 [KO:K10407]
+            64837  KLC2; kinesin light chain 2 [KO:K10407]
+            89953  KLC4; kinesin light chain 4 [KO:K10407]
+            7879  RAB7A; RAB7A, member RAS oncogene family [KO:K07897]
+            338382  RAB7B; RAB7B, member RAS oncogene family [KO:K07898]
+            83547  RILP; Rab interacting lysosomal protein [KO:K13883]
+            1778  DYNC1H1; dynein cytoplasmic 1 heavy chain 1 [KO:K10413]
+            79659  DYNC2H1; dynein cytoplasmic 2 heavy chain 1 [KO:K10414]
+            1780  DYNC1I1; dynein cytoplasmic 1 intermediate chain 1 [KO:K10415]
+            1781  DYNC1I2; dynein cytoplasmic 1 intermediate chain 2 [KO:K10415]
+            1783  DYNC1LI2; dynein cytoplasmic 1 light intermediate chain 2 [KO:K10416]
+            51143  DYNC1LI1; dynein cytoplasmic 1 light intermediate chain 1 [KO:K10416]
+            345456  PFN3; profilin 3 [KO:K05759]
+            5216  PFN1; profilin 1 [KO:K05759]
+            5217  PFN2; profilin 2 [KO:K05759]
+            375189  PFN4; profilin family member 4 [KO:K05759]
+            2316  FLNA; filamin A [KO:K04437]
+            2318  FLNC; filamin C [KO:K04437]
+            2317  FLNB; filamin B [KO:K04437]
+            3458  IFNG; interferon gamma [KO:K04687]
+            3459  IFNGR1; interferon gamma receptor 1 [KO:K05132]
+            3460  IFNGR2; interferon gamma receptor 2 [KO:K05133]
+            4843  NOS2; nitric oxide synthase 2 [KO:K13241] [EC:1.14.13.39]
+            4627  MYH9; myosin heavy chain 9 [KO:K10352]
+            4628  MYH10; myosin heavy chain 10 [KO:K10352]
+            79784  MYH14; myosin heavy chain 14 [KO:K10352]
+COMPOUND    C00062  L-Arginine
+            C00338  Lipopolysaccharide
+            C00533  Nitric oxide
+            C04637  1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate
+REFERENCE   PMID:20526845
+  AUTHORS   Trebichavsky I, Splichal I, Splichalova A
+  TITLE     Innate immune response in the gut against Salmonella - review.
+  JOURNAL   Folia Microbiol (Praha) 55:295-300 (2010)
+            DOI:10.1007/s12223-010-0044-3
+REFERENCE   PMID:19930040
+  AUTHORS   Talbot S, Totemeyer S, Yamamoto M, Akira S, Hughes K, Gray D, Barr T, Mastroeni P, Maskell DJ, Bryant CE
+  TITLE     Toll-like receptor 4 signalling through MyD88 is essential to control Salmonella enterica serovar typhimurium infection, but not for the initiation of bacterial clearance.
+  JOURNAL   Immunology 128:472-83 (2009)
+            DOI:10.1111/j.1365-2567.2009.03146.x
+REFERENCE   PMID:19775254
+  AUTHORS   Ibarra JA, Steele-Mortimer O
+  TITLE     Salmonella--the ultimate insider. Salmonella virulence factors that modulate intracellular survival.
+  JOURNAL   Cell Microbiol 11:1579-86 (2009)
+            DOI:10.1111/j.1462-5822.2009.01368.x
+REFERENCE   PMID:11489966
+  AUTHORS   Gewirtz AT, Navas TA, Lyons S, Godowski PJ, Madara JL
+  TITLE     Cutting edge: bacterial flagellin activates basolaterally expressed TLR5 to induce epithelial proinflammatory gene expression.
+  JOURNAL   J Immunol 167:1882-5 (2001)
+            DOI:10.4049/jimmunol.167.4.1882
+REFERENCE   PMID:17071592
+  AUTHORS   Vijay-Kumar M, Wu H, Jones R, Grant G, Babbin B, King TP, Kelly D, Gewirtz AT, Neish AS
+  TITLE     Flagellin suppresses epithelial apoptosis and limits disease during enteric infection.
+  JOURNAL   Am J Pathol 169:1686-700 (2006)
+            DOI:10.2353/ajpath.2006.060345
+REFERENCE   PMID:17690885
+  AUTHORS   Miao EA, Andersen-Nissen E, Warren SE, Aderem A
+  TITLE     TLR5 and Ipaf: dual sensors of bacterial flagellin in the innate immune system.
+  JOURNAL   Semin Immunopathol 29:275-88 (2007)
+            DOI:10.1007/s00281-007-0078-z
+REFERENCE   PMID:20158475
+  AUTHORS   Bueno SM, Riedel CA, Carreno LJ, Kalergis AM
+  TITLE     Virulence mechanisms displayed by Salmonella to impair dendritic cell function.
+  JOURNAL   Curr Med Chem 17:1156-66 (2010)
+            DOI:10.2174/092986710790827825
+REFERENCE   PMID:18026123
+  AUTHORS   Haraga A, Ohlson MB, Miller SI
+  TITLE     Salmonellae interplay with host cells.
+  JOURNAL   Nat Rev Microbiol 6:53-66 (2008)
+            DOI:10.1038/nrmicro1788
+REFERENCE   PMID:11825778
+  AUTHORS   Kimbrough TG, Miller SI
+  TITLE     Assembly of the type III secretion needle complex of Salmonella typhimurium.
+  JOURNAL   Microbes Infect 4:75-82 (2002)
+            DOI:10.1016/S1286-4579(01)01512-X
+REFERENCE   PMID:17074883
+  AUTHORS   Patel JC, Galan JE
+  TITLE     Differential activation and function of Rho GTPases during Salmonella-host cell interactions.
+  JOURNAL   J Cell Biol 175:453-63 (2006)
+            DOI:10.1083/jcb.200605144
+REFERENCE   PMID:20123714
+  AUTHORS   Bulgin R, Raymond B, Garnett JA, Frankel G, Crepin VF, Berger CN, Arbeloa A
+  TITLE     Bacterial guanine nucleotide exchange factors SopE-like and WxxxE effectors.
+  JOURNAL   Infect Immun 78:1417-25 (2010)
+            DOI:10.1128/IAI.01250-09
+REFERENCE   PMID:18778407
+  AUTHORS   Bakowski MA, Braun V, Brumell JH
+  TITLE     Salmonella-containing vacuoles: directing traffic and nesting to grow.
+  JOURNAL   Traffic 9:2022-31 (2008)
+            DOI:10.1111/j.1600-0854.2008.00827.x
+REFERENCE   PMID:18411289
+  AUTHORS   Wasylnka JA, Bakowski MA, Szeto J, Ohlson MB, Trimble WS, Miller SI, Brumell JH
+  TITLE     Role for myosin II in regulating positioning of Salmonella-containing vacuoles and intracellular replication.
+  JOURNAL   Infect Immun 76:2722-35 (2008)
+            DOI:10.1128/IAI.00152-08
+REFERENCE   PMID:11567004
+  AUTHORS   Nikolaus T, Deiwick J, Rappl C, Freeman JA, Schroder W, Miller SI, Hensel M
+  TITLE     SseBCD proteins are secreted by the type III secretion system of Salmonella pathogenicity island 2 and function as a translocon.
+  JOURNAL   J Bacteriol 183:6036-45 (2001)
+            DOI:10.1128/JB.183.20.6036-6045.2001
+REFERENCE   PMID:11755407
+  AUTHORS   Eckmann L, Kagnoff MF
+  TITLE     Cytokines in host defense against Salmonella.
+  JOURNAL   Microbes Infect 3:1191-200 (2001)
+            DOI:10.1016/S1286-4579(01)01479-4
+REFERENCE   PMID:10499590
+  AUTHORS   Fu Y, Galan JE
+  TITLE     A salmonella protein antagonizes Rac-1 and Cdc42 to mediate host-cell recovery after bacterial invasion.
+  JOURNAL   Nature 401:293-7 (1999)
+            DOI:10.1038/45829
+REFERENCE   PMID:19779561
+  AUTHORS   Du F, Galan JE
+  TITLE     Selective inhibition of type III secretion activated signaling by the Salmonella effector AvrA.
+  JOURNAL   PLoS Pathog 5:e1000595 (2009)
+            DOI:10.1371/journal.ppat.1000595
+REFERENCE   PMID:18407067
+  AUTHORS   Jones RM, Wu H, Wentworth C, Luo L, Collier-Hyams L, Neish AS
+  TITLE     Salmonella AvrA Coordinates Suppression of Host Immune and Apoptotic Defenses via JNK Pathway Blockade.
+  JOURNAL   Cell Host Microbe 3:233-44 (2008)
+            DOI:10.1016/j.chom.2008.02.016
+REFERENCE   PMID:16611232
+  AUTHORS   Haraga A, Miller SI
+  TITLE     A Salmonella type III secretion effector interacts with the mammalian serine/threonine protein kinase PKN1.
+  JOURNAL   Cell Microbiol 8:837-46 (2006)
+            DOI:10.1111/j.1462-5822.2005.00670.x
+REFERENCE   PMID:16800847
+  AUTHORS   Abrahams GL, Muller P, Hensel M
+  TITLE     Functional dissection of SseF, a type III effector protein involved in positioning the salmonella-containing vacuole.
+  JOURNAL   Traffic 7:950-65 (2006)
+            DOI:10.1111/j.1600-0854.2006.00454.x
+REFERENCE   PMID:16938850
+  AUTHORS   Henry T, Couillault C, Rockenfeller P, Boucrot E, Dumont A, Schroeder N, Hermant A, Knodler LA, Lecine P, Steele-Mortimer O, Borg JP, Gorvel JP, Meresse S
+  TITLE     The Salmonella effector protein PipB2 is a linker for kinesin-1.
+  JOURNAL   Proc Natl Acad Sci U S A 103:13497-502 (2006)
+            DOI:10.1073/pnas.0605443103
+REFERENCE   PMID:12675800
+  AUTHORS   Miao EA, Brittnacher M, Haraga A, Jeng RL, Welch MD, Miller SI
+  TITLE     Salmonella effectors translocated across the vacuolar membrane interact with the actin cytoskeleton.
+  JOURNAL   Mol Microbiol 48:401-15 (2003)
+            DOI:10.1046/j.1365-2958.2003.t01-1-03456.x
+REFERENCE   PMID:20943123
+  AUTHORS   Prior K, Hautefort I, Hinton JC, Richardson DJ, Rowley G
+  TITLE     All stressed out. Salmonella pathogenesis and reactive nitrogen species.
+  JOURNAL   Adv Microb Physiol 56:1-28 (2009)
+            DOI:10.1016/S0065-2911(09)05601-X
+KO_PATHWAY  ko05132
+///

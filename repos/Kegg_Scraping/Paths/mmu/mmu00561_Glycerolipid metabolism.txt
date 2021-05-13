@@ -1,0 +1,127 @@
+ENTRY       mmu00561                    Pathway
+NAME        Glycerolipid metabolism - Mus musculus (mouse)
+CLASS       Metabolism; Lipid metabolism
+PATHWAY_MAP mmu00561  Glycerolipid metabolism
+MODULE      mmu_M00089  Triacylglycerol biosynthesis [PATH:mmu00561]
+            mmu_M00098  Acylglycerol degradation [PATH:mmu00561]
+DBLINKS     GO: 0045017 0046486 0046503
+ORGANISM    Mus musculus (mouse) [GN:mmu]
+GENE        235582  Glyctk; glycerate kinase [KO:K11529] [EC:2.7.1.165]
+            11669  Aldh2; aldehyde dehydrogenase 2, mitochondrial [KO:K00128] [EC:1.2.1.3]
+            11671  Aldh3a2; aldehyde dehydrogenase family 3, subfamily A2 [KO:K00128] [EC:1.2.1.3]
+            72535  Aldh1b1; aldehyde dehydrogenase 1 family, member B1 [KO:K00128] [EC:1.2.1.3]
+            110695  Aldh7a1; aldehyde dehydrogenase family 7, member A1 [KO:K14085] [EC:1.2.1.31 1.2.1.8 1.2.1.3]
+            56752  Aldh9a1; aldehyde dehydrogenase 9, subfamily A1 [KO:K00149] [EC:1.2.1.47 1.2.1.3]
+            11997  Akr1b7; aldo-keto reductase family 1, member B7 [KO:K00011] [EC:1.1.1.21]
+            14187  Akr1b8; aldo-keto reductase family 1, member B8 [KO:K00011] [EC:1.1.1.21]
+            11677  Akr1b3; aldo-keto reductase family 1, member B3 (aldose reductase) [KO:K00011] [EC:1.1.1.21]
+            67861  Akr1b10; aldo-keto reductase family 1, member B10 (aldose reductase) [KO:K00011] [EC:1.1.1.21]
+            58810  Akr1a1; aldo-keto reductase family 1, member A1 (aldehyde reductase) [KO:K00002] [EC:1.1.1.2]
+            225913  Tkfc; triokinase, FMN cyclase [KO:K00863] [EC:2.7.1.28 2.7.1.29 4.6.1.15]
+            14933  Gk; glycerol kinase [KO:K00864] [EC:2.7.1.30]
+            14626  Gk2; glycerol kinase 2 [KO:K00864] [EC:2.7.1.30]
+            14732  Gpam; glycerol-3-phosphate acyltransferase, mitochondrial [KO:K00629] [EC:2.3.1.15]
+            215456  Gpat2; glycerol-3-phosphate acyltransferase 2, mitochondrial [KO:K00629] [EC:2.3.1.15]
+            102247  Gpat4; glycerol-3-phosphate acyltransferase 4 [KO:K13506] [EC:2.3.1.15]
+            231510  Gpat3; glycerol-3-phosphate acyltransferase 3 [KO:K13506] [EC:2.3.1.15]
+            55979  Agpat1; 1-acylglycerol-3-phosphate O-acyltransferase 1 (lysophosphatidic acid acyltransferase, alpha) [KO:K13509] [EC:2.3.1.51]
+            67512  Agpat2; 1-acylglycerol-3-phosphate O-acyltransferase 2 (lysophosphatidic acid acyltransferase, beta) [KO:K13509] [EC:2.3.1.51]
+            28169  Agpat3; 1-acylglycerol-3-phosphate O-acyltransferase 3 [KO:K13523] [EC:2.3.1.51 2.3.1.-]
+            68262  Agpat4; 1-acylglycerol-3-phosphate O-acyltransferase 4 (lysophosphatidic acid acyltransferase, delta) [KO:K13523] [EC:2.3.1.51 2.3.1.-]
+            52123  Agpat5; 1-acylglycerol-3-phosphate O-acyltransferase 5 (lysophosphatidic acid acyltransferase, epsilon) [KO:K19007] [EC:2.3.1.51]
+            225010  Lclat1; lysocardiolipin acyltransferase 1 [KO:K13513] [EC:2.3.1.- 2.3.1.51]
+            218121  Mboat1; membrane bound O-acyltransferase domain containing 1 [KO:K13517] [EC:2.3.1.51 2.3.1.-]
+            67216  Mboat2; membrane bound O-acyltransferase domain containing 2 [KO:K13517] [EC:2.3.1.51 2.3.1.-]
+            19012  Plpp1; phospholipid phosphatase 1 [KO:K01080] [EC:3.1.3.4]
+            50784  Plpp2; phospholipid phosphatase 2 [KO:K01080] [EC:3.1.3.4]
+            67916  Plpp3; phospholipid phosphatase 3 [KO:K01080] [EC:3.1.3.4]
+            14245  Lpin1; lipin 1 [KO:K15728] [EC:3.1.3.4]
+            64899  Lpin3; lipin 3 [KO:K15728] [EC:3.1.3.4]
+            64898  Lpin2; lipin 2 [KO:K15728] [EC:3.1.3.4]
+            71910  Plpp5; phospholipid phosphatase 5 [KO:K18693] [EC:3.1.3.81 3.1.3.4]
+            381925  Plpp4; phospholipid phosphatase 4 [KO:K18693] [EC:3.1.3.81 3.1.3.4]
+            13139  Dgka; diacylglycerol kinase, alpha [KO:K00901] [EC:2.7.1.107]
+            110197  Dgkg; diacylglycerol kinase, gamma [KO:K00901] [EC:2.7.1.107]
+            110524  Dgkq; diacylglycerol kinase, theta [KO:K00901] [EC:2.7.1.107]
+            104418  Dgkz; diacylglycerol kinase zeta [KO:K00901] [EC:2.7.1.107]
+            217480  Dgkb; diacylglycerol kinase, beta [KO:K00901] [EC:2.7.1.107]
+            56077  Dgke; diacylglycerol kinase, epsilon [KO:K00901] [EC:2.7.1.107]
+            320127  Dgki; diacylglycerol kinase, iota [KO:K00901] [EC:2.7.1.107]
+            380921  Dgkh; diacylglycerol kinase, eta [KO:K00901] [EC:2.7.1.107]
+            227333  Dgkd; diacylglycerol kinase, delta [KO:K00901] [EC:2.7.1.107]
+            331374  Dgkk; diacylglycerol kinase kappa [KO:K00901] [EC:2.7.1.107]
+            13350  Dgat1; diacylglycerol O-acyltransferase 1 [KO:K11155] [EC:2.3.1.20 2.3.1.75 2.3.1.76]
+            67800  Dgat2; diacylglycerol O-acyltransferase 2 [KO:K11160] [EC:2.3.1.20 2.3.1.75]
+            12613  Cel; carboxyl ester lipase [KO:K12298] [EC:3.1.1.13 3.1.1.3]
+            66853  Pnpla2; patatin-like phospholipase domain containing 2 [KO:K16816] [EC:3.1.1.3]
+            116939  Pnpla3; patatin-like phospholipase domain containing 3 [KO:K13534] [EC:3.1.1.3 2.3.1.-]
+            69060  Pnlip; pancreatic lipase [KO:K14073] [EC:3.1.1.3]
+            18946  Pnliprp1; pancreatic lipase related protein 1 [KO:K14074] [EC:3.1.1.3]
+            18947  Pnliprp2; pancreatic lipase-related protein 2 [KO:K14075] [EC:3.1.1.3]
+            15450  Lipc; lipase, hepatic [KO:K22283] [EC:3.1.1.3]
+            67717  Lipf; lipase, gastric [KO:K14452] [EC:3.1.1.3]
+            16891  Lipg; lipase, endothelial [KO:K22284] [EC:3.1.1.3]
+            16956  Lpl; lipoprotein lipase [KO:K01059] [EC:3.1.1.34]
+            69923  Agk; acylglycerol kinase [KO:K09881] [EC:2.7.1.94]
+            23945  Mgll; monoglyceride lipase [KO:K01054] [EC:3.1.1.23]
+            68393  Mogat1; monoacylglycerol O-acyltransferase 1 [KO:K14458] [EC:2.3.1.22]
+            233549  Mogat2; monoacylglycerol O-acyltransferase 2 [KO:K14457] [EC:2.3.1.22]
+            11605  Gla; galactosidase, alpha [KO:K01189] [EC:3.2.1.22]
+COMPOUND    C00029  UDP-glucose
+            C00040  Acyl-CoA
+            C00093  sn-Glycerol 3-phosphate
+            C00103  D-Glucose 1-phosphate
+            C00111  Glycerone phosphate
+            C00116  Glycerol
+            C00162  Fatty acid
+            C00173  Acyl-[acyl-carrier protein]
+            C00184  Glycerone
+            C00197  3-Phospho-D-glycerate
+            C00258  D-Glycerate
+            C00416  Phosphatidate
+            C00422  Triacylglycerol
+            C00577  D-Glyceraldehyde
+            C00631  2-Phospho-D-glycerate
+            C00641  1,2-Diacyl-sn-glycerol
+            C00681  1-Acyl-sn-glycerol 3-phosphate
+            C00969  3-Hydroxypropanal
+            C01885  1-Acylglycerol
+            C02133  Acyl phosphate
+            C02457  Propane-1,3-diol
+            C03692  1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol
+            C04046  3-D-Glucosyl-1,2-diacylglycerol
+            C04315  2-Acyl-3-O-(beta-D-galactosyl)-sn-glycerol
+            C04872  1,2-Diacyl-3-[3-(alpha-D-N-acetylneuraminyl)-beta-D-galactosyl]-sn-glycerol
+            C05401  3-beta-D-Galactosyl-sn-glycerol
+            C06037  Digalactosyl-diacylglycerol
+            C06038  Acyl1-monogalactosyl-diacylglycerol
+            C06040  Diglucosyldiacylglycerol
+            C06041  Glycerophosphoglycoglycerolipid
+            C06042  Lipoteichoic acid
+            C06364  1,2-Diacyl-3-alpha-D-glucosyl-sn-glycerol
+            C06365  alpha-Kojibiosyldiacylglycerol
+            C11521  UDP-6-sulfoquinovose
+            C13508  Sulfoquinovosyldiacylglycerol
+            C20897  Glycerophosphoglycoglycerolipid
+            C20898  Lipoteichoic acid
+            C20991  1,2-Diacyl-3-O-[beta-D-galactosyl-(1->6)-beta-D-galactosyl]-sn-glycerol
+REFERENCE   PMID:8662716
+  AUTHORS   Norbeck J, Pahlman AK, Akhtar N, Blomberg A, Adler L.
+  TITLE     Purification and characterization of two isoenzymes of DL-glycerol-3-phosphatase from Saccharomyces cerevisiae. Identification of the corresponding GPP1 and GPP2 genes and evidence for osmotic regulation of Gpp2p expression by the osmosensing mitogen-activated protein kinase signal transduction pathway.
+  JOURNAL   J Biol Chem 271:13875-81 (1996)
+            DOI:10.1074/jbc.271.23.13875
+REFERENCE   PMID:8995384
+  AUTHORS   Karlsson OP, Dahlqvist A, Vikstrom S, Wieslander A.
+  TITLE     Lipid dependence and basic kinetics of the purified 1,2-diacylglycerol 3-glucosyltransferase from membranes of Acholeplasma laidlawii.
+  JOURNAL   J Biol Chem 272:929-36 (1997)
+            DOI:10.1074/jbc.272.2.929
+REFERENCE   PMID:11294844
+  AUTHORS   Berg S, Edman M, Li L, Wikstrom M, Wieslander A.
+  TITLE     Sequence properties of the 1,2-diacylglycerol 3-glucosyltransferase from Acholeplasma laidlawii membranes. Recognition of a large group of lipid glycosyltransferases in eubacteria and archaea.
+  JOURNAL   J Biol Chem 276:22056-63 (2001)
+            DOI:10.1074/jbc.M102576200
+REL_PATHWAY mmu00010  Glycolysis / Gluconeogenesis
+            mmu00071  Fatty acid degradation
+            mmu00564  Glycerophospholipid metabolism
+KO_PATHWAY  ko00561
+///
