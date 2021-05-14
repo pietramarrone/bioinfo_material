@@ -17,7 +17,7 @@ The `src` folder contains all the relevant scripts/functions where:
       &nbsp;&nbsp; - see `my_PCA.select_components_above_background` for reference. <br>
       &nbsp;&nbsp; - an example of the pipeline is given in the module `pathifier_example_structure.py`. <br>
       &nbsp;&nbsp;&nbsp;&nbsp;This is specific to a dataset, but can be generalised - planning to do so with time. <br>
-      <div style="width:500px">
+      <div style="width:400px">
       
       ![](./example_files/chapter3/pathifier_workflow.png)
       </div>
