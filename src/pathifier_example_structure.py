@@ -129,3 +129,19 @@ for c in main_clusters:
                     loadings_dfs[subc][pathway] = loadings
             mypars.update_progress(i / len(annotations), disp_inst=dh, init_time=t_0)
         mypars.update_progress(1, disp_inst=dh, init_time=t_0)
+
+# save the PDS report to file
+for c in clusters_and_subc:
+    with pd.ExcelWriter(f'./{out_folder_name}/{c}/{c}_Data_{annotation_label}.xlsx') as writer:
+        for subc in clusters_and_subc[c]:
+            pds_report[subc].to_excel(writer, subc)
+    writer.save()
+
+
+# save loadings
+mypars.save_loadings(loadings_dfs=loadings_dfs,
+                     annotation_dict=annotations,
+                     clusters_list=main_clusters,
+                     subclusters_dict=clusters_and_subc,
+                     annotation_label=annotation_label,
+                     out_dir=out_folder_name)

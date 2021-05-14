@@ -24,7 +24,7 @@ The `src` folder contains all the relevant scripts/functions where:
 
 The `example` directory contains some output files generated with the scripts contained in this repository. <br>
 
-The `repos` directory contains some repository with standard bioinformatic annotation databases (**disclaimer!** they are pretty outdated)
+The `repos` directory contains some repository with standard bioinformatic annotation databases (**disclaimer!** they could be outdated):
 * recommend using [goatools](https://github.com/tanghaibao/goatools) in combination with some of the most useful python libraries for bioinformatics listed below:
     * [anndata](https://anndata.readthedocs.io/en/latest/anndata.AnnData.html)
     * [scanpy](https://scanpy.readthedocs.io/en/stable/)

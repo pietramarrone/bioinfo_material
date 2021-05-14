@@ -5,6 +5,7 @@ import re
 import time
 from IPython.display import clear_output
 from IPython.display import display
+import bioinfo as mybio
 
 standard_formats = {'df': 'pd.DataFrame()', 'dict': 'dict()', 'list': 'list()'}
 
@@ -92,8 +93,71 @@ def update_progress(progress, disp_inst, init_time, bar_len: int = 20):
     disp_inst.update(text)
 
 
+def save_loadings(loadings_dfs: dict,
+                  annotation_dict: dict,
+                  clusters_list: list,
+                  subclusters_dict: dict,
+                  annotation_label: str, **kwargs):
+    """
+    Write the loadings from the pathifier to a structured excel file
 
+    Parameters
+    ----------
+    loadings_dfs: dictionary of dataframes containing loadings
+    annotation_dict: dictinary containing the annotations
+    clusters_list: list of cell clusters (samples)
+    subclusters_dict: dictionary of subtypes within the cell types
+    annotation_label: label of the annotation database (kegg and reactome accepted for now, but can be expanded)
 
+    Returns
+    -------
+    Writes to file
+    """
+
+    assert annotation_label in ('kegg', 'reactome')
+    out_folder_name = kwargs.get('out_dir', '.')
+
+    if annotation_label == 'kegg':
+        test_path = [entry[0] for entry in list(annotation_dict.values())]  # paths are stored per path name not kegg id
+    elif annotation_label == 'reactome':
+        anno_df = kwargs.get('annotation_dict', None)
+        assert anno_df is not None
+        test_path = list(map(lambda x: mybio.get_reactome_stable_id_from_path(anno_df, x), annotation_dict))
+
+    for c in clusters_list:
+        for subc in subclusters_dict[c]:
+            print(f'Saving Loadings for [{subc}]')
+            if loadings_dfs[subc]:
+                with pd.ExcelWriter(f'./{out_folder_name}/{c}/Loadings_{subc}_{annotation_label}.xlsx',
+                                    engine='xlsxwriter') as writer:
+                    dh, t_0 = create_status_bar()
+                    for i, path in enumerate(loadings_dfs[subc].keys()):
+                        if annotation_label == 'kegg':
+                            path_idx = test_path.index(path)
+                            hsa_path = list(annotation_dict.keys())[path_idx]
+                        elif annotation_label == 'reactome':
+                            # path_idx = reactome_er_paths.tolist().index(path)
+                            # hsa_path = test_path[path_idx]
+                            hsa_path = mybio.get_reactome_stable_id_from_path(anno_df, path)
+
+                        var_df = pd.DataFrame(data=np.reshape(loadings_dfs[subc][path]['variance_fraction'], (1, -1)),
+                                              columns=['PC_{}'.format(i)
+                                                       for i in
+                                                       range(1, len(loadings_dfs[subc][path]['variance_fraction']) + 1)],
+                                              index=['Explained Variance [Fraction]'])
+                        file_header = pd.DataFrame(data=np.reshape([hsa_path, path], (1, -1)),
+                                                   columns=['KEGG_ID', 'Pathway_name'])
+                        file_header.to_excel(writer, sheet_name=hsa_path, index=False)
+                        var_df.to_excel(writer, sheet_name=hsa_path, startrow=3)
+                        loadings_dfs[subc][path]['loadings'].index.name = 'Gene Name'
+                        loadings_dfs[subc][path]['loadings'].to_excel(writer, sheet_name=hsa_path, startrow=6)
+                        loadings_dfs[subc][path]['overall_ranking'].index.name = 'Gene Name'
+                        loadings_dfs[subc][path]['overall_ranking'].to_excel(writer, sheet_name=hsa_path,
+                                                                             startrow=6, startcol=var_df.shape[1] + 2)
+
+                        update_progress(i / len(loadings_dfs[subc].keys()), disp_inst=dh, init_time=t_0)
+                    writer.save()
+        update_progress(1, disp_inst=dh, init_time=t_0)
 
 
 
