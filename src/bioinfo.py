@@ -113,11 +113,7 @@ def get_reactome(path_or_file='Default', genes_id='ncbi', mask_species=None):
     mask_species: can be either
     Returns
     -------
-    kegg_p: dict of pathways
-            [keys] -> hsa codes of the kegg pathways
-            [values] -> pathway name
-                     -> list of entrezID
-                     -> list of matching gene names
+    df of pathways
     """
     if path_or_file.lower() == 'default':
         path_or_file = repo_reactome

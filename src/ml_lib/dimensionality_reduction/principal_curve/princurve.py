@@ -775,3 +775,4 @@ class PCurve(object):
         return {'s': self.pcurve['s'], 'order': self.pcurve['order'],
                 'lambda': self.pcurve['lambda'], 'total distance': self.pcurve['tot_dist'],
                 'converged': has_converged, 'number_of_iterations': self.it}
+
