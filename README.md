@@ -16,7 +16,7 @@ The `src` folder contains all the relevant scripts/functions where:
       Also, this is a modified version of both: the optimal number of PCs to use for the _Principal Curve_ computation is given by a permutation test on the components: <br /> 
       &nbsp;&nbsp; - see `my_PCA.select_components_above_background` for reference. <br>
       &nbsp;&nbsp; - an example of the pipeline is given in the module `pathifier_example_structure.py`. <br>
-      &nbsp;&nbsp; This is specific to a dataset, but can be generalised (planning to do so with time)
+      &nbsp;&nbsp;   This is specific to a dataset, but can be generalised (planning to do so with time)
       
 
 The `example` directory contains some output files generated with the scripts contained in this repository. <br>
