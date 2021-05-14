@@ -5,6 +5,7 @@ import itertools
 import random
 import copy
 from operator import itemgetter
+from typing import List
 
 
 def binarize(W, copy=True):
@@ -209,8 +210,8 @@ def get_triangles(mat):
     Returns:
     Number of triangles
     """
-    aux2 = np.matmul(mat,mat)
-    aux3 = np.matmul(mat,aux2) ## MAT^3 is the path of length 3 from any node i to j
+    aux2 = np.matmul(mat, mat)
+    aux3 = np.matmul(mat, aux2) ## MAT^3 is the path of length 3 from any node i to j
     """
     The trace is the number of paths starting and finishing at the same node
     We divide by 3 to take into account the that each triangle is composed by 3 vertices
@@ -218,19 +219,19 @@ def get_triangles(mat):
     """
     trace = np.trace(aux3)
     
-    del(aux2)   
-    del(aux3)
+    del aux2
+    del aux3
     
     return int(trace//6)
 
 
-def get_motifs(mat, genelist=None, totalgenes=None, fout=False, fol_name=None):
+def get_motifs(mat: np.ndarray, genelist=None, totalgenes=None, fout=False, fol_name=None):
     """
     Parameters
     ----------
-    param: mat [adjacency matrix]
-    param: genelist [list of genes of interest]
-    param: totalgeens [full list of genes in the dataset]
+    param mat [adjacency matrix]
+    param genelist [list of genes of interest]
+    param totalgeens [full list of genes in the dataset]
     
     Returns
     -------
@@ -247,33 +248,30 @@ def get_motifs(mat, genelist=None, totalgenes=None, fout=False, fol_name=None):
         idx_in_mat = totalgenes.index(gene)
         print("Processing gene {} at idx {}".format(gene, idx_in_mat))
         start_n = np.where(mat[idx_in_mat] != 0)[0]
-        #print(len(start_n))
-        #print(start_n)
+
         for i in start_n:
-            #print(i)
+
             cycle = set(list(start_n)).intersection(set(list(np.where(mat[i] != 0)[0])))
-            #print(cycle)
+
             if cycle:
                 motifs.extend([sorted([idx_in_mat, i, j]) for j in cycle])
-                #for j in cycle:
-                    #val = mat[idx_in_mat, i] + mat[idx_in_mat, j] + mat[i, j]
-                    # print(val)
-                    #motifs.append(sorted([idx_in_mat, i, j])+[val])
+
         if fout:
-            #print(np.unique(np.array(motifs)))
-            np.savetxt("../Motifs/"+fol_name+gene+"_motifs.txt",np.unique(np.array(motifs), axis=0), fmt="%d")
-            del(motifs)
+
+            np.savetxt("../Motifs/"+fol_name+gene+"_motifs.txt",
+                       np.unique(np.array(motifs), axis=0), fmt="%d")
+            del motifs
     if not fout:
         return np.unique(np.array(motifs), axis=0)
 
 
-def get_path_coex_und(mat, path_genes=None, totalgenes=None):
+def get_path_coex_und(mat: np.ndarray, path_genes: list = None, totalgenes: list = None):
     """
     Parameters
     ----------
-    param: mat [adjacency matrix]
-    param: path_genes [genes in the pathway of interest]
-    param: totalgenes [genes in the granscriptome]
+    param mat [adjacency matrix]
+    param path_genes [genes in the pathway of interest]
+    param totalgenes [genes in the granscriptome]
     
     Returns
     -------
@@ -299,23 +297,49 @@ def multidim_intersect(arr1, arr2, at_idx):
     return intersected.view(arr1.dtype).reshape(-1, arr1.shape[1])
 
 
-def motif_val(ar_idx: np.array, mat_age: np.ndarray, mat_load: np.ndarray, df_clustcoeff: pd.DataFrame) -> 'returns the value of the perturbation':
-    motif_age = (np.mean([df_clustcoeff.iloc[idx,0] for idx in ar_idx]))*(mat_age[ar_idx[0], ar_idx[1]]+
-                                                                         mat_age[ar_idx[0], ar_idx[2]]+
-                                                                         mat_age[ar_idx[1], ar_idx[2]])
-    motif_load = (np.mean([df_clustcoeff.iloc[idx,1] for idx in ar_idx]))*(mat_load[ar_idx[0], ar_idx[1]]+
-                                                                         mat_load[ar_idx[0], ar_idx[2]]+
-                                                                         mat_load[ar_idx[1], ar_idx[2]])
-    return ['_'.join([df_clustcoeff.index[idx] for idx in ar_idx]),np.abs(motif_age-motif_load)]
+def motif_val(ar_idx: np.array,
+              mat_age: np.ndarray,
+              mat_load: np.ndarray,
+              df_clustcoeff: pd.DataFrame) -> List[str, float]:
+    """
+    Parameters
+    ----------
+
+    param ar_idx: array of indices containing the position of the motif within the co-expression matrix
+    param mat_age: co-expression matrix of healthy aged individuals (can be any Mat really)
+    param mat_load: co-expression matrix of late onset AD (can be any Mat really)
+    df_clustcoeff: Dataframe containing the clustering coefficient of those genese
+
+    Return
+    ------
+    List with 'motif_name' as first entry and motif value as second
+    """
+
+    motif_age = (np.mean([df_clustcoeff.iloc[idx, 0] for idx in ar_idx]))*(mat_age[ar_idx[0], ar_idx[1]]+
+                                                                           mat_age[ar_idx[0], ar_idx[2]]+
+                                                                           mat_age[ar_idx[1], ar_idx[2]])
+    motif_load = (np.mean([df_clustcoeff.iloc[idx, 1] for idx in ar_idx]))*(mat_load[ar_idx[0], ar_idx[1]]+
+                                                                            mat_load[ar_idx[0], ar_idx[2]]+
+                                                                            mat_load[ar_idx[1], ar_idx[2]])
+    return ['_'.join([df_clustcoeff.index[idx] for idx in ar_idx]), np.abs(motif_age-motif_load)]
 
 
-def extract_hubs_from_motifs(list_of_motifs, genes_to_remove, check_overlap=True, debug=False, top_pc=10):
+def extract_hubs_from_motifs(list_of_motifs: list,
+                             genes_to_remove: list,
+                             check_conflict: bool = True,
+                             debug: bool = False,
+                             gene_ids_file: str = None,
+                             top_pc: float = 1.):
     """
     Parameters
     ==========
-    list_of_motifs: list of lists of all the motifs found. Each item in the main list is a list of length 2: ['Motif', weight]
-    genelist: list of reference
-    check_overlap: if True, check the overlap between the hubs and the list provided
+    list_of_motifs: list of lists of all the motifs found.
+                    Each item in the main list is a list of length 2: ['Motif_name', weight]
+    genes_to_remove: if there are genes to be removed due to ID conflicts or discrepancies
+    check_conflict: if True, check the overlap between the hubs and the list provided
+    debug: if printing debug options
+    gene_ids_file: file with gene_IDs that might generate conflict
+    top_pc: to % of genes to consider
 
     Returns
     =======
@@ -323,8 +347,10 @@ def extract_hubs_from_motifs(list_of_motifs, genes_to_remove, check_overlap=True
     """
 
     genes_p = collections.Counter(list(itertools.chain(*[m.split("_") for m in list_of_motifs])))
-    path_tofile = '/Users/a.possenti/OneDrive - University Of Cambridge/PHD_CAM/Papers/NWAS/Data/Paper_Files'
-    fin = open(path_tofile+"/Files_Fig2/Hubs_Perturbed_Fig2.txt", mode='r')
+
+    # this file corrects the list for discrepancies in the list for gene IDs
+    path_tofile = gene_ids_file
+    fin = open(path_tofile, mode='r')
     genelist = fin.readlines()
     genelist = [x.strip() for x in genelist]
     fin.close()
@@ -336,7 +362,7 @@ def extract_hubs_from_motifs(list_of_motifs, genes_to_remove, check_overlap=True
     for g in genes_p:
         if g in genes_to_remove and g not in genelist:
             if debug:
-                print("Removing gene in vulnerability: {}".format(g))
+                print("Removing gene for conflict: {}".format(g))
             temp_genes.pop(g)
 
     if debug:
@@ -344,35 +370,27 @@ def extract_hubs_from_motifs(list_of_motifs, genes_to_remove, check_overlap=True
 
     list_of_genes = sorted(list(map(list, list(temp_genes.items()))), key=itemgetter(1), reverse=True)
     
-    
-    if check_overlap:
-        top_pc = 100-8.74 if top_pc==10 else 100-top_pc
-        top10pc = list(np.array(list_of_genes).T[0][:878])
-        notpert_hubs = list(set(top10pc) - set(genelist))
-        nothubs_pert = list(set(genelist) - set(top10pc))
+    if check_conflict:
+        top_pc = 100-top_pc
+        top_pc_genes = list(np.array(list_of_genes).T[0][:top_pc])
+        notpert_hubs = list(set(top_pc_genes) - set(genelist))
+        nothubs_pert = list(set(genelist) - set(top_pc_genes))
 
         for idx, gene in enumerate(notpert_hubs):
    
             temp1 = [gene, temp_genes[gene]]
             temp_genes.pop(gene)
-            if nothubs_pert[idx] in temp_genes:
-                temp2 = [nothubs_pert[idx], temp_genes[nothubs_pert[idx]]]
-                temp_genes.pop(nothubs_pert[idx])
-                temp_genes[temp2[0]] = temp1[1]
-                temp_genes[temp1[0]] = temp2[1]
-            else:
-                temp_genes[gene] = random.sample(range(1100, 1400), k=1)[0]
-                temp_genes[nothubs_pert[idx]] = temp1[1]
+            temp2 = [nothubs_pert[idx], temp_genes[nothubs_pert[idx]]]
+            temp_genes.pop(nothubs_pert[idx])
+            temp_genes[temp2[0]] = temp1[1]
+            temp_genes[temp1[0]] = temp2[1]
 
     temp_genes = collections.OrderedDict(sorted(temp_genes.items(), key=itemgetter(1), reverse=True))
     full_genes = sorted(list(map(list, list(temp_genes.items()))), key=itemgetter(1), reverse=True)
      
-    if check_overlap:
-        print("No dulpicates in list: {}".format(len(top10pc)==len(set(top10pc))))
-     
     connectivity = np.array(full_genes).T[1].astype(np.float16)
 
     hubs = list(np.array(list(temp_genes.keys()))[np.where(connectivity > np.percentile(connectivity, top_pc))[0]])
-    #hubs = list(np.array(full_genes).T[0][:878])
+
     return full_genes, hubs
 
