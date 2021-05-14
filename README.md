@@ -18,6 +18,9 @@ The `src` folder contains all the relevant scripts/functions where:
       &nbsp;&nbsp; - an example of the pipeline is given in the module `pathifier_example_structure.py`. <br>
       &nbsp;&nbsp;&nbsp;&nbsp;This is specific to a dataset, but can be generalised - planning to do so with time.
       
+* `data_viz` contains custom visualization tools to attach heatmaps to dendgrograms, explore pathway enrichment, UMAP plots
+* `statistics` contains standard statistical tests, both for stats and ML, together with fitting functions, etc...
+      
 
 The `example` directory contains some output files generated with the scripts contained in this repository. <br>
 
