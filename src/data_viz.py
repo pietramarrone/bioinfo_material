@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import matplotlib as mpl
+import matplotlib.mlab as mlab
 import numpy as np
 from matplotlib.colors import ListedColormap
 from matplotlib.collections import PatchCollection
@@ -22,6 +23,9 @@ import itertools
 import data_loader as myload
 import statistics as mystat
 
+import brewer2mpl
+from scipy.stats import norm
+
 
 sns.set_palette('Set1', n_colors=10, desat=0.95)
 palette1 = sns.color_palette()
@@ -40,7 +44,7 @@ set_link_color_palette(list(map(rgb2hex, palette)))
 nTWAS_colors = {'Vulnerability': '#E73936',
                 'Perturbation': '#5177B8'}
 
-## abbreviations for plotting
+# abbreviations for plotting
 truncated_conditions = {'Healthy vs Early-AD': 'HC vs Early', 'Healthy vs Late-AD': 'HC vs Late',
                         'Early-AD vs Late-AD (up)': 'Early vs Late (up)',
                         'Early-AD vs Late-AD (down)': 'Early vs Late (down)'}
@@ -106,27 +110,78 @@ def plot_decision_regions(X, y, classifier, resolution=0.02):
                     edgecolor='black')
 
 
-def plot_connectivity(list_of_nodes, intervals=250, plot_type='points', return_vals=False, log_scale=None, fileout=None):
+def show_null_model(list_of_vals: list,
+                    list_of_reference: list,
+                    nbins: int = None,
+                    fileout: str = None,
+                    add_fit: bool = False,
+                    **kwargs):
+    null_model = plt.figure()
+    null_model.set_size_inches(12, 7)
+    ax = null_model.add_subplot(1, 1, 1)
+
+    nbins = 50 if nbins is None else nbins
+
+    if 'xlabel' in kwargs:
+        plt.xlabel(kwargs['xlabel'], fontsize=30)
+    if 'ylabel' in kwargs:
+        plt.ylabel(kwargs['ylabel'], fontsize=30)
+
+    color_set1 = brewer2mpl.get_map('OrRd', 'sequential', 9).mpl_colors
+
+    value_of_ref = None
+
+    if type(list_of_reference) is list and len(list_of_reference) == 2:
+        value_of_ref = np.mean(list_of_reference[0]) - np.mean(list_of_reference[1])
+
+    n, binning, patches = ax.hist(list_of_vals, bins=nbins, normed=1, facecolor=color_set1[4], alpha=0.75)
+    plt.axvline(value_of_ref, color=color_set1[8], linestyle='--')
+    # signif=associate_significance_to_pval(pval)
+    # plt.text(value_of_ref+0.001, y=20, s=signif)
+
+    if add_fit:
+        (mu, sigma) = norm.fit(list_of_vals)
+        y = mlab.normpdf(binning, mu, sigma)
+        plt.plot(binning, y, linewidth=2)
+        print(f"Values for file {fileout}")
+        print(f"PDF and CDF: {norm(mu, sigma).pdf(value_of_ref)}, {norm(mu, sigma).cdf(value_of_ref)}")
+    if fileout is None:
+        null_model.show()
+    else:
+        null_model.savefig(fileout, bbox_inches="tight")
+    plt.close()
+
+
+def plot_connectivity(list_of_nodes: list,
+                      intervals: int = 250,
+                      plot_type: str = 'points',
+                      return_vals: bool = False,
+                      log_scale: bool = None,
+                      fileout: str = None):
     """
     Parameters
     ==========
     list_of_nodes: list of lists, with names of genes included as 1st entry of the list
+    intervals: number of intervals to use in aggregating the connectivity results
+    plot_type: type of plot to use
+    return_vals: whether to return the values of the plot generated
+    log_scale: type of plot to do (semi-log, log-log, etc...)
+    fileout: name of the file
     """
     
     if isinstance(list_of_nodes[0], list):
         print("List of motifs is in the correct format")
         edges = np.array(list_of_nodes).T[1].astype(np.uint16)
-   
-    #print(edges)
+    else:
+        raise ValueError
 
     fig, ax = plt.subplots(figsize=(8,6))
-    #ax.set_xlim((10, 60000))
-    #ax.set_ylim((10, 10000))
+
     if plot_type == 'hist':
-        y,x,_ = plt.hist(edges, bins=intervals)
-        if log_scale=='xlog':
+        y, x, _ = plt.hist(edges, bins=intervals)
+        if log_scale == 'xlog':
             ax.set(xscale='log')
-        elif log_scale== 'ylog':
+        elif log_scale == 'ylog':
             ax.set(yscale='log')
         elif log_scale == 'both':
             ax.set(xscale='log', yscale='log')
@@ -135,32 +190,31 @@ def plot_connectivity(list_of_nodes, intervals=250, plot_type='points', return_v
     else:
         hist_vals = np.histogram(edges, bins=intervals)
         y, x = hist_vals[0], hist_vals[1]
-        mid = np.array([(a + b) /2 for a,b in zip(x[:-1], x[1:])])
+        mid = np.array([(a + b) /2 for a, b in zip(x[:-1], x[1:])])
 
         if log_scale == 'both':
-            mid = mid[y!=0]
-            y = y[y!=0]
-        print(len(mid[mid<1550]))
-        col_plot =  ['#B5B4B4']*len(mid[mid<1450]) +['#212D87']*(len(mid[mid>1450])) 
-        # col_plot = ['#B5B4B4']*21+['#212D87']*(len(mid)-21)
+            mid = mid[y != 0]
+            y = y[y != 0]
+
+        col_plot = ['#B5B4B4']*len(mid[mid<1450]) +['#212D87']*(len(mid[mid>1450]))
         plt.scatter(x=mid, y=y, color=col_plot, s=50)
-        for axis in ['top','bottom','left','right']:
+        for axis in ['top', 'bottom', 'left', 'right']:
             ax.spines[axis].set_linewidth(2)
         ax.xaxis.set_tick_params(width=2, length=6)
         ax.yaxis.set_tick_params(width=2, length=6)
         plt.xlabel("Connectivity", size=26)
         plt.ylabel("Number of genes", size=26)
-        if log_scale=='xlog':
+        if log_scale == 'xlog':
             ax.set(xscale='log')
-        elif log_scale== 'ylog':
+        elif log_scale == 'ylog':
             ax.set(yscale='log')
         elif log_scale == 'both':
             ax.set(xscale='log', yscale='log')
         ax.tick_params(axis='both', labelsize=18)
         plt.tight_layout()
         if fileout:
-           plt.savefig("{}.pdf".format(fileout))
-           plt.close()
+            plt.savefig("{}.pdf".format(fileout))
+        plt.close()
     if return_vals:
         return mid, y
 
@@ -236,7 +290,6 @@ def show_first_significant_pathways(df_to_show_early: pd.DataFrame,
     # compute max and min pval to show value scale
     vmin = -np.log10(df_to_show_early.values.max() + 1e-20)
     vmax = -np.log10(df_to_show_early.values.min() + 1e-20)
-    # my_cmap = ListedColormap(sns.color_palette("Reds").as_hex())
 
     f, axs = plt.subplots(nrows=2,
                           ncols=2,
@@ -1084,7 +1137,6 @@ def plot_DEgenes_overlap(overlap_df: pd.DataFrame, save_to_dir: str = '.'):
     axins.xaxis.set_ticks_position('bottom')
     cbar.ax.tick_params(labelsize=13)
     cbar.set_label('DE genes found [%]', size=22, rotation=90, labelpad=8)
-    f.text(0.20, 0.95,
-           'Overlap between disregulated KEGG pathways [our method]\n\t\tand DE genes [$\it{Mathys\ et\ al.\ 2019}$]',
-           size=20)
+    f.text(0.20, 0.95, "Overlap between disregulated KEGG pathways [our method]"
+                       "\n\t\tand DE genes [$\it{Mathys\ et\ al.\ 2019}$]", size=20)
     plt.savefig(f'{save_to_dir}/DE_genes_mapped_KEGG.pdf', bbox_inches='tight')

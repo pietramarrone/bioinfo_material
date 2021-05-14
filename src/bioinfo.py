@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from collections import Counter, OrderedDict
 import os
 import sys
 import itertools
@@ -529,6 +530,122 @@ def jaccard_similarity_of_pathways(all_paths: list,
             continue
 
     return df_keggs
+
+
+def iter_sampling(dict_of_rnareads: dict,
+                  dict_of_samples: dict,
+                  list_of_regions: list,
+                  regions_type=None,
+                  num_of_iter=None,
+                  sample_dim=None,
+                  compare_regions: bool = False,
+                  subset_regions: bool = False,
+                  debug: bool = False):
+    """
+    Iterative sampling of a list of genes to create a null model to be compared to the empirical value.
+    This is pretty old, needs to be completely replaced
+    """
+    list_of_rand_genes = []
+
+    np.random.seed()
+    for i in range(num_of_iter):
+        if i > 0 and i % 100 == 0:
+            print(f"{i} random samples created")
+        list_of_rand_genes.append(
+            [dict_of_rnareads.keys()[j] for j in np.random.sample(range(len(dict_of_rnareads.keys())), sample_dim)])
+
+    list_of_meanvals = []
+
+    if regions_type is None:
+        print("Insert a list of region types to perform the differential value")
+        sys.exit(0)
+    elif isinstance(regions_type, list):
+        if len(regions_type) == 1:
+            print(f"Just one cell_type provided: {regions_type[0]}")
+            print("Differential expression computed between different regions within this cell_type")
+
+        print(f"Region types under consideration: {', '.join(regions_type)}")
+
+    if compare_regions:
+        print("Compute differential expression between regions of a specific cell_type")
+        list1 = list_of_regions[0]
+        print(f'First list for comparison: {list1}')
+        list2 = list_of_regions[1]
+        print(f'Second list for comparison: {list2}')
+
+    if isinstance(list_of_regions, list):
+        print(f"Regions selected: {', '.join(list_of_regions)}")
+    elif list_of_regions is None:
+        print("Using all the samples of the dataset")
+        list_of_regions = Counter([x[0] for x in dict_of_samples.values()]).keys()
+        print(f"Regions found in the dataset are: {', '.join(list_of_regions)}")
+        if 'BA8' in list_of_regions:
+            print("Removing non-Braak region BA8")
+            list_of_regions.remove('BA8')
+
+    list_of_regions_idx1 = []
+    list_of_regions_idx2 = []
+
+    if compare_regions:
+
+        if subset_regions:
+            for idx, _ in enumerate(dict_of_samples):
+                if regions_type[0] in dict_of_samples.values()[idx][1].lower():
+                    if dict_of_samples.values()[idx][0] in list1:
+                        if debug:
+                            print(f"Macro regions of sample {dict_of_samples.values()[idx][0]} "
+                                  f"and neuron type {dict_of_samples.values()[idx][1]}")
+                        list_of_regions_idx1.append(idx)
+                elif regions_type[1] in dict_of_samples.values()[idx][1].lower():
+                    if dict_of_samples.values()[idx][0] in list2:
+                        if debug:
+                            print(f"Macro regions of sample {dict_of_samples.values()[idx][0]} "
+                                  f"and neuron type {dict_of_samples.values()[idx][1]}")
+                        list_of_regions_idx2.append(idx)
+        else:
+            for idx, _ in enumerate(dict_of_samples):
+                if regions_type[0] in dict_of_samples.values()[idx][1].lower():
+                    if dict_of_samples.values()[idx][0] in list1:
+                        if debug:
+                            print(f"Macro regions of sample {dict_of_samples.values()[idx][0]} "
+                                  f"and neuron type {dict_of_samples.values()[idx][1]}")
+                        list_of_regions_idx1.append(idx)
+                    elif dict_of_samples.values()[idx][0] in list2:
+                        if debug:
+                            print(f"Macro regions of sample {dict_of_samples.values()[idx][0]}"
+                                  f" and neuron type {dict_of_samples.values()[idx][1]}")
+                        list_of_regions_idx2.append(idx)
+
+    else:
+        for idx, _ in enumerate(dict_of_samples):
+            if dict_of_samples.values()[idx][0] in list_of_regions:
+                if regions_type[0] in dict_of_samples.values()[idx][1].lower():
+                    if debug:
+                        print(f"Macro regions of sample {dict_of_samples.values()[idx][0]} "
+                              f"and neuron type {dict_of_samples.values()[idx][1]}")
+                    list_of_regions_idx1.append(idx)
+                elif regions_type[1] in dict_of_samples.values()[idx][1].lower():
+                    if debug:
+                        print(f"Macro regions of sample {dict_of_samples.values()[idx][0]} "
+                              f"and neuron type {dict_of_samples.values()[idx][1]}")
+                    list_of_regions_idx2.append(idx)
+
+    for idx_list, i_list in enumerate(list_of_rand_genes):
+        if idx_list > 0 and idx_list % 100 == 0:
+            print(f"Parsing list num {idx_list}")
+        list_regtype1 = []
+        list_regtype2 = []
+        num_genes_inlist = 0
+        for gene in i_list:
+            num_genes_inlist += 1
+            for idx in list_of_regions_idx1:
+                list_regtype1.append(dict_of_rnareads[gene][idx])
+            for idx in list_of_regions_idx2:
+                list_regtype2.append(dict_of_rnareads[gene][idx])
+
+        list_of_meanvals.append(np.mean(list_regtype1) - np.mean(list_regtype2))
+
+    return list_of_meanvals
 
 
 def cluster_pathways(df_paths: pd.DataFrame,
@@ -1172,3 +1289,5 @@ def run_pathifier(data: andata.AnnData,
         return fin_df, loadings_dict, pcurve.dilution
     else:
         return fin_df, loadings_dict
+
+
