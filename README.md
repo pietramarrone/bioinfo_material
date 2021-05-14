@@ -1,6 +1,11 @@
 # Bioinfo_material
 
+**disclaimer**: this is a general repository with some unspecific structure. It represents a work in progress!
+
 This repository contains a collection of bioinformatics functions used to analyse bulk/single-cell transcriptomics data. <br>
+Some of the scripts require `rpy2 v.2.9.4` - [found here](https://rpy2.github.io) - to run. <br>
+The `default_env.yml` contains all the libraries needed to create the environment.
+
 The `src` folder contains all the relevant scripts/functions where;
 - `network` contains network analysis methods to study co-expression networks (_motifs detection_, _clustering coefficient_, etc...)
 * `bioinfo` contains general methods for differential expression, pathway enrichment analysis, and other methods
@@ -12,3 +17,11 @@ The `src` folder contains all the relevant scripts/functions where;
       &nbsp;&nbsp; - see `my_PCA.select_components_above_background` for reference. <br>
       &nbsp;&nbsp; - an example of the pipeline is given in the module `pathifier_example_structure.py`
       
+
+The `example` directory contains some output files generated with the scripts contained in this repository. <br>
+
+The `repos` directory contains some repository with standard bioinformatic annotation databases (**disclaimer!** they are pretty outdated)
+* recommend using [goatools](https://github.com/tanghaibao/goatools) in combination with some of the most useful python libraries for bioinformatics listed below:
+    * [anndata](https://anndata.readthedocs.io/en/latest/anndata.AnnData.html)
+    * [scanpy](https://scanpy.readthedocs.io/en/stable/)
+    * [biopython](https://biopython.org)
