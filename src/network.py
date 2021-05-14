@@ -8,16 +8,16 @@ from operator import itemgetter
 from typing import List
 
 
-def binarize(W, copy=True):
+def binarize(weighted_mat, copy_: bool = True):
     '''
     Binarizes an input weighted connection matrix.  If copy is not set, this
     function will *modify W in place.*
 
     Parameters
     ----------
-    W : NxN np.ndarray
+    weighted_mat : NxN np.ndarray
         weighted connectivity matrix
-    copy : bool
+    copy_ : bool
         if True, returns a copy of the matrix. Otherwise, modifies the matrix
         in place. Default value=True.
 
@@ -26,22 +26,22 @@ def binarize(W, copy=True):
     W : NxN np.ndarray
         binary connectivity matrix
     '''
-    if copy:
-        W = W.copy()
-    W[W != 0] = 1
-    return W
+    if copy_:
+        weighted_mat = weighted_mat.copy()
+    weighted_mat[weighted_mat != 0] = 1
+    return weighted_mat
 
 
 def cuberoot(x):
-    '''
+    """
     Correctly handle the cube root for negative weights, instead of uselessly
     crashing as in python or returning the wrong root as in matlab
-    '''
+    """
     return np.sign(x) * np.abs(x)**(1 / 3)
 
 
 def degrees_und(CIJ):
-    '''
+    """
     Node degree is the number of links connected to the node.
 
     Parameters
@@ -57,7 +57,7 @@ def degrees_und(CIJ):
     Notes
     -----
     Weight information is discarded.
-    '''
+    '"""
     CIJ = binarize(CIJ, copy=True)  # ensure CIJ is binary
     return np.sum(CIJ, axis=0)
 
@@ -79,7 +79,7 @@ def strengths_und(CIJ):
     return np.sum(CIJ, axis=0)
 
 
-def clustering_coef_wu(W):
+def clustering_coef_wu(weighted_mat):
     '''
     The weighted clustering coefficient is the average "intensity" of
     triangles around a node.
@@ -94,8 +94,8 @@ def clustering_coef_wu(W):
     C : Nx1 np.ndarray
         clustering coefficient vector
     '''
-    K = np.array(np.sum(np.logical_not(W == 0), axis=1), dtype=float)
-    ws = cuberoot(W)
+    K = np.array(np.sum(np.logical_not(weighted_mat == 0), axis=1), dtype=float)
+    ws = cuberoot(weighted_mat)
     cyc3 = np.diag(np.dot(ws, np.dot(ws, ws)))
     K[np.where(cyc3 == 0)] = np.inf  # if no 3-cycles exist, set C=0
     C = cyc3 / (K * (K - 1))
@@ -103,7 +103,7 @@ def clustering_coef_wu(W):
 
 
 def betweenness_wei(G):
-    '''
+    """
     Node betweenness centrality is the fraction of all shortest paths in
     the network that contain a given node. Nodes with high values of
     betweenness centrality participate in a large number of shortest paths.
@@ -127,7 +127,7 @@ def betweenness_wei(G):
         consequently be some inverse of the connectivity matrix.
        Betweenness centrality may be normalised to the range [0,1] as
         BC/[(N-1)(N-2)], where N is the number of nodes in the network.
-    '''
+    """
     n = len(G)
     BC = np.zeros((n,))  # vertex betweenness
 
@@ -178,7 +178,7 @@ def betweenness_wei(G):
 
 
 def eigenvector_centrality_und(CIJ):
-    '''
+    """
     Eigenector centrality is a self-referential measure of centrality:
     nodes have high eigenvector centrality if they connect to other nodes
     that have high eigenvector centrality. The eigenvector centrality of
@@ -192,7 +192,7 @@ def eigenvector_centrality_und(CIJ):
 
     v : Nx1 np.ndarray
         eigenvector associated with the largest eigenvalue of the matrix
-    '''
+    """
     from scipy import linalg
 
     n = len(CIJ)
@@ -201,17 +201,17 @@ def eigenvector_centrality_und(CIJ):
     return np.abs(vecs[:, i])
 
 
-def get_triangles(mat):
+def get_triangles(mat: np.ndarray):
     """
     Parameters
     ----------
-    param: mat [adjacency matrix]
+    param mat [adjacency matrix]
     
     Returns:
     Number of triangles
     """
     aux2 = np.matmul(mat, mat)
-    aux3 = np.matmul(mat, aux2) ## MAT^3 is the path of length 3 from any node i to j
+    aux3 = np.matmul(mat, aux2)  # MAT^3 is the path of length 3 from any node i to j
     """
     The trace is the number of paths starting and finishing at the same node
     We divide by 3 to take into account the that each triangle is composed by 3 vertices
@@ -225,7 +225,11 @@ def get_triangles(mat):
     return int(trace//6)
 
 
-def get_motifs(mat: np.ndarray, genelist=None, totalgenes=None, fout=False, fol_name=None):
+def get_motifs(mat: np.ndarray,
+               genelist: list,
+               totalgenes: list,
+               fout: bool = False,
+               fol_name: str = None):
     """
     Parameters
     ----------
@@ -240,6 +244,7 @@ def get_motifs(mat: np.ndarray, genelist=None, totalgenes=None, fout=False, fol_
     """
     if fout:
         fol_name = fol_name+"/"
+        motifs = []
     else:
         motifs = []
     for gene in set(genelist).intersection(set(totalgenes)):
@@ -304,7 +309,6 @@ def motif_val(ar_idx: np.array,
     """
     Parameters
     ----------
-
     param ar_idx: array of indices containing the position of the motif within the co-expression matrix
     param mat_age: co-expression matrix of healthy aged individuals (can be any Mat really)
     param mat_load: co-expression matrix of late onset AD (can be any Mat really)

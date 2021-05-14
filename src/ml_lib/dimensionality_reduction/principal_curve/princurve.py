@@ -233,6 +233,9 @@ class PCurve(object):
             else:
                 self.pds = np.linalg.norm(self.projected_points - self.ref_centre, axis=1)
 
+        else:
+            raise NotImplementedError
+
     def separate_pds_by_condition(self, series: pd.Series, labels: list):
         self.pds_per_condition = pd.DataFrame.from_dict(dict(zip(labels,
                                                                  [self.pds[(series == lab).values] for lab in labels])),

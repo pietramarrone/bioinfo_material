@@ -35,7 +35,7 @@ from scipy.cluster.hierarchy import cophenet, cut_tree
 from scipy.spatial.distance import pdist
 
 
-
+### definition of some paths
 #super_dir = '/Users/a.possenti/OneDrive - University Of Cambridge/Python/Repositories'
 #repo_kg = os.path.join(super_dir, 'Kegg_Scraping')
 #repo_go = os.path.join(super_dir, 'GO_Scraping')
@@ -43,6 +43,14 @@ from scipy.spatial.distance import pdist
 #repo_reactome = os.path.join(super_dir, 'Reactome')
 #NCBI = os.path.join(super_dir, 'NCBI')
 #human_NCBI = os.path.join(NCBI, 'Homo Sapiens')
+
+super_dir = 'main_dir'
+repo_kg = os.path.join(super_dir, 'kegg_repo_folder')
+repo_go = os.path.join(super_dir, 'GO_repo')
+repo_taxid = os.path.join(super_dir, 'Tax_Ids_repo')
+repo_reactome = os.path.join(super_dir, 'Reactome_repo')
+NCBI = os.path.join(super_dir, 'NCBI_repo')
+human_NCBI = os.path.join(NCBI, 'Homo_Sapiens_repo')
 
 acceppted_KEGG_abb = ('hsa', 'mmu')
 
@@ -232,24 +240,19 @@ def get_keggs(path_or_file: str = 'Default', organism_abb: str = 'hsa', print_li
     fin.close()
 
     temp_p = None
-    # l1 = []
-    # l2 = []
+
     gene_map = dict()
     for idx, entry in enumerate(cont):
         if entry[0].startswith(organism_abb):
             if idx != 0:
                 kegg_p[temp_p].append(gene_map)
             temp_p = entry[0]
-            # l1 = []
-            # l2 = []
+
             gene_map = dict()
             kegg_p[temp_p] = [entry[1]]
         else:
             gene_map.update({entry[0]: entry[1]})
-            # l1.append(entry[0])
-            # l2.append(entry[1])
-    # kegg_p[temp_p].append(l1)
-    # kegg_p[temp_p].append(l2)
+
     kegg_p[temp_p].append(gene_map)
 
     if print_list:
@@ -485,17 +488,18 @@ def get_reactome_pathname_from_stableid(reactome_db: pd.DataFrame, stable_id: st
     return pathname
 
 
-def jaccard_similarity_of_pathways(all_paths: list, pathways_label: str):
+def jaccard_similarity_of_pathways(all_paths: list,
+                                   pathways_label: str):
     """
     Compute the Jaccard similarity between pathways
     Parameters
     ----------
     all_paths
-    pathways_label: either KEGG or Reactome
+    pathways_label: either KEGG or Reactome (or others in case)
 
     Returns
     -------
-
+    return a df containing the jaccard similarity between pathways
     """
 
     tmp_list = all_paths.copy()
@@ -528,12 +532,26 @@ def jaccard_similarity_of_pathways(all_paths: list, pathways_label: str):
             print(paths_loaded[k][0])
             continue
 
+    return df_keggs
+
 
 def cluster_pathways(df_paths: pd.DataFrame,
                      metric: str = 'centroid',
                      method: str = 'ward',
                      optimal_order: bool = True,
                      compute_cophenetic_correlation: bool = True, **kwargs):
+
+    """
+    Build the dendrogram, compute the cophenetic correlation
+
+    Parameters
+    ----------
+    df_paths: dataframe of pathways
+    metric: metric used for the dendrogram
+    method: linkage method used for the dendrogram
+    optimal_order: order the dendrogram to minimise distance between leaves
+    compute_cophenetic_correlation: compute the cophenetic coeff to benchmark the quality of the clustering
+    """
     df_paths = df_paths.astype(float)  # convert to correct dtype
     mat = (1 - df_paths)  # distance matrix
     dists = squareform(mat.values)  # square form for the distance matrix
@@ -582,7 +600,7 @@ def get_cluster_members(dendrogram, leaves_index: list):
 
     Returns
     -------
-
+    get indices and members of clusters dendrogram
     """
 
     clusters_members = dict()
@@ -598,14 +616,15 @@ def get_cluster_members(dendrogram, leaves_index: list):
 
 def get_clusters_proportions(dendrogram):
     """
-    Get the proportions of clusters
+    Get the proportions of clusters (hardcoded to accommodate the KEGG dendrogram - needs to be changed to be
+    generalised)
     Parameters
     ----------
     dendrogram: dendrogram of the clusters obtained
 
     Returns
     -------
-
+    proportions to be used for plotting, oredered columns
     """
 
     # this is an example for the KEGG pathways
@@ -673,6 +692,15 @@ def get_pathways_clusters_enrichment(clusters_membership: dict,
 def compute_correlation_across_clusters(results_dict: dict,
                                         paths_of_interest: dict,
                                         **kwargs):
+
+    """
+    Correlations across clusters of cell types
+
+    Parameters
+    ----------
+    results_dict: dictionary of results of correlations
+    paths_of_interest: pathways of interest
+    """
     df_columns = kwargs.get('col_names', ['KEGG pathway', 'clinical trait', 'correlation', 'inTWAS'])
 
     correlations_df = dict()
@@ -696,6 +724,19 @@ def get_median_correlation_to_phenotypes(results_dict: dict,
                                          sorted_pathways_df: pd.DataFrame,
                                          paths_of_interest: dict,
                                          **kwargs):
+    """
+    Measure the median correlation of the pathway within subclusters
+
+    Parameters
+    ----------
+    results_dict: dictionary of results containing the PDS scores
+    sorted_pathways_df: dataframe of pathways sorted to match results dict
+    paths_of_interest: pathways of interest to consider
+
+    Returns
+    -------
+    Df containing the median correlations to clinical readouts
+    """
     df_columns = kwargs.get('col_names', ['KEGG pathway', 'clinical trait', 'correlation', 'inTWAS'])
     full_median_corr_dfs = dict()
     median_corr_dfs = dict()
@@ -725,6 +766,21 @@ def compute_correlations_pvalues(full_median_corr_df: pd.DataFrame,
                                  col_label: str = 'inTWAS',
                                  correct_multitest: bool = True,
                                  alpha: float = 0.05):
+    """
+    Compute significance of correlation between deregulation values and clinical readouts
+
+    Parameters
+    ----------
+    full_median_corr_df: dataframe of correlations between PDS scores and clinical readouts
+    col_label: label identying if the pathway is of interest to our hypothesis or not (to separate them into 2 groups)
+    correct_multitest: if correct for multiple hypothesis testing (KEEP TRUE)
+    alpha: level of statistical significance
+
+    Returns
+    -------
+    dictionary of statistical significances of the correlations measured
+    """
+
     corr_pvals = dict()
     for c in full_median_corr_df:
         corr_pvals[c] = dict()
@@ -751,6 +807,18 @@ def compute_correlations_pvalues(full_median_corr_df: pd.DataFrame,
 
 
 def significant_paths_to_cluster(significance_dict: dict, alpha: float = 0.05):
+    """
+    Dataframe containing the significant pathways in the different clusters
+
+    Parameters
+    ----------
+    significance_dict: dictionary of significant pathways
+    alpha: alpha level
+
+    Returns
+    -------
+    df of significant pathways
+    """
 
     cols = ['Healthy vs Early-AD', 'Healthy vs Late-AD', 'Early-AD vs Late-AD (less)', 'Early-AD vs Late-AD (greater)']
     ordered_main_cells = ['Ex [cell type]', 'In [cell type]', 'Ast [cell type]',
@@ -772,8 +840,16 @@ def significant_paths_to_cluster(significance_dict: dict, alpha: float = 0.05):
     return sign_paths_to_cluster_df
 
 
-def map_gwas_to_pathways(sign_paths_to_cluster_df: pd.DataFrame,
+def show_gwas_to_pathways(sign_paths_to_cluster_df: pd.DataFrame,
                          gwas_in_paths: dict):
+    """
+    Map GWAS genes to the pathways in the Annotation
+
+    Parameters
+    ----------
+    sign_paths_to_cluster_df: Dataframe of significant pathways
+    gwas_in_paths: dictionary of gwas in pathways
+    """
     gwas_paths_df = pd.DataFrame(index=sign_paths_to_cluster_df.index,
                                  columns=sorted(set(itertools.chain(*list(gwas_in_paths.values())))),
                                  data=np.zeros((sign_paths_to_cluster_df.index.shape[0],
@@ -794,11 +870,28 @@ def check_pathway_family_enrichment_in_cluster(sign_paths_to_cluster_df: pd.Data
                                                cluster_membership: dict,
                                                correct_multitest: bool = True,
                                                **kwargs):
+    """
+    Check if the clusters are enriched in perturbed pathways
+
+    Parameters
+    ----------
+    sign_paths_to_cluster_df: DataFrame of significant pathways
+    cluster_membership: dictionary mapping pathways to clusters
+    correct_multitest: correct to multiple hypothesis (SHOULD BE ALWAYS KEPT TO TRUE).
+        One can correct with multiple options - default is Bonferroni
+
+    Returns
+    -------
+    2 DataFrames:
+        - Cluster fold-enrichment
+        - Cluster significance
+    """
     dfs_modules_to_paths_sign = dict()
     dfs_modules_to_paths_foldenr = dict()
 
     for ct in sign_paths_to_cluster_df.index:
-        print(ct)
+        if kwargs.get('debug', False):
+            print(ct)
         tmp_ct = ct.split(' ')[0]
         dfs_modules_to_paths_sign[tmp_ct] = pd.DataFrame(columns=sign_paths_to_cluster_df.columns,
                                                          index=list(cluster_membership.keys()))
@@ -837,6 +930,13 @@ def check_pathway_family_enrichment_in_cluster(sign_paths_to_cluster_df: pd.Data
 
 
 def compute_jaccard_similarity_of_perturbations(sign_paths_to_cluster_df: pd.DataFrame):
+    """
+    Compute the jaccard similarity between the pathway perturbations in the different conditions
+
+    Parameters
+    ----------
+    sign_paths_to_cluster_df: DataFrame containing the significant pathways and their cluster of reference
+    """
     dfs_jacc_pathways = dict()
     for cond in sign_paths_to_cluster_df.columns[:3]:
         print(cond)
@@ -866,11 +966,28 @@ def compute_jaccard_similarity_of_perturbations(sign_paths_to_cluster_df: pd.Dat
 
 
 def map_DEgenes_to_pathways(sign_paths_to_cluster_df: pd.DataFrame,
-                            mathys_dict: pd.DataFrame,
+                            mathys_dict: dict,
                             all_genes_in_pathways: list,
                             path_dict: dict,
                             clusters: list,
                             path_name_to_hsa_map: dict):
+    """
+    Map DE genes found in Mathys et al to the significant pathways identified by Pathifier
+
+    Parameters
+    ----------
+    sign_paths_to_cluster_df: dataframe containing the significant pathways
+    mathys_dict: dictionary of dataframes from Mathys Nature 2019
+    all_genes_in_pathways: all the genes contained in the Annotation pathways (KEGG or Reactome in our case)
+    path_dict: pathways dictionary
+    clusters: list of clusters generated
+    path_name_to_hsa_map: mapping between pathway names and homo sapiens (hsa) IDs
+
+    Returns
+    -------
+    DataFrame containing the overlap between the significant pathways and the DE genes
+    """
+
     overlap_df = pd.DataFrame(index=clusters, columns=['HC-vs-AD', 'HC-vs-Early_AD', 'Early-vs-Late_AD'])
 
     map_cond_mathys_to_me = {'HC-vs-AD': ['Healthy vs Early-AD', 'Healthy vs Late-AD'],
@@ -901,58 +1018,118 @@ def map_DEgenes_to_pathways(sign_paths_to_cluster_df: pd.DataFrame,
     return overlap_df
 
 
-def run_pathifier(data, cell_anno, id_anno, clinical_anno, gene_list, path_name, stat_test: str,
-                  pcs=4, destination_folder=None, test_robustness: bool = False, **kwargs):
+def run_pathifier(data: andata.AnnData,
+                  cell_anno: pd.DataFrame,
+                  id_anno: pd.DataFrame,
+                  clinical_anno: pd.DataFrame,
+                  gene_list: list,
+                  path_name: str,
+                  stat_test: str,
+                  pcs: int = 4,
+                  destination_folder: str = None,
+                  test_robustness: bool = True,
+                  **kwargs):
     """
-    gene_list is the old kegg_p[kgg][1].values()
-    path_name is kegg_p[kgg][0]
-    kegg_p, kgg removed from the function vars
+    This is the main function to launch the pathifier, this can come in 2 flavours:
+        - Pathifier (arc-length distance)
+        - Pathtracer (euclidean distance)
+    with the euclidean distance showed to be more robust to complex data structures
+    Parameters
+    ----------
+    data: matrix of data
+    cell_anno: cell annotation dataframe to identify the cell types (or sample types in general)
+    id_anno: dataframe mapping cell_id to individual ID
+    clinical_anno: dataframe containing the annotation of the individual and their clinical observations
+    gene_list: list of genes of interest (can be a biochemical pathway or a custom list).
+               It is the old kegg_p[kgg][1].values()
+    path_name: name of the biochemical pathway of interest to test. It is the old kegg_p[kgg][0]
+    stat_test: statistical test to perform on the results [Mann-Whitney U is the default]
+    pcs: number of principal components to use (it's an approximation of the lower bound
+    destination_folder: folder to be used as destination for the results
+    test_robustness: can be set to False if the robustness to dilution is not of interest (slows down the process)
+
+    Returns
+    -------
+    A dataframe with the results for the pathways tested, the loadings of the genes and [Optional] the robustness
+    to data dilution
     """
     show_means_in_bplot = False
+    constant_threshold = False
     loadings_dict = dict()
 
     pathology_label = 'pathology_state'
 
-    # print(f"\t==> Processing: {path_name}")
-    # ovlap = set(data.var.index.tolist()).intersection(kegg_p[kgg][1].values())
+    if kwargs.get('debug', False):
+        print(f"\t==> Processing: {path_name}")
+    # check overlap between data and gene list
     ovlap = set(data.var.index.tolist()).intersection(gene_list)
 
     if len(ovlap) < 4:
         return None, None
     # retrieve genes of the pathways in the transcriptome
     genes_in, tmp_data = my_pars.find_overlap_in_dataset(data_in=data,
-                                                        list_1=data.var.index,
-                                                        list_2=gene_list)
+                                                         list_1=data.var.index,
+                                                         list_2=gene_list)
     # exclude samples with all zeroes and genes non expressed
     samples_in, tmp_data = my_pars.exclude_non_variable_features(data_in=tmp_data)
     # generate annotation data
-    tmp_df = pd.DataFrame(data=tmp_data, index=data.obs.index[samples_in], columns=data.var.index[genes_in])
-    path_adata = andat.AnnData(X=tmp_df, obs=data.obs.loc[samples_in, :])
+    tmp_df = pd.DataFrame(data=tmp_data,
+                          index=data.obs.index[samples_in],
+                          columns=data.var.index[genes_in])
+    path_adata = andat.AnnData(X=tmp_df,
+                               obs=data.obs.loc[samples_in, :])
 
     # select the number of principal components to run the PCA
-    comps_to_use = my_PCA.select_number_of_components(data_in=path_adata, comps=50)
-    scanpy.pp.pca(path_adata, n_comps=comps_to_use, svd_solver='arpack', return_info=False)
+    comps_to_use = my_PCA.select_number_of_components(data_in=path_adata,
+                                                      comps=50)
+    scanpy.pp.pca(path_adata,
+                  n_comps=comps_to_use,
+                  svd_solver='arpack',
+                  return_info=False)
 
-    dims, tot_var = my_princ.get_total_variance_from_dimensions(var_in=path_adata.uns['pca']['variance_ratio'],
-                                                                pathway=path_name, minimun_dim=pcs)
+    if constant_threshold:
+        # up to amount of explained variance
+        dims, tot_var = my_princ.get_total_variance_from_dimensions(var_in=path_adata.uns['pca']['variance_ratio'],
+                                                                    pathway=path_name,
+                                                                    minimun_dim=pcs)
+    else:
+        # slower but more robust - picks number of pcs based on background level
+        dims, tot_var = my_PCA.select_components_above_background(expression_values=tmp_df.values,
+                                                                  n_permutations=100,
+                                                                  path_name=path_name)
+    # Stack PCs to be used inside Pathifier
     pds_data = np.vstack(([path_adata.obsm['X_pca'][:, i]
                            for i in range(dims)])).T
 
-    pcurve = my_princ.PCurve(x=pds_data, start=None, scale=False, stat_test=stat_test, plot_iter=False)
+    # generate Principal Curve class
+    pcurve = my_princ.PCurve(x=pds_data,
+                             start=None,
+                             scale=False,
+                             stat_test=stat_test,
+                             plot_iter=False)
+
+    # Convert numpy array to r datatable
     pcurve.convert_npar_to_r()
+
+    # Success status
     succeeded = pcurve.get_r_pcurve()
 
+    # Return None if fails
     if not succeeded:
         return None, None
 
+    # Get the center for the reference label of reference 'no_AD' in our case
     pcurve.get_centre_of_reference(series=path_adata.obs[pathology_label],
                                    ref_label='no_AD')
 
+    # Compute pathway deregulation score using a specific flavour
     pcurve.compute_pds(method='pathtracer')
 
+    # separate the deregulation scores by conditions
     pcurve.separate_pds_by_condition(series=path_adata.obs[pathology_label],
                                      labels=['no_AD', 'early_AD', 'late_AD'])
 
+    # compute statistical significance + flag to state whether the separation was successful
     pvals, separation_works = pcurve.pds_statistical_test(conditions=['no_AD', 'early_AD', 'late_AD'],
                                                           col_name=path_name, equal_var=False,
                                                           save_dist=True, alpha=0.05, show_means=False,
@@ -962,12 +1139,15 @@ def run_pathifier(data, cell_anno, id_anno, clinical_anno, gene_list, path_name,
         # get loadings to measure genes contribution to the PCs
         df_loadings = pd.DataFrame(path_adata.varm['PCs'][:, :dims], index=path_adata.var_names,
                                    columns=['PC_{}'.format(i) for i in range(1, dims + 1)])
+
+        # rank the loadings
         df_rankings = pd.DataFrame((-1 * df_loadings.abs()).values.argsort(0).argsort(0),
                                    index=df_loadings.index, columns=df_loadings.columns)
 
         df_overall_ranking = pd.DataFrame((df_loadings.abs() *
                                            path_adata.uns['pca']['variance_ratio'][:dims]).sum(axis=1).sort_values(
             ascending=False))
+
         df_overall_ranking.columns = ['Gene_weight']
         loadings_dict = {'loadings': df_loadings,
                          'rankings': df_rankings,
@@ -975,6 +1155,7 @@ def run_pathifier(data, cell_anno, id_anno, clinical_anno, gene_list, path_name,
                          'overall_ranking': df_overall_ranking}
         del df_loadings, df_rankings, df_overall_ranking
 
+    # correlate the PDS with the pathological conditions
     corr_df = pcurve.pds_correlation_report(adata=path_adata, cell_data=cell_anno, id_data=id_anno,
                                             clinical_data=clinical_anno, corr_method='spearman',
                                             traits=['amyloid', 'plaq_n', 'nft', 'tangles',
@@ -987,6 +1168,8 @@ def run_pathifier(data, cell_anno, id_anno, clinical_anno, gene_list, path_name,
     var_per_cond = pcurve.get_pds_variance_per_condition(col_name=path_name)
     mean_per_cond = pcurve.get_pds_mean_per_condition(col_name=path_name)
     fin_df = pd.concat([tot_var, mean_per_cond, var_per_cond, pvals, corr_df])
+
+    # if wanna test robustness to data dilution
     if test_robustness:
         pcurve.test_dilution_of_the_data(series=path_adata.obs[pathology_label],
                                          ref_label='no_AD', number_of_tests=100)
