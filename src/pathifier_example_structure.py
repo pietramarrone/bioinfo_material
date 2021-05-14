@@ -62,7 +62,7 @@ main_clusters = ['Ex', 'In', 'Ast', 'Oli', 'Opc', 'Mic']
 
 clusters_and_subc = dict(zip(main_clusters, ['Ex_0', 'In_1', 'Ast_2', 'Oli_0', 'Opc_1', 'Mic_0']))
 
-pca_clusters = {'Ex_0': pd.DataFrame}
+pca_clusters = {'Ex_0': pd.DataFrame()}
 
 # these are the metadata, cell ids mapping, and clinical traits excel files taken from Hansruedi et al Nature 2019
 md_filtered, id_map, clin_traits = pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
