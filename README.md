@@ -16,7 +16,11 @@ The `src` folder contains all the relevant scripts/functions where:
       Also, this is a modified version of both: the optimal number of PCs to use for the _Principal Curve_ computation is given by a permutation test on the components: <br /> 
       &nbsp;&nbsp; - see `my_PCA.select_components_above_background` for reference. <br>
       &nbsp;&nbsp; - an example of the pipeline is given in the module `pathifier_example_structure.py`. <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;This is specific to a dataset, but can be generalised - planning to do so with time.
+      &nbsp;&nbsp;&nbsp;&nbsp;This is specific to a dataset, but can be generalised - planning to do so with time. <br>
+      <div style="width:500px">
+      
+      ![](./example_files/chapter3/pathifier_workflow.png)
+      </div>
       
 * `data_viz` contains custom visualization tools to attach heatmaps to dendgrograms, explore pathway enrichment, UMAP plots
 * `statistics` contains standard statistical tests, both for stats and ML, together with fitting functions, etc...
