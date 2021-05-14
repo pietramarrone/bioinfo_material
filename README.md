@@ -1,4 +1,4 @@
-# Bioinfo_material
+# Bioinformatics personal repository
 
 **disclaimer**: this is a general repository with some unspecific structure. It represents a work in progress!
 
