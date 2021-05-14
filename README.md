@@ -6,11 +6,11 @@ This repository contains a collection of bioinformatics functions used to analys
 Some of the scripts require `rpy2 v.2.9.4` - [found here](https://rpy2.github.io) - to run. <br>
 The `default_env.yml` contains all the libraries needed to create the environment.
 
-The `src` folder contains all the relevant scripts/functions where;
+The `src` folder contains all the relevant scripts/functions where:
 - `network` contains network analysis methods to study co-expression networks (_motifs detection_, _clustering coefficient_, etc...)
 * `bioinfo` contains general methods for differential expression, pathway enrichment analysis, and other methods
     - `run_pathifier` function is a Python implementation of the _Pathifier_ ([download here](http://www.bioconductor.org/packages/release/bioc/html/pathifier.html))
-      method developed by [Drier et al.](https://www.pnas.org/content/110/16/6388) <br>
+      method developed by [Drier et al.](https://www.pnas.org/content/110/16/6388).
       This method allows to compress gene-based info into pathway-based info. <br />
       This implementation allows to choose between the original method and the [_PathTracer_](https://www.nature.com/articles/s41598-019-52529-3) method. <br>
       Also, this is a modified version of both: the optimal number of PCs to use for the _Principal Curve_ computation is given by a permutation test on the components: <br /> 
